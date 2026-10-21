@@ -1,0 +1,226 @@
+
+
+================================================================
+== Vitis HLS Report for 'cifrador_serial'
+================================================================
+* Date:           Wed Apr 15 19:03:26 2026
+
+* Version:        2025.2 (Build 6295257 on Nov 14 2025)
+* Project:        cifrado_serial
+* Solution:       hls (Vivado IP Flow Target)
+* Product family: zynq
+* Target device:  xc7z020-clg400-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  |  10.00 ns|  3.652 ns|     2.70 ns|
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-----+-----+------------------------------------------------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval |                    Pipeline                    |
+    |   min   |   max   |    min   |    max   | min | max |                      Type                      |
+    +---------+---------+----------+----------+-----+-----+------------------------------------------------+
+    |      280|      280|  2.800 us|  2.800 us|  279|  279|  loop auto-rewind stp (delay=0 clock cycles(s))|
+    +---------+---------+----------+----------+-----+-----+------------------------------------------------+
+
+    + Detail: 
+        * Instance: 
+        +-----------------+-------+---------+---------+----------+----------+-----+-----+---------+
+        |                 |       |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline|
+        |     Instance    | Module|   min   |   max   |    min   |    max   | min | max |   Type  |
+        +-----------------+-------+---------+---------+----------+----------+-----+-----+---------+
+        |grp_sbox_fu_184  |sbox   |        0|        0|      0 ns|      0 ns|    1|    1|      yes|
+        +-----------------+-------+---------+---------+----------+----------+-----+-----+---------+
+
+        * Loop: 
+        +--------------------+---------+---------+----------+-----------+-----------+------+----------+
+        |                    |  Latency (cycles) | Iteration|  Initiation Interval  | Trip |          |
+        |      Loop Name     |   min   |   max   |  Latency |  achieved |   target  | Count| Pipelined|
+        +--------------------+---------+---------+----------+-----------+-----------+------+----------+
+        |- VITIS_LOOP_120_1  |      278|      278|         9|          9|          1|    31|       yes|
+        +--------------------+---------+---------+----------+-----------+-----------+------+----------+
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+-----+--------+-------+-----+
+|       Name      | BRAM_18K| DSP |   FF   |  LUT  | URAM|
++-----------------+---------+-----+--------+-------+-----+
+|DSP              |        -|    -|       -|      -|    -|
+|Expression       |        -|    -|       0|    154|    -|
+|FIFO             |        -|    -|       -|      -|    -|
+|Instance         |        0|    -|     176|    361|    -|
+|Memory           |        -|    -|       -|      -|    -|
+|Multiplexer      |        -|    -|       0|    151|    -|
+|Register         |        -|    -|     291|      -|    -|
++-----------------+---------+-----+--------+-------+-----+
+|Total            |        0|    0|     467|    666|    0|
++-----------------+---------+-----+--------+-------+-----+
+|Available        |      280|  220|  106400|  53200|    0|
++-----------------+---------+-----+--------+-------+-----+
+|Utilization (%)  |        0|    0|      ~0|      1|    0|
++-----------------+---------+-----+--------+-------+-----+
+
++ Detail: 
+    * Instance: 
+    +-----------------+---------------+---------+----+-----+-----+-----+
+    |     Instance    |     Module    | BRAM_18K| DSP|  FF | LUT | URAM|
+    +-----------------+---------------+---------+----+-----+-----+-----+
+    |control_s_axi_U  |control_s_axi  |        0|   0|  176|  296|    0|
+    |grp_sbox_fu_184  |sbox           |        0|   0|    0|   65|    0|
+    +-----------------+---------------+---------+----+-----+-----+-----+
+    |Total            |               |        0|   0|  176|  361|    0|
+    +-----------------+---------------+---------+----+-----+-----+-----+
+
+    * DSP: 
+    N/A
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    +------------------------+----------+----+---+----+------------+------------+
+    |      Variable Name     | Operation| DSP| FF| LUT| Bitwidth P0| Bitwidth P1|
+    +------------------------+----------+----+---+----+------------+------------+
+    |add_ln120_fu_606_p2     |         +|   0|  0|  13|           5|           1|
+    |icmp_ln120_fu_612_p2    |      icmp|   0|  0|  13|           5|           3|
+    |ap_return               |       xor|   0|  0|  32|          32|          32|
+    |key_5_fu_536_p2         |       xor|   0|  0|  64|          64|          64|
+    |sub_block_10_fu_429_p2  |       xor|   0|  0|   4|           4|           4|
+    |sub_block_13_fu_442_p2  |       xor|   0|  0|   4|           4|           4|
+    |sub_block_16_fu_455_p2  |       xor|   0|  0|   4|           4|           4|
+    |sub_block_19_fu_468_p2  |       xor|   0|  0|   4|           4|           4|
+    |sub_block_22_fu_481_p2  |       xor|   0|  0|   4|           4|           4|
+    |sub_block_4_fu_403_p2   |       xor|   0|  0|   4|           4|           4|
+    |sub_block_7_fu_416_p2   |       xor|   0|  0|   4|           4|           4|
+    |sub_block_fu_389_p2     |       xor|   0|  0|   4|           4|           4|
+    +------------------------+----------+----+---+----+------------+------------+
+    |Total                   |          |   0|  0| 154|         138|         132|
+    +------------------------+----------+----+---+----+------------+------------+
+
+    * Multiplexer: 
+    +------------------------+----+-----------+-----+-----------+
+    |          Name          | LUT| Input Size| Bits| Total Bits|
+    +------------------------+----+-----------+-----+-----------+
+    |ap_NS_fsm               |  53|         10|    1|         10|
+    |ap_done_int             |   9|          2|    1|          2|
+    |ap_sig_allocacmp_key_4  |   9|          2|   64|        128|
+    |grp_sbox_fu_184_in_r    |  53|         10|    4|         40|
+    |key_1_fu_168            |   9|          2|   64|        128|
+    |round_fu_164            |   9|          2|    5|         10|
+    |state_fu_160            |   9|          2|   32|         64|
+    +------------------------+----+-----------+-----+-----------+
+    |Total                   | 151|         30|  171|        382|
+    +------------------------+----+-----------+-----+-----------+
+
+    * Register: 
+    +----------------------+----+----+-----+-----------+
+    |         Name         | FF | LUT| Bits| Const Bits|
+    +----------------------+----+----+-----+-----------+
+    |ap_CS_fsm             |   9|   0|    9|          0|
+    |ap_done_reg           |   1|   0|    1|          0|
+    |key_1_fu_168          |  64|   0|   64|          0|
+    |ref_tmp1_i_reg_193    |   4|   0|    4|          0|
+    |round_fu_164          |   5|   0|    5|          0|
+    |round_key_1_reg_675   |   4|   0|    4|          0|
+    |round_key_2_reg_680   |   4|   0|    4|          0|
+    |round_key_3_reg_685   |   4|   0|    4|          0|
+    |round_key_4_reg_690   |   4|   0|    4|          0|
+    |round_key_5_reg_695   |   4|   0|    4|          0|
+    |round_key_6_reg_700   |   4|   0|    4|          0|
+    |round_key_7_reg_705   |   4|   0|    4|          0|
+    |round_key_8_reg_710   |   4|   0|    4|          0|
+    |state_fu_160          |  32|   0|   32|          0|
+    |sub_block_10_reg_725  |   4|   0|    4|          0|
+    |sub_block_13_reg_730  |   4|   0|    4|          0|
+    |sub_block_16_reg_735  |   4|   0|    4|          0|
+    |sub_block_19_reg_740  |   4|   0|    4|          0|
+    |sub_block_22_reg_745  |   4|   0|    4|          0|
+    |sub_block_25_reg_197  |   4|   0|    4|          0|
+    |sub_block_27_reg_201  |   4|   0|    4|          0|
+    |sub_block_29_reg_205  |   4|   0|    4|          0|
+    |sub_block_31_reg_209  |   4|   0|    4|          0|
+    |sub_block_33_reg_213  |   4|   0|    4|          0|
+    |sub_block_35_reg_217  |   4|   0|    4|          0|
+    |sub_block_37_reg_221  |   4|   0|    4|          0|
+    |sub_block_4_reg_715   |   4|   0|    4|          0|
+    |sub_block_7_reg_720   |   4|   0|    4|          0|
+    |tmp_10_reg_805        |   1|   0|    1|          0|
+    |tmp_11_reg_815        |   1|   0|    1|          0|
+    |tmp_12_reg_820        |   1|   0|    1|          0|
+    |tmp_13_reg_825        |   1|   0|    1|          0|
+    |tmp_14_reg_835        |   1|   0|    1|          0|
+    |tmp_15_reg_840        |   1|   0|    1|          0|
+    |tmp_16_reg_845        |   1|   0|    1|          0|
+    |tmp_17_reg_855        |   1|   0|    1|          0|
+    |tmp_18_reg_860        |   1|   0|    1|          0|
+    |tmp_19_reg_865        |   1|   0|    1|          0|
+    |tmp_20_reg_875        |   1|   0|    1|          0|
+    |tmp_21_reg_880        |   1|   0|    1|          0|
+    |tmp_22_reg_885        |   1|   0|    1|          0|
+    |tmp_2_reg_755         |   1|   0|    1|          0|
+    |tmp_3_reg_760         |   1|   0|    1|          0|
+    |tmp_4_reg_765         |   1|   0|    1|          0|
+    |tmp_5_reg_775         |   1|   0|    1|          0|
+    |tmp_6_reg_780         |   1|   0|    1|          0|
+    |tmp_7_reg_785         |   1|   0|    1|          0|
+    |tmp_8_reg_795         |   1|   0|    1|          0|
+    |tmp_9_reg_800         |   1|   0|    1|          0|
+    |tmp_s_reg_670         |  60|   0|   60|          0|
+    |trunc_ln31_1_reg_770  |   1|   0|    1|          0|
+    |trunc_ln31_2_reg_790  |   1|   0|    1|          0|
+    |trunc_ln31_3_reg_810  |   1|   0|    1|          0|
+    |trunc_ln31_4_reg_830  |   1|   0|    1|          0|
+    |trunc_ln31_5_reg_850  |   1|   0|    1|          0|
+    |trunc_ln31_6_reg_870  |   1|   0|    1|          0|
+    |trunc_ln31_reg_750    |   1|   0|    1|          0|
+    +----------------------+----+----+-----+-----------+
+    |Total                 | 291|   0|  291|          0|
+    +----------------------+----+----+-----+-----------+
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++-----------------------+-----+-----+------------+-----------------+--------------+
+|       RTL Ports       | Dir | Bits|  Protocol  |  Source Object  |    C Type    |
++-----------------------+-----+-----+------------+-----------------+--------------+
+|s_axi_control_AWVALID  |   in|    1|       s_axi|          control|        scalar|
+|s_axi_control_AWREADY  |  out|    1|       s_axi|          control|        scalar|
+|s_axi_control_AWADDR   |   in|    6|       s_axi|          control|        scalar|
+|s_axi_control_WVALID   |   in|    1|       s_axi|          control|        scalar|
+|s_axi_control_WREADY   |  out|    1|       s_axi|          control|        scalar|
+|s_axi_control_WDATA    |   in|   32|       s_axi|          control|        scalar|
+|s_axi_control_WSTRB    |   in|    4|       s_axi|          control|        scalar|
+|s_axi_control_ARVALID  |   in|    1|       s_axi|          control|        scalar|
+|s_axi_control_ARREADY  |  out|    1|       s_axi|          control|        scalar|
+|s_axi_control_ARADDR   |   in|    6|       s_axi|          control|        scalar|
+|s_axi_control_RVALID   |  out|    1|       s_axi|          control|        scalar|
+|s_axi_control_RREADY   |   in|    1|       s_axi|          control|        scalar|
+|s_axi_control_RDATA    |  out|   32|       s_axi|          control|        scalar|
+|s_axi_control_RRESP    |  out|    2|       s_axi|          control|        scalar|
+|s_axi_control_BVALID   |  out|    1|       s_axi|          control|        scalar|
+|s_axi_control_BREADY   |   in|    1|       s_axi|          control|        scalar|
+|s_axi_control_BRESP    |  out|    2|       s_axi|          control|        scalar|
+|ap_clk                 |   in|    1|  ap_ctrl_hs|  cifrador_serial|  return value|
+|ap_rst_n               |   in|    1|  ap_ctrl_hs|  cifrador_serial|  return value|
+|interrupt              |  out|    1|  ap_ctrl_hs|  cifrador_serial|  return value|
++-----------------------+-----+-----+------------+-----------------+--------------+
+

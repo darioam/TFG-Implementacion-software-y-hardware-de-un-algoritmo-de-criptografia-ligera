@@ -1,0 +1,3 @@
+relativeroot=C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial
+original_argv=-c --mode hls --config C:\Users\Dario\Documents\TFG\Vitis\CifradosSerializados\cifrado_serial\hls_config.cfg --work_dir cifrado_serial 
+

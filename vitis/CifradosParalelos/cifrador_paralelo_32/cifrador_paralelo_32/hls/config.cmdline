@@ -1,0 +1,3 @@
+relativeroot=C:/Users/Dario/Documents/TFG/Vitis/CifradosParalelos/cifrador_paralelo_32
+original_argv=--mode hls --package --config C:\Users\Dario\Documents\TFG\Vitis\CifradosParalelos\cifrador_paralelo_32\hls_config.cfg --work_dir cifrador_paralelo_32 
+

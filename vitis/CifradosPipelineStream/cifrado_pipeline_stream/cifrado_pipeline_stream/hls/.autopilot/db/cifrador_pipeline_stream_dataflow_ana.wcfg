@@ -1,0 +1,1346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="cifrador_pipeline_stream.wdb" id="1">
+         <top_modules>
+            <top_module name="apa_cifrador_pipeline_stream_top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0ns"></ZoomStartTime>
+      <ZoomEndTime time="2000ns"></ZoomEndTime>
+      <Cursor1Time time="0ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="257"></NameColumnWidth>
+      <ValueColumnWidth column_width="84"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="2" />
+   <wvobject type="group" fp_name="HLS Process Summary Group">
+      <obj_property name="label">HLS Process Summary</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="group" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream//AESL_inst_cifrador_pipeline_stream_activity">
+         <obj_property name="label">AESL_inst_cifrador_pipeline_stream_activity</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="UseFullPath">true</obj_property>
+         <obj_property name="ElementShortName">AESL_inst_cifrador_pipeline_stream_activity</obj_property>
+         <obj_property name="ObjectShortName">AESL_inst_cifrador_pipeline_stream_activity</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+         <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">turquoise</obj_property>
+         <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+         <obj_property name="Render_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream//AESL_inst_cifrador_pipeline_stream_activity.dataflowTxWaveData.Cycles</obj_property>
+         <obj_property name="Value_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream//AESL_inst_cifrador_pipeline_stream_activity.dataflowTxWaveData.OutStanding</obj_property>
+         <obj_property name="Detail_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream//AESL_inst_cifrador_pipeline_stream_activity.dataflowTxTooltipData</obj_property>
+         <wvobject type="group" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_0_s_fu_362/grp_stage_0_s_fu_362_activity">
+            <obj_property name="label">grp_stage_0_s_fu_362_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_stage_0_s_fu_362_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_stage_0_s_fu_362_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_0_s_fu_362/grp_stage_0_s_fu_362_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_0_s_fu_362/grp_stage_0_s_fu_362_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_0_s_fu_362/grp_stage_0_s_fu_362_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_1_s_fu_368/grp_stage_1_s_fu_368_activity">
+            <obj_property name="label">grp_stage_1_s_fu_368_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_stage_1_s_fu_368_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_stage_1_s_fu_368_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_1_s_fu_368/grp_stage_1_s_fu_368_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_1_s_fu_368/grp_stage_1_s_fu_368_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_1_s_fu_368/grp_stage_1_s_fu_368_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_2_s_fu_375/grp_stage_2_s_fu_375_activity">
+            <obj_property name="label">grp_stage_2_s_fu_375_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_stage_2_s_fu_375_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_stage_2_s_fu_375_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_2_s_fu_375/grp_stage_2_s_fu_375_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_2_s_fu_375/grp_stage_2_s_fu_375_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_2_s_fu_375/grp_stage_2_s_fu_375_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_3_s_fu_382/grp_stage_3_s_fu_382_activity">
+            <obj_property name="label">grp_stage_3_s_fu_382_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_stage_3_s_fu_382_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_stage_3_s_fu_382_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_3_s_fu_382/grp_stage_3_s_fu_382_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_3_s_fu_382/grp_stage_3_s_fu_382_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_3_s_fu_382/grp_stage_3_s_fu_382_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_4_s_fu_389/grp_stage_4_s_fu_389_activity">
+            <obj_property name="label">grp_stage_4_s_fu_389_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_stage_4_s_fu_389_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_stage_4_s_fu_389_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_4_s_fu_389/grp_stage_4_s_fu_389_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_4_s_fu_389/grp_stage_4_s_fu_389_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_4_s_fu_389/grp_stage_4_s_fu_389_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_5_s_fu_396/grp_stage_5_s_fu_396_activity">
+            <obj_property name="label">grp_stage_5_s_fu_396_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_stage_5_s_fu_396_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_stage_5_s_fu_396_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_5_s_fu_396/grp_stage_5_s_fu_396_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_5_s_fu_396/grp_stage_5_s_fu_396_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_5_s_fu_396/grp_stage_5_s_fu_396_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_6_s_fu_403/grp_stage_6_s_fu_403_activity">
+            <obj_property name="label">grp_stage_6_s_fu_403_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_stage_6_s_fu_403_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_stage_6_s_fu_403_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_6_s_fu_403/grp_stage_6_s_fu_403_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_6_s_fu_403/grp_stage_6_s_fu_403_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_6_s_fu_403/grp_stage_6_s_fu_403_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_7_s_fu_410/grp_stage_7_s_fu_410_activity">
+            <obj_property name="label">grp_stage_7_s_fu_410_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_stage_7_s_fu_410_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_stage_7_s_fu_410_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_7_s_fu_410/grp_stage_7_s_fu_410_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_7_s_fu_410/grp_stage_7_s_fu_410_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_7_s_fu_410/grp_stage_7_s_fu_410_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_8_s_fu_417/grp_stage_8_s_fu_417_activity">
+            <obj_property name="label">grp_stage_8_s_fu_417_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_stage_8_s_fu_417_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_stage_8_s_fu_417_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_8_s_fu_417/grp_stage_8_s_fu_417_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_8_s_fu_417/grp_stage_8_s_fu_417_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_8_s_fu_417/grp_stage_8_s_fu_417_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_9_s_fu_424/grp_stage_9_s_fu_424_activity">
+            <obj_property name="label">grp_stage_9_s_fu_424_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_stage_9_s_fu_424_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_stage_9_s_fu_424_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_9_s_fu_424/grp_stage_9_s_fu_424_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_9_s_fu_424/grp_stage_9_s_fu_424_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_9_s_fu_424/grp_stage_9_s_fu_424_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_10_s_fu_431/grp_stage_10_s_fu_431_activity">
+            <obj_property name="label">grp_stage_10_s_fu_431_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_stage_10_s_fu_431_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_stage_10_s_fu_431_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_10_s_fu_431/grp_stage_10_s_fu_431_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_10_s_fu_431/grp_stage_10_s_fu_431_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_10_s_fu_431/grp_stage_10_s_fu_431_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_11_s_fu_438/grp_stage_11_s_fu_438_activity">
+            <obj_property name="label">grp_stage_11_s_fu_438_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_stage_11_s_fu_438_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_stage_11_s_fu_438_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_11_s_fu_438/grp_stage_11_s_fu_438_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_11_s_fu_438/grp_stage_11_s_fu_438_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_11_s_fu_438/grp_stage_11_s_fu_438_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_12_s_fu_445/grp_stage_12_s_fu_445_activity">
+            <obj_property name="label">grp_stage_12_s_fu_445_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_stage_12_s_fu_445_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_stage_12_s_fu_445_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_12_s_fu_445/grp_stage_12_s_fu_445_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_12_s_fu_445/grp_stage_12_s_fu_445_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_12_s_fu_445/grp_stage_12_s_fu_445_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_13_s_fu_452/grp_stage_13_s_fu_452_activity">
+            <obj_property name="label">grp_stage_13_s_fu_452_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_stage_13_s_fu_452_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_stage_13_s_fu_452_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_13_s_fu_452/grp_stage_13_s_fu_452_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_13_s_fu_452/grp_stage_13_s_fu_452_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_13_s_fu_452/grp_stage_13_s_fu_452_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_14_s_fu_459/grp_stage_14_s_fu_459_activity">
+            <obj_property name="label">grp_stage_14_s_fu_459_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_stage_14_s_fu_459_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_stage_14_s_fu_459_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_14_s_fu_459/grp_stage_14_s_fu_459_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_14_s_fu_459/grp_stage_14_s_fu_459_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_14_s_fu_459/grp_stage_14_s_fu_459_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_15_s_fu_466/grp_stage_15_s_fu_466_activity">
+            <obj_property name="label">grp_stage_15_s_fu_466_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_stage_15_s_fu_466_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_stage_15_s_fu_466_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_15_s_fu_466/grp_stage_15_s_fu_466_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_15_s_fu_466/grp_stage_15_s_fu_466_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_15_s_fu_466/grp_stage_15_s_fu_466_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_16_s_fu_473/grp_stage_16_s_fu_473_activity">
+            <obj_property name="label">grp_stage_16_s_fu_473_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_stage_16_s_fu_473_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_stage_16_s_fu_473_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_16_s_fu_473/grp_stage_16_s_fu_473_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_16_s_fu_473/grp_stage_16_s_fu_473_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_16_s_fu_473/grp_stage_16_s_fu_473_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_17_s_fu_480/grp_stage_17_s_fu_480_activity">
+            <obj_property name="label">grp_stage_17_s_fu_480_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_stage_17_s_fu_480_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_stage_17_s_fu_480_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_17_s_fu_480/grp_stage_17_s_fu_480_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_17_s_fu_480/grp_stage_17_s_fu_480_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_17_s_fu_480/grp_stage_17_s_fu_480_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_18_s_fu_487/grp_stage_18_s_fu_487_activity">
+            <obj_property name="label">grp_stage_18_s_fu_487_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_stage_18_s_fu_487_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_stage_18_s_fu_487_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_18_s_fu_487/grp_stage_18_s_fu_487_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_18_s_fu_487/grp_stage_18_s_fu_487_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_18_s_fu_487/grp_stage_18_s_fu_487_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_19_s_fu_494/grp_stage_19_s_fu_494_activity">
+            <obj_property name="label">grp_stage_19_s_fu_494_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_stage_19_s_fu_494_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_stage_19_s_fu_494_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_19_s_fu_494/grp_stage_19_s_fu_494_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_19_s_fu_494/grp_stage_19_s_fu_494_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_19_s_fu_494/grp_stage_19_s_fu_494_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_20_s_fu_501/grp_stage_20_s_fu_501_activity">
+            <obj_property name="label">grp_stage_20_s_fu_501_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_stage_20_s_fu_501_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_stage_20_s_fu_501_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_20_s_fu_501/grp_stage_20_s_fu_501_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_20_s_fu_501/grp_stage_20_s_fu_501_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_20_s_fu_501/grp_stage_20_s_fu_501_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_21_s_fu_508/grp_stage_21_s_fu_508_activity">
+            <obj_property name="label">grp_stage_21_s_fu_508_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_stage_21_s_fu_508_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_stage_21_s_fu_508_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_21_s_fu_508/grp_stage_21_s_fu_508_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_21_s_fu_508/grp_stage_21_s_fu_508_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_21_s_fu_508/grp_stage_21_s_fu_508_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_22_s_fu_515/grp_stage_22_s_fu_515_activity">
+            <obj_property name="label">grp_stage_22_s_fu_515_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_stage_22_s_fu_515_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_stage_22_s_fu_515_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_22_s_fu_515/grp_stage_22_s_fu_515_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_22_s_fu_515/grp_stage_22_s_fu_515_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_22_s_fu_515/grp_stage_22_s_fu_515_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_23_s_fu_522/grp_stage_23_s_fu_522_activity">
+            <obj_property name="label">grp_stage_23_s_fu_522_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_stage_23_s_fu_522_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_stage_23_s_fu_522_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_23_s_fu_522/grp_stage_23_s_fu_522_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_23_s_fu_522/grp_stage_23_s_fu_522_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_23_s_fu_522/grp_stage_23_s_fu_522_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_24_s_fu_529/grp_stage_24_s_fu_529_activity">
+            <obj_property name="label">grp_stage_24_s_fu_529_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_stage_24_s_fu_529_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_stage_24_s_fu_529_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_24_s_fu_529/grp_stage_24_s_fu_529_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_24_s_fu_529/grp_stage_24_s_fu_529_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_24_s_fu_529/grp_stage_24_s_fu_529_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_25_s_fu_536/grp_stage_25_s_fu_536_activity">
+            <obj_property name="label">grp_stage_25_s_fu_536_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_stage_25_s_fu_536_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_stage_25_s_fu_536_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_25_s_fu_536/grp_stage_25_s_fu_536_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_25_s_fu_536/grp_stage_25_s_fu_536_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_25_s_fu_536/grp_stage_25_s_fu_536_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_26_s_fu_543/grp_stage_26_s_fu_543_activity">
+            <obj_property name="label">grp_stage_26_s_fu_543_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_stage_26_s_fu_543_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_stage_26_s_fu_543_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_26_s_fu_543/grp_stage_26_s_fu_543_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_26_s_fu_543/grp_stage_26_s_fu_543_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_26_s_fu_543/grp_stage_26_s_fu_543_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_27_s_fu_550/grp_stage_27_s_fu_550_activity">
+            <obj_property name="label">grp_stage_27_s_fu_550_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_stage_27_s_fu_550_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_stage_27_s_fu_550_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_27_s_fu_550/grp_stage_27_s_fu_550_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_27_s_fu_550/grp_stage_27_s_fu_550_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_27_s_fu_550/grp_stage_27_s_fu_550_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_28_s_fu_557/grp_stage_28_s_fu_557_activity">
+            <obj_property name="label">grp_stage_28_s_fu_557_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_stage_28_s_fu_557_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_stage_28_s_fu_557_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_28_s_fu_557/grp_stage_28_s_fu_557_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_28_s_fu_557/grp_stage_28_s_fu_557_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_28_s_fu_557/grp_stage_28_s_fu_557_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_29_s_fu_564/grp_stage_29_s_fu_564_activity">
+            <obj_property name="label">grp_stage_29_s_fu_564_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_stage_29_s_fu_564_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_stage_29_s_fu_564_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_29_s_fu_564/grp_stage_29_s_fu_564_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_29_s_fu_564/grp_stage_29_s_fu_564_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_29_s_fu_564/grp_stage_29_s_fu_564_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_30_s_fu_571/grp_stage_30_s_fu_571_activity">
+            <obj_property name="label">grp_stage_30_s_fu_571_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_stage_30_s_fu_571_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_stage_30_s_fu_571_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_30_s_fu_571/grp_stage_30_s_fu_571_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_30_s_fu_571/grp_stage_30_s_fu_571_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_30_s_fu_571/grp_stage_30_s_fu_571_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_last_stage_fu_578/grp_last_stage_fu_578_activity">
+            <obj_property name="label">grp_last_stage_fu_578_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_last_stage_fu_578_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_last_stage_fu_578_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_last_stage_fu_578/grp_last_stage_fu_578_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_last_stage_fu_578/grp_last_stage_fu_578_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_last_stage_fu_578/grp_last_stage_fu_578_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject type="protoinst" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream//AESL_inst_cifrador_pipeline_stream_activity">
+      <obj_property name="ElementShortName">AESL_inst_cifrador_pipeline_stream_activity</obj_property>
+      <obj_property name="ObjectShortName">AESL_inst_cifrador_pipeline_stream_activity</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="AESL_inst_cifrador_pipeline_stream_group">
+      <obj_property name="label">AESL_inst_cifrador_pipeline_stream</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="protoinst" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_0_s_fu_362/grp_stage_0_s_fu_362_activity">
+         <obj_property name="ElementShortName">grp_stage_0_s_fu_362_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_stage_0_s_fu_362_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_1_s_fu_368/grp_stage_1_s_fu_368_activity">
+         <obj_property name="ElementShortName">grp_stage_1_s_fu_368_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_stage_1_s_fu_368_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_2_s_fu_375/grp_stage_2_s_fu_375_activity">
+         <obj_property name="ElementShortName">grp_stage_2_s_fu_375_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_stage_2_s_fu_375_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_3_s_fu_382/grp_stage_3_s_fu_382_activity">
+         <obj_property name="ElementShortName">grp_stage_3_s_fu_382_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_stage_3_s_fu_382_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_4_s_fu_389/grp_stage_4_s_fu_389_activity">
+         <obj_property name="ElementShortName">grp_stage_4_s_fu_389_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_stage_4_s_fu_389_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_5_s_fu_396/grp_stage_5_s_fu_396_activity">
+         <obj_property name="ElementShortName">grp_stage_5_s_fu_396_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_stage_5_s_fu_396_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_6_s_fu_403/grp_stage_6_s_fu_403_activity">
+         <obj_property name="ElementShortName">grp_stage_6_s_fu_403_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_stage_6_s_fu_403_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_7_s_fu_410/grp_stage_7_s_fu_410_activity">
+         <obj_property name="ElementShortName">grp_stage_7_s_fu_410_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_stage_7_s_fu_410_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_8_s_fu_417/grp_stage_8_s_fu_417_activity">
+         <obj_property name="ElementShortName">grp_stage_8_s_fu_417_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_stage_8_s_fu_417_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_9_s_fu_424/grp_stage_9_s_fu_424_activity">
+         <obj_property name="ElementShortName">grp_stage_9_s_fu_424_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_stage_9_s_fu_424_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_10_s_fu_431/grp_stage_10_s_fu_431_activity">
+         <obj_property name="ElementShortName">grp_stage_10_s_fu_431_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_stage_10_s_fu_431_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_11_s_fu_438/grp_stage_11_s_fu_438_activity">
+         <obj_property name="ElementShortName">grp_stage_11_s_fu_438_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_stage_11_s_fu_438_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_12_s_fu_445/grp_stage_12_s_fu_445_activity">
+         <obj_property name="ElementShortName">grp_stage_12_s_fu_445_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_stage_12_s_fu_445_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_13_s_fu_452/grp_stage_13_s_fu_452_activity">
+         <obj_property name="ElementShortName">grp_stage_13_s_fu_452_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_stage_13_s_fu_452_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_14_s_fu_459/grp_stage_14_s_fu_459_activity">
+         <obj_property name="ElementShortName">grp_stage_14_s_fu_459_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_stage_14_s_fu_459_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_15_s_fu_466/grp_stage_15_s_fu_466_activity">
+         <obj_property name="ElementShortName">grp_stage_15_s_fu_466_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_stage_15_s_fu_466_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_16_s_fu_473/grp_stage_16_s_fu_473_activity">
+         <obj_property name="ElementShortName">grp_stage_16_s_fu_473_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_stage_16_s_fu_473_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_17_s_fu_480/grp_stage_17_s_fu_480_activity">
+         <obj_property name="ElementShortName">grp_stage_17_s_fu_480_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_stage_17_s_fu_480_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_18_s_fu_487/grp_stage_18_s_fu_487_activity">
+         <obj_property name="ElementShortName">grp_stage_18_s_fu_487_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_stage_18_s_fu_487_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_19_s_fu_494/grp_stage_19_s_fu_494_activity">
+         <obj_property name="ElementShortName">grp_stage_19_s_fu_494_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_stage_19_s_fu_494_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_20_s_fu_501/grp_stage_20_s_fu_501_activity">
+         <obj_property name="ElementShortName">grp_stage_20_s_fu_501_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_stage_20_s_fu_501_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_21_s_fu_508/grp_stage_21_s_fu_508_activity">
+         <obj_property name="ElementShortName">grp_stage_21_s_fu_508_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_stage_21_s_fu_508_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_22_s_fu_515/grp_stage_22_s_fu_515_activity">
+         <obj_property name="ElementShortName">grp_stage_22_s_fu_515_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_stage_22_s_fu_515_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_23_s_fu_522/grp_stage_23_s_fu_522_activity">
+         <obj_property name="ElementShortName">grp_stage_23_s_fu_522_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_stage_23_s_fu_522_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_24_s_fu_529/grp_stage_24_s_fu_529_activity">
+         <obj_property name="ElementShortName">grp_stage_24_s_fu_529_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_stage_24_s_fu_529_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_25_s_fu_536/grp_stage_25_s_fu_536_activity">
+         <obj_property name="ElementShortName">grp_stage_25_s_fu_536_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_stage_25_s_fu_536_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_26_s_fu_543/grp_stage_26_s_fu_543_activity">
+         <obj_property name="ElementShortName">grp_stage_26_s_fu_543_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_stage_26_s_fu_543_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_27_s_fu_550/grp_stage_27_s_fu_550_activity">
+         <obj_property name="ElementShortName">grp_stage_27_s_fu_550_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_stage_27_s_fu_550_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_28_s_fu_557/grp_stage_28_s_fu_557_activity">
+         <obj_property name="ElementShortName">grp_stage_28_s_fu_557_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_stage_28_s_fu_557_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_29_s_fu_564/grp_stage_29_s_fu_564_activity">
+         <obj_property name="ElementShortName">grp_stage_29_s_fu_564_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_stage_29_s_fu_564_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_30_s_fu_571/grp_stage_30_s_fu_571_activity">
+         <obj_property name="ElementShortName">grp_stage_30_s_fu_571_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_stage_30_s_fu_571_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_last_stage_fu_578/grp_last_stage_fu_578_activity">
+         <obj_property name="ElementShortName">grp_last_stage_fu_578_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_last_stage_fu_578_activity</obj_property>
+      </wvobject>
+      <wvobject type="group" fp_name="AESL_inst_cifrador_pipeline_stream_Handshake_group">
+         <obj_property name="label">Block-level handshake</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/ap_start">
+            <obj_property name="ElementShortName">ap_start</obj_property>
+            <obj_property name="ObjectShortName">ap_start</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/ap_ready">
+            <obj_property name="ElementShortName">ap_ready</obj_property>
+            <obj_property name="ObjectShortName">ap_ready</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/ap_done">
+            <obj_property name="ElementShortName">ap_done</obj_property>
+            <obj_property name="ObjectShortName">ap_done</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="grp_stage_0_s_fu_362_group">
+         <obj_property name="label">grp_stage_0_s_fu_362</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="grp_stage_0_s_fu_362_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_0_s_fu_362/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_0_s_fu_362/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_0_s_fu_362/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="grp_stage_1_s_fu_368_group">
+         <obj_property name="label">grp_stage_1_s_fu_368</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="grp_stage_1_s_fu_368_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_1_s_fu_368/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_1_s_fu_368/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_1_s_fu_368/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="grp_stage_2_s_fu_375_group">
+         <obj_property name="label">grp_stage_2_s_fu_375</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="grp_stage_2_s_fu_375_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_2_s_fu_375/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_2_s_fu_375/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_2_s_fu_375/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="grp_stage_3_s_fu_382_group">
+         <obj_property name="label">grp_stage_3_s_fu_382</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="grp_stage_3_s_fu_382_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_3_s_fu_382/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_3_s_fu_382/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_3_s_fu_382/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="grp_stage_4_s_fu_389_group">
+         <obj_property name="label">grp_stage_4_s_fu_389</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="grp_stage_4_s_fu_389_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_4_s_fu_389/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_4_s_fu_389/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_4_s_fu_389/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="grp_stage_5_s_fu_396_group">
+         <obj_property name="label">grp_stage_5_s_fu_396</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="grp_stage_5_s_fu_396_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_5_s_fu_396/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_5_s_fu_396/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_5_s_fu_396/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="grp_stage_6_s_fu_403_group">
+         <obj_property name="label">grp_stage_6_s_fu_403</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="grp_stage_6_s_fu_403_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_6_s_fu_403/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_6_s_fu_403/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_6_s_fu_403/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="grp_stage_7_s_fu_410_group">
+         <obj_property name="label">grp_stage_7_s_fu_410</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="grp_stage_7_s_fu_410_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_7_s_fu_410/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_7_s_fu_410/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_7_s_fu_410/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="grp_stage_8_s_fu_417_group">
+         <obj_property name="label">grp_stage_8_s_fu_417</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="grp_stage_8_s_fu_417_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_8_s_fu_417/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_8_s_fu_417/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_8_s_fu_417/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="grp_stage_9_s_fu_424_group">
+         <obj_property name="label">grp_stage_9_s_fu_424</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="grp_stage_9_s_fu_424_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_9_s_fu_424/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_9_s_fu_424/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_9_s_fu_424/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="grp_stage_10_s_fu_431_group">
+         <obj_property name="label">grp_stage_10_s_fu_431</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="grp_stage_10_s_fu_431_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_10_s_fu_431/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_10_s_fu_431/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_10_s_fu_431/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="grp_stage_11_s_fu_438_group">
+         <obj_property name="label">grp_stage_11_s_fu_438</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="grp_stage_11_s_fu_438_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_11_s_fu_438/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_11_s_fu_438/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_11_s_fu_438/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="grp_stage_12_s_fu_445_group">
+         <obj_property name="label">grp_stage_12_s_fu_445</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="grp_stage_12_s_fu_445_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_12_s_fu_445/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_12_s_fu_445/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_12_s_fu_445/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="grp_stage_13_s_fu_452_group">
+         <obj_property name="label">grp_stage_13_s_fu_452</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="grp_stage_13_s_fu_452_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_13_s_fu_452/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_13_s_fu_452/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_13_s_fu_452/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="grp_stage_14_s_fu_459_group">
+         <obj_property name="label">grp_stage_14_s_fu_459</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="grp_stage_14_s_fu_459_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_14_s_fu_459/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_14_s_fu_459/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_14_s_fu_459/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="grp_stage_15_s_fu_466_group">
+         <obj_property name="label">grp_stage_15_s_fu_466</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="grp_stage_15_s_fu_466_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_15_s_fu_466/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_15_s_fu_466/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_15_s_fu_466/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="grp_stage_16_s_fu_473_group">
+         <obj_property name="label">grp_stage_16_s_fu_473</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="grp_stage_16_s_fu_473_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_16_s_fu_473/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_16_s_fu_473/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_16_s_fu_473/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="grp_stage_17_s_fu_480_group">
+         <obj_property name="label">grp_stage_17_s_fu_480</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="grp_stage_17_s_fu_480_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_17_s_fu_480/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_17_s_fu_480/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_17_s_fu_480/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="grp_stage_18_s_fu_487_group">
+         <obj_property name="label">grp_stage_18_s_fu_487</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="grp_stage_18_s_fu_487_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_18_s_fu_487/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_18_s_fu_487/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_18_s_fu_487/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="grp_stage_19_s_fu_494_group">
+         <obj_property name="label">grp_stage_19_s_fu_494</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="grp_stage_19_s_fu_494_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_19_s_fu_494/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_19_s_fu_494/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_19_s_fu_494/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="grp_stage_20_s_fu_501_group">
+         <obj_property name="label">grp_stage_20_s_fu_501</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="grp_stage_20_s_fu_501_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_20_s_fu_501/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_20_s_fu_501/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_20_s_fu_501/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="grp_stage_21_s_fu_508_group">
+         <obj_property name="label">grp_stage_21_s_fu_508</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="grp_stage_21_s_fu_508_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_21_s_fu_508/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_21_s_fu_508/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_21_s_fu_508/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="grp_stage_22_s_fu_515_group">
+         <obj_property name="label">grp_stage_22_s_fu_515</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="grp_stage_22_s_fu_515_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_22_s_fu_515/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_22_s_fu_515/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_22_s_fu_515/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="grp_stage_23_s_fu_522_group">
+         <obj_property name="label">grp_stage_23_s_fu_522</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="grp_stage_23_s_fu_522_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_23_s_fu_522/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_23_s_fu_522/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_23_s_fu_522/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="grp_stage_24_s_fu_529_group">
+         <obj_property name="label">grp_stage_24_s_fu_529</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="grp_stage_24_s_fu_529_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_24_s_fu_529/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_24_s_fu_529/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_24_s_fu_529/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="grp_stage_25_s_fu_536_group">
+         <obj_property name="label">grp_stage_25_s_fu_536</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="grp_stage_25_s_fu_536_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_25_s_fu_536/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_25_s_fu_536/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_25_s_fu_536/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="grp_stage_26_s_fu_543_group">
+         <obj_property name="label">grp_stage_26_s_fu_543</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="grp_stage_26_s_fu_543_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_26_s_fu_543/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_26_s_fu_543/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_26_s_fu_543/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="grp_stage_27_s_fu_550_group">
+         <obj_property name="label">grp_stage_27_s_fu_550</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="grp_stage_27_s_fu_550_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_27_s_fu_550/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_27_s_fu_550/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_27_s_fu_550/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="grp_stage_28_s_fu_557_group">
+         <obj_property name="label">grp_stage_28_s_fu_557</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="grp_stage_28_s_fu_557_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_28_s_fu_557/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_28_s_fu_557/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_28_s_fu_557/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="grp_stage_29_s_fu_564_group">
+         <obj_property name="label">grp_stage_29_s_fu_564</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="grp_stage_29_s_fu_564_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_29_s_fu_564/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_29_s_fu_564/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_29_s_fu_564/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="grp_stage_30_s_fu_571_group">
+         <obj_property name="label">grp_stage_30_s_fu_571</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="grp_stage_30_s_fu_571_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_30_s_fu_571/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_30_s_fu_571/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_stage_30_s_fu_571/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="grp_last_stage_fu_578_group">
+         <obj_property name="label">grp_last_stage_fu_578</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="grp_last_stage_fu_578_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_last_stage_fu_578/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_last_stage_fu_578/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_pipeline_stream_top/AESL_inst_cifrador_pipeline_stream/grp_last_stage_fu_578/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+</wave_config>

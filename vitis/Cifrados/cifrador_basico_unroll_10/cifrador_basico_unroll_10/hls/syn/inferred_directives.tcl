@@ -1,0 +1,2 @@
+# Inferred from syn.compile.pipeline_loops=64
+set_directive_pipeline cifrador_basico_unroll_10/VITIS_LOOP_112_1

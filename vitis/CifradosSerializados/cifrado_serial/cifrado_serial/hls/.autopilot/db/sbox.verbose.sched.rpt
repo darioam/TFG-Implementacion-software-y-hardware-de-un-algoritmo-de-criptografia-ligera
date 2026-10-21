@@ -1,0 +1,112 @@
+
+
+================================================================
+== Vitis HLS Report for 'sbox'
+================================================================
+* Date:           Wed Apr 15 19:03:24 2026
+
+* Version:        2025.2 (Build 6295257 on Nov 14 2025)
+* Project:        cifrado_serial
+* Solution:       hls (Vivado IP Flow Target)
+* Product family: zynq
+* Target device:  xc7z020-clg400-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  |  10.00 ns|  2.064 ns|     2.70 ns|
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-----+-----+---------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline|
+    |   min   |   max   |    min   |    max   | min | max |   Type  |
+    +---------+---------+----------+----------+-----+-----+---------+
+    |        0|        0|      0 ns|      0 ns|    1|    1|      yes|
+    +---------+---------+----------+----------+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        N/A
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 0
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 2
+HasVarLatency: 0
+IsPipeline: 1
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
++ Individual pipeline summary: 
+  * Pipeline-0: initiation interval (II) = 1, depth = 1
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 1
+* Pipeline : 1
+  Pipeline-0 : II = 1, D = 1, States = { 1 }
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 2.06>
+ST_1 : Operation 2 [1/1] (0.00ns)   --->   "%in_read = read i4 @_ssdm_op_Read.ap_auto.i4, i4 %in_r" [Cifrador.cpp:7]   --->   Operation 2 'read' 'in_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 3 [1/1] (2.06ns)   --->   "%agg_result = sparsemux i4 @_ssdm_op_SparseMux.ap_auto.16i4.i4.i4, i4 0, i4 12, i4 1, i4 5, i4 2, i4 6, i4 3, i4 11, i4 4, i4 9, i4 5, i4 0, i4 6, i4 10, i4 7, i4 13, i4 8, i4 3, i4 9, i4 14, i4 10, i4 15, i4 11, i4 8, i4 12, i4 4, i4 13, i4 7, i4 14, i4 1, i4 15, i4 2, i4 0, i4 %in_read" [Cifrador.cpp:20]   --->   Operation 3 'sparsemux' 'agg_result' <Predicate = true> <Delay = 2.06> <CoreInst = "BinarySparseMux_DontCare">   --->   Core 137 'BinarySparseMux_DontCare' <Latency = 0> <II = 1> <Delay = 2.06> <FuncUnit> <Opcode : 'sparsemux'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 4 [1/1] (0.00ns)   --->   "%ret_ln21 = ret i4 %agg_result" [Cifrador.cpp:21]   --->   Operation 4 'ret' 'ret_ln21' <Predicate = true> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 10.000ns, clock uncertainty: 2.700ns.
+
+ <State 1>: 2.064ns
+The critical path consists of the following:
+	wire read operation ('in_read', Cifrador.cpp:7) on port 'in_r' (Cifrador.cpp:7) [2]  (0.000 ns)
+	'sparsemux' operation 4 bit ('agg_result', Cifrador.cpp:20) [3]  (2.064 ns)
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

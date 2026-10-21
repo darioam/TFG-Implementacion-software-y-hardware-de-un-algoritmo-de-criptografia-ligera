@@ -1,0 +1,136 @@
+  **** HLS Build v2025.2 6295257
+INFO: [HLS 200-2005] Using work_dir C:/Users/Dario/Documents/TFG/Vitis/CifradosParalelos/cifrador_paralelo_8/cifrador_paralelo_8 
+INFO: [HLS 200-2176] Writing Vitis IDE component file C:/Users/Dario/Documents/TFG/Vitis/CifradosParalelos/cifrador_paralelo_8/cifrador_paralelo_8/vitis-comp.json
+INFO: [HLS 200-10] Creating and opening component 'C:/Users/Dario/Documents/TFG/Vitis/CifradosParalelos/cifrador_paralelo_8/cifrador_paralelo_8'.
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-2174] Applying component config ini file hls_config.cfg
+INFO: [HLS 200-1465] Applying config ini 'syn.file=Cifrador.cpp' from hls_config.cfg(7)
+INFO: [HLS 200-10] Adding design file 'C:/Users/Dario/Documents/TFG/Vitis/CifradosParalelos/cifrador_paralelo_8/Cifrador.cpp' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.top=cifrador_paralelo' from hls_config.cfg(8)
+INFO: [HLS 200-1465] Applying config ini 'flow_target=vivado' from hls_config.cfg(4)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying config ini 'part=xc7z020clg400-1' from hls_config.cfg(1)
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+INFO: [HLS 200-1465] Applying config ini 'package.output.format=ip_catalog' from hls_config.cfg(5)
+INFO: [HLS 200-2176] Writing Vitis IDE component file C:/Users/Dario/Documents/TFG/Vitis/CifradosParalelos/cifrador_paralelo_8/cifrador_paralelo_8/vitis-comp.json
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 4 seconds. CPU system time: 4 seconds. Elapsed time: 15.549 seconds; current allocated memory: 134.383 MB.
+INFO: [HLS 200-2191] C-Synthesis will use clang-16 as the compiler
+INFO: [HLS 200-10] Analyzing design file 'Cifrador.cpp' ... 
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 38.846 seconds; current allocated memory: 136.395 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 200-1995] There were 2,187 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details (C:/Users/Dario/Documents/TFG/Vitis/CifradosParalelos/cifrador_paralelo_8/cifrador_paralelo_8/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 1,738 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details (C:/Users/Dario/Documents/TFG/Vitis/CifradosParalelos/cifrador_paralelo_8/cifrador_paralelo_8/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 1,654 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details (C:/Users/Dario/Documents/TFG/Vitis/CifradosParalelos/cifrador_paralelo_8/cifrador_paralelo_8/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 1,086 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details (C:/Users/Dario/Documents/TFG/Vitis/CifradosParalelos/cifrador_paralelo_8/cifrador_paralelo_8/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 822 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details (C:/Users/Dario/Documents/TFG/Vitis/CifradosParalelos/cifrador_paralelo_8/cifrador_paralelo_8/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 1,958 instructions in the design after the 'Array/Struct (step 1)' phase of compilation. See the Design Size Report for more details (C:/Users/Dario/Documents/TFG/Vitis/CifradosParalelos/cifrador_paralelo_8/cifrador_paralelo_8/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 734 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details (C:/Users/Dario/Documents/TFG/Vitis/CifradosParalelos/cifrador_paralelo_8/cifrador_paralelo_8/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 734 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details (C:/Users/Dario/Documents/TFG/Vitis/CifradosParalelos/cifrador_paralelo_8/cifrador_paralelo_8/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 734 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details (C:/Users/Dario/Documents/TFG/Vitis/CifradosParalelos/cifrador_paralelo_8/cifrador_paralelo_8/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 750 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details (C:/Users/Dario/Documents/TFG/Vitis/CifradosParalelos/cifrador_paralelo_8/cifrador_paralelo_8/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 750 instructions in the design after the 'Performance (step 1)' phase of compilation. See the Design Size Report for more details (C:/Users/Dario/Documents/TFG/Vitis/CifradosParalelos/cifrador_paralelo_8/cifrador_paralelo_8/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 734 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details (C:/Users/Dario/Documents/TFG/Vitis/CifradosParalelos/cifrador_paralelo_8/cifrador_paralelo_8/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 734 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details (C:/Users/Dario/Documents/TFG/Vitis/CifradosParalelos/cifrador_paralelo_8/cifrador_paralelo_8/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 734 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details (C:/Users/Dario/Documents/TFG/Vitis/CifradosParalelos/cifrador_paralelo_8/cifrador_paralelo_8/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 767 instructions in the design after the 'HW Transforms (step 1)' phase of compilation. See the Design Size Report for more details (C:/Users/Dario/Documents/TFG/Vitis/CifradosParalelos/cifrador_paralelo_8/cifrador_paralelo_8/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 791 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details (C:/Users/Dario/Documents/TFG/Vitis/CifradosParalelos/cifrador_paralelo_8/cifrador_paralelo_8/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 214-131] Inlining function 'sbox(ap_uint<4>)' into 'key_schedule(ap_uint<64>&, int)' (Cifrador.cpp:98:25)
+INFO: [HLS 214-131] Inlining function 'sbox(ap_uint<4>)' into 'sustitution(ap_uint<32>)' (Cifrador.cpp:28:33)
+INFO: [HLS 214-131] Inlining function 'permutation(ap_uint<32>)' into 'round_function(ap_uint<32>, ap_uint<32>)' (Cifrador.cpp:59:11)
+INFO: [HLS 214-131] Inlining function 'sustitution(ap_uint<32>)' into 'round_function(ap_uint<32>, ap_uint<32>)' (Cifrador.cpp:58:11)
+INFO: [HLS 214-131] Inlining function 'key_mixing(ap_uint<32>, ap_uint<32>)' into 'round_function(ap_uint<32>, ap_uint<32>)' (Cifrador.cpp:57:11)
+INFO: [HLS 214-131] Inlining function 'key_mixing(ap_uint<32>, ap_uint<32>)' into 'last_round_correction(ap_uint<32>, ap_uint<32>)' (Cifrador.cpp:84:11)
+INFO: [HLS 214-131] Inlining function 'permutation_inverse(ap_uint<32>)' into 'last_round_correction(ap_uint<32>, ap_uint<32>)' (Cifrador.cpp:83:11)
+INFO: [HLS 214-131] Inlining function 'key_schedule(ap_uint<64>&, int)' into 'cifrador(ap_uint<32>, ap_uint<64>)' (Cifrador.cpp:112:28)
+INFO: [HLS 214-131] Inlining function 'last_round_correction(ap_uint<32>, ap_uint<32>)' into 'cifrador(ap_uint<32>, ap_uint<64>)' (Cifrador.cpp:117:13)
+INFO: [HLS 214-131] Inlining function 'round_function(ap_uint<32>, ap_uint<32>)' into 'cifrador(ap_uint<32>, ap_uint<64>)' (Cifrador.cpp:113:17)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_138_1' (Cifrador.cpp:138:23) in function 'cifrador_paralelo' completely with a factor of 8 (Cifrador.cpp:128:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_69_1' (Cifrador.cpp:69:22) in function 'cifrador' completely with a factor of 32 (Cifrador.cpp:106:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_26_1' (Cifrador.cpp:26:22) in function 'cifrador' completely with a factor of 8 (Cifrador.cpp:106:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_39_1' (Cifrador.cpp:39:22) in function 'cifrador' completely with a factor of 32 (Cifrador.cpp:106:0)
+INFO: [HLS 214-248] Applying array_partition to 'table.i.i.i': Complete partitioning on dimension 1.
+INFO: [HLS 214-248] Applying array_partition to 'table.i.i': Complete partitioning on dimension 1.
+WARNING: [HLS 214-358] Array transformation on index using bit extension logic may lead to poor performance. Please use int or long for array index computation to benefit from optimizations. (Cifrador.cpp:19:12)
+INFO: [HLS 214-248] Applying array_partition to 'plaintext': Complete partitioning on dimension 1. (Cifrador.cpp:128:0)
+INFO: [HLS 214-248] Applying array_partition to 'ciphertext': Complete partitioning on dimension 1. (Cifrador.cpp:128:0)
+INFO: [HLS 214-376] Pipelining loop< VITIS_LOOP_110_1> at Cifrador.cpp:110:23 due to pipeline_loops threshold
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 16.434 seconds; current allocated memory: 138.668 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.02 seconds; current allocated memory: 138.668 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.169 seconds; current allocated memory: 143.254 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.075 seconds; current allocated memory: 144.938 MB.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.201 seconds; current allocated memory: 166.129 MB.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.265 seconds; current allocated memory: 169.402 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'cifrador_paralelo' ...
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'cifrador' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_110_1'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 2, loop 'VITIS_LOOP_110_1'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.532 seconds; current allocated memory: 173.699 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.133 seconds; current allocated memory: 174.746 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'cifrador_paralelo' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.187 seconds; current allocated memory: 174.867 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.081 seconds; current allocated memory: 174.902 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'cifrador' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'cifrador' pipeline 'VITIS_LOOP_110_1' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_33_4_4_1_1': 9 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'cifrador'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.377 seconds; current allocated memory: 178.801 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'cifrador_paralelo' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+WARNING: [RTGEN 206-101] Design contains AXI ports. Reset is fixed to synchronous and active low.
+INFO: [RTGEN 206-500] Setting interface mode on port 'cifrador_paralelo/plaintext_0' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'cifrador_paralelo/plaintext_1' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'cifrador_paralelo/plaintext_2' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'cifrador_paralelo/plaintext_3' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'cifrador_paralelo/plaintext_4' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'cifrador_paralelo/plaintext_5' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'cifrador_paralelo/plaintext_6' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'cifrador_paralelo/plaintext_7' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'cifrador_paralelo/key' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'cifrador_paralelo/ciphertext_0' to 's_axilite & ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'cifrador_paralelo/ciphertext_1' to 's_axilite & ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'cifrador_paralelo/ciphertext_2' to 's_axilite & ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'cifrador_paralelo/ciphertext_3' to 's_axilite & ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'cifrador_paralelo/ciphertext_4' to 's_axilite & ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'cifrador_paralelo/ciphertext_5' to 's_axilite & ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'cifrador_paralelo/ciphertext_6' to 's_axilite & ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'cifrador_paralelo/ciphertext_7' to 's_axilite & ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'cifrador_paralelo' to 's_axilite & ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Bundling port 'plaintext_0', 'plaintext_1', 'plaintext_2', 'plaintext_3', 'plaintext_4', 'plaintext_5', 'plaintext_6', 'plaintext_7', 'key', 'ciphertext_0', 'ciphertext_1', 'ciphertext_2', 'ciphertext_3', 'ciphertext_4', 'ciphertext_5', 'ciphertext_6', 'ciphertext_7' to AXI-Lite port control.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'cifrador_paralelo'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1 seconds. CPU system time: 1 seconds. Elapsed time: 0.961 seconds; current allocated memory: 182.309 MB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 1.287 seconds; current allocated memory: 185.688 MB.
+INFO: [HLS 200-2225] Wrote inferred directives to file C:/Users/Dario/Documents/TFG/Vitis/CifradosParalelos/cifrador_paralelo_8/cifrador_paralelo_8/hls/syn/inferred_directives.ini
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 3 seconds. CPU system time: 1 seconds. Elapsed time: 7.163 seconds; current allocated memory: 190.172 MB.
+INFO: [VHDL 208-304] Generating VHDL RTL for cifrador_paralelo.
+INFO: [VLOG 209-307] Generating Verilog RTL for cifrador_paralelo.
+INFO: [HLS 200-790] **** Loop Constraint Status: All loop constraints were satisfied.
+INFO: [HLS 200-789] **** Estimated Fmax: 215.29 MHz
+INFO: [HLS 200-112] Total CPU user time: 10 seconds. Total CPU system time: 6 seconds. Total elapsed time: 82.354 seconds; peak allocated memory: 190.328 MB.
+INFO: [v++ 60-791] Total elapsed time: 0h 1m 32s

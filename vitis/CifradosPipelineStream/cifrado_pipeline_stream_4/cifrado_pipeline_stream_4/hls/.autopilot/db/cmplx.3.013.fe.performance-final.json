@@ -1,0 +1,140 @@
+{
+  "0": {
+    "basicblocks": 4,
+    "calls": "8 2 5 6 3 7 4 1",
+    "control_depth": 1,
+    "def_use_depth": 185,
+    "file": "Cifrador.cpp",
+    "fileloc": 154,
+    "instructions": 435,
+    "loads": {
+      "L": 12
+    },
+    "memory_accesses": 26,
+    "name": "cifrador_pipeline_stream_4",
+    "stores": {
+      "L": 4
+    },
+    "total_instructions": 2272
+  },
+  "1": {
+    "basicblocks": 1,
+    "calls": "",
+    "control_depth": 0,
+    "def_use_depth": 17,
+    "file": "Cifrador.cpp",
+    "fileloc": 122,
+    "instructions": 147,
+    "memory_accesses": 1,
+    "name": "last_stage<7>",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 147
+  },
+  "2": {
+    "basicblocks": 1,
+    "calls": "",
+    "control_depth": 0,
+    "def_use_depth": 24,
+    "file": "Cifrador.cpp",
+    "fileloc": 110,
+    "instructions": 238,
+    "memory_accesses": 1,
+    "name": "stage<1>",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 238
+  },
+  "3": {
+    "basicblocks": 1,
+    "calls": "",
+    "control_depth": 0,
+    "def_use_depth": 24,
+    "file": "Cifrador.cpp",
+    "fileloc": 110,
+    "instructions": 238,
+    "memory_accesses": 1,
+    "name": "stage<4>",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 238
+  },
+  "4": {
+    "basicblocks": 1,
+    "calls": "",
+    "control_depth": 0,
+    "def_use_depth": 24,
+    "file": "Cifrador.cpp",
+    "fileloc": 110,
+    "instructions": 238,
+    "memory_accesses": 1,
+    "name": "stage<6>",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 238
+  },
+  "5": {
+    "basicblocks": 1,
+    "calls": "",
+    "control_depth": 0,
+    "def_use_depth": 24,
+    "file": "Cifrador.cpp",
+    "fileloc": 110,
+    "instructions": 238,
+    "memory_accesses": 1,
+    "name": "stage<2>",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 238
+  },
+  "6": {
+    "basicblocks": 1,
+    "calls": "",
+    "control_depth": 0,
+    "def_use_depth": 24,
+    "file": "Cifrador.cpp",
+    "fileloc": 110,
+    "instructions": 238,
+    "memory_accesses": 1,
+    "name": "stage<3>",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 238
+  },
+  "7": {
+    "basicblocks": 1,
+    "calls": "",
+    "control_depth": 0,
+    "def_use_depth": 24,
+    "file": "Cifrador.cpp",
+    "fileloc": 110,
+    "instructions": 238,
+    "memory_accesses": 1,
+    "name": "stage<5>",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 238
+  },
+  "8": {
+    "basicblocks": 1,
+    "calls": "",
+    "control_depth": 0,
+    "def_use_depth": 24,
+    "file": "Cifrador.cpp",
+    "fileloc": 110,
+    "instructions": 238,
+    "memory_accesses": 1,
+    "name": "stage<0>",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 238
+  }
+}

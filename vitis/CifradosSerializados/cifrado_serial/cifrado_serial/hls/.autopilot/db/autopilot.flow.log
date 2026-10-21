@@ -1,0 +1,1044 @@
+Execute       source -notrace -encoding utf-8 C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcl8.6/clock.tcl 
+Execute         source -encoding utf-8 C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcl8/8.5/msgcat-1.6.1.tm 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/0compatibility/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/amazon-s3/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/asn/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/base32/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/base64/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/bee/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/bench/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/bibtex/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/cache/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/clay/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/clock/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/cmdline/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/comm/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/control/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/coroutine/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/counter/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/crc/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/cron/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/csv/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/debug/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/defer/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/dicttool/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/dns/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/docstrip/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/doctools/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/doctools2base/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/doctools2idx/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/doctools2toc/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/dtplite/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/fileutil/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/ftp/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/ftpd/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/fumagic/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/generator/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/gpx/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/grammar_aycock/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/grammar_fa/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/grammar_me/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/grammar_peg/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/hook/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/html/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/htmlparse/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/http/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/httpd/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/httpwget/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/ident/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/imap4/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/inifile/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/interp/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/irc/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/javascript/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/jpeg/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/json/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/lambda/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/lazyset/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/ldap/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/log/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/map/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/mapproj/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/markdown/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/math/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/md4/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/md5/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/md5crypt/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/mime/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/mkdoc/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/multiplexer/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/namespacex/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/ncgi/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/nettool/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/nmea/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/nns/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/nntp/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/ntp/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/oauth/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/oodialect/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/oometa/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/ooutil/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/otp/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/page/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/pluginmgr/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/png/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/pop3/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/pop3d/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/practcl/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/processman/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/profiler/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/pt/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/rcs/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/report/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/rest/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/ripemd/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/sasl/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/sha1/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/simulation/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/smtpd/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/snit/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/soundex/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/stooop/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/string/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/stringprep/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/struct/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/tar/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/tepam/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/term/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/textutil/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/tie/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/tiff/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/tool/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/transfer/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/treeql/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/try/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/udpcluster/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/uev/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/units/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/uri/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/uuid/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/valtype/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/virtchannel_base/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/virtchannel_core/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/virtchannel_transform/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/websocket/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/wip/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/yaml/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/zip/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/0compatibility/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/amazon-s3/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/asn/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/base32/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/base64/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/bee/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/bench/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/bibtex/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/cache/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/clay/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/clock/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/cmdline/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/comm/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/control/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/coroutine/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/counter/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/crc/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/cron/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/csv/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/debug/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/defer/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/dicttool/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/dns/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/docstrip/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/doctools/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/doctools2base/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/doctools2idx/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/doctools2toc/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/dtplite/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/fileutil/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/ftp/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/ftpd/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/fumagic/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/generator/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/gpx/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/grammar_aycock/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/grammar_fa/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/grammar_me/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/grammar_peg/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/hook/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/html/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/htmlparse/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/http/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/httpd/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/httpwget/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/ident/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/imap4/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/inifile/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/interp/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/irc/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/javascript/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/jpeg/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/json/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/lambda/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/lazyset/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/ldap/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/log/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/map/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/mapproj/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/markdown/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/math/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/md4/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/md5/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/md5crypt/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/mime/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/mkdoc/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/multiplexer/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/namespacex/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/ncgi/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/nettool/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/nmea/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/nns/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/nntp/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/ntp/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/oauth/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/oodialect/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/oometa/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/ooutil/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/otp/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/page/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/pluginmgr/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/png/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/pop3/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/pop3d/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/practcl/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/processman/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/profiler/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/pt/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/rcs/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/report/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/rest/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/ripemd/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/sasl/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/sha1/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/simulation/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/smtpd/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/snit/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/soundex/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/stooop/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/string/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/stringprep/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/struct/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/tar/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/tepam/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/term/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/textutil/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/tie/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/tiff/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/tool/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/transfer/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/treeql/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/try/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/udpcluster/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/uev/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/units/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/uri/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/uuid/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/valtype/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/virtchannel_base/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/virtchannel_core/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/virtchannel_transform/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/websocket/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/wip/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/yaml/pkgIndex.tcl 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/zip/pkgIndex.tcl 
+Command           ap_source done; 0.42 sec.
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tdom/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tk8.6/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcl8.6/opt0.4/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcl8.6/pkgs/win/thread2.8.7/pkgIndex.tcl 
+Command         ap_source done; 0.784 sec.
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/0compatibility/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/amazon-s3/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/asn/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/base32/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/base64/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/bee/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/bench/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/bibtex/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/cache/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/clay/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/clock/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/cmdline/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/comm/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/control/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/coroutine/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/counter/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/crc/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/cron/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/csv/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/debug/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/defer/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/dicttool/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/dns/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/docstrip/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/doctools/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/doctools2base/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/doctools2idx/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/doctools2toc/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/dtplite/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/fileutil/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/ftp/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/ftpd/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/fumagic/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/generator/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/gpx/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/grammar_aycock/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/grammar_fa/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/grammar_me/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/grammar_peg/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/hook/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/html/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/htmlparse/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/http/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/httpd/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/httpwget/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/ident/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/imap4/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/inifile/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/interp/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/irc/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/javascript/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/jpeg/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/json/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/lambda/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/lazyset/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/ldap/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/log/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/map/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/mapproj/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/markdown/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/math/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/md4/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/md5/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/md5crypt/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/mime/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/mkdoc/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/multiplexer/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/namespacex/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/ncgi/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/nettool/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/nmea/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/nns/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/nntp/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/ntp/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/oauth/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/oodialect/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/oometa/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/ooutil/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/otp/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/page/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/pluginmgr/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/png/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/pop3/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/pop3d/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/practcl/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/processman/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/profiler/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/pt/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/rcs/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/report/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/rest/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/ripemd/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/sasl/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/sha1/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/simulation/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/smtpd/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/snit/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/soundex/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/stooop/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/string/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/stringprep/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/struct/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/tar/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/tepam/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/term/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/textutil/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/tie/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/tiff/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/tool/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/transfer/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/treeql/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/try/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/udpcluster/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/uev/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/units/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/uri/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/uuid/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/valtype/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/virtchannel_base/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/virtchannel_core/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/virtchannel_transform/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/websocket/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/wip/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/yaml/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/zip/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/0compatibility/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/amazon-s3/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/asn/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/base32/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/base64/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/bee/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/bench/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/bibtex/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/cache/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/clay/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/clock/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/cmdline/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/comm/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/control/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/coroutine/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/counter/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/crc/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/cron/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/csv/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/debug/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/defer/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/dicttool/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/dns/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/docstrip/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/doctools/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/doctools2base/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/doctools2idx/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/doctools2toc/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/dtplite/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/fileutil/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/ftp/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/ftpd/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/fumagic/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/generator/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/gpx/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/grammar_aycock/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/grammar_fa/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/grammar_me/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/grammar_peg/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/hook/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/html/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/htmlparse/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/http/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/httpd/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/httpwget/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/ident/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/imap4/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/inifile/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/interp/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/irc/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/javascript/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/jpeg/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/json/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/lambda/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/lazyset/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/ldap/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/log/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/map/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/mapproj/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/markdown/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/math/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/md4/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/md5/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/md5crypt/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/mime/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/mkdoc/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/multiplexer/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/namespacex/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/ncgi/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/nettool/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/nmea/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/nns/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/nntp/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/ntp/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/oauth/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/oodialect/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/oometa/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/ooutil/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/otp/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/page/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/pluginmgr/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/png/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/pop3/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/pop3d/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/practcl/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/processman/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/profiler/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/pt/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/rcs/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/report/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/rest/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/ripemd/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/sasl/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/sha1/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/simulation/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/smtpd/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/snit/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/soundex/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/stooop/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/string/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/stringprep/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/struct/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/tar/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/tepam/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/term/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/textutil/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/tie/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/tiff/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/tool/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/transfer/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/treeql/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/try/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/udpcluster/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/uev/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/units/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/uri/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/uuid/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/valtype/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/virtchannel_base/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/virtchannel_core/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/virtchannel_transform/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/websocket/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/wip/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/yaml/pkgIndex.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/zip/pkgIndex.tcl 
+Command         ap_source done; 0.264 sec.
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tdom/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tk8.6/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcl8.6/opt0.4/pkgIndex.tcl 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcl8.6/pkgs/win/thread2.8.7/pkgIndex.tcl 
+Command       ap_source done; 1.482 sec.
+INFO-FLOW: Workspace C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls opened at Wed Apr 15 19:02:42 +0200 2026
+Execute       send_msg_by_id INFO @200-1505@%s%s default  vivado 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Execute       send_msg_by_id INFO @200-2174@%s%s component hls_config.cfg 
+INFO: [HLS 200-2174] Applying component config ini file hls_config.cfg
+Execute       apply_ini hls_config.cfg 
+Execute         send_msg_by_id INFO @200-1465@%s 'syn.file=Cifrador.cpp' from hls_config.cfg(8) 
+INFO: [HLS 200-1465] Applying config ini 'syn.file=Cifrador.cpp' from hls_config.cfg(8)
+Execute         add_files C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/Cifrador.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/Cifrador.cpp' to the project
+Execute         send_msg_by_id INFO @200-1465@%s 'syn.file=cifrador_serial.h' from hls_config.cfg(9) 
+INFO: [HLS 200-1465] Applying config ini 'syn.file=cifrador_serial.h' from hls_config.cfg(9)
+Execute         add_files C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrador_serial.h 
+INFO: [HLS 200-10] Adding design file 'C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrador_serial.h' to the project
+Execute         send_msg_by_id INFO @200-1465@%s 'tb.file=test.cpp' from hls_config.cfg(10) 
+INFO: [HLS 200-1465] Applying config ini 'tb.file=test.cpp' from hls_config.cfg(10)
+Execute         add_files -tb C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/test.cpp 
+INFO: [HLS 200-10] Adding test bench file 'C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/test.cpp' to the project
+Execute         send_msg_by_id INFO @200-1465@%s 'syn.top=cifrador_serial' from hls_config.cfg(7) 
+INFO: [HLS 200-1465] Applying config ini 'syn.top=cifrador_serial' from hls_config.cfg(7)
+Execute         set_top cifrador_serial 
+Execute         send_msg_by_id INFO @200-1465@%s 'flow_target=vivado' from hls_config.cfg(4) 
+INFO: [HLS 200-1465] Applying config ini 'flow_target=vivado' from hls_config.cfg(4)
+Execute         send_msg_by_id INFO @200-1505@%s%s  vivado 
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Execute         send_msg_by_id INFO @200-1465@%s 'part=xc7z020clg400-1' from hls_config.cfg(1) 
+INFO: [HLS 200-1465] Applying config ini 'part=xc7z020clg400-1' from hls_config.cfg(1)
+Execute         set_part xc7z020clg400-1 
+Execute           create_platform xc7z020clg400-1 -board  
+DBG:HLSDevice: Trying to load device library: C:/Users/Dario/AMDDesignTools/2025.2/Vitis\lib\win64.o\xv_hlsvwrap.dll
+DBG:HLSDevice: first parts/arch.xml in RDI_DATADIR: C:/Users/Dario/AMDDesignTools/2025.2/Vivado/data/parts/arch.xml
+DBG:HLSDevice: init success
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+Command           create_platform done; 1.122 sec.
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/common/technology/xilinx/common/xilinx.gen 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/common/technology/xilinx/interface/plb46.gen 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/common/technology/xilinx/interface/axi4.gen 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute               source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/common/technology/xilinx/interface/saxilite.gen 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/common/technology/xilinx/ip/dds_compiler.gen 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/common/technology/xilinx/ip/util.gen 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/common/technology/xilinx/ip/xfft.gen 
+Command             ap_source done; 0.145 sec.
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/common/technology/xilinx/ip/xfir.gen 
+Execute             source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/common/technology/xilinx/DSP48/dsp48.gen 
+Command           ap_source done; 0.188 sec.
+Execute           ap_part_info -name xc7z020-clg400-1 -data info 
+Execute           config_compile -quiet -complex-mul-dsp=0 
+Command         set_part done; 1.329 sec.
+Execute         send_msg_by_id INFO @200-1465@%s 'package.output.format=ip_catalog' from hls_config.cfg(5) 
+INFO: [HLS 200-1465] Applying config ini 'package.output.format=ip_catalog' from hls_config.cfg(5)
+Execute         config_export -format=ip_catalog 
+Command       apply_ini done; 1.455 sec.
+Execute       write_component -config C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/hls_config.cfg 
+Execute         send_msg_by_id INFO @200-2176@%s C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/vitis-comp.json 
+INFO: [HLS 200-2176] Writing Vitis IDE component file C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/vitis-comp.json
+Command     open_solution done; 3.071 sec.
+Command   open_component done; 3.08 sec.
+Execute   apply_ini C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/config.cmdline -iscmdline 
+Execute   ::AP::init_summary_file csynth 
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+Execute   csynth_design 
+Execute     AP::msg_collection_file -open C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/be_messages.xml 
+Execute     ap_part_info -name xc7z020-clg400-1 -data info 
+INFO-FLOW: run_clang Cifrador.cpp.xilinx-performance-pragma-detector exec: C:/Users/Dario/AMDDesignTools/2025.2/Vitis/win64/tools/clang-16/bin/xilinx-performance-pragma-detector Cifrador.cpp -- -fhls -D__VITIS_HLS__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I C:/Users/Dario/AMDDesignTools/2025.2/Vitis/common/technology/autopilot -I C:/Users/Dario/AMDDesignTools/2025.2/Vitis/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E1__ -target fpga64-xilinx-mingw32 --sysroot C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/mingw/8.3.0/win64.o/nt {-hls-platform-db-name=C:/Users/Dario/AMDDesignTools/2025.2/Vitis\common/technology\xilinx/common/platform.db} -hls-platform-name=zynq_slow -device-resource-info=BRAM_280.000000_DSP_220.000000_FF_106400.000000_LUT_53200.000000_SLICE_13300.000000_URAM_0.000000 -device-name-info=xc7z020clg400-1 > C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/Cifrador.cpp.xilinx-performance-pragma-detector.out.log 2> C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/Cifrador.cpp.xilinx-performance-pragma-detector.err.log
+INFO-FLOW: run_clang result=success num-err-msgs=0 num-stderr-lines=1
+Execute     elaborate -effort=medium -skip_syncheck=0 -keep_printf=0 -skip_cdt=0 -skip_transform=0 -ng=0 -g=0 -from_csynth_design=1 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 1 seconds. CPU system time: 2 seconds. Elapsed time: 8.627 seconds; current allocated memory: 134.277 MB.
+Execute       send_msg_by_id INFO @200-2191@%s%s C-Synthesis clang-16 
+INFO: [HLS 200-2191] C-Synthesis will use clang-16 as the compiler
+Execute       set_directive_top cifrador_serial -name=cifrador_serial 
+INFO: [HLS 200-10] Analyzing design file 'Cifrador.cpp' ... 
+INFO-FLOW: Compiling one TU...
+INFO-FLOW: Handling Cifrador.cpp as C++
+Execute       ap_part_info -name xc7z020-clg400-1 -data info 
+INFO-FLOW: Running: GCC PP 39
+INFO-FLOW: Source preprocessing
+INFO-FLOW: run_clang Cifrador.cpp.clang exec: C:/Users/Dario/AMDDesignTools/2025.2/Vitis/win64/tools/clang-16/bin/clang Cifrador.cpp -foptimization-record-file=C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/Cifrador.cpp.clang.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll|inline -mllvm -pass-remarks=reflow|pasta|unroll|inline -fno-limit-debug-info --sysroot C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/mingw/8.3.0/win64.o/nt -fhls -fno-exceptions -insert-hls-directive=C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/all.directive.json -hls-directive-location -E -fno-math-errno -c -emit-llvm -mllvm -disable-llvm-optzns -Xclang -no-opaque-pointers -Xclang -fmerge-all-constants -Werror=implicit-hls-streams -Werror=return-type -Wpragmas -Wunused-parameter -Wdump-hls-pragmas -Wno-error=dump-hls-pragmas -hls-clock-period=10 -fno-threadsafe-statics -fno-use-cxa-atexit -target fpga64-xilinx-mingw32 -fno-threadsafe-statics -fno-use-cxa-atexit -D__VITIS_HLS__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I C:/Users/Dario/AMDDesignTools/2025.2/Vitis/common/technology/autopilot -I C:/Users/Dario/AMDDesignTools/2025.2/Vitis/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E1__ -o C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/Cifrador.pp.0.cpp {-hls-platform-db-name=C:/Users/Dario/AMDDesignTools/2025.2/Vitis\common/technology\xilinx/common/platform.db} -hls-platform-name=zynq_slow -device-resource-info=BRAM_280.000000_DSP_220.000000_FF_106400.000000_LUT_53200.000000_SLICE_13300.000000_URAM_0.000000 -device-name-info=xc7z020clg400-1 > C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/Cifrador.cpp.clang.out.log 2> C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/Cifrador.cpp.clang.err.log
+INFO-FLOW: run_clang result=success num-err-msgs=0 num-stderr-lines=0
+INFO-FLOW: Done: GCC PP 39 time: 1.4 seconds 
+INFO-FLOW: Source syntax check for synthesis
+INFO-FLOW: run_clang clang exec: C:/Users/Dario/AMDDesignTools/2025.2/Vitis/win64/tools/clang-16/bin/clang -foptimization-record-file=C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/clang.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll|inline -mllvm -pass-remarks=reflow|pasta|unroll|inline -fsyntax-only -fhls -target fpga64-xilinx-linux-gnu C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/Cifrador.pp.0.cpp {-hls-platform-db-name=C:/Users/Dario/AMDDesignTools/2025.2/Vitis\common/technology\xilinx/common/platform.db} -hls-platform-name=zynq_slow -device-resource-info=BRAM_280.000000_DSP_220.000000_FF_106400.000000_LUT_53200.000000_SLICE_13300.000000_URAM_0.000000 -device-name-info=xc7z020clg400-1 > C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/clang.out.log 2> C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/clang.err.log
+INFO-FLOW: run_clang result=success num-err-msgs=0 num-stderr-lines=0
+Execute       clang_tidy xilinx-systemc-detector -desc systemc-detector C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/Cifrador.pp.0.cpp  -target fpga -directive=C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/.systemc_flag 
+INFO-FLOW: exec C:/Users/Dario/AMDDesignTools/2025.2/Vitis/win64/tools/clang-16/bin/clang-tidy -header-filter=.* --checks=-*,xilinx-systemc-detector -import-directive=C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/.systemc_flag -fix-errors C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/Cifrador.pp.0.cpp -- - -target fpga -fhls -ferror-limit=0
+Command       clang_tidy done; 3.224 sec.
+INFO-FLOW: Running: clang-tidy CDT preprocess 39
+Execute       clang_tidy xilinx-directive2pragma -desc directive2pragma C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/Cifrador.pp.0.cpp  -target fpga -directive=C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/all.directive.json 
+INFO-FLOW: exec C:/Users/Dario/AMDDesignTools/2025.2/Vitis/win64/tools/clang-16/bin/clang-tidy -header-filter=.* --checks=-*,xilinx-directive2pragma -import-directive=C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/all.directive.json -fix-errors C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/Cifrador.pp.0.cpp -- - -target fpga -fhls -ferror-limit=0
+Command       clang_tidy done; 4.697 sec.
+INFO-FLOW: Done: clang-tidy CDT preprocess 39 time: 4.7 seconds 
+INFO-FLOW: Calling xilinx-label-all-loops ... 
+INFO-FLOW: Calling xilinx-aggregate-on-hls-vector ... 
+Execute       clang_tidy -errorcheck -desc loop-label xilinx-label-all-loops,xilinx-aggregate-on-hls-vector,,xilinx-warn-mayneed-no-ctor-attribute C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/Cifrador.pp.0.cpp  -target fpga 
+INFO-FLOW: run_clang loop-label exec: C:/Users/Dario/AMDDesignTools/2025.2/Vitis/win64/tools/clang-16/bin/clang-tidy -export-fixes=C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/Cifrador.pp.0.cpp.clang-tidy.loop-label.diag.yml -header-filter=.* --checks=-*,xilinx-label-all-loops,xilinx-aggregate-on-hls-vector,,xilinx-warn-mayneed-no-ctor-attribute -fix-errors C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/Cifrador.pp.0.cpp -- - -target fpga -fhls -ferror-limit=0 > C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/Cifrador.pp.0.cpp.clang-tidy.loop-label.out.log 2> C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/Cifrador.pp.0.cpp.clang-tidy.loop-label.err.log
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/yaml/yaml.tcl 
+Execute           source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/cmdline/cmdline.tcl 
+INFO-FLOW: run_clang result=success num-err-msgs=0 num-stderr-lines=43
+Command       clang_tidy done; 5.668 sec.
+INFO-FLOW: run_clang Cifrador.pp.0.cpp.xilinx-dataflow-lawyer exec: C:/Users/Dario/AMDDesignTools/2025.2/Vitis/win64/tools/clang-16/bin/xilinx-dataflow-lawyer -export-fixes=C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/Cifrador.pp.0.cpp.xilinx-dataflow-lawyer.diag.yml C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/Cifrador.pp.0.cpp -- - -target fpga -fhls -ferror-limit=0 -fstrict-dataflow > C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/Cifrador.pp.0.cpp.xilinx-dataflow-lawyer.out.log 2> C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/Cifrador.pp.0.cpp.xilinx-dataflow-lawyer.err.log
+INFO-FLOW: run_clang result=success num-err-msgs=0 num-stderr-lines=0
+Execute       ap_part_info -name xc7z020-clg400-1 -data info 
+INFO-FLOW: compiling source code to llvm bc
+INFO-FLOW: run_clang Cifrador.pp.0.cpp.clang exec: C:/Users/Dario/AMDDesignTools/2025.2/Vitis/win64/tools/clang-16/bin/clang -foptimization-record-file=C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/Cifrador.pp.0.cpp.clang.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll|inline -mllvm -pass-remarks=reflow|pasta|unroll|inline -flto -fno-exceptions -Wno-error=c++11-narrowing -fno-limit-debug-info -fhls -hls-emit-hint-scope C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/Cifrador.pp.0.cpp -fno-math-errno -c -emit-llvm -mllvm -disable-llvm-optzns -Xclang -no-opaque-pointers -Xclang -fmerge-all-constants -Werror=implicit-hls-streams -Werror=return-type -Wpragmas -Wunused-parameter -Wdump-hls-pragmas -Wno-error=dump-hls-pragmas -hls-clock-period=10 -fno-threadsafe-statics -fno-use-cxa-atexit -target fpga64-xilinx-linux-gnu -D__VITIS_HLS__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I C:/Users/Dario/AMDDesignTools/2025.2/Vitis/common/technology/autopilot -I C:/Users/Dario/AMDDesignTools/2025.2/Vitis/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E1__ -g -o C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/Cifrador.pre.g.bc {-hls-platform-db-name=C:/Users/Dario/AMDDesignTools/2025.2/Vitis\common/technology\xilinx/common/platform.db} -hls-platform-name=zynq_slow -device-resource-info=BRAM_280.000000_DSP_220.000000_FF_106400.000000_LUT_53200.000000_SLICE_13300.000000_URAM_0.000000 -device-name-info=xc7z020clg400-1 > C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/Cifrador.pp.0.cpp.clang.out.log 2> C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/Cifrador.pp.0.cpp.clang.err.log
+INFO-FLOW: run_clang result=success num-err-msgs=0 num-stderr-lines=0
+INFO-FLOW: converting llvm 16.0.4 bc to downstrem bc
+INFO-FLOW: run_clang Cifrador.bc.llvm-converter exec: C:/Users/Dario/AMDDesignTools/2025.2/Vitis/win64/tools/clang-16/bin/llvm-converter -opaque-pointers=0 C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/Cifrador.pre.g.bc -o C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/Cifrador.bc > C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/Cifrador.bc.llvm-converter.out.log 2> C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/Cifrador.bc.llvm-converter.err.log
+INFO-FLOW: run_clang result=success num-err-msgs=0 num-stderr-lines=0
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 22.777 seconds; current allocated memory: 136.949 MB.
+INFO-FLOW: Linking Debug ...
+INFO-FLOW: Linking dut bc code.
+Execute       run_link_or_opt -out C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/a.g.ld.0.bc -args C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/Cifrador.bc 
+INFO-FLOW: run_clang a.g.ld.0.bc.llvm-link exec: C:/Users/Dario/AMDDesignTools/2025.2/Vitis/win64/tools/clang-3.9-csynth/bin/llvm-link C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/Cifrador.bc -o C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/a.g.ld.0.bc > C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/a.g.ld.0.bc.llvm-link.out.log 2> C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/a.g.ld.0.bc.llvm-link.err.log
+INFO-FLOW: run_clang result=success num-err-msgs=0 num-stderr-lines=0
+Execute       run_link_or_opt -opt -out C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/a.g.ld.1.lower.bc -args C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/a.g.ld.0.bc -reflow-lower-math-intrinsics 
+INFO-FLOW: run_clang a.g.ld.1.lower.bc.opt exec: C:/Users/Dario/AMDDesignTools/2025.2/Vitis/win64/tools/clang-3.9-csynth/bin/opt -pass-remarks-missed=reflow|pasta|unroll|inline -pass-remarks=reflow|pasta|unroll|inline -pass-remarks-output=C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/a.g.ld.1.lower.bc.opt.diag.yml C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/a.g.ld.0.bc -reflow-lower-math-intrinsics -o C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/a.g.ld.1.lower.bc > C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/a.g.ld.1.lower.bc.opt.out.log 2> C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/a.g.ld.1.lower.bc.opt.err.log
+INFO-FLOW: run_clang result=success num-err-msgs=0 num-stderr-lines=0
+INFO-FLOW: Running: gen_design_size_report post-opt
+INFO-FLOW: Done: gen_design_size_report post-opt time: 0 seconds 
+INFO-FLOW: Linking math bc lib
+Execute       run_link_or_opt -out C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/a.g.ld.2.m1.bc -args C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/a.g.ld.1.lower.bc -only-needed C:/Users/Dario/AMDDesignTools/2025.2/Vitis/win64/lib/libhlsm_39.bc C:/Users/Dario/AMDDesignTools/2025.2/Vitis/win64/lib/libhlsmc++_39.bc 
+INFO-FLOW: run_clang a.g.ld.2.m1.bc.llvm-link exec: C:/Users/Dario/AMDDesignTools/2025.2/Vitis/win64/tools/clang-3.9-csynth/bin/llvm-link C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/a.g.ld.1.lower.bc -only-needed C:/Users/Dario/AMDDesignTools/2025.2/Vitis/win64/lib/libhlsm_39.bc C:/Users/Dario/AMDDesignTools/2025.2/Vitis/win64/lib/libhlsmc++_39.bc -o C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/a.g.ld.2.m1.bc > C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/a.g.ld.2.m1.bc.llvm-link.out.log 2> C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/a.g.ld.2.m1.bc.llvm-link.err.log
+INFO-FLOW: run_clang result=success num-err-msgs=0 num-stderr-lines=0
+Command       run_link_or_opt done; 2.935 sec.
+Execute       run_link_or_opt -opt -out C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/a.g.ld.3.fpc.bc -args C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/a.g.ld.2.m1.bc -reflow-globaldce -hls-top-function-name=cifrador_serial -reflow-float-conversion 
+INFO-FLOW: run_clang a.g.ld.3.fpc.bc.opt exec: C:/Users/Dario/AMDDesignTools/2025.2/Vitis/win64/tools/clang-3.9-csynth/bin/opt -pass-remarks-missed=reflow|pasta|unroll|inline -pass-remarks=reflow|pasta|unroll|inline -pass-remarks-output=C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/a.g.ld.3.fpc.bc.opt.diag.yml C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/a.g.ld.2.m1.bc -reflow-globaldce -hls-top-function-name=cifrador_serial -reflow-float-conversion -o C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/a.g.ld.3.fpc.bc > C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/a.g.ld.3.fpc.bc.opt.out.log 2> C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/a.g.ld.3.fpc.bc.opt.err.log
+INFO-FLOW: run_clang result=success num-err-msgs=0 num-stderr-lines=0
+INFO-FLOW: Running: gen_design_size_report post-opt
+INFO-FLOW: Done: gen_design_size_report post-opt time: 0 seconds 
+Command       run_link_or_opt done; 1.352 sec.
+Execute       run_link_or_opt -out C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/a.g.ld.4.m2.bc -args C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/a.g.ld.3.fpc.bc -only-needed C:/Users/Dario/AMDDesignTools/2025.2/Vitis/win64/lib/libfloatconversion_39.bc 
+INFO-FLOW: run_clang a.g.ld.4.m2.bc.llvm-link exec: C:/Users/Dario/AMDDesignTools/2025.2/Vitis/win64/tools/clang-3.9-csynth/bin/llvm-link C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/a.g.ld.3.fpc.bc -only-needed C:/Users/Dario/AMDDesignTools/2025.2/Vitis/win64/lib/libfloatconversion_39.bc -o C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/a.g.ld.4.m2.bc > C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/a.g.ld.4.m2.bc.llvm-link.out.log 2> C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/a.g.ld.4.m2.bc.llvm-link.err.log
+INFO-FLOW: run_clang result=success num-err-msgs=0 num-stderr-lines=0
+Execute       run_link_or_opt -opt -out C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/a.g.ld.5.gdce.bc -args C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/a.g.ld.4.m2.bc -reflow-globaldce -hls-top-function-name=cifrador_serial 
+INFO-FLOW: run_clang a.g.ld.5.gdce.bc.opt exec: C:/Users/Dario/AMDDesignTools/2025.2/Vitis/win64/tools/clang-3.9-csynth/bin/opt -pass-remarks-missed=reflow|pasta|unroll|inline -pass-remarks=reflow|pasta|unroll|inline -pass-remarks-output=C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/a.g.ld.5.gdce.bc.opt.diag.yml C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/a.g.ld.4.m2.bc -reflow-globaldce -hls-top-function-name=cifrador_serial -o C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/a.g.ld.5.gdce.bc > C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/a.g.ld.5.gdce.bc.opt.out.log 2> C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/a.g.ld.5.gdce.bc.opt.err.log
+INFO-FLOW: run_clang result=success num-err-msgs=0 num-stderr-lines=0
+INFO-FLOW: Running: gen_design_size_report post-opt
+INFO-FLOW: Done: gen_design_size_report post-opt time: 0 seconds 
+Execute       send_msg_by_id INFO @200-777@%s Vivado 
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+Execute       is_m_axi_addr64 
+INFO-FLOW: Doing LTO.
+INFO-FLOW: run_clang reflow (background poll_ms 5000) exec: C:/Users/Dario/AMDDesignTools/2025.2/Vitis/win64/tools/clang-3.9-csynth/bin/clang -foptimization-record-file=C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/a.g.ld.0.bc.clang.reflow.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll|inline -mllvm -pass-remarks=reflow|pasta|unroll|inline -fhls -mllvm -hls-top-function-name=cifrador_serial -mllvm -hls-db-dir -mllvm C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db -emit-llvm -c -target fpga64-xilinx-none -mllvm -xcl-xmlinfo=C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/kernel.internal.xml -mllvm -top-io-mapping-info=C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/top-io-fe.xml -mllvm -hls-bitcode-version=3.1 -mllvm -reflow-enable-slave-interface-default-setting=true -mllvm -gen-kernel-xml=false -mllvm -default-maxi-offset=slave -mllvm -reflow-unroll-size-threshold=10000 -mllvm -reflow-unroll-cost-threshold=1000000 -mllvm -maxi-latency=0 -mllvm -hls-maxi-data-size-in-bits=8 -mllvm -hls-maxi-max-data-size-in-bits=1024 -mllvm -hls-max-widen-size-in-bits=0 -mllvm -xcl-kernel-max-mem-ports=0 -mllvm -maxi-read-trans=16 -mllvm -maxi-write-trans=16 -mllvm -maxi-read-burst-len=16 -mllvm -maxi-write-burst-len=16 -mllvm -reflow-enable-saxi-64bits=0 -mllvm -reflow-basic-block-instr-threshold=200000 -mllvm -reflow-auto-pipeline-threshold=64 -mllvm -reflow-enable-maxi-auto-id-channel=0 -mllvm -reflow-bdd-simplify-threshold=1048576 -mllvm -reflow-fanout-threshold=16 -mllvm -reflow-force-aggressive-unroll=0 -mllvm -reflow-aggressive-unroll-adjust-factor=1.000000 -mllvm -reflow-complete-threshold=4 -mllvm -reflow-array-promotion-threshold=64 -mllvm -reflow-enable-critical-path-for-performance=1 -mllvm -assume-maxi-align=1 -mllvm -reflow-enable-dataflow-strict-mode-checking=1 -ftime-report -mllvm -time-passes -mllvm -reflow-auto-array-partition-mode=default -mllvm -reflow-enable-auto-small-array-partition=true -mllvm -reflow-enable-auto-array-promotion=true -mllvm -reflow-enable-auto-array-partition-for-flatten=true -mllvm -reflow-enable-auto-parallel-performance-driven=true -mllvm -reflow-enable-partition-for-automation=true -mllvm -reflow-aggregate-bitwidth-threshold=4096 -mllvm -reflow-reserved-saxilite-registers=0 -mllvm -enable-reflow-auto-loop-pipeline -mllvm -reflow-max-unroll-threshold=409600 -mllvm -auto-unroll-tripcount-threshold=0 -mllvm -reflow-assume-no-address-wrap=true -mllvm -reflow-enable-occurrence-inference=true -mllvm -reflow-emit-hint-scope=true -mllvm -reflow-enable-codegen-with-if=true -mllvm -reflow-enable-dataflow-canon=true -mllvm -reflow-enable-dataflow-canon2=true -mllvm -reflow-dump-extra-complexity-metric=true -mllvm -reflow-enable-dse-loop-nest-extraction=false -mllvm -hls -mllvm -disable-inlined-alloca-merging=true -mllvm -default-clock-period=10 -mllvm -use_read_first_ram_in_loop=1 -mllvm -default-clock-uncertainty=2.7 -x ir C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/a.g.ld.5.gdce.bc -o C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/a.g.lto.bc {-hls-platform-db-name=C:/Users/Dario/AMDDesignTools/2025.2/Vitis\common/technology\xilinx/common/platform.db} -hls-platform-name=zynq_slow -device-resource-info=BRAM_280.000000_DSP_220.000000_FF_106400.000000_LUT_53200.000000_SLICE_13300.000000_URAM_0.000000 -device-name-info=xc7z020clg400-1 2> C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/a.g.ld.0.bc.clang.reflow.err.log bg_poll_cmd: ::AP::poll_clang_39_closed_source
+Execute       send_msg_by_id INFO @200-1995@%s%s%s 3,258 Compile/Link (C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/syn/report/csynth_design_size.rpt:2) 
+INFO: [HLS 200-1995] There were 3,258 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details (C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/syn/report/csynth_design_size.rpt:2)
+Execute       send_msg_by_id INFO @200-1995@%s%s%s 398 Unroll/Inline (step 1) (C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/syn/report/csynth_design_size.rpt:2) 
+INFO: [HLS 200-1995] There were 398 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details (C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/syn/report/csynth_design_size.rpt:2)
+Execute       send_msg_by_id INFO @200-1995@%s%s%s 378 Unroll/Inline (step 2) (C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/syn/report/csynth_design_size.rpt:2) 
+INFO: [HLS 200-1995] There were 378 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details (C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/syn/report/csynth_design_size.rpt:2)
+Execute       send_msg_by_id INFO @200-1995@%s%s%s 290 Unroll/Inline (step 3) (C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/syn/report/csynth_design_size.rpt:2) 
+INFO: [HLS 200-1995] There were 290 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details (C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/syn/report/csynth_design_size.rpt:2)
+Execute       send_msg_by_id INFO @200-1995@%s%s%s 290 Unroll/Inline (step 4) (C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/syn/report/csynth_design_size.rpt:2) 
+INFO: [HLS 200-1995] There were 290 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details (C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/syn/report/csynth_design_size.rpt:2)
+Execute       send_msg_by_id INFO @200-1995@%s%s%s 440 Array/Struct (step 1) (C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/syn/report/csynth_design_size.rpt:2) 
+INFO: [HLS 200-1995] There were 440 instructions in the design after the 'Array/Struct (step 1)' phase of compilation. See the Design Size Report for more details (C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/syn/report/csynth_design_size.rpt:2)
+Execute       send_msg_by_id INFO @200-1995@%s%s%s 270 Array/Struct (step 2) (C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/syn/report/csynth_design_size.rpt:2) 
+INFO: [HLS 200-1995] There were 270 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details (C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/syn/report/csynth_design_size.rpt:2)
+Execute       send_msg_by_id INFO @200-1995@%s%s%s 270 Array/Struct (step 3) (C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/syn/report/csynth_design_size.rpt:2) 
+INFO: [HLS 200-1995] There were 270 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details (C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/syn/report/csynth_design_size.rpt:2)
+Execute       send_msg_by_id INFO @200-1995@%s%s%s 270 Array/Struct (step 4) (C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/syn/report/csynth_design_size.rpt:2) 
+INFO: [HLS 200-1995] There were 270 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details (C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/syn/report/csynth_design_size.rpt:2)
+Execute       send_msg_by_id INFO @200-1995@%s%s%s 272 Array/Struct (step 5) (C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/syn/report/csynth_design_size.rpt:2) 
+INFO: [HLS 200-1995] There were 272 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details (C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/syn/report/csynth_design_size.rpt:2)
+Execute       send_msg_by_id INFO @200-1995@%s%s%s 272 Performance (step 1) (C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/syn/report/csynth_design_size.rpt:2) 
+INFO: [HLS 200-1995] There were 272 instructions in the design after the 'Performance (step 1)' phase of compilation. See the Design Size Report for more details (C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/syn/report/csynth_design_size.rpt:2)
+Execute       send_msg_by_id INFO @200-1995@%s%s%s 267 Performance (step 2) (C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/syn/report/csynth_design_size.rpt:2) 
+INFO: [HLS 200-1995] There were 267 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details (C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/syn/report/csynth_design_size.rpt:2)
+Execute       send_msg_by_id INFO @200-1995@%s%s%s 234 Performance (step 3) (C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/syn/report/csynth_design_size.rpt:2) 
+INFO: [HLS 200-1995] There were 234 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details (C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/syn/report/csynth_design_size.rpt:2)
+Execute       send_msg_by_id INFO @200-1995@%s%s%s 231 Performance (step 4) (C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/syn/report/csynth_design_size.rpt:2) 
+INFO: [HLS 200-1995] There were 231 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details (C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/syn/report/csynth_design_size.rpt:2)
+Execute       send_msg_by_id INFO @200-1995@%s%s%s 232 HW Transforms (step 1) (C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/syn/report/csynth_design_size.rpt:2) 
+INFO: [HLS 200-1995] There were 232 instructions in the design after the 'HW Transforms (step 1)' phase of compilation. See the Design Size Report for more details (C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/syn/report/csynth_design_size.rpt:2)
+Command       send_msg_by_id done; 0.168 sec.
+Execute       send_msg_by_id INFO @200-1995@%s%s%s 224 HW Transforms (step 2) (C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/syn/report/csynth_design_size.rpt:2) 
+INFO: [HLS 200-1995] There were 224 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details (C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 214-131] Inlining function 'permutation(ap_uint<32>)' into 'serial_round(ap_uint<32>&, ap_uint<32>)' (Cifrador.cpp:69:13)
+INFO: [HLS 214-131] Inlining function 'update_subblock(ap_uint<32>&, ap_uint<4>, ap_uint<4>)' into 'serial_round(ap_uint<32>&, ap_uint<32>)' (Cifrador.cpp:67:9)
+INFO: [HLS 214-131] Inlining function 'key_mixing(ap_uint<4>, ap_uint<4>)' into 'serial_round(ap_uint<32>&, ap_uint<32>)' (Cifrador.cpp:64:21)
+INFO: [HLS 214-131] Inlining function 'select_subblock(ap_uint<32>, ap_uint<4>)' into 'serial_round(ap_uint<32>&, ap_uint<32>)' (Cifrador.cpp:63:27)
+INFO: [HLS 214-131] Inlining function 'key_mixing(ap_uint<32>, ap_uint<32>)' into 'serial_last_round_correction(ap_uint<32>, ap_uint<32>)' (Cifrador.cpp:92:11)
+INFO: [HLS 214-131] Inlining function 'permutation_inverse(ap_uint<32>)' into 'serial_last_round_correction(ap_uint<32>, ap_uint<32>)' (Cifrador.cpp:91:11)
+INFO: [HLS 214-131] Inlining function 'key_schedule(ap_uint<64>&, int)' into 'cifrador_serial(ap_uint<32>, ap_uint<64>)' (Cifrador.cpp:122:28)
+INFO: [HLS 214-131] Inlining function 'serial_last_round_correction(ap_uint<32>, ap_uint<32>)' into 'cifrador_serial(ap_uint<32>, ap_uint<64>)' (Cifrador.cpp:127:13)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_28_1' is marked as complete unroll implied by the pipeline pragma (Cifrador.cpp:28:22)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_61_1' is marked as complete unroll implied by the pipeline pragma (Cifrador.cpp:61:22)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_77_1' (Cifrador.cpp:77:22) in function 'cifrador_serial' completely with a factor of 32 (Cifrador.cpp:114:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_28_1' (Cifrador.cpp:28:22) in function 'serial_round' completely with a factor of 32 (Cifrador.cpp:58:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_61_1' (Cifrador.cpp:61:22) in function 'serial_round' completely with a factor of 8 (Cifrador.cpp:58:0)
+INFO: [HLS 214-248] Applying array_partition to 'table': Complete partitioning on dimension 1.
+WARNING: [HLS 214-358] Array transformation on index using bit extension logic may lead to poor performance. Please use int or long for array index computation to benefit from optimizations. (Cifrador.cpp:20:12)
+INFO: [HLS 214-364] Automatically inlining function 'serial_round(ap_uint<32>&, ap_uint<32>)' to improve effectiveness of pipeline pragma in function 'cifrador_serial(ap_uint<32>, ap_uint<64>)' (Cifrador.cpp:123:9)
+WARNING: [HLS 214-209] Ignoring ALLOCATION pragma, because the corresponding call is removed (Cifrador.cpp:9:1)
+INFO-FLOW: run_clang result=success num-err-msgs=0 num-stderr-lines=40
+INFO-FLOW: DBG:PUTS: copy_raw_kernel_xml ap_link_39: kernel.xml not generated: C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/kernel.internal.xml
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 10.703 seconds; current allocated memory: 139.000 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.01 seconds; current allocated memory: 139.000 MB.
+Execute       opt_and_import_c a -opt_level=2 -skip_syncheck=0 -ng=0 -keep_printf=0 
+Execute         cleanup_all_models 
+INFO: [HLS 200-10] Starting code transformations ...
+INFO-FLOW: Running Standard Transforms...
+Execute         transform -hls -share-std-xform -demangle-name -inline-byval-memcpy -always-inline -promote-dbg-pointer -interface-preproc -mem2reg -reassociate -gvn -reassociate -scalarrepl -mem2reg -keep-read-access -instcombine -dce -promote-dbg-pointer -bitop-raise -loop-simplify -indvarspre -indvars -loop-simplify -constprop -instcombine -simplifycfg -indvars -simplifycfg -dce -globaldce -basicaa -simplifycfg -mem2reg -globalopt -global-constprop -deadargelim -instcombine -simplifycfg -scalarrepl -instcombine -reassociate -licm -simplifycfg -loop-simplify -indvars -instcombine -simplifycfg -mem2reg -loop-simplify -indvars -instcombine -gvn -gvn -instcombine -adce -break-crit-edges -simplifycfg -loop-delete -global-array-opt -dce -dse -adce -find-syn-modules -top cifrador_serial -deadargelim -mem2reg -instcombine -dce -presyn-prepare -interface-preproc -syn-check -check-rec-only -find-region -simplifycfg -func-extr -function-inline -globaldce -mem2reg -instcombine -dce -gvn -globaldce -adce -adse -constprop -instcombine -bit-constprop -instcombine -dce -simplifycfg -bitop-raise -simplifycfg -dce -loop-delete -reassociate -globalopt -global-privatize -mem2reg -dce -global-constprop -pointer-simplify -constprop -dce -promote-dbg-pointer -norm-name C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/a.g.0.bc -o C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/a.g.1.bc -f -phase std-opt 
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.058 seconds; current allocated memory: 144.008 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO-FLOW: Checking Synthesizability 1/2..
+Execute         transform -hls -syn-check -check-rec-only -scalarrepl -norm-name -dce -mem2reg -instcombine -directive-preproc -mem2reg -dse -dce -dce -pag -array-normalize -instcombine -dce -array-seg-normalize -instcombine -dce -data-pack -instcombine -dce -inst-simplify -array-flatten -instcombine -dce -array-burst -dce -deadargelim -promote-global-argument -simplifycfg -mem2reg -globaldce -dce -deadargelim -dce -instcombine -function-inline -globaldce -dce -doublePtrSimplify -doublePtrElim -dce -doublePtrSimplify -promote-dbg-pointer -dce -scalarrepl -dse -adse -instcombine -ptrLegalization -simplifycfg -dce -instcombine -pointer-simplify -ptrArgReplace -dce -instcombine -resolve-double-ptr -scalarrepl -norm-name -dce -mem2reg -instcombine -ptrLegalization -simplifycfg -deadargelim -instcombine -dce -inst-simplify -directive-preproc -mem2reg -dse -dce -globaldce C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/a.g.1.bc -o C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/a.g.2.prechk.bc -f 
+INFO-FLOW: Checking Synthesizability 2/2..
+Execute         transform -syn-check C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/a.g.2.prechk.bc -o C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/a.g.2.bc -f -phase syn-check 
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.042 seconds; current allocated memory: 145.539 MB.
+INFO-FLOW: Compiler optimizing ...
+INFO-FLOW: Share syncheck's 1.bc for syn flow: copy C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/a.g.1.bc to C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/a.o.1.bc
+INFO-FLOW: Presyn 1...
+Execute         transform -hls -tmp C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db -interface-port-rename -directive-preproc -mem2reg -dse -dce -scalarrepl -norm-name -deadargelim -dce -hls-dead-arg-elim -deadargelim -mem2reg -instcombine -dce -simplifycfg -dce -resource-proc -clib-intrinsic-prepare -dce -func-buffer -dce -pag -array-normalize -func-legal -instcombine -gvn -constprop -dce -simplifycfg -mem2reg -globaldce -resolve-double-ptr -dce -deadargelim -dce -instcombine -ptrArgReplace -mem2reg -dce -array-seg-normalize -deadargelim -instcombine -dce -directive-preproc -mem2reg -dse -dce -pointer-simplify -dce -dce -interface-preproc -data-pack -instcombine -dce -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -gvn -gvn -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -dse -adse -adce -loop-simplify -indvars -instcombine -gvn -loop-simplify -mem2reg -dce -find-region -instcombine -inst-simplify -interface-preproc -cfgopt -instcombine -indvars -loop-simplify -loop-bound -constprop -instcombine -simplifycfg -indvars -simplifycfg -dce -globaldce -clean-region -attach-range -gvn -inst-simplify -constprop -simplifycfg -dce -pointer-simplify -dce -globalopt -constprop -dce -ptrArgReplace -mem2reg -simplifycfg -dce -instcombine -dce -array-transform-check -array-reshape -instcombine -simplifycfg -dce -ptrArgReplace -deadargelim -mem2reg -instcombine -simplifycfg -dce -indvars -loop-simplify -loop-bound -constprop -instcombine -simplifycfg -indvars -simplifycfg -dce -globaldce -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -dse -duplicate-dataflow-processes -globaldce -instcombine -array-partition -prepare-dynamic-array-partition -instcombine -simplifycfg -dce -ptrArgReplace -global-constprop -deadargelim -mem2reg -func-legal -dce -global-constprop -deadargelim -mem2reg -simplifycfg -dce -merge-param -deadargelim -globalopt -constprop -dce -ptrArgReplace -mem2reg -simplifycfg -dce -mem-intrinsic-preproc -dce -global-internalize -global-privatize -mem2reg -globaldce -lcssa -loop-simplify -phi-select-elim -promote-global-argument -ptrArgReplace -mem2reg -dce -globalopt -mergereturn -simplify-global-access -mem2reg -dce -pointer-simplify -dce -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -functionattrs -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -gvn -gvn -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -dse -adse -adce -dce -norm-name -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -accesses-merge -function-inline -complex-op-raise -inst-simplify -globaldce -func-legal -dce -loop-bound -arraycheck -bitwidthmin2 -bitwidthmin2 -on-by-dataflow -loop-delete -instcombine -simplifycfg -globaldce -dce -gvn -deadargelim -dce -loop-simplify -clean-region -simplifycfg -propagate-stable-arguments -instcombine -simplifycfg -dce -globaldce -duplicate-dataflow-processes -stream-intrinsic-preproc -dce -check-ap-stream -loop-simplify -eliminate-keepreads -extract-dataflow-in-loop -loop-simplify -dce -gvn -deadargelim -dse -duplicate-dataflow-processes -check-dataflow-syntax -legalize-stream-variable -globaldce -extract-subproc -global-constprop -deadargelim -globaldce -legalize-global -dce -dead-channel-elimination -canonicalize-gep -globaldce -dce -gvn -hls-dead-arg-elim -deadargelim -canonicalize-dataflow -directive-preproc -dce -globaldce -scalar-preprocessing -scalar-propagation2 -scalar-stream -deadargelim -globaldce -mem2reg -check-dataflow-channels -function-stream -dce -globaldce -prop-fifo-spec -internal-stream-gen -canonicalize-gep -globaldce -dce -gvn -deadargelim -mergereturn -indvars -loop-simplify -instcombine -array-stream -array-seg-normalize -array-partition -clean-array-spec -func-legal -instcombine -simplifycfg -dce -bundle-memfifo-ops -deadargelim -directive-preproc -mem2reg -dse -dce -group-axi-access -licm -simplifycfg -dce -loop-delete -hls-display -norm-name C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/a.o.1.bc -o C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/a.o.1.tmp.bc -f 
+INFO-FLOW: Presyn 2...
+Execute         transform -hls -keep-callgraph -scalarrepl -mem2reg -attach-range -dce -pipe-mux-gen -indvars -loop-bound -inst-simplify -instcombine -dce -merge-array-access -mem2reg -dce -clean-region -mergereturn -if-conv -instcombine -dce -constprop -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -gvn -gvn -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -dse -adse -adce -scalarrepl -mem2reg -global-constprop -deadargelim -deadargelim -instcombine -dce -simplifycfg -ptrArgReplace -mem2reg -function-inline -globaldce -mem2reg -instcombine -dce -expr-balance -instcombine -dce -bitwidthmin2 -bitwidthmin2 -interface-preproc -directive-preproc -inst-rectify -instcombine -dce -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -functionattrs -constprop -instcombine -bit-constprop -simplify-global-access -globalopt -globaldce -inst-simplify -instcombine -elimdeaddata -dce -loop-delete -simplifycfg -loop-simplify -barrier -norm-name C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/a.o.1.tmp.bc -o C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/a.o.2.bc -f -phase presyn 
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.142 seconds; current allocated memory: 166.887 MB.
+Execute         transform -hls -auto-function-inline -globaldce -ptrArgReplace -mem2reg -dce -reset-lda -loop-simplify -indvars -aggr-aa -licm -loop-dep -loop-bound -licm -loop-simplify -loop-sink-hoist -flattenloopnest -array-flatten -gvn -instcombine -dce -array-map -dce -func-legal -gvn -adce -instcombine -cfgopt -simplifycfg-lite -loop-simplify -array-burst -promote-global-argument -dce -array-seg-normalize -basicaa -aggrmodref-aa -globalsmodref-aa -aggr-aa -gvn -gvn -basicaa -aggrmodref-aa -globalsmodref-aa -aggr-aa -dse -adse -adce -licm -inst-simplify -dce -globaldce -instcombine -array-stream -eliminate-keepreads -instcombine -dce -deadargelim -doublePtrSimplify -doublePtrElim -dce -doublePtrSimplify -promote-dbg-pointer -dce -scalarrepl -mem2reg -norm-name -mem2reg -instcombine -dse -adse -adce -ptrLegalization -dce -array-flatten -dce -instcombine -check-doubleptr -loop-rot -constprop -inst-simplify -cfgopt -simplifycfg-lite -loop-simplify -indvars -pointer-simplify -dce -loop-bound -loop-simplify -loop-preproc -constprop -global-constprop -gvn -mem2reg -instcombine -dce -loop-bound -loop-merge -dce -deadargelim -dce -canonicalize-dataflow -dce -deadargelim -globaldce -mem2reg -bram-byte-enable -inst-simplify -inst-rectify -instcombine -adce -deadargelim -load-elim -read-loop-dep -loop-simplify -loop-rewind-sink-hoist -loop-outline -hls-dead-arg-elim -directive-preproc -bitwidthmin2 -bitwidthmin2 -read-loop-dep -interface-preproc -directive-preproc -interface-gen -bram-byte-enable-spec-prop -mul2addshift -deadargelim -inst-simplify -dce -mem2reg -instcombine -gvn -dce -adse -loop-bound -instcombine -cfgopt -simplifycfg-lite -loop-simplify -clean-region -io-protocol -find-region -mem2reg -bitop-raise -complex-op-raise -inst-simplify -inst-rectify -instcombine -gvn -adce -deadargelim -float-op-raise -loop-simplify -phi-opt -bitop-raise -cfgopt -simplifycfg-lite -strip-dead-prototypes -interface-lower -bitop-lower -intrinsic-lower -auto-function-inline -basicaa -aggrmodref-aa -globalsmodref-aa -aggr-aa -inst-simplify -simplifycfg-lite -loop-simplify -mergereturn -inst-simplify -inst-rectify -globaldce -dce -load-elim -bitop-lower -float-op-raise -fma-raise -loop-rewind -pointer-simplify -dce -cfgopt -dce -loop-bound -loop-dep -read-loop-dep -dce -dyn-mem-reuse -dce -recurrence-min -dce -share-scalar-alloca -deadargelim -dce -check-stream -norm-name -legalize -inst-clarity -bitwidth -dce -validate-dataflow -dump-loop-dep-to-ir -check-all-ssdm -drop-inferred-ii -dump-complexity-metric C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/a.o.2.bc -o C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/a.o.3.bc -f -phase build-ssdm 
+Execute           AP::auto_get_db
+Command         transform done; 0.109 sec.
+INFO-FLOW: Building ssdm...
+Execute         transform -hls -cdfg-build C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/a.o.3.bc -o C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/a.o.3.bc -f -phase build-ssdm 
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.151 seconds; current allocated memory: 170.430 MB.
+INFO-FLOW: Finish building internal data model.
+Command       opt_and_import_c done; 0.399 sec.
+Command     elaborate done; 33.906 sec.
+Execute     ap_eval exec zip -j C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/dut.hcp $dbDir/a.o.3.bc $dbDir/${topname}.rtl_wrap.cfg.tcl $dbDir/apatb_${topname}.cpp $dbDir/apatb_${topname}_util.cpp $dbDir/apatb_${topname}_ir.ll $dbDir/mapper_${topname}.cpp $dbDir/top-io-fe.xml $dbDir/kernel.internal.xml $workdir/../hls.app 
+Command     ap_eval done; 0.116 sec.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO-FLOW: Synthesizing C/C++ design AP::SynTopModule=cifrador_serial
+INFO: [HLS 200-10] Synthesizing 'cifrador_serial' ...
+Execute     ap_set_top_model cifrador_serial 
+Execute     get_model_list cifrador_serial -filter all-wo-channel -topdown 
+Execute     preproc_iomode -model cifrador_serial 
+Execute     preproc_iomode -model sbox 
+Execute     create_clock 
+Execute       ap_set_clock -name default -period 10 -unit ns -default=false 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+Execute     get_model_list cifrador_serial -filter all-wo-channel 
+INFO-FLOW: Model list for configure: sbox cifrador_serial
+INFO-FLOW: Configuring Module : sbox ...
+Execute     set_default_model sbox 
+Execute     apply_spec_resource_limit sbox 
+INFO-FLOW: Configuring Module : cifrador_serial ...
+Execute     set_default_model cifrador_serial 
+Execute     apply_spec_resource_limit cifrador_serial 
+INFO-FLOW: Model list for preprocess: sbox cifrador_serial
+INFO-FLOW: Preprocessing Module: sbox ...
+Execute     set_default_model sbox 
+Execute     cdfg_preprocess -model sbox 
+Execute     rtl_gen_preprocess sbox 
+INFO-FLOW: Preprocessing Module: cifrador_serial ...
+Execute     set_default_model cifrador_serial 
+Execute     cdfg_preprocess -model cifrador_serial 
+Execute     rtl_gen_preprocess cifrador_serial 
+INFO-FLOW: Model list for synthesis: sbox cifrador_serial
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'sbox' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute     set_default_model sbox 
+Execute     schedule -model sbox 
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'sbox'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 1, function 'sbox'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 1.207 seconds; current allocated memory: 173.676 MB.
+Execute     syn_report -verbosereport -o C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/sbox.verbose.sched.rpt 
+Execute       list_part -family xc7z020-clg400-1 
+Execute         ap_family_info -name xc7z020-clg400-1 -data names 
+Execute         ap_part_info -quiet -name xc7z020-clg400-1 -data family 
+Execute     db_write -o C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/sbox.sched.adb -f 
+INFO-FLOW: Finish scheduling sbox.
+Execute     set_default_model sbox 
+Execute     bind -model sbox 
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.048 seconds; current allocated memory: 174.711 MB.
+Execute     syn_report -verbosereport -o C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/sbox.verbose.bind.rpt 
+Execute       list_part -family xc7z020-clg400-1 
+Execute         ap_family_info -name xc7z020-clg400-1 -data names 
+Execute         ap_part_info -quiet -name xc7z020-clg400-1 -data family 
+Execute     db_write -o C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/sbox.bind.adb -f 
+INFO-FLOW: Finish binding sbox.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'cifrador_serial' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute     set_default_model cifrador_serial 
+Execute     schedule -model cifrador_serial 
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_120_1'.
+WARNING: [HLS 200-882] User specified resource constraint cannot be honored function 'sbox' (II = 1)..
+WARNING: [HLS 200-885] The II Violation in module 'cifrador_serial' (loop 'VITIS_LOOP_120_1'): Unable to schedule 'call' operation 4 bit ('sub_block', Cifrador.cpp:66->Cifrador.cpp:123) to 'sbox' due to limited resources (II = 2).
+WARNING: [HLS 200-885] The II Violation in module 'cifrador_serial' (loop 'VITIS_LOOP_120_1'): Unable to schedule 'call' operation 4 bit ('sub_block', Cifrador.cpp:66->Cifrador.cpp:123) to 'sbox' due to limited resources (II = 3).
+WARNING: [HLS 200-885] The II Violation in module 'cifrador_serial' (loop 'VITIS_LOOP_120_1'): Unable to schedule 'call' operation 4 bit ('sub_block', Cifrador.cpp:66->Cifrador.cpp:123) to 'sbox' due to limited resources (II = 4).
+WARNING: [HLS 200-885] The II Violation in module 'cifrador_serial' (loop 'VITIS_LOOP_120_1'): Unable to schedule 'call' operation 4 bit ('sub_block', Cifrador.cpp:66->Cifrador.cpp:123) to 'sbox' due to limited resources (II = 7).
+WARNING: [HLS 200-885] The II Violation in module 'cifrador_serial' (loop 'VITIS_LOOP_120_1'): Unable to schedule 'call' operation 4 bit ('sub_block', Cifrador.cpp:66->Cifrador.cpp:123) to 'sbox' due to limited resources (II = 8).
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 9, Depth = 9, loop 'VITIS_LOOP_120_1'
+INFO: [SCHED 204-11] Finished scheduling.
+Command     schedule done; 0.308 sec.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.347 seconds; current allocated memory: 175.504 MB.
+Execute     syn_report -verbosereport -o C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/cifrador_serial.verbose.sched.rpt 
+Execute       list_part -family xc7z020-clg400-1 
+Execute         ap_family_info -name xc7z020-clg400-1 -data names 
+Execute         ap_part_info -quiet -name xc7z020-clg400-1 -data family 
+INFO: [HLS 200-2250] Rewind delay = 8 for the pipelined loop 'VITIS_LOOP_120_1' due to a read-after-write dependence on variable 'key_1 (Cifrador.cpp:114)'.
+Execute     db_write -o C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/cifrador_serial.sched.adb -f 
+INFO-FLOW: Finish scheduling cifrador_serial.
+Execute     set_default_model cifrador_serial 
+Execute     bind -model cifrador_serial 
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Starting global binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.183 seconds; current allocated memory: 175.773 MB.
+Execute     syn_report -verbosereport -o C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/cifrador_serial.verbose.bind.rpt 
+Execute       list_part -family xc7z020-clg400-1 
+Execute         ap_family_info -name xc7z020-clg400-1 -data names 
+Execute         ap_part_info -quiet -name xc7z020-clg400-1 -data family 
+Execute     db_write -o C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/cifrador_serial.bind.adb -f 
+INFO-FLOW: Finish binding cifrador_serial.
+Execute     get_model_list cifrador_serial -filter all-wo-channel 
+INFO-FLOW: Preprocessing for RTLGen ...
+Execute     rtl_gen_preprocess sbox 
+Execute     rtl_gen_preprocess cifrador_serial 
+INFO-FLOW: Model list for RTL generation: sbox cifrador_serial
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'sbox' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute     create_rtl_model sbox -top_prefix cifrador_serial_ -sub_prefix cifrador_serial_ -mg_file C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/sbox.compgen.tcl 
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_33_4_4_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'sbox'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.145 seconds; current allocated memory: 177.383 MB.
+Execute     source C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/cifrador_serial.rtl_wrap.cfg.tcl 
+Execute     gen_rtl sbox -style xilinx -f -lang vhdl -o C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/syn/vhdl/cifrador_serial_sbox 
+Execute     gen_rtl sbox -style xilinx -f -lang vlog -o C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/syn/verilog/cifrador_serial_sbox 
+Execute     syn_report -csynth -model sbox -o C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/syn/report/sbox_csynth.rpt 
+Execute       list_part -family xc7z020-clg400-1 
+Execute         ap_family_info -name xc7z020-clg400-1 -data names 
+Execute         ap_part_info -quiet -name xc7z020-clg400-1 -data family 
+Execute     syn_report -rtlxml -model sbox -o C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/syn/report/sbox_csynth.xml 
+Execute       list_part -family xc7z020-clg400-1 
+Execute         ap_family_info -name xc7z020-clg400-1 -data names 
+Execute         ap_part_info -quiet -name xc7z020-clg400-1 -data family 
+Execute     syn_report -verbosereport -model sbox -o C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/sbox.verbose.rpt 
+Execute       list_part -family xc7z020-clg400-1 
+Execute         ap_family_info -name xc7z020-clg400-1 -data names 
+Execute         ap_part_info -quiet -name xc7z020-clg400-1 -data family 
+Execute     db_write -model sbox -f -o C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/sbox.adb 
+Execute     db_write -model sbox -bindview -o C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/design.bindinfo.xml 
+Execute     gen_tb_info sbox -p C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db -o C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/sbox 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'cifrador_serial' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute     create_rtl_model cifrador_serial -top_prefix  -sub_prefix cifrador_serial_ -mg_file C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/cifrador_serial.compgen.tcl 
+WARNING: [RTGEN 206-101] Design contains AXI ports. Reset is fixed to synchronous and active low.
+INFO: [RTGEN 206-500] Setting interface mode on port 'cifrador_serial/plaintext' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'cifrador_serial/key' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'cifrador_serial' to 's_axilite & ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Bundling port 'return', 'plaintext' and 'key' to AXI-Lite port control.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'cifrador_serial'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.244 seconds; current allocated memory: 178.703 MB.
+Execute     source C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/cifrador_serial.rtl_wrap.cfg.tcl 
+Execute     gen_rtl cifrador_serial -istop -style xilinx -f -lang vhdl -o C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/syn/vhdl/cifrador_serial 
+Execute     gen_rtl cifrador_serial -istop -style xilinx -f -lang vlog -o C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/syn/verilog/cifrador_serial 
+Execute     syn_report -csynth -model cifrador_serial -o C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/syn/report/cifrador_serial_csynth.rpt 
+Execute       list_part -family xc7z020-clg400-1 
+Execute         ap_family_info -name xc7z020-clg400-1 -data names 
+Execute         ap_part_info -quiet -name xc7z020-clg400-1 -data family 
+Execute     syn_report -rtlxml -model cifrador_serial -o C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/syn/report/cifrador_serial_csynth.xml 
+Execute       list_part -family xc7z020-clg400-1 
+Execute         ap_family_info -name xc7z020-clg400-1 -data names 
+Execute         ap_part_info -quiet -name xc7z020-clg400-1 -data family 
+Execute     syn_report -verbosereport -model cifrador_serial -o C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/cifrador_serial.verbose.rpt 
+Execute       list_part -family xc7z020-clg400-1 
+Execute         ap_family_info -name xc7z020-clg400-1 -data names 
+Execute         ap_part_info -quiet -name xc7z020-clg400-1 -data family 
+Execute     db_write -model cifrador_serial -f -o C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/cifrador_serial.adb 
+Execute     db_write -model cifrador_serial -bindview -o C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/design.bindinfo.xml 
+Execute     gen_tb_info cifrador_serial -p C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db -o C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/cifrador_serial 
+Execute     export_constraint_db -f -tool general -o C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/cifrador_serial.constraint.tcl 
+Execute     syn_report -designview -model cifrador_serial -o C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/cifrador_serial.design.xml 
+Execute     syn_report -csynthDesign -model cifrador_serial -o C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/syn/report/csynth.rpt -MHOut C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/kernel_module_hierarchy.tcl 
+Execute       list_part -family xc7z020-clg400-1 
+Execute         ap_family_info -name xc7z020-clg400-1 -data names 
+Execute         ap_part_info -quiet -name xc7z020-clg400-1 -data family 
+Execute     syn_report -wcfg -model cifrador_serial -o C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/cifrador_serial_dataflow_ana.wcfg 
+Execute     syn_report -protoinst -model cifrador_serial -o C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/cifrador_serial.protoinst 
+Execute     sc_get_clocks cifrador_serial 
+Execute     sc_get_portdomain cifrador_serial 
+INFO-FLOW: Model list for RTL component generation: sbox cifrador_serial
+INFO-FLOW: Handling components in module [sbox] ... 
+Execute     source C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/sbox.compgen.tcl 
+INFO-FLOW: Found component cifrador_serial_sparsemux_33_4_4_1_1.
+INFO-FLOW: Append model cifrador_serial_sparsemux_33_4_4_1_1
+INFO-FLOW: Handling components in module [cifrador_serial] ... 
+Execute     source C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/cifrador_serial.compgen.tcl 
+INFO-FLOW: Found component cifrador_serial_control_s_axi.
+INFO-FLOW: Append model cifrador_serial_control_s_axi
+INFO-FLOW: Found component cifrador_serial_flow_control_loop_pipe.
+INFO-FLOW: Append model cifrador_serial_flow_control_loop_pipe
+INFO-FLOW: Append model sbox
+INFO-FLOW: Append model cifrador_serial
+INFO-FLOW: Generating RTL model list ...
+INFO-FLOW: All models in this session: cifrador_serial_sparsemux_33_4_4_1_1 cifrador_serial_control_s_axi cifrador_serial_flow_control_loop_pipe sbox cifrador_serial
+INFO-FLOW: Generating C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/autopilot.rtl.models.txt file...
+INFO-FLOW: To file: write model cifrador_serial_sparsemux_33_4_4_1_1
+INFO-FLOW: To file: write model cifrador_serial_control_s_axi
+INFO-FLOW: To file: write model cifrador_serial_flow_control_loop_pipe
+INFO-FLOW: To file: write model sbox
+INFO-FLOW: To file: write model cifrador_serial
+INFO-FLOW: Generating C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/autopilot.rtl.models.tcl file...
+INFO-FLOW: Finished generating RTL model list.
+
+
+INFO-FLOW: RTL Generation done.
+INFO-FLOW: CAS Generation done.
+INFO-FLOW: CBC Generation done.
+Execute     AP::msg_collection_file -close 
+INFO-FLOW: DBG:PROC: ::AESL_AUTOMG::auto_generate_csynth_design
+INFO-FLOW: DBG:PUTS: read_platform_lib C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/global.setting.tcl
+Execute     source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/common/technology/generic/autopilot/common.gen 
+Execute       source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/common/technology/generic/autopilot/APCoreGen.gen 
+Execute     source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/common/technology/generic/autopilot/op.gen 
+Execute     source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/common/technology/generic/autopilot/op_simcore.gen 
+Execute     source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/common/technology/generic/autopilot/interface.gen 
+Execute     source C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/global.setting.tcl 
+Execute     source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/common/technology/xilinx/common/xilinx.gen 
+Execute       source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/common/technology/xilinx/interface/plb46.gen 
+Execute       source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/common/technology/xilinx/interface/axi4.gen 
+Execute       source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute         source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/common/technology/xilinx/interface/saxilite.gen 
+Execute       source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute       source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute       source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/common/technology/xilinx/ip/dds_compiler.gen 
+Execute       source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/common/technology/xilinx/ip/util.gen 
+Execute       source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/common/technology/xilinx/ip/xfft.gen 
+Command       ap_source done; 0.152 sec.
+Execute       source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/common/technology/xilinx/ip/xfir.gen 
+Execute       source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/common/technology/xilinx/DSP48/dsp48.gen 
+Command     ap_source done; 0.219 sec.
+INFO-FLOW: DBG:PUTS:   using AESL_AUTOCG::g_clock_period=10.000 (was NA)
+INFO-FLOW: DBG:PROC: ::AESL_AUTOMG::generate_ip_cores gen_sim_model='1' gen_fp_models='0' gen_for_export='0' dstSCDir='' dstVhdlDir='C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/vhdl' dstVlogDir='C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/vlog' tclDir='C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db' modelList='cifrador_serial_sparsemux_33_4_4_1_1
+cifrador_serial_control_s_axi
+cifrador_serial_flow_control_loop_pipe
+sbox
+cifrador_serial
+' expOnly='0'
+Execute     source C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/global.setting.tcl 
+Execute     ap_part_info -name xc7z020-clg400-1 -data names -quiet 
+Execute     ap_part_info -name xc7z020-clg400-1 -data info -quiet 
+Execute     source C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/global.setting.tcl 
+Execute     source C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/global.setting.tcl 
+Execute     source C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/sbox.compgen.tcl 
+Execute     source C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/cifrador_serial.compgen.tcl 
+Execute       source ./control.slave.tcl 
+Command     ap_source done; 0.229 sec.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0 seconds. CPU system time: 1 seconds. Elapsed time: 1.48 seconds; current allocated memory: 183.820 MB.
+INFO-FLOW: DBG:PROC: ::HLSREPORTS::create_csynth_xml bind_info_var='bind_info' RtlSubPrefix='cifrador_serial_' outfile=''
+INFO-FLOW: Running: create_csynth_xml read xml data
+INFO-FLOW: Done: create_csynth_xml read xml data time: 0 seconds 
+INFO-FLOW: create_csynth_xml: all_module_nodes count=2
+INFO-FLOW: Running: create_csynth_xml bind info
+INFO-FLOW: create_csynth_xml: all_bind_nodes count=14
+INFO-FLOW: Done: create_csynth_xml bind info time: 0 seconds 
+INFO-FLOW: create_csynth_xml: bind_instances counts: modules=2 instances=14
+INFO-FLOW: Running: create_csynth_xml update csynth_xml_module_hier
+INFO-FLOW: Done: create_csynth_xml update csynth_xml_module_hier time: 0 seconds 
+INFO-FLOW: create_csynth_xml: csynth_xml_module_hier max_depth=3
+INFO-FLOW: Running: create_csynth_xml gen bind_report_dict
+INFO-FLOW: Done: create_csynth_xml gen bind_report_dict time: 0 seconds 
+INFO-FLOW: Running: create_csynth_xml config info
+INFO-FLOW: Done: create_csynth_xml config info time: 2 seconds 
+INFO-FLOW: Running: create_csynth_xml write xml
+INFO-FLOW: Done: create_csynth_xml write xml time: 0 seconds 
+INFO-FLOW: DBG:PUTS:      create_csynth_xml wrote csynth_xml=C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/syn/report/csynth.xml
+INFO-FLOW: Running: generate_json
+INFO-FLOW: DBG:PROC: ::AP::DESIGN_DATA::generate_json generate_bd_files='0' generate_xo_files='0' modelList='cifrador_serial_sparsemux_33_4_4_1_1
+cifrador_serial_control_s_axi
+cifrador_serial_flow_control_loop_pipe
+sbox
+cifrador_serial
+' rtl_lang='both' bootstrap_tcl='false' outdir='' outfilename=''
+Execute     source C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/global.setting.tcl 
+Execute     source C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/global.setting.tcl 
+Execute     source C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/top-io-be.tcl 
+Execute     source C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/cifrador_serial.tbgen.tcl 
+Execute     source C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/cifrador_serial.compgen.dataonly.tcl 
+Execute     source C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/cifrador_serial.compgen.dataonly.tcl 
+Execute     source C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/cifrador_serial.rtl_wrap.cfg.tcl 
+Execute     source C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/cifrador_serial.compgen.dataonly.tcl 
+Execute     source C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/sbox.tbgen.tcl 
+Execute     source C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/cifrador_serial.tbgen.tcl 
+Execute     source C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/global.setting.tcl 
+Execute     ap_part_info -name xc7z020-clg400-1 -data names -quiet 
+Execute     ap_part_info -name xc7z020-clg400-1 -data info -quiet 
+Execute     source C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/cifrador_serial.constraint.tcl 
+Execute     sc_get_clocks cifrador_serial 
+Execute     source C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/global.setting.tcl 
+Execute     source C:/Users/Dario/AMDDesignTools/2025.2/Vitis/tps/tcl/tcllib2.0/fileutil/fileutil.tcl 
+INFO-FLOW: Done: generate_json time: 0.6 seconds 
+INFO-FLOW: Running: add_csynth_report_sections
+INFO-FLOW: DBG:PROC: ::HLSREPORTS::add_csynth_report_sections bind_info_dict='adapter_nodes {{BINDTYPE adapter ID {} IMPL {} LATENCY {} OPTYPE {} PRAGMA {} RTLNAME control_s_axi_U SOURCE {} VARIABLE {} LOOP {} BUNDLEDNAME control DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE s_axilite STORAGESIZE {} STORAGEUSAGE interface DISPNAME {bind_adapter }}} cache_nodes {} report_dict {TOPINST cifrador_serial MODULE2INSTS {cifrador_serial cifrador_serial sbox grp_sbox_fu_184} INST2MODULE {cifrador_serial cifrador_serial grp_sbox_fu_184 sbox} INSTDATA {cifrador_serial {DEPTH 1 CHILDREN grp_sbox_fu_184} grp_sbox_fu_184 {DEPTH 2 CHILDREN {}}} MODULEDATA {sbox {BINDINFO {{BINDTYPE op ID {} IMPL compactencoding_dontcare LATENCY 0 OPTYPE sparsemux PRAGMA {} RTLNAME sparsemux_33_4_4_1_1_U1 SOURCE Cifrador.cpp:20 VARIABLE agg_result LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op sparsemux} VISIBLE false}} AREA {DSP 0 BRAM 0 URAM 0}} cifrador_serial {BINDINFO {{BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE xor PRAGMA {} RTLNAME key_5_fu_536_p2 SOURCE Cifrador.cpp:109 VARIABLE key_5 LOOP VITIS_LOOP_120_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op xor} VISIBLE false} {BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE xor PRAGMA {} RTLNAME sub_block_fu_389_p2 SOURCE Cifrador.cpp:39 VARIABLE sub_block LOOP VITIS_LOOP_120_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op xor} VISIBLE false} {BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE xor PRAGMA {} RTLNAME sub_block_4_fu_403_p2 SOURCE Cifrador.cpp:39 VARIABLE sub_block_4 LOOP VITIS_LOOP_120_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op xor} VISIBLE false} {BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE xor PRAGMA {} RTLNAME sub_block_7_fu_416_p2 SOURCE Cifrador.cpp:39 VARIABLE sub_block_7 LOOP VITIS_LOOP_120_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op xor} VISIBLE false} {BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE xor PRAGMA {} RTLNAME sub_block_10_fu_429_p2 SOURCE Cifrador.cpp:39 VARIABLE sub_block_10 LOOP VITIS_LOOP_120_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op xor} VISIBLE false} {BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE xor PRAGMA {} RTLNAME sub_block_13_fu_442_p2 SOURCE Cifrador.cpp:39 VARIABLE sub_block_13 LOOP VITIS_LOOP_120_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op xor} VISIBLE false} {BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE xor PRAGMA {} RTLNAME sub_block_16_fu_455_p2 SOURCE Cifrador.cpp:39 VARIABLE sub_block_16 LOOP VITIS_LOOP_120_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op xor} VISIBLE false} {BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE xor PRAGMA {} RTLNAME sub_block_19_fu_468_p2 SOURCE Cifrador.cpp:39 VARIABLE sub_block_19 LOOP VITIS_LOOP_120_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op xor} VISIBLE false} {BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE xor PRAGMA {} RTLNAME sub_block_22_fu_481_p2 SOURCE Cifrador.cpp:39 VARIABLE sub_block_22 LOOP VITIS_LOOP_120_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op xor} VISIBLE false} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME add_ln120_fu_606_p2 SOURCE Cifrador.cpp:120 VARIABLE add_ln120 LOOP VITIS_LOOP_120_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op add} VISIBLE true} {BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE seteq PRAGMA {} RTLNAME icmp_ln120_fu_612_p2 SOURCE Cifrador.cpp:120 VARIABLE icmp_ln120 LOOP VITIS_LOOP_120_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op seteq} VISIBLE false} {BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE xor PRAGMA {} RTLNAME ap_return SOURCE Cifrador.cpp:44 VARIABLE out LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op xor} VISIBLE false}} AREA {DSP 0 BRAM 0 URAM 0}}}}'
+INFO-FLOW: DBG:PUTS:      update_csynth_reports json2rpt_hw_sw_interfaces
+INFO-FLOW: Running: gen_csynth_sec_pragma
+INFO-FLOW: Done: gen_csynth_sec_pragma time: 0.2 seconds 
+Execute     send_msg_by_id INFO @200-2225@%s C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/syn/inferred_directives.ini 
+INFO: [HLS 200-2225] Wrote inferred directives to file C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/syn/inferred_directives.ini
+INFO-FLOW: DBG:PUTS:      update_csynth_reports wrote xml
+INFO-FLOW: DBG:PUTS:      update_csynth_reports appended to csynth rpt file
+INFO-FLOW: Done: add_csynth_report_sections time: 0.5 seconds 
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 3.126 seconds; current allocated memory: 187.445 MB.
+INFO: [VHDL 208-304] Generating VHDL RTL for cifrador_serial.
+INFO: [VLOG 209-307] Generating Verilog RTL for cifrador_serial.
+Execute     syn_report -model cifrador_serial -printsummary 
+INFO: [HLS 200-790] **** Loop Constraint Status: All loop constraints were NOT satisfied.
+INFO: [HLS 200-789] **** Estimated Fmax: 273.82 MHz
+Execute     AP::msg_collection_file -close 
+Command   csynth_design done; 45.165 sec.
+Execute   close_project 
+Execute     close_solution 
+Execute       cleanup_all 
+Execute       cleanup_all 

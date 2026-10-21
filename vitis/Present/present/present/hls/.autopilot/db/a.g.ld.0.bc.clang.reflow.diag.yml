@@ -1,0 +1,401 @@
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: present.cpp, Line: 99, Column: 29 }
+Function:        _Z12key_scheduleR7ap_uintILi80EEPS_ILi64EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'sbox(ap_uint<4>)'
+    DebugLoc:        { File: present.cpp, Line: 7, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'key_schedule(ap_uint<80>&, ap_uint<64>*)'
+    DebugLoc:        { File: present.cpp, Line: 89, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: present.cpp, Line: 28, Column: 33 }
+Function:        _Z11sustitution7ap_uintILi64EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'sbox(ap_uint<4>)'
+    DebugLoc:        { File: present.cpp, Line: 7, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'sustitution(ap_uint<64>)'
+    DebugLoc:        { File: present.cpp, Line: 22, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: present.cpp, Line: 59, Column: 11 }
+Function:        _Z14round_function7ap_uintILi64EES0_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'permutation(ap_uint<64>)'
+    DebugLoc:        { File: present.cpp, Line: 34, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'round_function(ap_uint<64>, ap_uint<64>)'
+    DebugLoc:        { File: present.cpp, Line: 53, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: present.cpp, Line: 58, Column: 11 }
+Function:        _Z14round_function7ap_uintILi64EES0_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'sustitution(ap_uint<64>)'
+    DebugLoc:        { File: present.cpp, Line: 22, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'round_function(ap_uint<64>, ap_uint<64>)'
+    DebugLoc:        { File: present.cpp, Line: 53, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: present.cpp, Line: 57, Column: 11 }
+Function:        _Z14round_function7ap_uintILi64EES0_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'key_mixing(ap_uint<64>, ap_uint<64>)'
+    DebugLoc:        { File: present.cpp, Line: 48, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'round_function(ap_uint<64>, ap_uint<64>)'
+    DebugLoc:        { File: present.cpp, Line: 53, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: present.cpp, Line: 84, Column: 11 }
+Function:        _Z21last_round_correction7ap_uintILi64EES0_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'key_mixing(ap_uint<64>, ap_uint<64>)'
+    DebugLoc:        { File: present.cpp, Line: 48, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'last_round_correction(ap_uint<64>, ap_uint<64>)'
+    DebugLoc:        { File: present.cpp, Line: 78, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: present.cpp, Line: 113, Column: 5 }
+Function:        _Z7present7ap_uintILi64EES_ILi80EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'key_schedule(ap_uint<80>&, ap_uint<64>*)'
+    DebugLoc:        { File: present.cpp, Line: 89, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'present(ap_uint<64>, ap_uint<80>)'
+    DebugLoc:        { File: present.cpp, Line: 106, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: present.cpp, Line: 118, Column: 13 }
+Function:        _Z7present7ap_uintILi64EES_ILi80EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'last_round_correction(ap_uint<64>, ap_uint<64>)'
+    DebugLoc:        { File: present.cpp, Line: 78, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'present(ap_uint<64>, ap_uint<80>)'
+    DebugLoc:        { File: present.cpp, Line: 106, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: present.cpp, Line: 115, Column: 17 }
+Function:        _Z7present7ap_uintILi64EES_ILi80EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'round_function(ap_uint<64>, ap_uint<64>)'
+    DebugLoc:        { File: present.cpp, Line: 53, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'present(ap_uint<64>, ap_uint<80>)'
+    DebugLoc:        { File: present.cpp, Line: 106, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: present.cpp, Line: 106, Column: 0 }
+Function:        _Z7present7ap_uintILi64EES_ILi80EE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_26_1
+  - String:          ''' ('
+  - LoopLoc:         'present.cpp:26:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          present
+  - String:          ''' completely with a factor of '
+  - Factor:          '16'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: present.cpp, Line: 106, Column: 0 }
+Function:        _Z7present7ap_uintILi64EES_ILi80EE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_39_1
+  - String:          ''' ('
+  - LoopLoc:         'present.cpp:39:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          present
+  - String:          ''' completely with a factor of '
+  - Factor:          '64'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+Function:        apatb_present_ir
+Args:            
+  - Callee:          'present(ap_uint<64>, ap_uint<80>)'
+    DebugLoc:        { File: present.cpp, Line: 106, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          apatb_present_ir
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+Function:        _Z7present7ap_uintILi64EES_ILi80EE
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          table.i.i.i
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+Function:        _Z7present7ap_uintILi64EES_ILi80EE
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          table.i.i
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Failure
+Pass:            reflow-array-partition
+Name:            WarnArrayXFORMOnIndexCast
+DebugLoc:        { File: present.cpp, Line: 19, Column: 12 }
+Function:        _Z7present7ap_uintILi64EES_ILi80EE
+Args:            
+  - String:          Array transformation on index using bit extension logic may lead to poor performance. Please use int or long for array index computation to benefit from optimizations.
+...
+--- !Failure
+Pass:            reflow-array-partition
+Name:            WarnArrayXFORMOnIndexCast
+DebugLoc:        { File: present.cpp, Line: 19, Column: 12 }
+Function:        _Z7present7ap_uintILi64EES_ILi80EE
+Args:            
+  - String:          Array transformation on index using bit extension logic may lead to poor performance. Please use int or long for array index computation to benefit from optimizations.
+...
+--- !Failure
+Pass:            reflow-array-partition
+Name:            WarnArrayXFORMOnIndexCast
+DebugLoc:        { File: present.cpp, Line: 19, Column: 12 }
+Function:        _Z7present7ap_uintILi64EES_ILi80EE
+Args:            
+  - String:          Array transformation on index using bit extension logic may lead to poor performance. Please use int or long for array index computation to benefit from optimizations.
+...
+--- !Failure
+Pass:            reflow-array-partition
+Name:            WarnArrayXFORMOnIndexCast
+DebugLoc:        { File: present.cpp, Line: 19, Column: 12 }
+Function:        _Z7present7ap_uintILi64EES_ILi80EE
+Args:            
+  - String:          Array transformation on index using bit extension logic may lead to poor performance. Please use int or long for array index computation to benefit from optimizations.
+...
+--- !Failure
+Pass:            reflow-array-partition
+Name:            WarnArrayXFORMOnIndexCast
+DebugLoc:        { File: present.cpp, Line: 19, Column: 12 }
+Function:        _Z7present7ap_uintILi64EES_ILi80EE
+Args:            
+  - String:          Array transformation on index using bit extension logic may lead to poor performance. Please use int or long for array index computation to benefit from optimizations.
+...
+--- !Failure
+Pass:            reflow-array-partition
+Name:            WarnArrayXFORMOnIndexCast
+DebugLoc:        { File: present.cpp, Line: 19, Column: 12 }
+Function:        _Z7present7ap_uintILi64EES_ILi80EE
+Args:            
+  - String:          Array transformation on index using bit extension logic may lead to poor performance. Please use int or long for array index computation to benefit from optimizations.
+...
+--- !Failure
+Pass:            reflow-array-partition
+Name:            WarnArrayXFORMOnIndexCast
+DebugLoc:        { File: present.cpp, Line: 19, Column: 12 }
+Function:        _Z7present7ap_uintILi64EES_ILi80EE
+Args:            
+  - String:          Array transformation on index using bit extension logic may lead to poor performance. Please use int or long for array index computation to benefit from optimizations.
+...
+--- !Failure
+Pass:            reflow-array-partition
+Name:            WarnArrayXFORMOnIndexCast
+DebugLoc:        { File: present.cpp, Line: 19, Column: 12 }
+Function:        _Z7present7ap_uintILi64EES_ILi80EE
+Args:            
+  - String:          Array transformation on index using bit extension logic may lead to poor performance. Please use int or long for array index computation to benefit from optimizations.
+...
+--- !Failure
+Pass:            reflow-array-partition
+Name:            WarnArrayXFORMOnIndexCast
+DebugLoc:        { File: present.cpp, Line: 19, Column: 12 }
+Function:        _Z7present7ap_uintILi64EES_ILi80EE
+Args:            
+  - String:          Array transformation on index using bit extension logic may lead to poor performance. Please use int or long for array index computation to benefit from optimizations.
+...
+--- !Failure
+Pass:            reflow-array-partition
+Name:            WarnArrayXFORMOnIndexCast
+DebugLoc:        { File: present.cpp, Line: 19, Column: 12 }
+Function:        _Z7present7ap_uintILi64EES_ILi80EE
+Args:            
+  - String:          Array transformation on index using bit extension logic may lead to poor performance. Please use int or long for array index computation to benefit from optimizations.
+...
+--- !Failure
+Pass:            reflow-array-partition
+Name:            WarnArrayXFORMOnIndexCast
+DebugLoc:        { File: present.cpp, Line: 19, Column: 12 }
+Function:        _Z7present7ap_uintILi64EES_ILi80EE
+Args:            
+  - String:          Array transformation on index using bit extension logic may lead to poor performance. Please use int or long for array index computation to benefit from optimizations.
+...
+--- !Failure
+Pass:            reflow-array-partition
+Name:            WarnArrayXFORMOnIndexCast
+DebugLoc:        { File: present.cpp, Line: 19, Column: 12 }
+Function:        _Z7present7ap_uintILi64EES_ILi80EE
+Args:            
+  - String:          Array transformation on index using bit extension logic may lead to poor performance. Please use int or long for array index computation to benefit from optimizations.
+...
+--- !Failure
+Pass:            reflow-array-partition
+Name:            WarnArrayXFORMOnIndexCast
+DebugLoc:        { File: present.cpp, Line: 19, Column: 12 }
+Function:        _Z7present7ap_uintILi64EES_ILi80EE
+Args:            
+  - String:          Array transformation on index using bit extension logic may lead to poor performance. Please use int or long for array index computation to benefit from optimizations.
+...
+--- !Failure
+Pass:            reflow-array-partition
+Name:            WarnArrayXFORMOnIndexCast
+DebugLoc:        { File: present.cpp, Line: 19, Column: 12 }
+Function:        _Z7present7ap_uintILi64EES_ILi80EE
+Args:            
+  - String:          Array transformation on index using bit extension logic may lead to poor performance. Please use int or long for array index computation to benefit from optimizations.
+...
+--- !Failure
+Pass:            reflow-array-partition
+Name:            WarnArrayXFORMOnIndexCast
+DebugLoc:        { File: present.cpp, Line: 19, Column: 12 }
+Function:        _Z7present7ap_uintILi64EES_ILi80EE
+Args:            
+  - String:          Array transformation on index using bit extension logic may lead to poor performance. Please use int or long for array index computation to benefit from optimizations.
+...
+--- !Failure
+Pass:            reflow-array-partition
+Name:            WarnArrayXFORMOnIndexCast
+DebugLoc:        { File: present.cpp, Line: 19, Column: 12 }
+Function:        _Z7present7ap_uintILi64EES_ILi80EE
+Args:            
+  - String:          Array transformation on index using bit extension logic may lead to poor performance. Please use int or long for array index computation to benefit from optimizations.
+...
+--- !Failure
+Pass:            reflow-array-partition
+Name:            WarnArrayXFORMOnIndexCast
+DebugLoc:        { File: present.cpp, Line: 19, Column: 12 }
+Function:        _Z7present7ap_uintILi64EES_ILi80EE
+Args:            
+  - String:          Array transformation on index using bit extension logic may lead to poor performance. Please use int or long for array index computation to benefit from optimizations.
+...
+--- !HLSReportInfo
+Pass:            reflow-auto-loop-pipeline
+Name:            AutoLoopPipeline
+Args:            
+  - String:          'Pipelining loop< '
+  - LoopName:        VITIS_LOOP_92_1
+  - String:          '> at '
+  - LoopLoc:         'present.cpp:92:22'
+  - String:          ' due to pipeline_loops threshold'
+...
+--- !Passed
+Pass:            reflow-auto-loop-pipeline
+Name:            AutoParallelPerformanceDrivenVerbosePassed
+DebugLoc:        { File: present.cpp, Line: 92, Column: 22 }
+Function:        _Z7present7ap_uintILi64EES_ILi80EE
+Args:            
+  - PragmaType:      pipeline
+  - String:          ' '
+  - PragmaOptions:   ' '
+  - String:          ' '
+  - PragmaIsAuto:    '1'
+  - String:          ' '
+  - PragmaFunction:  present
+  - String:          ' '
+  - PragmaInferReason: config_compile -pipeline_loops 64
+  - LoopName:        VITIS_LOOP_92_1
+  - String:          ' '
+  - LoopLoc:         'present.cpp:92:22'
+    DebugLoc:        { File: present.cpp, Line: 92, Column: 22 }
+  - String:          ' '
+...
+--- !HLSReportInfo
+Pass:            reflow-auto-loop-pipeline
+Name:            AutoLoopPipeline
+Args:            
+  - String:          'Pipelining loop< '
+  - LoopName:        VITIS_LOOP_114_1
+  - String:          '> at '
+  - LoopLoc:         'present.cpp:114:23'
+  - String:          ' due to pipeline_loops threshold'
+...
+--- !Passed
+Pass:            reflow-auto-loop-pipeline
+Name:            AutoParallelPerformanceDrivenVerbosePassed
+DebugLoc:        { File: present.cpp, Line: 114, Column: 23 }
+Function:        _Z7present7ap_uintILi64EES_ILi80EE
+Args:            
+  - PragmaType:      pipeline
+  - String:          ' '
+  - PragmaOptions:   ' '
+  - String:          ' '
+  - PragmaIsAuto:    '1'
+  - String:          ' '
+  - PragmaFunction:  present
+  - String:          ' '
+  - PragmaInferReason: config_compile -pipeline_loops 64
+  - LoopName:        VITIS_LOOP_114_1
+  - String:          ' '
+  - LoopLoc:         'present.cpp:114:23'
+    DebugLoc:        { File: present.cpp, Line: 114, Column: 23 }
+  - String:          ' '
+...

@@ -1,0 +1,62 @@
+INFO: [SIM 2] *************** CSIM start ***************
+   Compiling ../../../../test.cpp in debug mode
+   Compiling ../../../../Cifrador.cpp in debug mode
+   Generating csim.exe
+======================================
+  cifrador_serial – HLS Testbench
+======================================
+
+Test vector 0
+  Plaintext :       0x00000000
+  Key (hi32):       0x00000000
+  HLS result:       0x2D15D21E
+  SW  result:       0x2D15D21E
+  --> PASS
+
+Test vector 1
+  Plaintext :       0xFFFFFFFF
+  Key (hi32):       0xFFFFFFFF
+  HLS result:       0x459ECD3C
+  SW  result:       0x459ECD3C
+  --> PASS
+
+Test vector 2
+  Plaintext :       0x12345678
+  Key (hi32):       0xDEADBEEF
+  HLS result:       0xDA0A78CB
+  SW  result:       0xDA0A78CB
+  --> PASS
+
+Test vector 3
+  Plaintext :       0xA5A5A5A5
+  Key (hi32):       0x12345670
+  HLS result:       0x89008261
+  SW  result:       0x89008261
+  --> PASS
+
+Test vector 4
+  Plaintext :       0xDEADC0DE
+  Key (hi32):       0xFEEDFACE
+  HLS result:       0xC1A85E73
+  SW  result:       0xC1A85E73
+  --> PASS
+
+Test vector 5
+  Plaintext :       0x10000000
+  Key (hi32):       0x80000000
+  HLS result:       0xDA0A6D2E
+  SW  result:       0xDA0A6D2E
+  --> PASS
+
+Test vector 6
+  Plaintext :       0x80000000
+  Key (hi32):       0x00000000
+  HLS result:       0xE15FA74D
+  SW  result:       0xE15FA74D
+  --> PASS
+
+======================================
+  ALL 7 TESTS PASSED
+======================================
+INFO: [SIM 1] CSim done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************

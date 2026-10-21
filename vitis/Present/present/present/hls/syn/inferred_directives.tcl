@@ -1,0 +1,3 @@
+# Inferred from syn.compile.pipeline_loops=64
+set_directive_pipeline present/VITIS_LOOP_92_1
+set_directive_pipeline present/VITIS_LOOP_114_1

@@ -1,0 +1,156 @@
+<ENTRY>
+{
+ "thisFile": "C:/Users\\Dario\\Documents\\TFG\\Vitis\\Cifrados\\cifrador_basico_unroll_16\\cifrador_basico_unroll_16\\cifrador_basico_unroll_16.hlsrun_package_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "04/02/26 19:20:16",
+ "timestampMillis": "1775150416683",
+ "buildStep": {
+  "cmdId": "8ff80c03-e53d-4356-9177-00b3c71f0429",
+  "name": "vitis-run",
+  "logFile": "C:/Users\\Dario\\Documents\\TFG\\Vitis\\Cifrados\\cifrador_basico_unroll_16\\cifrador_basico_unroll_16\\logs\\cifrador_basico_unroll_16.steps.log",
+  "commandLine": "C:/Users/Dario/AMDDesignTools/2025.2/Vitis/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --package --config C:\\Users\\Dario\\Documents\\TFG\\Vitis\\Cifrados\\cifrador_basico_unroll_16\\hls_config.cfg --work_dir cifrador_basico_unroll_16 ",
+  "args": [
+   "--mode",
+   "hls",
+   "--package",
+   "--config",
+   "C:\\Users\\Dario\\Documents\\TFG\\Vitis\\Cifrados\\cifrador_basico_unroll_16\\hls_config.cfg",
+   "--work_dir",
+   "cifrador_basico_unroll_16"
+  ],
+  "iniFiles": [],
+  "cwd": "C:\\Users\\Dario\\Documents\\TFG\\Vitis\\Cifrados\\cifrador_basico_unroll_16"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "04/02/26 19:20:16",
+ "timestampMillis": "1775150416684",
+ "status": {
+  "cmdId": "8ff80c03-e53d-4356-9177-00b3c71f0429",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "04/02/26 19:20:32",
+ "timestampMillis": "1775150432470",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_IP",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "cifrador_basico_unroll_16",
+     "file": "C:/Users\\Dario\\Documents\\TFG\\Vitis\\Cifrados\\cifrador_basico_unroll_16\\cifrador_basico_unroll_16\\cifrador_basico_unroll_16.zip",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "C:/Users\\Dario\\Documents\\TFG\\Vitis\\Cifrados\\cifrador_basico_unroll_16\\Cifrador.cpp"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2025.2"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "04/02/26 19:20:32",
+ "timestampMillis": "1775150432474",
+ "buildStep": {
+  "cmdId": "e9228da5-91c1-4c0c-9965-2c6dc34fd1f6",
+  "name": "",
+  "logFile": "C:/Users\\Dario\\Documents\\TFG\\Vitis\\Cifrados\\cifrador_basico_unroll_16\\cifrador_basico_unroll_16\\hls\\hls.log",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "C:\\Users\\Dario\\Documents\\TFG\\Vitis\\Cifrados\\cifrador_basico_unroll_16"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "04/02/26 19:20:32",
+ "timestampMillis": "1775150432475",
+ "status": {
+  "cmdId": "e9228da5-91c1-4c0c-9965-2c6dc34fd1f6",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "04/02/26 19:21:09",
+ "timestampMillis": "1775150469034",
+ "status": {
+  "cmdId": "e9228da5-91c1-4c0c-9965-2c6dc34fd1f6",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "04/02/26 19:21:09",
+ "timestampMillis": "1775150469254",
+ "status": {
+  "cmdId": "8ff80c03-e53d-4356-9177-00b3c71f0429",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "04/02/26 19:21:09",
+ "timestampMillis": "1775150469255",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "04/02/26 19:21:09",
+ "timestampMillis": "1775150469255",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

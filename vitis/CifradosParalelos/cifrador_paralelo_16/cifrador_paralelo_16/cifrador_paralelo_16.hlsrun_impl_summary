@@ -1,0 +1,190 @@
+<ENTRY>
+{
+ "thisFile": "C:/Users\\Dario\\Documents\\TFG\\Vitis\\CifradosParalelos\\cifrador_paralelo_16\\cifrador_paralelo_16\\cifrador_paralelo_16.hlsrun_impl_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "04/02/26 23:38:18",
+ "timestampMillis": "1775165898206",
+ "buildStep": {
+  "cmdId": "8150810f-ad0c-4aef-94da-1a15fcf0bb13",
+  "name": "vitis-run",
+  "logFile": "C:/Users\\Dario\\Documents\\TFG\\Vitis\\CifradosParalelos\\cifrador_paralelo_16\\cifrador_paralelo_16\\logs\\cifrador_paralelo_16.steps.log",
+  "commandLine": "C:/Users/Dario/AMDDesignTools/2025.2/Vitis/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --impl --config C:\\Users\\Dario\\Documents\\TFG\\Vitis\\CifradosParalelos\\cifrador_paralelo_16\\hls_config.cfg --work_dir cifrador_paralelo_16 ",
+  "args": [
+   "--mode",
+   "hls",
+   "--impl",
+   "--config",
+   "C:\\Users\\Dario\\Documents\\TFG\\Vitis\\CifradosParalelos\\cifrador_paralelo_16\\hls_config.cfg",
+   "--work_dir",
+   "cifrador_paralelo_16"
+  ],
+  "iniFiles": [],
+  "cwd": "C:\\Users\\Dario\\Documents\\TFG\\Vitis\\CifradosParalelos\\cifrador_paralelo_16"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "04/02/26 23:38:18",
+ "timestampMillis": "1775165898206",
+ "status": {
+  "cmdId": "8150810f-ad0c-4aef-94da-1a15fcf0bb13",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "04/02/26 23:38:30",
+ "timestampMillis": "1775165910320",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_IMPL",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "cifrador_paralelo_16",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "C:/Users\\Dario\\Documents\\TFG\\Vitis\\CifradosParalelos\\cifrador_paralelo_16\\Cifrador.cpp"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2025.2"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "04/02/26 23:38:30",
+ "timestampMillis": "1775165910323",
+ "buildStep": {
+  "cmdId": "99db271e-3319-488f-b0bc-15e7930a97a9",
+  "name": "",
+  "logFile": "C:/Users\\Dario\\Documents\\TFG\\Vitis\\CifradosParalelos\\cifrador_paralelo_16\\cifrador_paralelo_16\\hls\\hls.log",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "C:\\Users\\Dario\\Documents\\TFG\\Vitis\\CifradosParalelos\\cifrador_paralelo_16"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "04/02/26 23:38:30",
+ "timestampMillis": "1775165910324",
+ "status": {
+  "cmdId": "99db271e-3319-488f-b0bc-15e7930a97a9",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "04/02/26 23:38:30",
+ "timestampMillis": "1775165910333",
+ "report": {
+  "path": "C:/Users\\Dario\\Documents\\TFG\\Vitis\\CifradosParalelos\\cifrador_paralelo_16\\cifrador_paralelo_16\\hls\\impl\\verilog",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_RTL_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "04/02/26 23:38:30",
+ "timestampMillis": "1775165910334",
+ "report": {
+  "path": "C:/Users\\Dario\\Documents\\TFG\\Vitis\\CifradosParalelos\\cifrador_paralelo_16\\cifrador_paralelo_16\\hls\\impl\\report\\verilog\\export_syn.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "HLS_RTL_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "04/02/26 23:38:30",
+ "timestampMillis": "1775165910336",
+ "report": {
+  "path": "C:/Users\\Dario\\Documents\\TFG\\Vitis\\CifradosParalelos\\cifrador_paralelo_16\\cifrador_paralelo_16\\hls\\impl\\report\\verilog\\export_syn.xml",
+  "name": "",
+  "fileType": "XML",
+  "reportType": "HLS_RTL_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "04/02/26 23:38:30",
+ "timestampMillis": "1775165910338",
+ "report": {
+  "path": "C:/Users\\Dario\\Documents\\TFG\\Vitis\\CifradosParalelos\\cifrador_paralelo_16\\cifrador_paralelo_16\\hls\\impl\\verilog",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_PLACE_AND_ROUTE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "04/02/26 23:38:30",
+ "timestampMillis": "1775165910340",
+ "report": {
+  "path": "C:/Users\\Dario\\Documents\\TFG\\Vitis\\CifradosParalelos\\cifrador_paralelo_16\\cifrador_paralelo_16\\hls\\impl\\report\\verilog\\export_impl.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "HLS_PLACE_AND_ROUTE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "04/02/26 23:38:30",
+ "timestampMillis": "1775165910341",
+ "report": {
+  "path": "C:/Users\\Dario\\Documents\\TFG\\Vitis\\CifradosParalelos\\cifrador_paralelo_16\\cifrador_paralelo_16\\hls\\impl\\report\\verilog\\export_impl.xml",
+  "name": "",
+  "fileType": "XML",
+  "reportType": "HLS_PLACE_AND_ROUTE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

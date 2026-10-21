@@ -1,0 +1,53 @@
+<profile>
+
+<section name = "Vitis HLS Report for 'cifrador_paralelo_8'" level="0">
+<item name = "Date">Thu Apr  2 23:43:07 2026
+</item>
+<item name = "Version">2025.2 (Build 6295257 on Nov 14 2025)</item>
+<item name = "Project">cifrador_paralelo_8</item>
+<item name = "Solution">hls (Vivado IP Flow Target)</item>
+<item name = "Product family">zynq</item>
+<item name = "Target device">xc7z020-clg400-1</item>
+</section>
+
+<section name = "Performance Estimates" level="0">
+<item name = "Timing">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="4">Clock, Target, Estimated, Uncertainty</keys>
+<column name="ap_clk">10.00 ns, 4.645 ns, 2.70 ns</column>
+</table>
+</item>
+</section>
+</item>
+<item name = "Latency">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="8">, min, max, min, max, min, max, Type</keys>
+<column name="">34, 34, 0.340 us, 0.340 us, 35, 35, no</column>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="0">
+<keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
+<column name="grp_cifrador_fu_206">cifrador, 33, 33, 0.330 us, 0.330 us, 0, 0, loop pipeline stp</column>
+<column name="grp_cifrador_fu_215">cifrador, 33, 33, 0.330 us, 0.330 us, 0, 0, loop pipeline stp</column>
+<column name="grp_cifrador_fu_224">cifrador, 33, 33, 0.330 us, 0.330 us, 0, 0, loop pipeline stp</column>
+<column name="grp_cifrador_fu_233">cifrador, 33, 33, 0.330 us, 0.330 us, 0, 0, loop pipeline stp</column>
+<column name="grp_cifrador_fu_242">cifrador, 33, 33, 0.330 us, 0.330 us, 0, 0, loop pipeline stp</column>
+<column name="grp_cifrador_fu_251">cifrador, 33, 33, 0.330 us, 0.330 us, 0, 0, loop pipeline stp</column>
+<column name="grp_cifrador_fu_260">cifrador, 33, 33, 0.330 us, 0.330 us, 0, 0, loop pipeline stp</column>
+<column name="grp_cifrador_fu_269">cifrador, 33, 33, 0.330 us, 0.330 us, 0, 0, loop pipeline stp</column>
+</table>
+</item>
+<item name = "Loop"><table name="" hasTotal="0">
+<keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+</table>
+</item>
+</section>
+</item>
+</section>
+</item>
+</section>
+</profile>

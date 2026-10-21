@@ -1,0 +1,41 @@
+  **** HLS Build v2025.2 6295257
+INFO: [HLS 200-2005] Using work_dir C:/Users/Dario/Documents/TFG/Vitis/CifradorBasico/cifrador_basico/cifrador_basico 
+INFO: [HLS 200-2176] Writing Vitis IDE component file C:/Users/Dario/Documents/TFG/Vitis/CifradorBasico/cifrador_basico/cifrador_basico/vitis-comp.json
+INFO: [HLS 200-10] Creating and opening component 'C:/Users/Dario/Documents/TFG/Vitis/CifradorBasico/cifrador_basico/cifrador_basico'.
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-2174] Applying component config ini file hls_config.cfg
+INFO: [HLS 200-1465] Applying config ini 'syn.file=Cifrador.cpp' from hls_config.cfg(9)
+INFO: [HLS 200-10] Adding design file 'C:/Users/Dario/Documents/TFG/Vitis/CifradorBasico/cifrador_basico/Cifrador.cpp' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.file=cifrador_basico.h' from hls_config.cfg(10)
+INFO: [HLS 200-10] Adding design file 'C:/Users/Dario/Documents/TFG/Vitis/CifradorBasico/cifrador_basico/cifrador_basico.h' to the project
+INFO: [HLS 200-1465] Applying config ini 'tb.file=Cifrador_test.cpp' from hls_config.cfg(7)
+INFO: [HLS 200-10] Adding test bench file 'C:/Users/Dario/Documents/TFG/Vitis/CifradorBasico/cifrador_basico/Cifrador_test.cpp' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.top=cifrador_basico' from hls_config.cfg(8)
+INFO: [HLS 200-1465] Applying config ini 'flow_target=vivado' from hls_config.cfg(4)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying config ini 'part=xc7z020clg400-1' from hls_config.cfg(1)
+INFO: [HLS 200-1465] Applying config ini 'package.output.format=ip_catalog' from hls_config.cfg(5)
+INFO: [HLS 200-2176] Writing Vitis IDE component file C:/Users/Dario/Documents/TFG/Vitis/CifradorBasico/cifrador_basico/cifrador_basico/vitis-comp.json
+INFO: [COSIM 212-47] Using XSIM for RTL simulation.
+INFO: [COSIM 212-14] Instrumenting C test bench ...
+   Build using "C:/Users/Dario/AMDDesignTools/2025.2/Vitis/win64/tools/clang-16/bin/clang++"
+   Compiling Cifrador.cpp_pre.cpp.tb.cpp
+   Compiling Cifrador_test.cpp_pre.cpp.tb.cpp
+   Compiling apatb_cifrador_basico.cpp
+   Compiling apatb_cifrador_basico_ir.ll
+   Generating cosim.tv.exe
+INFO: [COSIM 212-302] Starting C TB testing ... 
+[FALLO] Test 0 | Obtenido: 0x2d15d21e | Esperado: 0x0
+[FALLO] Test 1 | Obtenido: 0x459ecd3c | Esperado: 0x0
+[FALLO] Test 2 | Obtenido: 0xf9097518 | Esperado: 0x0
+
+Resultado: 0/3 tests superados
+ERROR: [COSIM 212-359] Aborting co-simulation: C TB simulation failed, nonzero return value '3'.
+ERROR: [COSIM 212-320] C TB testing failed, stop generating test vectors. Please check C TB or re-run cosim.
+ERROR: [COSIM 212-5] *** C/RTL co-simulation file generation failed. ***
+ERROR: [COSIM 212-4] *** C/RTL co-simulation finished: FAIL ***
+ERROR: 
+INFO: [HLS 200-112] Total CPU user time: 3 seconds. Total CPU system time: 3 seconds. Total elapsed time: 39.155 seconds; peak allocated memory: 205.578 MB.

@@ -1,0 +1,112 @@
+---
+MainSourceFile:  'C:/Users/Dario/Documents/TFG/Vitis/CifradosParalelos/cifrador_paralelo_stream/cifrador_paralelo_stream/hls/.autopilot/db/Cifrador.pp.0.cpp'
+Diagnostics:
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_676_1:  '
+      FilePath:        'C:\Users\Dario\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\ap_int_ref.h'
+      FileOffset:      676
+      Replacements:
+        - FilePath:        'C:\Users\Dario\Documents\TFG\Vitis\CifradosParalelos\cifrador_paralelo_stream\cifrador_paralelo_stream\hls\.autopilot\db\Cifrador.pp.0.cpp'
+          Offset:          280841
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_676_1: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\Dario\Documents\TFG\Vitis\CifradosParalelos\cifrador_paralelo_stream'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_690_1:  '
+      FilePath:        'C:\Users\Dario\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\ap_int_ref.h'
+      FileOffset:      690
+      Replacements:
+        - FilePath:        'C:\Users\Dario\Documents\TFG\Vitis\CifradosParalelos\cifrador_paralelo_stream\cifrador_paralelo_stream\hls\.autopilot\db\Cifrador.pp.0.cpp'
+          Offset:          281312
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_690_1: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\Dario\Documents\TFG\Vitis\CifradosParalelos\cifrador_paralelo_stream'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_704_1:  '
+      FilePath:        'C:\Users\Dario\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\ap_int_ref.h'
+      FileOffset:      704
+      Replacements:
+        - FilePath:        'C:\Users\Dario\Documents\TFG\Vitis\CifradosParalelos\cifrador_paralelo_stream\cifrador_paralelo_stream\hls\.autopilot\db\Cifrador.pp.0.cpp'
+          Offset:          281784
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_704_1: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\Dario\Documents\TFG\Vitis\CifradosParalelos\cifrador_paralelo_stream'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_1251_1:  '
+      FilePath:        'C:\Users\Dario\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\ap_fixed_base.h'
+      FileOffset:      1251
+      Replacements:
+        - FilePath:        'C:\Users\Dario\Documents\TFG\Vitis\CifradosParalelos\cifrador_paralelo_stream\cifrador_paralelo_stream\hls\.autopilot\db\Cifrador.pp.0.cpp'
+          Offset:          627847
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_1251_1: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\Dario\Documents\TFG\Vitis\CifradosParalelos\cifrador_paralelo_stream'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_27_1:  '
+      FilePath:        Cifrador.cpp
+      FileOffset:      27
+      Replacements:
+        - FilePath:        'C:\Users\Dario\Documents\TFG\Vitis\CifradosParalelos\cifrador_paralelo_stream\cifrador_paralelo_stream\hls\.autopilot\db\Cifrador.pp.0.cpp'
+          Offset:          2252017
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_27_1: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\Dario\Documents\TFG\Vitis\CifradosParalelos\cifrador_paralelo_stream'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_40_1:  '
+      FilePath:        Cifrador.cpp
+      FileOffset:      40
+      Replacements:
+        - FilePath:        'C:\Users\Dario\Documents\TFG\Vitis\CifradosParalelos\cifrador_paralelo_stream\cifrador_paralelo_stream\hls\.autopilot\db\Cifrador.pp.0.cpp'
+          Offset:          2252228
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_40_1: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\Dario\Documents\TFG\Vitis\CifradosParalelos\cifrador_paralelo_stream'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_70_1:  '
+      FilePath:        Cifrador.cpp
+      FileOffset:      70
+      Replacements:
+        - FilePath:        'C:\Users\Dario\Documents\TFG\Vitis\CifradosParalelos\cifrador_paralelo_stream\cifrador_paralelo_stream\hls\.autopilot\db\Cifrador.pp.0.cpp'
+          Offset:          2252753
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_70_1: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\Dario\Documents\TFG\Vitis\CifradosParalelos\cifrador_paralelo_stream'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_93_1:  '
+      FilePath:        Cifrador.cpp
+      FileOffset:      93
+      Replacements:
+        - FilePath:        'C:\Users\Dario\Documents\TFG\Vitis\CifradosParalelos\cifrador_paralelo_stream\cifrador_paralelo_stream\hls\.autopilot\db\Cifrador.pp.0.cpp'
+          Offset:          2253241
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_93_1: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\Dario\Documents\TFG\Vitis\CifradosParalelos\cifrador_paralelo_stream'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_115_1:  '
+      FilePath:        Cifrador.cpp
+      FileOffset:      115
+      Replacements:
+        - FilePath:        'C:\Users\Dario\Documents\TFG\Vitis\CifradosParalelos\cifrador_paralelo_stream\cifrador_paralelo_stream\hls\.autopilot\db\Cifrador.pp.0.cpp'
+          Offset:          2253721
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_115_1: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\Dario\Documents\TFG\Vitis\CifradosParalelos\cifrador_paralelo_stream'
+...

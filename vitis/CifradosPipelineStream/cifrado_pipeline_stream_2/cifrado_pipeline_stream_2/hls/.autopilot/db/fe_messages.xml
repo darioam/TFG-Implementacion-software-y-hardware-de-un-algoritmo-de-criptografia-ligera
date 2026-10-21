@@ -1,0 +1,360 @@
+<xilinx:hls_fe_msgs>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="C:/Users/Dario/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\ap_axi_sdata.h:149:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="get_data" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="C:/Users/Dario/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\ap_axi_sdata.h:154:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="set_data" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="C:/Users/Dario/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\ap_axi_sdata.h:255:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="keep_all" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="C:/Users/Dario/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\ap_axi_sdata.h:372:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="empty" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="C:/Users/Dario/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\ap_axi_sdata.h:380:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="full" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="C:/Users/Dario/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\ap_axi_sdata.h:389:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="read" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="C:/Users/Dario/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\ap_axi_sdata.h:400:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="read" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="C:/Users/Dario/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\ap_axi_sdata.h:412:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="write" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="C:/Users/Dario/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\ap_axi_sdata.h:423:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="read_nb" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="C:/Users/Dario/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\ap_axi_sdata.h:440:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="write_nb" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="Cifrador.cpp:10:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="sbox" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="Cifrador.cpp:19:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="sbox" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=table complete" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="Cifrador.cpp:25:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="sustitution" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="Cifrador.cpp:29:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="sustitution" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="Cifrador.cpp:37:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="permutation" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="Cifrador.cpp:42:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="permutation" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="Cifrador.cpp:51:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="key_mixing" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="Cifrador.cpp:56:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="round_function" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="Cifrador.cpp:67:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="permutation_inverse" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="Cifrador.cpp:72:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="permutation_inverse" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="Cifrador.cpp:81:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="last_round_correction" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="Cifrador.cpp:92:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="key_schedule" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="Cifrador.cpp:111:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="stage" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="Cifrador.cpp:112:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="stage" ARG_PragmaIsValid="1" ARG_PragmaOptions="off" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="Cifrador.cpp:113:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="stage" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=1 max=1" ARG_PragmaType="latency" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="Cifrador.cpp:121:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="last_stage" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="Cifrador.cpp:122:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="last_stage" ARG_PragmaIsValid="1" ARG_PragmaOptions="off" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="Cifrador.cpp:123:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="last_stage" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=1 max=1" ARG_PragmaType="latency" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="Cifrador.cpp:132:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="run" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="Cifrador.cpp:141:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="run" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="Cifrador.cpp:142:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="run" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="directive:1:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="cifrador_pipeline_stream_2" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=cifrador_pipeline_stream_2" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="Cifrador.cpp:157:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="cifrador_pipeline_stream_2" ARG_PragmaIsValid="1" ARG_PragmaOptions="axis port=in_stream" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="Cifrador.cpp:158:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="cifrador_pipeline_stream_2" ARG_PragmaIsValid="1" ARG_PragmaOptions="axis port=out_stream" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="Cifrador.cpp:159:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="cifrador_pipeline_stream_2" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=key" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="Cifrador.cpp:160:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="cifrador_pipeline_stream_2" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=return" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="Cifrador.cpp:163:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="cifrador_pipeline_stream_2" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=round_keys complete" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="Cifrador.cpp:167:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="cifrador_pipeline_stream_2" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="Cifrador.cpp:175:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="cifrador_pipeline_stream_2" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="Cifrador.cpp:100:25" msg_body="Inlining function 'sbox(ap_uint&lt;4&gt;)' into 'key_schedule(ap_uint&lt;64&gt;&amp;, int)'">
+        <args Callee="sbox(ap_uint&lt;4&gt;)" Callee-DebugLoc="File Cifrador.cpp Line 9 Column 0" Caller="key_schedule(ap_uint&lt;64&gt;&amp;, int)" Caller-DebugLoc="File Cifrador.cpp Line 91 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="Cifrador.cpp:30:33" msg_body="Inlining function 'sbox(ap_uint&lt;4&gt;)' into 'sustitution(ap_uint&lt;32&gt;)'">
+        <args Callee="sbox(ap_uint&lt;4&gt;)" Callee-DebugLoc="File Cifrador.cpp Line 9 Column 0" Caller="sustitution(ap_uint&lt;32&gt;)" Caller-DebugLoc="File Cifrador.cpp Line 24 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="Cifrador.cpp:61:11" msg_body="Inlining function 'permutation(ap_uint&lt;32&gt;)' into 'round_function(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;)'">
+        <args Callee="permutation(ap_uint&lt;32&gt;)" Callee-DebugLoc="File Cifrador.cpp Line 36 Column 0" Caller="round_function(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;)" Caller-DebugLoc="File Cifrador.cpp Line 55 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="Cifrador.cpp:60:11" msg_body="Inlining function 'sustitution(ap_uint&lt;32&gt;)' into 'round_function(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;)'">
+        <args Callee="sustitution(ap_uint&lt;32&gt;)" Callee-DebugLoc="File Cifrador.cpp Line 24 Column 0" Caller="round_function(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;)" Caller-DebugLoc="File Cifrador.cpp Line 55 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="Cifrador.cpp:59:11" msg_body="Inlining function 'key_mixing(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;)' into 'round_function(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;)'">
+        <args Callee="key_mixing(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;)" Callee-DebugLoc="File Cifrador.cpp Line 50 Column 0" Caller="round_function(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;)" Caller-DebugLoc="File Cifrador.cpp Line 55 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="Cifrador.cpp:115:20" msg_body="Inlining function 'round_function(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;)' into 'ap_uint&lt;32&gt; stage&lt;0&gt;(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)'">
+        <args Callee="round_function(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;)" Callee-DebugLoc="File Cifrador.cpp Line 55 Column 0" Caller="ap_uint&lt;32&gt; stage&lt;0&gt;(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)" Caller-DebugLoc="File Cifrador.cpp Line 110 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="Cifrador.cpp:115:20" msg_body="Inlining function 'round_function(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;)' into 'ap_uint&lt;32&gt; stage&lt;1&gt;(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)'">
+        <args Callee="round_function(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;)" Callee-DebugLoc="File Cifrador.cpp Line 55 Column 0" Caller="ap_uint&lt;32&gt; stage&lt;1&gt;(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)" Caller-DebugLoc="File Cifrador.cpp Line 110 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="Cifrador.cpp:115:20" msg_body="Inlining function 'round_function(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;)' into 'ap_uint&lt;32&gt; stage&lt;2&gt;(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)'">
+        <args Callee="round_function(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;)" Callee-DebugLoc="File Cifrador.cpp Line 55 Column 0" Caller="ap_uint&lt;32&gt; stage&lt;2&gt;(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)" Caller-DebugLoc="File Cifrador.cpp Line 110 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="Cifrador.cpp:115:20" msg_body="Inlining function 'round_function(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;)' into 'ap_uint&lt;32&gt; stage&lt;3&gt;(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)'">
+        <args Callee="round_function(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;)" Callee-DebugLoc="File Cifrador.cpp Line 55 Column 0" Caller="ap_uint&lt;32&gt; stage&lt;3&gt;(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)" Caller-DebugLoc="File Cifrador.cpp Line 110 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="Cifrador.cpp:115:20" msg_body="Inlining function 'round_function(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;)' into 'ap_uint&lt;32&gt; stage&lt;4&gt;(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)'">
+        <args Callee="round_function(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;)" Callee-DebugLoc="File Cifrador.cpp Line 55 Column 0" Caller="ap_uint&lt;32&gt; stage&lt;4&gt;(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)" Caller-DebugLoc="File Cifrador.cpp Line 110 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="Cifrador.cpp:115:20" msg_body="Inlining function 'round_function(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;)' into 'ap_uint&lt;32&gt; stage&lt;5&gt;(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)'">
+        <args Callee="round_function(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;)" Callee-DebugLoc="File Cifrador.cpp Line 55 Column 0" Caller="ap_uint&lt;32&gt; stage&lt;5&gt;(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)" Caller-DebugLoc="File Cifrador.cpp Line 110 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="Cifrador.cpp:115:20" msg_body="Inlining function 'round_function(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;)' into 'ap_uint&lt;32&gt; stage&lt;6&gt;(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)'">
+        <args Callee="round_function(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;)" Callee-DebugLoc="File Cifrador.cpp Line 55 Column 0" Caller="ap_uint&lt;32&gt; stage&lt;6&gt;(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)" Caller-DebugLoc="File Cifrador.cpp Line 110 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="Cifrador.cpp:115:20" msg_body="Inlining function 'round_function(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;)' into 'ap_uint&lt;32&gt; stage&lt;7&gt;(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)'">
+        <args Callee="round_function(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;)" Callee-DebugLoc="File Cifrador.cpp Line 55 Column 0" Caller="ap_uint&lt;32&gt; stage&lt;7&gt;(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)" Caller-DebugLoc="File Cifrador.cpp Line 110 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="Cifrador.cpp:115:20" msg_body="Inlining function 'round_function(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;)' into 'ap_uint&lt;32&gt; stage&lt;8&gt;(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)'">
+        <args Callee="round_function(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;)" Callee-DebugLoc="File Cifrador.cpp Line 55 Column 0" Caller="ap_uint&lt;32&gt; stage&lt;8&gt;(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)" Caller-DebugLoc="File Cifrador.cpp Line 110 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="Cifrador.cpp:115:20" msg_body="Inlining function 'round_function(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;)' into 'ap_uint&lt;32&gt; stage&lt;9&gt;(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)'">
+        <args Callee="round_function(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;)" Callee-DebugLoc="File Cifrador.cpp Line 55 Column 0" Caller="ap_uint&lt;32&gt; stage&lt;9&gt;(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)" Caller-DebugLoc="File Cifrador.cpp Line 110 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="Cifrador.cpp:115:20" msg_body="Inlining function 'round_function(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;)' into 'ap_uint&lt;32&gt; stage&lt;10&gt;(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)'">
+        <args Callee="round_function(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;)" Callee-DebugLoc="File Cifrador.cpp Line 55 Column 0" Caller="ap_uint&lt;32&gt; stage&lt;10&gt;(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)" Caller-DebugLoc="File Cifrador.cpp Line 110 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="Cifrador.cpp:115:20" msg_body="Inlining function 'round_function(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;)' into 'ap_uint&lt;32&gt; stage&lt;11&gt;(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)'">
+        <args Callee="round_function(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;)" Callee-DebugLoc="File Cifrador.cpp Line 55 Column 0" Caller="ap_uint&lt;32&gt; stage&lt;11&gt;(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)" Caller-DebugLoc="File Cifrador.cpp Line 110 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="Cifrador.cpp:115:20" msg_body="Inlining function 'round_function(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;)' into 'ap_uint&lt;32&gt; stage&lt;12&gt;(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)'">
+        <args Callee="round_function(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;)" Callee-DebugLoc="File Cifrador.cpp Line 55 Column 0" Caller="ap_uint&lt;32&gt; stage&lt;12&gt;(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)" Caller-DebugLoc="File Cifrador.cpp Line 110 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="Cifrador.cpp:115:20" msg_body="Inlining function 'round_function(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;)' into 'ap_uint&lt;32&gt; stage&lt;13&gt;(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)'">
+        <args Callee="round_function(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;)" Callee-DebugLoc="File Cifrador.cpp Line 55 Column 0" Caller="ap_uint&lt;32&gt; stage&lt;13&gt;(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)" Caller-DebugLoc="File Cifrador.cpp Line 110 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="Cifrador.cpp:115:20" msg_body="Inlining function 'round_function(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;)' into 'ap_uint&lt;32&gt; stage&lt;14&gt;(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)'">
+        <args Callee="round_function(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;)" Callee-DebugLoc="File Cifrador.cpp Line 55 Column 0" Caller="ap_uint&lt;32&gt; stage&lt;14&gt;(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)" Caller-DebugLoc="File Cifrador.cpp Line 110 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="Cifrador.cpp:86:11" msg_body="Inlining function 'key_mixing(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;)' into 'last_round_correction(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;)'">
+        <args Callee="key_mixing(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;)" Callee-DebugLoc="File Cifrador.cpp Line 50 Column 0" Caller="last_round_correction(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;)" Caller-DebugLoc="File Cifrador.cpp Line 80 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="Cifrador.cpp:85:11" msg_body="Inlining function 'permutation_inverse(ap_uint&lt;32&gt;)' into 'last_round_correction(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;)'">
+        <args Callee="permutation_inverse(ap_uint&lt;32&gt;)" Callee-DebugLoc="File Cifrador.cpp Line 66 Column 0" Caller="last_round_correction(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;)" Caller-DebugLoc="File Cifrador.cpp Line 80 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="Cifrador.cpp:125:20" msg_body="Inlining function 'round_function(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;)' into 'ap_uint&lt;32&gt; last_stage&lt;15&gt;(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)'">
+        <args Callee="round_function(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;)" Callee-DebugLoc="File Cifrador.cpp Line 55 Column 0" Caller="ap_uint&lt;32&gt; last_stage&lt;15&gt;(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)" Caller-DebugLoc="File Cifrador.cpp Line 120 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="Cifrador.cpp:126:12" msg_body="Inlining function 'last_round_correction(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;)' into 'ap_uint&lt;32&gt; last_stage&lt;15&gt;(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)'">
+        <args Callee="last_round_correction(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;)" Callee-DebugLoc="File Cifrador.cpp Line 80 Column 0" Caller="ap_uint&lt;32&gt; last_stage&lt;15&gt;(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)" Caller-DebugLoc="File Cifrador.cpp Line 120 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="Cifrador.cpp:134:16" msg_body="Inlining function 'Pipeline&lt;15, 15&gt;::run(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)' into 'Pipeline&lt;14, 15&gt;::run(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)'">
+        <args Callee="Pipeline&lt;15, 15&gt;::run(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)" Callee-DebugLoc="File Cifrador.cpp Line 140 Column 0" Caller="Pipeline&lt;14, 15&gt;::run(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)" Caller-DebugLoc="File Cifrador.cpp Line 131 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="Cifrador.cpp:134:16" msg_body="Inlining function 'Pipeline&lt;14, 15&gt;::run(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)' into 'Pipeline&lt;13, 15&gt;::run(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)'">
+        <args Callee="Pipeline&lt;14, 15&gt;::run(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)" Callee-DebugLoc="File Cifrador.cpp Line 131 Column 0" Caller="Pipeline&lt;13, 15&gt;::run(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)" Caller-DebugLoc="File Cifrador.cpp Line 131 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="Cifrador.cpp:134:16" msg_body="Inlining function 'Pipeline&lt;13, 15&gt;::run(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)' into 'Pipeline&lt;12, 15&gt;::run(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)'">
+        <args Callee="Pipeline&lt;13, 15&gt;::run(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)" Callee-DebugLoc="File Cifrador.cpp Line 131 Column 0" Caller="Pipeline&lt;12, 15&gt;::run(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)" Caller-DebugLoc="File Cifrador.cpp Line 131 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="Cifrador.cpp:134:16" msg_body="Inlining function 'Pipeline&lt;12, 15&gt;::run(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)' into 'Pipeline&lt;11, 15&gt;::run(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)'">
+        <args Callee="Pipeline&lt;12, 15&gt;::run(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)" Callee-DebugLoc="File Cifrador.cpp Line 131 Column 0" Caller="Pipeline&lt;11, 15&gt;::run(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)" Caller-DebugLoc="File Cifrador.cpp Line 131 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="Cifrador.cpp:134:16" msg_body="Inlining function 'Pipeline&lt;11, 15&gt;::run(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)' into 'Pipeline&lt;10, 15&gt;::run(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)'">
+        <args Callee="Pipeline&lt;11, 15&gt;::run(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)" Callee-DebugLoc="File Cifrador.cpp Line 131 Column 0" Caller="Pipeline&lt;10, 15&gt;::run(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)" Caller-DebugLoc="File Cifrador.cpp Line 131 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="Cifrador.cpp:134:16" msg_body="Inlining function 'Pipeline&lt;10, 15&gt;::run(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)' into 'Pipeline&lt;9, 15&gt;::run(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)'">
+        <args Callee="Pipeline&lt;10, 15&gt;::run(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)" Callee-DebugLoc="File Cifrador.cpp Line 131 Column 0" Caller="Pipeline&lt;9, 15&gt;::run(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)" Caller-DebugLoc="File Cifrador.cpp Line 131 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="Cifrador.cpp:134:16" msg_body="Inlining function 'Pipeline&lt;9, 15&gt;::run(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)' into 'Pipeline&lt;8, 15&gt;::run(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)'">
+        <args Callee="Pipeline&lt;9, 15&gt;::run(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)" Callee-DebugLoc="File Cifrador.cpp Line 131 Column 0" Caller="Pipeline&lt;8, 15&gt;::run(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)" Caller-DebugLoc="File Cifrador.cpp Line 131 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="Cifrador.cpp:134:16" msg_body="Inlining function 'Pipeline&lt;8, 15&gt;::run(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)' into 'Pipeline&lt;7, 15&gt;::run(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)'">
+        <args Callee="Pipeline&lt;8, 15&gt;::run(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)" Callee-DebugLoc="File Cifrador.cpp Line 131 Column 0" Caller="Pipeline&lt;7, 15&gt;::run(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)" Caller-DebugLoc="File Cifrador.cpp Line 131 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="Cifrador.cpp:134:16" msg_body="Inlining function 'Pipeline&lt;7, 15&gt;::run(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)' into 'Pipeline&lt;6, 15&gt;::run(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)'">
+        <args Callee="Pipeline&lt;7, 15&gt;::run(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)" Callee-DebugLoc="File Cifrador.cpp Line 131 Column 0" Caller="Pipeline&lt;6, 15&gt;::run(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)" Caller-DebugLoc="File Cifrador.cpp Line 131 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="Cifrador.cpp:134:16" msg_body="Inlining function 'Pipeline&lt;6, 15&gt;::run(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)' into 'Pipeline&lt;5, 15&gt;::run(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)'">
+        <args Callee="Pipeline&lt;6, 15&gt;::run(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)" Callee-DebugLoc="File Cifrador.cpp Line 131 Column 0" Caller="Pipeline&lt;5, 15&gt;::run(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)" Caller-DebugLoc="File Cifrador.cpp Line 131 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="Cifrador.cpp:134:16" msg_body="Inlining function 'Pipeline&lt;5, 15&gt;::run(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)' into 'Pipeline&lt;4, 15&gt;::run(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)'">
+        <args Callee="Pipeline&lt;5, 15&gt;::run(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)" Callee-DebugLoc="File Cifrador.cpp Line 131 Column 0" Caller="Pipeline&lt;4, 15&gt;::run(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)" Caller-DebugLoc="File Cifrador.cpp Line 131 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="Cifrador.cpp:134:16" msg_body="Inlining function 'Pipeline&lt;4, 15&gt;::run(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)' into 'Pipeline&lt;3, 15&gt;::run(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)'">
+        <args Callee="Pipeline&lt;4, 15&gt;::run(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)" Callee-DebugLoc="File Cifrador.cpp Line 131 Column 0" Caller="Pipeline&lt;3, 15&gt;::run(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)" Caller-DebugLoc="File Cifrador.cpp Line 131 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="Cifrador.cpp:134:16" msg_body="Inlining function 'Pipeline&lt;3, 15&gt;::run(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)' into 'Pipeline&lt;2, 15&gt;::run(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)'">
+        <args Callee="Pipeline&lt;3, 15&gt;::run(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)" Callee-DebugLoc="File Cifrador.cpp Line 131 Column 0" Caller="Pipeline&lt;2, 15&gt;::run(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)" Caller-DebugLoc="File Cifrador.cpp Line 131 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="Cifrador.cpp:134:16" msg_body="Inlining function 'Pipeline&lt;2, 15&gt;::run(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)' into 'Pipeline&lt;1, 15&gt;::run(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)'">
+        <args Callee="Pipeline&lt;2, 15&gt;::run(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)" Callee-DebugLoc="File Cifrador.cpp Line 131 Column 0" Caller="Pipeline&lt;1, 15&gt;::run(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)" Caller-DebugLoc="File Cifrador.cpp Line 131 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="Cifrador.cpp:134:16" msg_body="Inlining function 'Pipeline&lt;1, 15&gt;::run(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)' into 'Pipeline&lt;0, 15&gt;::run(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)'">
+        <args Callee="Pipeline&lt;1, 15&gt;::run(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)" Callee-DebugLoc="File Cifrador.cpp Line 131 Column 0" Caller="Pipeline&lt;0, 15&gt;::run(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)" Caller-DebugLoc="File Cifrador.cpp Line 131 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="Cifrador.cpp:168:25" msg_body="Inlining function 'key_schedule(ap_uint&lt;64&gt;&amp;, int)' into 'cifrador_pipeline_stream_2(hls::stream&lt;hls::axis&lt;ap_int&lt;32&gt;, 0ul, 0ul, 0ul, (unsigned char)56, false&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;ap_int&lt;32&gt;, 0ul, 0ul, 0ul, (unsigned char)56, false&gt;, 0&gt;&amp;, ap_uint&lt;64&gt;)'">
+        <args Callee="key_schedule(ap_uint&lt;64&gt;&amp;, int)" Callee-DebugLoc="File Cifrador.cpp Line 91 Column 0" Caller="cifrador_pipeline_stream_2(hls::stream&lt;hls::axis&lt;ap_int&lt;32&gt;, 0ul, 0ul, 0ul, (unsigned char)56, false&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;ap_int&lt;32&gt;, 0ul, 0ul, 0ul, (unsigned char)56, false&gt;, 0&gt;&amp;, ap_uint&lt;64&gt;)" Caller-DebugLoc="File Cifrador.cpp Line 156 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="Cifrador.cpp:180:25" msg_body="Inlining function 'Pipeline&lt;0, 15&gt;::run(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)' into 'cifrador_pipeline_stream_2(hls::stream&lt;hls::axis&lt;ap_int&lt;32&gt;, 0ul, 0ul, 0ul, (unsigned char)56, false&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;ap_int&lt;32&gt;, 0ul, 0ul, 0ul, (unsigned char)56, false&gt;, 0&gt;&amp;, ap_uint&lt;64&gt;)'">
+        <args Callee="Pipeline&lt;0, 15&gt;::run(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;*)" Callee-DebugLoc="File Cifrador.cpp Line 131 Column 0" Caller="cifrador_pipeline_stream_2(hls::stream&lt;hls::axis&lt;ap_int&lt;32&gt;, 0ul, 0ul, 0ul, (unsigned char)56, false&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;ap_int&lt;32&gt;, 0ul, 0ul, 0ul, (unsigned char)56, false&gt;, 0&gt;&amp;, ap_uint&lt;64&gt;)" Caller-DebugLoc="File Cifrador.cpp Line 156 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="Cifrador.cpp:71:22" msg_body="Loop 'VITIS_LOOP_71_1' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_71_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="Cifrador.cpp:41:22" msg_body="Loop 'VITIS_LOOP_41_1' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_41_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="Cifrador.cpp:28:22" msg_body="Loop 'VITIS_LOOP_28_1' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_28_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="Cifrador.cpp:156:0" msg_body="Unrolling loop 'VITIS_LOOP_166_1' (Cifrador.cpp:166:23) in function 'cifrador_pipeline_stream_2' completely with a factor of 32">
+        <args Factor="32" LoopLoc="Cifrador.cpp:166:23" LoopName="VITIS_LOOP_166_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="Cifrador.cpp:120:0" msg_body="Unrolling loop 'VITIS_LOOP_71_1' (Cifrador.cpp:71:22) in function 'last_stage&lt;15&gt;' completely with a factor of 32">
+        <args Factor="32" LoopLoc="Cifrador.cpp:71:22" LoopName="VITIS_LOOP_71_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="Cifrador.cpp:120:0" msg_body="Unrolling loop 'VITIS_LOOP_41_1' (Cifrador.cpp:41:22) in function 'last_stage&lt;15&gt;' completely with a factor of 32">
+        <args Factor="32" LoopLoc="Cifrador.cpp:41:22" LoopName="VITIS_LOOP_41_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="Cifrador.cpp:120:0" msg_body="Unrolling loop 'VITIS_LOOP_28_1' (Cifrador.cpp:28:22) in function 'last_stage&lt;15&gt;' completely with a factor of 8">
+        <args Factor="8" LoopLoc="Cifrador.cpp:28:22" LoopName="VITIS_LOOP_28_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="Cifrador.cpp:110:0" msg_body="Unrolling loop 'VITIS_LOOP_41_1' (Cifrador.cpp:41:22) in function 'stage&lt;14&gt;' completely with a factor of 32">
+        <args Factor="32" LoopLoc="Cifrador.cpp:41:22" LoopName="VITIS_LOOP_41_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="Cifrador.cpp:110:0" msg_body="Unrolling loop 'VITIS_LOOP_28_1' (Cifrador.cpp:28:22) in function 'stage&lt;14&gt;' completely with a factor of 8">
+        <args Factor="8" LoopLoc="Cifrador.cpp:28:22" LoopName="VITIS_LOOP_28_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="Cifrador.cpp:110:0" msg_body="Unrolling loop 'VITIS_LOOP_41_1' (Cifrador.cpp:41:22) in function 'stage&lt;13&gt;' completely with a factor of 32">
+        <args Factor="32" LoopLoc="Cifrador.cpp:41:22" LoopName="VITIS_LOOP_41_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="Cifrador.cpp:110:0" msg_body="Unrolling loop 'VITIS_LOOP_28_1' (Cifrador.cpp:28:22) in function 'stage&lt;13&gt;' completely with a factor of 8">
+        <args Factor="8" LoopLoc="Cifrador.cpp:28:22" LoopName="VITIS_LOOP_28_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="Cifrador.cpp:110:0" msg_body="Unrolling loop 'VITIS_LOOP_41_1' (Cifrador.cpp:41:22) in function 'stage&lt;12&gt;' completely with a factor of 32">
+        <args Factor="32" LoopLoc="Cifrador.cpp:41:22" LoopName="VITIS_LOOP_41_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="Cifrador.cpp:110:0" msg_body="Unrolling loop 'VITIS_LOOP_28_1' (Cifrador.cpp:28:22) in function 'stage&lt;12&gt;' completely with a factor of 8">
+        <args Factor="8" LoopLoc="Cifrador.cpp:28:22" LoopName="VITIS_LOOP_28_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="Cifrador.cpp:110:0" msg_body="Unrolling loop 'VITIS_LOOP_41_1' (Cifrador.cpp:41:22) in function 'stage&lt;11&gt;' completely with a factor of 32">
+        <args Factor="32" LoopLoc="Cifrador.cpp:41:22" LoopName="VITIS_LOOP_41_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="Cifrador.cpp:110:0" msg_body="Unrolling loop 'VITIS_LOOP_28_1' (Cifrador.cpp:28:22) in function 'stage&lt;11&gt;' completely with a factor of 8">
+        <args Factor="8" LoopLoc="Cifrador.cpp:28:22" LoopName="VITIS_LOOP_28_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="Cifrador.cpp:110:0" msg_body="Unrolling loop 'VITIS_LOOP_41_1' (Cifrador.cpp:41:22) in function 'stage&lt;10&gt;' completely with a factor of 32">
+        <args Factor="32" LoopLoc="Cifrador.cpp:41:22" LoopName="VITIS_LOOP_41_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="Cifrador.cpp:110:0" msg_body="Unrolling loop 'VITIS_LOOP_28_1' (Cifrador.cpp:28:22) in function 'stage&lt;10&gt;' completely with a factor of 8">
+        <args Factor="8" LoopLoc="Cifrador.cpp:28:22" LoopName="VITIS_LOOP_28_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="Cifrador.cpp:110:0" msg_body="Unrolling loop 'VITIS_LOOP_41_1' (Cifrador.cpp:41:22) in function 'stage&lt;9&gt;' completely with a factor of 32">
+        <args Factor="32" LoopLoc="Cifrador.cpp:41:22" LoopName="VITIS_LOOP_41_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="Cifrador.cpp:110:0" msg_body="Unrolling loop 'VITIS_LOOP_28_1' (Cifrador.cpp:28:22) in function 'stage&lt;9&gt;' completely with a factor of 8">
+        <args Factor="8" LoopLoc="Cifrador.cpp:28:22" LoopName="VITIS_LOOP_28_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="Cifrador.cpp:110:0" msg_body="Unrolling loop 'VITIS_LOOP_41_1' (Cifrador.cpp:41:22) in function 'stage&lt;8&gt;' completely with a factor of 32">
+        <args Factor="32" LoopLoc="Cifrador.cpp:41:22" LoopName="VITIS_LOOP_41_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="Cifrador.cpp:110:0" msg_body="Unrolling loop 'VITIS_LOOP_28_1' (Cifrador.cpp:28:22) in function 'stage&lt;8&gt;' completely with a factor of 8">
+        <args Factor="8" LoopLoc="Cifrador.cpp:28:22" LoopName="VITIS_LOOP_28_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="Cifrador.cpp:110:0" msg_body="Unrolling loop 'VITIS_LOOP_41_1' (Cifrador.cpp:41:22) in function 'stage&lt;7&gt;' completely with a factor of 32">
+        <args Factor="32" LoopLoc="Cifrador.cpp:41:22" LoopName="VITIS_LOOP_41_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="Cifrador.cpp:110:0" msg_body="Unrolling loop 'VITIS_LOOP_28_1' (Cifrador.cpp:28:22) in function 'stage&lt;7&gt;' completely with a factor of 8">
+        <args Factor="8" LoopLoc="Cifrador.cpp:28:22" LoopName="VITIS_LOOP_28_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="Cifrador.cpp:110:0" msg_body="Unrolling loop 'VITIS_LOOP_41_1' (Cifrador.cpp:41:22) in function 'stage&lt;6&gt;' completely with a factor of 32">
+        <args Factor="32" LoopLoc="Cifrador.cpp:41:22" LoopName="VITIS_LOOP_41_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="Cifrador.cpp:110:0" msg_body="Unrolling loop 'VITIS_LOOP_28_1' (Cifrador.cpp:28:22) in function 'stage&lt;6&gt;' completely with a factor of 8">
+        <args Factor="8" LoopLoc="Cifrador.cpp:28:22" LoopName="VITIS_LOOP_28_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="Cifrador.cpp:110:0" msg_body="Unrolling loop 'VITIS_LOOP_41_1' (Cifrador.cpp:41:22) in function 'stage&lt;5&gt;' completely with a factor of 32">
+        <args Factor="32" LoopLoc="Cifrador.cpp:41:22" LoopName="VITIS_LOOP_41_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="Cifrador.cpp:110:0" msg_body="Unrolling loop 'VITIS_LOOP_28_1' (Cifrador.cpp:28:22) in function 'stage&lt;5&gt;' completely with a factor of 8">
+        <args Factor="8" LoopLoc="Cifrador.cpp:28:22" LoopName="VITIS_LOOP_28_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="Cifrador.cpp:110:0" msg_body="Unrolling loop 'VITIS_LOOP_41_1' (Cifrador.cpp:41:22) in function 'stage&lt;4&gt;' completely with a factor of 32">
+        <args Factor="32" LoopLoc="Cifrador.cpp:41:22" LoopName="VITIS_LOOP_41_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="Cifrador.cpp:110:0" msg_body="Unrolling loop 'VITIS_LOOP_28_1' (Cifrador.cpp:28:22) in function 'stage&lt;4&gt;' completely with a factor of 8">
+        <args Factor="8" LoopLoc="Cifrador.cpp:28:22" LoopName="VITIS_LOOP_28_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="Cifrador.cpp:110:0" msg_body="Unrolling loop 'VITIS_LOOP_41_1' (Cifrador.cpp:41:22) in function 'stage&lt;3&gt;' completely with a factor of 32">
+        <args Factor="32" LoopLoc="Cifrador.cpp:41:22" LoopName="VITIS_LOOP_41_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="Cifrador.cpp:110:0" msg_body="Unrolling loop 'VITIS_LOOP_28_1' (Cifrador.cpp:28:22) in function 'stage&lt;3&gt;' completely with a factor of 8">
+        <args Factor="8" LoopLoc="Cifrador.cpp:28:22" LoopName="VITIS_LOOP_28_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="Cifrador.cpp:110:0" msg_body="Unrolling loop 'VITIS_LOOP_41_1' (Cifrador.cpp:41:22) in function 'stage&lt;2&gt;' completely with a factor of 32">
+        <args Factor="32" LoopLoc="Cifrador.cpp:41:22" LoopName="VITIS_LOOP_41_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="Cifrador.cpp:110:0" msg_body="Unrolling loop 'VITIS_LOOP_28_1' (Cifrador.cpp:28:22) in function 'stage&lt;2&gt;' completely with a factor of 8">
+        <args Factor="8" LoopLoc="Cifrador.cpp:28:22" LoopName="VITIS_LOOP_28_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="Cifrador.cpp:110:0" msg_body="Unrolling loop 'VITIS_LOOP_41_1' (Cifrador.cpp:41:22) in function 'stage&lt;1&gt;' completely with a factor of 32">
+        <args Factor="32" LoopLoc="Cifrador.cpp:41:22" LoopName="VITIS_LOOP_41_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="Cifrador.cpp:110:0" msg_body="Unrolling loop 'VITIS_LOOP_28_1' (Cifrador.cpp:28:22) in function 'stage&lt;1&gt;' completely with a factor of 8">
+        <args Factor="8" LoopLoc="Cifrador.cpp:28:22" LoopName="VITIS_LOOP_28_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="Cifrador.cpp:110:0" msg_body="Unrolling loop 'VITIS_LOOP_41_1' (Cifrador.cpp:41:22) in function 'stage&lt;0&gt;' completely with a factor of 32">
+        <args Factor="32" LoopLoc="Cifrador.cpp:41:22" LoopName="VITIS_LOOP_41_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="Cifrador.cpp:110:0" msg_body="Unrolling loop 'VITIS_LOOP_28_1' (Cifrador.cpp:28:22) in function 'stage&lt;0&gt;' completely with a factor of 8">
+        <args Factor="8" LoopLoc="Cifrador.cpp:28:22" LoopName="VITIS_LOOP_28_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="Cifrador.cpp:156:0" msg_body="Inlining function 'hls::axis&lt;ap_int&lt;32&gt;, 0ul, 0ul, 0ul, (unsigned char)56, false&gt;::axis()' into 'cifrador_pipeline_stream_2(hls::stream&lt;hls::axis&lt;ap_int&lt;32&gt;, 0ul, 0ul, 0ul, (unsigned char)56, false&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;ap_int&lt;32&gt;, 0ul, 0ul, 0ul, (unsigned char)56, false&gt;, 0&gt;&amp;, ap_uint&lt;64&gt;)'">
+        <args Callee="hls::axis&lt;ap_int&lt;32&gt;, 0ul, 0ul, 0ul, (unsigned char)56, false&gt;::axis()" Callee-DebugLoc="File {C:/Users/Dario/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\ap_axi_sdata.h} Line 217 Column 0" Caller="cifrador_pipeline_stream_2(hls::stream&lt;hls::axis&lt;ap_int&lt;32&gt;, 0ul, 0ul, 0ul, (unsigned char)56, false&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;ap_int&lt;32&gt;, 0ul, 0ul, 0ul, (unsigned char)56, false&gt;, 0&gt;&amp;, ap_uint&lt;64&gt;)" Caller-DebugLoc="File Cifrador.cpp Line 156 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-358" msg_severity="WARNING" msg_loc="Cifrador.cpp:21:12" msg_body="Array transformation on index using bit extension logic may lead to poor performance. Please use int or long for array index computation to benefit from optimizations."/>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="Cifrador.cpp:162:12" msg_body="Applying array_partition to 'round_keys': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="round_keys"/>
+    </msg>
+</xilinx:hls_fe_msgs>

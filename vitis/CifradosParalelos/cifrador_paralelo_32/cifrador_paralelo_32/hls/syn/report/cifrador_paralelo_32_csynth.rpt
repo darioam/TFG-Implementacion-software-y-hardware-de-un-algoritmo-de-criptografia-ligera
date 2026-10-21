@@ -1,0 +1,275 @@
+
+
+================================================================
+== Vitis HLS Report for 'cifrador_paralelo_32'
+================================================================
+* Date:           Thu Apr  2 23:54:14 2026
+
+* Version:        2025.2 (Build 6295257 on Nov 14 2025)
+* Project:        cifrador_paralelo_32
+* Solution:       hls (Vivado IP Flow Target)
+* Product family: zynq
+* Target device:  xc7z020-clg400-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  |  10.00 ns|  4.645 ns|     2.70 ns|
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-----+-----+---------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline|
+    |   min   |   max   |    min   |    max   | min | max |   Type  |
+    +---------+---------+----------+----------+-----+-----+---------+
+    |       34|       34|  0.340 us|  0.340 us|   35|   35|       no|
+    +---------+---------+----------+----------+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        +---------------------+----------+---------+---------+----------+----------+-----+-----+-------------------+
+        |                     |          |  Latency (cycles) |  Latency (absolute) |  Interval |      Pipeline     |
+        |       Instance      |  Module  |   min   |   max   |    min   |    max   | min | max |        Type       |
+        +---------------------+----------+---------+---------+----------+----------+-----+-----+-------------------+
+        |grp_cifrador_fu_710  |cifrador  |       33|       33|  0.330 us|  0.330 us|    0|    0|  loop pipeline stp|
+        |grp_cifrador_fu_719  |cifrador  |       33|       33|  0.330 us|  0.330 us|    0|    0|  loop pipeline stp|
+        |grp_cifrador_fu_728  |cifrador  |       33|       33|  0.330 us|  0.330 us|    0|    0|  loop pipeline stp|
+        |grp_cifrador_fu_737  |cifrador  |       33|       33|  0.330 us|  0.330 us|    0|    0|  loop pipeline stp|
+        |grp_cifrador_fu_746  |cifrador  |       33|       33|  0.330 us|  0.330 us|    0|    0|  loop pipeline stp|
+        |grp_cifrador_fu_755  |cifrador  |       33|       33|  0.330 us|  0.330 us|    0|    0|  loop pipeline stp|
+        |grp_cifrador_fu_764  |cifrador  |       33|       33|  0.330 us|  0.330 us|    0|    0|  loop pipeline stp|
+        |grp_cifrador_fu_773  |cifrador  |       33|       33|  0.330 us|  0.330 us|    0|    0|  loop pipeline stp|
+        |grp_cifrador_fu_782  |cifrador  |       33|       33|  0.330 us|  0.330 us|    0|    0|  loop pipeline stp|
+        |grp_cifrador_fu_791  |cifrador  |       33|       33|  0.330 us|  0.330 us|    0|    0|  loop pipeline stp|
+        |grp_cifrador_fu_800  |cifrador  |       33|       33|  0.330 us|  0.330 us|    0|    0|  loop pipeline stp|
+        |grp_cifrador_fu_809  |cifrador  |       33|       33|  0.330 us|  0.330 us|    0|    0|  loop pipeline stp|
+        |grp_cifrador_fu_818  |cifrador  |       33|       33|  0.330 us|  0.330 us|    0|    0|  loop pipeline stp|
+        |grp_cifrador_fu_827  |cifrador  |       33|       33|  0.330 us|  0.330 us|    0|    0|  loop pipeline stp|
+        |grp_cifrador_fu_836  |cifrador  |       33|       33|  0.330 us|  0.330 us|    0|    0|  loop pipeline stp|
+        |grp_cifrador_fu_845  |cifrador  |       33|       33|  0.330 us|  0.330 us|    0|    0|  loop pipeline stp|
+        |grp_cifrador_fu_854  |cifrador  |       33|       33|  0.330 us|  0.330 us|    0|    0|  loop pipeline stp|
+        |grp_cifrador_fu_863  |cifrador  |       33|       33|  0.330 us|  0.330 us|    0|    0|  loop pipeline stp|
+        |grp_cifrador_fu_872  |cifrador  |       33|       33|  0.330 us|  0.330 us|    0|    0|  loop pipeline stp|
+        |grp_cifrador_fu_881  |cifrador  |       33|       33|  0.330 us|  0.330 us|    0|    0|  loop pipeline stp|
+        |grp_cifrador_fu_890  |cifrador  |       33|       33|  0.330 us|  0.330 us|    0|    0|  loop pipeline stp|
+        |grp_cifrador_fu_899  |cifrador  |       33|       33|  0.330 us|  0.330 us|    0|    0|  loop pipeline stp|
+        |grp_cifrador_fu_908  |cifrador  |       33|       33|  0.330 us|  0.330 us|    0|    0|  loop pipeline stp|
+        |grp_cifrador_fu_917  |cifrador  |       33|       33|  0.330 us|  0.330 us|    0|    0|  loop pipeline stp|
+        |grp_cifrador_fu_926  |cifrador  |       33|       33|  0.330 us|  0.330 us|    0|    0|  loop pipeline stp|
+        |grp_cifrador_fu_935  |cifrador  |       33|       33|  0.330 us|  0.330 us|    0|    0|  loop pipeline stp|
+        |grp_cifrador_fu_944  |cifrador  |       33|       33|  0.330 us|  0.330 us|    0|    0|  loop pipeline stp|
+        |grp_cifrador_fu_953  |cifrador  |       33|       33|  0.330 us|  0.330 us|    0|    0|  loop pipeline stp|
+        |grp_cifrador_fu_962  |cifrador  |       33|       33|  0.330 us|  0.330 us|    0|    0|  loop pipeline stp|
+        |grp_cifrador_fu_971  |cifrador  |       33|       33|  0.330 us|  0.330 us|    0|    0|  loop pipeline stp|
+        |grp_cifrador_fu_980  |cifrador  |       33|       33|  0.330 us|  0.330 us|    0|    0|  loop pipeline stp|
+        |grp_cifrador_fu_989  |cifrador  |       33|       33|  0.330 us|  0.330 us|    0|    0|  loop pipeline stp|
+        +---------------------+----------+---------+---------+----------+----------+-----+-----+-------------------+
+
+        * Loop: 
+        N/A
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+-----+--------+-------+-----+
+|       Name      | BRAM_18K| DSP |   FF   |  LUT  | URAM|
++-----------------+---------+-----+--------+-------+-----+
+|DSP              |        -|    -|       -|      -|    -|
+|Expression       |        -|    -|       0|      2|    -|
+|FIFO             |        -|    -|       -|      -|    -|
+|Instance         |        0|    -|    6890|  29416|    -|
+|Memory           |        -|    -|       -|      -|    -|
+|Multiplexer      |        -|    -|       0|     14|    -|
+|Register         |        -|    -|    1122|      -|    -|
++-----------------+---------+-----+--------+-------+-----+
+|Total            |        0|    0|    8012|  29432|    0|
++-----------------+---------+-----+--------+-------+-----+
+|Available        |      280|  220|  106400|  53200|    0|
++-----------------+---------+-----+--------+-------+-----+
+|Utilization (%)  |        0|    0|       7|     55|    0|
++-----------------+---------+-----+--------+-------+-----+
+
++ Detail: 
+    * Instance: 
+    +---------------------+---------------+---------+----+------+------+-----+
+    |       Instance      |     Module    | BRAM_18K| DSP|  FF  |  LUT | URAM|
+    +---------------------+---------------+---------+----+------+------+-----+
+    |grp_cifrador_fu_710  |cifrador       |        0|   0|   136|   786|    0|
+    |grp_cifrador_fu_719  |cifrador       |        0|   0|   136|   786|    0|
+    |grp_cifrador_fu_728  |cifrador       |        0|   0|   136|   786|    0|
+    |grp_cifrador_fu_737  |cifrador       |        0|   0|   136|   786|    0|
+    |grp_cifrador_fu_746  |cifrador       |        0|   0|   136|   786|    0|
+    |grp_cifrador_fu_755  |cifrador       |        0|   0|   136|   786|    0|
+    |grp_cifrador_fu_764  |cifrador       |        0|   0|   136|   786|    0|
+    |grp_cifrador_fu_773  |cifrador       |        0|   0|   136|   786|    0|
+    |grp_cifrador_fu_782  |cifrador       |        0|   0|   136|   786|    0|
+    |grp_cifrador_fu_791  |cifrador       |        0|   0|   136|   786|    0|
+    |grp_cifrador_fu_800  |cifrador       |        0|   0|   136|   786|    0|
+    |grp_cifrador_fu_809  |cifrador       |        0|   0|   136|   786|    0|
+    |grp_cifrador_fu_818  |cifrador       |        0|   0|   136|   786|    0|
+    |grp_cifrador_fu_827  |cifrador       |        0|   0|   136|   786|    0|
+    |grp_cifrador_fu_836  |cifrador       |        0|   0|   136|   786|    0|
+    |grp_cifrador_fu_845  |cifrador       |        0|   0|   136|   786|    0|
+    |grp_cifrador_fu_854  |cifrador       |        0|   0|   136|   786|    0|
+    |grp_cifrador_fu_863  |cifrador       |        0|   0|   136|   786|    0|
+    |grp_cifrador_fu_872  |cifrador       |        0|   0|   136|   786|    0|
+    |grp_cifrador_fu_881  |cifrador       |        0|   0|   136|   786|    0|
+    |grp_cifrador_fu_890  |cifrador       |        0|   0|   136|   786|    0|
+    |grp_cifrador_fu_899  |cifrador       |        0|   0|   136|   786|    0|
+    |grp_cifrador_fu_908  |cifrador       |        0|   0|   136|   786|    0|
+    |grp_cifrador_fu_917  |cifrador       |        0|   0|   136|   786|    0|
+    |grp_cifrador_fu_926  |cifrador       |        0|   0|   136|   786|    0|
+    |grp_cifrador_fu_935  |cifrador       |        0|   0|   136|   786|    0|
+    |grp_cifrador_fu_944  |cifrador       |        0|   0|   136|   786|    0|
+    |grp_cifrador_fu_953  |cifrador       |        0|   0|   136|   786|    0|
+    |grp_cifrador_fu_962  |cifrador       |        0|   0|   136|   786|    0|
+    |grp_cifrador_fu_971  |cifrador       |        0|   0|   136|   786|    0|
+    |grp_cifrador_fu_980  |cifrador       |        0|   0|   136|   786|    0|
+    |grp_cifrador_fu_989  |cifrador       |        0|   0|   136|   786|    0|
+    |control_s_axi_U      |control_s_axi  |        0|   0|  2538|  4264|    0|
+    +---------------------+---------------+---------+----+------+------+-----+
+    |Total                |               |        0|   0|  6890| 29416|    0|
+    +---------------------+---------------+---------+----+------+------+-----+
+
+    * DSP: 
+    N/A
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    +---------------------------------+----------+----+---+----+------------+------------+
+    |          Variable Name          | Operation| DSP| FF| LUT| Bitwidth P0| Bitwidth P1|
+    +---------------------------------+----------+----+---+----+------------+------------+
+    |ap_block_state2_on_subcall_done  |        or|   0|  0|   2|           1|           1|
+    +---------------------------------+----------+----+---+----+------------+------------+
+    |Total                            |          |   0|  0|   2|           1|           1|
+    +---------------------------------+----------+----+---+----+------------+------------+
+
+    * Multiplexer: 
+    +-----------+----+-----------+-----+-----------+
+    |    Name   | LUT| Input Size| Bits| Total Bits|
+    +-----------+----+-----------+-----+-----------+
+    |ap_NS_fsm  |  14|          3|    1|          3|
+    +-----------+----+-----------+-----+-----------+
+    |Total      |  14|          3|    1|          3|
+    +-----------+----+-----------+-----+-----------+
+
+    * Register: 
+    +----------------------------------+----+----+-----+-----------+
+    |               Name               | FF | LUT| Bits| Const Bits|
+    +----------------------------------+----+----+-----+-----------+
+    |ap_CS_fsm                         |   2|   0|    2|          0|
+    |grp_cifrador_fu_710_ap_start_reg  |   1|   0|    1|          0|
+    |grp_cifrador_fu_719_ap_start_reg  |   1|   0|    1|          0|
+    |grp_cifrador_fu_728_ap_start_reg  |   1|   0|    1|          0|
+    |grp_cifrador_fu_737_ap_start_reg  |   1|   0|    1|          0|
+    |grp_cifrador_fu_746_ap_start_reg  |   1|   0|    1|          0|
+    |grp_cifrador_fu_755_ap_start_reg  |   1|   0|    1|          0|
+    |grp_cifrador_fu_764_ap_start_reg  |   1|   0|    1|          0|
+    |grp_cifrador_fu_773_ap_start_reg  |   1|   0|    1|          0|
+    |grp_cifrador_fu_782_ap_start_reg  |   1|   0|    1|          0|
+    |grp_cifrador_fu_791_ap_start_reg  |   1|   0|    1|          0|
+    |grp_cifrador_fu_800_ap_start_reg  |   1|   0|    1|          0|
+    |grp_cifrador_fu_809_ap_start_reg  |   1|   0|    1|          0|
+    |grp_cifrador_fu_818_ap_start_reg  |   1|   0|    1|          0|
+    |grp_cifrador_fu_827_ap_start_reg  |   1|   0|    1|          0|
+    |grp_cifrador_fu_836_ap_start_reg  |   1|   0|    1|          0|
+    |grp_cifrador_fu_845_ap_start_reg  |   1|   0|    1|          0|
+    |grp_cifrador_fu_854_ap_start_reg  |   1|   0|    1|          0|
+    |grp_cifrador_fu_863_ap_start_reg  |   1|   0|    1|          0|
+    |grp_cifrador_fu_872_ap_start_reg  |   1|   0|    1|          0|
+    |grp_cifrador_fu_881_ap_start_reg  |   1|   0|    1|          0|
+    |grp_cifrador_fu_890_ap_start_reg  |   1|   0|    1|          0|
+    |grp_cifrador_fu_899_ap_start_reg  |   1|   0|    1|          0|
+    |grp_cifrador_fu_908_ap_start_reg  |   1|   0|    1|          0|
+    |grp_cifrador_fu_917_ap_start_reg  |   1|   0|    1|          0|
+    |grp_cifrador_fu_926_ap_start_reg  |   1|   0|    1|          0|
+    |grp_cifrador_fu_935_ap_start_reg  |   1|   0|    1|          0|
+    |grp_cifrador_fu_944_ap_start_reg  |   1|   0|    1|          0|
+    |grp_cifrador_fu_953_ap_start_reg  |   1|   0|    1|          0|
+    |grp_cifrador_fu_962_ap_start_reg  |   1|   0|    1|          0|
+    |grp_cifrador_fu_971_ap_start_reg  |   1|   0|    1|          0|
+    |grp_cifrador_fu_980_ap_start_reg  |   1|   0|    1|          0|
+    |grp_cifrador_fu_989_ap_start_reg  |   1|   0|    1|          0|
+    |key_read_reg_998                  |  64|   0|   64|          0|
+    |plaintext_0_read_reg_1034         |  32|   0|   32|          0|
+    |plaintext_10_read_reg_1084        |  32|   0|   32|          0|
+    |plaintext_11_read_reg_1089        |  32|   0|   32|          0|
+    |plaintext_12_read_reg_1094        |  32|   0|   32|          0|
+    |plaintext_13_read_reg_1099        |  32|   0|   32|          0|
+    |plaintext_14_read_reg_1104        |  32|   0|   32|          0|
+    |plaintext_15_read_reg_1109        |  32|   0|   32|          0|
+    |plaintext_16_read_reg_1114        |  32|   0|   32|          0|
+    |plaintext_17_read_reg_1119        |  32|   0|   32|          0|
+    |plaintext_18_read_reg_1124        |  32|   0|   32|          0|
+    |plaintext_19_read_reg_1129        |  32|   0|   32|          0|
+    |plaintext_1_read_reg_1039         |  32|   0|   32|          0|
+    |plaintext_20_read_reg_1134        |  32|   0|   32|          0|
+    |plaintext_21_read_reg_1139        |  32|   0|   32|          0|
+    |plaintext_22_read_reg_1144        |  32|   0|   32|          0|
+    |plaintext_23_read_reg_1149        |  32|   0|   32|          0|
+    |plaintext_24_read_reg_1154        |  32|   0|   32|          0|
+    |plaintext_25_read_reg_1159        |  32|   0|   32|          0|
+    |plaintext_26_read_reg_1164        |  32|   0|   32|          0|
+    |plaintext_27_read_reg_1169        |  32|   0|   32|          0|
+    |plaintext_28_read_reg_1174        |  32|   0|   32|          0|
+    |plaintext_29_read_reg_1179        |  32|   0|   32|          0|
+    |plaintext_2_read_reg_1044         |  32|   0|   32|          0|
+    |plaintext_30_read_reg_1184        |  32|   0|   32|          0|
+    |plaintext_31_read_reg_1189        |  32|   0|   32|          0|
+    |plaintext_3_read_reg_1049         |  32|   0|   32|          0|
+    |plaintext_4_read_reg_1054         |  32|   0|   32|          0|
+    |plaintext_5_read_reg_1059         |  32|   0|   32|          0|
+    |plaintext_6_read_reg_1064         |  32|   0|   32|          0|
+    |plaintext_7_read_reg_1069         |  32|   0|   32|          0|
+    |plaintext_8_read_reg_1074         |  32|   0|   32|          0|
+    |plaintext_9_read_reg_1079         |  32|   0|   32|          0|
+    +----------------------------------+----+----+-----+-----------+
+    |Total                             |1122|   0| 1122|          0|
+    +----------------------------------+----+----+-----+-----------+
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++-----------------------+-----+-----+------------+----------------------+--------------+
+|       RTL Ports       | Dir | Bits|  Protocol  |     Source Object    |    C Type    |
++-----------------------+-----+-----+------------+----------------------+--------------+
+|s_axi_control_AWVALID  |   in|    1|       s_axi|               control|       pointer|
+|s_axi_control_AWREADY  |  out|    1|       s_axi|               control|       pointer|
+|s_axi_control_AWADDR   |   in|   10|       s_axi|               control|       pointer|
+|s_axi_control_WVALID   |   in|    1|       s_axi|               control|       pointer|
+|s_axi_control_WREADY   |  out|    1|       s_axi|               control|       pointer|
+|s_axi_control_WDATA    |   in|   32|       s_axi|               control|       pointer|
+|s_axi_control_WSTRB    |   in|    4|       s_axi|               control|       pointer|
+|s_axi_control_ARVALID  |   in|    1|       s_axi|               control|       pointer|
+|s_axi_control_ARREADY  |  out|    1|       s_axi|               control|       pointer|
+|s_axi_control_ARADDR   |   in|   10|       s_axi|               control|       pointer|
+|s_axi_control_RVALID   |  out|    1|       s_axi|               control|       pointer|
+|s_axi_control_RREADY   |   in|    1|       s_axi|               control|       pointer|
+|s_axi_control_RDATA    |  out|   32|       s_axi|               control|       pointer|
+|s_axi_control_RRESP    |  out|    2|       s_axi|               control|       pointer|
+|s_axi_control_BVALID   |  out|    1|       s_axi|               control|       pointer|
+|s_axi_control_BREADY   |   in|    1|       s_axi|               control|       pointer|
+|s_axi_control_BRESP    |  out|    2|       s_axi|               control|       pointer|
+|ap_clk                 |   in|    1|  ap_ctrl_hs|  cifrador_paralelo_32|  return value|
+|ap_rst_n               |   in|    1|  ap_ctrl_hs|  cifrador_paralelo_32|  return value|
+|interrupt              |  out|    1|  ap_ctrl_hs|  cifrador_paralelo_32|  return value|
++-----------------------+-----+-----+------------+----------------------+--------------+
+

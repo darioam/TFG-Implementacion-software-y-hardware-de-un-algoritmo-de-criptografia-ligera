@@ -1,0 +1,265 @@
+
+
+================================================================
+== Synthesis Summary Report of 'cifrador_paralelo_stream'
+================================================================
++ General Information: 
+    * Date:           Fri Apr  3 12:17:57 2026
+    * Version:        2025.2 (Build 6295257 on Nov 14 2025)
+    * Project:        cifrador_paralelo_stream
+    * Solution:       hls (Vivado IP Flow Target)
+    * Product family: zynq
+    * Target device:  xc7z020-clg400-1
+    
+
+* Performance & Resource Estimates: 
++------------------------------------------+------+---------------+----------+---------+------+----------+---------+---------+------+------+----+-----------+-----------+-----+
+|                  Modules                 | Issue|               | Iteration|         | Trip |          |      Latency      |      |      |    |           |           |     |
+|                  & Loops                 | Type | Violation Type|  Latency | Interval| Count| Pipelined| (cycles)|   (ns)  | Slack| BRAM | DSP|     FF    |    LUT    | URAM|
++------------------------------------------+------+---------------+----------+---------+------+----------+---------+---------+------+------+----+-----------+-----------+-----+
+|+ cifrador_paralelo_stream*               |     -|              -|         -|       36|     -|  dataflow|       37|  370.000|  1.06|     -|   -|  2508 (2%)|  4907 (9%)|    -|
+| + entry_proc                             |     -|              -|         -|        0|     -|        no|        0|    0.000|  3.67|     -|   -|    3 (~0%)|   56 (~0%)|    -|
+| + key_schedule                           |     -|              -|         -|       32|     -|    rewind|       33|  330.000|  2.06|     -|   -|   71 (~0%)|  238 (~0%)|    -|
+|  o VITIS_LOOP_93_1                       |     -|              -|         1|        1|    32|       yes|       31|  310.000|  7.30|     -|   -|          -|          -|    -|
+| + cifrador_1                             |     -|              -|         -|       35|     -|        no|       35|  350.000|  2.08|     -|   -|  176 (~0%)|   742 (1%)|    -|
+|  + cifrador_1_Pipeline_VITIS_LOOP_115_1  |     -|              -|         -|        -|     -|       yes|       33|  330.000|  2.34|     -|   -|   75 (~0%)|   638 (1%)|    -|
+|   o VITIS_LOOP_115_1                     |     -|              -|         2|        1|    31|       yes|       31|  310.000|  7.30|     -|   -|          -|          -|    -|
+| + cifrador_2                             |     -|              -|         -|       35|     -|        no|       35|  350.000|  2.08|     -|   -|  176 (~0%)|   742 (1%)|    -|
+|  + cifrador_2_Pipeline_VITIS_LOOP_115_1  |     -|              -|         -|        -|     -|       yes|       33|  330.000|  2.34|     -|   -|   75 (~0%)|   638 (1%)|    -|
+|   o VITIS_LOOP_115_1                     |     -|              -|         2|        1|    31|       yes|       31|  310.000|  7.30|     -|   -|          -|          -|    -|
+| + cifrador_3                             |     -|              -|         -|       35|     -|        no|       35|  350.000|  2.08|     -|   -|  176 (~0%)|   742 (1%)|    -|
+|  + cifrador_3_Pipeline_VITIS_LOOP_115_1  |     -|              -|         -|        -|     -|       yes|       33|  330.000|  2.34|     -|   -|   75 (~0%)|   638 (1%)|    -|
+|   o VITIS_LOOP_115_1                     |     -|              -|         2|        1|    31|       yes|       31|  310.000|  7.30|     -|   -|          -|          -|    -|
+| + cifrador                               |     -|              -|         -|       35|     -|        no|       35|  350.000|  2.08|     -|   -|  176 (~0%)|   742 (1%)|    -|
+|  + cifrador_Pipeline_VITIS_LOOP_115_1    |     -|              -|         -|        -|     -|       yes|       33|  330.000|  2.34|     -|   -|   75 (~0%)|   638 (1%)|    -|
+|   o VITIS_LOOP_115_1                     |     -|              -|         2|        1|    31|       yes|       31|  310.000|  7.30|     -|   -|          -|          -|    -|
+| + Block_entry_proc                       |     -|              -|         -|        0|     -|        no|        0|    0.000|  3.67|     -|   -|  130 (~0%)|   47 (~0%)|    -|
++------------------------------------------+------+---------------+----------+---------+------+----------+---------+---------+------+------+----+-----------+-----------+-----+
+    Name Prefix: '+' for module, 'o' for loop, '*' for dataflow
+
+
+================================================================
+== HW Interfaces
+================================================================
+* S_AXILITE Interfaces
++---------------+------------+---------------+--------+----------+
+| Interface     | Data Width | Address Width | Offset | Register |
++---------------+------------+---------------+--------+----------+
+| s_axi_control | 32         | 7             | 16     | 0        |
++---------------+------------+---------------+--------+----------+
+
+* S_AXILITE Registers
++---------------+------------------+--------+-------+--------+----------------------------------+----------------------------------------------------------------------+
+| Interface     | Register         | Offset | Width | Access | Description                      | Bit Fields                                                           |
++---------------+------------------+--------+-------+--------+----------------------------------+----------------------------------------------------------------------+
+| s_axi_control | CTRL             | 0x00   | 32    | RW     | Control signals                  | 0=AP_START 1=AP_DONE 2=AP_IDLE 3=AP_READY 7=AUTO_RESTART 9=INTERRUPT |
+| s_axi_control | GIER             | 0x04   | 32    | RW     | Global Interrupt Enable Register | 0=Enable                                                             |
+| s_axi_control | IP_IER           | 0x08   | 32    | RW     | IP Interrupt Enable Register     | 0=CHAN0_INT_EN 1=CHAN1_INT_EN                                        |
+| s_axi_control | IP_ISR           | 0x0c   | 32    | RW     | IP Interrupt Status Register     | 0=CHAN0_INT_ST 1=CHAN1_INT_ST                                        |
+| s_axi_control | plaintext0       | 0x10   | 32    | W      | Data signal of plaintext0        |                                                                      |
+| s_axi_control | plaintext1       | 0x18   | 32    | W      | Data signal of plaintext1        |                                                                      |
+| s_axi_control | plaintext2       | 0x20   | 32    | W      | Data signal of plaintext2        |                                                                      |
+| s_axi_control | plaintext3       | 0x28   | 32    | W      | Data signal of plaintext3        |                                                                      |
+| s_axi_control | key_1            | 0x30   | 32    | W      | Data signal of key               |                                                                      |
+| s_axi_control | key_2            | 0x34   | 32    | W      | Data signal of key               |                                                                      |
+| s_axi_control | ciphertext0      | 0x3c   | 32    | R      | Data signal of ciphertext0       |                                                                      |
+| s_axi_control | ciphertext0_ctrl | 0x40   | 32    | R      | Control signal of ciphertext0    | 0=ciphertext0_ap_vld                                                 |
+| s_axi_control | ciphertext1      | 0x4c   | 32    | R      | Data signal of ciphertext1       |                                                                      |
+| s_axi_control | ciphertext1_ctrl | 0x50   | 32    | R      | Control signal of ciphertext1    | 0=ciphertext1_ap_vld                                                 |
+| s_axi_control | ciphertext2      | 0x5c   | 32    | R      | Data signal of ciphertext2       |                                                                      |
+| s_axi_control | ciphertext2_ctrl | 0x60   | 32    | R      | Control signal of ciphertext2    | 0=ciphertext2_ap_vld                                                 |
+| s_axi_control | ciphertext3      | 0x6c   | 32    | R      | Data signal of ciphertext3       |                                                                      |
+| s_axi_control | ciphertext3_ctrl | 0x70   | 32    | R      | Control signal of ciphertext3    | 0=ciphertext3_ap_vld                                                 |
++---------------+------------------+--------+-------+--------+----------------------------------+----------------------------------------------------------------------+
+
+* TOP LEVEL CONTROL
++-----------+------------+-----------+
+| Interface | Type       | Ports     |
++-----------+------------+-----------+
+| ap_clk    | clock      | ap_clk    |
+| ap_rst_n  | reset      | ap_rst_n  |
+| interrupt | interrupt  | interrupt |
+| ap_ctrl   | ap_ctrl_hs |           |
++-----------+------------+-----------+
+
+
+================================================================
+== SW I/O Information
+================================================================
+* Top Function Arguments
++-------------+-----------+--------------+
+| Argument    | Direction | Datatype     |
++-------------+-----------+--------------+
+| plaintext0  | in        | ap_uint<32>  |
+| plaintext1  | in        | ap_uint<32>  |
+| plaintext2  | in        | ap_uint<32>  |
+| plaintext3  | in        | ap_uint<32>  |
+| key         | in        | ap_uint<64>  |
+| ciphertext0 | out       | ap_uint<32>& |
+| ciphertext1 | out       | ap_uint<32>& |
+| ciphertext2 | out       | ap_uint<32>& |
+| ciphertext3 | out       | ap_uint<32>& |
++-------------+-----------+--------------+
+
+* SW-to-HW Mapping
++-------------+---------------+----------+--------------------------------------------+
+| Argument    | HW Interface  | HW Type  | HW Info                                    |
++-------------+---------------+----------+--------------------------------------------+
+| plaintext0  | s_axi_control | register | name=plaintext0 offset=0x10 range=32       |
+| plaintext1  | s_axi_control | register | name=plaintext1 offset=0x18 range=32       |
+| plaintext2  | s_axi_control | register | name=plaintext2 offset=0x20 range=32       |
+| plaintext3  | s_axi_control | register | name=plaintext3 offset=0x28 range=32       |
+| key         | s_axi_control | register | name=key_1 offset=0x30 range=32            |
+| key         | s_axi_control | register | name=key_2 offset=0x34 range=32            |
+| ciphertext0 | s_axi_control | register | name=ciphertext0 offset=0x3c range=32      |
+| ciphertext0 | s_axi_control | register | name=ciphertext0_ctrl offset=0x40 range=32 |
+| ciphertext1 | s_axi_control | register | name=ciphertext1 offset=0x4c range=32      |
+| ciphertext1 | s_axi_control | register | name=ciphertext1_ctrl offset=0x50 range=32 |
+| ciphertext2 | s_axi_control | register | name=ciphertext2 offset=0x5c range=32      |
+| ciphertext2 | s_axi_control | register | name=ciphertext2_ctrl offset=0x60 range=32 |
+| ciphertext3 | s_axi_control | register | name=ciphertext3 offset=0x6c range=32      |
+| ciphertext3 | s_axi_control | register | name=ciphertext3_ctrl offset=0x70 range=32 |
++-------------+---------------+----------+--------------------------------------------+
+
+
+================================================================
+== Bind Op Report
+================================================================
++------------------------------------------+-----+--------+------------+-----------+--------------------------+---------+
+| Name                                     | DSP | Pragma | Variable   | Op        | Impl                     | Latency |
++------------------------------------------+-----+--------+------------+-----------+--------------------------+---------+
+| + cifrador_paralelo_stream               | 0   |        |            |           |                          |         |
+|  + key_schedule                          | 0   |        |            |           |                          |         |
+|    sparsemux_33_4_4_1_1_U9               |     |        | tmp        | sparsemux | compactencoding_dontcare | 0       |
+|    key_5_fu_294_p2                       |     |        | key_5      | xor       | auto                     | 0       |
+|    round_3_fu_300_p2                     |     |        | round_3    | add       | fabric                   | 0       |
+|    icmp_ln93_fu_306_p2                   |     |        | icmp_ln93  | seteq     | auto                     | 0       |
+|  + cifrador_1                            | 0   |        |            |           |                          |         |
+|    out_fu_60_p2                          |     |        | out        | xor       | auto                     | 0       |
+|   + cifrador_1_Pipeline_VITIS_LOOP_115_1 | 0   |        |            |           |                          |         |
+|     out_12_fu_162_p2                     |     |        | out_12     | xor       | auto                     | 0       |
+|     sparsemux_33_4_4_1_1_U16             |     |        | tmp        | sparsemux | compactencoding_dontcare | 0       |
+|     sparsemux_33_4_4_1_1_U17             |     |        | tmp_s      | sparsemux | compactencoding_dontcare | 0       |
+|     sparsemux_33_4_4_1_1_U18             |     |        | tmp_13     | sparsemux | compactencoding_dontcare | 0       |
+|     sparsemux_33_4_4_1_1_U19             |     |        | tmp_14     | sparsemux | compactencoding_dontcare | 0       |
+|     sparsemux_33_4_4_1_1_U20             |     |        | tmp_15     | sparsemux | compactencoding_dontcare | 0       |
+|     sparsemux_33_4_4_1_1_U21             |     |        | tmp_16     | sparsemux | compactencoding_dontcare | 0       |
+|     sparsemux_33_4_4_1_1_U22             |     |        | tmp_17     | sparsemux | compactencoding_dontcare | 0       |
+|     sparsemux_33_4_4_1_1_U23             |     |        | tmp_18     | sparsemux | compactencoding_dontcare | 0       |
+|     round_12_fu_142_p2                   |     |        | round_12   | add       | fabric                   | 0       |
+|     icmp_ln115_fu_148_p2                 |     |        | icmp_ln115 | seteq     | auto                     | 0       |
+|  + cifrador_2                            | 0   |        |            |           |                          |         |
+|    out_fu_60_p2                          |     |        | out        | xor       | auto                     | 0       |
+|   + cifrador_2_Pipeline_VITIS_LOOP_115_1 | 0   |        |            |           |                          |         |
+|     out_9_fu_162_p2                      |     |        | out_9      | xor       | auto                     | 0       |
+|     sparsemux_33_4_4_1_1_U29             |     |        | tmp        | sparsemux | compactencoding_dontcare | 0       |
+|     sparsemux_33_4_4_1_1_U30             |     |        | tmp_s      | sparsemux | compactencoding_dontcare | 0       |
+|     sparsemux_33_4_4_1_1_U31             |     |        | tmp_7      | sparsemux | compactencoding_dontcare | 0       |
+|     sparsemux_33_4_4_1_1_U32             |     |        | tmp_8      | sparsemux | compactencoding_dontcare | 0       |
+|     sparsemux_33_4_4_1_1_U33             |     |        | tmp_9      | sparsemux | compactencoding_dontcare | 0       |
+|     sparsemux_33_4_4_1_1_U34             |     |        | tmp_10     | sparsemux | compactencoding_dontcare | 0       |
+|     sparsemux_33_4_4_1_1_U35             |     |        | tmp_11     | sparsemux | compactencoding_dontcare | 0       |
+|     sparsemux_33_4_4_1_1_U36             |     |        | tmp_12     | sparsemux | compactencoding_dontcare | 0       |
+|     round_10_fu_142_p2                   |     |        | round_10   | add       | fabric                   | 0       |
+|     icmp_ln115_fu_148_p2                 |     |        | icmp_ln115 | seteq     | auto                     | 0       |
+|  + cifrador_3                            | 0   |        |            |           |                          |         |
+|    out_fu_60_p2                          |     |        | out        | xor       | auto                     | 0       |
+|   + cifrador_3_Pipeline_VITIS_LOOP_115_1 | 0   |        |            |           |                          |         |
+|     out_6_fu_162_p2                      |     |        | out_6      | xor       | auto                     | 0       |
+|     sparsemux_33_4_4_1_1_U42             |     |        | tmp        | sparsemux | compactencoding_dontcare | 0       |
+|     sparsemux_33_4_4_1_1_U43             |     |        | tmp_3      | sparsemux | compactencoding_dontcare | 0       |
+|     sparsemux_33_4_4_1_1_U44             |     |        | tmp_5      | sparsemux | compactencoding_dontcare | 0       |
+|     sparsemux_33_4_4_1_1_U45             |     |        | tmp_7      | sparsemux | compactencoding_dontcare | 0       |
+|     sparsemux_33_4_4_1_1_U46             |     |        | tmp_9      | sparsemux | compactencoding_dontcare | 0       |
+|     sparsemux_33_4_4_1_1_U47             |     |        | tmp_s      | sparsemux | compactencoding_dontcare | 0       |
+|     sparsemux_33_4_4_1_1_U48             |     |        | tmp_1      | sparsemux | compactencoding_dontcare | 0       |
+|     sparsemux_33_4_4_1_1_U49             |     |        | tmp_2      | sparsemux | compactencoding_dontcare | 0       |
+|     round_8_fu_142_p2                    |     |        | round_8    | add       | fabric                   | 0       |
+|     icmp_ln115_fu_148_p2                 |     |        | icmp_ln115 | seteq     | auto                     | 0       |
+|  + cifrador                              | 0   |        |            |           |                          |         |
+|    out_fu_60_p2                          |     |        | out        | xor       | auto                     | 0       |
+|   + cifrador_Pipeline_VITIS_LOOP_115_1   | 0   |        |            |           |                          |         |
+|     out_3_fu_162_p2                      |     |        | out_3      | xor       | auto                     | 0       |
+|     sparsemux_33_4_4_1_1_U55             |     |        | tmp        | sparsemux | compactencoding_dontcare | 0       |
+|     sparsemux_33_4_4_1_1_U56             |     |        | tmp_s      | sparsemux | compactencoding_dontcare | 0       |
+|     sparsemux_33_4_4_1_1_U57             |     |        | tmp_1      | sparsemux | compactencoding_dontcare | 0       |
+|     sparsemux_33_4_4_1_1_U58             |     |        | tmp_2      | sparsemux | compactencoding_dontcare | 0       |
+|     sparsemux_33_4_4_1_1_U59             |     |        | tmp_3      | sparsemux | compactencoding_dontcare | 0       |
+|     sparsemux_33_4_4_1_1_U60             |     |        | tmp_4      | sparsemux | compactencoding_dontcare | 0       |
+|     sparsemux_33_4_4_1_1_U61             |     |        | tmp_5      | sparsemux | compactencoding_dontcare | 0       |
+|     sparsemux_33_4_4_1_1_U62             |     |        | tmp_6      | sparsemux | compactencoding_dontcare | 0       |
+|     round_6_fu_142_p2                    |     |        | round_6    | add       | fabric                   | 0       |
+|     icmp_ln115_fu_148_p2                 |     |        | icmp_ln115 | seteq     | auto                     | 0       |
++------------------------------------------+-----+--------+------------+-----------+--------------------------+---------+
+
+
+================================================================
+== Storage Report
+================================================================
++----------------------------+--------------+-------------+------+------+--------+-------------------+------+---------+------------------+
+| Name                       | Usage        | Type        | BRAM | URAM | Pragma | Variable          | Impl | Latency | Bitwidth, Depth, |
+|                            |              |             |      |      |        |                   |      |         | Banks            |
++----------------------------+--------------+-------------+------+------+--------+-------------------+------+---------+------------------+
+| + cifrador_paralelo_stream |              |             | 0    | 0    |        |                   |      |         |                  |
+|   control_s_axi_U          | interface    | s_axilite   |      |      |        |                   |      |         |                  |
+|   plaintext0_c_U           | fifo channel | scalar prop |      |      |        | plaintext0_c      | srl  | 0       | 32, 3, 1         |
+|   plaintext1_c_U           | fifo channel | scalar prop |      |      |        | plaintext1_c      | srl  | 0       | 32, 3, 1         |
+|   plaintext2_c_U           | fifo channel | scalar prop |      |      |        | plaintext2_c      | srl  | 0       | 32, 3, 1         |
+|   plaintext3_c_U           | fifo channel | scalar prop |      |      |        | plaintext3_c      | srl  | 0       | 32, 3, 1         |
+|   k0_U                     | fifo channel | stream      |      |      |        | k0                | srl  | 0       | 32, 32, 1        |
+|   k1_U                     | fifo channel | stream      |      |      |        | k1                | srl  | 0       | 32, 32, 1        |
+|   k2_U                     | fifo channel | stream      |      |      |        | k2                | srl  | 0       | 32, 32, 1        |
+|   k3_U                     | fifo channel | stream      |      |      |        | k3                | srl  | 0       | 32, 32, 1        |
+|   ref_tmp_channel_U        | fifo channel | task level  |      |      |        | ref_tmp_channel   | srl  | 0       | 32, 2, 1         |
+|   ref_tmp7_channel_U       | fifo channel | task level  |      |      |        | ref_tmp7_channel  | srl  | 0       | 32, 2, 1         |
+|   ref_tmp9_channel_U       | fifo channel | task level  |      |      |        | ref_tmp9_channel  | srl  | 0       | 32, 2, 1         |
+|   ref_tmp11_channel_U      | fifo channel | task level  |      |      |        | ref_tmp11_channel | srl  | 0       | 32, 2, 1         |
++----------------------------+--------------+-------------+------+------+--------+-------------------+------+---------+------------------+
+
+
+================================================================
+== Pragma Report
+================================================================
+* Inferred Pragmas
++----------+---------+----------------------------------------------------------------------------+-------------------------------+
+| Type     | Options | Location                                                                   | Inferred From                 |
++----------+---------+----------------------------------------------------------------------------+-------------------------------+
+| PIPELINE |         | loop VITIS_LOOP_115_1 (Cifrador.cpp:115:23) in cifrador (Cifrador.cpp:115) | syn.compile.pipeline_loops=64 |
++----------+---------+----------------------------------------------------------------------------+-------------------------------+
+
+* Valid Pragma Syntax
++-----------------+----------------------------+------------------------------------------------+
+| Type            | Options                    | Location                                       |
++-----------------+----------------------------+------------------------------------------------+
+| INLINE          |                            | in sbox (Cifrador.cpp:9)                       |
+| ARRAY_PARTITION | variable=table complete    | in sbox (Cifrador.cpp:18)                      |
+| INLINE          |                            | in sustitution (Cifrador.cpp:24)               |
+| UNROLL          |                            | in sustitution (Cifrador.cpp:28)               |
+| INLINE          |                            | in permutation (Cifrador.cpp:36)               |
+| UNROLL          |                            | in permutation (Cifrador.cpp:41)               |
+| INLINE          |                            | in key_mixing (Cifrador.cpp:50)                |
+| INLINE          |                            | in round_function (Cifrador.cpp:55)            |
+| INLINE          |                            | in permutation_inverse (Cifrador.cpp:66)       |
+| UNROLL          |                            | in permutation_inverse (Cifrador.cpp:71)       |
+| INLINE          |                            | in last_round_correction (Cifrador.cpp:80)     |
+| INLINE          | off                        | in key_schedule (Cifrador.cpp:91)              |
+| PIPELINE        | ii=1                       | in key_schedule (Cifrador.cpp:94)              |
+| INLINE          | off                        | in cifrador (Cifrador.cpp:111)                 |
+| INTERFACE       | s_axilite port=plaintext0  | in cifrador_paralelo_stream (Cifrador.cpp:134) |
+| INTERFACE       | s_axilite port=plaintext1  | in cifrador_paralelo_stream (Cifrador.cpp:135) |
+| INTERFACE       | s_axilite port=plaintext2  | in cifrador_paralelo_stream (Cifrador.cpp:136) |
+| INTERFACE       | s_axilite port=plaintext3  | in cifrador_paralelo_stream (Cifrador.cpp:137) |
+| INTERFACE       | s_axilite port=key         | in cifrador_paralelo_stream (Cifrador.cpp:138) |
+| INTERFACE       | s_axilite port=ciphertext0 | in cifrador_paralelo_stream (Cifrador.cpp:139) |
+| INTERFACE       | s_axilite port=ciphertext1 | in cifrador_paralelo_stream (Cifrador.cpp:140) |
+| INTERFACE       | s_axilite port=ciphertext2 | in cifrador_paralelo_stream (Cifrador.cpp:141) |
+| INTERFACE       | s_axilite port=ciphertext3 | in cifrador_paralelo_stream (Cifrador.cpp:142) |
+| INTERFACE       | s_axilite port=return      | in cifrador_paralelo_stream (Cifrador.cpp:143) |
+| DATAFLOW        |                            | in cifrador_paralelo_stream (Cifrador.cpp:145) |
+| STREAM          | variable=k0 depth=32       | in cifrador_paralelo_stream (Cifrador.cpp:149) |
+| STREAM          | variable=k1 depth=32       | in cifrador_paralelo_stream (Cifrador.cpp:150) |
+| STREAM          | variable=k2 depth=32       | in cifrador_paralelo_stream (Cifrador.cpp:151) |
+| STREAM          | variable=k3 depth=32       | in cifrador_paralelo_stream (Cifrador.cpp:152) |
++-----------------+----------------------------+------------------------------------------------+
+
+

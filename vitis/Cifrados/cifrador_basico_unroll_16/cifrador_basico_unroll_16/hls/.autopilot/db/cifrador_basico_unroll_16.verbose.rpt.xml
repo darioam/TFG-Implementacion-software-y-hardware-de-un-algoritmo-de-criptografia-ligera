@@ -1,0 +1,408 @@
+<profile>
+
+<section name = "Vitis HLS Report for 'cifrador_basico_unroll_16'" level="0">
+<item name = "Date">Thu Apr  2 19:17:48 2026
+</item>
+<item name = "Version">2025.2 (Build 6295257 on Nov 14 2025)</item>
+<item name = "Project">cifrador_basico_unroll_16</item>
+<item name = "Solution">hls (Vivado IP Flow Target)</item>
+<item name = "Product family">zynq</item>
+<item name = "Target device">xc7z020-clg400-1</item>
+</section>
+
+<section name = "Performance Estimates" level="0">
+<item name = "Timing">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="4">Clock, Target, Estimated, Uncertainty</keys>
+<column name="ap_clk">10.00 ns, 7.107 ns, 2.70 ns</column>
+</table>
+</item>
+</section>
+</item>
+<item name = "Latency">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="8">, min, max, min, max, min, max, Type</keys>
+<column name="">18, 18, 0.180 us, 0.180 us, 16, 16, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="0">
+<keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
+</table>
+</item>
+<item name = "Loop"><table name="" hasTotal="0">
+<keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+<column name="- VITIS_LOOP_112_1">16, 16, 9, 8, 1, 1, yes</column>
+</table>
+</item>
+</section>
+</item>
+</section>
+</item>
+</section>
+
+<section name = "Utilization Estimates" level="0">
+<item name = "Summary"><table name="" hasTotal="1">
+<keys size="6">Name, BRAM_18K, DSP, FF, LUT, URAM</keys>
+<column name="DSP">-, -, -, -, -</column>
+<column name="Expression">-, -, 0, 1585, -</column>
+<column name="FIFO">-, -, -, -, -</column>
+<column name="Instance">0, -, 176, 9656, -</column>
+<column name="Memory">-, -, -, -, -</column>
+<column name="Multiplexer">-, -, 0, 111, -</column>
+<column name="Register">-, -, 912, -, -</column>
+<specialColumn name="Available">280, 220, 106400, 53200, 0</specialColumn>
+<specialColumn name="Utilization (%)">0, 0, 1, 21, 0</specialColumn>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="1">
+<keys size="7">Instance, Module, BRAM_18K, DSP, FF, LUT, URAM</keys>
+<column name="control_s_axi_U">control_s_axi, 0, 0, 176, 296, 0</column>
+<column name="sparsemux_33_4_4_1_1_U1">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U2">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U3">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U4">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U5">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U6">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U7">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U8">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U9">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U10">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U11">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U12">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U13">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U14">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U15">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U16">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U17">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U18">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U19">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U20">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U21">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U22">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U23">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U24">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U25">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U26">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U27">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U28">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U29">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U30">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U31">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U32">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U33">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U34">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U35">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U36">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U37">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U38">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U39">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U40">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U41">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U42">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U43">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U44">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U45">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U46">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U47">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U48">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U49">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U50">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U51">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U52">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U53">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U54">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U55">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U56">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U57">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U58">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U59">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U60">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U61">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U62">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U63">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U64">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U65">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U66">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U67">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U68">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U69">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U70">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U71">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U72">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U73">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U74">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U75">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U76">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U77">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U78">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U79">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U80">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U81">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U82">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U83">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U84">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U85">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U86">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U87">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U88">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U89">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U90">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U91">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U92">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U93">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U94">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U95">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U96">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U97">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U98">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U99">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U100">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U101">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U102">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U103">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U104">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U105">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U106">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U107">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U108">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U109">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U110">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U111">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U112">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U113">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U114">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U115">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U116">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U117">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U118">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U119">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U120">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U121">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U122">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U123">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U124">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U125">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U126">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U127">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U128">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U129">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U130">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U131">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U132">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U133">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U134">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U135">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U136">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U137">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U138">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U139">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U140">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U141">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U142">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U143">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U144">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+</table>
+</item>
+<item name = "DSP"><table name="" hasTotal="0">
+<keys size="3">Instance, Module, Expression</keys>
+</table>
+</item>
+<item name = "Memory"><table name="" hasTotal="1">
+<keys size="10">Memory, Module, BRAM_18K, FF, LUT, URAM, Words, Bits, Banks, W*Bits*Banks</keys>
+</table>
+</item>
+<item name = "FIFO"><table name="" hasTotal="1">
+<keys size="8">Name, BRAM_18K, FF, LUT, URAM, Depth, Bits, Size:D*B</keys>
+</table>
+</item>
+<item name = "Expression"><table name="" hasTotal="1">
+<keys size="7">Variable Name, Operation, DSP, FF, LUT, Bitwidth P0, Bitwidth P1</keys>
+<column name="icmp_ln112_fu_2620_p2">icmp, 0, 0, 13, 5, 2</column>
+<column name="ap_enable_pp0">xor, 0, 0, 2, 1, 2</column>
+<column name="ap_return">xor, 0, 0, 32, 32, 32</column>
+<column name="key_17_fu_378_p2">xor, 0, 0, 64, 64, 64</column>
+<column name="key_18_fu_1474_p2">xor, 0, 0, 64, 64, 64</column>
+<column name="key_19_fu_2756_p2">xor, 0, 0, 64, 64, 64</column>
+<column name="key_21_fu_4771_p2">xor, 0, 0, 64, 64, 64</column>
+<column name="key_22_fu_4896_p2">xor, 0, 0, 64, 64, 64</column>
+<column name="key_23_fu_6936_p2">xor, 0, 0, 64, 64, 64</column>
+<column name="key_24_fu_7061_p2">xor, 0, 0, 64, 64, 64</column>
+<column name="key_25_fu_9098_p2">xor, 0, 0, 64, 64, 64</column>
+<column name="key_26_fu_9223_p2">xor, 0, 0, 64, 64, 64</column>
+<column name="key_27_fu_11263_p2">xor, 0, 0, 64, 64, 64</column>
+<column name="key_28_fu_11391_p2">xor, 0, 0, 64, 64, 64</column>
+<column name="key_29_fu_13431_p2">xor, 0, 0, 64, 64, 64</column>
+<column name="key_30_fu_13556_p2">xor, 0, 0, 64, 64, 64</column>
+<column name="key_31_fu_14570_p2">xor, 0, 0, 64, 64, 64</column>
+<column name="key_34_fu_15721_p2">xor, 0, 0, 64, 64, 64</column>
+<column name="key_36_fu_16719_p2">xor, 0, 0, 64, 64, 19</column>
+<column name="out_34_fu_384_p2">xor, 0, 0, 32, 32, 32</column>
+<column name="out_36_fu_1480_p2">xor, 0, 0, 32, 32, 32</column>
+<column name="out_38_fu_2474_p2">xor, 0, 0, 32, 32, 32</column>
+<column name="out_40_fu_3726_p2">xor, 0, 0, 32, 32, 32</column>
+<column name="out_42_fu_4688_p2">xor, 0, 0, 32, 32, 32</column>
+<column name="out_44_fu_5888_p2">xor, 0, 0, 32, 32, 32</column>
+<column name="out_46_fu_6850_p2">xor, 0, 0, 32, 32, 32</column>
+<column name="out_48_fu_8053_p2">xor, 0, 0, 32, 32, 32</column>
+<column name="out_50_fu_9015_p2">xor, 0, 0, 32, 32, 32</column>
+<column name="out_52_fu_10215_p2">xor, 0, 0, 32, 32, 32</column>
+<column name="out_54_fu_11177_p2">xor, 0, 0, 32, 32, 32</column>
+<column name="out_56_fu_12383_p2">xor, 0, 0, 32, 32, 32</column>
+<column name="out_58_fu_13345_p2">xor, 0, 0, 32, 32, 32</column>
+<column name="out_60_fu_14576_p2">xor, 0, 0, 32, 32, 32</column>
+<column name="out_62_fu_15556_p2">xor, 0, 0, 32, 32, 32</column>
+<column name="out_63_fu_16725_p2">xor, 0, 0, 32, 32, 32</column>
+<column name="xor_ln112_fu_2634_p2">xor, 0, 0, 2, 1, 2</column>
+</table>
+</item>
+<item name = "Multiplexer"><table name="" hasTotal="1">
+<keys size="5">Name, LUT, Input Size, Bits, Total Bits</keys>
+<column name="ap_NS_fsm">48, 9, 1, 9</column>
+<column name="ap_done_int">9, 2, 1, 2</column>
+<column name="ap_enable_reg_pp0_iter0">9, 2, 1, 2</column>
+<column name="ap_enable_reg_pp0_iter1">9, 2, 1, 2</column>
+<column name="ap_loop_exit_ready_pp0_iter1_reg">9, 2, 1, 2</column>
+<column name="in_1_fu_202">9, 2, 32, 64</column>
+<column name="key_1_fu_198">9, 2, 64, 128</column>
+<column name="round_fu_206">9, 2, 5, 10</column>
+</table>
+</item>
+<item name = "Register"><table name="" hasTotal="1">
+<keys size="5">Name, FF, LUT, Bits, Const Bits</keys>
+<column name="ap_CS_fsm">8, 0, 8, 0</column>
+<column name="ap_done_reg">1, 0, 1, 0</column>
+<column name="ap_enable_reg_pp0_iter0_reg">1, 0, 1, 0</column>
+<column name="ap_enable_reg_pp0_iter1">1, 0, 1, 0</column>
+<column name="ap_loop_exit_ready_pp0_iter1_reg">1, 0, 1, 0</column>
+<column name="icmp_ln112_reg_17852">1, 0, 1, 0</column>
+<column name="in_100_reg_18111">4, 0, 4, 0</column>
+<column name="in_101_reg_18116">4, 0, 4, 0</column>
+<column name="in_102_reg_18121">4, 0, 4, 0</column>
+<column name="in_103_reg_18126">4, 0, 4, 0</column>
+<column name="in_113_reg_18157">4, 0, 4, 0</column>
+<column name="in_114_reg_18162">4, 0, 4, 0</column>
+<column name="in_115_reg_18167">4, 0, 4, 0</column>
+<column name="in_116_reg_18172">4, 0, 4, 0</column>
+<column name="in_117_reg_18177">4, 0, 4, 0</column>
+<column name="in_118_reg_18182">4, 0, 4, 0</column>
+<column name="in_119_reg_18187">4, 0, 4, 0</column>
+<column name="in_130_reg_17755">4, 0, 4, 0</column>
+<column name="in_136_reg_17871">4, 0, 4, 0</column>
+<column name="in_142_reg_17926">4, 0, 4, 0</column>
+<column name="in_148_reg_17981">4, 0, 4, 0</column>
+<column name="in_154_reg_18036">4, 0, 4, 0</column>
+<column name="in_160_reg_18091">4, 0, 4, 0</column>
+<column name="in_167_reg_18152">4, 0, 4, 0</column>
+<column name="in_17_reg_17760">4, 0, 4, 0</column>
+<column name="in_18_reg_17765">4, 0, 4, 0</column>
+<column name="in_19_reg_17770">4, 0, 4, 0</column>
+<column name="in_1_fu_202">32, 0, 32, 0</column>
+<column name="in_20_reg_17775">4, 0, 4, 0</column>
+<column name="in_21_reg_17780">4, 0, 4, 0</column>
+<column name="in_22_reg_17785">4, 0, 4, 0</column>
+<column name="in_23_reg_17790">4, 0, 4, 0</column>
+<column name="in_33_reg_17876">4, 0, 4, 0</column>
+<column name="in_34_reg_17881">4, 0, 4, 0</column>
+<column name="in_35_reg_17886">4, 0, 4, 0</column>
+<column name="in_36_reg_17891">4, 0, 4, 0</column>
+<column name="in_37_reg_17896">4, 0, 4, 0</column>
+<column name="in_38_reg_17901">4, 0, 4, 0</column>
+<column name="in_39_reg_17906">4, 0, 4, 0</column>
+<column name="in_49_reg_17931">4, 0, 4, 0</column>
+<column name="in_50_reg_17936">4, 0, 4, 0</column>
+<column name="in_51_reg_17941">4, 0, 4, 0</column>
+<column name="in_52_reg_17946">4, 0, 4, 0</column>
+<column name="in_53_reg_17951">4, 0, 4, 0</column>
+<column name="in_54_reg_17956">4, 0, 4, 0</column>
+<column name="in_55_reg_17961">4, 0, 4, 0</column>
+<column name="in_65_reg_17986">4, 0, 4, 0</column>
+<column name="in_66_reg_17991">4, 0, 4, 0</column>
+<column name="in_67_reg_17996">4, 0, 4, 0</column>
+<column name="in_68_reg_18001">4, 0, 4, 0</column>
+<column name="in_69_reg_18006">4, 0, 4, 0</column>
+<column name="in_70_reg_18011">4, 0, 4, 0</column>
+<column name="in_71_reg_18016">4, 0, 4, 0</column>
+<column name="in_81_reg_18041">4, 0, 4, 0</column>
+<column name="in_82_reg_18046">4, 0, 4, 0</column>
+<column name="in_83_reg_18051">4, 0, 4, 0</column>
+<column name="in_84_reg_18056">4, 0, 4, 0</column>
+<column name="in_85_reg_18061">4, 0, 4, 0</column>
+<column name="in_86_reg_18066">4, 0, 4, 0</column>
+<column name="in_87_reg_18071">4, 0, 4, 0</column>
+<column name="in_97_reg_18096">4, 0, 4, 0</column>
+<column name="in_98_reg_18101">4, 0, 4, 0</column>
+<column name="in_99_reg_18106">4, 0, 4, 0</column>
+<column name="key_1_fu_198">64, 0, 64, 0</column>
+<column name="key_31_reg_18131">64, 0, 64, 0</column>
+<column name="round_fu_206">5, 0, 5, 0</column>
+<column name="tmp_110_reg_17795">28, 0, 28, 0</column>
+<column name="tmp_111_reg_17800">3, 0, 3, 0</column>
+<column name="tmp_113_reg_17856">4, 0, 4, 0</column>
+<column name="tmp_114_reg_17861">60, 0, 60, 0</column>
+<column name="tmp_148_reg_17866">3, 0, 3, 0</column>
+<column name="tmp_152_reg_17805">2, 0, 2, 0</column>
+<column name="tmp_188_reg_17911">4, 0, 4, 0</column>
+<column name="tmp_189_reg_17916">60, 0, 60, 0</column>
+<column name="tmp_190_reg_17819">1, 0, 1, 0</column>
+<column name="tmp_224_reg_17921">3, 0, 3, 0</column>
+<column name="tmp_263_reg_17966">4, 0, 4, 0</column>
+<column name="tmp_264_reg_17971">60, 0, 60, 0</column>
+<column name="tmp_298_reg_17976">3, 0, 3, 0</column>
+<column name="tmp_302_reg_17825">1, 0, 1, 0</column>
+<column name="tmp_338_reg_18021">4, 0, 4, 0</column>
+<column name="tmp_339_reg_18026">60, 0, 60, 0</column>
+<column name="tmp_340_reg_17841">2, 0, 2, 0</column>
+<column name="tmp_374_reg_18031">3, 0, 3, 0</column>
+<column name="tmp_378_reg_17846">1, 0, 1, 0</column>
+<column name="tmp_414_reg_18076">4, 0, 4, 0</column>
+<column name="tmp_415_reg_18081">60, 0, 60, 0</column>
+<column name="tmp_449_reg_18086">3, 0, 3, 0</column>
+<column name="tmp_523_reg_18137">3, 0, 3, 0</column>
+<column name="tmp_524_reg_18142">1, 0, 1, 0</column>
+<column name="tmp_526_reg_18147">60, 0, 60, 0</column>
+<column name="tmp_73_reg_17726">3, 0, 3, 0</column>
+<column name="tmp_74_reg_17731">1, 0, 1, 0</column>
+<column name="tmp_76_reg_17736">60, 0, 60, 0</column>
+<column name="tmp_77_reg_17741">3, 0, 3, 0</column>
+<column name="trunc_ln101_1_reg_17813">2, 0, 2, 0</column>
+<column name="trunc_ln101_2_reg_17836">3, 0, 3, 0</column>
+<column name="trunc_ln101_reg_17747">1, 0, 1, 0</column>
+</table>
+</item>
+</section>
+</item>
+</section>
+
+<section name = "Interface" level="0">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="6">RTL Ports, Dir, Bits, Protocol, Source Object, C Type</keys>
+<column name="s_axi_control_AWVALID">in, 1, s_axi, control, scalar</column>
+<column name="s_axi_control_AWREADY">out, 1, s_axi, control, scalar</column>
+<column name="s_axi_control_AWADDR">in, 6, s_axi, control, scalar</column>
+<column name="s_axi_control_WVALID">in, 1, s_axi, control, scalar</column>
+<column name="s_axi_control_WREADY">out, 1, s_axi, control, scalar</column>
+<column name="s_axi_control_WDATA">in, 32, s_axi, control, scalar</column>
+<column name="s_axi_control_WSTRB">in, 4, s_axi, control, scalar</column>
+<column name="s_axi_control_ARVALID">in, 1, s_axi, control, scalar</column>
+<column name="s_axi_control_ARREADY">out, 1, s_axi, control, scalar</column>
+<column name="s_axi_control_ARADDR">in, 6, s_axi, control, scalar</column>
+<column name="s_axi_control_RVALID">out, 1, s_axi, control, scalar</column>
+<column name="s_axi_control_RREADY">in, 1, s_axi, control, scalar</column>
+<column name="s_axi_control_RDATA">out, 32, s_axi, control, scalar</column>
+<column name="s_axi_control_RRESP">out, 2, s_axi, control, scalar</column>
+<column name="s_axi_control_BVALID">out, 1, s_axi, control, scalar</column>
+<column name="s_axi_control_BREADY">in, 1, s_axi, control, scalar</column>
+<column name="s_axi_control_BRESP">out, 2, s_axi, control, scalar</column>
+<column name="ap_clk">in, 1, ap_ctrl_hs, cifrador_basico_unroll_16, return value</column>
+<column name="ap_rst_n">in, 1, ap_ctrl_hs, cifrador_basico_unroll_16, return value</column>
+<column name="interrupt">out, 1, ap_ctrl_hs, cifrador_basico_unroll_16, return value</column>
+</table>
+</item>
+</section>
+</profile>

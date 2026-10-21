@@ -1,0 +1,50 @@
+04/02/26 23:53:02: Running xcd server. This server was built by gradle.
+04/02/26 23:53:02: Server was asked to start on port: '65073'
+04/02/26 23:53:02: Server is using token UUID: '8330d48e-680a-42c1-8aef-4a9545502839'
+04/02/26 23:53:02: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+04/02/26 23:53:02: Attempting to start server on port '65073'
+04/02/26 23:53:02: Running Dispatch Server
+04/02/26 23:53:02: Version 2.2.0
+04/02/26 23:53:04: Dispatch Server: Accepted socket connection from client
+04/02/26 23:53:04: Starting Socket connection
+04/02/26 23:53:04: EXCHANGE_TOKEN received, server token: 8330d48e-680a-42c1-8aef-4a9545502839, passed token: 8330d48e-680a-42c1-8aef-4a9545502839
+04/02/26 23:53:05: DISPATCH_HANDLER: Adding handler from function makeHandler in library xv_system_diagram
+04/02/26 23:53:05: SESSION_MGR: creating session with session uuid: '73d65afc-8a61-40e3-961e-b88c20fcc161' and name 'v++_compile_cifrador_paralelo_32'
+04/02/26 23:53:05: KERNEL_SVC: creating session with uuid: '73d65afc-8a61-40e3-961e-b88c20fcc161' and name 'v++_compile_cifrador_paralelo_32'
+04/02/26 23:53:05: GUIDANCE_SMGR: creating guidance session with uuid: '73d65afc-8a61-40e3-961e-b88c20fcc161' and name 'v++_compile_cifrador_paralelo_32'
+04/02/26 23:53:05: SYSTEM_DIAGRAM: creating session with uuid: '73d65afc-8a61-40e3-961e-b88c20fcc161' and name 'v++_compile_cifrador_paralelo_32'
+04/02/26 23:53:23: Dispatch Server: Accepted socket connection from client
+04/02/26 23:53:23: Starting Socket connection
+04/02/26 23:55:10: SESSION_MGR: closing session for UUID '73d65afc-8a61-40e3-961e-b88c20fcc161' with name 'v++_compile_cifrador_paralelo_32'
+04/02/26 23:55:10: KERNEL_SVC: closing session for UUID '73d65afc-8a61-40e3-961e-b88c20fcc161' with name 'v++_compile_cifrador_paralelo_32'
+04/02/26 23:55:10: GUIDANCE_SMGR: closing session for UUID '73d65afc-8a61-40e3-961e-b88c20fcc161' with name 'v++_compile_cifrador_paralelo_32'
+04/02/26 23:55:10: SYSTEM_DIAGRAM: closing session for UUID '73d65afc-8a61-40e3-961e-b88c20fcc161' with name 'v++_compile_cifrador_paralelo_32'
+04/02/26 23:55:10: STOP_SERVER received, server token: 8330d48e-680a-42c1-8aef-4a9545502839, passed token: 8330d48e-680a-42c1-8aef-4a9545502839
+04/02/26 23:55:10: Socket received request to stop server.
+04/02/26 23:55:10: Dispatch Server: do_await_stop
+04/02/26 23:55:10: SERVER: destructor for server bound to port 65073
+04/02/26 23:57:06: Running xcd server. This server was built by gradle.
+04/02/26 23:57:06: Server was asked to start on port: '52545'
+04/02/26 23:57:06: Server is using token UUID: '9ed4af1f-f90c-47ba-8a40-44cdff121eec'
+04/02/26 23:57:06: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+04/02/26 23:57:06: Attempting to start server on port '52545'
+04/02/26 23:57:06: Running Dispatch Server
+04/02/26 23:57:06: Version 2.2.0
+04/02/26 23:57:08: Dispatch Server: Accepted socket connection from client
+04/02/26 23:57:08: Starting Socket connection
+04/02/26 23:57:08: EXCHANGE_TOKEN received, server token: 9ed4af1f-f90c-47ba-8a40-44cdff121eec, passed token: 9ed4af1f-f90c-47ba-8a40-44cdff121eec
+04/02/26 23:57:08: DISPATCH_HANDLER: Adding handler from function makeHandler in library xv_system_diagram
+04/02/26 23:57:08: SESSION_MGR: creating session with session uuid: '62e6a7a7-c007-4701-b90b-dc1e7f7cc540' and name 'vitis-run_compile_cifrador_paralelo_32'
+04/02/26 23:57:08: KERNEL_SVC: creating session with uuid: '62e6a7a7-c007-4701-b90b-dc1e7f7cc540' and name 'vitis-run_compile_cifrador_paralelo_32'
+04/02/26 23:57:08: GUIDANCE_SMGR: creating guidance session with uuid: '62e6a7a7-c007-4701-b90b-dc1e7f7cc540' and name 'vitis-run_compile_cifrador_paralelo_32'
+04/02/26 23:57:08: SYSTEM_DIAGRAM: creating session with uuid: '62e6a7a7-c007-4701-b90b-dc1e7f7cc540' and name 'vitis-run_compile_cifrador_paralelo_32'
+04/02/26 23:57:29: Dispatch Server: Accepted socket connection from client
+04/02/26 23:57:29: Starting Socket connection
+04/02/26 23:59:13: SESSION_MGR: closing session for UUID '62e6a7a7-c007-4701-b90b-dc1e7f7cc540' with name 'vitis-run_compile_cifrador_paralelo_32'
+04/02/26 23:59:13: KERNEL_SVC: closing session for UUID '62e6a7a7-c007-4701-b90b-dc1e7f7cc540' with name 'vitis-run_compile_cifrador_paralelo_32'
+04/02/26 23:59:13: GUIDANCE_SMGR: closing session for UUID '62e6a7a7-c007-4701-b90b-dc1e7f7cc540' with name 'vitis-run_compile_cifrador_paralelo_32'
+04/02/26 23:59:13: SYSTEM_DIAGRAM: closing session for UUID '62e6a7a7-c007-4701-b90b-dc1e7f7cc540' with name 'vitis-run_compile_cifrador_paralelo_32'
+04/02/26 23:59:13: STOP_SERVER received, server token: 9ed4af1f-f90c-47ba-8a40-44cdff121eec, passed token: 9ed4af1f-f90c-47ba-8a40-44cdff121eec
+04/02/26 23:59:13: Socket received request to stop server.
+04/02/26 23:59:13: Dispatch Server: do_await_stop
+04/02/26 23:59:13: SERVER: destructor for server bound to port 52545

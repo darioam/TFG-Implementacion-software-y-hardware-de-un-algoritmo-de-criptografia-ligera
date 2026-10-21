@@ -1,0 +1,113 @@
+
+
+================================================================
+== Vitis HLS Report for 'Block_entry_proc'
+================================================================
+* Date:           Fri Apr  3 12:17:47 2026
+
+* Version:        2025.2 (Build 6295257 on Nov 14 2025)
+* Project:        cifrador_paralelo_stream
+* Solution:       hls (Vivado IP Flow Target)
+* Product family: zynq
+* Target device:  xc7z020-clg400-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  |  10.00 ns|  3.634 ns|     2.70 ns|
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-----+-----+---------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline|
+    |   min   |   max   |    min   |    max   | min | max |   Type  |
+    +---------+---------+----------+----------+-----+-----+---------+
+    |        0|        0|      0 ns|      0 ns|    0|    0|       no|
+    +---------+---------+----------+----------+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        N/A
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 0
+ResetActiveHigh: 1
+IsCombinational: 2
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 0
+HasVarLatency: 0
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 1
+* Pipeline : 0
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 3.63>
+ST_1 : Operation 2 [1/1] (3.63ns)   --->   "%p_read_1 = read i32 @_ssdm_op_Read.ap_auto.i32, i32 %p_read3" [Cifrador.cpp:156->Cifrador.cpp:156]   --->   Operation 2 'read' 'p_read_1' <Predicate = true> <Delay = 3.63> <CoreInst = "FIFO_SRL">   --->   Core 80 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 3.63> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 32> <Depth = 2> <FIFO>
+ST_1 : Operation 3 [1/1] (3.63ns)   --->   "%p_read_2 = read i32 @_ssdm_op_Read.ap_auto.i32, i32 %p_read2" [Cifrador.cpp:156->Cifrador.cpp:156]   --->   Operation 3 'read' 'p_read_2' <Predicate = true> <Delay = 3.63> <CoreInst = "FIFO_SRL">   --->   Core 80 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 3.63> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 32> <Depth = 2> <FIFO>
+ST_1 : Operation 4 [1/1] (3.63ns)   --->   "%p_read_3 = read i32 @_ssdm_op_Read.ap_auto.i32, i32 %p_read1" [Cifrador.cpp:156->Cifrador.cpp:156]   --->   Operation 4 'read' 'p_read_3' <Predicate = true> <Delay = 3.63> <CoreInst = "FIFO_SRL">   --->   Core 80 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 3.63> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 32> <Depth = 2> <FIFO>
+ST_1 : Operation 5 [1/1] (3.63ns)   --->   "%p_read_4 = read i32 @_ssdm_op_Read.ap_auto.i32, i32 %p_read" [Cifrador.cpp:156->Cifrador.cpp:156]   --->   Operation 5 'read' 'p_read_4' <Predicate = true> <Delay = 3.63> <CoreInst = "FIFO_SRL">   --->   Core 80 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 3.63> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 32> <Depth = 2> <FIFO>
+ST_1 : Operation 6 [1/1] (0.00ns)   --->   "%write_ln156 = write void @_ssdm_op_Write.ap_auto.i32P0A, i32 %ciphertext0, i32 %p_read_4" [Cifrador.cpp:156->Cifrador.cpp:156]   --->   Operation 6 'write' 'write_ln156' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 7 [1/1] (0.00ns)   --->   "%write_ln157 = write void @_ssdm_op_Write.ap_auto.i32P0A, i32 %ciphertext1, i32 %p_read_3" [Cifrador.cpp:157->Cifrador.cpp:156]   --->   Operation 7 'write' 'write_ln157' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 8 [1/1] (0.00ns)   --->   "%write_ln158 = write void @_ssdm_op_Write.ap_auto.i32P0A, i32 %ciphertext2, i32 %p_read_2" [Cifrador.cpp:158->Cifrador.cpp:156]   --->   Operation 8 'write' 'write_ln158' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 9 [1/1] (0.00ns)   --->   "%write_ln159 = write void @_ssdm_op_Write.ap_auto.i32P0A, i32 %ciphertext3, i32 %p_read_1" [Cifrador.cpp:159->Cifrador.cpp:156]   --->   Operation 9 'write' 'write_ln159' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 10 [1/1] (0.00ns)   --->   "%ret_ln0 = ret"   --->   Operation 10 'ret' 'ret_ln0' <Predicate = true> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 10.000ns, clock uncertainty: 2.700ns.
+
+ <State 1>: 3.634ns
+The critical path consists of the following:
+	wire read operation ('p_read_1', Cifrador.cpp:156->Cifrador.cpp:156) on port 'p_read3' (Cifrador.cpp:156->Cifrador.cpp:156) [9]  (3.634 ns)
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

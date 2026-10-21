@@ -1,0 +1,156 @@
+<ENTRY>
+{
+ "thisFile": "C:/Users\\Dario\\Documents\\TFG\\Vitis\\CifradosParalelos\\cifrado_paralelo_32_ctr\\cifrado_paralelo_32_ctr\\cifrado_paralelo_32_ctr.hlsrun_package_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "06/25/26 19:16:12",
+ "timestampMillis": "1782407772499",
+ "buildStep": {
+  "cmdId": "96e8a170-767c-4daa-a996-cbac79f09a9b",
+  "name": "vitis-run",
+  "logFile": "C:/Users\\Dario\\Documents\\TFG\\Vitis\\CifradosParalelos\\cifrado_paralelo_32_ctr\\cifrado_paralelo_32_ctr\\logs\\cifrado_paralelo_32_ctr.steps.log",
+  "commandLine": "C:/Users/Dario/AMDDesignTools/2025.2/Vitis/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --package --config C:\\Users\\Dario\\Documents\\TFG\\Vitis\\CifradosParalelos\\cifrado_paralelo_32_ctr\\hls_config.cfg --work_dir cifrado_paralelo_32_ctr ",
+  "args": [
+   "--mode",
+   "hls",
+   "--package",
+   "--config",
+   "C:\\Users\\Dario\\Documents\\TFG\\Vitis\\CifradosParalelos\\cifrado_paralelo_32_ctr\\hls_config.cfg",
+   "--work_dir",
+   "cifrado_paralelo_32_ctr"
+  ],
+  "iniFiles": [],
+  "cwd": "C:\\Users\\Dario\\Documents\\TFG\\Vitis\\CifradosParalelos\\cifrado_paralelo_32_ctr"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "06/25/26 19:16:12",
+ "timestampMillis": "1782407772500",
+ "status": {
+  "cmdId": "96e8a170-767c-4daa-a996-cbac79f09a9b",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "06/25/26 19:16:27",
+ "timestampMillis": "1782407787202",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_IP",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "cifrador_paralelo_32_ctr",
+     "file": "C:/Users\\Dario\\Documents\\TFG\\Vitis\\CifradosParalelos\\cifrado_paralelo_32_ctr\\cifrado_paralelo_32_ctr\\cifrador_paralelo_32_ctr.zip",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "C:/Users\\Dario\\Documents\\TFG\\Vitis\\CifradosParalelos\\cifrado_paralelo_32_ctr\\Cifrador.cpp"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2025.2"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "06/25/26 19:16:27",
+ "timestampMillis": "1782407787204",
+ "buildStep": {
+  "cmdId": "108bd882-d75c-426c-a338-1ab7a03d7550",
+  "name": "",
+  "logFile": "C:/Users\\Dario\\Documents\\TFG\\Vitis\\CifradosParalelos\\cifrado_paralelo_32_ctr\\cifrado_paralelo_32_ctr\\hls\\hls.log",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "C:\\Users\\Dario\\Documents\\TFG\\Vitis\\CifradosParalelos\\cifrado_paralelo_32_ctr"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "06/25/26 19:16:27",
+ "timestampMillis": "1782407787206",
+ "status": {
+  "cmdId": "108bd882-d75c-426c-a338-1ab7a03d7550",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "06/25/26 19:18:49",
+ "timestampMillis": "1782407929370",
+ "status": {
+  "cmdId": "108bd882-d75c-426c-a338-1ab7a03d7550",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "06/25/26 19:18:49",
+ "timestampMillis": "1782407929927",
+ "status": {
+  "cmdId": "96e8a170-767c-4daa-a996-cbac79f09a9b",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "06/25/26 19:18:49",
+ "timestampMillis": "1782407929928",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "06/25/26 19:18:49",
+ "timestampMillis": "1782407929929",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

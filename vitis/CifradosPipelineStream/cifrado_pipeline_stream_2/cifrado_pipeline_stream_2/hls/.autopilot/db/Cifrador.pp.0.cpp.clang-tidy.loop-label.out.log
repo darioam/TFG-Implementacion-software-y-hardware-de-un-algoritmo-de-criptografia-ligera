@@ -1,0 +1,45 @@
+C:\Users\Dario\Documents\TFG\Vitis\CifradosPipelineStream\cifrado_pipeline_stream_2\cifrado_pipeline_stream_2\hls\.autopilot\db\Cifrador.pp.0.cpp:2254:5: remark: Added loop label VITIS_LOOP_676_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high+1; ++i) {
+    ^
+    VITIS_LOOP_676_1: 
+C:\Users\Dario\Documents\TFG\Vitis\CifradosPipelineStream\cifrado_pipeline_stream_2\cifrado_pipeline_stream_2\hls\.autopilot\db\Cifrador.pp.0.cpp:2254:5: note: FIX-IT applied suggested code changes
+C:\Users\Dario\Documents\TFG\Vitis\CifradosPipelineStream\cifrado_pipeline_stream_2\cifrado_pipeline_stream_2\hls\.autopilot\db\Cifrador.pp.0.cpp:2268:5: remark: Added loop label VITIS_LOOP_690_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high+1; ++i) {
+    ^
+    VITIS_LOOP_690_1: 
+C:\Users\Dario\Documents\TFG\Vitis\CifradosPipelineStream\cifrado_pipeline_stream_2\cifrado_pipeline_stream_2\hls\.autopilot\db\Cifrador.pp.0.cpp:2268:5: note: FIX-IT applied suggested code changes
+C:\Users\Dario\Documents\TFG\Vitis\CifradosPipelineStream\cifrado_pipeline_stream_2\cifrado_pipeline_stream_2\hls\.autopilot\db\Cifrador.pp.0.cpp:2282:5: remark: Added loop label VITIS_LOOP_704_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high+1; ++i) {
+    ^
+    VITIS_LOOP_704_1: 
+C:\Users\Dario\Documents\TFG\Vitis\CifradosPipelineStream\cifrado_pipeline_stream_2\cifrado_pipeline_stream_2\hls\.autopilot\db\Cifrador.pp.0.cpp:2282:5: note: FIX-IT applied suggested code changes
+C:\Users\Dario\Documents\TFG\Vitis\CifradosPipelineStream\cifrado_pipeline_stream_2\cifrado_pipeline_stream_2\hls\.autopilot\db\Cifrador.pp.0.cpp:5802:7: remark: Added loop label VITIS_LOOP_1251_1:   [xilinx-label-all-loops]
+      for (i = 0; i < __N - 1; ++i) {
+      ^
+      VITIS_LOOP_1251_1: 
+C:\Users\Dario\Documents\TFG\Vitis\CifradosPipelineStream\cifrado_pipeline_stream_2\cifrado_pipeline_stream_2\hls\.autopilot\db\Cifrador.pp.0.cpp:5802:7: note: FIX-IT applied suggested code changes
+C:\Users\Dario\Documents\TFG\Vitis\CifradosPipelineStream\cifrado_pipeline_stream_2\cifrado_pipeline_stream_2\hls\.autopilot\db\Cifrador.pp.0.cpp:50028:5: remark: Added loop label VITIS_LOOP_28_1:   [xilinx-label-all-loops]
+    for(int i = 0; i < 8; i++) {
+    ^
+    VITIS_LOOP_28_1: 
+C:\Users\Dario\Documents\TFG\Vitis\CifradosPipelineStream\cifrado_pipeline_stream_2\cifrado_pipeline_stream_2\hls\.autopilot\db\Cifrador.pp.0.cpp:50028:5: note: FIX-IT applied suggested code changes
+C:\Users\Dario\Documents\TFG\Vitis\CifradosPipelineStream\cifrado_pipeline_stream_2\cifrado_pipeline_stream_2\hls\.autopilot\db\Cifrador.pp.0.cpp:50041:5: remark: Added loop label VITIS_LOOP_41_1:   [xilinx-label-all-loops]
+    for(int i = 0; i < 32; i++) {
+    ^
+    VITIS_LOOP_41_1: 
+C:\Users\Dario\Documents\TFG\Vitis\CifradosPipelineStream\cifrado_pipeline_stream_2\cifrado_pipeline_stream_2\hls\.autopilot\db\Cifrador.pp.0.cpp:50041:5: note: FIX-IT applied suggested code changes
+C:\Users\Dario\Documents\TFG\Vitis\CifradosPipelineStream\cifrado_pipeline_stream_2\cifrado_pipeline_stream_2\hls\.autopilot\db\Cifrador.pp.0.cpp:50071:5: remark: Added loop label VITIS_LOOP_71_1:   [xilinx-label-all-loops]
+    for(int i = 0; i < 32; i++) {
+    ^
+    VITIS_LOOP_71_1: 
+C:\Users\Dario\Documents\TFG\Vitis\CifradosPipelineStream\cifrado_pipeline_stream_2\cifrado_pipeline_stream_2\hls\.autopilot\db\Cifrador.pp.0.cpp:50071:5: note: FIX-IT applied suggested code changes
+C:\Users\Dario\Documents\TFG\Vitis\CifradosPipelineStream\cifrado_pipeline_stream_2\cifrado_pipeline_stream_2\hls\.autopilot\db\Cifrador.pp.0.cpp:50170:5: remark: Added loop label VITIS_LOOP_166_1:   [xilinx-label-all-loops]
+    for(int r = 0; r < 32; r++) {
+    ^
+    VITIS_LOOP_166_1: 
+C:\Users\Dario\Documents\TFG\Vitis\CifradosPipelineStream\cifrado_pipeline_stream_2\cifrado_pipeline_stream_2\hls\.autopilot\db\Cifrador.pp.0.cpp:50170:5: note: FIX-IT applied suggested code changes
+C:\Users\Dario\Documents\TFG\Vitis\CifradosPipelineStream\cifrado_pipeline_stream_2\cifrado_pipeline_stream_2\hls\.autopilot\db\Cifrador.pp.0.cpp:50178:5: remark: Added loop label VITIS_LOOP_174_2:   [xilinx-label-all-loops]
+    while(!last) {
+    ^
+    VITIS_LOOP_174_2: 
+C:\Users\Dario\Documents\TFG\Vitis\CifradosPipelineStream\cifrado_pipeline_stream_2\cifrado_pipeline_stream_2\hls\.autopilot\db\Cifrador.pp.0.cpp:50178:5: note: FIX-IT applied suggested code changes

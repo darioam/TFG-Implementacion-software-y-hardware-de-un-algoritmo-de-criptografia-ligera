@@ -1,0 +1,50 @@
+04/02/26 20:00:18: Running xcd server. This server was built by gradle.
+04/02/26 20:00:18: Server was asked to start on port: '58634'
+04/02/26 20:00:18: Server is using token UUID: 'c0cf24f4-1ad6-4a34-9ce9-731c9f565cbf'
+04/02/26 20:00:18: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+04/02/26 20:00:18: Attempting to start server on port '58634'
+04/02/26 20:00:18: Running Dispatch Server
+04/02/26 20:00:18: Version 2.2.0
+04/02/26 20:00:20: Dispatch Server: Accepted socket connection from client
+04/02/26 20:00:20: Starting Socket connection
+04/02/26 20:00:20: EXCHANGE_TOKEN received, server token: c0cf24f4-1ad6-4a34-9ce9-731c9f565cbf, passed token: c0cf24f4-1ad6-4a34-9ce9-731c9f565cbf
+04/02/26 20:00:21: DISPATCH_HANDLER: Adding handler from function makeHandler in library xv_system_diagram
+04/02/26 20:00:21: SESSION_MGR: creating session with session uuid: '2b180cd5-cab6-46a1-9418-a47b0448ea12' and name 'v++_compile_cifrador_basico_unroll_31'
+04/02/26 20:00:21: KERNEL_SVC: creating session with uuid: '2b180cd5-cab6-46a1-9418-a47b0448ea12' and name 'v++_compile_cifrador_basico_unroll_31'
+04/02/26 20:00:21: GUIDANCE_SMGR: creating guidance session with uuid: '2b180cd5-cab6-46a1-9418-a47b0448ea12' and name 'v++_compile_cifrador_basico_unroll_31'
+04/02/26 20:00:21: SYSTEM_DIAGRAM: creating session with uuid: '2b180cd5-cab6-46a1-9418-a47b0448ea12' and name 'v++_compile_cifrador_basico_unroll_31'
+04/02/26 20:00:42: Dispatch Server: Accepted socket connection from client
+04/02/26 20:00:42: Starting Socket connection
+04/02/26 20:02:14: SESSION_MGR: closing session for UUID '2b180cd5-cab6-46a1-9418-a47b0448ea12' with name 'v++_compile_cifrador_basico_unroll_31'
+04/02/26 20:02:14: KERNEL_SVC: closing session for UUID '2b180cd5-cab6-46a1-9418-a47b0448ea12' with name 'v++_compile_cifrador_basico_unroll_31'
+04/02/26 20:02:14: GUIDANCE_SMGR: closing session for UUID '2b180cd5-cab6-46a1-9418-a47b0448ea12' with name 'v++_compile_cifrador_basico_unroll_31'
+04/02/26 20:02:14: SYSTEM_DIAGRAM: closing session for UUID '2b180cd5-cab6-46a1-9418-a47b0448ea12' with name 'v++_compile_cifrador_basico_unroll_31'
+04/02/26 20:02:14: STOP_SERVER received, server token: c0cf24f4-1ad6-4a34-9ce9-731c9f565cbf, passed token: c0cf24f4-1ad6-4a34-9ce9-731c9f565cbf
+04/02/26 20:02:14: Socket received request to stop server.
+04/02/26 20:02:14: Dispatch Server: do_await_stop
+04/02/26 20:02:14: SERVER: destructor for server bound to port 58634
+04/02/26 20:11:13: Running xcd server. This server was built by gradle.
+04/02/26 20:11:13: Server was asked to start on port: '50997'
+04/02/26 20:11:13: Server is using token UUID: 'fb96c85a-0c09-4dd3-aa00-a66ab98d8a14'
+04/02/26 20:11:13: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+04/02/26 20:11:13: Attempting to start server on port '50997'
+04/02/26 20:11:13: Running Dispatch Server
+04/02/26 20:11:13: Version 2.2.0
+04/02/26 20:11:16: Dispatch Server: Accepted socket connection from client
+04/02/26 20:11:16: Starting Socket connection
+04/02/26 20:11:16: EXCHANGE_TOKEN received, server token: fb96c85a-0c09-4dd3-aa00-a66ab98d8a14, passed token: fb96c85a-0c09-4dd3-aa00-a66ab98d8a14
+04/02/26 20:11:16: DISPATCH_HANDLER: Adding handler from function makeHandler in library xv_system_diagram
+04/02/26 20:11:16: SESSION_MGR: creating session with session uuid: 'eba5614b-02f6-4308-8bfe-72a58cdf3f38' and name 'vitis-run_compile_cifrador_basico_unroll_31'
+04/02/26 20:11:16: KERNEL_SVC: creating session with uuid: 'eba5614b-02f6-4308-8bfe-72a58cdf3f38' and name 'vitis-run_compile_cifrador_basico_unroll_31'
+04/02/26 20:11:16: GUIDANCE_SMGR: creating guidance session with uuid: 'eba5614b-02f6-4308-8bfe-72a58cdf3f38' and name 'vitis-run_compile_cifrador_basico_unroll_31'
+04/02/26 20:11:16: SYSTEM_DIAGRAM: creating session with uuid: 'eba5614b-02f6-4308-8bfe-72a58cdf3f38' and name 'vitis-run_compile_cifrador_basico_unroll_31'
+04/02/26 20:11:26: Dispatch Server: Accepted socket connection from client
+04/02/26 20:11:26: Starting Socket connection
+04/02/26 20:11:58: SESSION_MGR: closing session for UUID 'eba5614b-02f6-4308-8bfe-72a58cdf3f38' with name 'vitis-run_compile_cifrador_basico_unroll_31'
+04/02/26 20:11:58: KERNEL_SVC: closing session for UUID 'eba5614b-02f6-4308-8bfe-72a58cdf3f38' with name 'vitis-run_compile_cifrador_basico_unroll_31'
+04/02/26 20:11:58: GUIDANCE_SMGR: closing session for UUID 'eba5614b-02f6-4308-8bfe-72a58cdf3f38' with name 'vitis-run_compile_cifrador_basico_unroll_31'
+04/02/26 20:11:58: SYSTEM_DIAGRAM: closing session for UUID 'eba5614b-02f6-4308-8bfe-72a58cdf3f38' with name 'vitis-run_compile_cifrador_basico_unroll_31'
+04/02/26 20:11:58: STOP_SERVER received, server token: fb96c85a-0c09-4dd3-aa00-a66ab98d8a14, passed token: fb96c85a-0c09-4dd3-aa00-a66ab98d8a14
+04/02/26 20:11:58: Socket received request to stop server.
+04/02/26 20:11:58: Dispatch Server: do_await_stop
+04/02/26 20:11:58: SERVER: destructor for server bound to port 50997

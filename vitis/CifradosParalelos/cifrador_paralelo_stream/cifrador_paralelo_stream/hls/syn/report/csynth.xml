@@ -1,0 +1,1532 @@
+<profile>
+    <ReportVersion>
+        <Version>2025.2</Version>
+    </ReportVersion>
+    <UserAssignments>
+        <unit>ns</unit>
+        <ProductFamily>zynq</ProductFamily>
+        <Part>xc7z020-clg400-1</Part>
+        <TopModelName>cifrador_paralelo_stream</TopModelName>
+        <TargetClockPeriod>10.00</TargetClockPeriod>
+        <ClockUncertainty>2.70</ClockUncertainty>
+        <FlowTarget>vivado</FlowTarget>
+    </UserAssignments>
+    <PerformanceEstimates>
+        <PipelineType>dataflow</PipelineType>
+        <SummaryOfTimingAnalysis>
+            <unit>ns</unit>
+            <EstimatedClockPeriod>6.240</EstimatedClockPeriod>
+        </SummaryOfTimingAnalysis>
+        <SummaryOfOverallLatency>
+            <unit>clock cycles</unit>
+            <Best-caseLatency>37</Best-caseLatency>
+            <Average-caseLatency>37</Average-caseLatency>
+            <Worst-caseLatency>37</Worst-caseLatency>
+            <Best-caseRealTimeLatency>0.370 us</Best-caseRealTimeLatency>
+            <Average-caseRealTimeLatency>0.370 us</Average-caseRealTimeLatency>
+            <Worst-caseRealTimeLatency>0.370 us</Worst-caseRealTimeLatency>
+            <DataflowPipelineThroughput>36</DataflowPipelineThroughput>
+            <Interval-min>36</Interval-min>
+            <Interval-max>36</Interval-max>
+            <PerformancePragma>-</PerformancePragma>
+        </SummaryOfOverallLatency>
+        <SummaryOfViolations>
+            <IssueType>-</IssueType>
+            <ViolationType>-</ViolationType>
+            <SourceLocation>Cifrador.cpp:145</SourceLocation>
+        </SummaryOfViolations>
+    </PerformanceEstimates>
+    <AreaEstimates>
+        <Resources>
+            <BRAM_18K>0</BRAM_18K>
+            <FF>2508</FF>
+            <LUT>4907</LUT>
+            <DSP>0</DSP>
+            <URAM>0</URAM>
+        </Resources>
+        <AvailableResources>
+            <BRAM_18K>280</BRAM_18K>
+            <DSP>220</DSP>
+            <FF>106400</FF>
+            <LUT>53200</LUT>
+            <URAM>0</URAM>
+        </AvailableResources>
+    </AreaEstimates>
+    <InterfaceSummary>
+        <RtlPorts>
+            <name>s_axi_control_AWVALID</name>
+            <Object>control</Object>
+            <Type>pointer</Type>
+            <IOProtocol>s_axi</IOProtocol>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>unknown</Attribute>
+            <CType>int</CType>
+            <HasCtrl>1</HasCtrl>
+        </RtlPorts>
+        <RtlPorts>
+            <name>s_axi_control_AWREADY</name>
+            <Object>control</Object>
+            <Type>pointer</Type>
+            <IOProtocol>s_axi</IOProtocol>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>unknown</Attribute>
+            <CType>int</CType>
+            <HasCtrl>1</HasCtrl>
+        </RtlPorts>
+        <RtlPorts>
+            <name>s_axi_control_AWADDR</name>
+            <Object>control</Object>
+            <Type>pointer</Type>
+            <IOProtocol>s_axi</IOProtocol>
+            <Dir>in</Dir>
+            <Bits>7</Bits>
+            <Attribute>unknown</Attribute>
+            <CType>int</CType>
+            <HasCtrl>1</HasCtrl>
+        </RtlPorts>
+        <RtlPorts>
+            <name>s_axi_control_WVALID</name>
+            <Object>control</Object>
+            <Type>pointer</Type>
+            <IOProtocol>s_axi</IOProtocol>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>unknown</Attribute>
+            <CType>int</CType>
+            <HasCtrl>1</HasCtrl>
+        </RtlPorts>
+        <RtlPorts>
+            <name>s_axi_control_WREADY</name>
+            <Object>control</Object>
+            <Type>pointer</Type>
+            <IOProtocol>s_axi</IOProtocol>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>unknown</Attribute>
+            <CType>int</CType>
+            <HasCtrl>1</HasCtrl>
+        </RtlPorts>
+        <RtlPorts>
+            <name>s_axi_control_WDATA</name>
+            <Object>control</Object>
+            <Type>pointer</Type>
+            <IOProtocol>s_axi</IOProtocol>
+            <Dir>in</Dir>
+            <Bits>32</Bits>
+            <Attribute>unknown</Attribute>
+            <CType>int</CType>
+            <HasCtrl>1</HasCtrl>
+        </RtlPorts>
+        <RtlPorts>
+            <name>s_axi_control_WSTRB</name>
+            <Object>control</Object>
+            <Type>pointer</Type>
+            <IOProtocol>s_axi</IOProtocol>
+            <Dir>in</Dir>
+            <Bits>4</Bits>
+            <Attribute>unknown</Attribute>
+            <CType>int</CType>
+            <HasCtrl>1</HasCtrl>
+        </RtlPorts>
+        <RtlPorts>
+            <name>s_axi_control_ARVALID</name>
+            <Object>control</Object>
+            <Type>pointer</Type>
+            <IOProtocol>s_axi</IOProtocol>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>unknown</Attribute>
+            <CType>int</CType>
+            <HasCtrl>1</HasCtrl>
+        </RtlPorts>
+        <RtlPorts>
+            <name>s_axi_control_ARREADY</name>
+            <Object>control</Object>
+            <Type>pointer</Type>
+            <IOProtocol>s_axi</IOProtocol>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>unknown</Attribute>
+            <CType>int</CType>
+            <HasCtrl>1</HasCtrl>
+        </RtlPorts>
+        <RtlPorts>
+            <name>s_axi_control_ARADDR</name>
+            <Object>control</Object>
+            <Type>pointer</Type>
+            <IOProtocol>s_axi</IOProtocol>
+            <Dir>in</Dir>
+            <Bits>7</Bits>
+            <Attribute>unknown</Attribute>
+            <CType>int</CType>
+            <HasCtrl>1</HasCtrl>
+        </RtlPorts>
+        <RtlPorts>
+            <name>s_axi_control_RVALID</name>
+            <Object>control</Object>
+            <Type>pointer</Type>
+            <IOProtocol>s_axi</IOProtocol>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>unknown</Attribute>
+            <CType>int</CType>
+            <HasCtrl>1</HasCtrl>
+        </RtlPorts>
+        <RtlPorts>
+            <name>s_axi_control_RREADY</name>
+            <Object>control</Object>
+            <Type>pointer</Type>
+            <IOProtocol>s_axi</IOProtocol>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>unknown</Attribute>
+            <CType>int</CType>
+            <HasCtrl>1</HasCtrl>
+        </RtlPorts>
+        <RtlPorts>
+            <name>s_axi_control_RDATA</name>
+            <Object>control</Object>
+            <Type>pointer</Type>
+            <IOProtocol>s_axi</IOProtocol>
+            <Dir>out</Dir>
+            <Bits>32</Bits>
+            <Attribute>unknown</Attribute>
+            <CType>int</CType>
+            <HasCtrl>1</HasCtrl>
+        </RtlPorts>
+        <RtlPorts>
+            <name>s_axi_control_RRESP</name>
+            <Object>control</Object>
+            <Type>pointer</Type>
+            <IOProtocol>s_axi</IOProtocol>
+            <Dir>out</Dir>
+            <Bits>2</Bits>
+            <Attribute>unknown</Attribute>
+            <CType>int</CType>
+            <HasCtrl>1</HasCtrl>
+        </RtlPorts>
+        <RtlPorts>
+            <name>s_axi_control_BVALID</name>
+            <Object>control</Object>
+            <Type>pointer</Type>
+            <IOProtocol>s_axi</IOProtocol>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>unknown</Attribute>
+            <CType>int</CType>
+            <HasCtrl>1</HasCtrl>
+        </RtlPorts>
+        <RtlPorts>
+            <name>s_axi_control_BREADY</name>
+            <Object>control</Object>
+            <Type>pointer</Type>
+            <IOProtocol>s_axi</IOProtocol>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>unknown</Attribute>
+            <CType>int</CType>
+            <HasCtrl>1</HasCtrl>
+        </RtlPorts>
+        <RtlPorts>
+            <name>s_axi_control_BRESP</name>
+            <Object>control</Object>
+            <Type>pointer</Type>
+            <IOProtocol>s_axi</IOProtocol>
+            <Dir>out</Dir>
+            <Bits>2</Bits>
+            <Attribute>unknown</Attribute>
+            <CType>int</CType>
+            <HasCtrl>1</HasCtrl>
+        </RtlPorts>
+        <RtlPorts>
+            <name>ap_clk</name>
+            <Object>cifrador_paralelo_stream</Object>
+            <Type>return value</Type>
+            <Scope/>
+            <IOProtocol>ap_ctrl_hs</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+        </RtlPorts>
+        <RtlPorts>
+            <name>ap_rst_n</name>
+            <Object>cifrador_paralelo_stream</Object>
+            <Type>return value</Type>
+            <Scope/>
+            <IOProtocol>ap_ctrl_hs</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+        </RtlPorts>
+        <RtlPorts>
+            <name>interrupt</name>
+            <Object>cifrador_paralelo_stream</Object>
+            <Type>return value</Type>
+            <Scope/>
+            <IOProtocol>ap_ctrl_hs</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>unknown</Attribute>
+        </RtlPorts>
+    </InterfaceSummary>
+    <RTLDesignHierarchy>
+        <TopModule MAX_DEPTH="4">
+            <ModuleName>cifrador_paralelo_stream</ModuleName>
+            <InstancesList>
+                <Instance>
+                    <InstName>entry_proc_U0</InstName>
+                    <ModuleName>entry_proc</ModuleName>
+                    <IsCompInst>true</IsCompInst>
+                    <ID>174</ID>
+                </Instance>
+                <Instance>
+                    <InstName>key_schedule_U0</InstName>
+                    <ModuleName>key_schedule</ModuleName>
+                    <IsCompInst>true</IsCompInst>
+                    <ID>190</ID>
+                    <BindInstances>sparsemux_33_4_4_1_1_U9 key_5_fu_294_p2 round_3_fu_300_p2 icmp_ln93_fu_306_p2</BindInstances>
+                </Instance>
+                <Instance>
+                    <InstName>cifrador_1_U0</InstName>
+                    <ModuleName>cifrador_1</ModuleName>
+                    <IsCompInst>true</IsCompInst>
+                    <ID>200</ID>
+                    <InstancesList>
+                        <Instance>
+                            <InstName>grp_cifrador_1_Pipeline_VITIS_LOOP_115_1_fu_48</InstName>
+                            <ModuleName>cifrador_1_Pipeline_VITIS_LOOP_115_1</ModuleName>
+                            <IsCompInst>true</IsCompInst>
+                            <ID>48</ID>
+                            <BindInstances>out_12_fu_162_p2 sparsemux_33_4_4_1_1_U16 sparsemux_33_4_4_1_1_U17 sparsemux_33_4_4_1_1_U18 sparsemux_33_4_4_1_1_U19 sparsemux_33_4_4_1_1_U20 sparsemux_33_4_4_1_1_U21 sparsemux_33_4_4_1_1_U22 sparsemux_33_4_4_1_1_U23 round_12_fu_142_p2 icmp_ln115_fu_148_p2</BindInstances>
+                        </Instance>
+                    </InstancesList>
+                    <BindInstances>out_fu_60_p2</BindInstances>
+                </Instance>
+                <Instance>
+                    <InstName>cifrador_2_U0</InstName>
+                    <ModuleName>cifrador_2</ModuleName>
+                    <IsCompInst>true</IsCompInst>
+                    <ID>206</ID>
+                    <InstancesList>
+                        <Instance>
+                            <InstName>grp_cifrador_2_Pipeline_VITIS_LOOP_115_1_fu_48</InstName>
+                            <ModuleName>cifrador_2_Pipeline_VITIS_LOOP_115_1</ModuleName>
+                            <IsCompInst>true</IsCompInst>
+                            <ID>48</ID>
+                            <BindInstances>out_9_fu_162_p2 sparsemux_33_4_4_1_1_U29 sparsemux_33_4_4_1_1_U30 sparsemux_33_4_4_1_1_U31 sparsemux_33_4_4_1_1_U32 sparsemux_33_4_4_1_1_U33 sparsemux_33_4_4_1_1_U34 sparsemux_33_4_4_1_1_U35 sparsemux_33_4_4_1_1_U36 round_10_fu_142_p2 icmp_ln115_fu_148_p2</BindInstances>
+                        </Instance>
+                    </InstancesList>
+                    <BindInstances>out_fu_60_p2</BindInstances>
+                </Instance>
+                <Instance>
+                    <InstName>cifrador_3_U0</InstName>
+                    <ModuleName>cifrador_3</ModuleName>
+                    <IsCompInst>true</IsCompInst>
+                    <ID>212</ID>
+                    <InstancesList>
+                        <Instance>
+                            <InstName>grp_cifrador_3_Pipeline_VITIS_LOOP_115_1_fu_48</InstName>
+                            <ModuleName>cifrador_3_Pipeline_VITIS_LOOP_115_1</ModuleName>
+                            <IsCompInst>true</IsCompInst>
+                            <ID>48</ID>
+                            <BindInstances>out_6_fu_162_p2 sparsemux_33_4_4_1_1_U42 sparsemux_33_4_4_1_1_U43 sparsemux_33_4_4_1_1_U44 sparsemux_33_4_4_1_1_U45 sparsemux_33_4_4_1_1_U46 sparsemux_33_4_4_1_1_U47 sparsemux_33_4_4_1_1_U48 sparsemux_33_4_4_1_1_U49 round_8_fu_142_p2 icmp_ln115_fu_148_p2</BindInstances>
+                        </Instance>
+                    </InstancesList>
+                    <BindInstances>out_fu_60_p2</BindInstances>
+                </Instance>
+                <Instance>
+                    <InstName>cifrador_U0</InstName>
+                    <ModuleName>cifrador</ModuleName>
+                    <IsCompInst>true</IsCompInst>
+                    <ID>218</ID>
+                    <InstancesList>
+                        <Instance>
+                            <InstName>grp_cifrador_Pipeline_VITIS_LOOP_115_1_fu_48</InstName>
+                            <ModuleName>cifrador_Pipeline_VITIS_LOOP_115_1</ModuleName>
+                            <IsCompInst>true</IsCompInst>
+                            <ID>48</ID>
+                            <BindInstances>out_3_fu_162_p2 sparsemux_33_4_4_1_1_U55 sparsemux_33_4_4_1_1_U56 sparsemux_33_4_4_1_1_U57 sparsemux_33_4_4_1_1_U58 sparsemux_33_4_4_1_1_U59 sparsemux_33_4_4_1_1_U60 sparsemux_33_4_4_1_1_U61 sparsemux_33_4_4_1_1_U62 round_6_fu_142_p2 icmp_ln115_fu_148_p2</BindInstances>
+                        </Instance>
+                    </InstancesList>
+                    <BindInstances>out_fu_60_p2</BindInstances>
+                </Instance>
+                <Instance>
+                    <InstName>Block_entry_proc_U0</InstName>
+                    <ModuleName>Block_entry_proc</ModuleName>
+                    <IsCompInst>true</IsCompInst>
+                    <ID>224</ID>
+                </Instance>
+            </InstancesList>
+            <BindInstances>plaintext0_c_U plaintext1_c_U plaintext2_c_U plaintext3_c_U k0_U k1_U k2_U k3_U ref_tmp_channel_U ref_tmp7_channel_U ref_tmp9_channel_U ref_tmp11_channel_U control_s_axi_U</BindInstances>
+        </TopModule>
+    </RTLDesignHierarchy>
+    <ModuleInformation>
+        <Module>
+            <Name>entry_proc</Name>
+            <PerformanceEstimates>
+                <SummaryOfTimingAnalysis>
+                    <TargetClockPeriod>10.00</TargetClockPeriod>
+                    <ClockUncertainty>2.70</ClockUncertainty>
+                    <EstimatedClockPeriod>3.634</EstimatedClockPeriod>
+                </SummaryOfTimingAnalysis>
+                <SummaryOfOverallLatency>
+                    <Best-caseLatency>0</Best-caseLatency>
+                    <Average-caseLatency>0</Average-caseLatency>
+                    <Worst-caseLatency>0</Worst-caseLatency>
+                    <Best-caseRealTimeLatency>0 ns</Best-caseRealTimeLatency>
+                    <Average-caseRealTimeLatency>0 ns</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>0 ns</Worst-caseRealTimeLatency>
+                    <PipelineInitiationInterval>0</PipelineInitiationInterval>
+                    <PipelineType>no</PipelineType>
+                    <PerformancePragma>-</PerformancePragma>
+                </SummaryOfOverallLatency>
+                <SummaryOfViolations>
+                    <IssueType>-</IssueType>
+                    <ViolationType>-</ViolationType>
+                    <SourceLocation>-</SourceLocation>
+                </SummaryOfViolations>
+            </PerformanceEstimates>
+            <AreaEstimates>
+                <Resources>
+                    <FF>3</FF>
+                    <AVAIL_FF>106400</AVAIL_FF>
+                    <UTIL_FF>~0</UTIL_FF>
+                    <LUT>56</LUT>
+                    <AVAIL_LUT>53200</AVAIL_LUT>
+                    <UTIL_LUT>~0</UTIL_LUT>
+                    <BRAM_18K>0</BRAM_18K>
+                    <AVAIL_BRAM>280</AVAIL_BRAM>
+                    <UTIL_BRAM>0</UTIL_BRAM>
+                    <DSP>0</DSP>
+                    <AVAIL_DSP>220</AVAIL_DSP>
+                    <UTIL_DSP>0</UTIL_DSP>
+                    <URAM>0</URAM>
+                    <AVAIL_URAM>0</AVAIL_URAM>
+                    <UTIL_URAM>0</UTIL_URAM>
+                </Resources>
+            </AreaEstimates>
+        </Module>
+        <Module>
+            <Name>key_schedule</Name>
+            <Loops>
+                <VITIS_LOOP_93_1/>
+            </Loops>
+            <PerformanceEstimates>
+                <SummaryOfTimingAnalysis>
+                    <TargetClockPeriod>10.00</TargetClockPeriod>
+                    <ClockUncertainty>2.70</ClockUncertainty>
+                    <EstimatedClockPeriod>5.240</EstimatedClockPeriod>
+                </SummaryOfTimingAnalysis>
+                <SummaryOfOverallLatency>
+                    <Best-caseLatency>33</Best-caseLatency>
+                    <Average-caseLatency>33</Average-caseLatency>
+                    <Worst-caseLatency>33</Worst-caseLatency>
+                    <Best-caseRealTimeLatency>0.330 us</Best-caseRealTimeLatency>
+                    <Average-caseRealTimeLatency>0.330 us</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>0.330 us</Worst-caseRealTimeLatency>
+                    <PipelineInitiationInterval>32</PipelineInitiationInterval>
+                    <PipelineType>loop auto-rewind stp (delay=0 clock cycles(s))stp (delay=0 clock cycles(s))</PipelineType>
+                    <PerformancePragma>-</PerformancePragma>
+                </SummaryOfOverallLatency>
+                <SummaryOfLoopLatency>
+                    <VITIS_LOOP_93_1>
+                        <Name>VITIS_LOOP_93_1</Name>
+                        <Slack>7.30</Slack>
+                        <TripCount>32</TripCount>
+                        <isPerfectNested>0</isPerfectNested>
+                        <Latency>31</Latency>
+                        <AbsoluteTimeLatency>0.310 us</AbsoluteTimeLatency>
+                        <PipelineII>1</PipelineII>
+                        <PipelineDepth>1</PipelineDepth>
+                        <PipelineType>yes</PipelineType>
+                        <PerformancePragma>-</PerformancePragma>
+                        <InstanceList/>
+                    </VITIS_LOOP_93_1>
+                </SummaryOfLoopLatency>
+                <SummaryOfViolations>
+                    <IssueType>-</IssueType>
+                    <ViolationType>-</ViolationType>
+                    <SourceLocation>Cifrador.cpp:93</SourceLocation>
+                    <SummaryOfLoopViolations>
+                        <VITIS_LOOP_93_1>
+                            <Name>VITIS_LOOP_93_1</Name>
+                            <IssueType>-</IssueType>
+                            <ViolationType>-</ViolationType>
+                            <SourceLocation>Cifrador.cpp:93</SourceLocation>
+                        </VITIS_LOOP_93_1>
+                    </SummaryOfLoopViolations>
+                </SummaryOfViolations>
+            </PerformanceEstimates>
+            <AreaEstimates>
+                <Resources>
+                    <FF>71</FF>
+                    <AVAIL_FF>106400</AVAIL_FF>
+                    <UTIL_FF>~0</UTIL_FF>
+                    <LUT>238</LUT>
+                    <AVAIL_LUT>53200</AVAIL_LUT>
+                    <UTIL_LUT>~0</UTIL_LUT>
+                    <BRAM_18K>0</BRAM_18K>
+                    <AVAIL_BRAM>280</AVAIL_BRAM>
+                    <UTIL_BRAM>0</UTIL_BRAM>
+                    <DSP>0</DSP>
+                    <AVAIL_DSP>220</AVAIL_DSP>
+                    <UTIL_DSP>0</UTIL_DSP>
+                    <URAM>0</URAM>
+                    <AVAIL_URAM>0</AVAIL_URAM>
+                    <UTIL_URAM>0</UTIL_URAM>
+                </Resources>
+            </AreaEstimates>
+            <BindNodes>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="VITIS_LOOP_93_1" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U9" SOURCE="Cifrador.cpp:20" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="VITIS_LOOP_93_1" OPTYPE="xor" PRAGMA="" RTLNAME="key_5_fu_294_p2" SOURCE="Cifrador.cpp:105" STORAGESUBTYPE="" URAM="0" VARIABLE="key_5" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_93_1" OPTYPE="add" PRAGMA="" RTLNAME="round_3_fu_300_p2" SOURCE="Cifrador.cpp:93" STORAGESUBTYPE="" URAM="0" VARIABLE="round_3" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="VITIS_LOOP_93_1" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln93_fu_306_p2" SOURCE="Cifrador.cpp:93" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln93" VISIBLE="false"/>
+            </BindNodes>
+        </Module>
+        <Module>
+            <Name>cifrador_1_Pipeline_VITIS_LOOP_115_1</Name>
+            <Loops>
+                <VITIS_LOOP_115_1/>
+            </Loops>
+            <PerformanceEstimates>
+                <SummaryOfTimingAnalysis>
+                    <TargetClockPeriod>10.00</TargetClockPeriod>
+                    <ClockUncertainty>2.70</ClockUncertainty>
+                    <EstimatedClockPeriod>4.956</EstimatedClockPeriod>
+                </SummaryOfTimingAnalysis>
+                <SummaryOfOverallLatency>
+                    <Best-caseLatency>33</Best-caseLatency>
+                    <Average-caseLatency>33</Average-caseLatency>
+                    <Worst-caseLatency>33</Worst-caseLatency>
+                    <Best-caseRealTimeLatency>0.330 us</Best-caseRealTimeLatency>
+                    <Average-caseRealTimeLatency>0.330 us</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>0.330 us</Worst-caseRealTimeLatency>
+                    <PipelineInitiationInterval>31</PipelineInitiationInterval>
+                    <PipelineType>loop pipeline stpstp (delay=0 clock cycles(s))</PipelineType>
+                    <PerformancePragma>-</PerformancePragma>
+                </SummaryOfOverallLatency>
+                <SummaryOfLoopLatency>
+                    <VITIS_LOOP_115_1>
+                        <Name>VITIS_LOOP_115_1</Name>
+                        <Slack>7.30</Slack>
+                        <TripCount>31</TripCount>
+                        <isPerfectNested>0</isPerfectNested>
+                        <Latency>31</Latency>
+                        <AbsoluteTimeLatency>0.310 us</AbsoluteTimeLatency>
+                        <PipelineII>1</PipelineII>
+                        <PipelineDepth>2</PipelineDepth>
+                        <PipelineType>yes</PipelineType>
+                        <PerformancePragma>-</PerformancePragma>
+                        <InstanceList/>
+                    </VITIS_LOOP_115_1>
+                </SummaryOfLoopLatency>
+                <SummaryOfViolations>
+                    <IssueType>-</IssueType>
+                    <ViolationType>-</ViolationType>
+                    <SourceLocation>Cifrador.cpp:49~Cifrador.cpp:58~Cifrador.cpp:118</SourceLocation>
+                    <SummaryOfLoopViolations>
+                        <VITIS_LOOP_115_1>
+                            <Name>VITIS_LOOP_115_1</Name>
+                            <IssueType>-</IssueType>
+                            <ViolationType>-</ViolationType>
+                            <SourceLocation>Cifrador.cpp:51~Cifrador.cpp:58~Cifrador.cpp:118</SourceLocation>
+                        </VITIS_LOOP_115_1>
+                    </SummaryOfLoopViolations>
+                </SummaryOfViolations>
+            </PerformanceEstimates>
+            <AreaEstimates>
+                <Resources>
+                    <FF>75</FF>
+                    <AVAIL_FF>106400</AVAIL_FF>
+                    <UTIL_FF>~0</UTIL_FF>
+                    <LUT>638</LUT>
+                    <AVAIL_LUT>53200</AVAIL_LUT>
+                    <UTIL_LUT>1</UTIL_LUT>
+                    <BRAM_18K>0</BRAM_18K>
+                    <AVAIL_BRAM>280</AVAIL_BRAM>
+                    <UTIL_BRAM>0</UTIL_BRAM>
+                    <DSP>0</DSP>
+                    <AVAIL_DSP>220</AVAIL_DSP>
+                    <UTIL_DSP>0</UTIL_DSP>
+                    <URAM>0</URAM>
+                    <AVAIL_URAM>0</AVAIL_URAM>
+                    <UTIL_URAM>0</UTIL_URAM>
+                </Resources>
+            </AreaEstimates>
+            <BindNodes>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="VITIS_LOOP_115_1" OPTYPE="xor" PRAGMA="" RTLNAME="out_12_fu_162_p2" SOURCE="Cifrador.cpp:51" STORAGESUBTYPE="" URAM="0" VARIABLE="out_12" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="VITIS_LOOP_115_1" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U16" SOURCE="Cifrador.cpp:20" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="VITIS_LOOP_115_1" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U17" SOURCE="Cifrador.cpp:20" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_s" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="VITIS_LOOP_115_1" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U18" SOURCE="Cifrador.cpp:20" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_13" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="VITIS_LOOP_115_1" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U19" SOURCE="Cifrador.cpp:20" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_14" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="VITIS_LOOP_115_1" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U20" SOURCE="Cifrador.cpp:20" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_15" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="VITIS_LOOP_115_1" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U21" SOURCE="Cifrador.cpp:20" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_16" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="VITIS_LOOP_115_1" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U22" SOURCE="Cifrador.cpp:20" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_17" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="VITIS_LOOP_115_1" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U23" SOURCE="Cifrador.cpp:20" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_18" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_115_1" OPTYPE="add" PRAGMA="" RTLNAME="round_12_fu_142_p2" SOURCE="Cifrador.cpp:115" STORAGESUBTYPE="" URAM="0" VARIABLE="round_12" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="VITIS_LOOP_115_1" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln115_fu_148_p2" SOURCE="Cifrador.cpp:115" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln115" VISIBLE="false"/>
+            </BindNodes>
+        </Module>
+        <Module>
+            <Name>cifrador_1</Name>
+            <PerformanceEstimates>
+                <SummaryOfTimingAnalysis>
+                    <TargetClockPeriod>10.00</TargetClockPeriod>
+                    <ClockUncertainty>2.70</ClockUncertainty>
+                    <EstimatedClockPeriod>5.222</EstimatedClockPeriod>
+                </SummaryOfTimingAnalysis>
+                <SummaryOfOverallLatency>
+                    <Best-caseLatency>35</Best-caseLatency>
+                    <Average-caseLatency>35</Average-caseLatency>
+                    <Worst-caseLatency>35</Worst-caseLatency>
+                    <Best-caseRealTimeLatency>0.350 us</Best-caseRealTimeLatency>
+                    <Average-caseRealTimeLatency>0.350 us</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>0.350 us</Worst-caseRealTimeLatency>
+                    <PipelineInitiationInterval>35</PipelineInitiationInterval>
+                    <PipelineType>no</PipelineType>
+                    <PerformancePragma>-</PerformancePragma>
+                </SummaryOfOverallLatency>
+                <SummaryOfViolations>
+                    <IssueType>-</IssueType>
+                    <ViolationType>-</ViolationType>
+                    <SourceLocation>Cifrador.cpp:121</SourceLocation>
+                </SummaryOfViolations>
+            </PerformanceEstimates>
+            <AreaEstimates>
+                <Resources>
+                    <FF>176</FF>
+                    <AVAIL_FF>106400</AVAIL_FF>
+                    <UTIL_FF>~0</UTIL_FF>
+                    <LUT>742</LUT>
+                    <AVAIL_LUT>53200</AVAIL_LUT>
+                    <UTIL_LUT>1</UTIL_LUT>
+                    <BRAM_18K>0</BRAM_18K>
+                    <AVAIL_BRAM>280</AVAIL_BRAM>
+                    <UTIL_BRAM>0</UTIL_BRAM>
+                    <DSP>0</DSP>
+                    <AVAIL_DSP>220</AVAIL_DSP>
+                    <UTIL_DSP>0</UTIL_DSP>
+                    <URAM>0</URAM>
+                    <AVAIL_URAM>0</AVAIL_URAM>
+                    <UTIL_URAM>0</UTIL_URAM>
+                </Resources>
+            </AreaEstimates>
+            <BindNodes>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="out_fu_60_p2" SOURCE="Cifrador.cpp:51" STORAGESUBTYPE="" URAM="0" VARIABLE="out" VISIBLE="false"/>
+            </BindNodes>
+        </Module>
+        <Module>
+            <Name>cifrador_2_Pipeline_VITIS_LOOP_115_1</Name>
+            <Loops>
+                <VITIS_LOOP_115_1/>
+            </Loops>
+            <PerformanceEstimates>
+                <SummaryOfTimingAnalysis>
+                    <TargetClockPeriod>10.00</TargetClockPeriod>
+                    <ClockUncertainty>2.70</ClockUncertainty>
+                    <EstimatedClockPeriod>4.956</EstimatedClockPeriod>
+                </SummaryOfTimingAnalysis>
+                <SummaryOfOverallLatency>
+                    <Best-caseLatency>33</Best-caseLatency>
+                    <Average-caseLatency>33</Average-caseLatency>
+                    <Worst-caseLatency>33</Worst-caseLatency>
+                    <Best-caseRealTimeLatency>0.330 us</Best-caseRealTimeLatency>
+                    <Average-caseRealTimeLatency>0.330 us</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>0.330 us</Worst-caseRealTimeLatency>
+                    <PipelineInitiationInterval>31</PipelineInitiationInterval>
+                    <PipelineType>loop pipeline stpstp (delay=0 clock cycles(s))</PipelineType>
+                    <PerformancePragma>-</PerformancePragma>
+                </SummaryOfOverallLatency>
+                <SummaryOfLoopLatency>
+                    <VITIS_LOOP_115_1>
+                        <Name>VITIS_LOOP_115_1</Name>
+                        <Slack>7.30</Slack>
+                        <TripCount>31</TripCount>
+                        <isPerfectNested>0</isPerfectNested>
+                        <Latency>31</Latency>
+                        <AbsoluteTimeLatency>0.310 us</AbsoluteTimeLatency>
+                        <PipelineII>1</PipelineII>
+                        <PipelineDepth>2</PipelineDepth>
+                        <PipelineType>yes</PipelineType>
+                        <PerformancePragma>-</PerformancePragma>
+                        <InstanceList/>
+                    </VITIS_LOOP_115_1>
+                </SummaryOfLoopLatency>
+                <SummaryOfViolations>
+                    <IssueType>-</IssueType>
+                    <ViolationType>-</ViolationType>
+                    <SourceLocation>Cifrador.cpp:49~Cifrador.cpp:58~Cifrador.cpp:118</SourceLocation>
+                    <SummaryOfLoopViolations>
+                        <VITIS_LOOP_115_1>
+                            <Name>VITIS_LOOP_115_1</Name>
+                            <IssueType>-</IssueType>
+                            <ViolationType>-</ViolationType>
+                            <SourceLocation>Cifrador.cpp:51~Cifrador.cpp:58~Cifrador.cpp:118</SourceLocation>
+                        </VITIS_LOOP_115_1>
+                    </SummaryOfLoopViolations>
+                </SummaryOfViolations>
+            </PerformanceEstimates>
+            <AreaEstimates>
+                <Resources>
+                    <FF>75</FF>
+                    <AVAIL_FF>106400</AVAIL_FF>
+                    <UTIL_FF>~0</UTIL_FF>
+                    <LUT>638</LUT>
+                    <AVAIL_LUT>53200</AVAIL_LUT>
+                    <UTIL_LUT>1</UTIL_LUT>
+                    <BRAM_18K>0</BRAM_18K>
+                    <AVAIL_BRAM>280</AVAIL_BRAM>
+                    <UTIL_BRAM>0</UTIL_BRAM>
+                    <DSP>0</DSP>
+                    <AVAIL_DSP>220</AVAIL_DSP>
+                    <UTIL_DSP>0</UTIL_DSP>
+                    <URAM>0</URAM>
+                    <AVAIL_URAM>0</AVAIL_URAM>
+                    <UTIL_URAM>0</UTIL_URAM>
+                </Resources>
+            </AreaEstimates>
+            <BindNodes>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="VITIS_LOOP_115_1" OPTYPE="xor" PRAGMA="" RTLNAME="out_9_fu_162_p2" SOURCE="Cifrador.cpp:51" STORAGESUBTYPE="" URAM="0" VARIABLE="out_9" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="VITIS_LOOP_115_1" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U29" SOURCE="Cifrador.cpp:20" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="VITIS_LOOP_115_1" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U30" SOURCE="Cifrador.cpp:20" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_s" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="VITIS_LOOP_115_1" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U31" SOURCE="Cifrador.cpp:20" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_7" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="VITIS_LOOP_115_1" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U32" SOURCE="Cifrador.cpp:20" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_8" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="VITIS_LOOP_115_1" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U33" SOURCE="Cifrador.cpp:20" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_9" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="VITIS_LOOP_115_1" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U34" SOURCE="Cifrador.cpp:20" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_10" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="VITIS_LOOP_115_1" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U35" SOURCE="Cifrador.cpp:20" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_11" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="VITIS_LOOP_115_1" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U36" SOURCE="Cifrador.cpp:20" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_12" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_115_1" OPTYPE="add" PRAGMA="" RTLNAME="round_10_fu_142_p2" SOURCE="Cifrador.cpp:115" STORAGESUBTYPE="" URAM="0" VARIABLE="round_10" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="VITIS_LOOP_115_1" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln115_fu_148_p2" SOURCE="Cifrador.cpp:115" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln115" VISIBLE="false"/>
+            </BindNodes>
+        </Module>
+        <Module>
+            <Name>cifrador_2</Name>
+            <PerformanceEstimates>
+                <SummaryOfTimingAnalysis>
+                    <TargetClockPeriod>10.00</TargetClockPeriod>
+                    <ClockUncertainty>2.70</ClockUncertainty>
+                    <EstimatedClockPeriod>5.222</EstimatedClockPeriod>
+                </SummaryOfTimingAnalysis>
+                <SummaryOfOverallLatency>
+                    <Best-caseLatency>35</Best-caseLatency>
+                    <Average-caseLatency>35</Average-caseLatency>
+                    <Worst-caseLatency>35</Worst-caseLatency>
+                    <Best-caseRealTimeLatency>0.350 us</Best-caseRealTimeLatency>
+                    <Average-caseRealTimeLatency>0.350 us</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>0.350 us</Worst-caseRealTimeLatency>
+                    <PipelineInitiationInterval>35</PipelineInitiationInterval>
+                    <PipelineType>no</PipelineType>
+                    <PerformancePragma>-</PerformancePragma>
+                </SummaryOfOverallLatency>
+                <SummaryOfViolations>
+                    <IssueType>-</IssueType>
+                    <ViolationType>-</ViolationType>
+                    <SourceLocation>Cifrador.cpp:121</SourceLocation>
+                </SummaryOfViolations>
+            </PerformanceEstimates>
+            <AreaEstimates>
+                <Resources>
+                    <FF>176</FF>
+                    <AVAIL_FF>106400</AVAIL_FF>
+                    <UTIL_FF>~0</UTIL_FF>
+                    <LUT>742</LUT>
+                    <AVAIL_LUT>53200</AVAIL_LUT>
+                    <UTIL_LUT>1</UTIL_LUT>
+                    <BRAM_18K>0</BRAM_18K>
+                    <AVAIL_BRAM>280</AVAIL_BRAM>
+                    <UTIL_BRAM>0</UTIL_BRAM>
+                    <DSP>0</DSP>
+                    <AVAIL_DSP>220</AVAIL_DSP>
+                    <UTIL_DSP>0</UTIL_DSP>
+                    <URAM>0</URAM>
+                    <AVAIL_URAM>0</AVAIL_URAM>
+                    <UTIL_URAM>0</UTIL_URAM>
+                </Resources>
+            </AreaEstimates>
+            <BindNodes>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="out_fu_60_p2" SOURCE="Cifrador.cpp:51" STORAGESUBTYPE="" URAM="0" VARIABLE="out" VISIBLE="false"/>
+            </BindNodes>
+        </Module>
+        <Module>
+            <Name>cifrador_3_Pipeline_VITIS_LOOP_115_1</Name>
+            <Loops>
+                <VITIS_LOOP_115_1/>
+            </Loops>
+            <PerformanceEstimates>
+                <SummaryOfTimingAnalysis>
+                    <TargetClockPeriod>10.00</TargetClockPeriod>
+                    <ClockUncertainty>2.70</ClockUncertainty>
+                    <EstimatedClockPeriod>4.956</EstimatedClockPeriod>
+                </SummaryOfTimingAnalysis>
+                <SummaryOfOverallLatency>
+                    <Best-caseLatency>33</Best-caseLatency>
+                    <Average-caseLatency>33</Average-caseLatency>
+                    <Worst-caseLatency>33</Worst-caseLatency>
+                    <Best-caseRealTimeLatency>0.330 us</Best-caseRealTimeLatency>
+                    <Average-caseRealTimeLatency>0.330 us</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>0.330 us</Worst-caseRealTimeLatency>
+                    <PipelineInitiationInterval>31</PipelineInitiationInterval>
+                    <PipelineType>loop pipeline stpstp (delay=0 clock cycles(s))</PipelineType>
+                    <PerformancePragma>-</PerformancePragma>
+                </SummaryOfOverallLatency>
+                <SummaryOfLoopLatency>
+                    <VITIS_LOOP_115_1>
+                        <Name>VITIS_LOOP_115_1</Name>
+                        <Slack>7.30</Slack>
+                        <TripCount>31</TripCount>
+                        <isPerfectNested>0</isPerfectNested>
+                        <Latency>31</Latency>
+                        <AbsoluteTimeLatency>0.310 us</AbsoluteTimeLatency>
+                        <PipelineII>1</PipelineII>
+                        <PipelineDepth>2</PipelineDepth>
+                        <PipelineType>yes</PipelineType>
+                        <PerformancePragma>-</PerformancePragma>
+                        <InstanceList/>
+                    </VITIS_LOOP_115_1>
+                </SummaryOfLoopLatency>
+                <SummaryOfViolations>
+                    <IssueType>-</IssueType>
+                    <ViolationType>-</ViolationType>
+                    <SourceLocation>Cifrador.cpp:49~Cifrador.cpp:58~Cifrador.cpp:118</SourceLocation>
+                    <SummaryOfLoopViolations>
+                        <VITIS_LOOP_115_1>
+                            <Name>VITIS_LOOP_115_1</Name>
+                            <IssueType>-</IssueType>
+                            <ViolationType>-</ViolationType>
+                            <SourceLocation>Cifrador.cpp:51~Cifrador.cpp:58~Cifrador.cpp:118</SourceLocation>
+                        </VITIS_LOOP_115_1>
+                    </SummaryOfLoopViolations>
+                </SummaryOfViolations>
+            </PerformanceEstimates>
+            <AreaEstimates>
+                <Resources>
+                    <FF>75</FF>
+                    <AVAIL_FF>106400</AVAIL_FF>
+                    <UTIL_FF>~0</UTIL_FF>
+                    <LUT>638</LUT>
+                    <AVAIL_LUT>53200</AVAIL_LUT>
+                    <UTIL_LUT>1</UTIL_LUT>
+                    <BRAM_18K>0</BRAM_18K>
+                    <AVAIL_BRAM>280</AVAIL_BRAM>
+                    <UTIL_BRAM>0</UTIL_BRAM>
+                    <DSP>0</DSP>
+                    <AVAIL_DSP>220</AVAIL_DSP>
+                    <UTIL_DSP>0</UTIL_DSP>
+                    <URAM>0</URAM>
+                    <AVAIL_URAM>0</AVAIL_URAM>
+                    <UTIL_URAM>0</UTIL_URAM>
+                </Resources>
+            </AreaEstimates>
+            <BindNodes>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="VITIS_LOOP_115_1" OPTYPE="xor" PRAGMA="" RTLNAME="out_6_fu_162_p2" SOURCE="Cifrador.cpp:51" STORAGESUBTYPE="" URAM="0" VARIABLE="out_6" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="VITIS_LOOP_115_1" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U42" SOURCE="Cifrador.cpp:20" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="VITIS_LOOP_115_1" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U43" SOURCE="Cifrador.cpp:20" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_3" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="VITIS_LOOP_115_1" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U44" SOURCE="Cifrador.cpp:20" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_5" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="VITIS_LOOP_115_1" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U45" SOURCE="Cifrador.cpp:20" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_7" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="VITIS_LOOP_115_1" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U46" SOURCE="Cifrador.cpp:20" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_9" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="VITIS_LOOP_115_1" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U47" SOURCE="Cifrador.cpp:20" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_s" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="VITIS_LOOP_115_1" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U48" SOURCE="Cifrador.cpp:20" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_1" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="VITIS_LOOP_115_1" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U49" SOURCE="Cifrador.cpp:20" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_2" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_115_1" OPTYPE="add" PRAGMA="" RTLNAME="round_8_fu_142_p2" SOURCE="Cifrador.cpp:115" STORAGESUBTYPE="" URAM="0" VARIABLE="round_8" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="VITIS_LOOP_115_1" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln115_fu_148_p2" SOURCE="Cifrador.cpp:115" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln115" VISIBLE="false"/>
+            </BindNodes>
+        </Module>
+        <Module>
+            <Name>cifrador_3</Name>
+            <PerformanceEstimates>
+                <SummaryOfTimingAnalysis>
+                    <TargetClockPeriod>10.00</TargetClockPeriod>
+                    <ClockUncertainty>2.70</ClockUncertainty>
+                    <EstimatedClockPeriod>5.222</EstimatedClockPeriod>
+                </SummaryOfTimingAnalysis>
+                <SummaryOfOverallLatency>
+                    <Best-caseLatency>35</Best-caseLatency>
+                    <Average-caseLatency>35</Average-caseLatency>
+                    <Worst-caseLatency>35</Worst-caseLatency>
+                    <Best-caseRealTimeLatency>0.350 us</Best-caseRealTimeLatency>
+                    <Average-caseRealTimeLatency>0.350 us</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>0.350 us</Worst-caseRealTimeLatency>
+                    <PipelineInitiationInterval>35</PipelineInitiationInterval>
+                    <PipelineType>no</PipelineType>
+                    <PerformancePragma>-</PerformancePragma>
+                </SummaryOfOverallLatency>
+                <SummaryOfViolations>
+                    <IssueType>-</IssueType>
+                    <ViolationType>-</ViolationType>
+                    <SourceLocation>Cifrador.cpp:121</SourceLocation>
+                </SummaryOfViolations>
+            </PerformanceEstimates>
+            <AreaEstimates>
+                <Resources>
+                    <FF>176</FF>
+                    <AVAIL_FF>106400</AVAIL_FF>
+                    <UTIL_FF>~0</UTIL_FF>
+                    <LUT>742</LUT>
+                    <AVAIL_LUT>53200</AVAIL_LUT>
+                    <UTIL_LUT>1</UTIL_LUT>
+                    <BRAM_18K>0</BRAM_18K>
+                    <AVAIL_BRAM>280</AVAIL_BRAM>
+                    <UTIL_BRAM>0</UTIL_BRAM>
+                    <DSP>0</DSP>
+                    <AVAIL_DSP>220</AVAIL_DSP>
+                    <UTIL_DSP>0</UTIL_DSP>
+                    <URAM>0</URAM>
+                    <AVAIL_URAM>0</AVAIL_URAM>
+                    <UTIL_URAM>0</UTIL_URAM>
+                </Resources>
+            </AreaEstimates>
+            <BindNodes>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="out_fu_60_p2" SOURCE="Cifrador.cpp:51" STORAGESUBTYPE="" URAM="0" VARIABLE="out" VISIBLE="false"/>
+            </BindNodes>
+        </Module>
+        <Module>
+            <Name>cifrador_Pipeline_VITIS_LOOP_115_1</Name>
+            <Loops>
+                <VITIS_LOOP_115_1/>
+            </Loops>
+            <PerformanceEstimates>
+                <SummaryOfTimingAnalysis>
+                    <TargetClockPeriod>10.00</TargetClockPeriod>
+                    <ClockUncertainty>2.70</ClockUncertainty>
+                    <EstimatedClockPeriod>4.956</EstimatedClockPeriod>
+                </SummaryOfTimingAnalysis>
+                <SummaryOfOverallLatency>
+                    <Best-caseLatency>33</Best-caseLatency>
+                    <Average-caseLatency>33</Average-caseLatency>
+                    <Worst-caseLatency>33</Worst-caseLatency>
+                    <Best-caseRealTimeLatency>0.330 us</Best-caseRealTimeLatency>
+                    <Average-caseRealTimeLatency>0.330 us</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>0.330 us</Worst-caseRealTimeLatency>
+                    <PipelineInitiationInterval>31</PipelineInitiationInterval>
+                    <PipelineType>loop pipeline stpstp (delay=0 clock cycles(s))</PipelineType>
+                    <PerformancePragma>-</PerformancePragma>
+                </SummaryOfOverallLatency>
+                <SummaryOfLoopLatency>
+                    <VITIS_LOOP_115_1>
+                        <Name>VITIS_LOOP_115_1</Name>
+                        <Slack>7.30</Slack>
+                        <TripCount>31</TripCount>
+                        <isPerfectNested>0</isPerfectNested>
+                        <Latency>31</Latency>
+                        <AbsoluteTimeLatency>0.310 us</AbsoluteTimeLatency>
+                        <PipelineII>1</PipelineII>
+                        <PipelineDepth>2</PipelineDepth>
+                        <PipelineType>yes</PipelineType>
+                        <PerformancePragma>-</PerformancePragma>
+                        <InstanceList/>
+                    </VITIS_LOOP_115_1>
+                </SummaryOfLoopLatency>
+                <SummaryOfViolations>
+                    <IssueType>-</IssueType>
+                    <ViolationType>-</ViolationType>
+                    <SourceLocation>Cifrador.cpp:49~Cifrador.cpp:58~Cifrador.cpp:118</SourceLocation>
+                    <SummaryOfLoopViolations>
+                        <VITIS_LOOP_115_1>
+                            <Name>VITIS_LOOP_115_1</Name>
+                            <IssueType>-</IssueType>
+                            <ViolationType>-</ViolationType>
+                            <SourceLocation>Cifrador.cpp:51~Cifrador.cpp:58~Cifrador.cpp:118</SourceLocation>
+                        </VITIS_LOOP_115_1>
+                    </SummaryOfLoopViolations>
+                </SummaryOfViolations>
+            </PerformanceEstimates>
+            <AreaEstimates>
+                <Resources>
+                    <FF>75</FF>
+                    <AVAIL_FF>106400</AVAIL_FF>
+                    <UTIL_FF>~0</UTIL_FF>
+                    <LUT>638</LUT>
+                    <AVAIL_LUT>53200</AVAIL_LUT>
+                    <UTIL_LUT>1</UTIL_LUT>
+                    <BRAM_18K>0</BRAM_18K>
+                    <AVAIL_BRAM>280</AVAIL_BRAM>
+                    <UTIL_BRAM>0</UTIL_BRAM>
+                    <DSP>0</DSP>
+                    <AVAIL_DSP>220</AVAIL_DSP>
+                    <UTIL_DSP>0</UTIL_DSP>
+                    <URAM>0</URAM>
+                    <AVAIL_URAM>0</AVAIL_URAM>
+                    <UTIL_URAM>0</UTIL_URAM>
+                </Resources>
+            </AreaEstimates>
+            <BindNodes>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="VITIS_LOOP_115_1" OPTYPE="xor" PRAGMA="" RTLNAME="out_3_fu_162_p2" SOURCE="Cifrador.cpp:51" STORAGESUBTYPE="" URAM="0" VARIABLE="out_3" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="VITIS_LOOP_115_1" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U55" SOURCE="Cifrador.cpp:20" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="VITIS_LOOP_115_1" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U56" SOURCE="Cifrador.cpp:20" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_s" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="VITIS_LOOP_115_1" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U57" SOURCE="Cifrador.cpp:20" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_1" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="VITIS_LOOP_115_1" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U58" SOURCE="Cifrador.cpp:20" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_2" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="VITIS_LOOP_115_1" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U59" SOURCE="Cifrador.cpp:20" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_3" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="VITIS_LOOP_115_1" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U60" SOURCE="Cifrador.cpp:20" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_4" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="VITIS_LOOP_115_1" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U61" SOURCE="Cifrador.cpp:20" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_5" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="VITIS_LOOP_115_1" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U62" SOURCE="Cifrador.cpp:20" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_6" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_115_1" OPTYPE="add" PRAGMA="" RTLNAME="round_6_fu_142_p2" SOURCE="Cifrador.cpp:115" STORAGESUBTYPE="" URAM="0" VARIABLE="round_6" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="VITIS_LOOP_115_1" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln115_fu_148_p2" SOURCE="Cifrador.cpp:115" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln115" VISIBLE="false"/>
+            </BindNodes>
+        </Module>
+        <Module>
+            <Name>cifrador</Name>
+            <PerformanceEstimates>
+                <SummaryOfTimingAnalysis>
+                    <TargetClockPeriod>10.00</TargetClockPeriod>
+                    <ClockUncertainty>2.70</ClockUncertainty>
+                    <EstimatedClockPeriod>5.222</EstimatedClockPeriod>
+                </SummaryOfTimingAnalysis>
+                <SummaryOfOverallLatency>
+                    <Best-caseLatency>35</Best-caseLatency>
+                    <Average-caseLatency>35</Average-caseLatency>
+                    <Worst-caseLatency>35</Worst-caseLatency>
+                    <Best-caseRealTimeLatency>0.350 us</Best-caseRealTimeLatency>
+                    <Average-caseRealTimeLatency>0.350 us</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>0.350 us</Worst-caseRealTimeLatency>
+                    <PipelineInitiationInterval>35</PipelineInitiationInterval>
+                    <PipelineType>no</PipelineType>
+                    <PerformancePragma>-</PerformancePragma>
+                </SummaryOfOverallLatency>
+                <SummaryOfViolations>
+                    <IssueType>-</IssueType>
+                    <ViolationType>-</ViolationType>
+                    <SourceLocation>Cifrador.cpp:121</SourceLocation>
+                </SummaryOfViolations>
+            </PerformanceEstimates>
+            <AreaEstimates>
+                <Resources>
+                    <FF>176</FF>
+                    <AVAIL_FF>106400</AVAIL_FF>
+                    <UTIL_FF>~0</UTIL_FF>
+                    <LUT>742</LUT>
+                    <AVAIL_LUT>53200</AVAIL_LUT>
+                    <UTIL_LUT>1</UTIL_LUT>
+                    <BRAM_18K>0</BRAM_18K>
+                    <AVAIL_BRAM>280</AVAIL_BRAM>
+                    <UTIL_BRAM>0</UTIL_BRAM>
+                    <DSP>0</DSP>
+                    <AVAIL_DSP>220</AVAIL_DSP>
+                    <UTIL_DSP>0</UTIL_DSP>
+                    <URAM>0</URAM>
+                    <AVAIL_URAM>0</AVAIL_URAM>
+                    <UTIL_URAM>0</UTIL_URAM>
+                </Resources>
+            </AreaEstimates>
+            <BindNodes>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="out_fu_60_p2" SOURCE="Cifrador.cpp:51" STORAGESUBTYPE="" URAM="0" VARIABLE="out" VISIBLE="false"/>
+            </BindNodes>
+        </Module>
+        <Module>
+            <Name>Block_entry_proc</Name>
+            <PerformanceEstimates>
+                <SummaryOfTimingAnalysis>
+                    <TargetClockPeriod>10.00</TargetClockPeriod>
+                    <ClockUncertainty>2.70</ClockUncertainty>
+                    <EstimatedClockPeriod>3.634</EstimatedClockPeriod>
+                </SummaryOfTimingAnalysis>
+                <SummaryOfOverallLatency>
+                    <Best-caseLatency>0</Best-caseLatency>
+                    <Average-caseLatency>0</Average-caseLatency>
+                    <Worst-caseLatency>0</Worst-caseLatency>
+                    <Best-caseRealTimeLatency>0 ns</Best-caseRealTimeLatency>
+                    <Average-caseRealTimeLatency>0 ns</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>0 ns</Worst-caseRealTimeLatency>
+                    <PipelineInitiationInterval>0</PipelineInitiationInterval>
+                    <PipelineType>no</PipelineType>
+                    <PerformancePragma>-</PerformancePragma>
+                </SummaryOfOverallLatency>
+                <SummaryOfViolations>
+                    <IssueType>-</IssueType>
+                    <ViolationType>-</ViolationType>
+                    <SourceLocation>Cifrador.cpp:156~Cifrador.cpp:156</SourceLocation>
+                </SummaryOfViolations>
+            </PerformanceEstimates>
+            <AreaEstimates>
+                <Resources>
+                    <FF>130</FF>
+                    <AVAIL_FF>106400</AVAIL_FF>
+                    <UTIL_FF>~0</UTIL_FF>
+                    <LUT>47</LUT>
+                    <AVAIL_LUT>53200</AVAIL_LUT>
+                    <UTIL_LUT>~0</UTIL_LUT>
+                    <BRAM_18K>0</BRAM_18K>
+                    <AVAIL_BRAM>280</AVAIL_BRAM>
+                    <UTIL_BRAM>0</UTIL_BRAM>
+                    <DSP>0</DSP>
+                    <AVAIL_DSP>220</AVAIL_DSP>
+                    <UTIL_DSP>0</UTIL_DSP>
+                    <URAM>0</URAM>
+                    <AVAIL_URAM>0</AVAIL_URAM>
+                    <UTIL_URAM>0</UTIL_URAM>
+                </Resources>
+            </AreaEstimates>
+        </Module>
+        <Module>
+            <Name>cifrador_paralelo_stream</Name>
+            <PerformanceEstimates>
+                <SummaryOfTimingAnalysis>
+                    <TargetClockPeriod>10.00</TargetClockPeriod>
+                    <ClockUncertainty>2.70</ClockUncertainty>
+                    <EstimatedClockPeriod>6.240</EstimatedClockPeriod>
+                </SummaryOfTimingAnalysis>
+                <SummaryOfOverallLatency>
+                    <Best-caseLatency>37</Best-caseLatency>
+                    <Average-caseLatency>37</Average-caseLatency>
+                    <Worst-caseLatency>37</Worst-caseLatency>
+                    <Best-caseRealTimeLatency>0.370 us</Best-caseRealTimeLatency>
+                    <Average-caseRealTimeLatency>0.370 us</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>0.370 us</Worst-caseRealTimeLatency>
+                    <DataflowPipelineThroughput>36</DataflowPipelineThroughput>
+                    <PipelineInitiationInterval>36</PipelineInitiationInterval>
+                    <PipelineType>dataflow</PipelineType>
+                    <PerformancePragma>-</PerformancePragma>
+                </SummaryOfOverallLatency>
+                <SummaryOfViolations>
+                    <IssueType>-</IssueType>
+                    <ViolationType>-</ViolationType>
+                    <SourceLocation>Cifrador.cpp:145</SourceLocation>
+                </SummaryOfViolations>
+            </PerformanceEstimates>
+            <AreaEstimates>
+                <Resources>
+                    <BRAM_18K>0</BRAM_18K>
+                    <AVAIL_BRAM>280</AVAIL_BRAM>
+                    <UTIL_BRAM>0</UTIL_BRAM>
+                    <FF>2508</FF>
+                    <AVAIL_FF>106400</AVAIL_FF>
+                    <UTIL_FF>2</UTIL_FF>
+                    <LUT>4907</LUT>
+                    <AVAIL_LUT>53200</AVAIL_LUT>
+                    <UTIL_LUT>9</UTIL_LUT>
+                    <DSP>0</DSP>
+                    <AVAIL_DSP>220</AVAIL_DSP>
+                    <UTIL_DSP>0</UTIL_DSP>
+                    <URAM>0</URAM>
+                    <AVAIL_URAM>0</AVAIL_URAM>
+                    <UTIL_URAM>0</UTIL_URAM>
+                </Resources>
+            </AreaEstimates>
+            <BindNodes>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="plaintext0_c_U" SOURCE="Cifrador.cpp:145" STORAGESIZE="32 3 1" STORAGESUBTYPE="scalar prop" STORAGEUSAGE="fifo channel" URAM="0" VARIABLE="plaintext0_c" VISIBLE="true"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="plaintext1_c_U" SOURCE="Cifrador.cpp:145" STORAGESIZE="32 3 1" STORAGESUBTYPE="scalar prop" STORAGEUSAGE="fifo channel" URAM="0" VARIABLE="plaintext1_c" VISIBLE="true"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="plaintext2_c_U" SOURCE="Cifrador.cpp:145" STORAGESIZE="32 3 1" STORAGESUBTYPE="scalar prop" STORAGEUSAGE="fifo channel" URAM="0" VARIABLE="plaintext2_c" VISIBLE="true"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="plaintext3_c_U" SOURCE="Cifrador.cpp:145" STORAGESIZE="32 3 1" STORAGESUBTYPE="scalar prop" STORAGEUSAGE="fifo channel" URAM="0" VARIABLE="plaintext3_c" VISIBLE="true"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="k0_U" SOURCE="Cifrador.cpp:147" STORAGESIZE="32 32 1" STORAGESUBTYPE="stream" STORAGEUSAGE="fifo channel" URAM="0" VARIABLE="k0" VISIBLE="true"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="k1_U" SOURCE="Cifrador.cpp:147" STORAGESIZE="32 32 1" STORAGESUBTYPE="stream" STORAGEUSAGE="fifo channel" URAM="0" VARIABLE="k1" VISIBLE="true"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="k2_U" SOURCE="Cifrador.cpp:147" STORAGESIZE="32 32 1" STORAGESUBTYPE="stream" STORAGEUSAGE="fifo channel" URAM="0" VARIABLE="k2" VISIBLE="true"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="k3_U" SOURCE="Cifrador.cpp:147" STORAGESIZE="32 32 1" STORAGESUBTYPE="stream" STORAGEUSAGE="fifo channel" URAM="0" VARIABLE="k3" VISIBLE="true"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="ref_tmp_channel_U" SOURCE="Cifrador.cpp:156" STORAGESIZE="32 2 1" STORAGESUBTYPE="task level" STORAGEUSAGE="fifo channel" URAM="0" VARIABLE="ref_tmp_channel" VISIBLE="true"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="ref_tmp7_channel_U" SOURCE="Cifrador.cpp:157" STORAGESIZE="32 2 1" STORAGESUBTYPE="task level" STORAGEUSAGE="fifo channel" URAM="0" VARIABLE="ref_tmp7_channel" VISIBLE="true"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="ref_tmp9_channel_U" SOURCE="Cifrador.cpp:158" STORAGESIZE="32 2 1" STORAGESUBTYPE="task level" STORAGEUSAGE="fifo channel" URAM="0" VARIABLE="ref_tmp9_channel" VISIBLE="true"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="ref_tmp11_channel_U" SOURCE="Cifrador.cpp:159" STORAGESIZE="32 2 1" STORAGESUBTYPE="task level" STORAGEUSAGE="fifo channel" URAM="0" VARIABLE="ref_tmp11_channel" VISIBLE="true"/>
+                <BindNode BINDTYPE="adapter" BRAM="0" BUNDLEDNAME="control" DISPNAME="bind_adapter " DSP="0" ID="" IMPL="" LATENCY="" LOOP="" OPTYPE="" PRAGMA="" RTLNAME="control_s_axi_U" SOURCE="" STORAGESIZE="" STORAGESUBTYPE="s_axilite" STORAGEUSAGE="interface" URAM="0" VARIABLE=""/>
+            </BindNodes>
+        </Module>
+    </ModuleInformation>
+    <FIFOInformation>
+        <FIFOInst>
+            <Name>k0_U</Name>
+            <ParentInst/>
+            <StaticDepth>32</StaticDepth>
+            <RuntimeDepth>mOutPtr</RuntimeDepth>
+            <InterfaceList>
+                <Interface>clk</Interface>
+                <Interface>reset</Interface>
+                <Interface>if_write</Interface>
+                <Interface>if_din</Interface>
+                <Interface>if_full_n</Interface>
+                <Interface>if_read</Interface>
+                <Interface>if_empty_n</Interface>
+            </InterfaceList>
+        </FIFOInst>
+        <FIFOInst>
+            <Name>k1_U</Name>
+            <ParentInst/>
+            <StaticDepth>32</StaticDepth>
+            <RuntimeDepth>mOutPtr</RuntimeDepth>
+            <InterfaceList>
+                <Interface>clk</Interface>
+                <Interface>reset</Interface>
+                <Interface>if_write</Interface>
+                <Interface>if_din</Interface>
+                <Interface>if_full_n</Interface>
+                <Interface>if_read</Interface>
+                <Interface>if_empty_n</Interface>
+            </InterfaceList>
+        </FIFOInst>
+        <FIFOInst>
+            <Name>k2_U</Name>
+            <ParentInst/>
+            <StaticDepth>32</StaticDepth>
+            <RuntimeDepth>mOutPtr</RuntimeDepth>
+            <InterfaceList>
+                <Interface>clk</Interface>
+                <Interface>reset</Interface>
+                <Interface>if_write</Interface>
+                <Interface>if_din</Interface>
+                <Interface>if_full_n</Interface>
+                <Interface>if_read</Interface>
+                <Interface>if_empty_n</Interface>
+            </InterfaceList>
+        </FIFOInst>
+        <FIFOInst>
+            <Name>k3_U</Name>
+            <ParentInst/>
+            <StaticDepth>32</StaticDepth>
+            <RuntimeDepth>mOutPtr</RuntimeDepth>
+            <InterfaceList>
+                <Interface>clk</Interface>
+                <Interface>reset</Interface>
+                <Interface>if_write</Interface>
+                <Interface>if_din</Interface>
+                <Interface>if_full_n</Interface>
+                <Interface>if_read</Interface>
+                <Interface>if_empty_n</Interface>
+            </InterfaceList>
+        </FIFOInst>
+    </FIFOInformation>
+    <UserConfigCommands/>
+    <Args>
+        <Arg ArgName="plaintext0" index="0" direction="in" srcType="ap_uint&lt;32&gt;" srcSize="32">
+            <hwRefs>
+                <hwRef type="register" interface="s_axi_control" name="plaintext0" usage="data" direction="in"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="plaintext1" index="1" direction="in" srcType="ap_uint&lt;32&gt;" srcSize="32">
+            <hwRefs>
+                <hwRef type="register" interface="s_axi_control" name="plaintext1" usage="data" direction="in"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="plaintext2" index="2" direction="in" srcType="ap_uint&lt;32&gt;" srcSize="32">
+            <hwRefs>
+                <hwRef type="register" interface="s_axi_control" name="plaintext2" usage="data" direction="in"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="plaintext3" index="3" direction="in" srcType="ap_uint&lt;32&gt;" srcSize="32">
+            <hwRefs>
+                <hwRef type="register" interface="s_axi_control" name="plaintext3" usage="data" direction="in"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="key" index="4" direction="in" srcType="ap_uint&lt;64&gt;" srcSize="64">
+            <hwRefs>
+                <hwRef type="register" interface="s_axi_control" name="key_1" usage="data" direction="in"/>
+                <hwRef type="register" interface="s_axi_control" name="key_2" usage="data" direction="in"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="ciphertext0" index="5" direction="out" srcType="ap_uint&lt;32&gt;&amp;" srcSize="32">
+            <hwRefs>
+                <hwRef type="register" interface="s_axi_control" name="ciphertext0" usage="data" direction="out"/>
+                <hwRef type="register" interface="s_axi_control" name="ciphertext0_ctrl" usage="control" direction="out"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="ciphertext1" index="6" direction="out" srcType="ap_uint&lt;32&gt;&amp;" srcSize="32">
+            <hwRefs>
+                <hwRef type="register" interface="s_axi_control" name="ciphertext1" usage="data" direction="out"/>
+                <hwRef type="register" interface="s_axi_control" name="ciphertext1_ctrl" usage="control" direction="out"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="ciphertext2" index="7" direction="out" srcType="ap_uint&lt;32&gt;&amp;" srcSize="32">
+            <hwRefs>
+                <hwRef type="register" interface="s_axi_control" name="ciphertext2" usage="data" direction="out"/>
+                <hwRef type="register" interface="s_axi_control" name="ciphertext2_ctrl" usage="control" direction="out"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="ciphertext3" index="8" direction="out" srcType="ap_uint&lt;32&gt;&amp;" srcSize="32">
+            <hwRefs>
+                <hwRef type="register" interface="s_axi_control" name="ciphertext3" usage="data" direction="out"/>
+                <hwRef type="register" interface="s_axi_control" name="ciphertext3_ctrl" usage="control" direction="out"/>
+            </hwRefs>
+        </Arg>
+    </Args>
+    <Interfaces>
+        <Interface InterfaceName="s_axi_control" type="axi4lite" busTypeName="aximm" mode="slave" dataWidth="32" addrWidth="7" portPrefix="s_axi_control_" paramPrefix="C_S_AXI_CONTROL_">
+            <ports>
+                <port>s_axi_control_ARADDR</port>
+                <port>s_axi_control_ARREADY</port>
+                <port>s_axi_control_ARVALID</port>
+                <port>s_axi_control_AWADDR</port>
+                <port>s_axi_control_AWREADY</port>
+                <port>s_axi_control_AWVALID</port>
+                <port>s_axi_control_BREADY</port>
+                <port>s_axi_control_BRESP</port>
+                <port>s_axi_control_BVALID</port>
+                <port>s_axi_control_RDATA</port>
+                <port>s_axi_control_RREADY</port>
+                <port>s_axi_control_RRESP</port>
+                <port>s_axi_control_RVALID</port>
+                <port>s_axi_control_WDATA</port>
+                <port>s_axi_control_WREADY</port>
+                <port>s_axi_control_WSTRB</port>
+                <port>s_axi_control_WVALID</port>
+            </ports>
+            <registers>
+                <register offset="0x00" name="CTRL" access="RW" description="Control signals" range="32">
+                    <fields>
+                        <field offset="0" width="1" name="AP_START" access="RW" description="Control signal Register for 'ap_start'."/>
+                        <field offset="1" width="1" name="AP_DONE" access="R" description="Control signal Register for 'ap_done'."/>
+                        <field offset="2" width="1" name="AP_IDLE" access="R" description="Control signal Register for 'ap_idle'."/>
+                        <field offset="3" width="1" name="AP_READY" access="R" description="Control signal Register for 'ap_ready'."/>
+                        <field offset="4" width="3" name="RESERVED_1" access="R" description="Reserved.  0s on read."/>
+                        <field offset="7" width="1" name="AUTO_RESTART" access="RW" description="Control signal Register for 'auto_restart'."/>
+                        <field offset="8" width="1" name="RESERVED_2" access="R" description="Reserved.  0s on read."/>
+                        <field offset="9" width="1" name="INTERRUPT" access="R" description="Control signal Register for 'interrupt'."/>
+                        <field offset="10" width="22" name="RESERVED_3" access="R" description="Reserved.  0s on read."/>
+                    </fields>
+                </register>
+                <register offset="0x04" name="GIER" access="RW" description="Global Interrupt Enable Register" range="32">
+                    <fields>
+                        <field offset="0" width="1" name="Enable" access="RW" description="Master enable for the device interrupt output to the system interrupt controller: 0 = Disabled, 1 = Enabled"/>
+                        <field offset="1" width="31" name="RESERVED" access="R" description="Reserved.  0s on read."/>
+                    </fields>
+                </register>
+                <register offset="0x08" name="IP_IER" access="RW" description="IP Interrupt Enable Register" range="32">
+                    <fields>
+                        <field offset="0" width="1" name="CHAN0_INT_EN" access="RW" description="Enable Channel 0 (ap_done) Interrupt.  0 = Disabled, 1 = Enabled."/>
+                        <field offset="1" width="1" name="CHAN1_INT_EN" access="RW" description="Enable Channel 1 (ap_ready) Interrupt.  0 = Disabled, 1 = Enabled."/>
+                        <field offset="2" width="30" name="RESERVED_0" access="R" description="Reserved.  0s on read."/>
+                    </fields>
+                </register>
+                <register offset="0x0c" name="IP_ISR" access="RW" description="IP Interrupt Status Register" range="32">
+                    <fields>
+                        <field offset="0" width="1" name="CHAN0_INT_ST" access="RTOW" description="Channel 0 (ap_done) Interrupt Status. 0 = No Channel 0 interrupt, 1 = Channel 0 interrupt."/>
+                        <field offset="1" width="1" name="CHAN1_INT_ST" access="RTOW" description="Channel 1 (ap_ready) Interrupt Status. 0 = No Channel 1 interrupt, 1 = Channel 1 interrupt."/>
+                        <field offset="2" width="30" name="RESERVED_0" access="R" description="Reserved.  0s on read."/>
+                    </fields>
+                </register>
+                <register offset="0x10" name="plaintext0" access="W" description="Data signal of plaintext0" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="plaintext0" access="W" description="Bit 31 to 0 of plaintext0"/>
+                    </fields>
+                </register>
+                <register offset="0x18" name="plaintext1" access="W" description="Data signal of plaintext1" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="plaintext1" access="W" description="Bit 31 to 0 of plaintext1"/>
+                    </fields>
+                </register>
+                <register offset="0x20" name="plaintext2" access="W" description="Data signal of plaintext2" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="plaintext2" access="W" description="Bit 31 to 0 of plaintext2"/>
+                    </fields>
+                </register>
+                <register offset="0x28" name="plaintext3" access="W" description="Data signal of plaintext3" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="plaintext3" access="W" description="Bit 31 to 0 of plaintext3"/>
+                    </fields>
+                </register>
+                <register offset="0x30" name="key_1" access="W" description="Data signal of key" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="key" access="W" description="Bit 31 to 0 of key"/>
+                    </fields>
+                </register>
+                <register offset="0x34" name="key_2" access="W" description="Data signal of key" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="key" access="W" description="Bit 63 to 32 of key"/>
+                    </fields>
+                </register>
+                <register offset="0x3c" name="ciphertext0" access="R" description="Data signal of ciphertext0" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="ciphertext0" access="R" description="Bit 31 to 0 of ciphertext0"/>
+                    </fields>
+                </register>
+                <register offset="0x40" name="ciphertext0_ctrl" access="R" description="Control signal of ciphertext0" range="32">
+                    <fields>
+                        <field offset="0" width="1" name="ciphertext0_ap_vld" access="R" description="Control signal ciphertext0_ap_vld"/>
+                        <field offset="1" width="31" name="RESERVED" access="R" description="Reserved.  0s on read."/>
+                    </fields>
+                </register>
+                <register offset="0x4c" name="ciphertext1" access="R" description="Data signal of ciphertext1" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="ciphertext1" access="R" description="Bit 31 to 0 of ciphertext1"/>
+                    </fields>
+                </register>
+                <register offset="0x50" name="ciphertext1_ctrl" access="R" description="Control signal of ciphertext1" range="32">
+                    <fields>
+                        <field offset="0" width="1" name="ciphertext1_ap_vld" access="R" description="Control signal ciphertext1_ap_vld"/>
+                        <field offset="1" width="31" name="RESERVED" access="R" description="Reserved.  0s on read."/>
+                    </fields>
+                </register>
+                <register offset="0x5c" name="ciphertext2" access="R" description="Data signal of ciphertext2" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="ciphertext2" access="R" description="Bit 31 to 0 of ciphertext2"/>
+                    </fields>
+                </register>
+                <register offset="0x60" name="ciphertext2_ctrl" access="R" description="Control signal of ciphertext2" range="32">
+                    <fields>
+                        <field offset="0" width="1" name="ciphertext2_ap_vld" access="R" description="Control signal ciphertext2_ap_vld"/>
+                        <field offset="1" width="31" name="RESERVED" access="R" description="Reserved.  0s on read."/>
+                    </fields>
+                </register>
+                <register offset="0x6c" name="ciphertext3" access="R" description="Data signal of ciphertext3" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="ciphertext3" access="R" description="Bit 31 to 0 of ciphertext3"/>
+                    </fields>
+                </register>
+                <register offset="0x70" name="ciphertext3_ctrl" access="R" description="Control signal of ciphertext3" range="32">
+                    <fields>
+                        <field offset="0" width="1" name="ciphertext3_ap_vld" access="R" description="Control signal ciphertext3_ap_vld"/>
+                        <field offset="1" width="31" name="RESERVED" access="R" description="Reserved.  0s on read."/>
+                    </fields>
+                </register>
+            </registers>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="16" argName="plaintext0"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="24" argName="plaintext1"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="32" argName="plaintext2"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="40" argName="plaintext3"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="48" argName="key"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="60" argName="ciphertext0"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="76" argName="ciphertext1"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="92" argName="ciphertext2"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="108" argName="ciphertext3"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="ap_clk" type="clock" busTypeName="clock" mode="slave">
+            <busParams>
+                <busParam busParamName="ASSOCIATED_BUSIF">s_axi_control</busParam>
+                <busParam busParamName="ASSOCIATED_RESET">ap_rst_n</busParam>
+            </busParams>
+            <portMaps>
+                <portMap portMapName="ap_clk">CLK</portMap>
+            </portMaps>
+            <ports>
+                <port>ap_clk</port>
+            </ports>
+        </Interface>
+        <Interface InterfaceName="ap_rst_n" type="reset" busTypeName="reset" mode="slave">
+            <busParams>
+                <busParam busParamName="POLARITY">ACTIVE_LOW</busParam>
+            </busParams>
+            <portMaps>
+                <portMap portMapName="ap_rst_n">RST</portMap>
+            </portMaps>
+            <ports>
+                <port>ap_rst_n</port>
+            </ports>
+        </Interface>
+        <Interface InterfaceName="interrupt" type="interrupt" busTypeName="interrupt" mode="master" dataWidth="1">
+            <busParams>
+                <busParam busParamName="SENSITIVITY">LEVEL_HIGH</busParam>
+            </busParams>
+            <portMaps>
+                <portMap portMapName="interrupt">INTERRUPT</portMap>
+            </portMaps>
+            <ports>
+                <port>interrupt</port>
+            </ports>
+        </Interface>
+    </Interfaces>
+    <ReportHWInterface>
+        <section name="HW Interfaces" level="0">
+            <item name="S_AXILITE Interfaces">
+                <table>
+                    <keys size="5">Interface, Data Width, Address Width, Offset, Register</keys>
+                    <column name="s_axi_control">32, 7, 16, 0</column>
+                </table>
+            </item>
+            <item name="S_AXILITE Registers">
+                <table>
+                    <keys size="7">Interface, Register, Offset, Width, Access, Description, Bit Fields</keys>
+                    <column name="s_axi_control">CTRL, 0x00, 32, RW, Control signals, 0=AP_START 1=AP_DONE 2=AP_IDLE 3=AP_READY 7=AUTO_RESTART 9=INTERRUPT</column>
+                    <column name="s_axi_control">GIER, 0x04, 32, RW, Global Interrupt Enable Register, 0=Enable</column>
+                    <column name="s_axi_control">IP_IER, 0x08, 32, RW, IP Interrupt Enable Register, 0=CHAN0_INT_EN 1=CHAN1_INT_EN</column>
+                    <column name="s_axi_control">IP_ISR, 0x0c, 32, RW, IP Interrupt Status Register, 0=CHAN0_INT_ST 1=CHAN1_INT_ST</column>
+                    <column name="s_axi_control">plaintext0, 0x10, 32, W, Data signal of plaintext0, </column>
+                    <column name="s_axi_control">plaintext1, 0x18, 32, W, Data signal of plaintext1, </column>
+                    <column name="s_axi_control">plaintext2, 0x20, 32, W, Data signal of plaintext2, </column>
+                    <column name="s_axi_control">plaintext3, 0x28, 32, W, Data signal of plaintext3, </column>
+                    <column name="s_axi_control">key_1, 0x30, 32, W, Data signal of key, </column>
+                    <column name="s_axi_control">key_2, 0x34, 32, W, Data signal of key, </column>
+                    <column name="s_axi_control">ciphertext0, 0x3c, 32, R, Data signal of ciphertext0, </column>
+                    <column name="s_axi_control">ciphertext0_ctrl, 0x40, 32, R, Control signal of ciphertext0, 0=ciphertext0_ap_vld</column>
+                    <column name="s_axi_control">ciphertext1, 0x4c, 32, R, Data signal of ciphertext1, </column>
+                    <column name="s_axi_control">ciphertext1_ctrl, 0x50, 32, R, Control signal of ciphertext1, 0=ciphertext1_ap_vld</column>
+                    <column name="s_axi_control">ciphertext2, 0x5c, 32, R, Data signal of ciphertext2, </column>
+                    <column name="s_axi_control">ciphertext2_ctrl, 0x60, 32, R, Control signal of ciphertext2, 0=ciphertext2_ap_vld</column>
+                    <column name="s_axi_control">ciphertext3, 0x6c, 32, R, Data signal of ciphertext3, </column>
+                    <column name="s_axi_control">ciphertext3_ctrl, 0x70, 32, R, Control signal of ciphertext3, 0=ciphertext3_ap_vld</column>
+                </table>
+            </item>
+            <item name="TOP LEVEL CONTROL">
+                <table>
+                    <keys size="3">Interface, Type, Ports</keys>
+                    <column name="ap_clk">clock, ap_clk</column>
+                    <column name="ap_rst_n">reset, ap_rst_n</column>
+                    <column name="interrupt">interrupt, interrupt</column>
+                    <column name="ap_ctrl">ap_ctrl_hs, </column>
+                </table>
+            </item>
+        </section>
+    </ReportHWInterface>
+    <ReportSWInterface>
+        <section name="SW I/O Information" level="0">
+            <item name="Top Function Arguments">
+                <table>
+                    <keys size="3">Argument, Direction, Datatype</keys>
+                    <column name="plaintext0">in, ap_uint&lt;32&gt;</column>
+                    <column name="plaintext1">in, ap_uint&lt;32&gt;</column>
+                    <column name="plaintext2">in, ap_uint&lt;32&gt;</column>
+                    <column name="plaintext3">in, ap_uint&lt;32&gt;</column>
+                    <column name="key">in, ap_uint&lt;64&gt;</column>
+                    <column name="ciphertext0">out, ap_uint&lt;32&gt;&amp;</column>
+                    <column name="ciphertext1">out, ap_uint&lt;32&gt;&amp;</column>
+                    <column name="ciphertext2">out, ap_uint&lt;32&gt;&amp;</column>
+                    <column name="ciphertext3">out, ap_uint&lt;32&gt;&amp;</column>
+                </table>
+            </item>
+            <item name="SW-to-HW Mapping">
+                <table>
+                    <keys size="4">Argument, HW Interface, HW Type, HW Info</keys>
+                    <column name="plaintext0">s_axi_control, register, name=plaintext0 offset=0x10 range=32</column>
+                    <column name="plaintext1">s_axi_control, register, name=plaintext1 offset=0x18 range=32</column>
+                    <column name="plaintext2">s_axi_control, register, name=plaintext2 offset=0x20 range=32</column>
+                    <column name="plaintext3">s_axi_control, register, name=plaintext3 offset=0x28 range=32</column>
+                    <column name="key">s_axi_control, register, name=key_1 offset=0x30 range=32</column>
+                    <column name="key">s_axi_control, register, name=key_2 offset=0x34 range=32</column>
+                    <column name="ciphertext0">s_axi_control, register, name=ciphertext0 offset=0x3c range=32</column>
+                    <column name="ciphertext0">s_axi_control, register, name=ciphertext0_ctrl offset=0x40 range=32</column>
+                    <column name="ciphertext1">s_axi_control, register, name=ciphertext1 offset=0x4c range=32</column>
+                    <column name="ciphertext1">s_axi_control, register, name=ciphertext1_ctrl offset=0x50 range=32</column>
+                    <column name="ciphertext2">s_axi_control, register, name=ciphertext2 offset=0x5c range=32</column>
+                    <column name="ciphertext2">s_axi_control, register, name=ciphertext2_ctrl offset=0x60 range=32</column>
+                    <column name="ciphertext3">s_axi_control, register, name=ciphertext3 offset=0x6c range=32</column>
+                    <column name="ciphertext3">s_axi_control, register, name=ciphertext3_ctrl offset=0x70 range=32</column>
+                </table>
+            </item>
+        </section>
+    </ReportSWInterface>
+    <ResolutionUrl key="ZZZ">docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&amp;url=ug1448-hls-guidance&amp;resourceid=ZZZ.html</ResolutionUrl>
+    <PragmaReport>
+        <Pragma type="inline" location="Cifrador.cpp:9" status="valid" parentFunction="sbox" variable="" isDirective="0" options=""/>
+        <Pragma type="array_partition" location="Cifrador.cpp:18" status="valid" parentFunction="sbox" variable="table" isDirective="0" options="variable=table complete"/>
+        <Pragma type="inline" location="Cifrador.cpp:24" status="valid" parentFunction="sustitution" variable="" isDirective="0" options=""/>
+        <Pragma type="unroll" location="Cifrador.cpp:28" status="valid" parentFunction="sustitution" variable="" isDirective="0" options=""/>
+        <Pragma type="inline" location="Cifrador.cpp:36" status="valid" parentFunction="permutation" variable="" isDirective="0" options=""/>
+        <Pragma type="unroll" location="Cifrador.cpp:41" status="valid" parentFunction="permutation" variable="" isDirective="0" options=""/>
+        <Pragma type="inline" location="Cifrador.cpp:50" status="valid" parentFunction="key_mixing" variable="" isDirective="0" options=""/>
+        <Pragma type="inline" location="Cifrador.cpp:55" status="valid" parentFunction="round_function" variable="" isDirective="0" options=""/>
+        <Pragma type="inline" location="Cifrador.cpp:66" status="valid" parentFunction="permutation_inverse" variable="" isDirective="0" options=""/>
+        <Pragma type="unroll" location="Cifrador.cpp:71" status="valid" parentFunction="permutation_inverse" variable="" isDirective="0" options=""/>
+        <Pragma type="inline" location="Cifrador.cpp:80" status="valid" parentFunction="last_round_correction" variable="" isDirective="0" options=""/>
+        <Pragma type="inline" location="Cifrador.cpp:91" status="valid" parentFunction="key_schedule" variable="" isDirective="0" options="off"/>
+        <Pragma type="pipeline" location="Cifrador.cpp:94" status="valid" parentFunction="key_schedule" variable="" isDirective="0" options="ii=1"/>
+        <Pragma type="inline" location="Cifrador.cpp:111" status="valid" parentFunction="cifrador" variable="" isDirective="0" options="off"/>
+        <Pragma type="interface" location="Cifrador.cpp:134" status="valid" parentFunction="cifrador_paralelo_stream" variable="plaintext0" isDirective="0" options="s_axilite port=plaintext0"/>
+        <Pragma type="interface" location="Cifrador.cpp:135" status="valid" parentFunction="cifrador_paralelo_stream" variable="plaintext1" isDirective="0" options="s_axilite port=plaintext1"/>
+        <Pragma type="interface" location="Cifrador.cpp:136" status="valid" parentFunction="cifrador_paralelo_stream" variable="plaintext2" isDirective="0" options="s_axilite port=plaintext2"/>
+        <Pragma type="interface" location="Cifrador.cpp:137" status="valid" parentFunction="cifrador_paralelo_stream" variable="plaintext3" isDirective="0" options="s_axilite port=plaintext3"/>
+        <Pragma type="interface" location="Cifrador.cpp:138" status="valid" parentFunction="cifrador_paralelo_stream" variable="key" isDirective="0" options="s_axilite port=key"/>
+        <Pragma type="interface" location="Cifrador.cpp:139" status="valid" parentFunction="cifrador_paralelo_stream" variable="ciphertext0" isDirective="0" options="s_axilite port=ciphertext0"/>
+        <Pragma type="interface" location="Cifrador.cpp:140" status="valid" parentFunction="cifrador_paralelo_stream" variable="ciphertext1" isDirective="0" options="s_axilite port=ciphertext1"/>
+        <Pragma type="interface" location="Cifrador.cpp:141" status="valid" parentFunction="cifrador_paralelo_stream" variable="ciphertext2" isDirective="0" options="s_axilite port=ciphertext2"/>
+        <Pragma type="interface" location="Cifrador.cpp:142" status="valid" parentFunction="cifrador_paralelo_stream" variable="ciphertext3" isDirective="0" options="s_axilite port=ciphertext3"/>
+        <Pragma type="interface" location="Cifrador.cpp:143" status="valid" parentFunction="cifrador_paralelo_stream" variable="return" isDirective="0" options="s_axilite port=return"/>
+        <Pragma type="dataflow" location="Cifrador.cpp:145" status="valid" parentFunction="cifrador_paralelo_stream" variable="" isDirective="0" options=""/>
+        <Pragma type="stream" location="Cifrador.cpp:149" status="valid" parentFunction="cifrador_paralelo_stream" variable="k0" isDirective="0" options="variable=k0 depth=32"/>
+        <Pragma type="stream" location="Cifrador.cpp:150" status="valid" parentFunction="cifrador_paralelo_stream" variable="k1" isDirective="0" options="variable=k1 depth=32"/>
+        <Pragma type="stream" location="Cifrador.cpp:151" status="valid" parentFunction="cifrador_paralelo_stream" variable="k2" isDirective="0" options="variable=k2 depth=32"/>
+        <Pragma type="stream" location="Cifrador.cpp:152" status="valid" parentFunction="cifrador_paralelo_stream" variable="k3" isDirective="0" options="variable=k3 depth=32"/>
+    </PragmaReport>
+    <AutoPragmaReport>
+        <AutoPragma type="pipeline" parentFunction="cifrador" options="" pragmaLocId="Cifrador.cpp:115:0" pragmaLocOpt="cifrador/VITIS_LOOP_115_1" srcTcl="config_compile -pipeline_loops 64" srcIni="syn.compile.pipeline_loops=64" srcPragmaType="" srcPragmaLoc="syn.compile.pipeline_loops=64" srcPragmaSource="config" srcPragmaSourceDesc="syn.compile.pipeline_loops=64" srcIsDirective="0" srcIsSlxDirective="0" srcIsCsimDirective="0" directiveIni="syn.directive.pipeline=cifrador/VITIS_LOOP_115_1 " loopName="VITIS_LOOP_115_1" loopLoc="Cifrador.cpp:115:23"/>
+    </AutoPragmaReport>
+</profile>

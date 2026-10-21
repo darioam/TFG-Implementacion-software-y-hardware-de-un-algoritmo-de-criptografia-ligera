@@ -1,0 +1,157 @@
+<ENTRY>
+{
+ "thisFile": "C:/Users\\Dario\\Documents\\TFG\\Vitis\\CifradosSerializados\\cifrado_serial\\cifrado_serial\\cifrado_serial.hlsrun_csim_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "04/05/26 13:09:36",
+ "timestampMillis": "1775387376608",
+ "buildStep": {
+  "cmdId": "dcf03261-185b-4a7d-83d8-0c271ec2fc6c",
+  "name": "vitis-run",
+  "logFile": "C:/Users\\Dario\\Documents\\TFG\\Vitis\\CifradosSerializados\\cifrado_serial\\cifrado_serial\\logs\\cifrado_serial.steps.log",
+  "commandLine": "C:/Users/Dario/AMDDesignTools/2025.2/Vitis/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --csim --config C:\\Users\\Dario\\Documents\\TFG\\Vitis\\CifradosSerializados\\cifrado_serial\\hls_config.cfg --work_dir cifrado_serial ",
+  "args": [
+   "--mode",
+   "hls",
+   "--csim",
+   "--config",
+   "C:\\Users\\Dario\\Documents\\TFG\\Vitis\\CifradosSerializados\\cifrado_serial\\hls_config.cfg",
+   "--work_dir",
+   "cifrado_serial"
+  ],
+  "iniFiles": [],
+  "cwd": "C:\\Users\\Dario\\Documents\\TFG\\Vitis\\CifradosSerializados\\cifrado_serial"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "04/05/26 13:09:36",
+ "timestampMillis": "1775387376609",
+ "status": {
+  "cmdId": "dcf03261-185b-4a7d-83d8-0c271ec2fc6c",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "04/05/26 13:09:47",
+ "timestampMillis": "1775387387193",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_C_SIM",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "cifrador_serial",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "C:/Users\\Dario\\Documents\\TFG\\Vitis\\CifradosSerializados\\cifrado_serial\\Cifrador.cpp",
+     "C:/Users\\Dario\\Documents\\TFG\\Vitis\\CifradosSerializados\\cifrado_serial\\cifrador_serial.h"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2025.2"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "04/05/26 13:09:47",
+ "timestampMillis": "1775387387195",
+ "buildStep": {
+  "cmdId": "2f52a722-7ec5-4664-9bf4-d18e5e74c5bf",
+  "name": "",
+  "logFile": "C:/Users\\Dario\\Documents\\TFG\\Vitis\\CifradosSerializados\\cifrado_serial\\cifrado_serial\\hls\\hls.log",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "C:\\Users\\Dario\\Documents\\TFG\\Vitis\\CifradosSerializados\\cifrado_serial"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "04/05/26 13:09:47",
+ "timestampMillis": "1775387387197",
+ "status": {
+  "cmdId": "2f52a722-7ec5-4664-9bf4-d18e5e74c5bf",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "04/05/26 13:10:00",
+ "timestampMillis": "1775387400417",
+ "status": {
+  "cmdId": "2f52a722-7ec5-4664-9bf4-d18e5e74c5bf",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "04/05/26 13:10:00",
+ "timestampMillis": "1775387400566",
+ "status": {
+  "cmdId": "dcf03261-185b-4a7d-83d8-0c271ec2fc6c",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "04/05/26 13:10:00",
+ "timestampMillis": "1775387400567",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "04/05/26 13:10:00",
+ "timestampMillis": "1775387400568",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

@@ -1,0 +1,213 @@
+<pragmas>
+<pragma file="Cifrador.cpp" line="112" pragmaType="inline" parentfunction="stage" off="1" region="0" recursive="0"/>
+<pragma file="Cifrador.cpp" line="111" pragmaType="pipeline" parentfunction="stage" off="0" ii="1" style=""/>
+<pragma file="Cifrador.cpp" line="113" pragmaType="latency" parentfunction="stage" min="1" max="1"/>
+<pragma file="Cifrador.cpp" line="129" pragmaType="inline" parentfunction="run" off="0" region="0" recursive="0"/>
+<pragma file="Cifrador.cpp" line="92" pragmaType="inline" parentfunction="key_schedule" off="0" region="0" recursive="0"/>
+<pragma file="C:/Users/Dario/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\etc/ap_common.h" line="530" pragmaType="inline" parentfunction="ssdm_int<64, false>::ssdm_int(unsigned long)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="write" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<32, false>::ap_int_base<64, false>(ap_int_base<64, false> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<64, false>::ap_int_base<4, false>(ap_int_base<4, false> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_range_ref<64, false>::ap_range_ref(ap_int_base<64, false>*, int, int)" off="0" region="0" recursive="0"/>
+<pragma file="Cifrador.cpp" line="67" pragmaType="inline" parentfunction="permutation_inverse" off="0" region="0" recursive="0"/>
+<pragma file="Cifrador.cpp" line="72" pragmaType="unroll" parentfunction="permutation_inverse" factor="-1" skip_exit_check="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_uint<32>::ap_uint<64>(ap_uint<64> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="get" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<64, false>::RType<64, false>::arg1 operator<<<64, false>(ap_int_base<64, false> const&, int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="read" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<1, false>::operator unsigned long long() const" off="0" region="0" recursive="0"/>
+<pragma file="Cifrador.cpp" line="120" pragmaType="inline" parentfunction="last_stage" off="1" region="0" recursive="0"/>
+<pragma file="Cifrador.cpp" line="119" pragmaType="pipeline" parentfunction="last_stage" off="0" ii="1" style=""/>
+<pragma file="Cifrador.cpp" line="121" pragmaType="latency" parentfunction="last_stage" min="1" max="1"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="get_keep_ptr" off="0" region="0" recursive="0"/>
+<pragma file="Cifrador.cpp" line="171" pragmaType="pipeline" parentfunction="cifrador_pipeline_stream" off="0" ii="1" rewind="0" style=""/>
+<pragma file="Cifrador.cpp" line="163" pragmaType="unroll" parentfunction="cifrador_pipeline_stream" factor="-1" skip_exit_check="0"/>
+<pragma file="Cifrador.cpp" line="153" pragmaType="interface" parentfunction="cifrador_pipeline_stream" mode="axis" port="in_stream" register="1" register_mode="both" name="" depth="-1"/>
+<pragma file="Cifrador.cpp" line="154" pragmaType="interface" parentfunction="cifrador_pipeline_stream" mode="axis" port="out_stream" register="1" register_mode="both" name="" depth="-1"/>
+<pragma file="Cifrador.cpp" line="155" pragmaType="interface" parentfunction="cifrador_pipeline_stream" mode="s_axilite" port="key" bundle="" offset="-1" name="" clock="" impl="" register="0"/>
+<pragma file="Cifrador.cpp" line="156" pragmaType="interface" parentfunction="cifrador_pipeline_stream" mode="s_axilite" port="" bundle="" offset="-1" name="" clock="" impl="" register="0"/>
+<pragma file="Cifrador.cpp" line="159" pragmaType="array_partition" parentfunction="cifrador_pipeline_stream" dim="1" factor="0" mode="complete" dynamic="0" variable="round_keys"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_uint<32>::ap_uint<32>(ap_int<32> const&)" off="0" region="0" recursive="0"/>
+<pragma file="Cifrador.cpp" line="129" pragmaType="inline" parentfunction="run" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="range" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_uint<64>::ap_uint<64, false>(ap_int_base<64, false> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="get_strb_ptr" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<64, false>::ap_int_base(int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_uint<4>::ap_uint<64, false>(ap_range_ref<64, false> const&)" off="0" region="0" recursive="0"/>
+<pragma file="Cifrador.cpp" line="81" pragmaType="inline" parentfunction="last_round_correction" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<32, true>::ap_int_base<32, false>(ap_int_base<32, false> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<4, false>::ap_int_base<64, false>(ap_range_ref<64, false> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int<32>::ap_int<32>(ap_uint<32> const&)" off="0" region="0" recursive="0"/>
+<pragma file="C:/Users/Dario/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\etc/ap_common.h" line="522" pragmaType="inline" parentfunction="ssdm_int<32, true>::ssdm_int(int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="get_last_ptr" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_uint<1>::ap_uint(int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<1, false>::ap_int_base(int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<64, false>::RType<64, false>::arg1 operator>><64, false>(ap_int_base<64, false> const&, int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_uint<64>::ap_uint(int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="get_data_ptr" off="0" region="0" recursive="0"/>
+<pragma file="C:/Users/Dario/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\etc/ap_common.h" line="530" pragmaType="inline" parentfunction="_ZN8ssdm_intILi1ELb0EEC2EDU1_" off="0" region="0" recursive="0"/>
+<pragma file="Cifrador.cpp" line="129" pragmaType="inline" parentfunction="run" off="0" region="0" recursive="0"/>
+<pragma file="Cifrador.cpp" line="112" pragmaType="inline" parentfunction="stage" off="1" region="0" recursive="0"/>
+<pragma file="Cifrador.cpp" line="111" pragmaType="pipeline" parentfunction="stage" off="0" ii="1" style=""/>
+<pragma file="Cifrador.cpp" line="113" pragmaType="latency" parentfunction="stage" min="1" max="1"/>
+<pragma file="Cifrador.cpp" line="112" pragmaType="inline" parentfunction="stage" off="1" region="0" recursive="0"/>
+<pragma file="Cifrador.cpp" line="111" pragmaType="pipeline" parentfunction="stage" off="0" ii="1" style=""/>
+<pragma file="Cifrador.cpp" line="113" pragmaType="latency" parentfunction="stage" min="1" max="1"/>
+<pragma file="Cifrador.cpp" line="129" pragmaType="inline" parentfunction="run" off="0" region="0" recursive="0"/>
+<pragma file="Cifrador.cpp" line="129" pragmaType="inline" parentfunction="run" off="0" region="0" recursive="0"/>
+<pragma file="Cifrador.cpp" line="129" pragmaType="inline" parentfunction="run" off="0" region="0" recursive="0"/>
+<pragma file="Cifrador.cpp" line="129" pragmaType="inline" parentfunction="run" off="0" region="0" recursive="0"/>
+<pragma file="Cifrador.cpp" line="129" pragmaType="inline" parentfunction="run" off="0" region="0" recursive="0"/>
+<pragma file="Cifrador.cpp" line="112" pragmaType="inline" parentfunction="stage" off="1" region="0" recursive="0"/>
+<pragma file="Cifrador.cpp" line="111" pragmaType="pipeline" parentfunction="stage" off="0" ii="1" style=""/>
+<pragma file="Cifrador.cpp" line="113" pragmaType="latency" parentfunction="stage" min="1" max="1"/>
+<pragma file="Cifrador.cpp" line="129" pragmaType="inline" parentfunction="run" off="0" region="0" recursive="0"/>
+<pragma file="Cifrador.cpp" line="112" pragmaType="inline" parentfunction="stage" off="1" region="0" recursive="0"/>
+<pragma file="Cifrador.cpp" line="111" pragmaType="pipeline" parentfunction="stage" off="0" ii="1" style=""/>
+<pragma file="Cifrador.cpp" line="113" pragmaType="latency" parentfunction="stage" min="1" max="1"/>
+<pragma file="Cifrador.cpp" line="112" pragmaType="inline" parentfunction="stage" off="1" region="0" recursive="0"/>
+<pragma file="Cifrador.cpp" line="111" pragmaType="pipeline" parentfunction="stage" off="0" ii="1" style=""/>
+<pragma file="Cifrador.cpp" line="113" pragmaType="latency" parentfunction="stage" min="1" max="1"/>
+<pragma file="Cifrador.cpp" line="112" pragmaType="inline" parentfunction="stage" off="1" region="0" recursive="0"/>
+<pragma file="Cifrador.cpp" line="111" pragmaType="pipeline" parentfunction="stage" off="0" ii="1" style=""/>
+<pragma file="Cifrador.cpp" line="113" pragmaType="latency" parentfunction="stage" min="1" max="1"/>
+<pragma file="Cifrador.cpp" line="129" pragmaType="inline" parentfunction="run" off="0" region="0" recursive="0"/>
+<pragma file="Cifrador.cpp" line="129" pragmaType="inline" parentfunction="run" off="0" region="0" recursive="0"/>
+<pragma file="Cifrador.cpp" line="129" pragmaType="inline" parentfunction="run" off="0" region="0" recursive="0"/>
+<pragma file="Cifrador.cpp" line="112" pragmaType="inline" parentfunction="stage" off="1" region="0" recursive="0"/>
+<pragma file="Cifrador.cpp" line="111" pragmaType="pipeline" parentfunction="stage" off="0" ii="1" style=""/>
+<pragma file="Cifrador.cpp" line="113" pragmaType="latency" parentfunction="stage" min="1" max="1"/>
+<pragma file="Cifrador.cpp" line="129" pragmaType="inline" parentfunction="run" off="0" region="0" recursive="0"/>
+<pragma file="Cifrador.cpp" line="112" pragmaType="inline" parentfunction="stage" off="1" region="0" recursive="0"/>
+<pragma file="Cifrador.cpp" line="111" pragmaType="pipeline" parentfunction="stage" off="0" ii="1" style=""/>
+<pragma file="Cifrador.cpp" line="113" pragmaType="latency" parentfunction="stage" min="1" max="1"/>
+<pragma file="Cifrador.cpp" line="129" pragmaType="inline" parentfunction="run" off="0" region="0" recursive="0"/>
+<pragma file="Cifrador.cpp" line="112" pragmaType="inline" parentfunction="stage" off="1" region="0" recursive="0"/>
+<pragma file="Cifrador.cpp" line="111" pragmaType="pipeline" parentfunction="stage" off="0" ii="1" style=""/>
+<pragma file="Cifrador.cpp" line="113" pragmaType="latency" parentfunction="stage" min="1" max="1"/>
+<pragma file="Cifrador.cpp" line="129" pragmaType="inline" parentfunction="run" off="0" region="0" recursive="0"/>
+<pragma file="Cifrador.cpp" line="129" pragmaType="inline" parentfunction="run" off="0" region="0" recursive="0"/>
+<pragma file="Cifrador.cpp" line="112" pragmaType="inline" parentfunction="stage" off="1" region="0" recursive="0"/>
+<pragma file="Cifrador.cpp" line="111" pragmaType="pipeline" parentfunction="stage" off="0" ii="1" style=""/>
+<pragma file="Cifrador.cpp" line="113" pragmaType="latency" parentfunction="stage" min="1" max="1"/>
+<pragma file="Cifrador.cpp" line="129" pragmaType="inline" parentfunction="run" off="0" region="0" recursive="0"/>
+<pragma file="Cifrador.cpp" line="112" pragmaType="inline" parentfunction="stage" off="1" region="0" recursive="0"/>
+<pragma file="Cifrador.cpp" line="111" pragmaType="pipeline" parentfunction="stage" off="0" ii="1" style=""/>
+<pragma file="Cifrador.cpp" line="113" pragmaType="latency" parentfunction="stage" min="1" max="1"/>
+<pragma file="Cifrador.cpp" line="129" pragmaType="inline" parentfunction="run" off="0" region="0" recursive="0"/>
+<pragma file="Cifrador.cpp" line="129" pragmaType="inline" parentfunction="run" off="0" region="0" recursive="0"/>
+<pragma file="Cifrador.cpp" line="112" pragmaType="inline" parentfunction="stage" off="1" region="0" recursive="0"/>
+<pragma file="Cifrador.cpp" line="111" pragmaType="pipeline" parentfunction="stage" off="0" ii="1" style=""/>
+<pragma file="Cifrador.cpp" line="113" pragmaType="latency" parentfunction="stage" min="1" max="1"/>
+<pragma file="Cifrador.cpp" line="129" pragmaType="inline" parentfunction="run" off="0" region="0" recursive="0"/>
+<pragma file="Cifrador.cpp" line="112" pragmaType="inline" parentfunction="stage" off="1" region="0" recursive="0"/>
+<pragma file="Cifrador.cpp" line="111" pragmaType="pipeline" parentfunction="stage" off="0" ii="1" style=""/>
+<pragma file="Cifrador.cpp" line="113" pragmaType="latency" parentfunction="stage" min="1" max="1"/>
+<pragma file="Cifrador.cpp" line="112" pragmaType="inline" parentfunction="stage" off="1" region="0" recursive="0"/>
+<pragma file="Cifrador.cpp" line="111" pragmaType="pipeline" parentfunction="stage" off="0" ii="1" style=""/>
+<pragma file="Cifrador.cpp" line="113" pragmaType="latency" parentfunction="stage" min="1" max="1"/>
+<pragma file="Cifrador.cpp" line="129" pragmaType="inline" parentfunction="run" off="0" region="0" recursive="0"/>
+<pragma file="Cifrador.cpp" line="112" pragmaType="inline" parentfunction="stage" off="1" region="0" recursive="0"/>
+<pragma file="Cifrador.cpp" line="111" pragmaType="pipeline" parentfunction="stage" off="0" ii="1" style=""/>
+<pragma file="Cifrador.cpp" line="113" pragmaType="latency" parentfunction="stage" min="1" max="1"/>
+<pragma file="Cifrador.cpp" line="112" pragmaType="inline" parentfunction="stage" off="1" region="0" recursive="0"/>
+<pragma file="Cifrador.cpp" line="111" pragmaType="pipeline" parentfunction="stage" off="0" ii="1" style=""/>
+<pragma file="Cifrador.cpp" line="113" pragmaType="latency" parentfunction="stage" min="1" max="1"/>
+<pragma file="Cifrador.cpp" line="129" pragmaType="inline" parentfunction="run" off="0" region="0" recursive="0"/>
+<pragma file="Cifrador.cpp" line="112" pragmaType="inline" parentfunction="stage" off="1" region="0" recursive="0"/>
+<pragma file="Cifrador.cpp" line="111" pragmaType="pipeline" parentfunction="stage" off="0" ii="1" style=""/>
+<pragma file="Cifrador.cpp" line="113" pragmaType="latency" parentfunction="stage" min="1" max="1"/>
+<pragma file="Cifrador.cpp" line="112" pragmaType="inline" parentfunction="stage" off="1" region="0" recursive="0"/>
+<pragma file="Cifrador.cpp" line="111" pragmaType="pipeline" parentfunction="stage" off="0" ii="1" style=""/>
+<pragma file="Cifrador.cpp" line="113" pragmaType="latency" parentfunction="stage" min="1" max="1"/>
+<pragma file="Cifrador.cpp" line="112" pragmaType="inline" parentfunction="stage" off="1" region="0" recursive="0"/>
+<pragma file="Cifrador.cpp" line="111" pragmaType="pipeline" parentfunction="stage" off="0" ii="1" style=""/>
+<pragma file="Cifrador.cpp" line="113" pragmaType="latency" parentfunction="stage" min="1" max="1"/>
+<pragma file="Cifrador.cpp" line="112" pragmaType="inline" parentfunction="stage" off="1" region="0" recursive="0"/>
+<pragma file="Cifrador.cpp" line="111" pragmaType="pipeline" parentfunction="stage" off="0" ii="1" style=""/>
+<pragma file="Cifrador.cpp" line="113" pragmaType="latency" parentfunction="stage" min="1" max="1"/>
+<pragma file="Cifrador.cpp" line="112" pragmaType="inline" parentfunction="stage" off="1" region="0" recursive="0"/>
+<pragma file="Cifrador.cpp" line="111" pragmaType="pipeline" parentfunction="stage" off="0" ii="1" style=""/>
+<pragma file="Cifrador.cpp" line="113" pragmaType="latency" parentfunction="stage" min="1" max="1"/>
+<pragma file="Cifrador.cpp" line="129" pragmaType="inline" parentfunction="run" off="0" region="0" recursive="0"/>
+<pragma file="Cifrador.cpp" line="129" pragmaType="inline" parentfunction="run" off="0" region="0" recursive="0"/>
+<pragma file="Cifrador.cpp" line="112" pragmaType="inline" parentfunction="stage" off="1" region="0" recursive="0"/>
+<pragma file="Cifrador.cpp" line="111" pragmaType="pipeline" parentfunction="stage" off="0" ii="1" style=""/>
+<pragma file="Cifrador.cpp" line="113" pragmaType="latency" parentfunction="stage" min="1" max="1"/>
+<pragma file="Cifrador.cpp" line="112" pragmaType="inline" parentfunction="stage" off="1" region="0" recursive="0"/>
+<pragma file="Cifrador.cpp" line="111" pragmaType="pipeline" parentfunction="stage" off="0" ii="1" style=""/>
+<pragma file="Cifrador.cpp" line="113" pragmaType="latency" parentfunction="stage" min="1" max="1"/>
+<pragma file="Cifrador.cpp" line="112" pragmaType="inline" parentfunction="stage" off="1" region="0" recursive="0"/>
+<pragma file="Cifrador.cpp" line="111" pragmaType="pipeline" parentfunction="stage" off="0" ii="1" style=""/>
+<pragma file="Cifrador.cpp" line="113" pragmaType="latency" parentfunction="stage" min="1" max="1"/>
+<pragma file="Cifrador.cpp" line="112" pragmaType="inline" parentfunction="stage" off="1" region="0" recursive="0"/>
+<pragma file="Cifrador.cpp" line="111" pragmaType="pipeline" parentfunction="stage" off="0" ii="1" style=""/>
+<pragma file="Cifrador.cpp" line="113" pragmaType="latency" parentfunction="stage" min="1" max="1"/>
+<pragma file="Cifrador.cpp" line="129" pragmaType="inline" parentfunction="run" off="0" region="0" recursive="0"/>
+<pragma file="Cifrador.cpp" line="129" pragmaType="inline" parentfunction="run" off="0" region="0" recursive="0"/>
+<pragma file="Cifrador.cpp" line="129" pragmaType="inline" parentfunction="run" off="0" region="0" recursive="0"/>
+<pragma file="Cifrador.cpp" line="112" pragmaType="inline" parentfunction="stage" off="1" region="0" recursive="0"/>
+<pragma file="Cifrador.cpp" line="111" pragmaType="pipeline" parentfunction="stage" off="0" ii="1" style=""/>
+<pragma file="Cifrador.cpp" line="113" pragmaType="latency" parentfunction="stage" min="1" max="1"/>
+<pragma file="Cifrador.cpp" line="112" pragmaType="inline" parentfunction="stage" off="1" region="0" recursive="0"/>
+<pragma file="Cifrador.cpp" line="111" pragmaType="pipeline" parentfunction="stage" off="0" ii="1" style=""/>
+<pragma file="Cifrador.cpp" line="113" pragmaType="latency" parentfunction="stage" min="1" max="1"/>
+<pragma file="Cifrador.cpp" line="112" pragmaType="inline" parentfunction="stage" off="1" region="0" recursive="0"/>
+<pragma file="Cifrador.cpp" line="111" pragmaType="pipeline" parentfunction="stage" off="0" ii="1" style=""/>
+<pragma file="Cifrador.cpp" line="113" pragmaType="latency" parentfunction="stage" min="1" max="1"/>
+<pragma file="Cifrador.cpp" line="129" pragmaType="inline" parentfunction="run" off="0" region="0" recursive="0"/>
+<pragma file="Cifrador.cpp" line="112" pragmaType="inline" parentfunction="stage" off="1" region="0" recursive="0"/>
+<pragma file="Cifrador.cpp" line="111" pragmaType="pipeline" parentfunction="stage" off="0" ii="1" style=""/>
+<pragma file="Cifrador.cpp" line="113" pragmaType="latency" parentfunction="stage" min="1" max="1"/>
+<pragma file="Cifrador.cpp" line="129" pragmaType="inline" parentfunction="run" off="0" region="0" recursive="0"/>
+<pragma file="Cifrador.cpp" line="129" pragmaType="inline" parentfunction="run" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<32, false>::ap_int_base<32, true>(ap_int_base<32, true> const&)" off="0" region="0" recursive="0"/>
+<pragma file="Cifrador.cpp" line="138" pragmaType="inline" parentfunction="run" off="0" region="0" recursive="0"/>
+<pragma file="Cifrador.cpp" line="139" pragmaType="pipeline" parentfunction="run" off="0" ii="1" style=""/>
+<pragma file="Cifrador.cpp" line="129" pragmaType="inline" parentfunction="run" off="0" region="0" recursive="0"/>
+<pragma file="Cifrador.cpp" line="112" pragmaType="inline" parentfunction="stage" off="1" region="0" recursive="0"/>
+<pragma file="Cifrador.cpp" line="111" pragmaType="pipeline" parentfunction="stage" off="0" ii="1" style=""/>
+<pragma file="Cifrador.cpp" line="113" pragmaType="latency" parentfunction="stage" min="1" max="1"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_uint<32>::ap_uint(int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<32, false>::RType<32, false>::logic operator^<32, false, 32, false>(ap_int_base<32, false> const&, ap_int_base<32, false> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_uint<32>::ap_uint<32, false>(ap_int_base<32, false> const&)" off="0" region="0" recursive="0"/>
+<pragma file="Cifrador.cpp" line="56" pragmaType="inline" parentfunction="round_function" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="range" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<4, false>::ap_int_base(int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_uint<4>::ap_uint<32, false>(ap_range_ref<32, false> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_uint<4>::ap_uint(int)" off="0" region="0" recursive="0"/>
+<pragma file="Cifrador.cpp" line="25" pragmaType="inline" parentfunction="sustitution" off="0" region="0" recursive="0"/>
+<pragma file="Cifrador.cpp" line="29" pragmaType="unroll" parentfunction="sustitution" factor="-1" skip_exit_check="0"/>
+<pragma file="Cifrador.cpp" line="10" pragmaType="inline" parentfunction="sbox" off="0" region="0" recursive="0"/>
+<pragma file="Cifrador.cpp" line="19" pragmaType="array_partition" parentfunction="sbox" dim="1" factor="0" mode="complete" dynamic="0" variable="table"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<32, false>::ap_int_base<4, false>(ap_int_base<4, false> const&)" off="0" region="0" recursive="0"/>
+<pragma file="C:/Users/Dario/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\etc/ap_common.h" line="530" pragmaType="inline" parentfunction="ssdm_int<32, false>::ssdm_int(unsigned int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<4, false>::ap_int_base<32, false>(ap_range_ref<32, false> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<32, false>::ap_int_base(int)" off="0" region="0" recursive="0"/>
+<pragma file="C:/Users/Dario/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\etc/ap_common.h" line="530" pragmaType="inline" parentfunction="_ZN8ssdm_intILi4ELb0EEC2EDU4_" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_range_ref<32, false>::ap_range_ref(ap_int_base<32, false>*, int, int)" off="0" region="0" recursive="0"/>
+<pragma file="Cifrador.cpp" line="37" pragmaType="inline" parentfunction="permutation" off="0" region="0" recursive="0"/>
+<pragma file="Cifrador.cpp" line="42" pragmaType="unroll" parentfunction="permutation" factor="-1" skip_exit_check="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<32, false>::operator[](int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_bit_ref<32, false>::operator bool() const" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<4, false>::operator unsigned long long() const" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_bit_ref<32, false>::ap_bit_ref(ap_int_base<32, false>*, int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="get" off="0" region="0" recursive="0"/>
+<pragma file="Cifrador.cpp" line="51" pragmaType="inline" parentfunction="key_mixing" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="checkOverflowBaseC" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<64, false>& ap_int_base<64, false>::operator^=<64, false>(ap_int_base<64, false> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="lrotate" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="checkOverflowBaseC" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="get_user_ptr" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="get_id_ptr" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="get_dest_ptr" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="checkOverflowCsim" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="checkOverflowCsim" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="checkOverflowBaseC" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_bit_ref<32, false>::operator=(ap_bit_ref<32, false> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_range_ref<32, false>& ap_range_ref<32, false>::operator=<4, false>(ap_int_base<4, false> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_bit_ref<32, false>::operator=(unsigned long long)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_range_ref<64, false>& ap_range_ref<64, false>::operator=<4, false>(ap_int_base<4, false> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="checkOverflowBaseC" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="checkOverflowCsim" off="0" region="0" recursive="0"/>
+</pragmas>

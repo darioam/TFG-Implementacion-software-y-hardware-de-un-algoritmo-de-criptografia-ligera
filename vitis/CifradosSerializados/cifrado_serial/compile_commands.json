@@ -1,0 +1,27 @@
+[
+  {
+    "directory": "C:\\Users\\Dario\\Documents\\TFG\\Vitis\\CifradosSerializados\\cifrado_serial",
+    "arguments": [
+      "C:\\Users\\Dario\\AMDDesignTools\\2025.2\\Vitis\\win64\\tools\\vcxx\\libexec\\clang++.exe",
+      "--sysroot=C:\\Users\\Dario\\AMDDesignTools\\2025.2\\Vitis\\tps\\mingw\\10.0.0\\win64.o\\nt",
+      "-fhls",
+      "-hls-syn-headers-dir=C:\\Users\\Dario\\AMDDesignTools\\2025.2\\Vitis\\common\\technology\\autopilot",
+      "-fhlstoplevel=cifrador_serial",
+      "-c",
+      "C:\\Users\\Dario\\Documents\\TFG\\Vitis\\CifradosSerializados\\cifrado_serial\\Cifrador.cpp"
+    ],
+    "file": "C:\\Users\\Dario\\Documents\\TFG\\Vitis\\CifradosSerializados\\cifrado_serial\\Cifrador.cpp"
+  },
+  {
+    "directory": "C:\\Users\\Dario\\Documents\\TFG\\Vitis\\CifradosSerializados\\cifrado_serial",
+    "arguments": [
+      "C:\\Users\\Dario\\AMDDesignTools\\2025.2\\Vitis\\win64\\tools\\vcxx\\libexec\\clang++.exe",
+      "--sysroot=C:\\Users\\Dario\\AMDDesignTools\\2025.2\\Vitis\\tps\\mingw\\10.0.0\\win64.o\\nt",
+      "-fhls-tb",
+      "-hls-sim-headers-dir=C:\\Users\\Dario\\AMDDesignTools\\2025.2\\Vitis\\include",
+      "-c",
+      "C:\\Users\\Dario\\Documents\\TFG\\Vitis\\CifradosSerializados\\cifrado_serial\\test.cpp"
+    ],
+    "file": "C:\\Users\\Dario\\Documents\\TFG\\Vitis\\CifradosSerializados\\cifrado_serial\\test.cpp"
+  }
+]

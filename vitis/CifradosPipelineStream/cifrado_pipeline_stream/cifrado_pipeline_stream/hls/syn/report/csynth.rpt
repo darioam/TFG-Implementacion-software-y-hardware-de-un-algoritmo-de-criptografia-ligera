@@ -1,0 +1,559 @@
+
+
+================================================================
+== Synthesis Summary Report of 'cifrador_pipeline_stream'
+================================================================
++ General Information: 
+    * Date:           Tue Apr 28 18:13:55 2026
+    * Version:        2025.2 (Build 6295257 on Nov 14 2025)
+    * Project:        cifrado_pipeline_stream
+    * Solution:       hls (Vivado IP Flow Target)
+    * Product family: zynq
+    * Target device:  xc7z020-clg400-1
+    
+
+* Performance & Resource Estimates: 
++----------------------------+------+---------------+----------+---------+------+----------+---------+--------+------+------+----+-----------+-------------+-----+
+|           Modules          | Issue|               | Iteration|         | Trip |          |      Latency     |      |      |    |           |             |     |
+|           & Loops          | Type | Violation Type|  Latency | Interval| Count| Pipelined| (cycles)|  (ns)  | Slack| BRAM | DSP|     FF    |     LUT     | URAM|
++----------------------------+------+---------------+----------+---------+------+----------+---------+--------+------+------+----+-----------+-------------+-----+
+|+ cifrador_pipeline_stream  |     -|              -|         -|        -|     -|        no|        -|       -|  1.11|     -|   -|  3682 (3%)|  21273 (39%)|    -|
+| o VITIS_LOOP_170_2         |     -|              -|        35|        1|     -|       yes|        -|       -|  7.30|     -|   -|          -|            -|    -|
+|  + stage_0_s               |     -|              -|         -|        1|     -|       yes|        1|  10.000|  5.24|     -|   -|   34 (~0%)|     554 (1%)|    -|
+|  + stage_1_s               |     -|              -|         -|        1|     -|       yes|        1|  10.000|  5.24|     -|   -|   34 (~0%)|     554 (1%)|    -|
+|  + stage_2_s               |     -|              -|         -|        1|     -|       yes|        1|  10.000|  5.24|     -|   -|   34 (~0%)|     554 (1%)|    -|
+|  + stage_3_s               |     -|              -|         -|        1|     -|       yes|        1|  10.000|  5.24|     -|   -|   34 (~0%)|     554 (1%)|    -|
+|  + stage_4_s               |     -|              -|         -|        1|     -|       yes|        1|  10.000|  5.24|     -|   -|   34 (~0%)|     554 (1%)|    -|
+|  + stage_5_s               |     -|              -|         -|        1|     -|       yes|        1|  10.000|  5.24|     -|   -|   34 (~0%)|     554 (1%)|    -|
+|  + stage_6_s               |     -|              -|         -|        1|     -|       yes|        1|  10.000|  5.24|     -|   -|   34 (~0%)|     554 (1%)|    -|
+|  + stage_7_s               |     -|              -|         -|        1|     -|       yes|        1|  10.000|  5.24|     -|   -|   34 (~0%)|     554 (1%)|    -|
+|  + stage_8_s               |     -|              -|         -|        1|     -|       yes|        1|  10.000|  5.24|     -|   -|   34 (~0%)|     554 (1%)|    -|
+|  + stage_9_s               |     -|              -|         -|        1|     -|       yes|        1|  10.000|  5.24|     -|   -|   34 (~0%)|     554 (1%)|    -|
+|  + stage_10_s              |     -|              -|         -|        1|     -|       yes|        1|  10.000|  5.24|     -|   -|   34 (~0%)|     554 (1%)|    -|
+|  + stage_11_s              |     -|              -|         -|        1|     -|       yes|        1|  10.000|  5.24|     -|   -|   34 (~0%)|     554 (1%)|    -|
+|  + stage_12_s              |     -|              -|         -|        1|     -|       yes|        1|  10.000|  5.24|     -|   -|   34 (~0%)|     554 (1%)|    -|
+|  + stage_13_s              |     -|              -|         -|        1|     -|       yes|        1|  10.000|  5.24|     -|   -|   34 (~0%)|     554 (1%)|    -|
+|  + stage_14_s              |     -|              -|         -|        1|     -|       yes|        1|  10.000|  5.24|     -|   -|   34 (~0%)|     554 (1%)|    -|
+|  + stage_15_s              |     -|              -|         -|        1|     -|       yes|        1|  10.000|  5.24|     -|   -|   34 (~0%)|     554 (1%)|    -|
+|  + stage_16_s              |     -|              -|         -|        1|     -|       yes|        1|  10.000|  5.24|     -|   -|   34 (~0%)|     554 (1%)|    -|
+|  + stage_17_s              |     -|              -|         -|        1|     -|       yes|        1|  10.000|  5.24|     -|   -|   34 (~0%)|     554 (1%)|    -|
+|  + stage_18_s              |     -|              -|         -|        1|     -|       yes|        1|  10.000|  5.24|     -|   -|   34 (~0%)|     554 (1%)|    -|
+|  + stage_19_s              |     -|              -|         -|        1|     -|       yes|        1|  10.000|  5.24|     -|   -|   34 (~0%)|     554 (1%)|    -|
+|  + stage_20_s              |     -|              -|         -|        1|     -|       yes|        1|  10.000|  5.24|     -|   -|   34 (~0%)|     554 (1%)|    -|
+|  + stage_21_s              |     -|              -|         -|        1|     -|       yes|        1|  10.000|  5.24|     -|   -|   34 (~0%)|     554 (1%)|    -|
+|  + stage_22_s              |     -|              -|         -|        1|     -|       yes|        1|  10.000|  5.24|     -|   -|   34 (~0%)|     554 (1%)|    -|
+|  + stage_23_s              |     -|              -|         -|        1|     -|       yes|        1|  10.000|  5.24|     -|   -|   34 (~0%)|     554 (1%)|    -|
+|  + stage_24_s              |     -|              -|         -|        1|     -|       yes|        1|  10.000|  5.24|     -|   -|   34 (~0%)|     554 (1%)|    -|
+|  + stage_25_s              |     -|              -|         -|        1|     -|       yes|        1|  10.000|  5.24|     -|   -|   34 (~0%)|     554 (1%)|    -|
+|  + stage_26_s              |     -|              -|         -|        1|     -|       yes|        1|  10.000|  5.24|     -|   -|   34 (~0%)|     554 (1%)|    -|
+|  + stage_27_s              |     -|              -|         -|        1|     -|       yes|        1|  10.000|  5.24|     -|   -|   34 (~0%)|     554 (1%)|    -|
+|  + stage_28_s              |     -|              -|         -|        1|     -|       yes|        1|  10.000|  5.24|     -|   -|   34 (~0%)|     554 (1%)|    -|
+|  + stage_29_s              |     -|              -|         -|        1|     -|       yes|        1|  10.000|  5.24|     -|   -|   34 (~0%)|     554 (1%)|    -|
+|  + stage_30_s              |     -|              -|         -|        1|     -|       yes|        1|  10.000|  5.24|     -|   -|   34 (~0%)|     554 (1%)|    -|
+|  + last_stage              |     -|              -|         -|        1|     -|       yes|        1|  10.000|  6.31|     -|   -|   34 (~0%)|     34 (~0%)|    -|
++----------------------------+------+---------------+----------+---------+------+----------+---------+--------+------+------+----+-----------+-------------+-----+
+    Name Prefix: '+' for module, 'o' for loop, '*' for dataflow
+
+
+================================================================
+== HW Interfaces
+================================================================
+* S_AXILITE Interfaces
++---------------+------------+---------------+--------+----------+
+| Interface     | Data Width | Address Width | Offset | Register |
++---------------+------------+---------------+--------+----------+
+| s_axi_control | 32         | 5             | 16     | 0        |
++---------------+------------+---------------+--------+----------+
+
+* S_AXILITE Registers
++---------------+----------+--------+-------+--------+----------------------------------+----------------------------------------------------------------------+
+| Interface     | Register | Offset | Width | Access | Description                      | Bit Fields                                                           |
++---------------+----------+--------+-------+--------+----------------------------------+----------------------------------------------------------------------+
+| s_axi_control | CTRL     | 0x00   | 32    | RW     | Control signals                  | 0=AP_START 1=AP_DONE 2=AP_IDLE 3=AP_READY 7=AUTO_RESTART 9=INTERRUPT |
+| s_axi_control | GIER     | 0x04   | 32    | RW     | Global Interrupt Enable Register | 0=Enable                                                             |
+| s_axi_control | IP_IER   | 0x08   | 32    | RW     | IP Interrupt Enable Register     | 0=CHAN0_INT_EN 1=CHAN1_INT_EN                                        |
+| s_axi_control | IP_ISR   | 0x0c   | 32    | RW     | IP Interrupt Status Register     | 0=CHAN0_INT_ST 1=CHAN1_INT_ST                                        |
+| s_axi_control | key_1    | 0x10   | 32    | W      | Data signal of key               |                                                                      |
+| s_axi_control | key_2    | 0x14   | 32    | W      | Data signal of key               |                                                                      |
++---------------+----------+--------+-------+--------+----------------------------------+----------------------------------------------------------------------+
+
+* AXIS
++------------+-----------+---------------+-------+-------+-------+--------+-------+--------+
+| Interface  | Direction | Register Mode | TDATA | TKEEP | TLAST | TREADY | TSTRB | TVALID |
++------------+-----------+---------------+-------+-------+-------+--------+-------+--------+
+| in_stream  | in        | both          | 32    | 4     | 1     | 1      | 4     | 1      |
+| out_stream | out       | both          | 32    | 4     | 1     | 1      | 4     | 1      |
++------------+-----------+---------------+-------+-------+-------+--------+-------+--------+
+
+* TOP LEVEL CONTROL
++-----------+------------+-----------+
+| Interface | Type       | Ports     |
++-----------+------------+-----------+
+| ap_clk    | clock      | ap_clk    |
+| ap_rst_n  | reset      | ap_rst_n  |
+| interrupt | interrupt  | interrupt |
+| ap_ctrl   | ap_ctrl_hs |           |
++-----------+------------+-----------+
+
+
+================================================================
+== SW I/O Information
+================================================================
+* Top Function Arguments
++------------+-----------+-----------------------------------------------------------------------------+
+| Argument   | Direction | Datatype                                                                    |
++------------+-----------+-----------------------------------------------------------------------------+
+| in_stream  | in        | stream<hls::axis<ap_int<32>, 0UL, 0UL, 0UL, (unsigned char)'8', false>, 0>& |
+| out_stream | out       | stream<hls::axis<ap_int<32>, 0UL, 0UL, 0UL, (unsigned char)'8', false>, 0>& |
+| key        | in        | ap_uint<64>                                                                 |
++------------+-----------+-----------------------------------------------------------------------------+
+
+* SW-to-HW Mapping
++------------+---------------+-----------+---------------------------------+
+| Argument   | HW Interface  | HW Type   | HW Info                         |
++------------+---------------+-----------+---------------------------------+
+| in_stream  | in_stream     | interface |                                 |
+| out_stream | out_stream    | interface |                                 |
+| key        | s_axi_control | register  | name=key_1 offset=0x10 range=32 |
+| key        | s_axi_control | register  | name=key_2 offset=0x14 range=32 |
++------------+---------------+-----------+---------------------------------+
+
+
+================================================================
+== M_AXI Burst Information
+================================================================
+ Note: All burst requests might be further partitioned into multiple requests during RTL generation based on max_read_burst_length or max_write_burst_length settings.
+
+
+================================================================
+== Bind Op Report
+================================================================
++------------------------------+-----+--------+-------------+-----------+--------------------------+---------+
+| Name                         | DSP | Pragma | Variable    | Op        | Impl                     | Latency |
++------------------------------+-----+--------+-------------+-----------+--------------------------+---------+
+| + cifrador_pipeline_stream   | 0   |        |             |           |                          |         |
+|   sparsemux_33_4_4_1_1_U314  |     |        | tmp         | sparsemux | compactencoding_dontcare | 0       |
+|   sparsemux_33_4_4_1_1_U315  |     |        | tmp_s       | sparsemux | compactencoding_dontcare | 0       |
+|   xor_ln97_fu_1037_p2        |     |        | xor_ln97    | xor       | auto                     | 0       |
+|   sparsemux_33_4_4_1_1_U316  |     |        | tmp_181     | sparsemux | compactencoding_dontcare | 0       |
+|   xor_ln97_1_fu_1050_p2      |     |        | xor_ln97_1  | xor       | auto                     | 0       |
+|   sparsemux_33_4_4_1_1_U317  |     |        | tmp_182     | sparsemux | compactencoding_dontcare | 0       |
+|   key_1_fu_1112_p2           |     |        | key_1       | xor       | auto                     | 0       |
+|   sparsemux_33_4_4_1_1_U318  |     |        | tmp_183     | sparsemux | compactencoding_dontcare | 0       |
+|   xor_ln97_3_fu_1230_p2      |     |        | xor_ln97_3  | xor       | auto                     | 0       |
+|   sparsemux_33_4_4_1_1_U319  |     |        | tmp_184     | sparsemux | compactencoding_dontcare | 0       |
+|   key_3_fu_1378_p2           |     |        | key_3       | xor       | auto                     | 0       |
+|   sparsemux_33_4_4_1_1_U320  |     |        | tmp_185     | sparsemux | compactencoding_dontcare | 0       |
+|   key_5_fu_1503_p2           |     |        | key_5       | xor       | auto                     | 0       |
+|   sparsemux_33_4_4_1_1_U321  |     |        | tmp_186     | sparsemux | compactencoding_dontcare | 0       |
+|   key_7_fu_1628_p2           |     |        | key_7       | xor       | auto                     | 0       |
+|   sparsemux_33_4_4_1_1_U322  |     |        | tmp_187     | sparsemux | compactencoding_dontcare | 0       |
+|   xor_ln97_7_fu_1746_p2      |     |        | xor_ln97_7  | xor       | auto                     | 0       |
+|   sparsemux_33_4_4_1_1_U323  |     |        | tmp_188     | sparsemux | compactencoding_dontcare | 0       |
+|   key_9_fu_1894_p2           |     |        | key_9       | xor       | auto                     | 0       |
+|   sparsemux_33_4_4_1_1_U324  |     |        | tmp_189     | sparsemux | compactencoding_dontcare | 0       |
+|   key_11_fu_2019_p2          |     |        | key_11      | xor       | auto                     | 0       |
+|   sparsemux_33_4_4_1_1_U325  |     |        | tmp_190     | sparsemux | compactencoding_dontcare | 0       |
+|   key_13_fu_2144_p2          |     |        | key_13      | xor       | auto                     | 0       |
+|   sparsemux_33_4_4_1_1_U326  |     |        | tmp_191     | sparsemux | compactencoding_dontcare | 0       |
+|   key_15_fu_2272_p2          |     |        | key_15      | xor       | auto                     | 0       |
+|   sparsemux_33_4_4_1_1_U327  |     |        | tmp_192     | sparsemux | compactencoding_dontcare | 0       |
+|   key_17_fu_2397_p2          |     |        | key_17      | xor       | auto                     | 0       |
+|   sparsemux_33_4_4_1_1_U328  |     |        | tmp_193     | sparsemux | compactencoding_dontcare | 0       |
+|   key_19_fu_2525_p2          |     |        | key_19      | xor       | auto                     | 0       |
+|   sparsemux_33_4_4_1_1_U329  |     |        | tmp_194     | sparsemux | compactencoding_dontcare | 0       |
+|   key_21_fu_2650_p2          |     |        | key_21      | xor       | auto                     | 0       |
+|   sparsemux_33_4_4_1_1_U330  |     |        | tmp_195     | sparsemux | compactencoding_dontcare | 0       |
+|   xor_ln97_15_fu_2768_p2     |     |        | xor_ln97_15 | xor       | auto                     | 0       |
+|   sparsemux_33_4_4_1_1_U331  |     |        | tmp_196     | sparsemux | compactencoding_dontcare | 0       |
+|   key_23_fu_2916_p2          |     |        | key_23      | xor       | auto                     | 0       |
+|   sparsemux_33_4_4_1_1_U332  |     |        | tmp_197     | sparsemux | compactencoding_dontcare | 0       |
+|   key_25_fu_3040_p2          |     |        | key_25      | xor       | auto                     | 0       |
+|   sparsemux_33_4_4_1_1_U333  |     |        | tmp_198     | sparsemux | compactencoding_dontcare | 0       |
+|   key_27_fu_3168_p2          |     |        | key_27      | xor       | auto                     | 0       |
+|   sparsemux_33_4_4_1_1_U334  |     |        | tmp_199     | sparsemux | compactencoding_dontcare | 0       |
+|   key_29_fu_3293_p2          |     |        | key_29      | xor       | auto                     | 0       |
+|   sparsemux_33_4_4_1_1_U335  |     |        | tmp_200     | sparsemux | compactencoding_dontcare | 0       |
+|   key_31_fu_3421_p2          |     |        | key_31      | xor       | auto                     | 0       |
+|   sparsemux_33_4_4_1_1_U336  |     |        | tmp_201     | sparsemux | compactencoding_dontcare | 0       |
+|   key_33_fu_3546_p2          |     |        | key_33      | xor       | auto                     | 0       |
+|   sparsemux_33_4_4_1_1_U337  |     |        | tmp_202     | sparsemux | compactencoding_dontcare | 0       |
+|   key_35_fu_3674_p2          |     |        | key_35      | xor       | auto                     | 0       |
+|   sparsemux_33_4_4_1_1_U338  |     |        | tmp_203     | sparsemux | compactencoding_dontcare | 0       |
+|   key_37_fu_3799_p2          |     |        | key_37      | xor       | auto                     | 0       |
+|   sparsemux_33_4_4_1_1_U339  |     |        | tmp_204     | sparsemux | compactencoding_dontcare | 0       |
+|   key_39_fu_3927_p2          |     |        | key_39      | xor       | auto                     | 0       |
+|   sparsemux_33_4_4_1_1_U340  |     |        | tmp_205     | sparsemux | compactencoding_dontcare | 0       |
+|   key_41_fu_4052_p2          |     |        | key_41      | xor       | auto                     | 0       |
+|   sparsemux_33_4_4_1_1_U341  |     |        | tmp_206     | sparsemux | compactencoding_dontcare | 0       |
+|   key_43_fu_4180_p2          |     |        | key_43      | xor       | auto                     | 0       |
+|   sparsemux_33_4_4_1_1_U342  |     |        | tmp_207     | sparsemux | compactencoding_dontcare | 0       |
+|   key_45_fu_4353_p2          |     |        | key_45      | xor       | auto                     | 0       |
+|   sparsemux_33_4_4_1_1_U343  |     |        | tmp_208     | sparsemux | compactencoding_dontcare | 0       |
+|   key_47_fu_4481_p2          |     |        | key_47      | xor       | auto                     | 0       |
+|   sparsemux_33_4_4_1_1_U344  |     |        | tmp_209     | sparsemux | compactencoding_dontcare | 0       |
+|  + stage_0_s                 | 0   |        |             |           |                          |         |
+|    in_271_fu_92_p2           |     |        | in_271      | xor       | auto                     | 0       |
+|    sparsemux_33_4_4_1_1_U1   |     |        | tmp         | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U2   |     |        | tmp_s       | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U3   |     |        | tmp_175     | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U4   |     |        | tmp_176     | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U5   |     |        | tmp_177     | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U6   |     |        | tmp_178     | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U7   |     |        | tmp_179     | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U8   |     |        | tmp_180     | sparsemux | compactencoding_dontcare | 0       |
+|  + stage_1_s                 | 0   |        |             |           |                          |         |
+|    in_172_fu_92_p2           |     |        | in_172      | xor       | auto                     | 0       |
+|    sparsemux_33_4_4_1_1_U12  |     |        | tmp         | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U13  |     |        | tmp_s       | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U14  |     |        | tmp_109     | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U15  |     |        | tmp_110     | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U16  |     |        | tmp_111     | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U17  |     |        | tmp_112     | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U18  |     |        | tmp_113     | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U19  |     |        | tmp_114     | sparsemux | compactencoding_dontcare | 0       |
+|  + stage_2_s                 | 0   |        |             |           |                          |         |
+|    in_73_fu_92_p2            |     |        | in_73       | xor       | auto                     | 0       |
+|    sparsemux_33_4_4_1_1_U22  |     |        | tmp         | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U23  |     |        | tmp_s       | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U24  |     |        | tmp_43      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U25  |     |        | tmp_44      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U26  |     |        | tmp_45      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U27  |     |        | tmp_46      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U28  |     |        | tmp_47      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U29  |     |        | tmp_48      | sparsemux | compactencoding_dontcare | 0       |
+|  + stage_3_s                 | 0   |        |             |           |                          |         |
+|    in_55_fu_92_p2            |     |        | in_55       | xor       | auto                     | 0       |
+|    sparsemux_33_4_4_1_1_U32  |     |        | tmp         | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U33  |     |        | tmp_s       | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U34  |     |        | tmp_31      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U35  |     |        | tmp_32      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U36  |     |        | tmp_33      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U37  |     |        | tmp_34      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U38  |     |        | tmp_35      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U39  |     |        | tmp_36      | sparsemux | compactencoding_dontcare | 0       |
+|  + stage_4_s                 | 0   |        |             |           |                          |         |
+|    in_46_fu_92_p2            |     |        | in_46       | xor       | auto                     | 0       |
+|    sparsemux_33_4_4_1_1_U42  |     |        | tmp         | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U43  |     |        | tmp_s       | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U44  |     |        | tmp_25      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U45  |     |        | tmp_26      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U46  |     |        | tmp_27      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U47  |     |        | tmp_28      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U48  |     |        | tmp_29      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U49  |     |        | tmp_30      | sparsemux | compactencoding_dontcare | 0       |
+|  + stage_5_s                 | 0   |        |             |           |                          |         |
+|    in_37_fu_92_p2            |     |        | in_37       | xor       | auto                     | 0       |
+|    sparsemux_33_4_4_1_1_U52  |     |        | tmp         | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U53  |     |        | tmp_s       | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U54  |     |        | tmp_19      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U55  |     |        | tmp_20      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U56  |     |        | tmp_21      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U57  |     |        | tmp_22      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U58  |     |        | tmp_23      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U59  |     |        | tmp_24      | sparsemux | compactencoding_dontcare | 0       |
+|  + stage_6_s                 | 0   |        |             |           |                          |         |
+|    in_28_fu_92_p2            |     |        | in_28       | xor       | auto                     | 0       |
+|    sparsemux_33_4_4_1_1_U62  |     |        | tmp         | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U63  |     |        | tmp_s       | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U64  |     |        | tmp_13      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U65  |     |        | tmp_14      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U66  |     |        | tmp_15      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U67  |     |        | tmp_16      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U68  |     |        | tmp_17      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U69  |     |        | tmp_18      | sparsemux | compactencoding_dontcare | 0       |
+|  + stage_7_s                 | 0   |        |             |           |                          |         |
+|    in_19_fu_92_p2            |     |        | in_19       | xor       | auto                     | 0       |
+|    sparsemux_33_4_4_1_1_U72  |     |        | tmp         | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U73  |     |        | tmp_s       | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U74  |     |        | tmp_7       | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U75  |     |        | tmp_8       | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U76  |     |        | tmp_9       | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U77  |     |        | tmp_10      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U78  |     |        | tmp_11      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U79  |     |        | tmp_12      | sparsemux | compactencoding_dontcare | 0       |
+|  + stage_8_s                 | 0   |        |             |           |                          |         |
+|    in_10_fu_92_p2            |     |        | in_10       | xor       | auto                     | 0       |
+|    sparsemux_33_4_4_1_1_U82  |     |        | tmp         | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U83  |     |        | tmp_s       | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U84  |     |        | tmp_1       | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U85  |     |        | tmp_2       | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U86  |     |        | tmp_3       | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U87  |     |        | tmp_4       | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U88  |     |        | tmp_5       | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U89  |     |        | tmp_6       | sparsemux | compactencoding_dontcare | 0       |
+|  + stage_9_s                 | 0   |        |             |           |                          |         |
+|    in_1_fu_92_p2             |     |        | in_1        | xor       | auto                     | 0       |
+|    sparsemux_33_4_4_1_1_U92  |     |        | tmp         | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U93  |     |        | tmp_2       | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U94  |     |        | tmp_4       | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U95  |     |        | tmp_6       | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U96  |     |        | tmp_8       | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U97  |     |        | tmp_s       | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U98  |     |        | tmp_1       | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U99  |     |        | tmp_3       | sparsemux | compactencoding_dontcare | 0       |
+|  + stage_10_s                | 0   |        |             |           |                          |         |
+|    in_262_fu_92_p2           |     |        | in_262      | xor       | auto                     | 0       |
+|    sparsemux_33_4_4_1_1_U102 |     |        | tmp         | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U103 |     |        | tmp_s       | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U104 |     |        | tmp_169     | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U105 |     |        | tmp_170     | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U106 |     |        | tmp_171     | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U107 |     |        | tmp_172     | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U108 |     |        | tmp_173     | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U109 |     |        | tmp_174     | sparsemux | compactencoding_dontcare | 0       |
+|  + stage_11_s                | 0   |        |             |           |                          |         |
+|    in_253_fu_92_p2           |     |        | in_253      | xor       | auto                     | 0       |
+|    sparsemux_33_4_4_1_1_U112 |     |        | tmp         | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U113 |     |        | tmp_s       | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U114 |     |        | tmp_163     | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U115 |     |        | tmp_164     | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U116 |     |        | tmp_165     | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U117 |     |        | tmp_166     | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U118 |     |        | tmp_167     | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U119 |     |        | tmp_168     | sparsemux | compactencoding_dontcare | 0       |
+|  + stage_12_s                | 0   |        |             |           |                          |         |
+|    in_244_fu_92_p2           |     |        | in_244      | xor       | auto                     | 0       |
+|    sparsemux_33_4_4_1_1_U122 |     |        | tmp         | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U123 |     |        | tmp_s       | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U124 |     |        | tmp_157     | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U125 |     |        | tmp_158     | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U126 |     |        | tmp_159     | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U127 |     |        | tmp_160     | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U128 |     |        | tmp_161     | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U129 |     |        | tmp_162     | sparsemux | compactencoding_dontcare | 0       |
+|  + stage_13_s                | 0   |        |             |           |                          |         |
+|    in_235_fu_92_p2           |     |        | in_235      | xor       | auto                     | 0       |
+|    sparsemux_33_4_4_1_1_U132 |     |        | tmp         | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U133 |     |        | tmp_s       | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U134 |     |        | tmp_151     | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U135 |     |        | tmp_152     | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U136 |     |        | tmp_153     | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U137 |     |        | tmp_154     | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U138 |     |        | tmp_155     | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U139 |     |        | tmp_156     | sparsemux | compactencoding_dontcare | 0       |
+|  + stage_14_s                | 0   |        |             |           |                          |         |
+|    in_226_fu_92_p2           |     |        | in_226      | xor       | auto                     | 0       |
+|    sparsemux_33_4_4_1_1_U142 |     |        | tmp         | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U143 |     |        | tmp_s       | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U144 |     |        | tmp_145     | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U145 |     |        | tmp_146     | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U146 |     |        | tmp_147     | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U147 |     |        | tmp_148     | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U148 |     |        | tmp_149     | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U149 |     |        | tmp_150     | sparsemux | compactencoding_dontcare | 0       |
+|  + stage_15_s                | 0   |        |             |           |                          |         |
+|    in_217_fu_92_p2           |     |        | in_217      | xor       | auto                     | 0       |
+|    sparsemux_33_4_4_1_1_U152 |     |        | tmp         | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U153 |     |        | tmp_s       | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U154 |     |        | tmp_139     | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U155 |     |        | tmp_140     | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U156 |     |        | tmp_141     | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U157 |     |        | tmp_142     | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U158 |     |        | tmp_143     | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U159 |     |        | tmp_144     | sparsemux | compactencoding_dontcare | 0       |
+|  + stage_16_s                | 0   |        |             |           |                          |         |
+|    in_208_fu_92_p2           |     |        | in_208      | xor       | auto                     | 0       |
+|    sparsemux_33_4_4_1_1_U162 |     |        | tmp         | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U163 |     |        | tmp_s       | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U164 |     |        | tmp_133     | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U165 |     |        | tmp_134     | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U166 |     |        | tmp_135     | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U167 |     |        | tmp_136     | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U168 |     |        | tmp_137     | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U169 |     |        | tmp_138     | sparsemux | compactencoding_dontcare | 0       |
+|  + stage_17_s                | 0   |        |             |           |                          |         |
+|    in_199_fu_92_p2           |     |        | in_199      | xor       | auto                     | 0       |
+|    sparsemux_33_4_4_1_1_U172 |     |        | tmp         | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U173 |     |        | tmp_s       | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U174 |     |        | tmp_127     | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U175 |     |        | tmp_128     | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U176 |     |        | tmp_129     | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U177 |     |        | tmp_130     | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U178 |     |        | tmp_131     | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U179 |     |        | tmp_132     | sparsemux | compactencoding_dontcare | 0       |
+|  + stage_18_s                | 0   |        |             |           |                          |         |
+|    in_190_fu_92_p2           |     |        | in_190      | xor       | auto                     | 0       |
+|    sparsemux_33_4_4_1_1_U182 |     |        | tmp         | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U183 |     |        | tmp_s       | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U184 |     |        | tmp_121     | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U185 |     |        | tmp_122     | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U186 |     |        | tmp_123     | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U187 |     |        | tmp_124     | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U188 |     |        | tmp_125     | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U189 |     |        | tmp_126     | sparsemux | compactencoding_dontcare | 0       |
+|  + stage_19_s                | 0   |        |             |           |                          |         |
+|    in_181_fu_92_p2           |     |        | in_181      | xor       | auto                     | 0       |
+|    sparsemux_33_4_4_1_1_U192 |     |        | tmp         | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U193 |     |        | tmp_s       | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U194 |     |        | tmp_115     | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U195 |     |        | tmp_116     | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U196 |     |        | tmp_117     | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U197 |     |        | tmp_118     | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U198 |     |        | tmp_119     | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U199 |     |        | tmp_120     | sparsemux | compactencoding_dontcare | 0       |
+|  + stage_20_s                | 0   |        |             |           |                          |         |
+|    in_163_fu_92_p2           |     |        | in_163      | xor       | auto                     | 0       |
+|    sparsemux_33_4_4_1_1_U202 |     |        | tmp         | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U203 |     |        | tmp_s       | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U204 |     |        | tmp_103     | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U205 |     |        | tmp_104     | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U206 |     |        | tmp_105     | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U207 |     |        | tmp_106     | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U208 |     |        | tmp_107     | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U209 |     |        | tmp_108     | sparsemux | compactencoding_dontcare | 0       |
+|  + stage_21_s                | 0   |        |             |           |                          |         |
+|    in_154_fu_92_p2           |     |        | in_154      | xor       | auto                     | 0       |
+|    sparsemux_33_4_4_1_1_U212 |     |        | tmp         | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U213 |     |        | tmp_s       | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U214 |     |        | tmp_97      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U215 |     |        | tmp_98      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U216 |     |        | tmp_99      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U217 |     |        | tmp_100     | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U218 |     |        | tmp_101     | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U219 |     |        | tmp_102     | sparsemux | compactencoding_dontcare | 0       |
+|  + stage_22_s                | 0   |        |             |           |                          |         |
+|    in_145_fu_92_p2           |     |        | in_145      | xor       | auto                     | 0       |
+|    sparsemux_33_4_4_1_1_U222 |     |        | tmp         | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U223 |     |        | tmp_s       | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U224 |     |        | tmp_91      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U225 |     |        | tmp_92      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U226 |     |        | tmp_93      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U227 |     |        | tmp_94      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U228 |     |        | tmp_95      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U229 |     |        | tmp_96      | sparsemux | compactencoding_dontcare | 0       |
+|  + stage_23_s                | 0   |        |             |           |                          |         |
+|    in_136_fu_92_p2           |     |        | in_136      | xor       | auto                     | 0       |
+|    sparsemux_33_4_4_1_1_U232 |     |        | tmp         | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U233 |     |        | tmp_s       | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U234 |     |        | tmp_85      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U235 |     |        | tmp_86      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U236 |     |        | tmp_87      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U237 |     |        | tmp_88      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U238 |     |        | tmp_89      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U239 |     |        | tmp_90      | sparsemux | compactencoding_dontcare | 0       |
+|  + stage_24_s                | 0   |        |             |           |                          |         |
+|    in_127_fu_92_p2           |     |        | in_127      | xor       | auto                     | 0       |
+|    sparsemux_33_4_4_1_1_U242 |     |        | tmp         | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U243 |     |        | tmp_s       | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U244 |     |        | tmp_79      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U245 |     |        | tmp_80      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U246 |     |        | tmp_81      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U247 |     |        | tmp_82      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U248 |     |        | tmp_83      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U249 |     |        | tmp_84      | sparsemux | compactencoding_dontcare | 0       |
+|  + stage_25_s                | 0   |        |             |           |                          |         |
+|    in_118_fu_92_p2           |     |        | in_118      | xor       | auto                     | 0       |
+|    sparsemux_33_4_4_1_1_U252 |     |        | tmp         | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U253 |     |        | tmp_s       | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U254 |     |        | tmp_73      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U255 |     |        | tmp_74      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U256 |     |        | tmp_75      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U257 |     |        | tmp_76      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U258 |     |        | tmp_77      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U259 |     |        | tmp_78      | sparsemux | compactencoding_dontcare | 0       |
+|  + stage_26_s                | 0   |        |             |           |                          |         |
+|    in_109_fu_92_p2           |     |        | in_109      | xor       | auto                     | 0       |
+|    sparsemux_33_4_4_1_1_U262 |     |        | tmp         | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U263 |     |        | tmp_s       | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U264 |     |        | tmp_67      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U265 |     |        | tmp_68      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U266 |     |        | tmp_69      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U267 |     |        | tmp_70      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U268 |     |        | tmp_71      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U269 |     |        | tmp_72      | sparsemux | compactencoding_dontcare | 0       |
+|  + stage_27_s                | 0   |        |             |           |                          |         |
+|    in_100_fu_92_p2           |     |        | in_100      | xor       | auto                     | 0       |
+|    sparsemux_33_4_4_1_1_U272 |     |        | tmp         | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U273 |     |        | tmp_s       | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U274 |     |        | tmp_61      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U275 |     |        | tmp_62      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U276 |     |        | tmp_63      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U277 |     |        | tmp_64      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U278 |     |        | tmp_65      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U279 |     |        | tmp_66      | sparsemux | compactencoding_dontcare | 0       |
+|  + stage_28_s                | 0   |        |             |           |                          |         |
+|    in_91_fu_92_p2            |     |        | in_91       | xor       | auto                     | 0       |
+|    sparsemux_33_4_4_1_1_U282 |     |        | tmp         | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U283 |     |        | tmp_s       | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U284 |     |        | tmp_55      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U285 |     |        | tmp_56      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U286 |     |        | tmp_57      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U287 |     |        | tmp_58      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U288 |     |        | tmp_59      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U289 |     |        | tmp_60      | sparsemux | compactencoding_dontcare | 0       |
+|  + stage_29_s                | 0   |        |             |           |                          |         |
+|    in_82_fu_92_p2            |     |        | in_82       | xor       | auto                     | 0       |
+|    sparsemux_33_4_4_1_1_U292 |     |        | tmp         | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U293 |     |        | tmp_s       | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U294 |     |        | tmp_49      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U295 |     |        | tmp_50      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U296 |     |        | tmp_51      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U297 |     |        | tmp_52      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U298 |     |        | tmp_53      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U299 |     |        | tmp_54      | sparsemux | compactencoding_dontcare | 0       |
+|  + stage_30_s                | 0   |        |             |           |                          |         |
+|    in_64_fu_92_p2            |     |        | in_64       | xor       | auto                     | 0       |
+|    sparsemux_33_4_4_1_1_U302 |     |        | tmp         | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U303 |     |        | tmp_s       | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U304 |     |        | tmp_37      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U305 |     |        | tmp_38      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U306 |     |        | tmp_39      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U307 |     |        | tmp_40      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U308 |     |        | tmp_41      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U309 |     |        | tmp_42      | sparsemux | compactencoding_dontcare | 0       |
+|  + last_stage                | 0   |        |             |           |                          |         |
+|    out_fu_416_p2             |     |        | out         | xor       | auto                     | 0       |
++------------------------------+-----+--------+-------------+-----------+--------------------------+---------+
+
+
+================================================================
+== Storage Report
+================================================================
++----------------------------+-----------+-----------+------+------+--------+----------+------+---------+------------------+
+| Name                       | Usage     | Type      | BRAM | URAM | Pragma | Variable | Impl | Latency | Bitwidth, Depth, |
+|                            |           |           |      |      |        |          |      |         | Banks            |
++----------------------------+-----------+-----------+------+------+--------+----------+------+---------+------------------+
+| + cifrador_pipeline_stream |           |           | 0    | 0    |        |          |      |         |                  |
+|   control_s_axi_U          | interface | s_axilite |      |      |        |          |      |         |                  |
++----------------------------+-----------+-----------+------+------+--------+----------+------+---------+------------------+
+
+
+================================================================
+== Pragma Report
+================================================================
+* Valid Pragma Syntax
++-----------------+------------------------------+------------------------------------------------+
+| Type            | Options                      | Location                                       |
++-----------------+------------------------------+------------------------------------------------+
+| INLINE          |                              | in sbox (Cifrador.cpp:10)                      |
+| ARRAY_PARTITION | variable=table complete      | in sbox (Cifrador.cpp:19)                      |
+| INLINE          |                              | in sustitution (Cifrador.cpp:25)               |
+| UNROLL          |                              | in sustitution (Cifrador.cpp:29)               |
+| INLINE          |                              | in permutation (Cifrador.cpp:37)               |
+| UNROLL          |                              | in permutation (Cifrador.cpp:42)               |
+| INLINE          |                              | in key_mixing (Cifrador.cpp:51)                |
+| INLINE          |                              | in round_function (Cifrador.cpp:56)            |
+| INLINE          |                              | in permutation_inverse (Cifrador.cpp:67)       |
+| UNROLL          |                              | in permutation_inverse (Cifrador.cpp:72)       |
+| INLINE          |                              | in last_round_correction (Cifrador.cpp:81)     |
+| INLINE          |                              | in key_schedule (Cifrador.cpp:92)              |
+| PIPELINE        | ii=1                         | in stage (Cifrador.cpp:111)                    |
+| INLINE          | off                          | in stage (Cifrador.cpp:112)                    |
+| LATENCY         | min=1 max=1                  | in stage (Cifrador.cpp:113)                    |
+| PIPELINE        | ii=1                         | in last_stage (Cifrador.cpp:119)               |
+| INLINE          | off                          | in last_stage (Cifrador.cpp:120)               |
+| LATENCY         | min=1 max=1                  | in last_stage (Cifrador.cpp:121)               |
+| INLINE          |                              | in run (Cifrador.cpp:129)                      |
+| INLINE          |                              | in run (Cifrador.cpp:138)                      |
+| PIPELINE        | ii=1                         | in run (Cifrador.cpp:139)                      |
+| INTERFACE       | axis port=in_stream          | in cifrador_pipeline_stream (Cifrador.cpp:153) |
+| INTERFACE       | axis port=out_stream         | in cifrador_pipeline_stream (Cifrador.cpp:154) |
+| INTERFACE       | s_axilite port=key           | in cifrador_pipeline_stream (Cifrador.cpp:155) |
+| INTERFACE       | s_axilite port=return        | in cifrador_pipeline_stream (Cifrador.cpp:156) |
+| ARRAY_PARTITION | variable=round_keys complete | in cifrador_pipeline_stream (Cifrador.cpp:159) |
+| UNROLL          |                              | in cifrador_pipeline_stream (Cifrador.cpp:163) |
+| PIPELINE        | ii=1                         | in cifrador_pipeline_stream (Cifrador.cpp:171) |
++-----------------+------------------------------+------------------------------------------------+
+
+

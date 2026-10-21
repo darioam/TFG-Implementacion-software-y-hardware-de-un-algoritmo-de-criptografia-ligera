@@ -1,0 +1,429 @@
+set moduleName cifrador_paralelo_pre_8
+set isTopModule 1
+set isCombinational 0
+set isDatapathOnly 0
+set isPipelined 0
+set isPipelined_legacy 0
+set pipeline_type none
+set FunctionProtocol ap_ctrl_hs
+set restart_counter_num 0
+set isOneStateSeq 0
+set ProfileFlag 0
+set StallSigGenFlag 0
+set isEnableWaveformDebug 1
+set hasInterrupt 0
+set DLRegFirstOffset 0
+set DLRegItemOffset 0
+set svuvm_can_support 1
+set cdfgNum 4
+set C_modelName {cifrador_paralelo_pre_8}
+set C_modelType { void 0 }
+set ap_memory_interface_dict [dict create]
+set C_modelArgList {
+	{ plaintext_0 int 32 regular {axi_slave 0}  }
+	{ plaintext_1 int 32 regular {axi_slave 0}  }
+	{ plaintext_2 int 32 regular {axi_slave 0}  }
+	{ plaintext_3 int 32 regular {axi_slave 0}  }
+	{ plaintext_4 int 32 regular {axi_slave 0}  }
+	{ plaintext_5 int 32 regular {axi_slave 0}  }
+	{ plaintext_6 int 32 regular {axi_slave 0}  }
+	{ plaintext_7 int 32 regular {axi_slave 0}  }
+	{ key int 64 regular {axi_slave 0}  }
+	{ ciphertext_0 int 32 regular {axi_slave 1}  }
+	{ ciphertext_1 int 32 regular {axi_slave 1}  }
+	{ ciphertext_2 int 32 regular {axi_slave 1}  }
+	{ ciphertext_3 int 32 regular {axi_slave 1}  }
+	{ ciphertext_4 int 32 regular {axi_slave 1}  }
+	{ ciphertext_5 int 32 regular {axi_slave 1}  }
+	{ ciphertext_6 int 32 regular {axi_slave 1}  }
+	{ ciphertext_7 int 32 regular {axi_slave 1}  }
+}
+set hasAXIMCache 0
+set l_AXIML2Cache [list]
+set AXIMCacheInstDict [dict create]
+set C_modelArgMapList {[ 
+	{ "Name" : "plaintext_0", "interface" : "axi_slave", "bundle":"control","type":"ap_none","bitwidth" : 32, "direction" : "READONLY", "offset" : {"in":16}, "offset_end" : {"in":23}} , 
+ 	{ "Name" : "plaintext_1", "interface" : "axi_slave", "bundle":"control","type":"ap_none","bitwidth" : 32, "direction" : "READONLY", "offset" : {"in":24}, "offset_end" : {"in":31}} , 
+ 	{ "Name" : "plaintext_2", "interface" : "axi_slave", "bundle":"control","type":"ap_none","bitwidth" : 32, "direction" : "READONLY", "offset" : {"in":32}, "offset_end" : {"in":39}} , 
+ 	{ "Name" : "plaintext_3", "interface" : "axi_slave", "bundle":"control","type":"ap_none","bitwidth" : 32, "direction" : "READONLY", "offset" : {"in":40}, "offset_end" : {"in":47}} , 
+ 	{ "Name" : "plaintext_4", "interface" : "axi_slave", "bundle":"control","type":"ap_none","bitwidth" : 32, "direction" : "READONLY", "offset" : {"in":48}, "offset_end" : {"in":55}} , 
+ 	{ "Name" : "plaintext_5", "interface" : "axi_slave", "bundle":"control","type":"ap_none","bitwidth" : 32, "direction" : "READONLY", "offset" : {"in":56}, "offset_end" : {"in":63}} , 
+ 	{ "Name" : "plaintext_6", "interface" : "axi_slave", "bundle":"control","type":"ap_none","bitwidth" : 32, "direction" : "READONLY", "offset" : {"in":64}, "offset_end" : {"in":71}} , 
+ 	{ "Name" : "plaintext_7", "interface" : "axi_slave", "bundle":"control","type":"ap_none","bitwidth" : 32, "direction" : "READONLY", "offset" : {"in":72}, "offset_end" : {"in":79}} , 
+ 	{ "Name" : "key", "interface" : "axi_slave", "bundle":"control","type":"ap_none","bitwidth" : 64, "direction" : "READONLY", "offset" : {"in":80}, "offset_end" : {"in":91}} , 
+ 	{ "Name" : "ciphertext_0", "interface" : "axi_slave", "bundle":"control","type":"ap_vld","bitwidth" : 32, "direction" : "WRITEONLY", "offset" : {"out":92}, "offset_end" : {"out":99}} , 
+ 	{ "Name" : "ciphertext_1", "interface" : "axi_slave", "bundle":"control","type":"ap_vld","bitwidth" : 32, "direction" : "WRITEONLY", "offset" : {"out":108}, "offset_end" : {"out":115}} , 
+ 	{ "Name" : "ciphertext_2", "interface" : "axi_slave", "bundle":"control","type":"ap_vld","bitwidth" : 32, "direction" : "WRITEONLY", "offset" : {"out":124}, "offset_end" : {"out":131}} , 
+ 	{ "Name" : "ciphertext_3", "interface" : "axi_slave", "bundle":"control","type":"ap_vld","bitwidth" : 32, "direction" : "WRITEONLY", "offset" : {"out":140}, "offset_end" : {"out":147}} , 
+ 	{ "Name" : "ciphertext_4", "interface" : "axi_slave", "bundle":"control","type":"ap_vld","bitwidth" : 32, "direction" : "WRITEONLY", "offset" : {"out":156}, "offset_end" : {"out":163}} , 
+ 	{ "Name" : "ciphertext_5", "interface" : "axi_slave", "bundle":"control","type":"ap_vld","bitwidth" : 32, "direction" : "WRITEONLY", "offset" : {"out":172}, "offset_end" : {"out":179}} , 
+ 	{ "Name" : "ciphertext_6", "interface" : "axi_slave", "bundle":"control","type":"ap_vld","bitwidth" : 32, "direction" : "WRITEONLY", "offset" : {"out":188}, "offset_end" : {"out":195}} , 
+ 	{ "Name" : "ciphertext_7", "interface" : "axi_slave", "bundle":"control","type":"ap_vld","bitwidth" : 32, "direction" : "WRITEONLY", "offset" : {"out":204}, "offset_end" : {"out":211}} ]}
+# RTL Port declarations: 
+set portNum 20
+set portList { 
+	{ ap_clk sc_in sc_logic 1 clock -1 } 
+	{ ap_rst_n sc_in sc_logic 1 reset -1 active_low_sync } 
+	{ s_axi_control_AWVALID sc_in sc_logic 1 signal -1 } 
+	{ s_axi_control_AWREADY sc_out sc_logic 1 signal -1 } 
+	{ s_axi_control_AWADDR sc_in sc_lv 8 signal -1 } 
+	{ s_axi_control_WVALID sc_in sc_logic 1 signal -1 } 
+	{ s_axi_control_WREADY sc_out sc_logic 1 signal -1 } 
+	{ s_axi_control_WDATA sc_in sc_lv 32 signal -1 } 
+	{ s_axi_control_WSTRB sc_in sc_lv 4 signal -1 } 
+	{ s_axi_control_ARVALID sc_in sc_logic 1 signal -1 } 
+	{ s_axi_control_ARREADY sc_out sc_logic 1 signal -1 } 
+	{ s_axi_control_ARADDR sc_in sc_lv 8 signal -1 } 
+	{ s_axi_control_RVALID sc_out sc_logic 1 signal -1 } 
+	{ s_axi_control_RREADY sc_in sc_logic 1 signal -1 } 
+	{ s_axi_control_RDATA sc_out sc_lv 32 signal -1 } 
+	{ s_axi_control_RRESP sc_out sc_lv 2 signal -1 } 
+	{ s_axi_control_BVALID sc_out sc_logic 1 signal -1 } 
+	{ s_axi_control_BREADY sc_in sc_logic 1 signal -1 } 
+	{ s_axi_control_BRESP sc_out sc_lv 2 signal -1 } 
+	{ interrupt sc_out sc_logic 1 signal -1 } 
+}
+set NewPortList {[ 
+	{ "name": "s_axi_control_AWADDR", "direction": "in", "datatype": "sc_lv", "bitwidth":8, "type": "signal", "bundle":{"name": "control", "role": "AWADDR" },"address":[{"name":"cifrador_paralelo_pre_8","role":"start","value":"0","valid_bit":"0"},{"name":"cifrador_paralelo_pre_8","role":"continue","value":"0","valid_bit":"4"},{"name":"cifrador_paralelo_pre_8","role":"auto_start","value":"0","valid_bit":"7"},{"name":"plaintext_0","role":"data","value":"16"},{"name":"plaintext_1","role":"data","value":"24"},{"name":"plaintext_2","role":"data","value":"32"},{"name":"plaintext_3","role":"data","value":"40"},{"name":"plaintext_4","role":"data","value":"48"},{"name":"plaintext_5","role":"data","value":"56"},{"name":"plaintext_6","role":"data","value":"64"},{"name":"plaintext_7","role":"data","value":"72"},{"name":"key","role":"data","value":"80"}] },
+	{ "name": "s_axi_control_AWVALID", "direction": "in", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "control", "role": "AWVALID" } },
+	{ "name": "s_axi_control_AWREADY", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "control", "role": "AWREADY" } },
+	{ "name": "s_axi_control_WVALID", "direction": "in", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "control", "role": "WVALID" } },
+	{ "name": "s_axi_control_WREADY", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "control", "role": "WREADY" } },
+	{ "name": "s_axi_control_WDATA", "direction": "in", "datatype": "sc_lv", "bitwidth":32, "type": "signal", "bundle":{"name": "control", "role": "WDATA" } },
+	{ "name": "s_axi_control_WSTRB", "direction": "in", "datatype": "sc_lv", "bitwidth":4, "type": "signal", "bundle":{"name": "control", "role": "WSTRB" } },
+	{ "name": "s_axi_control_ARADDR", "direction": "in", "datatype": "sc_lv", "bitwidth":8, "type": "signal", "bundle":{"name": "control", "role": "ARADDR" },"address":[{"name":"cifrador_paralelo_pre_8","role":"start","value":"0","valid_bit":"0"},{"name":"cifrador_paralelo_pre_8","role":"done","value":"0","valid_bit":"1"},{"name":"cifrador_paralelo_pre_8","role":"idle","value":"0","valid_bit":"2"},{"name":"cifrador_paralelo_pre_8","role":"ready","value":"0","valid_bit":"3"},{"name":"cifrador_paralelo_pre_8","role":"auto_start","value":"0","valid_bit":"7"},{"name":"ciphertext_0","role":"data","value":"92"}, {"name":"ciphertext_0","role":"valid","value":"96","valid_bit":"0"},{"name":"ciphertext_1","role":"data","value":"108"}, {"name":"ciphertext_1","role":"valid","value":"112","valid_bit":"0"},{"name":"ciphertext_2","role":"data","value":"124"}, {"name":"ciphertext_2","role":"valid","value":"128","valid_bit":"0"},{"name":"ciphertext_3","role":"data","value":"140"}, {"name":"ciphertext_3","role":"valid","value":"144","valid_bit":"0"},{"name":"ciphertext_4","role":"data","value":"156"}, {"name":"ciphertext_4","role":"valid","value":"160","valid_bit":"0"},{"name":"ciphertext_5","role":"data","value":"172"}, {"name":"ciphertext_5","role":"valid","value":"176","valid_bit":"0"},{"name":"ciphertext_6","role":"data","value":"188"}, {"name":"ciphertext_6","role":"valid","value":"192","valid_bit":"0"},{"name":"ciphertext_7","role":"data","value":"204"}, {"name":"ciphertext_7","role":"valid","value":"208","valid_bit":"0"}] },
+	{ "name": "s_axi_control_ARVALID", "direction": "in", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "control", "role": "ARVALID" } },
+	{ "name": "s_axi_control_ARREADY", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "control", "role": "ARREADY" } },
+	{ "name": "s_axi_control_RVALID", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "control", "role": "RVALID" } },
+	{ "name": "s_axi_control_RREADY", "direction": "in", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "control", "role": "RREADY" } },
+	{ "name": "s_axi_control_RDATA", "direction": "out", "datatype": "sc_lv", "bitwidth":32, "type": "signal", "bundle":{"name": "control", "role": "RDATA" } },
+	{ "name": "s_axi_control_RRESP", "direction": "out", "datatype": "sc_lv", "bitwidth":2, "type": "signal", "bundle":{"name": "control", "role": "RRESP" } },
+	{ "name": "s_axi_control_BVALID", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "control", "role": "BVALID" } },
+	{ "name": "s_axi_control_BREADY", "direction": "in", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "control", "role": "BREADY" } },
+	{ "name": "s_axi_control_BRESP", "direction": "out", "datatype": "sc_lv", "bitwidth":2, "type": "signal", "bundle":{"name": "control", "role": "BRESP" } },
+	{ "name": "interrupt", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "control", "role": "interrupt" } }, 
+ 	{ "name": "ap_clk", "direction": "in", "datatype": "sc_logic", "bitwidth":1, "type": "clock", "bundle":{"name": "ap_clk", "role": "default" }} , 
+ 	{ "name": "ap_rst_n", "direction": "in", "datatype": "sc_logic", "bitwidth":1, "type": "reset", "bundle":{"name": "ap_rst_n", "role": "default" }}  ]}
+
+set ArgLastReadFirstWriteLatency {
+	cifrador_paralelo_pre_8 {
+		plaintext_0 {Type I LastRead 0 FirstWrite -1}
+		plaintext_1 {Type I LastRead 0 FirstWrite -1}
+		plaintext_2 {Type I LastRead 0 FirstWrite -1}
+		plaintext_3 {Type I LastRead 0 FirstWrite -1}
+		plaintext_4 {Type I LastRead 0 FirstWrite -1}
+		plaintext_5 {Type I LastRead 0 FirstWrite -1}
+		plaintext_6 {Type I LastRead 0 FirstWrite -1}
+		plaintext_7 {Type I LastRead 0 FirstWrite -1}
+		key {Type I LastRead 0 FirstWrite -1}
+		ciphertext_0 {Type O LastRead -1 FirstWrite 16}
+		ciphertext_1 {Type O LastRead -1 FirstWrite 16}
+		ciphertext_2 {Type O LastRead -1 FirstWrite 16}
+		ciphertext_3 {Type O LastRead -1 FirstWrite 16}
+		ciphertext_4 {Type O LastRead -1 FirstWrite 16}
+		ciphertext_5 {Type O LastRead -1 FirstWrite 16}
+		ciphertext_6 {Type O LastRead -1 FirstWrite 16}
+		ciphertext_7 {Type O LastRead -1 FirstWrite 16}}
+	cifrador {
+		plaintext {Type I LastRead 0 FirstWrite -1}
+		round_keys_0_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_1_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_2_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_3_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_4_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_5_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_6_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_7_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_8_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_9_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_10_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_11_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_12_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_13_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_14_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_15_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_16_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_17_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_18_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_19_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_20_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_21_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_22_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_23_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_24_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_25_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_26_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_27_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_28_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_29_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_30_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_31_val {Type I LastRead 0 FirstWrite -1}}
+	cifrador {
+		plaintext {Type I LastRead 0 FirstWrite -1}
+		round_keys_0_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_1_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_2_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_3_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_4_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_5_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_6_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_7_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_8_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_9_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_10_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_11_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_12_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_13_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_14_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_15_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_16_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_17_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_18_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_19_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_20_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_21_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_22_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_23_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_24_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_25_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_26_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_27_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_28_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_29_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_30_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_31_val {Type I LastRead 0 FirstWrite -1}}
+	cifrador {
+		plaintext {Type I LastRead 0 FirstWrite -1}
+		round_keys_0_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_1_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_2_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_3_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_4_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_5_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_6_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_7_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_8_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_9_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_10_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_11_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_12_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_13_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_14_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_15_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_16_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_17_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_18_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_19_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_20_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_21_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_22_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_23_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_24_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_25_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_26_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_27_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_28_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_29_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_30_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_31_val {Type I LastRead 0 FirstWrite -1}}
+	cifrador {
+		plaintext {Type I LastRead 0 FirstWrite -1}
+		round_keys_0_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_1_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_2_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_3_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_4_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_5_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_6_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_7_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_8_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_9_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_10_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_11_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_12_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_13_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_14_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_15_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_16_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_17_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_18_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_19_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_20_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_21_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_22_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_23_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_24_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_25_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_26_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_27_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_28_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_29_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_30_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_31_val {Type I LastRead 0 FirstWrite -1}}
+	cifrador {
+		plaintext {Type I LastRead 0 FirstWrite -1}
+		round_keys_0_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_1_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_2_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_3_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_4_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_5_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_6_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_7_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_8_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_9_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_10_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_11_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_12_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_13_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_14_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_15_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_16_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_17_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_18_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_19_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_20_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_21_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_22_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_23_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_24_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_25_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_26_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_27_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_28_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_29_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_30_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_31_val {Type I LastRead 0 FirstWrite -1}}
+	cifrador {
+		plaintext {Type I LastRead 0 FirstWrite -1}
+		round_keys_0_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_1_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_2_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_3_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_4_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_5_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_6_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_7_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_8_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_9_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_10_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_11_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_12_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_13_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_14_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_15_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_16_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_17_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_18_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_19_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_20_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_21_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_22_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_23_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_24_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_25_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_26_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_27_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_28_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_29_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_30_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_31_val {Type I LastRead 0 FirstWrite -1}}
+	cifrador {
+		plaintext {Type I LastRead 0 FirstWrite -1}
+		round_keys_0_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_1_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_2_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_3_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_4_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_5_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_6_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_7_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_8_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_9_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_10_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_11_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_12_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_13_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_14_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_15_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_16_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_17_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_18_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_19_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_20_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_21_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_22_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_23_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_24_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_25_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_26_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_27_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_28_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_29_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_30_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_31_val {Type I LastRead 0 FirstWrite -1}}
+	cifrador {
+		plaintext {Type I LastRead 0 FirstWrite -1}
+		round_keys_0_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_1_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_2_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_3_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_4_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_5_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_6_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_7_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_8_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_9_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_10_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_11_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_12_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_13_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_14_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_15_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_16_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_17_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_18_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_19_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_20_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_21_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_22_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_23_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_24_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_25_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_26_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_27_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_28_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_29_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_30_val {Type I LastRead 0 FirstWrite -1}
+		round_keys_31_val {Type I LastRead 0 FirstWrite -1}}}
+
+set hasDtUnsupportedChannel 0
+
+set PerformanceInfo {[
+	{"Name" : "Latency", "Min" : "49", "Max" : "49"}
+	, {"Name" : "Interval", "Min" : "50", "Max" : "50"}
+]}
+
+set PipelineEnableSignalInfo {[
+]}
+
+set Spec2ImplPortList { 
+}
+
+set maxi_interface_dict [dict create]
+
+# RTL port scheduling information:
+set fifoSchedulingInfoList { 
+}
+
+# RTL bus port read request latency information:
+set busReadReqLatencyList { 
+}
+
+# RTL bus port write response latency information:
+set busWriteResLatencyList { 
+}
+
+# RTL array port load latency information:
+set memoryLoadLatencyList { 
+}

@@ -1,0 +1,164 @@
+
+
+================================================================
+== Synthesis Summary Report of 'cifrador_serial'
+================================================================
++ General Information: 
+    * Date:           Wed Apr 15 19:03:27 2026
+    * Version:        2025.2 (Build 6295257 on Nov 14 2025)
+    * Project:        cifrado_serial
+    * Solution:       hls (Vivado IP Flow Target)
+    * Product family: zynq
+    * Target device:  xc7z020-clg400-1
+    
+
+* Performance & Resource Estimates: 
++---------------------+------+---------------------+----------+---------+------+----------+---------+-----------+------+------+----+-----------+----------+-----+
+|       Modules       | Issue|                     | Iteration|         | Trip |          |       Latency       |      |      |    |           |          |     |
+|       & Loops       | Type |    Violation Type   |  Latency | Interval| Count| Pipelined| (cycles)|    (ns)   | Slack| BRAM | DSP|     FF    |    LUT   | URAM|
++---------------------+------+---------------------+----------+---------+------+----------+---------+-----------+------+------+----+-----------+----------+-----+
+|+ cifrador_serial    |     -|                    -|         -|      279|     -|    rewind|      280|  2.800e+03|  3.65|     -|   -|  467 (~0%)|  666 (1%)|    -|
+| o VITIS_LOOP_120_1  |    II|  Resource Limitation|         9|        9|    31|       yes|      278|  2.780e+03|  7.30|     -|   -|          -|         -|    -|
+|  + sbox             |     -|                    -|         -|        1|     -|       yes|        0|      0.000|  5.24|     -|   -|          -|  65 (~0%)|    -|
++---------------------+------+---------------------+----------+---------+------+----------+---------+-----------+------+------+----+-----------+----------+-----+
+    II Violation Information: docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-880.html
+    Name Prefix: '+' for module, 'o' for loop, '*' for dataflow
+
+
+================================================================
+== HW Interfaces
+================================================================
+* S_AXILITE Interfaces
++---------------+------------+---------------+--------+----------+
+| Interface     | Data Width | Address Width | Offset | Register |
++---------------+------------+---------------+--------+----------+
+| s_axi_control | 32         | 6             | 24     | 0        |
++---------------+------------+---------------+--------+----------+
+
+* S_AXILITE Registers
++---------------+-----------+--------+-------+--------+----------------------------------+----------------------------------------------------------------------+
+| Interface     | Register  | Offset | Width | Access | Description                      | Bit Fields                                                           |
++---------------+-----------+--------+-------+--------+----------------------------------+----------------------------------------------------------------------+
+| s_axi_control | CTRL      | 0x00   | 32    | RW     | Control signals                  | 0=AP_START 1=AP_DONE 2=AP_IDLE 3=AP_READY 7=AUTO_RESTART 9=INTERRUPT |
+| s_axi_control | GIER      | 0x04   | 32    | RW     | Global Interrupt Enable Register | 0=Enable                                                             |
+| s_axi_control | IP_IER    | 0x08   | 32    | RW     | IP Interrupt Enable Register     | 0=CHAN0_INT_EN 1=CHAN1_INT_EN                                        |
+| s_axi_control | IP_ISR    | 0x0c   | 32    | RW     | IP Interrupt Status Register     | 0=CHAN0_INT_ST 1=CHAN1_INT_ST                                        |
+| s_axi_control | ap_return | 0x10   | 32    | R      | Data signal of ap_return         |                                                                      |
+| s_axi_control | plaintext | 0x18   | 32    | W      | Data signal of plaintext         |                                                                      |
+| s_axi_control | key_1     | 0x20   | 32    | W      | Data signal of key               |                                                                      |
+| s_axi_control | key_2     | 0x24   | 32    | W      | Data signal of key               |                                                                      |
++---------------+-----------+--------+-------+--------+----------------------------------+----------------------------------------------------------------------+
+
+* TOP LEVEL CONTROL
++-----------+------------+-----------+
+| Interface | Type       | Ports     |
++-----------+------------+-----------+
+| ap_clk    | clock      | ap_clk    |
+| ap_rst_n  | reset      | ap_rst_n  |
+| interrupt | interrupt  | interrupt |
+| ap_ctrl   | ap_ctrl_hs |           |
++-----------+------------+-----------+
+
+
+================================================================
+== SW I/O Information
+================================================================
+* Top Function Arguments
++-----------+-----------+-------------+
+| Argument  | Direction | Datatype    |
++-----------+-----------+-------------+
+| plaintext | in        | ap_uint<32> |
+| key       | in        | ap_uint<64> |
+| return    | out       | ap_uint<32> |
++-----------+-----------+-------------+
+
+* SW-to-HW Mapping
++-----------+---------------+----------+-------------------------------------+
+| Argument  | HW Interface  | HW Type  | HW Info                             |
++-----------+---------------+----------+-------------------------------------+
+| plaintext | s_axi_control | register | name=plaintext offset=0x18 range=32 |
+| key       | s_axi_control | register | name=key_1 offset=0x20 range=32     |
+| key       | s_axi_control | register | name=key_2 offset=0x24 range=32     |
+| return    | s_axi_control | register | name=ap_return offset=0x10 range=32 |
++-----------+---------------+----------+-------------------------------------+
+
+
+================================================================
+== Bind Op Report
+================================================================
++----------------------------+-----+--------+--------------+-----------+--------------------------+---------+
+| Name                       | DSP | Pragma | Variable     | Op        | Impl                     | Latency |
++----------------------------+-----+--------+--------------+-----------+--------------------------+---------+
+| + cifrador_serial          | 0   |        |              |           |                          |         |
+|   key_5_fu_536_p2          |     |        | key_5        | xor       | auto                     | 0       |
+|   sub_block_fu_389_p2      |     |        | sub_block    | xor       | auto                     | 0       |
+|   sub_block_4_fu_403_p2    |     |        | sub_block_4  | xor       | auto                     | 0       |
+|   sub_block_7_fu_416_p2    |     |        | sub_block_7  | xor       | auto                     | 0       |
+|   sub_block_10_fu_429_p2   |     |        | sub_block_10 | xor       | auto                     | 0       |
+|   sub_block_13_fu_442_p2   |     |        | sub_block_13 | xor       | auto                     | 0       |
+|   sub_block_16_fu_455_p2   |     |        | sub_block_16 | xor       | auto                     | 0       |
+|   sub_block_19_fu_468_p2   |     |        | sub_block_19 | xor       | auto                     | 0       |
+|   sub_block_22_fu_481_p2   |     |        | sub_block_22 | xor       | auto                     | 0       |
+|   add_ln120_fu_606_p2      |     |        | add_ln120    | add       | fabric                   | 0       |
+|   icmp_ln120_fu_612_p2     |     |        | icmp_ln120   | seteq     | auto                     | 0       |
+|   ap_return                |     |        | out          | xor       | auto                     | 0       |
+|  + sbox                    | 0   |        |              |           |                          |         |
+|    sparsemux_33_4_4_1_1_U1 |     |        | agg_result   | sparsemux | compactencoding_dontcare | 0       |
++----------------------------+-----+--------+--------------+-----------+--------------------------+---------+
+
+
+================================================================
+== Storage Report
+================================================================
++-------------------+-----------+-----------+------+------+--------+----------+------+---------+------------------+
+| Name              | Usage     | Type      | BRAM | URAM | Pragma | Variable | Impl | Latency | Bitwidth, Depth, |
+|                   |           |           |      |      |        |          |      |         | Banks            |
++-------------------+-----------+-----------+------+------+--------+----------+------+---------+------------------+
+| + cifrador_serial |           |           | 0    | 0    |        |          |      |         |                  |
+|   control_s_axi_U | interface | s_axilite |      |      |        |          |      |         |                  |
++-------------------+-----------+-----------+------+------+--------+----------+------+---------+------------------+
+
+
+================================================================
+== Pragma Report
+================================================================
+* Pragmas with Warnings
++------------+---------------------------------+--------------------------+-----------------------------------------------------------------------+
+| Type       | Options                         | Location                 | Messages                                                              |
++------------+---------------------------------+--------------------------+-----------------------------------------------------------------------+
+| ALLOCATION | function instances=sbox limit=1 | in sbox (Cifrador.cpp:9) | Ignoring ALLOCATION pragma, because the corresponding call is removed |
++------------+---------------------------------+--------------------------+-----------------------------------------------------------------------+
+
+* Inferred Pragmas
++--------+---------+--------------------------------------------+---------------------------+
+| Type   | Options | Location                                   | Inferred From             |
++--------+---------+--------------------------------------------+---------------------------+
+| INLINE |         | function in serial_round (Cifrador.cpp:58) | pipeline Cifrador.cpp:121 |
++--------+---------+--------------------------------------------+---------------------------+
+
+* Valid Pragma Syntax
++-----------------+---------------------------------+---------------------------------------------------+
+| Type            | Options                         | Location                                          |
++-----------------+---------------------------------+---------------------------------------------------+
+| INLINE          | off                             | in sbox (Cifrador.cpp:8)                          |
+| ARRAY_PARTITION | variable=table complete         | in sbox (Cifrador.cpp:18)                         |
+| INLINE          |                                 | in permutation (Cifrador.cpp:24)                  |
+| UNROLL          |                                 | in permutation (Cifrador.cpp:29)                  |
+| INLINE          |                                 | in key_mixing (Cifrador.cpp:38)                   |
+| INLINE          |                                 | in key_mixing (Cifrador.cpp:43)                   |
+| INLINE          |                                 | in select_subblock (Cifrador.cpp:48)              |
+| INLINE          |                                 | in update_subblock (Cifrador.cpp:54)              |
+| LATENCY         | min=9 max=9                     | in serial_round (Cifrador.cpp:59)                 |
+| LATENCY         | min=8 max=8                     | in serial_round (Cifrador.cpp:62)                 |
+| ALLOCATION      | function instances=sbox limit=1 | in serial_round (Cifrador.cpp:65)                 |
+| INLINE          |                                 | in permutation_inverse (Cifrador.cpp:73)          |
+| UNROLL          |                                 | in permutation_inverse (Cifrador.cpp:78)          |
+| INLINE          |                                 | in serial_last_round_correction (Cifrador.cpp:87) |
+| INLINE          |                                 | in key_schedule (Cifrador.cpp:98)                 |
+| INTERFACE       | s_axilite port=plaintext        | in cifrador_serial (Cifrador.cpp:115)             |
+| INTERFACE       | s_axilite port=key              | in cifrador_serial (Cifrador.cpp:116)             |
+| INTERFACE       | s_axilite port=return           | in cifrador_serial (Cifrador.cpp:117)             |
+| PIPELINE        | ii=1                            | in cifrador_serial (Cifrador.cpp:121)             |
++-----------------+---------------------------------+---------------------------------------------------+
+
+

@@ -1,0 +1,59 @@
+{
+    "1": {
+        "name": "cifrador_basico_pre_Pipeline_VITIS_LOOP_92_1",
+        "file": "Cifrador.cpp",
+        "fileloc": "106",
+        "instructions": "32",
+        "total_instructions": "32",
+        "calls": "",
+        "basicblocks": "4",
+        "memory_accesses": "5",
+        "control_depth": "1",
+        "def_use_depth": "1",
+        "loads": {
+            "L": "2"
+        },
+        "stores": {
+            "L": "5"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "0": {
+        "name": "cifrador_basico_pre",
+        "file": "Cifrador.cpp",
+        "fileloc": "106",
+        "instructions": "20",
+        "total_instructions": "128",
+        "calls": "1 2",
+        "basicblocks": "1",
+        "memory_accesses": "0",
+        "control_depth": "0",
+        "def_use_depth": "3",
+        "loads": {
+            "L": "2"
+        }
+    },
+    "2": {
+        "name": "cifrador_basico_pre_Pipeline_VITIS_LOOP_114_1",
+        "file": "Cifrador.cpp",
+        "fileloc": "114",
+        "instructions": "76",
+        "total_instructions": "76",
+        "calls": "",
+        "basicblocks": "4",
+        "memory_accesses": "6",
+        "control_depth": "1",
+        "def_use_depth": "1",
+        "loads": {
+            "L": "4"
+        },
+        "stores": {
+            "L": "5"
+        },
+        "loops": {
+            "L": "1"
+        }
+    }
+}

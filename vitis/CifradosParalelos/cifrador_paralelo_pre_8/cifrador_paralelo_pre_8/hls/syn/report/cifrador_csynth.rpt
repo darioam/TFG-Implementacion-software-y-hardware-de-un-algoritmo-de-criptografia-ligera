@@ -1,0 +1,192 @@
+
+
+================================================================
+== Vitis HLS Report for 'cifrador'
+================================================================
+* Date:           Sat Apr  4 00:14:13 2026
+
+* Version:        2025.2 (Build 6295257 on Nov 14 2025)
+* Project:        cifrador_paralelo_pre_8
+* Solution:       hls (Vivado IP Flow Target)
+* Product family: zynq
+* Target device:  xc7z020-clg400-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  |  10.00 ns|  4.956 ns|     2.70 ns|
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-----+-----+-------------------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval |      Pipeline     |
+    |   min   |   max   |    min   |    max   | min | max |        Type       |
+    +---------+---------+----------+----------+-----+-----+-------------------+
+    |       33|       33|  0.330 us|  0.330 us|    0|    0|  loop pipeline stp|
+    +---------+---------+----------+----------+-----+-----+-------------------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +--------------------+---------+---------+----------+-----------+-----------+------+----------+
+        |                    |  Latency (cycles) | Iteration|  Initiation Interval  | Trip |          |
+        |      Loop Name     |   min   |   max   |  Latency |  achieved |   target  | Count| Pipelined|
+        +--------------------+---------+---------+----------+-----------+-----------+------+----------+
+        |- VITIS_LOOP_110_1  |       31|       31|         2|          1|          1|    31|       yes|
+        +--------------------+---------+---------+----------+-----------+-----------+------+----------+
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+-----+--------+-------+-----+
+|       Name      | BRAM_18K| DSP |   FF   |  LUT  | URAM|
++-----------------+---------+-----+--------+-------+-----+
+|DSP              |        -|    -|       -|      -|    -|
+|Expression       |        -|    -|       0|     92|    -|
+|FIFO             |        -|    -|       -|      -|    -|
+|Instance         |        -|    -|       0|    658|    -|
+|Memory           |        -|    -|       -|      -|    -|
+|Multiplexer      |        -|    -|       0|     63|    -|
+|Register         |        -|    -|     136|      -|    -|
++-----------------+---------+-----+--------+-------+-----+
+|Total            |        0|    0|     136|    813|    0|
++-----------------+---------+-----+--------+-------+-----+
+|Available        |      280|  220|  106400|  53200|    0|
++-----------------+---------+-----+--------+-------+-----+
+|Utilization (%)  |        0|    0|      ~0|      1|    0|
++-----------------+---------+-----+--------+-------+-----+
+
++ Detail: 
+    * Instance: 
+    +--------------------------+-----------------------+---------+----+---+-----+-----+
+    |         Instance         |         Module        | BRAM_18K| DSP| FF| LUT | URAM|
+    +--------------------------+-----------------------+---------+----+---+-----+-----+
+    |sparsemux_33_4_4_1_1_U2   |sparsemux_33_4_4_1_1   |        0|   0|  0|   65|    0|
+    |sparsemux_33_4_4_1_1_U3   |sparsemux_33_4_4_1_1   |        0|   0|  0|   65|    0|
+    |sparsemux_33_4_4_1_1_U4   |sparsemux_33_4_4_1_1   |        0|   0|  0|   65|    0|
+    |sparsemux_33_4_4_1_1_U5   |sparsemux_33_4_4_1_1   |        0|   0|  0|   65|    0|
+    |sparsemux_33_4_4_1_1_U6   |sparsemux_33_4_4_1_1   |        0|   0|  0|   65|    0|
+    |sparsemux_33_4_4_1_1_U7   |sparsemux_33_4_4_1_1   |        0|   0|  0|   65|    0|
+    |sparsemux_33_4_4_1_1_U8   |sparsemux_33_4_4_1_1   |        0|   0|  0|   65|    0|
+    |sparsemux_33_4_4_1_1_U9   |sparsemux_33_4_4_1_1   |        0|   0|  0|   65|    0|
+    |sparsemux_63_5_32_1_1_U1  |sparsemux_63_5_32_1_1  |        0|   0|  0|  138|    0|
+    +--------------------------+-----------------------+---------+----+---+-----+-----+
+    |Total                     |                       |        0|   0|  0|  658|    0|
+    +--------------------------+-----------------------+---------+----+---+-----+-----+
+
+    * DSP: 
+    N/A
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    +----------------------+----------+----+---+----+------------+------------+
+    |     Variable Name    | Operation| DSP| FF| LUT| Bitwidth P0| Bitwidth P1|
+    +----------------------+----------+----+---+----+------------+------------+
+    |add_ln110_fu_445_p2   |         +|   0|  0|  13|           5|           1|
+    |icmp_ln110_fu_439_p2  |      icmp|   0|  0|  13|           5|           2|
+    |ap_enable_pp0         |       xor|   0|  0|   2|           1|           2|
+    |out_4_fu_1557_p2      |       xor|   0|  0|  32|          32|          32|
+    |out_5_fu_591_p2       |       xor|   0|  0|  32|          32|          32|
+    +----------------------+----------+----+---+----+------------+------------+
+    |Total                 |          |   0|  0|  92|          75|          69|
+    +----------------------+----------+----+---+----+------------+------------+
+
+    * Multiplexer: 
+    +-----------------------------+----+-----------+-----+-----------+
+    |             Name            | LUT| Input Size| Bits| Total Bits|
+    +-----------------------------+----+-----------+-----+-----------+
+    |ap_done_int                  |   9|          2|    1|          2|
+    |ap_enable_reg_pp0_iter1      |   9|          2|    1|          2|
+    |ap_return                    |   9|          2|   32|         64|
+    |ap_sig_allocacmp_p_phi_load  |   9|          2|   32|         64|
+    |ap_sig_allocacmp_round_1     |   9|          2|    5|         10|
+    |in_fu_220                    |   9|          2|   32|         64|
+    |round_fu_224                 |   9|          2|    5|         10|
+    +-----------------------------+----+-----------+-----+-----------+
+    |Total                        |  63|         14|  108|        216|
+    +-----------------------------+----+-----------+-----+-----------+
+
+    * Register: 
+    +-------------------------+----+----+-----+-----------+
+    |           Name          | FF | LUT| Bits| Const Bits|
+    +-------------------------+----+----+-----+-----------+
+    |ap_CS_fsm                |   1|   0|    1|          0|
+    |ap_done_reg              |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter1  |   1|   0|    1|          0|
+    |ap_return_preg           |  32|   0|   32|          0|
+    |in_fu_220                |  32|   0|   32|          0|
+    |p_phi_fu_216             |  32|   0|   32|          0|
+    |round_fu_224             |   5|   0|    5|          0|
+    |round_key_reg_1586       |  32|   0|   32|          0|
+    +-------------------------+----+----+-----+-----------+
+    |Total                    | 136|   0|  136|          0|
+    +-------------------------+----+----+-----+-----------+
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++-------------------+-----+-----+------------+-------------------+--------------+
+|     RTL Ports     | Dir | Bits|  Protocol  |   Source Object   |    C Type    |
++-------------------+-----+-----+------------+-------------------+--------------+
+|ap_clk             |   in|    1|  ap_ctrl_hs|           cifrador|  return value|
+|ap_rst             |   in|    1|  ap_ctrl_hs|           cifrador|  return value|
+|ap_start           |   in|    1|  ap_ctrl_hs|           cifrador|  return value|
+|ap_done            |  out|    1|  ap_ctrl_hs|           cifrador|  return value|
+|ap_idle            |  out|    1|  ap_ctrl_hs|           cifrador|  return value|
+|ap_ready           |  out|    1|  ap_ctrl_hs|           cifrador|  return value|
+|ap_return          |  out|   32|  ap_ctrl_hs|           cifrador|  return value|
+|plaintext          |   in|   32|     ap_none|          plaintext|        scalar|
+|round_keys_0_val   |   in|   32|     ap_none|   round_keys_0_val|        scalar|
+|round_keys_1_val   |   in|   32|     ap_none|   round_keys_1_val|        scalar|
+|round_keys_2_val   |   in|   32|     ap_none|   round_keys_2_val|        scalar|
+|round_keys_3_val   |   in|   32|     ap_none|   round_keys_3_val|        scalar|
+|round_keys_4_val   |   in|   32|     ap_none|   round_keys_4_val|        scalar|
+|round_keys_5_val   |   in|   32|     ap_none|   round_keys_5_val|        scalar|
+|round_keys_6_val   |   in|   32|     ap_none|   round_keys_6_val|        scalar|
+|round_keys_7_val   |   in|   32|     ap_none|   round_keys_7_val|        scalar|
+|round_keys_8_val   |   in|   32|     ap_none|   round_keys_8_val|        scalar|
+|round_keys_9_val   |   in|   32|     ap_none|   round_keys_9_val|        scalar|
+|round_keys_10_val  |   in|   32|     ap_none|  round_keys_10_val|        scalar|
+|round_keys_11_val  |   in|   32|     ap_none|  round_keys_11_val|        scalar|
+|round_keys_12_val  |   in|   32|     ap_none|  round_keys_12_val|        scalar|
+|round_keys_13_val  |   in|   32|     ap_none|  round_keys_13_val|        scalar|
+|round_keys_14_val  |   in|   32|     ap_none|  round_keys_14_val|        scalar|
+|round_keys_15_val  |   in|   32|     ap_none|  round_keys_15_val|        scalar|
+|round_keys_16_val  |   in|   32|     ap_none|  round_keys_16_val|        scalar|
+|round_keys_17_val  |   in|   32|     ap_none|  round_keys_17_val|        scalar|
+|round_keys_18_val  |   in|   32|     ap_none|  round_keys_18_val|        scalar|
+|round_keys_19_val  |   in|   32|     ap_none|  round_keys_19_val|        scalar|
+|round_keys_20_val  |   in|   32|     ap_none|  round_keys_20_val|        scalar|
+|round_keys_21_val  |   in|   32|     ap_none|  round_keys_21_val|        scalar|
+|round_keys_22_val  |   in|   32|     ap_none|  round_keys_22_val|        scalar|
+|round_keys_23_val  |   in|   32|     ap_none|  round_keys_23_val|        scalar|
+|round_keys_24_val  |   in|   32|     ap_none|  round_keys_24_val|        scalar|
+|round_keys_25_val  |   in|   32|     ap_none|  round_keys_25_val|        scalar|
+|round_keys_26_val  |   in|   32|     ap_none|  round_keys_26_val|        scalar|
+|round_keys_27_val  |   in|   32|     ap_none|  round_keys_27_val|        scalar|
+|round_keys_28_val  |   in|   32|     ap_none|  round_keys_28_val|        scalar|
+|round_keys_29_val  |   in|   32|     ap_none|  round_keys_29_val|        scalar|
+|round_keys_30_val  |   in|   32|     ap_none|  round_keys_30_val|        scalar|
+|round_keys_31_val  |   in|   32|     ap_none|  round_keys_31_val|        scalar|
++-------------------+-----+-----+------------+-------------------+--------------+
+

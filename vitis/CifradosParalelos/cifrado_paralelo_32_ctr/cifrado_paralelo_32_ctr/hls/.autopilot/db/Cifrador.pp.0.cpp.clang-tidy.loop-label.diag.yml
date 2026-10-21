@@ -1,0 +1,112 @@
+---
+MainSourceFile:  'C:/Users/Dario/Documents/TFG/Vitis/CifradosParalelos/cifrado_paralelo_32_ctr/cifrado_paralelo_32_ctr/hls/.autopilot/db/Cifrador.pp.0.cpp'
+Diagnostics:
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_676_1:  '
+      FilePath:        'C:\Users\Dario\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\ap_int_ref.h'
+      FileOffset:      676
+      Replacements:
+        - FilePath:        'C:\Users\Dario\Documents\TFG\Vitis\CifradosParalelos\cifrado_paralelo_32_ctr\cifrado_paralelo_32_ctr\hls\.autopilot\db\Cifrador.pp.0.cpp'
+          Offset:          280841
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_676_1: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\Dario\Documents\TFG\Vitis\CifradosParalelos\cifrado_paralelo_32_ctr'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_690_1:  '
+      FilePath:        'C:\Users\Dario\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\ap_int_ref.h'
+      FileOffset:      690
+      Replacements:
+        - FilePath:        'C:\Users\Dario\Documents\TFG\Vitis\CifradosParalelos\cifrado_paralelo_32_ctr\cifrado_paralelo_32_ctr\hls\.autopilot\db\Cifrador.pp.0.cpp'
+          Offset:          281312
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_690_1: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\Dario\Documents\TFG\Vitis\CifradosParalelos\cifrado_paralelo_32_ctr'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_704_1:  '
+      FilePath:        'C:\Users\Dario\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\ap_int_ref.h'
+      FileOffset:      704
+      Replacements:
+        - FilePath:        'C:\Users\Dario\Documents\TFG\Vitis\CifradosParalelos\cifrado_paralelo_32_ctr\cifrado_paralelo_32_ctr\hls\.autopilot\db\Cifrador.pp.0.cpp'
+          Offset:          281784
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_704_1: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\Dario\Documents\TFG\Vitis\CifradosParalelos\cifrado_paralelo_32_ctr'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_1251_1:  '
+      FilePath:        'C:\Users\Dario\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\ap_fixed_base.h'
+      FileOffset:      1251
+      Replacements:
+        - FilePath:        'C:\Users\Dario\Documents\TFG\Vitis\CifradosParalelos\cifrado_paralelo_32_ctr\cifrado_paralelo_32_ctr\hls\.autopilot\db\Cifrador.pp.0.cpp'
+          Offset:          627847
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_1251_1: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\Dario\Documents\TFG\Vitis\CifradosParalelos\cifrado_paralelo_32_ctr'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_26_1:  '
+      FilePath:        Cifrador.cpp
+      FileOffset:      26
+      Replacements:
+        - FilePath:        'C:\Users\Dario\Documents\TFG\Vitis\CifradosParalelos\cifrado_paralelo_32_ctr\cifrado_paralelo_32_ctr\hls\.autopilot\db\Cifrador.pp.0.cpp'
+          Offset:          2248088
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_26_1: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\Dario\Documents\TFG\Vitis\CifradosParalelos\cifrado_paralelo_32_ctr'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_39_1:  '
+      FilePath:        Cifrador.cpp
+      FileOffset:      39
+      Replacements:
+        - FilePath:        'C:\Users\Dario\Documents\TFG\Vitis\CifradosParalelos\cifrado_paralelo_32_ctr\cifrado_paralelo_32_ctr\hls\.autopilot\db\Cifrador.pp.0.cpp'
+          Offset:          2248299
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_39_1: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\Dario\Documents\TFG\Vitis\CifradosParalelos\cifrado_paralelo_32_ctr'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_69_1:  '
+      FilePath:        Cifrador.cpp
+      FileOffset:      69
+      Replacements:
+        - FilePath:        'C:\Users\Dario\Documents\TFG\Vitis\CifradosParalelos\cifrado_paralelo_32_ctr\cifrado_paralelo_32_ctr\hls\.autopilot\db\Cifrador.pp.0.cpp'
+          Offset:          2248824
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_69_1: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\Dario\Documents\TFG\Vitis\CifradosParalelos\cifrado_paralelo_32_ctr'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_110_1:  '
+      FilePath:        Cifrador.cpp
+      FileOffset:      110
+      Replacements:
+        - FilePath:        'C:\Users\Dario\Documents\TFG\Vitis\CifradosParalelos\cifrado_paralelo_32_ctr\cifrado_paralelo_32_ctr\hls\.autopilot\db\Cifrador.pp.0.cpp'
+          Offset:          2249479
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_110_1: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\Dario\Documents\TFG\Vitis\CifradosParalelos\cifrado_paralelo_32_ctr'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_140_1:  '
+      FilePath:        Cifrador.cpp
+      FileOffset:      140
+      Replacements:
+        - FilePath:        'C:\Users\Dario\Documents\TFG\Vitis\CifradosParalelos\cifrado_paralelo_32_ctr\cifrado_paralelo_32_ctr\hls\.autopilot\db\Cifrador.pp.0.cpp'
+          Offset:          2250377
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_140_1: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\Dario\Documents\TFG\Vitis\CifradosParalelos\cifrado_paralelo_32_ctr'
+...

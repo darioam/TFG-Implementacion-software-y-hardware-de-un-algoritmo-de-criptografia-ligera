@@ -1,0 +1,132 @@
+
+
+================================================================
+== Vitis HLS Report for 'cifrador_3'
+================================================================
+* Date:           Fri Apr  3 12:17:46 2026
+
+* Version:        2025.2 (Build 6295257 on Nov 14 2025)
+* Project:        cifrador_paralelo_stream
+* Solution:       hls (Vivado IP Flow Target)
+* Product family: zynq
+* Target device:  xc7z020-clg400-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  |  10.00 ns|  5.222 ns|     2.70 ns|
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-----+-----+---------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline|
+    |   min   |   max   |    min   |    max   | min | max |   Type  |
+    +---------+---------+----------+----------+-----+-----+---------+
+    |       35|       35|  0.350 us|  0.350 us|   35|   35|       no|
+    +---------+---------+----------+----------+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        N/A
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 0
+ResetActiveHigh: 1
+IsCombinational: 2
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 0
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 3
+* Pipeline : 0
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 2 
+2 --> 3 
+3 --> 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 5.22>
+ST_1 : Operation 4 [1/1] (0.00ns)   --->   "%out_loc = alloca i64 1"   --->   Operation 4 'alloca' 'out_loc' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 5 [1/1] ( I:3.63ns O:3.63ns )   --->   "%plaintext_1 = read i32 @_ssdm_op_Read.ap_fifo.i32P0A, i32 %plaintext"   --->   Operation 5 'read' 'plaintext_1' <Predicate = true> <Delay = 3.63> <CoreInst = "FIFO_SRL">   --->   Core 80 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 3.63> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 32> <Depth = 3> <FIFO>
+ST_1 : Operation 6 [2/2] (1.58ns)   --->   "%call_ln0 = call void @cifrador.3_Pipeline_VITIS_LOOP_115_1, i32 %plaintext_1, i32 %k2, i32 %out_loc"   --->   Operation 6 'call' 'call_ln0' <Predicate = true> <Delay = 1.58> <CoreType = "Generic">   --->   Generic Core
+
+State 2 <SV = 1> <Delay = 3.05>
+ST_2 : Operation 7 [1/2] (3.05ns)   --->   "%call_ln0 = call void @cifrador.3_Pipeline_VITIS_LOOP_115_1, i32 %plaintext_1, i32 %k2, i32 %out_loc"   --->   Operation 7 'call' 'call_ln0' <Predicate = true> <Delay = 3.05> <CoreType = "Generic">   --->   Generic Core
+
+State 3 <SV = 2> <Delay = 4.64>
+ST_3 : Operation 8 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i32 %plaintext, void @ap_fifo_str, i32 0, i32 0, void @p_str, i32 0, i32 0, void @p_str, void @p_str, void @p_str, i32 2, i32 2, i32 16, i32 16, void @p_str, void @ScalarProp_str, i32 4294967295, i32 0, i32 0, i32 0"   --->   Operation 8 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 9 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i32 %k2, void @empty_12, i32 0, i32 0, void @empty_0, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0, i32 0, i32 0"   --->   Operation 9 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 10 [1/1] (0.00ns)   --->   "%out_loc_load = load i32 %out_loc"   --->   Operation 10 'load' 'out_loc_load' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 11 [1/1] ( I:3.65ns O:3.65ns )   --->   "%round_key = read i32 @_ssdm_op_Read.ap_fifo.volatile.i32P0A, i32 %k2" [Cifrador.cpp:121]   --->   Operation 11 'read' 'round_key' <Predicate = true> <Delay = 3.65> <CoreInst = "FIFO_SRL">   --->   Core 80 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 3.72> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 32> <Depth = 32> <FIFO>
+ST_3 : Operation 12 [1/1] (0.99ns)   --->   "%out = xor i32 %round_key, i32 %out_loc_load" [Cifrador.cpp:51->Cifrador.cpp:85->Cifrador.cpp:122]   --->   Operation 12 'xor' 'out' <Predicate = true> <Delay = 0.99> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.99> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 13 [1/1] (0.00ns)   --->   "%ret_ln125 = ret i32 %out" [Cifrador.cpp:125]   --->   Operation 13 'ret' 'ret_ln125' <Predicate = true> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 10.000ns, clock uncertainty: 2.700ns.
+
+ <State 1>: 5.222ns
+The critical path consists of the following:
+	fifo read operation ('plaintext') on port 'plaintext' [5]  (3.634 ns)
+	'call' operation ('call_ln0') to 'cifrador.3_Pipeline_VITIS_LOOP_115_1' [7]  (1.588 ns)
+
+ <State 2>: 3.057ns
+The critical path consists of the following:
+	'call' operation ('call_ln0') to 'cifrador.3_Pipeline_VITIS_LOOP_115_1' [7]  (3.057 ns)
+
+ <State 3>: 4.643ns
+The critical path consists of the following:
+	fifo read operation ('round_key', Cifrador.cpp:121) on port 'k2' (Cifrador.cpp:121) [9]  (3.650 ns)
+	'xor' operation 32 bit ('out', Cifrador.cpp:51->Cifrador.cpp:85->Cifrador.cpp:122) [10]  (0.993 ns)
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+	State 2
+	State 3
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

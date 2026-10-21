@@ -1,0 +1,840 @@
+
+
+================================================================
+== Synthesis Summary Report of 'cifrador_paralelo_32'
+================================================================
++ General Information: 
+    * Date:           Thu Apr  2 23:54:15 2026
+    * Version:        2025.2 (Build 6295257 on Nov 14 2025)
+    * Project:        cifrador_paralelo_32
+    * Solution:       hls (Vivado IP Flow Target)
+    * Product family: zynq
+    * Target device:  xc7z020-clg400-1
+    
+
+* Performance & Resource Estimates: 
++------------------------+------+---------------+----------+---------+------+----------+---------+---------+------+------+----+-----------+-------------+-----+
+|         Modules        | Issue|               | Iteration|         | Trip |          |      Latency      |      |      |    |           |             |     |
+|         & Loops        | Type | Violation Type|  Latency | Interval| Count| Pipelined| (cycles)|   (ns)  | Slack| BRAM | DSP|     FF    |     LUT     | URAM|
++------------------------+------+---------------+----------+---------+------+----------+---------+---------+------+------+----+-----------+-------------+-----+
+|+ cifrador_paralelo_32  |     -|              -|         -|       35|     -|        no|       34|  340.000|  2.66|     -|   -|  8012 (7%)|  29432 (55%)|    -|
+| + cifrador             |     -|              -|         -|        -|     -|       yes|       33|  330.000|  2.66|     -|   -|  136 (~0%)|     786 (1%)|    -|
+|  o VITIS_LOOP_110_1    |     -|              -|         1|        1|    31|       yes|       31|  310.000|  7.30|     -|   -|          -|            -|    -|
+| + cifrador             |     -|              -|         -|        -|     -|       yes|       33|  330.000|  2.66|     -|   -|  136 (~0%)|     786 (1%)|    -|
+|  o VITIS_LOOP_110_1    |     -|              -|         1|        1|    31|       yes|       31|  310.000|  7.30|     -|   -|          -|            -|    -|
+| + cifrador             |     -|              -|         -|        -|     -|       yes|       33|  330.000|  2.66|     -|   -|  136 (~0%)|     786 (1%)|    -|
+|  o VITIS_LOOP_110_1    |     -|              -|         1|        1|    31|       yes|       31|  310.000|  7.30|     -|   -|          -|            -|    -|
+| + cifrador             |     -|              -|         -|        -|     -|       yes|       33|  330.000|  2.66|     -|   -|  136 (~0%)|     786 (1%)|    -|
+|  o VITIS_LOOP_110_1    |     -|              -|         1|        1|    31|       yes|       31|  310.000|  7.30|     -|   -|          -|            -|    -|
+| + cifrador             |     -|              -|         -|        -|     -|       yes|       33|  330.000|  2.66|     -|   -|  136 (~0%)|     786 (1%)|    -|
+|  o VITIS_LOOP_110_1    |     -|              -|         1|        1|    31|       yes|       31|  310.000|  7.30|     -|   -|          -|            -|    -|
+| + cifrador             |     -|              -|         -|        -|     -|       yes|       33|  330.000|  2.66|     -|   -|  136 (~0%)|     786 (1%)|    -|
+|  o VITIS_LOOP_110_1    |     -|              -|         1|        1|    31|       yes|       31|  310.000|  7.30|     -|   -|          -|            -|    -|
+| + cifrador             |     -|              -|         -|        -|     -|       yes|       33|  330.000|  2.66|     -|   -|  136 (~0%)|     786 (1%)|    -|
+|  o VITIS_LOOP_110_1    |     -|              -|         1|        1|    31|       yes|       31|  310.000|  7.30|     -|   -|          -|            -|    -|
+| + cifrador             |     -|              -|         -|        -|     -|       yes|       33|  330.000|  2.66|     -|   -|  136 (~0%)|     786 (1%)|    -|
+|  o VITIS_LOOP_110_1    |     -|              -|         1|        1|    31|       yes|       31|  310.000|  7.30|     -|   -|          -|            -|    -|
+| + cifrador             |     -|              -|         -|        -|     -|       yes|       33|  330.000|  2.66|     -|   -|  136 (~0%)|     786 (1%)|    -|
+|  o VITIS_LOOP_110_1    |     -|              -|         1|        1|    31|       yes|       31|  310.000|  7.30|     -|   -|          -|            -|    -|
+| + cifrador             |     -|              -|         -|        -|     -|       yes|       33|  330.000|  2.66|     -|   -|  136 (~0%)|     786 (1%)|    -|
+|  o VITIS_LOOP_110_1    |     -|              -|         1|        1|    31|       yes|       31|  310.000|  7.30|     -|   -|          -|            -|    -|
+| + cifrador             |     -|              -|         -|        -|     -|       yes|       33|  330.000|  2.66|     -|   -|  136 (~0%)|     786 (1%)|    -|
+|  o VITIS_LOOP_110_1    |     -|              -|         1|        1|    31|       yes|       31|  310.000|  7.30|     -|   -|          -|            -|    -|
+| + cifrador             |     -|              -|         -|        -|     -|       yes|       33|  330.000|  2.66|     -|   -|  136 (~0%)|     786 (1%)|    -|
+|  o VITIS_LOOP_110_1    |     -|              -|         1|        1|    31|       yes|       31|  310.000|  7.30|     -|   -|          -|            -|    -|
+| + cifrador             |     -|              -|         -|        -|     -|       yes|       33|  330.000|  2.66|     -|   -|  136 (~0%)|     786 (1%)|    -|
+|  o VITIS_LOOP_110_1    |     -|              -|         1|        1|    31|       yes|       31|  310.000|  7.30|     -|   -|          -|            -|    -|
+| + cifrador             |     -|              -|         -|        -|     -|       yes|       33|  330.000|  2.66|     -|   -|  136 (~0%)|     786 (1%)|    -|
+|  o VITIS_LOOP_110_1    |     -|              -|         1|        1|    31|       yes|       31|  310.000|  7.30|     -|   -|          -|            -|    -|
+| + cifrador             |     -|              -|         -|        -|     -|       yes|       33|  330.000|  2.66|     -|   -|  136 (~0%)|     786 (1%)|    -|
+|  o VITIS_LOOP_110_1    |     -|              -|         1|        1|    31|       yes|       31|  310.000|  7.30|     -|   -|          -|            -|    -|
+| + cifrador             |     -|              -|         -|        -|     -|       yes|       33|  330.000|  2.66|     -|   -|  136 (~0%)|     786 (1%)|    -|
+|  o VITIS_LOOP_110_1    |     -|              -|         1|        1|    31|       yes|       31|  310.000|  7.30|     -|   -|          -|            -|    -|
+| + cifrador             |     -|              -|         -|        -|     -|       yes|       33|  330.000|  2.66|     -|   -|  136 (~0%)|     786 (1%)|    -|
+|  o VITIS_LOOP_110_1    |     -|              -|         1|        1|    31|       yes|       31|  310.000|  7.30|     -|   -|          -|            -|    -|
+| + cifrador             |     -|              -|         -|        -|     -|       yes|       33|  330.000|  2.66|     -|   -|  136 (~0%)|     786 (1%)|    -|
+|  o VITIS_LOOP_110_1    |     -|              -|         1|        1|    31|       yes|       31|  310.000|  7.30|     -|   -|          -|            -|    -|
+| + cifrador             |     -|              -|         -|        -|     -|       yes|       33|  330.000|  2.66|     -|   -|  136 (~0%)|     786 (1%)|    -|
+|  o VITIS_LOOP_110_1    |     -|              -|         1|        1|    31|       yes|       31|  310.000|  7.30|     -|   -|          -|            -|    -|
+| + cifrador             |     -|              -|         -|        -|     -|       yes|       33|  330.000|  2.66|     -|   -|  136 (~0%)|     786 (1%)|    -|
+|  o VITIS_LOOP_110_1    |     -|              -|         1|        1|    31|       yes|       31|  310.000|  7.30|     -|   -|          -|            -|    -|
+| + cifrador             |     -|              -|         -|        -|     -|       yes|       33|  330.000|  2.66|     -|   -|  136 (~0%)|     786 (1%)|    -|
+|  o VITIS_LOOP_110_1    |     -|              -|         1|        1|    31|       yes|       31|  310.000|  7.30|     -|   -|          -|            -|    -|
+| + cifrador             |     -|              -|         -|        -|     -|       yes|       33|  330.000|  2.66|     -|   -|  136 (~0%)|     786 (1%)|    -|
+|  o VITIS_LOOP_110_1    |     -|              -|         1|        1|    31|       yes|       31|  310.000|  7.30|     -|   -|          -|            -|    -|
+| + cifrador             |     -|              -|         -|        -|     -|       yes|       33|  330.000|  2.66|     -|   -|  136 (~0%)|     786 (1%)|    -|
+|  o VITIS_LOOP_110_1    |     -|              -|         1|        1|    31|       yes|       31|  310.000|  7.30|     -|   -|          -|            -|    -|
+| + cifrador             |     -|              -|         -|        -|     -|       yes|       33|  330.000|  2.66|     -|   -|  136 (~0%)|     786 (1%)|    -|
+|  o VITIS_LOOP_110_1    |     -|              -|         1|        1|    31|       yes|       31|  310.000|  7.30|     -|   -|          -|            -|    -|
+| + cifrador             |     -|              -|         -|        -|     -|       yes|       33|  330.000|  2.66|     -|   -|  136 (~0%)|     786 (1%)|    -|
+|  o VITIS_LOOP_110_1    |     -|              -|         1|        1|    31|       yes|       31|  310.000|  7.30|     -|   -|          -|            -|    -|
+| + cifrador             |     -|              -|         -|        -|     -|       yes|       33|  330.000|  2.66|     -|   -|  136 (~0%)|     786 (1%)|    -|
+|  o VITIS_LOOP_110_1    |     -|              -|         1|        1|    31|       yes|       31|  310.000|  7.30|     -|   -|          -|            -|    -|
+| + cifrador             |     -|              -|         -|        -|     -|       yes|       33|  330.000|  2.66|     -|   -|  136 (~0%)|     786 (1%)|    -|
+|  o VITIS_LOOP_110_1    |     -|              -|         1|        1|    31|       yes|       31|  310.000|  7.30|     -|   -|          -|            -|    -|
+| + cifrador             |     -|              -|         -|        -|     -|       yes|       33|  330.000|  2.66|     -|   -|  136 (~0%)|     786 (1%)|    -|
+|  o VITIS_LOOP_110_1    |     -|              -|         1|        1|    31|       yes|       31|  310.000|  7.30|     -|   -|          -|            -|    -|
+| + cifrador             |     -|              -|         -|        -|     -|       yes|       33|  330.000|  2.66|     -|   -|  136 (~0%)|     786 (1%)|    -|
+|  o VITIS_LOOP_110_1    |     -|              -|         1|        1|    31|       yes|       31|  310.000|  7.30|     -|   -|          -|            -|    -|
+| + cifrador             |     -|              -|         -|        -|     -|       yes|       33|  330.000|  2.66|     -|   -|  136 (~0%)|     786 (1%)|    -|
+|  o VITIS_LOOP_110_1    |     -|              -|         1|        1|    31|       yes|       31|  310.000|  7.30|     -|   -|          -|            -|    -|
+| + cifrador             |     -|              -|         -|        -|     -|       yes|       33|  330.000|  2.66|     -|   -|  136 (~0%)|     786 (1%)|    -|
+|  o VITIS_LOOP_110_1    |     -|              -|         1|        1|    31|       yes|       31|  310.000|  7.30|     -|   -|          -|            -|    -|
+| + cifrador             |     -|              -|         -|        -|     -|       yes|       33|  330.000|  2.66|     -|   -|  136 (~0%)|     786 (1%)|    -|
+|  o VITIS_LOOP_110_1    |     -|              -|         1|        1|    31|       yes|       31|  310.000|  7.30|     -|   -|          -|            -|    -|
++------------------------+------+---------------+----------+---------+------+----------+---------+---------+------+------+----+-----------+-------------+-----+
+    Name Prefix: '+' for module, 'o' for loop, '*' for dataflow
+
+
+================================================================
+== HW Interfaces
+================================================================
+* S_AXILITE Interfaces
++---------------+------------+---------------+--------+----------+
+| Interface     | Data Width | Address Width | Offset | Register |
++---------------+------------+---------------+--------+----------+
+| s_axi_control | 32         | 10            | 16     | 0        |
++---------------+------------+---------------+--------+----------+
+
+* S_AXILITE Registers
++---------------+--------------------+--------+-------+--------+----------------------------------+----------------------------------------------------------------------+
+| Interface     | Register           | Offset | Width | Access | Description                      | Bit Fields                                                           |
++---------------+--------------------+--------+-------+--------+----------------------------------+----------------------------------------------------------------------+
+| s_axi_control | CTRL               | 0x00   | 32    | RW     | Control signals                  | 0=AP_START 1=AP_DONE 2=AP_IDLE 3=AP_READY 7=AUTO_RESTART 9=INTERRUPT |
+| s_axi_control | GIER               | 0x04   | 32    | RW     | Global Interrupt Enable Register | 0=Enable                                                             |
+| s_axi_control | IP_IER             | 0x08   | 32    | RW     | IP Interrupt Enable Register     | 0=CHAN0_INT_EN 1=CHAN1_INT_EN                                        |
+| s_axi_control | IP_ISR             | 0x0c   | 32    | RW     | IP Interrupt Status Register     | 0=CHAN0_INT_ST 1=CHAN1_INT_ST                                        |
+| s_axi_control | plaintext_0        | 0x10   | 32    | W      | Data signal of plaintext_0       |                                                                      |
+| s_axi_control | plaintext_1        | 0x18   | 32    | W      | Data signal of plaintext_1       |                                                                      |
+| s_axi_control | plaintext_2        | 0x20   | 32    | W      | Data signal of plaintext_2       |                                                                      |
+| s_axi_control | plaintext_3        | 0x28   | 32    | W      | Data signal of plaintext_3       |                                                                      |
+| s_axi_control | plaintext_4        | 0x30   | 32    | W      | Data signal of plaintext_4       |                                                                      |
+| s_axi_control | plaintext_5        | 0x38   | 32    | W      | Data signal of plaintext_5       |                                                                      |
+| s_axi_control | plaintext_6        | 0x40   | 32    | W      | Data signal of plaintext_6       |                                                                      |
+| s_axi_control | plaintext_7        | 0x48   | 32    | W      | Data signal of plaintext_7       |                                                                      |
+| s_axi_control | plaintext_8        | 0x50   | 32    | W      | Data signal of plaintext_8       |                                                                      |
+| s_axi_control | plaintext_9        | 0x58   | 32    | W      | Data signal of plaintext_9       |                                                                      |
+| s_axi_control | plaintext_10       | 0x60   | 32    | W      | Data signal of plaintext_10      |                                                                      |
+| s_axi_control | plaintext_11       | 0x68   | 32    | W      | Data signal of plaintext_11      |                                                                      |
+| s_axi_control | plaintext_12       | 0x70   | 32    | W      | Data signal of plaintext_12      |                                                                      |
+| s_axi_control | plaintext_13       | 0x78   | 32    | W      | Data signal of plaintext_13      |                                                                      |
+| s_axi_control | plaintext_14       | 0x80   | 32    | W      | Data signal of plaintext_14      |                                                                      |
+| s_axi_control | plaintext_15       | 0x88   | 32    | W      | Data signal of plaintext_15      |                                                                      |
+| s_axi_control | plaintext_16       | 0x90   | 32    | W      | Data signal of plaintext_16      |                                                                      |
+| s_axi_control | plaintext_17       | 0x98   | 32    | W      | Data signal of plaintext_17      |                                                                      |
+| s_axi_control | plaintext_18       | 0xa0   | 32    | W      | Data signal of plaintext_18      |                                                                      |
+| s_axi_control | plaintext_19       | 0xa8   | 32    | W      | Data signal of plaintext_19      |                                                                      |
+| s_axi_control | plaintext_20       | 0xb0   | 32    | W      | Data signal of plaintext_20      |                                                                      |
+| s_axi_control | plaintext_21       | 0xb8   | 32    | W      | Data signal of plaintext_21      |                                                                      |
+| s_axi_control | plaintext_22       | 0xc0   | 32    | W      | Data signal of plaintext_22      |                                                                      |
+| s_axi_control | plaintext_23       | 0xc8   | 32    | W      | Data signal of plaintext_23      |                                                                      |
+| s_axi_control | plaintext_24       | 0xd0   | 32    | W      | Data signal of plaintext_24      |                                                                      |
+| s_axi_control | plaintext_25       | 0xd8   | 32    | W      | Data signal of plaintext_25      |                                                                      |
+| s_axi_control | plaintext_26       | 0xe0   | 32    | W      | Data signal of plaintext_26      |                                                                      |
+| s_axi_control | plaintext_27       | 0xe8   | 32    | W      | Data signal of plaintext_27      |                                                                      |
+| s_axi_control | plaintext_28       | 0xf0   | 32    | W      | Data signal of plaintext_28      |                                                                      |
+| s_axi_control | plaintext_29       | 0xf8   | 32    | W      | Data signal of plaintext_29      |                                                                      |
+| s_axi_control | plaintext_30       | 0x100  | 32    | W      | Data signal of plaintext_30      |                                                                      |
+| s_axi_control | plaintext_31       | 0x108  | 32    | W      | Data signal of plaintext_31      |                                                                      |
+| s_axi_control | key_1              | 0x110  | 32    | W      | Data signal of key               |                                                                      |
+| s_axi_control | key_2              | 0x114  | 32    | W      | Data signal of key               |                                                                      |
+| s_axi_control | ciphertext_0       | 0x11c  | 32    | R      | Data signal of ciphertext_0      |                                                                      |
+| s_axi_control | ciphertext_0_ctrl  | 0x120  | 32    | R      | Control signal of ciphertext_0   | 0=ciphertext_0_ap_vld                                                |
+| s_axi_control | ciphertext_1       | 0x12c  | 32    | R      | Data signal of ciphertext_1      |                                                                      |
+| s_axi_control | ciphertext_1_ctrl  | 0x130  | 32    | R      | Control signal of ciphertext_1   | 0=ciphertext_1_ap_vld                                                |
+| s_axi_control | ciphertext_2       | 0x13c  | 32    | R      | Data signal of ciphertext_2      |                                                                      |
+| s_axi_control | ciphertext_2_ctrl  | 0x140  | 32    | R      | Control signal of ciphertext_2   | 0=ciphertext_2_ap_vld                                                |
+| s_axi_control | ciphertext_3       | 0x14c  | 32    | R      | Data signal of ciphertext_3      |                                                                      |
+| s_axi_control | ciphertext_3_ctrl  | 0x150  | 32    | R      | Control signal of ciphertext_3   | 0=ciphertext_3_ap_vld                                                |
+| s_axi_control | ciphertext_4       | 0x15c  | 32    | R      | Data signal of ciphertext_4      |                                                                      |
+| s_axi_control | ciphertext_4_ctrl  | 0x160  | 32    | R      | Control signal of ciphertext_4   | 0=ciphertext_4_ap_vld                                                |
+| s_axi_control | ciphertext_5       | 0x16c  | 32    | R      | Data signal of ciphertext_5      |                                                                      |
+| s_axi_control | ciphertext_5_ctrl  | 0x170  | 32    | R      | Control signal of ciphertext_5   | 0=ciphertext_5_ap_vld                                                |
+| s_axi_control | ciphertext_6       | 0x17c  | 32    | R      | Data signal of ciphertext_6      |                                                                      |
+| s_axi_control | ciphertext_6_ctrl  | 0x180  | 32    | R      | Control signal of ciphertext_6   | 0=ciphertext_6_ap_vld                                                |
+| s_axi_control | ciphertext_7       | 0x18c  | 32    | R      | Data signal of ciphertext_7      |                                                                      |
+| s_axi_control | ciphertext_7_ctrl  | 0x190  | 32    | R      | Control signal of ciphertext_7   | 0=ciphertext_7_ap_vld                                                |
+| s_axi_control | ciphertext_8       | 0x19c  | 32    | R      | Data signal of ciphertext_8      |                                                                      |
+| s_axi_control | ciphertext_8_ctrl  | 0x1a0  | 32    | R      | Control signal of ciphertext_8   | 0=ciphertext_8_ap_vld                                                |
+| s_axi_control | ciphertext_9       | 0x1ac  | 32    | R      | Data signal of ciphertext_9      |                                                                      |
+| s_axi_control | ciphertext_9_ctrl  | 0x1b0  | 32    | R      | Control signal of ciphertext_9   | 0=ciphertext_9_ap_vld                                                |
+| s_axi_control | ciphertext_10      | 0x1bc  | 32    | R      | Data signal of ciphertext_10     |                                                                      |
+| s_axi_control | ciphertext_10_ctrl | 0x1c0  | 32    | R      | Control signal of ciphertext_10  | 0=ciphertext_10_ap_vld                                               |
+| s_axi_control | ciphertext_11      | 0x1cc  | 32    | R      | Data signal of ciphertext_11     |                                                                      |
+| s_axi_control | ciphertext_11_ctrl | 0x1d0  | 32    | R      | Control signal of ciphertext_11  | 0=ciphertext_11_ap_vld                                               |
+| s_axi_control | ciphertext_12      | 0x1dc  | 32    | R      | Data signal of ciphertext_12     |                                                                      |
+| s_axi_control | ciphertext_12_ctrl | 0x1e0  | 32    | R      | Control signal of ciphertext_12  | 0=ciphertext_12_ap_vld                                               |
+| s_axi_control | ciphertext_13      | 0x1ec  | 32    | R      | Data signal of ciphertext_13     |                                                                      |
+| s_axi_control | ciphertext_13_ctrl | 0x1f0  | 32    | R      | Control signal of ciphertext_13  | 0=ciphertext_13_ap_vld                                               |
+| s_axi_control | ciphertext_14      | 0x1fc  | 32    | R      | Data signal of ciphertext_14     |                                                                      |
+| s_axi_control | ciphertext_14_ctrl | 0x200  | 32    | R      | Control signal of ciphertext_14  | 0=ciphertext_14_ap_vld                                               |
+| s_axi_control | ciphertext_15      | 0x20c  | 32    | R      | Data signal of ciphertext_15     |                                                                      |
+| s_axi_control | ciphertext_15_ctrl | 0x210  | 32    | R      | Control signal of ciphertext_15  | 0=ciphertext_15_ap_vld                                               |
+| s_axi_control | ciphertext_16      | 0x21c  | 32    | R      | Data signal of ciphertext_16     |                                                                      |
+| s_axi_control | ciphertext_16_ctrl | 0x220  | 32    | R      | Control signal of ciphertext_16  | 0=ciphertext_16_ap_vld                                               |
+| s_axi_control | ciphertext_17      | 0x22c  | 32    | R      | Data signal of ciphertext_17     |                                                                      |
+| s_axi_control | ciphertext_17_ctrl | 0x230  | 32    | R      | Control signal of ciphertext_17  | 0=ciphertext_17_ap_vld                                               |
+| s_axi_control | ciphertext_18      | 0x23c  | 32    | R      | Data signal of ciphertext_18     |                                                                      |
+| s_axi_control | ciphertext_18_ctrl | 0x240  | 32    | R      | Control signal of ciphertext_18  | 0=ciphertext_18_ap_vld                                               |
+| s_axi_control | ciphertext_19      | 0x24c  | 32    | R      | Data signal of ciphertext_19     |                                                                      |
+| s_axi_control | ciphertext_19_ctrl | 0x250  | 32    | R      | Control signal of ciphertext_19  | 0=ciphertext_19_ap_vld                                               |
+| s_axi_control | ciphertext_20      | 0x25c  | 32    | R      | Data signal of ciphertext_20     |                                                                      |
+| s_axi_control | ciphertext_20_ctrl | 0x260  | 32    | R      | Control signal of ciphertext_20  | 0=ciphertext_20_ap_vld                                               |
+| s_axi_control | ciphertext_21      | 0x26c  | 32    | R      | Data signal of ciphertext_21     |                                                                      |
+| s_axi_control | ciphertext_21_ctrl | 0x270  | 32    | R      | Control signal of ciphertext_21  | 0=ciphertext_21_ap_vld                                               |
+| s_axi_control | ciphertext_22      | 0x27c  | 32    | R      | Data signal of ciphertext_22     |                                                                      |
+| s_axi_control | ciphertext_22_ctrl | 0x280  | 32    | R      | Control signal of ciphertext_22  | 0=ciphertext_22_ap_vld                                               |
+| s_axi_control | ciphertext_23      | 0x28c  | 32    | R      | Data signal of ciphertext_23     |                                                                      |
+| s_axi_control | ciphertext_23_ctrl | 0x290  | 32    | R      | Control signal of ciphertext_23  | 0=ciphertext_23_ap_vld                                               |
+| s_axi_control | ciphertext_24      | 0x29c  | 32    | R      | Data signal of ciphertext_24     |                                                                      |
+| s_axi_control | ciphertext_24_ctrl | 0x2a0  | 32    | R      | Control signal of ciphertext_24  | 0=ciphertext_24_ap_vld                                               |
+| s_axi_control | ciphertext_25      | 0x2ac  | 32    | R      | Data signal of ciphertext_25     |                                                                      |
+| s_axi_control | ciphertext_25_ctrl | 0x2b0  | 32    | R      | Control signal of ciphertext_25  | 0=ciphertext_25_ap_vld                                               |
+| s_axi_control | ciphertext_26      | 0x2bc  | 32    | R      | Data signal of ciphertext_26     |                                                                      |
+| s_axi_control | ciphertext_26_ctrl | 0x2c0  | 32    | R      | Control signal of ciphertext_26  | 0=ciphertext_26_ap_vld                                               |
+| s_axi_control | ciphertext_27      | 0x2cc  | 32    | R      | Data signal of ciphertext_27     |                                                                      |
+| s_axi_control | ciphertext_27_ctrl | 0x2d0  | 32    | R      | Control signal of ciphertext_27  | 0=ciphertext_27_ap_vld                                               |
+| s_axi_control | ciphertext_28      | 0x2dc  | 32    | R      | Data signal of ciphertext_28     |                                                                      |
+| s_axi_control | ciphertext_28_ctrl | 0x2e0  | 32    | R      | Control signal of ciphertext_28  | 0=ciphertext_28_ap_vld                                               |
+| s_axi_control | ciphertext_29      | 0x2ec  | 32    | R      | Data signal of ciphertext_29     |                                                                      |
+| s_axi_control | ciphertext_29_ctrl | 0x2f0  | 32    | R      | Control signal of ciphertext_29  | 0=ciphertext_29_ap_vld                                               |
+| s_axi_control | ciphertext_30      | 0x2fc  | 32    | R      | Data signal of ciphertext_30     |                                                                      |
+| s_axi_control | ciphertext_30_ctrl | 0x300  | 32    | R      | Control signal of ciphertext_30  | 0=ciphertext_30_ap_vld                                               |
+| s_axi_control | ciphertext_31      | 0x30c  | 32    | R      | Data signal of ciphertext_31     |                                                                      |
+| s_axi_control | ciphertext_31_ctrl | 0x310  | 32    | R      | Control signal of ciphertext_31  | 0=ciphertext_31_ap_vld                                               |
++---------------+--------------------+--------+-------+--------+----------------------------------+----------------------------------------------------------------------+
+
+* TOP LEVEL CONTROL
++-----------+------------+-----------+
+| Interface | Type       | Ports     |
++-----------+------------+-----------+
+| ap_clk    | clock      | ap_clk    |
+| ap_rst_n  | reset      | ap_rst_n  |
+| interrupt | interrupt  | interrupt |
+| ap_ctrl   | ap_ctrl_hs |           |
++-----------+------------+-----------+
+
+
+================================================================
+== SW I/O Information
+================================================================
+* Top Function Arguments
++------------+-----------+--------------+
+| Argument   | Direction | Datatype     |
++------------+-----------+--------------+
+| plaintext  | in        | ap_uint<32>* |
+| key        | in        | ap_uint<64>  |
+| ciphertext | out       | ap_uint<32>* |
++------------+-----------+--------------+
+
+* SW-to-HW Mapping
++------------+---------------+-----------+----------------------------------+
+| Argument   | HW Interface  | HW Type   | HW Info                          |
++------------+---------------+-----------+----------------------------------+
+| plaintext  | s_axi_control | interface |                                  |
+| plaintext  | s_axi_control | interface |                                  |
+| plaintext  | s_axi_control | interface |                                  |
+| plaintext  | s_axi_control | interface |                                  |
+| plaintext  | s_axi_control | interface |                                  |
+| plaintext  | s_axi_control | interface |                                  |
+| plaintext  | s_axi_control | interface |                                  |
+| plaintext  | s_axi_control | interface |                                  |
+| plaintext  | s_axi_control | interface |                                  |
+| plaintext  | s_axi_control | interface |                                  |
+| plaintext  | s_axi_control | interface |                                  |
+| plaintext  | s_axi_control | interface |                                  |
+| plaintext  | s_axi_control | interface |                                  |
+| plaintext  | s_axi_control | interface |                                  |
+| plaintext  | s_axi_control | interface |                                  |
+| plaintext  | s_axi_control | interface |                                  |
+| plaintext  | s_axi_control | interface |                                  |
+| plaintext  | s_axi_control | interface |                                  |
+| plaintext  | s_axi_control | interface |                                  |
+| plaintext  | s_axi_control | interface |                                  |
+| plaintext  | s_axi_control | interface |                                  |
+| plaintext  | s_axi_control | interface |                                  |
+| plaintext  | s_axi_control | interface |                                  |
+| plaintext  | s_axi_control | interface |                                  |
+| plaintext  | s_axi_control | interface |                                  |
+| plaintext  | s_axi_control | interface |                                  |
+| plaintext  | s_axi_control | interface |                                  |
+| plaintext  | s_axi_control | interface |                                  |
+| plaintext  | s_axi_control | interface |                                  |
+| plaintext  | s_axi_control | interface |                                  |
+| plaintext  | s_axi_control | interface |                                  |
+| plaintext  | s_axi_control | interface |                                  |
+| key        | s_axi_control | register  | name=key_1 offset=0x110 range=32 |
+| key        | s_axi_control | register  | name=key_2 offset=0x114 range=32 |
+| ciphertext | s_axi_control | interface |                                  |
+| ciphertext | s_axi_control | interface |                                  |
+| ciphertext | s_axi_control | interface |                                  |
+| ciphertext | s_axi_control | interface |                                  |
+| ciphertext | s_axi_control | interface |                                  |
+| ciphertext | s_axi_control | interface |                                  |
+| ciphertext | s_axi_control | interface |                                  |
+| ciphertext | s_axi_control | interface |                                  |
+| ciphertext | s_axi_control | interface |                                  |
+| ciphertext | s_axi_control | interface |                                  |
+| ciphertext | s_axi_control | interface |                                  |
+| ciphertext | s_axi_control | interface |                                  |
+| ciphertext | s_axi_control | interface |                                  |
+| ciphertext | s_axi_control | interface |                                  |
+| ciphertext | s_axi_control | interface |                                  |
+| ciphertext | s_axi_control | interface |                                  |
+| ciphertext | s_axi_control | interface |                                  |
+| ciphertext | s_axi_control | interface |                                  |
+| ciphertext | s_axi_control | interface |                                  |
+| ciphertext | s_axi_control | interface |                                  |
+| ciphertext | s_axi_control | interface |                                  |
+| ciphertext | s_axi_control | interface |                                  |
+| ciphertext | s_axi_control | interface |                                  |
+| ciphertext | s_axi_control | interface |                                  |
+| ciphertext | s_axi_control | interface |                                  |
+| ciphertext | s_axi_control | interface |                                  |
+| ciphertext | s_axi_control | interface |                                  |
+| ciphertext | s_axi_control | interface |                                  |
+| ciphertext | s_axi_control | interface |                                  |
+| ciphertext | s_axi_control | interface |                                  |
+| ciphertext | s_axi_control | interface |                                  |
+| ciphertext | s_axi_control | interface |                                  |
++------------+---------------+-----------+----------------------------------+
+
+
+================================================================
+== Bind Op Report
+================================================================
++-----------------------------------+-----+--------+------------+-----------+--------------------------+---------+
+| Name                              | DSP | Pragma | Variable   | Op        | Impl                     | Latency |
++-----------------------------------+-----+--------+------------+-----------+--------------------------+---------+
+| + cifrador_paralelo_32            | 0   |        |            |           |                          |         |
+|  + cifrador (grp_cifrador_fu_710) | 0   |        |            |           |                          |         |
+|    icmp_ln110_fu_160_p2           |     |        | icmp_ln110 | seteq     | auto                     | 0       |
+|    add_ln110_fu_166_p2            |     |        | add_ln110  | add       | fabric                   | 0       |
+|    sparsemux_33_4_4_1_1_U1        |     |        | tmp        | sparsemux | compactencoding_dontcare | 0       |
+|    key_3_fu_310_p2                |     |        | key_3      | xor       | auto                     | 0       |
+|    out_5_fu_316_p2                |     |        | out_5      | xor       | auto                     | 0       |
+|    sparsemux_33_4_4_1_1_U2        |     |        | tmp_3      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U3        |     |        | tmp_5      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U4        |     |        | tmp_7      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U5        |     |        | tmp_9      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U6        |     |        | tmp_s      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U7        |     |        | tmp_1      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U8        |     |        | tmp_2      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U9        |     |        | tmp_4      | sparsemux | compactencoding_dontcare | 0       |
+|    ap_return                      |     |        | out_4      | xor       | auto                     | 0       |
+|  + cifrador (grp_cifrador_fu_719) | 0   |        |            |           |                          |         |
+|    icmp_ln110_fu_160_p2           |     |        | icmp_ln110 | seteq     | auto                     | 0       |
+|    add_ln110_fu_166_p2            |     |        | add_ln110  | add       | fabric                   | 0       |
+|    sparsemux_33_4_4_1_1_U1        |     |        | tmp        | sparsemux | compactencoding_dontcare | 0       |
+|    key_3_fu_310_p2                |     |        | key_3      | xor       | auto                     | 0       |
+|    out_5_fu_316_p2                |     |        | out_5      | xor       | auto                     | 0       |
+|    sparsemux_33_4_4_1_1_U2        |     |        | tmp_3      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U3        |     |        | tmp_5      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U4        |     |        | tmp_7      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U5        |     |        | tmp_9      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U6        |     |        | tmp_s      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U7        |     |        | tmp_1      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U8        |     |        | tmp_2      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U9        |     |        | tmp_4      | sparsemux | compactencoding_dontcare | 0       |
+|    ap_return                      |     |        | out_4      | xor       | auto                     | 0       |
+|  + cifrador (grp_cifrador_fu_728) | 0   |        |            |           |                          |         |
+|    icmp_ln110_fu_160_p2           |     |        | icmp_ln110 | seteq     | auto                     | 0       |
+|    add_ln110_fu_166_p2            |     |        | add_ln110  | add       | fabric                   | 0       |
+|    sparsemux_33_4_4_1_1_U1        |     |        | tmp        | sparsemux | compactencoding_dontcare | 0       |
+|    key_3_fu_310_p2                |     |        | key_3      | xor       | auto                     | 0       |
+|    out_5_fu_316_p2                |     |        | out_5      | xor       | auto                     | 0       |
+|    sparsemux_33_4_4_1_1_U2        |     |        | tmp_3      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U3        |     |        | tmp_5      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U4        |     |        | tmp_7      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U5        |     |        | tmp_9      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U6        |     |        | tmp_s      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U7        |     |        | tmp_1      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U8        |     |        | tmp_2      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U9        |     |        | tmp_4      | sparsemux | compactencoding_dontcare | 0       |
+|    ap_return                      |     |        | out_4      | xor       | auto                     | 0       |
+|  + cifrador (grp_cifrador_fu_737) | 0   |        |            |           |                          |         |
+|    icmp_ln110_fu_160_p2           |     |        | icmp_ln110 | seteq     | auto                     | 0       |
+|    add_ln110_fu_166_p2            |     |        | add_ln110  | add       | fabric                   | 0       |
+|    sparsemux_33_4_4_1_1_U1        |     |        | tmp        | sparsemux | compactencoding_dontcare | 0       |
+|    key_3_fu_310_p2                |     |        | key_3      | xor       | auto                     | 0       |
+|    out_5_fu_316_p2                |     |        | out_5      | xor       | auto                     | 0       |
+|    sparsemux_33_4_4_1_1_U2        |     |        | tmp_3      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U3        |     |        | tmp_5      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U4        |     |        | tmp_7      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U5        |     |        | tmp_9      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U6        |     |        | tmp_s      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U7        |     |        | tmp_1      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U8        |     |        | tmp_2      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U9        |     |        | tmp_4      | sparsemux | compactencoding_dontcare | 0       |
+|    ap_return                      |     |        | out_4      | xor       | auto                     | 0       |
+|  + cifrador (grp_cifrador_fu_746) | 0   |        |            |           |                          |         |
+|    icmp_ln110_fu_160_p2           |     |        | icmp_ln110 | seteq     | auto                     | 0       |
+|    add_ln110_fu_166_p2            |     |        | add_ln110  | add       | fabric                   | 0       |
+|    sparsemux_33_4_4_1_1_U1        |     |        | tmp        | sparsemux | compactencoding_dontcare | 0       |
+|    key_3_fu_310_p2                |     |        | key_3      | xor       | auto                     | 0       |
+|    out_5_fu_316_p2                |     |        | out_5      | xor       | auto                     | 0       |
+|    sparsemux_33_4_4_1_1_U2        |     |        | tmp_3      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U3        |     |        | tmp_5      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U4        |     |        | tmp_7      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U5        |     |        | tmp_9      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U6        |     |        | tmp_s      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U7        |     |        | tmp_1      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U8        |     |        | tmp_2      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U9        |     |        | tmp_4      | sparsemux | compactencoding_dontcare | 0       |
+|    ap_return                      |     |        | out_4      | xor       | auto                     | 0       |
+|  + cifrador (grp_cifrador_fu_755) | 0   |        |            |           |                          |         |
+|    icmp_ln110_fu_160_p2           |     |        | icmp_ln110 | seteq     | auto                     | 0       |
+|    add_ln110_fu_166_p2            |     |        | add_ln110  | add       | fabric                   | 0       |
+|    sparsemux_33_4_4_1_1_U1        |     |        | tmp        | sparsemux | compactencoding_dontcare | 0       |
+|    key_3_fu_310_p2                |     |        | key_3      | xor       | auto                     | 0       |
+|    out_5_fu_316_p2                |     |        | out_5      | xor       | auto                     | 0       |
+|    sparsemux_33_4_4_1_1_U2        |     |        | tmp_3      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U3        |     |        | tmp_5      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U4        |     |        | tmp_7      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U5        |     |        | tmp_9      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U6        |     |        | tmp_s      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U7        |     |        | tmp_1      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U8        |     |        | tmp_2      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U9        |     |        | tmp_4      | sparsemux | compactencoding_dontcare | 0       |
+|    ap_return                      |     |        | out_4      | xor       | auto                     | 0       |
+|  + cifrador (grp_cifrador_fu_764) | 0   |        |            |           |                          |         |
+|    icmp_ln110_fu_160_p2           |     |        | icmp_ln110 | seteq     | auto                     | 0       |
+|    add_ln110_fu_166_p2            |     |        | add_ln110  | add       | fabric                   | 0       |
+|    sparsemux_33_4_4_1_1_U1        |     |        | tmp        | sparsemux | compactencoding_dontcare | 0       |
+|    key_3_fu_310_p2                |     |        | key_3      | xor       | auto                     | 0       |
+|    out_5_fu_316_p2                |     |        | out_5      | xor       | auto                     | 0       |
+|    sparsemux_33_4_4_1_1_U2        |     |        | tmp_3      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U3        |     |        | tmp_5      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U4        |     |        | tmp_7      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U5        |     |        | tmp_9      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U6        |     |        | tmp_s      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U7        |     |        | tmp_1      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U8        |     |        | tmp_2      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U9        |     |        | tmp_4      | sparsemux | compactencoding_dontcare | 0       |
+|    ap_return                      |     |        | out_4      | xor       | auto                     | 0       |
+|  + cifrador (grp_cifrador_fu_773) | 0   |        |            |           |                          |         |
+|    icmp_ln110_fu_160_p2           |     |        | icmp_ln110 | seteq     | auto                     | 0       |
+|    add_ln110_fu_166_p2            |     |        | add_ln110  | add       | fabric                   | 0       |
+|    sparsemux_33_4_4_1_1_U1        |     |        | tmp        | sparsemux | compactencoding_dontcare | 0       |
+|    key_3_fu_310_p2                |     |        | key_3      | xor       | auto                     | 0       |
+|    out_5_fu_316_p2                |     |        | out_5      | xor       | auto                     | 0       |
+|    sparsemux_33_4_4_1_1_U2        |     |        | tmp_3      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U3        |     |        | tmp_5      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U4        |     |        | tmp_7      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U5        |     |        | tmp_9      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U6        |     |        | tmp_s      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U7        |     |        | tmp_1      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U8        |     |        | tmp_2      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U9        |     |        | tmp_4      | sparsemux | compactencoding_dontcare | 0       |
+|    ap_return                      |     |        | out_4      | xor       | auto                     | 0       |
+|  + cifrador (grp_cifrador_fu_782) | 0   |        |            |           |                          |         |
+|    icmp_ln110_fu_160_p2           |     |        | icmp_ln110 | seteq     | auto                     | 0       |
+|    add_ln110_fu_166_p2            |     |        | add_ln110  | add       | fabric                   | 0       |
+|    sparsemux_33_4_4_1_1_U1        |     |        | tmp        | sparsemux | compactencoding_dontcare | 0       |
+|    key_3_fu_310_p2                |     |        | key_3      | xor       | auto                     | 0       |
+|    out_5_fu_316_p2                |     |        | out_5      | xor       | auto                     | 0       |
+|    sparsemux_33_4_4_1_1_U2        |     |        | tmp_3      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U3        |     |        | tmp_5      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U4        |     |        | tmp_7      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U5        |     |        | tmp_9      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U6        |     |        | tmp_s      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U7        |     |        | tmp_1      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U8        |     |        | tmp_2      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U9        |     |        | tmp_4      | sparsemux | compactencoding_dontcare | 0       |
+|    ap_return                      |     |        | out_4      | xor       | auto                     | 0       |
+|  + cifrador (grp_cifrador_fu_791) | 0   |        |            |           |                          |         |
+|    icmp_ln110_fu_160_p2           |     |        | icmp_ln110 | seteq     | auto                     | 0       |
+|    add_ln110_fu_166_p2            |     |        | add_ln110  | add       | fabric                   | 0       |
+|    sparsemux_33_4_4_1_1_U1        |     |        | tmp        | sparsemux | compactencoding_dontcare | 0       |
+|    key_3_fu_310_p2                |     |        | key_3      | xor       | auto                     | 0       |
+|    out_5_fu_316_p2                |     |        | out_5      | xor       | auto                     | 0       |
+|    sparsemux_33_4_4_1_1_U2        |     |        | tmp_3      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U3        |     |        | tmp_5      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U4        |     |        | tmp_7      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U5        |     |        | tmp_9      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U6        |     |        | tmp_s      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U7        |     |        | tmp_1      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U8        |     |        | tmp_2      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U9        |     |        | tmp_4      | sparsemux | compactencoding_dontcare | 0       |
+|    ap_return                      |     |        | out_4      | xor       | auto                     | 0       |
+|  + cifrador (grp_cifrador_fu_800) | 0   |        |            |           |                          |         |
+|    icmp_ln110_fu_160_p2           |     |        | icmp_ln110 | seteq     | auto                     | 0       |
+|    add_ln110_fu_166_p2            |     |        | add_ln110  | add       | fabric                   | 0       |
+|    sparsemux_33_4_4_1_1_U1        |     |        | tmp        | sparsemux | compactencoding_dontcare | 0       |
+|    key_3_fu_310_p2                |     |        | key_3      | xor       | auto                     | 0       |
+|    out_5_fu_316_p2                |     |        | out_5      | xor       | auto                     | 0       |
+|    sparsemux_33_4_4_1_1_U2        |     |        | tmp_3      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U3        |     |        | tmp_5      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U4        |     |        | tmp_7      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U5        |     |        | tmp_9      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U6        |     |        | tmp_s      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U7        |     |        | tmp_1      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U8        |     |        | tmp_2      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U9        |     |        | tmp_4      | sparsemux | compactencoding_dontcare | 0       |
+|    ap_return                      |     |        | out_4      | xor       | auto                     | 0       |
+|  + cifrador (grp_cifrador_fu_809) | 0   |        |            |           |                          |         |
+|    icmp_ln110_fu_160_p2           |     |        | icmp_ln110 | seteq     | auto                     | 0       |
+|    add_ln110_fu_166_p2            |     |        | add_ln110  | add       | fabric                   | 0       |
+|    sparsemux_33_4_4_1_1_U1        |     |        | tmp        | sparsemux | compactencoding_dontcare | 0       |
+|    key_3_fu_310_p2                |     |        | key_3      | xor       | auto                     | 0       |
+|    out_5_fu_316_p2                |     |        | out_5      | xor       | auto                     | 0       |
+|    sparsemux_33_4_4_1_1_U2        |     |        | tmp_3      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U3        |     |        | tmp_5      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U4        |     |        | tmp_7      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U5        |     |        | tmp_9      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U6        |     |        | tmp_s      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U7        |     |        | tmp_1      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U8        |     |        | tmp_2      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U9        |     |        | tmp_4      | sparsemux | compactencoding_dontcare | 0       |
+|    ap_return                      |     |        | out_4      | xor       | auto                     | 0       |
+|  + cifrador (grp_cifrador_fu_818) | 0   |        |            |           |                          |         |
+|    icmp_ln110_fu_160_p2           |     |        | icmp_ln110 | seteq     | auto                     | 0       |
+|    add_ln110_fu_166_p2            |     |        | add_ln110  | add       | fabric                   | 0       |
+|    sparsemux_33_4_4_1_1_U1        |     |        | tmp        | sparsemux | compactencoding_dontcare | 0       |
+|    key_3_fu_310_p2                |     |        | key_3      | xor       | auto                     | 0       |
+|    out_5_fu_316_p2                |     |        | out_5      | xor       | auto                     | 0       |
+|    sparsemux_33_4_4_1_1_U2        |     |        | tmp_3      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U3        |     |        | tmp_5      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U4        |     |        | tmp_7      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U5        |     |        | tmp_9      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U6        |     |        | tmp_s      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U7        |     |        | tmp_1      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U8        |     |        | tmp_2      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U9        |     |        | tmp_4      | sparsemux | compactencoding_dontcare | 0       |
+|    ap_return                      |     |        | out_4      | xor       | auto                     | 0       |
+|  + cifrador (grp_cifrador_fu_827) | 0   |        |            |           |                          |         |
+|    icmp_ln110_fu_160_p2           |     |        | icmp_ln110 | seteq     | auto                     | 0       |
+|    add_ln110_fu_166_p2            |     |        | add_ln110  | add       | fabric                   | 0       |
+|    sparsemux_33_4_4_1_1_U1        |     |        | tmp        | sparsemux | compactencoding_dontcare | 0       |
+|    key_3_fu_310_p2                |     |        | key_3      | xor       | auto                     | 0       |
+|    out_5_fu_316_p2                |     |        | out_5      | xor       | auto                     | 0       |
+|    sparsemux_33_4_4_1_1_U2        |     |        | tmp_3      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U3        |     |        | tmp_5      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U4        |     |        | tmp_7      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U5        |     |        | tmp_9      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U6        |     |        | tmp_s      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U7        |     |        | tmp_1      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U8        |     |        | tmp_2      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U9        |     |        | tmp_4      | sparsemux | compactencoding_dontcare | 0       |
+|    ap_return                      |     |        | out_4      | xor       | auto                     | 0       |
+|  + cifrador (grp_cifrador_fu_836) | 0   |        |            |           |                          |         |
+|    icmp_ln110_fu_160_p2           |     |        | icmp_ln110 | seteq     | auto                     | 0       |
+|    add_ln110_fu_166_p2            |     |        | add_ln110  | add       | fabric                   | 0       |
+|    sparsemux_33_4_4_1_1_U1        |     |        | tmp        | sparsemux | compactencoding_dontcare | 0       |
+|    key_3_fu_310_p2                |     |        | key_3      | xor       | auto                     | 0       |
+|    out_5_fu_316_p2                |     |        | out_5      | xor       | auto                     | 0       |
+|    sparsemux_33_4_4_1_1_U2        |     |        | tmp_3      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U3        |     |        | tmp_5      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U4        |     |        | tmp_7      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U5        |     |        | tmp_9      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U6        |     |        | tmp_s      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U7        |     |        | tmp_1      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U8        |     |        | tmp_2      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U9        |     |        | tmp_4      | sparsemux | compactencoding_dontcare | 0       |
+|    ap_return                      |     |        | out_4      | xor       | auto                     | 0       |
+|  + cifrador (grp_cifrador_fu_845) | 0   |        |            |           |                          |         |
+|    icmp_ln110_fu_160_p2           |     |        | icmp_ln110 | seteq     | auto                     | 0       |
+|    add_ln110_fu_166_p2            |     |        | add_ln110  | add       | fabric                   | 0       |
+|    sparsemux_33_4_4_1_1_U1        |     |        | tmp        | sparsemux | compactencoding_dontcare | 0       |
+|    key_3_fu_310_p2                |     |        | key_3      | xor       | auto                     | 0       |
+|    out_5_fu_316_p2                |     |        | out_5      | xor       | auto                     | 0       |
+|    sparsemux_33_4_4_1_1_U2        |     |        | tmp_3      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U3        |     |        | tmp_5      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U4        |     |        | tmp_7      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U5        |     |        | tmp_9      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U6        |     |        | tmp_s      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U7        |     |        | tmp_1      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U8        |     |        | tmp_2      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U9        |     |        | tmp_4      | sparsemux | compactencoding_dontcare | 0       |
+|    ap_return                      |     |        | out_4      | xor       | auto                     | 0       |
+|  + cifrador (grp_cifrador_fu_854) | 0   |        |            |           |                          |         |
+|    icmp_ln110_fu_160_p2           |     |        | icmp_ln110 | seteq     | auto                     | 0       |
+|    add_ln110_fu_166_p2            |     |        | add_ln110  | add       | fabric                   | 0       |
+|    sparsemux_33_4_4_1_1_U1        |     |        | tmp        | sparsemux | compactencoding_dontcare | 0       |
+|    key_3_fu_310_p2                |     |        | key_3      | xor       | auto                     | 0       |
+|    out_5_fu_316_p2                |     |        | out_5      | xor       | auto                     | 0       |
+|    sparsemux_33_4_4_1_1_U2        |     |        | tmp_3      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U3        |     |        | tmp_5      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U4        |     |        | tmp_7      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U5        |     |        | tmp_9      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U6        |     |        | tmp_s      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U7        |     |        | tmp_1      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U8        |     |        | tmp_2      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U9        |     |        | tmp_4      | sparsemux | compactencoding_dontcare | 0       |
+|    ap_return                      |     |        | out_4      | xor       | auto                     | 0       |
+|  + cifrador (grp_cifrador_fu_863) | 0   |        |            |           |                          |         |
+|    icmp_ln110_fu_160_p2           |     |        | icmp_ln110 | seteq     | auto                     | 0       |
+|    add_ln110_fu_166_p2            |     |        | add_ln110  | add       | fabric                   | 0       |
+|    sparsemux_33_4_4_1_1_U1        |     |        | tmp        | sparsemux | compactencoding_dontcare | 0       |
+|    key_3_fu_310_p2                |     |        | key_3      | xor       | auto                     | 0       |
+|    out_5_fu_316_p2                |     |        | out_5      | xor       | auto                     | 0       |
+|    sparsemux_33_4_4_1_1_U2        |     |        | tmp_3      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U3        |     |        | tmp_5      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U4        |     |        | tmp_7      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U5        |     |        | tmp_9      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U6        |     |        | tmp_s      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U7        |     |        | tmp_1      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U8        |     |        | tmp_2      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U9        |     |        | tmp_4      | sparsemux | compactencoding_dontcare | 0       |
+|    ap_return                      |     |        | out_4      | xor       | auto                     | 0       |
+|  + cifrador (grp_cifrador_fu_872) | 0   |        |            |           |                          |         |
+|    icmp_ln110_fu_160_p2           |     |        | icmp_ln110 | seteq     | auto                     | 0       |
+|    add_ln110_fu_166_p2            |     |        | add_ln110  | add       | fabric                   | 0       |
+|    sparsemux_33_4_4_1_1_U1        |     |        | tmp        | sparsemux | compactencoding_dontcare | 0       |
+|    key_3_fu_310_p2                |     |        | key_3      | xor       | auto                     | 0       |
+|    out_5_fu_316_p2                |     |        | out_5      | xor       | auto                     | 0       |
+|    sparsemux_33_4_4_1_1_U2        |     |        | tmp_3      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U3        |     |        | tmp_5      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U4        |     |        | tmp_7      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U5        |     |        | tmp_9      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U6        |     |        | tmp_s      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U7        |     |        | tmp_1      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U8        |     |        | tmp_2      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U9        |     |        | tmp_4      | sparsemux | compactencoding_dontcare | 0       |
+|    ap_return                      |     |        | out_4      | xor       | auto                     | 0       |
+|  + cifrador (grp_cifrador_fu_881) | 0   |        |            |           |                          |         |
+|    icmp_ln110_fu_160_p2           |     |        | icmp_ln110 | seteq     | auto                     | 0       |
+|    add_ln110_fu_166_p2            |     |        | add_ln110  | add       | fabric                   | 0       |
+|    sparsemux_33_4_4_1_1_U1        |     |        | tmp        | sparsemux | compactencoding_dontcare | 0       |
+|    key_3_fu_310_p2                |     |        | key_3      | xor       | auto                     | 0       |
+|    out_5_fu_316_p2                |     |        | out_5      | xor       | auto                     | 0       |
+|    sparsemux_33_4_4_1_1_U2        |     |        | tmp_3      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U3        |     |        | tmp_5      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U4        |     |        | tmp_7      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U5        |     |        | tmp_9      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U6        |     |        | tmp_s      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U7        |     |        | tmp_1      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U8        |     |        | tmp_2      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U9        |     |        | tmp_4      | sparsemux | compactencoding_dontcare | 0       |
+|    ap_return                      |     |        | out_4      | xor       | auto                     | 0       |
+|  + cifrador (grp_cifrador_fu_890) | 0   |        |            |           |                          |         |
+|    icmp_ln110_fu_160_p2           |     |        | icmp_ln110 | seteq     | auto                     | 0       |
+|    add_ln110_fu_166_p2            |     |        | add_ln110  | add       | fabric                   | 0       |
+|    sparsemux_33_4_4_1_1_U1        |     |        | tmp        | sparsemux | compactencoding_dontcare | 0       |
+|    key_3_fu_310_p2                |     |        | key_3      | xor       | auto                     | 0       |
+|    out_5_fu_316_p2                |     |        | out_5      | xor       | auto                     | 0       |
+|    sparsemux_33_4_4_1_1_U2        |     |        | tmp_3      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U3        |     |        | tmp_5      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U4        |     |        | tmp_7      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U5        |     |        | tmp_9      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U6        |     |        | tmp_s      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U7        |     |        | tmp_1      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U8        |     |        | tmp_2      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U9        |     |        | tmp_4      | sparsemux | compactencoding_dontcare | 0       |
+|    ap_return                      |     |        | out_4      | xor       | auto                     | 0       |
+|  + cifrador (grp_cifrador_fu_899) | 0   |        |            |           |                          |         |
+|    icmp_ln110_fu_160_p2           |     |        | icmp_ln110 | seteq     | auto                     | 0       |
+|    add_ln110_fu_166_p2            |     |        | add_ln110  | add       | fabric                   | 0       |
+|    sparsemux_33_4_4_1_1_U1        |     |        | tmp        | sparsemux | compactencoding_dontcare | 0       |
+|    key_3_fu_310_p2                |     |        | key_3      | xor       | auto                     | 0       |
+|    out_5_fu_316_p2                |     |        | out_5      | xor       | auto                     | 0       |
+|    sparsemux_33_4_4_1_1_U2        |     |        | tmp_3      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U3        |     |        | tmp_5      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U4        |     |        | tmp_7      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U5        |     |        | tmp_9      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U6        |     |        | tmp_s      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U7        |     |        | tmp_1      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U8        |     |        | tmp_2      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U9        |     |        | tmp_4      | sparsemux | compactencoding_dontcare | 0       |
+|    ap_return                      |     |        | out_4      | xor       | auto                     | 0       |
+|  + cifrador (grp_cifrador_fu_908) | 0   |        |            |           |                          |         |
+|    icmp_ln110_fu_160_p2           |     |        | icmp_ln110 | seteq     | auto                     | 0       |
+|    add_ln110_fu_166_p2            |     |        | add_ln110  | add       | fabric                   | 0       |
+|    sparsemux_33_4_4_1_1_U1        |     |        | tmp        | sparsemux | compactencoding_dontcare | 0       |
+|    key_3_fu_310_p2                |     |        | key_3      | xor       | auto                     | 0       |
+|    out_5_fu_316_p2                |     |        | out_5      | xor       | auto                     | 0       |
+|    sparsemux_33_4_4_1_1_U2        |     |        | tmp_3      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U3        |     |        | tmp_5      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U4        |     |        | tmp_7      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U5        |     |        | tmp_9      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U6        |     |        | tmp_s      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U7        |     |        | tmp_1      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U8        |     |        | tmp_2      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U9        |     |        | tmp_4      | sparsemux | compactencoding_dontcare | 0       |
+|    ap_return                      |     |        | out_4      | xor       | auto                     | 0       |
+|  + cifrador (grp_cifrador_fu_917) | 0   |        |            |           |                          |         |
+|    icmp_ln110_fu_160_p2           |     |        | icmp_ln110 | seteq     | auto                     | 0       |
+|    add_ln110_fu_166_p2            |     |        | add_ln110  | add       | fabric                   | 0       |
+|    sparsemux_33_4_4_1_1_U1        |     |        | tmp        | sparsemux | compactencoding_dontcare | 0       |
+|    key_3_fu_310_p2                |     |        | key_3      | xor       | auto                     | 0       |
+|    out_5_fu_316_p2                |     |        | out_5      | xor       | auto                     | 0       |
+|    sparsemux_33_4_4_1_1_U2        |     |        | tmp_3      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U3        |     |        | tmp_5      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U4        |     |        | tmp_7      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U5        |     |        | tmp_9      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U6        |     |        | tmp_s      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U7        |     |        | tmp_1      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U8        |     |        | tmp_2      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U9        |     |        | tmp_4      | sparsemux | compactencoding_dontcare | 0       |
+|    ap_return                      |     |        | out_4      | xor       | auto                     | 0       |
+|  + cifrador (grp_cifrador_fu_926) | 0   |        |            |           |                          |         |
+|    icmp_ln110_fu_160_p2           |     |        | icmp_ln110 | seteq     | auto                     | 0       |
+|    add_ln110_fu_166_p2            |     |        | add_ln110  | add       | fabric                   | 0       |
+|    sparsemux_33_4_4_1_1_U1        |     |        | tmp        | sparsemux | compactencoding_dontcare | 0       |
+|    key_3_fu_310_p2                |     |        | key_3      | xor       | auto                     | 0       |
+|    out_5_fu_316_p2                |     |        | out_5      | xor       | auto                     | 0       |
+|    sparsemux_33_4_4_1_1_U2        |     |        | tmp_3      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U3        |     |        | tmp_5      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U4        |     |        | tmp_7      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U5        |     |        | tmp_9      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U6        |     |        | tmp_s      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U7        |     |        | tmp_1      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U8        |     |        | tmp_2      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U9        |     |        | tmp_4      | sparsemux | compactencoding_dontcare | 0       |
+|    ap_return                      |     |        | out_4      | xor       | auto                     | 0       |
+|  + cifrador (grp_cifrador_fu_935) | 0   |        |            |           |                          |         |
+|    icmp_ln110_fu_160_p2           |     |        | icmp_ln110 | seteq     | auto                     | 0       |
+|    add_ln110_fu_166_p2            |     |        | add_ln110  | add       | fabric                   | 0       |
+|    sparsemux_33_4_4_1_1_U1        |     |        | tmp        | sparsemux | compactencoding_dontcare | 0       |
+|    key_3_fu_310_p2                |     |        | key_3      | xor       | auto                     | 0       |
+|    out_5_fu_316_p2                |     |        | out_5      | xor       | auto                     | 0       |
+|    sparsemux_33_4_4_1_1_U2        |     |        | tmp_3      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U3        |     |        | tmp_5      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U4        |     |        | tmp_7      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U5        |     |        | tmp_9      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U6        |     |        | tmp_s      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U7        |     |        | tmp_1      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U8        |     |        | tmp_2      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U9        |     |        | tmp_4      | sparsemux | compactencoding_dontcare | 0       |
+|    ap_return                      |     |        | out_4      | xor       | auto                     | 0       |
+|  + cifrador (grp_cifrador_fu_944) | 0   |        |            |           |                          |         |
+|    icmp_ln110_fu_160_p2           |     |        | icmp_ln110 | seteq     | auto                     | 0       |
+|    add_ln110_fu_166_p2            |     |        | add_ln110  | add       | fabric                   | 0       |
+|    sparsemux_33_4_4_1_1_U1        |     |        | tmp        | sparsemux | compactencoding_dontcare | 0       |
+|    key_3_fu_310_p2                |     |        | key_3      | xor       | auto                     | 0       |
+|    out_5_fu_316_p2                |     |        | out_5      | xor       | auto                     | 0       |
+|    sparsemux_33_4_4_1_1_U2        |     |        | tmp_3      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U3        |     |        | tmp_5      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U4        |     |        | tmp_7      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U5        |     |        | tmp_9      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U6        |     |        | tmp_s      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U7        |     |        | tmp_1      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U8        |     |        | tmp_2      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U9        |     |        | tmp_4      | sparsemux | compactencoding_dontcare | 0       |
+|    ap_return                      |     |        | out_4      | xor       | auto                     | 0       |
+|  + cifrador (grp_cifrador_fu_953) | 0   |        |            |           |                          |         |
+|    icmp_ln110_fu_160_p2           |     |        | icmp_ln110 | seteq     | auto                     | 0       |
+|    add_ln110_fu_166_p2            |     |        | add_ln110  | add       | fabric                   | 0       |
+|    sparsemux_33_4_4_1_1_U1        |     |        | tmp        | sparsemux | compactencoding_dontcare | 0       |
+|    key_3_fu_310_p2                |     |        | key_3      | xor       | auto                     | 0       |
+|    out_5_fu_316_p2                |     |        | out_5      | xor       | auto                     | 0       |
+|    sparsemux_33_4_4_1_1_U2        |     |        | tmp_3      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U3        |     |        | tmp_5      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U4        |     |        | tmp_7      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U5        |     |        | tmp_9      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U6        |     |        | tmp_s      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U7        |     |        | tmp_1      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U8        |     |        | tmp_2      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U9        |     |        | tmp_4      | sparsemux | compactencoding_dontcare | 0       |
+|    ap_return                      |     |        | out_4      | xor       | auto                     | 0       |
+|  + cifrador (grp_cifrador_fu_962) | 0   |        |            |           |                          |         |
+|    icmp_ln110_fu_160_p2           |     |        | icmp_ln110 | seteq     | auto                     | 0       |
+|    add_ln110_fu_166_p2            |     |        | add_ln110  | add       | fabric                   | 0       |
+|    sparsemux_33_4_4_1_1_U1        |     |        | tmp        | sparsemux | compactencoding_dontcare | 0       |
+|    key_3_fu_310_p2                |     |        | key_3      | xor       | auto                     | 0       |
+|    out_5_fu_316_p2                |     |        | out_5      | xor       | auto                     | 0       |
+|    sparsemux_33_4_4_1_1_U2        |     |        | tmp_3      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U3        |     |        | tmp_5      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U4        |     |        | tmp_7      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U5        |     |        | tmp_9      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U6        |     |        | tmp_s      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U7        |     |        | tmp_1      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U8        |     |        | tmp_2      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U9        |     |        | tmp_4      | sparsemux | compactencoding_dontcare | 0       |
+|    ap_return                      |     |        | out_4      | xor       | auto                     | 0       |
+|  + cifrador (grp_cifrador_fu_971) | 0   |        |            |           |                          |         |
+|    icmp_ln110_fu_160_p2           |     |        | icmp_ln110 | seteq     | auto                     | 0       |
+|    add_ln110_fu_166_p2            |     |        | add_ln110  | add       | fabric                   | 0       |
+|    sparsemux_33_4_4_1_1_U1        |     |        | tmp        | sparsemux | compactencoding_dontcare | 0       |
+|    key_3_fu_310_p2                |     |        | key_3      | xor       | auto                     | 0       |
+|    out_5_fu_316_p2                |     |        | out_5      | xor       | auto                     | 0       |
+|    sparsemux_33_4_4_1_1_U2        |     |        | tmp_3      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U3        |     |        | tmp_5      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U4        |     |        | tmp_7      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U5        |     |        | tmp_9      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U6        |     |        | tmp_s      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U7        |     |        | tmp_1      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U8        |     |        | tmp_2      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U9        |     |        | tmp_4      | sparsemux | compactencoding_dontcare | 0       |
+|    ap_return                      |     |        | out_4      | xor       | auto                     | 0       |
+|  + cifrador (grp_cifrador_fu_980) | 0   |        |            |           |                          |         |
+|    icmp_ln110_fu_160_p2           |     |        | icmp_ln110 | seteq     | auto                     | 0       |
+|    add_ln110_fu_166_p2            |     |        | add_ln110  | add       | fabric                   | 0       |
+|    sparsemux_33_4_4_1_1_U1        |     |        | tmp        | sparsemux | compactencoding_dontcare | 0       |
+|    key_3_fu_310_p2                |     |        | key_3      | xor       | auto                     | 0       |
+|    out_5_fu_316_p2                |     |        | out_5      | xor       | auto                     | 0       |
+|    sparsemux_33_4_4_1_1_U2        |     |        | tmp_3      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U3        |     |        | tmp_5      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U4        |     |        | tmp_7      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U5        |     |        | tmp_9      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U6        |     |        | tmp_s      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U7        |     |        | tmp_1      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U8        |     |        | tmp_2      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U9        |     |        | tmp_4      | sparsemux | compactencoding_dontcare | 0       |
+|    ap_return                      |     |        | out_4      | xor       | auto                     | 0       |
+|  + cifrador (grp_cifrador_fu_989) | 0   |        |            |           |                          |         |
+|    icmp_ln110_fu_160_p2           |     |        | icmp_ln110 | seteq     | auto                     | 0       |
+|    add_ln110_fu_166_p2            |     |        | add_ln110  | add       | fabric                   | 0       |
+|    sparsemux_33_4_4_1_1_U1        |     |        | tmp        | sparsemux | compactencoding_dontcare | 0       |
+|    key_3_fu_310_p2                |     |        | key_3      | xor       | auto                     | 0       |
+|    out_5_fu_316_p2                |     |        | out_5      | xor       | auto                     | 0       |
+|    sparsemux_33_4_4_1_1_U2        |     |        | tmp_3      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U3        |     |        | tmp_5      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U4        |     |        | tmp_7      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U5        |     |        | tmp_9      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U6        |     |        | tmp_s      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U7        |     |        | tmp_1      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U8        |     |        | tmp_2      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U9        |     |        | tmp_4      | sparsemux | compactencoding_dontcare | 0       |
+|    ap_return                      |     |        | out_4      | xor       | auto                     | 0       |
++-----------------------------------+-----+--------+------------+-----------+--------------------------+---------+
+
+
+================================================================
+== Storage Report
+================================================================
++------------------------+-----------+-----------+------+------+--------+----------+------+---------+------------------+
+| Name                   | Usage     | Type      | BRAM | URAM | Pragma | Variable | Impl | Latency | Bitwidth, Depth, |
+|                        |           |           |      |      |        |          |      |         | Banks            |
++------------------------+-----------+-----------+------+------+--------+----------+------+---------+------------------+
+| + cifrador_paralelo_32 |           |           | 0    | 0    |        |          |      |         |                  |
+|   control_s_axi_U      | interface | s_axilite |      |      |        |          |      |         |                  |
++------------------------+-----------+-----------+------+------+--------+----------+------+---------+------------------+
+
+
+================================================================
+== Pragma Report
+================================================================
+* Inferred Pragmas
++----------+---------+----------------------------------------------------------------------------+-------------------------------+
+| Type     | Options | Location                                                                   | Inferred From                 |
++----------+---------+----------------------------------------------------------------------------+-------------------------------+
+| PIPELINE |         | loop VITIS_LOOP_110_1 (Cifrador.cpp:110:23) in cifrador (Cifrador.cpp:110) | syn.compile.pipeline_loops=64 |
++----------+---------+----------------------------------------------------------------------------+-------------------------------+
+
+* Valid Pragma Syntax
++-----------------+------------------------------+--------------------------------------------+
+| Type            | Options                      | Location                                   |
++-----------------+------------------------------+--------------------------------------------+
+| INLINE          |                              | in sbox (Cifrador.cpp:8)                   |
+| ARRAY_PARTITION | variable=table complete      | in sbox (Cifrador.cpp:17)                  |
+| INLINE          |                              | in sustitution (Cifrador.cpp:23)           |
+| UNROLL          |                              | in sustitution (Cifrador.cpp:27)           |
+| INLINE          |                              | in permutation (Cifrador.cpp:35)           |
+| UNROLL          |                              | in permutation (Cifrador.cpp:40)           |
+| INLINE          |                              | in key_mixing (Cifrador.cpp:49)            |
+| INLINE          |                              | in round_function (Cifrador.cpp:54)        |
+| INLINE          |                              | in permutation_inverse (Cifrador.cpp:65)   |
+| UNROLL          |                              | in permutation_inverse (Cifrador.cpp:70)   |
+| INLINE          |                              | in last_round_correction (Cifrador.cpp:79) |
+| INLINE          |                              | in key_schedule (Cifrador.cpp:90)          |
+| INTERFACE       | s_axilite port=plaintext     | in cifrador_paralelo_32 (Cifrador.cpp:130) |
+| INTERFACE       | s_axilite port=key           | in cifrador_paralelo_32 (Cifrador.cpp:131) |
+| INTERFACE       | s_axilite port=ciphertext    | in cifrador_paralelo_32 (Cifrador.cpp:132) |
+| INTERFACE       | s_axilite port=return        | in cifrador_paralelo_32 (Cifrador.cpp:133) |
+| ARRAY_PARTITION | variable=plaintext complete  | in cifrador_paralelo_32 (Cifrador.cpp:135) |
+| ARRAY_PARTITION | variable=ciphertext complete | in cifrador_paralelo_32 (Cifrador.cpp:136) |
+| UNROLL          |                              | in cifrador_paralelo_32 (Cifrador.cpp:139) |
++-----------------+------------------------------+--------------------------------------------+
+
+

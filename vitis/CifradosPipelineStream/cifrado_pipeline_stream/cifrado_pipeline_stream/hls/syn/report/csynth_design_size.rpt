@@ -1,0 +1,92 @@
+================================================================
+== Design Size Report
+================================================================
+
+* Total Instructions per Compilation Phase
++---------------+----------------------------+--------------+----------------------------------------------------------------------------------------+
+| Phase         | Step                       | Instructions | Description                                                                            |
++---------------+----------------------------+--------------+----------------------------------------------------------------------------------------+
+| Compile/Link  |                            | 22,782       | After all functions are compiled and linked into a single design                       |
+|               |                            |              |                                                                                        |
+| Unroll/Inline |                            |              | After user unroll and inline pragmas are applied                                       |
+|               | (1) unroll                 |  4,448       | user unroll pragmas are applied                                                        |
+|               | (2) simplification         |  4,129       | simplification of applied user unroll pragmas                                          |
+|               | (3) inline                 |  2,915       | user inline pragmas are applied                                                        |
+|               | (4) simplification         |  2,878       | simplification of applied user inline pragmas                                          |
+|               |                            |              |                                                                                        |
+| Array/Struct  |                            |              | After user array partition and struct aggregate/disaggregate pragmas are applied       |
+|               | (1) array partition        |  7,244       | user array partition pragmas are applied                                               |
+|               | (2) simplification         |  2,501       | simplification of applied user array partition & struct aggregate/disaggregate pragmas |
+|               | (3) aggregate/disaggregate |  2,501       | user struct aggregate/disaggregate pragmas are applied                                 |
+|               | (4) array reshape          |  2,501       | apply array reshape pragmas                                                            |
+|               | (5) access patterns        |  2,586       | array access pattern optmizations                                                      |
+|               |                            |              |                                                                                        |
+| Performance   |                            |              | After transformations are applied to meet performance pragma targets                   |
+|               | (1) loop simplification    |  2,582       | loop and instruction simplification                                                    |
+|               | (2) parallelization        |  2,566       | loops are unrolled or pipelined to meet performance targets                            |
+|               | (3) array partition        |  2,530       | arrays are partitioned to meet performance targets                                     |
+|               | (4) simplification         |  2,530       | simplification of design after performance transformations                             |
+|               |                            |              |                                                                                        |
+| HW Transforms |                            |              | After hardware transfomations                                                          |
+|               | (1) lowering               |  2,501       | initial conversion to HW specific instructions                                         |
+|               | (2) optimizations          |  2,472       | high level synthesis optimizations                                                     |
++---------------+----------------------------+--------------+----------------------------------------------------------------------------------------+
+
+* Instructions per Function for each Compilation Phase
++----------------------------+------------------+--------------+---------------+--------------+-------------+---------------+
+| Function                   | Location         | Compile/Link | Unroll/Inline | Array/Struct | Performance | HW Transforms |
++----------------------------+------------------+--------------+---------------+--------------+-------------+---------------+
+| + cifrador_pipeline_stream | Cifrador.cpp:147 | 22,782       | 2,878         | 2,586        | 2,530       | 2,472         |
+|  + key_schedule            | Cifrador.cpp:91  |   624        |               |              |             |               |
+|     sbox                   | Cifrador.cpp:9   |   321        |               |              |             |               |
+|  + run                     | Cifrador.cpp:128 | 21,717       |               |              |             |               |
+|   + stage<0>               | Cifrador.cpp:110 |   676        |               |              |             |               |
+|    + round_function        | Cifrador.cpp:55  |   668        |               |              |             |               |
+|       key_mixing           | Cifrador.cpp:50  |    49        |               |              |             |               |
+|     + sustitution          | Cifrador.cpp:24  |   471        |               |              |             |               |
+|        sbox                | Cifrador.cpp:9   |   321        |               |              |             |               |
+|       permutation          | Cifrador.cpp:36  |    95        |               |              |             |               |
+|     run                    | Cifrador.cpp:128 | 21,023 **    |               |              |             |               |
+|    stage<0>                | Cifrador.cpp:110 |              |   70          |   61         |   61        |   64          |
+|    stage<1>                | Cifrador.cpp:110 |              |   70          |   61         |   61        |   64          |
+|    stage<2>                | Cifrador.cpp:110 |              |   70          |   61         |   61        |   64          |
+|    stage<3>                | Cifrador.cpp:110 |              |   70          |   61         |   61        |   64          |
+|    stage<4>                | Cifrador.cpp:110 |              |   70          |   61         |   61        |   64          |
+|    stage<5>                | Cifrador.cpp:110 |              |   70          |   61         |   61        |   64          |
+|    stage<6>                | Cifrador.cpp:110 |              |   70          |   61         |   61        |   64          |
+|    stage<7>                | Cifrador.cpp:110 |              |   70          |   61         |   61        |   64          |
+|    stage<8>                | Cifrador.cpp:110 |              |   70          |   61         |   61        |   64          |
+|    stage<9>                | Cifrador.cpp:110 |              |   70          |   61         |   61        |   64          |
+|    stage<10>               | Cifrador.cpp:110 |              |   70          |   61         |   61        |   64          |
+|    stage<11>               | Cifrador.cpp:110 |              |   70          |   61         |   61        |   64          |
+|    stage<12>               | Cifrador.cpp:110 |              |   70          |   61         |   61        |   64          |
+|    stage<13>               | Cifrador.cpp:110 |              |   70          |   61         |   61        |   64          |
+|    stage<14>               | Cifrador.cpp:110 |              |   70          |   61         |   61        |   64          |
+|    stage<15>               | Cifrador.cpp:110 |              |   70          |   61         |   61        |   64          |
+|    stage<16>               | Cifrador.cpp:110 |              |   70          |   61         |   61        |   64          |
+|    stage<17>               | Cifrador.cpp:110 |              |   70          |   61         |   61        |   64          |
+|    stage<18>               | Cifrador.cpp:110 |              |   70          |   61         |   61        |   64          |
+|    stage<19>               | Cifrador.cpp:110 |              |   70          |   61         |   61        |   64          |
+|    stage<20>               | Cifrador.cpp:110 |              |   70          |   61         |   61        |   64          |
+|    stage<21>               | Cifrador.cpp:110 |              |   70          |   61         |   61        |   64          |
+|    stage<22>               | Cifrador.cpp:110 |              |   70          |   61         |   61        |   64          |
+|    stage<23>               | Cifrador.cpp:110 |              |   70          |   61         |   61        |   64          |
+|    stage<24>               | Cifrador.cpp:110 |              |   70          |   61         |   61        |   64          |
+|    stage<25>               | Cifrador.cpp:110 |              |   70          |   61         |   61        |   64          |
+|    stage<26>               | Cifrador.cpp:110 |              |   70          |   61         |   61        |   64          |
+|    stage<27>               | Cifrador.cpp:110 |              |   70          |   61         |   61        |   64          |
+|    stage<28>               | Cifrador.cpp:110 |              |   70          |   61         |   61        |   64          |
+|    stage<29>               | Cifrador.cpp:110 |              |   70          |   61         |   61        |   64          |
+|    stage<30>               | Cifrador.cpp:110 |              |   70          |   61         |   61        |   64          |
+|    last_stage              | Cifrador.cpp:118 |              |   36          |   36         |   36        |   39          |
++----------------------------+------------------+--------------+---------------+--------------+-------------+---------------+
+    ** - Recursive call, instruction count may be inaccurate
+
+* Design Size Message Settings
++---------------------------------------------+--------+------------------------------------------------------------------+
+| Message Setting                             | Value  | Description                                                      |
++---------------------------------------------+--------+------------------------------------------------------------------+
+| config_compile -design_size_maximum_warning | 100000 | Show a warning when total design instructions exceeds this value |
++---------------------------------------------+--------+------------------------------------------------------------------+
+
+

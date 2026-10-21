@@ -1,0 +1,172 @@
+
+
+================================================================
+== Vitis HLS Report for 'stage_27_s'
+================================================================
+* Date:           Tue Apr 28 18:13:32 2026
+
+* Version:        2025.2 (Build 6295257 on Nov 14 2025)
+* Project:        cifrado_pipeline_stream
+* Solution:       hls (Vivado IP Flow Target)
+* Product family: zynq
+* Target device:  xc7z020-clg400-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  |  10.00 ns|  2.064 ns|     2.70 ns|
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+-----------+-----------+-----+-----+---------+
+    |  Latency (cycles) |   Latency (absolute)  |  Interval | Pipeline|
+    |   min   |   max   |    min    |    max    | min | max |   Type  |
+    +---------+---------+-----------+-----------+-----+-----+---------+
+    |        1|        1|  10.000 ns|  10.000 ns|    1|    1|      yes|
+    +---------+---------+-----------+-----------+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        N/A
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 0
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 2
+HasVarLatency: 0
+IsPipeline: 1
+IsRtlPipelined: 1
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
++ Individual pipeline summary: 
+  * Pipeline-0: initiation interval (II) = 1, depth = 2
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 2
+* Pipeline : 1
+  Pipeline-0 : II = 1, D = 2, States = { 1 2 }
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 2 
+2 --> 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 0.99>
+ST_1 : Operation 3 [1/1] (0.00ns)   --->   "%round_key_read = read i32 @_ssdm_op_Read.ap_auto.i32, i32 %round_key" [Cifrador.cpp:110]   --->   Operation 3 'read' 'round_key_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 4 [1/1] (0.00ns)   --->   "%in_read = read i32 @_ssdm_op_Read.ap_auto.i32, i32 %in_r" [Cifrador.cpp:110]   --->   Operation 4 'read' 'in_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 5 [1/1] (0.99ns)   --->   "%in_100 = xor i32 %round_key_read, i32 %in_read" [Cifrador.cpp:52->Cifrador.cpp:59->Cifrador.cpp:115]   --->   Operation 5 'xor' 'in_100' <Predicate = true> <Delay = 0.99> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.99> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 6 [1/1] (0.00ns)   --->   "%in_101 = trunc i32 %in_100" [Cifrador.cpp:30->Cifrador.cpp:60->Cifrador.cpp:115]   --->   Operation 6 'trunc' 'in_101' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 7 [1/1] (0.00ns)   --->   "%in_102 = partselect i4 @_ssdm_op_PartSelect.i4.i32.i32, i32 %in_100, i32 4" [Cifrador.cpp:30->Cifrador.cpp:60->Cifrador.cpp:115]   --->   Operation 7 'partselect' 'in_102' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 8 [1/1] (0.00ns)   --->   "%in_103 = partselect i4 @_ssdm_op_PartSelect.i4.i32.i32, i32 %in_100, i32 8" [Cifrador.cpp:30->Cifrador.cpp:60->Cifrador.cpp:115]   --->   Operation 8 'partselect' 'in_103' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 9 [1/1] (0.00ns)   --->   "%in_104 = partselect i4 @_ssdm_op_PartSelect.i4.i32.i32, i32 %in_100, i32 12" [Cifrador.cpp:30->Cifrador.cpp:60->Cifrador.cpp:115]   --->   Operation 9 'partselect' 'in_104' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 10 [1/1] (0.00ns)   --->   "%in_105 = partselect i4 @_ssdm_op_PartSelect.i4.i32.i32, i32 %in_100, i32 16" [Cifrador.cpp:30->Cifrador.cpp:60->Cifrador.cpp:115]   --->   Operation 10 'partselect' 'in_105' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 11 [1/1] (0.00ns)   --->   "%in_106 = partselect i4 @_ssdm_op_PartSelect.i4.i32.i32, i32 %in_100, i32 20" [Cifrador.cpp:30->Cifrador.cpp:60->Cifrador.cpp:115]   --->   Operation 11 'partselect' 'in_106' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 12 [1/1] (0.00ns)   --->   "%in_107 = partselect i4 @_ssdm_op_PartSelect.i4.i32.i32, i32 %in_100, i32 24" [Cifrador.cpp:30->Cifrador.cpp:60->Cifrador.cpp:115]   --->   Operation 12 'partselect' 'in_107' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 13 [1/1] (0.00ns)   --->   "%in_108 = partselect i4 @_ssdm_op_PartSelect.i4.i32.i32, i32 %in_100, i32 28" [Cifrador.cpp:30->Cifrador.cpp:60->Cifrador.cpp:115]   --->   Operation 13 'partselect' 'in_108' <Predicate = true> <Delay = 0.00>
+
+State 2 <SV = 1> <Delay = 2.06>
+ST_2 : Operation 14 [1/1] (0.00ns)   --->   "%specpipeline_ln111 = specpipeline void @_ssdm_op_SpecPipeline, i32 1, i32 0, i32 0, i32 0, i32 4294967295, void @empty_1" [Cifrador.cpp:111]   --->   Operation 14 'specpipeline' 'specpipeline_ln111' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 15 [1/1] (0.00ns)   --->   "%speclatency_ln113 = speclatency void @_ssdm_op_SpecLatency, i64 1, i64 1, void @empty_1" [Cifrador.cpp:113]   --->   Operation 15 'speclatency' 'speclatency_ln113' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 16 [1/1] (2.06ns)   --->   "%tmp = sparsemux i4 @_ssdm_op_SparseMux.ap_auto.16i4.i4.i4, i4 0, i4 12, i4 1, i4 5, i4 2, i4 6, i4 3, i4 11, i4 4, i4 9, i4 5, i4 0, i4 6, i4 10, i4 7, i4 13, i4 8, i4 3, i4 9, i4 14, i4 10, i4 15, i4 11, i4 8, i4 12, i4 4, i4 13, i4 7, i4 14, i4 1, i4 15, i4 2, i4 0, i4 %in_101" [Cifrador.cpp:21->Cifrador.cpp:30->Cifrador.cpp:60->Cifrador.cpp:115]   --->   Operation 16 'sparsemux' 'tmp' <Predicate = true> <Delay = 2.06> <CoreInst = "BinarySparseMux_DontCare">   --->   Core 137 'BinarySparseMux_DontCare' <Latency = 0> <II = 1> <Delay = 2.06> <FuncUnit> <Opcode : 'sparsemux'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 17 [1/1] (2.06ns)   --->   "%tmp_s = sparsemux i4 @_ssdm_op_SparseMux.ap_auto.16i4.i4.i4, i4 0, i4 12, i4 1, i4 5, i4 2, i4 6, i4 3, i4 11, i4 4, i4 9, i4 5, i4 0, i4 6, i4 10, i4 7, i4 13, i4 8, i4 3, i4 9, i4 14, i4 10, i4 15, i4 11, i4 8, i4 12, i4 4, i4 13, i4 7, i4 14, i4 1, i4 15, i4 2, i4 0, i4 %in_102" [Cifrador.cpp:21->Cifrador.cpp:30->Cifrador.cpp:60->Cifrador.cpp:115]   --->   Operation 17 'sparsemux' 'tmp_s' <Predicate = true> <Delay = 2.06> <CoreInst = "BinarySparseMux_DontCare">   --->   Core 137 'BinarySparseMux_DontCare' <Latency = 0> <II = 1> <Delay = 2.06> <FuncUnit> <Opcode : 'sparsemux'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 18 [1/1] (2.06ns)   --->   "%tmp_61 = sparsemux i4 @_ssdm_op_SparseMux.ap_auto.16i4.i4.i4, i4 0, i4 12, i4 1, i4 5, i4 2, i4 6, i4 3, i4 11, i4 4, i4 9, i4 5, i4 0, i4 6, i4 10, i4 7, i4 13, i4 8, i4 3, i4 9, i4 14, i4 10, i4 15, i4 11, i4 8, i4 12, i4 4, i4 13, i4 7, i4 14, i4 1, i4 15, i4 2, i4 0, i4 %in_103" [Cifrador.cpp:21->Cifrador.cpp:30->Cifrador.cpp:60->Cifrador.cpp:115]   --->   Operation 18 'sparsemux' 'tmp_61' <Predicate = true> <Delay = 2.06> <CoreInst = "BinarySparseMux_DontCare">   --->   Core 137 'BinarySparseMux_DontCare' <Latency = 0> <II = 1> <Delay = 2.06> <FuncUnit> <Opcode : 'sparsemux'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 19 [1/1] (2.06ns)   --->   "%tmp_62 = sparsemux i4 @_ssdm_op_SparseMux.ap_auto.16i4.i4.i4, i4 0, i4 12, i4 1, i4 5, i4 2, i4 6, i4 3, i4 11, i4 4, i4 9, i4 5, i4 0, i4 6, i4 10, i4 7, i4 13, i4 8, i4 3, i4 9, i4 14, i4 10, i4 15, i4 11, i4 8, i4 12, i4 4, i4 13, i4 7, i4 14, i4 1, i4 15, i4 2, i4 0, i4 %in_104" [Cifrador.cpp:21->Cifrador.cpp:30->Cifrador.cpp:60->Cifrador.cpp:115]   --->   Operation 19 'sparsemux' 'tmp_62' <Predicate = true> <Delay = 2.06> <CoreInst = "BinarySparseMux_DontCare">   --->   Core 137 'BinarySparseMux_DontCare' <Latency = 0> <II = 1> <Delay = 2.06> <FuncUnit> <Opcode : 'sparsemux'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 20 [1/1] (2.06ns)   --->   "%tmp_63 = sparsemux i4 @_ssdm_op_SparseMux.ap_auto.16i4.i4.i4, i4 0, i4 12, i4 1, i4 5, i4 2, i4 6, i4 3, i4 11, i4 4, i4 9, i4 5, i4 0, i4 6, i4 10, i4 7, i4 13, i4 8, i4 3, i4 9, i4 14, i4 10, i4 15, i4 11, i4 8, i4 12, i4 4, i4 13, i4 7, i4 14, i4 1, i4 15, i4 2, i4 0, i4 %in_105" [Cifrador.cpp:21->Cifrador.cpp:30->Cifrador.cpp:60->Cifrador.cpp:115]   --->   Operation 20 'sparsemux' 'tmp_63' <Predicate = true> <Delay = 2.06> <CoreInst = "BinarySparseMux_DontCare">   --->   Core 137 'BinarySparseMux_DontCare' <Latency = 0> <II = 1> <Delay = 2.06> <FuncUnit> <Opcode : 'sparsemux'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 21 [1/1] (2.06ns)   --->   "%tmp_64 = sparsemux i4 @_ssdm_op_SparseMux.ap_auto.16i4.i4.i4, i4 0, i4 12, i4 1, i4 5, i4 2, i4 6, i4 3, i4 11, i4 4, i4 9, i4 5, i4 0, i4 6, i4 10, i4 7, i4 13, i4 8, i4 3, i4 9, i4 14, i4 10, i4 15, i4 11, i4 8, i4 12, i4 4, i4 13, i4 7, i4 14, i4 1, i4 15, i4 2, i4 0, i4 %in_106" [Cifrador.cpp:21->Cifrador.cpp:30->Cifrador.cpp:60->Cifrador.cpp:115]   --->   Operation 21 'sparsemux' 'tmp_64' <Predicate = true> <Delay = 2.06> <CoreInst = "BinarySparseMux_DontCare">   --->   Core 137 'BinarySparseMux_DontCare' <Latency = 0> <II = 1> <Delay = 2.06> <FuncUnit> <Opcode : 'sparsemux'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 22 [1/1] (2.06ns)   --->   "%tmp_65 = sparsemux i4 @_ssdm_op_SparseMux.ap_auto.16i4.i4.i4, i4 0, i4 12, i4 1, i4 5, i4 2, i4 6, i4 3, i4 11, i4 4, i4 9, i4 5, i4 0, i4 6, i4 10, i4 7, i4 13, i4 8, i4 3, i4 9, i4 14, i4 10, i4 15, i4 11, i4 8, i4 12, i4 4, i4 13, i4 7, i4 14, i4 1, i4 15, i4 2, i4 0, i4 %in_107" [Cifrador.cpp:21->Cifrador.cpp:30->Cifrador.cpp:60->Cifrador.cpp:115]   --->   Operation 22 'sparsemux' 'tmp_65' <Predicate = true> <Delay = 2.06> <CoreInst = "BinarySparseMux_DontCare">   --->   Core 137 'BinarySparseMux_DontCare' <Latency = 0> <II = 1> <Delay = 2.06> <FuncUnit> <Opcode : 'sparsemux'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 23 [1/1] (2.06ns)   --->   "%tmp_66 = sparsemux i4 @_ssdm_op_SparseMux.ap_auto.16i4.i4.i4, i4 0, i4 12, i4 1, i4 5, i4 2, i4 6, i4 3, i4 11, i4 4, i4 9, i4 5, i4 0, i4 6, i4 10, i4 7, i4 13, i4 8, i4 3, i4 9, i4 14, i4 10, i4 15, i4 11, i4 8, i4 12, i4 4, i4 13, i4 7, i4 14, i4 1, i4 15, i4 2, i4 0, i4 %in_108" [Cifrador.cpp:21->Cifrador.cpp:30->Cifrador.cpp:60->Cifrador.cpp:115]   --->   Operation 23 'sparsemux' 'tmp_66' <Predicate = true> <Delay = 2.06> <CoreInst = "BinarySparseMux_DontCare">   --->   Core 137 'BinarySparseMux_DontCare' <Latency = 0> <II = 1> <Delay = 2.06> <FuncUnit> <Opcode : 'sparsemux'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 24 [1/1] (0.00ns)   --->   "%trunc_ln44 = trunc i4 %tmp" [Cifrador.cpp:44->Cifrador.cpp:61->Cifrador.cpp:115]   --->   Operation 24 'trunc' 'trunc_ln44' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 25 [1/1] (0.00ns)   --->   "%tmp_271 = bitselect i1 @_ssdm_op_BitSelect.i1.i4.i32, i4 %tmp, i32 1" [Cifrador.cpp:44->Cifrador.cpp:61->Cifrador.cpp:115]   --->   Operation 25 'bitselect' 'tmp_271' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 26 [1/1] (0.00ns)   --->   "%tmp_272 = bitselect i1 @_ssdm_op_BitSelect.i1.i4.i32, i4 %tmp, i32 2" [Cifrador.cpp:44->Cifrador.cpp:61->Cifrador.cpp:115]   --->   Operation 26 'bitselect' 'tmp_272' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 27 [1/1] (0.00ns)   --->   "%tmp_273 = bitselect i1 @_ssdm_op_BitSelect.i1.i4.i32, i4 %tmp, i32 3" [Cifrador.cpp:44->Cifrador.cpp:61->Cifrador.cpp:115]   --->   Operation 27 'bitselect' 'tmp_273' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 28 [1/1] (0.00ns)   --->   "%trunc_ln44_78 = trunc i4 %tmp_s" [Cifrador.cpp:44->Cifrador.cpp:61->Cifrador.cpp:115]   --->   Operation 28 'trunc' 'trunc_ln44_78' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 29 [1/1] (0.00ns)   --->   "%tmp_274 = bitselect i1 @_ssdm_op_BitSelect.i1.i4.i32, i4 %tmp_s, i32 1" [Cifrador.cpp:44->Cifrador.cpp:61->Cifrador.cpp:115]   --->   Operation 29 'bitselect' 'tmp_274' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 30 [1/1] (0.00ns)   --->   "%tmp_275 = bitselect i1 @_ssdm_op_BitSelect.i1.i4.i32, i4 %tmp_s, i32 2" [Cifrador.cpp:44->Cifrador.cpp:61->Cifrador.cpp:115]   --->   Operation 30 'bitselect' 'tmp_275' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 31 [1/1] (0.00ns)   --->   "%tmp_276 = bitselect i1 @_ssdm_op_BitSelect.i1.i4.i32, i4 %tmp_s, i32 3" [Cifrador.cpp:44->Cifrador.cpp:61->Cifrador.cpp:115]   --->   Operation 31 'bitselect' 'tmp_276' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 32 [1/1] (0.00ns)   --->   "%trunc_ln44_79 = trunc i4 %tmp_61" [Cifrador.cpp:44->Cifrador.cpp:61->Cifrador.cpp:115]   --->   Operation 32 'trunc' 'trunc_ln44_79' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 33 [1/1] (0.00ns)   --->   "%tmp_277 = bitselect i1 @_ssdm_op_BitSelect.i1.i4.i32, i4 %tmp_61, i32 1" [Cifrador.cpp:44->Cifrador.cpp:61->Cifrador.cpp:115]   --->   Operation 33 'bitselect' 'tmp_277' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 34 [1/1] (0.00ns)   --->   "%tmp_278 = bitselect i1 @_ssdm_op_BitSelect.i1.i4.i32, i4 %tmp_61, i32 2" [Cifrador.cpp:44->Cifrador.cpp:61->Cifrador.cpp:115]   --->   Operation 34 'bitselect' 'tmp_278' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 35 [1/1] (0.00ns)   --->   "%tmp_279 = bitselect i1 @_ssdm_op_BitSelect.i1.i4.i32, i4 %tmp_61, i32 3" [Cifrador.cpp:44->Cifrador.cpp:61->Cifrador.cpp:115]   --->   Operation 35 'bitselect' 'tmp_279' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 36 [1/1] (0.00ns)   --->   "%trunc_ln44_80 = trunc i4 %tmp_62" [Cifrador.cpp:44->Cifrador.cpp:61->Cifrador.cpp:115]   --->   Operation 36 'trunc' 'trunc_ln44_80' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 37 [1/1] (0.00ns)   --->   "%tmp_280 = bitselect i1 @_ssdm_op_BitSelect.i1.i4.i32, i4 %tmp_62, i32 1" [Cifrador.cpp:44->Cifrador.cpp:61->Cifrador.cpp:115]   --->   Operation 37 'bitselect' 'tmp_280' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 38 [1/1] (0.00ns)   --->   "%tmp_281 = bitselect i1 @_ssdm_op_BitSelect.i1.i4.i32, i4 %tmp_62, i32 2" [Cifrador.cpp:44->Cifrador.cpp:61->Cifrador.cpp:115]   --->   Operation 38 'bitselect' 'tmp_281' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 39 [1/1] (0.00ns)   --->   "%tmp_282 = bitselect i1 @_ssdm_op_BitSelect.i1.i4.i32, i4 %tmp_62, i32 3" [Cifrador.cpp:44->Cifrador.cpp:61->Cifrador.cpp:115]   --->   Operation 39 'bitselect' 'tmp_282' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 40 [1/1] (0.00ns)   --->   "%trunc_ln44_81 = trunc i4 %tmp_63" [Cifrador.cpp:44->Cifrador.cpp:61->Cifrador.cpp:115]   --->   Operation 40 'trunc' 'trunc_ln44_81' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 41 [1/1] (0.00ns)   --->   "%tmp_283 = bitselect i1 @_ssdm_op_BitSelect.i1.i4.i32, i4 %tmp_63, i32 1" [Cifrador.cpp:44->Cifrador.cpp:61->Cifrador.cpp:115]   --->   Operation 41 'bitselect' 'tmp_283' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 42 [1/1] (0.00ns)   --->   "%tmp_284 = bitselect i1 @_ssdm_op_BitSelect.i1.i4.i32, i4 %tmp_63, i32 2" [Cifrador.cpp:44->Cifrador.cpp:61->Cifrador.cpp:115]   --->   Operation 42 'bitselect' 'tmp_284' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 43 [1/1] (0.00ns)   --->   "%tmp_285 = bitselect i1 @_ssdm_op_BitSelect.i1.i4.i32, i4 %tmp_63, i32 3" [Cifrador.cpp:44->Cifrador.cpp:61->Cifrador.cpp:115]   --->   Operation 43 'bitselect' 'tmp_285' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 44 [1/1] (0.00ns)   --->   "%trunc_ln44_82 = trunc i4 %tmp_64" [Cifrador.cpp:44->Cifrador.cpp:61->Cifrador.cpp:115]   --->   Operation 44 'trunc' 'trunc_ln44_82' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 45 [1/1] (0.00ns)   --->   "%tmp_286 = bitselect i1 @_ssdm_op_BitSelect.i1.i4.i32, i4 %tmp_64, i32 1" [Cifrador.cpp:44->Cifrador.cpp:61->Cifrador.cpp:115]   --->   Operation 45 'bitselect' 'tmp_286' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 46 [1/1] (0.00ns)   --->   "%tmp_287 = bitselect i1 @_ssdm_op_BitSelect.i1.i4.i32, i4 %tmp_64, i32 2" [Cifrador.cpp:44->Cifrador.cpp:61->Cifrador.cpp:115]   --->   Operation 46 'bitselect' 'tmp_287' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 47 [1/1] (0.00ns)   --->   "%tmp_288 = bitselect i1 @_ssdm_op_BitSelect.i1.i4.i32, i4 %tmp_64, i32 3" [Cifrador.cpp:44->Cifrador.cpp:61->Cifrador.cpp:115]   --->   Operation 47 'bitselect' 'tmp_288' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 48 [1/1] (0.00ns)   --->   "%trunc_ln44_83 = trunc i4 %tmp_65" [Cifrador.cpp:44->Cifrador.cpp:61->Cifrador.cpp:115]   --->   Operation 48 'trunc' 'trunc_ln44_83' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 49 [1/1] (0.00ns)   --->   "%tmp_289 = bitselect i1 @_ssdm_op_BitSelect.i1.i4.i32, i4 %tmp_65, i32 1" [Cifrador.cpp:44->Cifrador.cpp:61->Cifrador.cpp:115]   --->   Operation 49 'bitselect' 'tmp_289' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 50 [1/1] (0.00ns)   --->   "%tmp_290 = bitselect i1 @_ssdm_op_BitSelect.i1.i4.i32, i4 %tmp_65, i32 2" [Cifrador.cpp:44->Cifrador.cpp:61->Cifrador.cpp:115]   --->   Operation 50 'bitselect' 'tmp_290' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 51 [1/1] (0.00ns)   --->   "%tmp_291 = bitselect i1 @_ssdm_op_BitSelect.i1.i4.i32, i4 %tmp_65, i32 3" [Cifrador.cpp:44->Cifrador.cpp:61->Cifrador.cpp:115]   --->   Operation 51 'bitselect' 'tmp_291' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 52 [1/1] (0.00ns)   --->   "%trunc_ln44_84 = trunc i4 %tmp_66" [Cifrador.cpp:44->Cifrador.cpp:61->Cifrador.cpp:115]   --->   Operation 52 'trunc' 'trunc_ln44_84' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 53 [1/1] (0.00ns)   --->   "%tmp_292 = bitselect i1 @_ssdm_op_BitSelect.i1.i4.i32, i4 %tmp_66, i32 1" [Cifrador.cpp:44->Cifrador.cpp:61->Cifrador.cpp:115]   --->   Operation 53 'bitselect' 'tmp_292' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 54 [1/1] (0.00ns)   --->   "%tmp_293 = bitselect i1 @_ssdm_op_BitSelect.i1.i4.i32, i4 %tmp_66, i32 2" [Cifrador.cpp:44->Cifrador.cpp:61->Cifrador.cpp:115]   --->   Operation 54 'bitselect' 'tmp_293' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 55 [1/1] (0.00ns)   --->   "%tmp_294 = bitselect i1 @_ssdm_op_BitSelect.i1.i4.i32, i4 %tmp_66, i32 3" [Cifrador.cpp:44->Cifrador.cpp:61->Cifrador.cpp:115]   --->   Operation 55 'bitselect' 'tmp_294' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 56 [1/1] (0.00ns)   --->   "%out = bitconcatenate i32 @_ssdm_op_BitConcatenate.i32.i1.i1.i1.i1.i1.i1.i1.i1.i1.i1.i1.i1.i1.i1.i1.i1.i1.i1.i1.i1.i1.i1.i1.i1.i1.i1.i1.i1.i1.i1.i1.i1, i1 %tmp_294, i1 %tmp_291, i1 %tmp_288, i1 %tmp_285, i1 %tmp_282, i1 %tmp_279, i1 %tmp_276, i1 %tmp_273, i1 %tmp_293, i1 %tmp_290, i1 %tmp_287, i1 %tmp_284, i1 %tmp_281, i1 %tmp_278, i1 %tmp_275, i1 %tmp_272, i1 %tmp_292, i1 %tmp_289, i1 %tmp_286, i1 %tmp_283, i1 %tmp_280, i1 %tmp_277, i1 %tmp_274, i1 %tmp_271, i1 %trunc_ln44_84, i1 %trunc_ln44_83, i1 %trunc_ln44_82, i1 %trunc_ln44_81, i1 %trunc_ln44_80, i1 %trunc_ln44_79, i1 %trunc_ln44_78, i1 %trunc_ln44" [Cifrador.cpp:44->Cifrador.cpp:61->Cifrador.cpp:115]   --->   Operation 56 'bitconcatenate' 'out' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 57 [1/1] (0.00ns)   --->   "%ret_ln115 = ret i32 %out" [Cifrador.cpp:115]   --->   Operation 57 'ret' 'ret_ln115' <Predicate = true> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 10.000ns, clock uncertainty: 2.700ns.
+
+ <State 1>: 0.993ns
+The critical path consists of the following:
+	wire read operation ('round_key_read', Cifrador.cpp:110) on port 'round_key' (Cifrador.cpp:110) [5]  (0.000 ns)
+	'xor' operation 32 bit ('in', Cifrador.cpp:52->Cifrador.cpp:59->Cifrador.cpp:115) [7]  (0.993 ns)
+
+ <State 2>: 2.064ns
+The critical path consists of the following:
+	'sparsemux' operation 4 bit ('tmp', Cifrador.cpp:21->Cifrador.cpp:30->Cifrador.cpp:60->Cifrador.cpp:115) [9]  (2.064 ns)
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+	State 2
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

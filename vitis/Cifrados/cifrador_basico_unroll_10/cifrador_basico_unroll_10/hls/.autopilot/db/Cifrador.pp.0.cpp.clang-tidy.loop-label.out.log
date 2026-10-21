@@ -1,0 +1,40 @@
+C:\Users\Dario\Documents\TFG\Vitis\Cifrados\cifrador_basico_unroll_10\cifrador_basico_unroll_10\hls\.autopilot\db\Cifrador.pp.0.cpp:2254:5: remark: Added loop label VITIS_LOOP_676_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high+1; ++i) {
+    ^
+    VITIS_LOOP_676_1: 
+C:\Users\Dario\Documents\TFG\Vitis\Cifrados\cifrador_basico_unroll_10\cifrador_basico_unroll_10\hls\.autopilot\db\Cifrador.pp.0.cpp:2254:5: note: FIX-IT applied suggested code changes
+C:\Users\Dario\Documents\TFG\Vitis\Cifrados\cifrador_basico_unroll_10\cifrador_basico_unroll_10\hls\.autopilot\db\Cifrador.pp.0.cpp:2268:5: remark: Added loop label VITIS_LOOP_690_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high+1; ++i) {
+    ^
+    VITIS_LOOP_690_1: 
+C:\Users\Dario\Documents\TFG\Vitis\Cifrados\cifrador_basico_unroll_10\cifrador_basico_unroll_10\hls\.autopilot\db\Cifrador.pp.0.cpp:2268:5: note: FIX-IT applied suggested code changes
+C:\Users\Dario\Documents\TFG\Vitis\Cifrados\cifrador_basico_unroll_10\cifrador_basico_unroll_10\hls\.autopilot\db\Cifrador.pp.0.cpp:2282:5: remark: Added loop label VITIS_LOOP_704_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high+1; ++i) {
+    ^
+    VITIS_LOOP_704_1: 
+C:\Users\Dario\Documents\TFG\Vitis\Cifrados\cifrador_basico_unroll_10\cifrador_basico_unroll_10\hls\.autopilot\db\Cifrador.pp.0.cpp:2282:5: note: FIX-IT applied suggested code changes
+C:\Users\Dario\Documents\TFG\Vitis\Cifrados\cifrador_basico_unroll_10\cifrador_basico_unroll_10\hls\.autopilot\db\Cifrador.pp.0.cpp:5802:7: remark: Added loop label VITIS_LOOP_1251_1:   [xilinx-label-all-loops]
+      for (i = 0; i < __N - 1; ++i) {
+      ^
+      VITIS_LOOP_1251_1: 
+C:\Users\Dario\Documents\TFG\Vitis\Cifrados\cifrador_basico_unroll_10\cifrador_basico_unroll_10\hls\.autopilot\db\Cifrador.pp.0.cpp:5802:7: note: FIX-IT applied suggested code changes
+C:\Users\Dario\Documents\TFG\Vitis\Cifrados\cifrador_basico_unroll_10\cifrador_basico_unroll_10\hls\.autopilot\db\Cifrador.pp.0.cpp:49488:5: remark: Added loop label VITIS_LOOP_26_1:   [xilinx-label-all-loops]
+    for(int i = 0; i < 8; i++) {
+    ^
+    VITIS_LOOP_26_1: 
+C:\Users\Dario\Documents\TFG\Vitis\Cifrados\cifrador_basico_unroll_10\cifrador_basico_unroll_10\hls\.autopilot\db\Cifrador.pp.0.cpp:49488:5: note: FIX-IT applied suggested code changes
+C:\Users\Dario\Documents\TFG\Vitis\Cifrados\cifrador_basico_unroll_10\cifrador_basico_unroll_10\hls\.autopilot\db\Cifrador.pp.0.cpp:49501:5: remark: Added loop label VITIS_LOOP_39_1:   [xilinx-label-all-loops]
+    for(int i = 0; i < 32; i++) {
+    ^
+    VITIS_LOOP_39_1: 
+C:\Users\Dario\Documents\TFG\Vitis\Cifrados\cifrador_basico_unroll_10\cifrador_basico_unroll_10\hls\.autopilot\db\Cifrador.pp.0.cpp:49501:5: note: FIX-IT applied suggested code changes
+C:\Users\Dario\Documents\TFG\Vitis\Cifrados\cifrador_basico_unroll_10\cifrador_basico_unroll_10\hls\.autopilot\db\Cifrador.pp.0.cpp:49531:5: remark: Added loop label VITIS_LOOP_69_1:   [xilinx-label-all-loops]
+    for(int i = 0; i < 32; i++) {
+    ^
+    VITIS_LOOP_69_1: 
+C:\Users\Dario\Documents\TFG\Vitis\Cifrados\cifrador_basico_unroll_10\cifrador_basico_unroll_10\hls\.autopilot\db\Cifrador.pp.0.cpp:49531:5: note: FIX-IT applied suggested code changes
+C:\Users\Dario\Documents\TFG\Vitis\Cifrados\cifrador_basico_unroll_10\cifrador_basico_unroll_10\hls\.autopilot\db\Cifrador.pp.0.cpp:49578:5: remark: Added loop label VITIS_LOOP_112_1:   [xilinx-label-all-loops]
+    for(int round = 0; round < 31; round++) {
+    ^
+    VITIS_LOOP_112_1: 
+C:\Users\Dario\Documents\TFG\Vitis\Cifrados\cifrador_basico_unroll_10\cifrador_basico_unroll_10\hls\.autopilot\db\Cifrador.pp.0.cpp:49578:5: note: FIX-IT applied suggested code changes

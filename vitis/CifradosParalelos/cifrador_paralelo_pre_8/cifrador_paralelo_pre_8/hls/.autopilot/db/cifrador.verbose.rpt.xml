@@ -1,0 +1,170 @@
+<profile>
+
+<section name = "Vitis HLS Report for 'cifrador'" level="0">
+<item name = "Date">Sat Apr  4 00:14:13 2026
+</item>
+<item name = "Version">2025.2 (Build 6295257 on Nov 14 2025)</item>
+<item name = "Project">cifrador_paralelo_pre_8</item>
+<item name = "Solution">hls (Vivado IP Flow Target)</item>
+<item name = "Product family">zynq</item>
+<item name = "Target device">xc7z020-clg400-1</item>
+</section>
+
+<section name = "Performance Estimates" level="0">
+<item name = "Timing">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="4">Clock, Target, Estimated, Uncertainty</keys>
+<column name="ap_clk">10.00 ns, 4.956 ns, 2.70 ns</column>
+</table>
+</item>
+</section>
+</item>
+<item name = "Latency">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="8">, min, max, min, max, min, max, Type</keys>
+<column name="">33, 33, 0.330 us, 0.330 us, 0, 0, loop pipeline stp</column>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="0">
+<keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
+</table>
+</item>
+<item name = "Loop"><table name="" hasTotal="0">
+<keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+<column name="- VITIS_LOOP_110_1">31, 31, 2, 1, 1, 31, yes</column>
+</table>
+</item>
+</section>
+</item>
+</section>
+</item>
+</section>
+
+<section name = "Utilization Estimates" level="0">
+<item name = "Summary"><table name="" hasTotal="1">
+<keys size="6">Name, BRAM_18K, DSP, FF, LUT, URAM</keys>
+<column name="DSP">-, -, -, -, -</column>
+<column name="Expression">-, -, 0, 92, -</column>
+<column name="FIFO">-, -, -, -, -</column>
+<column name="Instance">-, -, 0, 658, -</column>
+<column name="Memory">-, -, -, -, -</column>
+<column name="Multiplexer">-, -, 0, 63, -</column>
+<column name="Register">-, -, 136, -, -</column>
+<specialColumn name="Available">280, 220, 106400, 53200, 0</specialColumn>
+<specialColumn name="Utilization (%)">0, 0, ~0, 1, 0</specialColumn>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="1">
+<keys size="7">Instance, Module, BRAM_18K, DSP, FF, LUT, URAM</keys>
+<column name="sparsemux_33_4_4_1_1_U2">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U3">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U4">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U5">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U6">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U7">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U8">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_33_4_4_1_1_U9">sparsemux_33_4_4_1_1, 0, 0, 0, 65, 0</column>
+<column name="sparsemux_63_5_32_1_1_U1">sparsemux_63_5_32_1_1, 0, 0, 0, 138, 0</column>
+</table>
+</item>
+<item name = "DSP"><table name="" hasTotal="0">
+<keys size="3">Instance, Module, Expression</keys>
+</table>
+</item>
+<item name = "Memory"><table name="" hasTotal="1">
+<keys size="10">Memory, Module, BRAM_18K, FF, LUT, URAM, Words, Bits, Banks, W*Bits*Banks</keys>
+</table>
+</item>
+<item name = "FIFO"><table name="" hasTotal="1">
+<keys size="8">Name, BRAM_18K, FF, LUT, URAM, Depth, Bits, Size:D*B</keys>
+</table>
+</item>
+<item name = "Expression"><table name="" hasTotal="1">
+<keys size="7">Variable Name, Operation, DSP, FF, LUT, Bitwidth P0, Bitwidth P1</keys>
+<column name="add_ln110_fu_445_p2">+, 0, 0, 13, 5, 1</column>
+<column name="icmp_ln110_fu_439_p2">icmp, 0, 0, 13, 5, 2</column>
+<column name="ap_enable_pp0">xor, 0, 0, 2, 1, 2</column>
+<column name="out_4_fu_1557_p2">xor, 0, 0, 32, 32, 32</column>
+<column name="out_5_fu_591_p2">xor, 0, 0, 32, 32, 32</column>
+</table>
+</item>
+<item name = "Multiplexer"><table name="" hasTotal="1">
+<keys size="5">Name, LUT, Input Size, Bits, Total Bits</keys>
+<column name="ap_done_int">9, 2, 1, 2</column>
+<column name="ap_enable_reg_pp0_iter1">9, 2, 1, 2</column>
+<column name="ap_return">9, 2, 32, 64</column>
+<column name="ap_sig_allocacmp_p_phi_load">9, 2, 32, 64</column>
+<column name="ap_sig_allocacmp_round_1">9, 2, 5, 10</column>
+<column name="in_fu_220">9, 2, 32, 64</column>
+<column name="round_fu_224">9, 2, 5, 10</column>
+</table>
+</item>
+<item name = "Register"><table name="" hasTotal="1">
+<keys size="5">Name, FF, LUT, Bits, Const Bits</keys>
+<column name="ap_CS_fsm">1, 0, 1, 0</column>
+<column name="ap_done_reg">1, 0, 1, 0</column>
+<column name="ap_enable_reg_pp0_iter1">1, 0, 1, 0</column>
+<column name="ap_return_preg">32, 0, 32, 0</column>
+<column name="in_fu_220">32, 0, 32, 0</column>
+<column name="p_phi_fu_216">32, 0, 32, 0</column>
+<column name="round_fu_224">5, 0, 5, 0</column>
+<column name="round_key_reg_1586">32, 0, 32, 0</column>
+</table>
+</item>
+</section>
+</item>
+</section>
+
+<section name = "Interface" level="0">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="6">RTL Ports, Dir, Bits, Protocol, Source Object, C Type</keys>
+<column name="ap_clk">in, 1, ap_ctrl_hs, cifrador, return value</column>
+<column name="ap_rst">in, 1, ap_ctrl_hs, cifrador, return value</column>
+<column name="ap_start">in, 1, ap_ctrl_hs, cifrador, return value</column>
+<column name="ap_done">out, 1, ap_ctrl_hs, cifrador, return value</column>
+<column name="ap_idle">out, 1, ap_ctrl_hs, cifrador, return value</column>
+<column name="ap_ready">out, 1, ap_ctrl_hs, cifrador, return value</column>
+<column name="ap_return">out, 32, ap_ctrl_hs, cifrador, return value</column>
+<column name="plaintext">in, 32, ap_none, plaintext, scalar</column>
+<column name="round_keys_0_val">in, 32, ap_none, round_keys_0_val, scalar</column>
+<column name="round_keys_1_val">in, 32, ap_none, round_keys_1_val, scalar</column>
+<column name="round_keys_2_val">in, 32, ap_none, round_keys_2_val, scalar</column>
+<column name="round_keys_3_val">in, 32, ap_none, round_keys_3_val, scalar</column>
+<column name="round_keys_4_val">in, 32, ap_none, round_keys_4_val, scalar</column>
+<column name="round_keys_5_val">in, 32, ap_none, round_keys_5_val, scalar</column>
+<column name="round_keys_6_val">in, 32, ap_none, round_keys_6_val, scalar</column>
+<column name="round_keys_7_val">in, 32, ap_none, round_keys_7_val, scalar</column>
+<column name="round_keys_8_val">in, 32, ap_none, round_keys_8_val, scalar</column>
+<column name="round_keys_9_val">in, 32, ap_none, round_keys_9_val, scalar</column>
+<column name="round_keys_10_val">in, 32, ap_none, round_keys_10_val, scalar</column>
+<column name="round_keys_11_val">in, 32, ap_none, round_keys_11_val, scalar</column>
+<column name="round_keys_12_val">in, 32, ap_none, round_keys_12_val, scalar</column>
+<column name="round_keys_13_val">in, 32, ap_none, round_keys_13_val, scalar</column>
+<column name="round_keys_14_val">in, 32, ap_none, round_keys_14_val, scalar</column>
+<column name="round_keys_15_val">in, 32, ap_none, round_keys_15_val, scalar</column>
+<column name="round_keys_16_val">in, 32, ap_none, round_keys_16_val, scalar</column>
+<column name="round_keys_17_val">in, 32, ap_none, round_keys_17_val, scalar</column>
+<column name="round_keys_18_val">in, 32, ap_none, round_keys_18_val, scalar</column>
+<column name="round_keys_19_val">in, 32, ap_none, round_keys_19_val, scalar</column>
+<column name="round_keys_20_val">in, 32, ap_none, round_keys_20_val, scalar</column>
+<column name="round_keys_21_val">in, 32, ap_none, round_keys_21_val, scalar</column>
+<column name="round_keys_22_val">in, 32, ap_none, round_keys_22_val, scalar</column>
+<column name="round_keys_23_val">in, 32, ap_none, round_keys_23_val, scalar</column>
+<column name="round_keys_24_val">in, 32, ap_none, round_keys_24_val, scalar</column>
+<column name="round_keys_25_val">in, 32, ap_none, round_keys_25_val, scalar</column>
+<column name="round_keys_26_val">in, 32, ap_none, round_keys_26_val, scalar</column>
+<column name="round_keys_27_val">in, 32, ap_none, round_keys_27_val, scalar</column>
+<column name="round_keys_28_val">in, 32, ap_none, round_keys_28_val, scalar</column>
+<column name="round_keys_29_val">in, 32, ap_none, round_keys_29_val, scalar</column>
+<column name="round_keys_30_val">in, 32, ap_none, round_keys_30_val, scalar</column>
+<column name="round_keys_31_val">in, 32, ap_none, round_keys_31_val, scalar</column>
+</table>
+</item>
+</section>
+</profile>

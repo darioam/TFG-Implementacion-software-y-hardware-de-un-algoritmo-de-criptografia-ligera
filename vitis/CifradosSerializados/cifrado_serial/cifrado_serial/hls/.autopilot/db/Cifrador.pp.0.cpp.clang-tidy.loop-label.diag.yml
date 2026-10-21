@@ -1,0 +1,100 @@
+---
+MainSourceFile:  'C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/.autopilot/db/Cifrador.pp.0.cpp'
+Diagnostics:
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_676_1:  '
+      FilePath:        'C:\Users\Dario\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\ap_int_ref.h'
+      FileOffset:      676
+      Replacements:
+        - FilePath:        'C:\Users\Dario\Documents\TFG\Vitis\CifradosSerializados\cifrado_serial\cifrado_serial\hls\.autopilot\db\Cifrador.pp.0.cpp'
+          Offset:          280841
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_676_1: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\Dario\Documents\TFG\Vitis\CifradosSerializados\cifrado_serial'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_690_1:  '
+      FilePath:        'C:\Users\Dario\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\ap_int_ref.h'
+      FileOffset:      690
+      Replacements:
+        - FilePath:        'C:\Users\Dario\Documents\TFG\Vitis\CifradosSerializados\cifrado_serial\cifrado_serial\hls\.autopilot\db\Cifrador.pp.0.cpp'
+          Offset:          281312
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_690_1: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\Dario\Documents\TFG\Vitis\CifradosSerializados\cifrado_serial'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_704_1:  '
+      FilePath:        'C:\Users\Dario\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\ap_int_ref.h'
+      FileOffset:      704
+      Replacements:
+        - FilePath:        'C:\Users\Dario\Documents\TFG\Vitis\CifradosSerializados\cifrado_serial\cifrado_serial\hls\.autopilot\db\Cifrador.pp.0.cpp'
+          Offset:          281784
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_704_1: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\Dario\Documents\TFG\Vitis\CifradosSerializados\cifrado_serial'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_1251_1:  '
+      FilePath:        'C:\Users\Dario\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\ap_fixed_base.h'
+      FileOffset:      1251
+      Replacements:
+        - FilePath:        'C:\Users\Dario\Documents\TFG\Vitis\CifradosSerializados\cifrado_serial\cifrado_serial\hls\.autopilot\db\Cifrador.pp.0.cpp'
+          Offset:          627847
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_1251_1: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\Dario\Documents\TFG\Vitis\CifradosSerializados\cifrado_serial'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_28_1:  '
+      FilePath:        Cifrador.cpp
+      FileOffset:      28
+      Replacements:
+        - FilePath:        'C:\Users\Dario\Documents\TFG\Vitis\CifradosSerializados\cifrado_serial\cifrado_serial\hls\.autopilot\db\Cifrador.pp.0.cpp'
+          Offset:          2248148
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_28_1: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\Dario\Documents\TFG\Vitis\CifradosSerializados\cifrado_serial'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_61_1:  '
+      FilePath:        Cifrador.cpp
+      FileOffset:      61
+      Replacements:
+        - FilePath:        'C:\Users\Dario\Documents\TFG\Vitis\CifradosSerializados\cifrado_serial\cifrado_serial\hls\.autopilot\db\Cifrador.pp.0.cpp'
+          Offset:          2248800
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_61_1: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\Dario\Documents\TFG\Vitis\CifradosSerializados\cifrado_serial'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_77_1:  '
+      FilePath:        Cifrador.cpp
+      FileOffset:      77
+      Replacements:
+        - FilePath:        'C:\Users\Dario\Documents\TFG\Vitis\CifradosSerializados\cifrado_serial\cifrado_serial\hls\.autopilot\db\Cifrador.pp.0.cpp'
+          Offset:          2249262
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_77_1: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\Dario\Documents\TFG\Vitis\CifradosSerializados\cifrado_serial'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_120_1:  '
+      FilePath:        Cifrador.cpp
+      FileOffset:      120
+      Replacements:
+        - FilePath:        'C:\Users\Dario\Documents\TFG\Vitis\CifradosSerializados\cifrado_serial\cifrado_serial\hls\.autopilot\db\Cifrador.pp.0.cpp'
+          Offset:          2250200
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_120_1: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\Dario\Documents\TFG\Vitis\CifradosSerializados\cifrado_serial'
+...

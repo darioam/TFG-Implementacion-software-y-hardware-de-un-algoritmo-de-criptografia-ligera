@@ -1,0 +1,126 @@
+  **** HLS Build v2025.2 6295257
+INFO: [HLS 200-2005] Using work_dir C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial 
+INFO: [HLS 200-2176] Writing Vitis IDE component file C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/vitis-comp.json
+INFO: [HLS 200-10] Creating and opening component 'C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial'.
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-2174] Applying component config ini file hls_config.cfg
+INFO: [HLS 200-1465] Applying config ini 'syn.file=Cifrador.cpp' from hls_config.cfg(8)
+INFO: [HLS 200-10] Adding design file 'C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/Cifrador.cpp' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.file=cifrador_serial.h' from hls_config.cfg(9)
+INFO: [HLS 200-10] Adding design file 'C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrador_serial.h' to the project
+INFO: [HLS 200-1465] Applying config ini 'tb.file=test.cpp' from hls_config.cfg(10)
+INFO: [HLS 200-10] Adding test bench file 'C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/test.cpp' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.top=cifrador_serial' from hls_config.cfg(7)
+INFO: [HLS 200-1465] Applying config ini 'flow_target=vivado' from hls_config.cfg(4)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying config ini 'part=xc7z020clg400-1' from hls_config.cfg(1)
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+INFO: [HLS 200-1465] Applying config ini 'package.output.format=ip_catalog' from hls_config.cfg(5)
+INFO: [HLS 200-2176] Writing Vitis IDE component file C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/vitis-comp.json
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 1 seconds. CPU system time: 2 seconds. Elapsed time: 9.732 seconds; current allocated memory: 134.152 MB.
+INFO: [HLS 200-2191] C-Synthesis will use clang-16 as the compiler
+INFO: [HLS 200-10] Analyzing design file 'Cifrador.cpp' ... 
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 24.385 seconds; current allocated memory: 136.844 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 200-1995] There were 3,257 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details (C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 250 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details (C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 225 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details (C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 156 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details (C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 156 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details (C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 201 instructions in the design after the 'Array/Struct (step 1)' phase of compilation. See the Design Size Report for more details (C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 150 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details (C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 150 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details (C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 150 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details (C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 153 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details (C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 153 instructions in the design after the 'Performance (step 1)' phase of compilation. See the Design Size Report for more details (C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 269 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details (C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 269 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details (C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 269 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details (C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 270 instructions in the design after the 'HW Transforms (step 1)' phase of compilation. See the Design Size Report for more details (C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 262 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details (C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 214-131] Inlining function 'permutation(ap_uint<32>)' into 'serial_round(ap_uint<32>&, ap_uint<32>)' (Cifrador.cpp:80:13)
+INFO: [HLS 214-131] Inlining function 'update_subblock(ap_uint<32>&, ap_uint<4>, ap_uint<4>)' into 'serial_round(ap_uint<32>&, ap_uint<32>)' (Cifrador.cpp:78:9)
+INFO: [HLS 214-131] Inlining function 'key_mixing(ap_uint<4>, ap_uint<4>)' into 'serial_round(ap_uint<32>&, ap_uint<32>)' (Cifrador.cpp:76:21)
+INFO: [HLS 214-131] Inlining function 'select_subblock(ap_uint<32>, ap_uint<4>)' into 'serial_round(ap_uint<32>&, ap_uint<32>)' (Cifrador.cpp:75:27)
+INFO: [HLS 214-131] Inlining function 'key_mixing(ap_uint<32>, ap_uint<32>)' into 'serial_last_round_correction(ap_uint<32>, ap_uint<32>)' (Cifrador.cpp:103:11)
+INFO: [HLS 214-131] Inlining function 'permutation_inverse(ap_uint<32>)' into 'serial_last_round_correction(ap_uint<32>, ap_uint<32>)' (Cifrador.cpp:102:11)
+INFO: [HLS 214-131] Inlining function 'key_schedule(ap_uint<64>&, int)' into 'cifrador_serial(ap_uint<32>, ap_uint<64>)' (Cifrador.cpp:133:28)
+INFO: [HLS 214-131] Inlining function 'serial_last_round_correction(ap_uint<32>, ap_uint<32>)' into 'cifrador_serial(ap_uint<32>, ap_uint<64>)' (Cifrador.cpp:138:13)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_88_1' (Cifrador.cpp:88:22) in function 'cifrador_serial' completely with a factor of 32 (Cifrador.cpp:125:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_40_1' (Cifrador.cpp:40:22) in function 'serial_round' completely with a factor of 32 (Cifrador.cpp:70:0)
+INFO: [HLS 214-248] Applying array_partition to 'table': Complete partitioning on dimension 1.
+WARNING: [HLS 214-358] Array transformation on index using bit extension logic may lead to poor performance. Please use int or long for array index computation to benefit from optimizations. (Cifrador.cpp:20:12)
+INFO: [HLS 214-376] Pipelining loop< VITIS_LOOP_131_1> at Cifrador.cpp:131:23 due to pipeline_loops threshold
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_73_1' is marked as complete unroll implied by the pipeline pragma (Cifrador.cpp:73:22)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_73_1' (Cifrador.cpp:73:22) in function 'serial_round' completely with a factor of 8 (Cifrador.cpp:70:0)
+WARNING: [HLS 214-209] Ignoring ALLOCATION pragma, because the corresponding call is removed (Cifrador.cpp:9:1)
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 13.643 seconds; current allocated memory: 138.816 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.012 seconds; current allocated memory: 138.816 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.101 seconds; current allocated memory: 144.000 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [XFORM 203-602] Inlining function 'serial_round' into 'cifrador_serial' (Cifrador.cpp:134) automatically.
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.082 seconds; current allocated memory: 145.910 MB.
+INFO: [XFORM 203-602] Inlining function 'serial_round' into 'cifrador_serial' (Cifrador.cpp:134) automatically.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.235 seconds; current allocated memory: 167.195 MB.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.361 seconds; current allocated memory: 170.816 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'cifrador_serial' ...
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'sbox' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'sbox'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 1, function 'sbox'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.697 seconds; current allocated memory: 174.062 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.063 seconds; current allocated memory: 175.094 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'cifrador_serial' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_131_1'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 10, loop 'VITIS_LOOP_131_1'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.327 seconds; current allocated memory: 175.809 MB.
+INFO: [HLS 200-2250] Rewind delay = 8 for the pipelined loop 'VITIS_LOOP_131_1' due to a write-after-read dependence on variable 'in (Cifrador.cpp:83)'.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.129 seconds; current allocated memory: 176.055 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'sbox' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_33_4_4_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'sbox'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.206 seconds; current allocated memory: 177.668 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'cifrador_serial' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+WARNING: [RTGEN 206-101] Design contains AXI ports. Reset is fixed to synchronous and active low.
+INFO: [RTGEN 206-500] Setting interface mode on port 'cifrador_serial/plaintext' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'cifrador_serial/key' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'cifrador_serial' to 's_axilite & ap_ctrl_hs'.
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'cifrador_serial' pipeline 'VITIS_LOOP_131_1' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Bundling port 'return', 'plaintext' and 'key' to AXI-Lite port control.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'cifrador_serial'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 1 seconds. Elapsed time: 0.431 seconds; current allocated memory: 178.895 MB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 1.994 seconds; current allocated memory: 184.512 MB.
+INFO: [HLS 200-2225] Wrote inferred directives to file C:/Users/Dario/Documents/TFG/Vitis/CifradosSerializados/cifrado_serial/cifrado_serial/hls/syn/inferred_directives.ini
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 1 seconds. CPU system time: 1 seconds. Elapsed time: 3.055 seconds; current allocated memory: 188.113 MB.
+INFO: [VHDL 208-304] Generating VHDL RTL for cifrador_serial.
+INFO: [VLOG 209-307] Generating Verilog RTL for cifrador_serial.
+INFO: [HLS 200-790] **** Loop Constraint Status: All loop constraints were satisfied.
+INFO: [HLS 200-789] **** Estimated Fmax: 201.78 MHz
+INFO: [HLS 200-112] Total CPU user time: 4 seconds. Total CPU system time: 4 seconds. Total elapsed time: 55.54 seconds; peak allocated memory: 188.176 MB.
+INFO: [v++ 60-791] Total elapsed time: 0h 1m 3s

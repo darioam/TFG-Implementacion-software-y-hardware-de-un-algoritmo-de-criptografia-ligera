@@ -1,0 +1,61 @@
+================================================================
+== Design Size Report
+================================================================
+
+* Total Instructions per Compilation Phase
++---------------+----------------------------+--------------+----------------------------------------------------------------------------------------+
+| Phase         | Step                       | Instructions | Description                                                                            |
++---------------+----------------------------+--------------+----------------------------------------------------------------------------------------+
+| Compile/Link  |                            | 3,258        | After all functions are compiled and linked into a single design                       |
+|               |                            |              |                                                                                        |
+| Unroll/Inline |                            |              | After user unroll and inline pragmas are applied                                       |
+|               | (1) unroll                 |   398        | user unroll pragmas are applied                                                        |
+|               | (2) simplification         |   378        | simplification of applied user unroll pragmas                                          |
+|               | (3) inline                 |   290        | user inline pragmas are applied                                                        |
+|               | (4) simplification         |   290        | simplification of applied user inline pragmas                                          |
+|               |                            |              |                                                                                        |
+| Array/Struct  |                            |              | After user array partition and struct aggregate/disaggregate pragmas are applied       |
+|               | (1) array partition        |   440        | user array partition pragmas are applied                                               |
+|               | (2) simplification         |   270        | simplification of applied user array partition & struct aggregate/disaggregate pragmas |
+|               | (3) aggregate/disaggregate |   270        | user struct aggregate/disaggregate pragmas are applied                                 |
+|               | (4) array reshape          |   270        | apply array reshape pragmas                                                            |
+|               | (5) access patterns        |   272        | array access pattern optmizations                                                      |
+|               |                            |              |                                                                                        |
+| Performance   |                            |              | After transformations are applied to meet performance pragma targets                   |
+|               | (1) loop simplification    |   272        | loop and instruction simplification                                                    |
+|               | (2) parallelization        |   267        | loops are unrolled or pipelined to meet performance targets                            |
+|               | (3) array partition        |   234        | arrays are partitioned to meet performance targets                                     |
+|               | (4) simplification         |   231        | simplification of design after performance transformations                             |
+|               |                            |              |                                                                                        |
+| HW Transforms |                            |              | After hardware transfomations                                                          |
+|               | (1) lowering               |   232        | initial conversion to HW specific instructions                                         |
+|               | (2) optimizations          |   224        | high level synthesis optimizations                                                     |
++---------------+----------------------------+--------------+----------------------------------------------------------------------------------------+
+
+* Instructions per Function for each Compilation Phase
++------------------------------------+------------------+-----------------+---------------+---------------+----------------+----------------+
+| Function                           | Location         | Compile/Link    | Unroll/Inline | Array/Struct  | Performance    | HW Transforms  |
++------------------------------------+------------------+-----------------+---------------+---------------+----------------+----------------+
+| + cifrador_serial                  | Cifrador.cpp:114 | 3,258           | 290           | 272           | 231            | 224            |
+|  + key_schedule                    | Cifrador.cpp:97  | 1,250 (2 calls) |               |               |                |                |
+|     sbox                           | Cifrador.cpp:7   |  644 (2 calls)  |               |               |                |                |
+|  + serial_round                    | Cifrador.cpp:58  | 1,776           | 199           | 183           |                |                |
+|     select_subblock                | Cifrador.cpp:47  |  377            |               |               |                |                |
+|     key_mixing                     | Cifrador.cpp:37  |   54            |               |               |                |                |
+|     sbox                           | Cifrador.cpp:7   |  322            |  56 (8 calls) |  40 (8 calls) |                |                |
+|     update_subblock                | Cifrador.cpp:53  |  388            |               |               |                |                |
+|     permutation                    | Cifrador.cpp:23  |   95            |               |               |                |                |
+|  + serial_last_round_correction... | Cifrador.cpp:86  |  186            |               |               |                |                |
+|     permutation_inverse            | Cifrador.cpp:72  |   95            |               |               |                |                |
+|     key_mixing                     | Cifrador.cpp:42  |   49            |               |               |                |                |
+|    sbox                            | Cifrador.cpp:7   |                 |  14 (2 calls) |  10 (2 calls) |  50 (10 calls) |  50 (10 calls) |
++------------------------------------+------------------+-----------------+---------------+---------------+----------------+----------------+
+
+* Design Size Message Settings
++---------------------------------------------+--------+------------------------------------------------------------------+
+| Message Setting                             | Value  | Description                                                      |
++---------------------------------------------+--------+------------------------------------------------------------------+
+| config_compile -design_size_maximum_warning | 100000 | Show a warning when total design instructions exceeds this value |
++---------------------------------------------+--------+------------------------------------------------------------------+
+
+

@@ -1,0 +1,157 @@
+<ENTRY>
+{
+ "thisFile": "C:/Users\\Dario\\Documents\\TFG\\Vitis\\Present\\present\\present\\present.hlsrun_csim_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "04/26/26 13:55:03",
+ "timestampMillis": "1777204503748",
+ "buildStep": {
+  "cmdId": "3e5c0cf0-228d-4577-a833-6913ecca1e00",
+  "name": "vitis-run",
+  "logFile": "C:/Users\\Dario\\Documents\\TFG\\Vitis\\Present\\present\\present\\logs\\present.steps.log",
+  "commandLine": "C:/Users/Dario/AMDDesignTools/2025.2/Vitis/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --csim --config C:\\Users\\Dario\\Documents\\TFG\\Vitis\\Present\\present\\hls_config.cfg --work_dir present ",
+  "args": [
+   "--mode",
+   "hls",
+   "--csim",
+   "--config",
+   "C:\\Users\\Dario\\Documents\\TFG\\Vitis\\Present\\present\\hls_config.cfg",
+   "--work_dir",
+   "present"
+  ],
+  "iniFiles": [],
+  "cwd": "C:\\Users\\Dario\\Documents\\TFG\\Vitis\\Present\\present"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "04/26/26 13:55:03",
+ "timestampMillis": "1777204503749",
+ "status": {
+  "cmdId": "3e5c0cf0-228d-4577-a833-6913ecca1e00",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "04/26/26 13:55:11",
+ "timestampMillis": "1777204511636",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_C_SIM",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "present",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "C:/Users\\Dario\\Documents\\TFG\\Vitis\\Present\\present\\present.cpp",
+     "C:/Users\\Dario\\Documents\\TFG\\Vitis\\Present\\present\\present.h"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2025.2"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "04/26/26 13:55:11",
+ "timestampMillis": "1777204511638",
+ "buildStep": {
+  "cmdId": "eee5acd0-7c65-4907-9ff5-bcc05c588237",
+  "name": "",
+  "logFile": "C:/Users\\Dario\\Documents\\TFG\\Vitis\\Present\\present\\present\\hls\\hls.log",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "C:\\Users\\Dario\\Documents\\TFG\\Vitis\\Present\\present"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "04/26/26 13:55:11",
+ "timestampMillis": "1777204511639",
+ "status": {
+  "cmdId": "eee5acd0-7c65-4907-9ff5-bcc05c588237",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "04/26/26 13:55:15",
+ "timestampMillis": "1777204515944",
+ "status": {
+  "cmdId": "eee5acd0-7c65-4907-9ff5-bcc05c588237",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "04/26/26 13:55:16",
+ "timestampMillis": "1777204516128",
+ "status": {
+  "cmdId": "3e5c0cf0-228d-4577-a833-6913ecca1e00",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "04/26/26 13:55:16",
+ "timestampMillis": "1777204516129",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "04/26/26 13:55:16",
+ "timestampMillis": "1777204516129",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

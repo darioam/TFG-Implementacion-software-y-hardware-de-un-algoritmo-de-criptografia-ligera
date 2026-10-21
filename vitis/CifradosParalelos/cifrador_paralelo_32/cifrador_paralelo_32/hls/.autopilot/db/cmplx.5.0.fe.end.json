@@ -1,0 +1,35 @@
+{
+    "1": {
+        "name": "cifrador",
+        "file": "Cifrador.cpp",
+        "fileloc": "106",
+        "instructions": "90",
+        "total_instructions": "90",
+        "calls": "",
+        "basicblocks": "4",
+        "memory_accesses": "7",
+        "control_depth": "1",
+        "def_use_depth": "3",
+        "loads": {
+            "L": "5"
+        },
+        "stores": {
+            "L": "7"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "0": {
+        "name": "cifrador_paralelo_32",
+        "file": "Cifrador.cpp",
+        "fileloc": "125",
+        "instructions": "295",
+        "total_instructions": "3175",
+        "calls": "1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1",
+        "basicblocks": "1",
+        "memory_accesses": "0",
+        "control_depth": "0",
+        "def_use_depth": "2"
+    }
+}

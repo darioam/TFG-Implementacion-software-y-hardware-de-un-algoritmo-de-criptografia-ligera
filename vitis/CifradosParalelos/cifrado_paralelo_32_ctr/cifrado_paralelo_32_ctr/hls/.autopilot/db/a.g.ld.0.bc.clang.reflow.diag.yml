@@ -1,0 +1,427 @@
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: Cifrador.cpp, Line: 98, Column: 25 }
+Function:        _Z12key_scheduleR7ap_uintILi64EEi
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'sbox(ap_uint<4>)'
+    DebugLoc:        { File: Cifrador.cpp, Line: 7, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'key_schedule(ap_uint<64>&, int)'
+    DebugLoc:        { File: Cifrador.cpp, Line: 89, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: Cifrador.cpp, Line: 28, Column: 33 }
+Function:        _Z11sustitution7ap_uintILi32EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'sbox(ap_uint<4>)'
+    DebugLoc:        { File: Cifrador.cpp, Line: 7, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'sustitution(ap_uint<32>)'
+    DebugLoc:        { File: Cifrador.cpp, Line: 22, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: Cifrador.cpp, Line: 59, Column: 11 }
+Function:        _Z14round_function7ap_uintILi32EES0_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'permutation(ap_uint<32>)'
+    DebugLoc:        { File: Cifrador.cpp, Line: 34, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'round_function(ap_uint<32>, ap_uint<32>)'
+    DebugLoc:        { File: Cifrador.cpp, Line: 53, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: Cifrador.cpp, Line: 58, Column: 11 }
+Function:        _Z14round_function7ap_uintILi32EES0_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'sustitution(ap_uint<32>)'
+    DebugLoc:        { File: Cifrador.cpp, Line: 22, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'round_function(ap_uint<32>, ap_uint<32>)'
+    DebugLoc:        { File: Cifrador.cpp, Line: 53, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: Cifrador.cpp, Line: 57, Column: 11 }
+Function:        _Z14round_function7ap_uintILi32EES0_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'key_mixing(ap_uint<32>, ap_uint<32>)'
+    DebugLoc:        { File: Cifrador.cpp, Line: 48, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'round_function(ap_uint<32>, ap_uint<32>)'
+    DebugLoc:        { File: Cifrador.cpp, Line: 53, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: Cifrador.cpp, Line: 84, Column: 11 }
+Function:        _Z21last_round_correction7ap_uintILi32EES0_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'key_mixing(ap_uint<32>, ap_uint<32>)'
+    DebugLoc:        { File: Cifrador.cpp, Line: 48, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'last_round_correction(ap_uint<32>, ap_uint<32>)'
+    DebugLoc:        { File: Cifrador.cpp, Line: 78, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: Cifrador.cpp, Line: 83, Column: 11 }
+Function:        _Z21last_round_correction7ap_uintILi32EES0_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'permutation_inverse(ap_uint<32>)'
+    DebugLoc:        { File: Cifrador.cpp, Line: 64, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'last_round_correction(ap_uint<32>, ap_uint<32>)'
+    DebugLoc:        { File: Cifrador.cpp, Line: 78, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: Cifrador.cpp, Line: 112, Column: 28 }
+Function:        _Z8cifrador7ap_uintILi32EES_ILi64EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'key_schedule(ap_uint<64>&, int)'
+    DebugLoc:        { File: Cifrador.cpp, Line: 89, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'cifrador(ap_uint<32>, ap_uint<64>)'
+    DebugLoc:        { File: Cifrador.cpp, Line: 106, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: Cifrador.cpp, Line: 117, Column: 13 }
+Function:        _Z8cifrador7ap_uintILi32EES_ILi64EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'last_round_correction(ap_uint<32>, ap_uint<32>)'
+    DebugLoc:        { File: Cifrador.cpp, Line: 78, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'cifrador(ap_uint<32>, ap_uint<64>)'
+    DebugLoc:        { File: Cifrador.cpp, Line: 106, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: Cifrador.cpp, Line: 113, Column: 17 }
+Function:        _Z8cifrador7ap_uintILi32EES_ILi64EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'round_function(ap_uint<32>, ap_uint<32>)'
+    DebugLoc:        { File: Cifrador.cpp, Line: 53, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'cifrador(ap_uint<32>, ap_uint<64>)'
+    DebugLoc:        { File: Cifrador.cpp, Line: 106, Column: 0 }
+  - String:          ''''
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: Cifrador.cpp, Line: 142, Column: 22 }
+Function:        _Z24cifrador_paralelo_32_ctrP7ap_uintILi32EES_ILi64EES1_S0_
+Args:            
+  - Callee:          'cifrador(ap_uint<32>, ap_uint<64>)'
+    DebugLoc:        { File: Cifrador.cpp, Line: 106, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'cifrador_paralelo_32_ctr(ap_uint<32>*, ap_uint<64>, ap_uint<32>*, ap_uint<32>)'
+    DebugLoc:        { File: Cifrador.cpp, Line: 129, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: Cifrador.cpp, Line: 129, Column: 0 }
+Function:        _Z24cifrador_paralelo_32_ctrP7ap_uintILi32EES_ILi64EES1_S0_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_140_1
+  - String:          ''' ('
+  - LoopLoc:         'Cifrador.cpp:140:23'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          cifrador_paralelo_32_ctr
+  - String:          ''' completely with a factor of '
+  - Factor:          '32'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: Cifrador.cpp, Line: 106, Column: 0 }
+Function:        _Z8cifrador7ap_uintILi32EES_ILi64EE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_69_1
+  - String:          ''' ('
+  - LoopLoc:         'Cifrador.cpp:69:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          cifrador
+  - String:          ''' completely with a factor of '
+  - Factor:          '32'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: Cifrador.cpp, Line: 106, Column: 0 }
+Function:        _Z8cifrador7ap_uintILi32EES_ILi64EE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_26_1
+  - String:          ''' ('
+  - LoopLoc:         'Cifrador.cpp:26:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          cifrador
+  - String:          ''' completely with a factor of '
+  - Factor:          '8'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: Cifrador.cpp, Line: 106, Column: 0 }
+Function:        _Z8cifrador7ap_uintILi32EES_ILi64EE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_39_1
+  - String:          ''' ('
+  - LoopLoc:         'Cifrador.cpp:39:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          cifrador
+  - String:          ''' completely with a factor of '
+  - Factor:          '32'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: Cifrador.cpp, Line: 142, Column: 22 }
+Function:        _Z24cifrador_paralelo_32_ctrP7ap_uintILi32EES_ILi64EES1_S0_
+Args:            
+  - Callee:          'cifrador(ap_uint<32>, ap_uint<64>)'
+    DebugLoc:        { File: Cifrador.cpp, Line: 106, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'cifrador_paralelo_32_ctr(ap_uint<32>*, ap_uint<64>, ap_uint<32>*, ap_uint<32>)'
+    DebugLoc:        { File: Cifrador.cpp, Line: 129, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+Function:        apatb_cifrador_paralelo_32_ctr_ir
+Args:            
+  - Callee:          'cifrador_paralelo_32_ctr(ap_uint<32>*, ap_uint<64>, ap_uint<32>*, ap_uint<32>)'
+    DebugLoc:        { File: Cifrador.cpp, Line: 129, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          apatb_cifrador_paralelo_32_ctr_ir
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+Function:        _Z8cifrador7ap_uintILi32EES_ILi64EE
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          table.i.i.i
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+Function:        _Z8cifrador7ap_uintILi32EES_ILi64EE
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          table.i.i
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Failure
+Pass:            reflow-array-partition
+Name:            WarnArrayXFORMOnIndexCast
+DebugLoc:        { File: Cifrador.cpp, Line: 19, Column: 12 }
+Function:        _Z8cifrador7ap_uintILi32EES_ILi64EE
+Args:            
+  - String:          Array transformation on index using bit extension logic may lead to poor performance. Please use int or long for array index computation to benefit from optimizations.
+...
+--- !Failure
+Pass:            reflow-array-partition
+Name:            WarnArrayXFORMOnIndexCast
+DebugLoc:        { File: Cifrador.cpp, Line: 19, Column: 12 }
+Function:        _Z8cifrador7ap_uintILi32EES_ILi64EE
+Args:            
+  - String:          Array transformation on index using bit extension logic may lead to poor performance. Please use int or long for array index computation to benefit from optimizations.
+...
+--- !Failure
+Pass:            reflow-array-partition
+Name:            WarnArrayXFORMOnIndexCast
+DebugLoc:        { File: Cifrador.cpp, Line: 19, Column: 12 }
+Function:        _Z8cifrador7ap_uintILi32EES_ILi64EE
+Args:            
+  - String:          Array transformation on index using bit extension logic may lead to poor performance. Please use int or long for array index computation to benefit from optimizations.
+...
+--- !Failure
+Pass:            reflow-array-partition
+Name:            WarnArrayXFORMOnIndexCast
+DebugLoc:        { File: Cifrador.cpp, Line: 19, Column: 12 }
+Function:        _Z8cifrador7ap_uintILi32EES_ILi64EE
+Args:            
+  - String:          Array transformation on index using bit extension logic may lead to poor performance. Please use int or long for array index computation to benefit from optimizations.
+...
+--- !Failure
+Pass:            reflow-array-partition
+Name:            WarnArrayXFORMOnIndexCast
+DebugLoc:        { File: Cifrador.cpp, Line: 19, Column: 12 }
+Function:        _Z8cifrador7ap_uintILi32EES_ILi64EE
+Args:            
+  - String:          Array transformation on index using bit extension logic may lead to poor performance. Please use int or long for array index computation to benefit from optimizations.
+...
+--- !Failure
+Pass:            reflow-array-partition
+Name:            WarnArrayXFORMOnIndexCast
+DebugLoc:        { File: Cifrador.cpp, Line: 19, Column: 12 }
+Function:        _Z8cifrador7ap_uintILi32EES_ILi64EE
+Args:            
+  - String:          Array transformation on index using bit extension logic may lead to poor performance. Please use int or long for array index computation to benefit from optimizations.
+...
+--- !Failure
+Pass:            reflow-array-partition
+Name:            WarnArrayXFORMOnIndexCast
+DebugLoc:        { File: Cifrador.cpp, Line: 19, Column: 12 }
+Function:        _Z8cifrador7ap_uintILi32EES_ILi64EE
+Args:            
+  - String:          Array transformation on index using bit extension logic may lead to poor performance. Please use int or long for array index computation to benefit from optimizations.
+...
+--- !Failure
+Pass:            reflow-array-partition
+Name:            WarnArrayXFORMOnIndexCast
+DebugLoc:        { File: Cifrador.cpp, Line: 19, Column: 12 }
+Function:        _Z8cifrador7ap_uintILi32EES_ILi64EE
+Args:            
+  - String:          Array transformation on index using bit extension logic may lead to poor performance. Please use int or long for array index computation to benefit from optimizations.
+...
+--- !Failure
+Pass:            reflow-array-partition
+Name:            WarnArrayXFORMOnIndexCast
+DebugLoc:        { File: Cifrador.cpp, Line: 19, Column: 12 }
+Function:        _Z8cifrador7ap_uintILi32EES_ILi64EE
+Args:            
+  - String:          Array transformation on index using bit extension logic may lead to poor performance. Please use int or long for array index computation to benefit from optimizations.
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: Cifrador.cpp, Line: 129, Column: 0 }
+Function:        _Z24cifrador_paralelo_32_ctrP7ap_uintILi32EES_ILi64EES1_S0_
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          plaintext
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: Cifrador.cpp, Line: 129, Column: 0 }
+Function:        _Z24cifrador_paralelo_32_ctrP7ap_uintILi32EES_ILi64EES1_S0_
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          ciphertext
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !HLSReportInfo
+Pass:            reflow-auto-loop-pipeline
+Name:            AutoLoopPipeline
+Args:            
+  - String:          'Pipelining loop< '
+  - LoopName:        VITIS_LOOP_110_1
+  - String:          '> at '
+  - LoopLoc:         'Cifrador.cpp:110:23'
+  - String:          ' due to pipeline_loops threshold'
+...
+--- !Passed
+Pass:            reflow-auto-loop-pipeline
+Name:            AutoParallelPerformanceDrivenVerbosePassed
+DebugLoc:        { File: Cifrador.cpp, Line: 110, Column: 23 }
+Function:        _Z8cifrador7ap_uintILi32EES_ILi64EE
+Args:            
+  - PragmaType:      pipeline
+  - String:          ' '
+  - PragmaOptions:   ' '
+  - String:          ' '
+  - PragmaIsAuto:    '1'
+  - String:          ' '
+  - PragmaFunction:  cifrador
+  - String:          ' '
+  - PragmaInferReason: config_compile -pipeline_loops 64
+  - LoopName:        VITIS_LOOP_110_1
+  - String:          ' '
+  - LoopLoc:         'Cifrador.cpp:110:23'
+    DebugLoc:        { File: Cifrador.cpp, Line: 110, Column: 23 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: Cifrador.cpp, Line: 142, Column: 22 }
+Function:        _Z24cifrador_paralelo_32_ctrP7ap_uintILi32EES_ILi64EES1_S0_
+Args:            
+  - Callee:          'cifrador(ap_uint<32>, ap_uint<64>)'
+    DebugLoc:        { File: Cifrador.cpp, Line: 106, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'cifrador_paralelo_32_ctr(ap_uint<32>*, ap_uint<64>, ap_uint<32>*, ap_uint<32>)'
+    DebugLoc:        { File: Cifrador.cpp, Line: 129, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...

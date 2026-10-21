@@ -1,0 +1,44 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Thu Apr  2 19:26:42 2026
+# Process ID         : 7276
+# Current directory  : C:/Users/Dario/Documents/TFG/Vitis/Cifrados/cifrador_basico_unroll_2/cifrador_basico_unroll_2/hls/impl/ip
+# Command line       : vivado.exe -notrace -mode batch -source run_ippack.tcl
+# Log file           : C:/Users/Dario/Documents/TFG/Vitis/Cifrados/cifrador_basico_unroll_2/cifrador_basico_unroll_2/hls/impl/ip/vivado.log
+# Journal file       : C:/Users/Dario/Documents/TFG/Vitis/Cifrados/cifrador_basico_unroll_2/cifrador_basico_unroll_2/hls/impl/ip\vivado.jou
+# Running On         : DESKTOP-60NA4LT
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 22621
+# Processor Detail   : Intel(R) Core(TM) i7-7500U CPU @ 2.70GHz
+# CPU Frequency      : 2904 MHz
+# CPU Physical cores : 2
+# CPU Logical cores  : 4
+# Host memory        : 17060 MB
+# Swap memory        : 11274 MB
+# Total Virtual      : 28334 MB
+# Available Virtual  : 10072 MB
+#-----------------------------------------------------------
+source run_ippack.tcl -notrace
+INFO: calling package_hls_ip ip_types=vitis sysgen json_file=C:/Users/Dario/Documents/TFG/Vitis/Cifrados/cifrador_basico_unroll_2/cifrador_basico_unroll_2/hls/hls_data.json outdir=C:/Users/Dario/Documents/TFG/Vitis/Cifrados/cifrador_basico_unroll_2/cifrador_basico_unroll_2/hls/impl/ip srcdir=C:/Users/Dario/Documents/TFG/Vitis/Cifrados/cifrador_basico_unroll_2/cifrador_basico_unroll_2/hls ippack_options_dict= ippack_options_dict=
+INFO: Copied 1 ipmisc file(s) to C:/Users/Dario/Documents/TFG/Vitis/Cifrados/cifrador_basico_unroll_2/cifrador_basico_unroll_2/hls/impl/ip/misc
+INFO: Copied 4 verilog file(s) to C:/Users/Dario/Documents/TFG/Vitis/Cifrados/cifrador_basico_unroll_2/cifrador_basico_unroll_2/hls/impl/ip/hdl/verilog
+INFO: Copied 4 vhdl file(s) to C:/Users/Dario/Documents/TFG/Vitis/Cifrados/cifrador_basico_unroll_2/cifrador_basico_unroll_2/hls/impl/ip/hdl/vhdl
+INFO: Copied 10 swdriver file(s) to C:/Users/Dario/Documents/TFG/Vitis/Cifrados/cifrador_basico_unroll_2/cifrador_basico_unroll_2/hls/impl/ip/drivers
+ipx::create_core: Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 532.156 ; gain = 218.527
+INFO: Import ports from HDL: C:/Users/Dario/Documents/TFG/Vitis/Cifrados/cifrador_basico_unroll_2/cifrador_basico_unroll_2/hls/impl/ip/hdl/vhdl/cifrador_basico_unroll_2.vhd (cifrador_basico_unroll_2)
+INFO: Add axi4lite interface s_axi_control
+INFO: Add clock interface ap_clk
+INFO: Add reset interface ap_rst_n
+INFO: Add interrupt interface interrupt
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Users/Dario/AMDDesignTools/2025.2/Vivado/data/ip'.
+INFO: Calling post_process_vitis to specialize IP
+INFO: Calling post_process_sysgen to specialize IP
+Generating sysgen info xml from json file
+INFO: Created IP C:/Users/Dario/Documents/TFG/Vitis/Cifrados/cifrador_basico_unroll_2/cifrador_basico_unroll_2/hls/impl/ip/component.xml
+INFO: Created IP archive C:/Users/Dario/Documents/TFG/Vitis/Cifrados/cifrador_basico_unroll_2/cifrador_basico_unroll_2/hls/impl/ip/xilinx_com_hls_cifrador_basico_unroll_2_1_0.zip
+INFO: [Common 17-206] Exiting Vivado at Thu Apr  2 19:27:06 2026...

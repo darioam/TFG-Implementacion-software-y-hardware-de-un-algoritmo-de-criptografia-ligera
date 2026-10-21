@@ -1,0 +1,71 @@
+{
+  "0": {
+    "basicblocks": 6,
+    "calls": "2 1 2",
+    "control_depth": 0,
+    "def_use_depth": 35,
+    "file": "Cifrador.cpp",
+    "fileloc": 114,
+    "instructions": 116,
+    "loads": {
+      "L": 2
+    },
+    "memory_accesses": 3,
+    "name": "cifrador_serial",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 398
+  },
+  "1": {
+    "basicblocks": 5,
+    "calls": "2 2 2 2 2 2 2 2",
+    "control_depth": 0,
+    "def_use_depth": 33,
+    "file": "Cifrador.cpp",
+    "fileloc": 58,
+    "instructions": 212,
+    "loads": {
+      "L": 10
+    },
+    "memory_accesses": 0,
+    "name": "serial_round",
+    "stores": {
+      "L": 2
+    },
+    "total_instructions": 268
+  },
+  "2": {
+    "basicblocks": 1,
+    "calls": "",
+    "control_depth": 0,
+    "def_use_depth": 2,
+    "file": "Cifrador.cpp",
+    "fileloc": 7,
+    "instructions": 7,
+    "loads": {
+      "G": 1
+    },
+    "memory_accesses": 0,
+    "name": "sbox",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 7
+  },
+  "3": {
+    "basicblocks": 1,
+    "calls": "",
+    "control_depth": 0,
+    "def_use_depth": 2,
+    "file": "Cifrador.cpp",
+    "fileloc": 7,
+    "instructions": 6,
+    "loads": {
+      "G": 1
+    },
+    "memory_accesses": 0,
+    "name": "sbox",
+    "total_instructions": 6
+  }
+}

@@ -1,0 +1,1346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="cifrador_paralelo_32.wdb" id="1">
+         <top_modules>
+            <top_module name="apa_cifrador_paralelo_32_top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0ns"></ZoomStartTime>
+      <ZoomEndTime time="2000ns"></ZoomEndTime>
+      <Cursor1Time time="0ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="257"></NameColumnWidth>
+      <ValueColumnWidth column_width="84"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="2" />
+   <wvobject type="group" fp_name="HLS Process Summary Group">
+      <obj_property name="label">HLS Process Summary</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="group" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32//AESL_inst_cifrador_paralelo_32_activity">
+         <obj_property name="label">AESL_inst_cifrador_paralelo_32_activity</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="UseFullPath">true</obj_property>
+         <obj_property name="ElementShortName">AESL_inst_cifrador_paralelo_32_activity</obj_property>
+         <obj_property name="ObjectShortName">AESL_inst_cifrador_paralelo_32_activity</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+         <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">turquoise</obj_property>
+         <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+         <obj_property name="Render_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32//AESL_inst_cifrador_paralelo_32_activity.dataflowTxWaveData.Cycles</obj_property>
+         <obj_property name="Value_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32//AESL_inst_cifrador_paralelo_32_activity.dataflowTxWaveData.OutStanding</obj_property>
+         <obj_property name="Detail_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32//AESL_inst_cifrador_paralelo_32_activity.dataflowTxTooltipData</obj_property>
+         <wvobject type="group" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_710/grp_cifrador_fu_710_activity">
+            <obj_property name="label">grp_cifrador_fu_710_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_cifrador_fu_710_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_cifrador_fu_710_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_710/grp_cifrador_fu_710_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_710/grp_cifrador_fu_710_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_710/grp_cifrador_fu_710_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_719/grp_cifrador_fu_719_activity">
+            <obj_property name="label">grp_cifrador_fu_719_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_cifrador_fu_719_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_cifrador_fu_719_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_719/grp_cifrador_fu_719_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_719/grp_cifrador_fu_719_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_719/grp_cifrador_fu_719_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_728/grp_cifrador_fu_728_activity">
+            <obj_property name="label">grp_cifrador_fu_728_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_cifrador_fu_728_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_cifrador_fu_728_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_728/grp_cifrador_fu_728_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_728/grp_cifrador_fu_728_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_728/grp_cifrador_fu_728_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_737/grp_cifrador_fu_737_activity">
+            <obj_property name="label">grp_cifrador_fu_737_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_cifrador_fu_737_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_cifrador_fu_737_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_737/grp_cifrador_fu_737_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_737/grp_cifrador_fu_737_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_737/grp_cifrador_fu_737_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_746/grp_cifrador_fu_746_activity">
+            <obj_property name="label">grp_cifrador_fu_746_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_cifrador_fu_746_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_cifrador_fu_746_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_746/grp_cifrador_fu_746_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_746/grp_cifrador_fu_746_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_746/grp_cifrador_fu_746_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_755/grp_cifrador_fu_755_activity">
+            <obj_property name="label">grp_cifrador_fu_755_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_cifrador_fu_755_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_cifrador_fu_755_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_755/grp_cifrador_fu_755_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_755/grp_cifrador_fu_755_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_755/grp_cifrador_fu_755_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_764/grp_cifrador_fu_764_activity">
+            <obj_property name="label">grp_cifrador_fu_764_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_cifrador_fu_764_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_cifrador_fu_764_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_764/grp_cifrador_fu_764_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_764/grp_cifrador_fu_764_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_764/grp_cifrador_fu_764_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_773/grp_cifrador_fu_773_activity">
+            <obj_property name="label">grp_cifrador_fu_773_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_cifrador_fu_773_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_cifrador_fu_773_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_773/grp_cifrador_fu_773_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_773/grp_cifrador_fu_773_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_773/grp_cifrador_fu_773_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_782/grp_cifrador_fu_782_activity">
+            <obj_property name="label">grp_cifrador_fu_782_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_cifrador_fu_782_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_cifrador_fu_782_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_782/grp_cifrador_fu_782_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_782/grp_cifrador_fu_782_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_782/grp_cifrador_fu_782_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_791/grp_cifrador_fu_791_activity">
+            <obj_property name="label">grp_cifrador_fu_791_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_cifrador_fu_791_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_cifrador_fu_791_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_791/grp_cifrador_fu_791_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_791/grp_cifrador_fu_791_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_791/grp_cifrador_fu_791_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_800/grp_cifrador_fu_800_activity">
+            <obj_property name="label">grp_cifrador_fu_800_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_cifrador_fu_800_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_cifrador_fu_800_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_800/grp_cifrador_fu_800_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_800/grp_cifrador_fu_800_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_800/grp_cifrador_fu_800_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_809/grp_cifrador_fu_809_activity">
+            <obj_property name="label">grp_cifrador_fu_809_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_cifrador_fu_809_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_cifrador_fu_809_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_809/grp_cifrador_fu_809_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_809/grp_cifrador_fu_809_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_809/grp_cifrador_fu_809_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_818/grp_cifrador_fu_818_activity">
+            <obj_property name="label">grp_cifrador_fu_818_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_cifrador_fu_818_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_cifrador_fu_818_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_818/grp_cifrador_fu_818_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_818/grp_cifrador_fu_818_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_818/grp_cifrador_fu_818_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_827/grp_cifrador_fu_827_activity">
+            <obj_property name="label">grp_cifrador_fu_827_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_cifrador_fu_827_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_cifrador_fu_827_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_827/grp_cifrador_fu_827_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_827/grp_cifrador_fu_827_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_827/grp_cifrador_fu_827_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_836/grp_cifrador_fu_836_activity">
+            <obj_property name="label">grp_cifrador_fu_836_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_cifrador_fu_836_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_cifrador_fu_836_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_836/grp_cifrador_fu_836_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_836/grp_cifrador_fu_836_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_836/grp_cifrador_fu_836_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_845/grp_cifrador_fu_845_activity">
+            <obj_property name="label">grp_cifrador_fu_845_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_cifrador_fu_845_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_cifrador_fu_845_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_845/grp_cifrador_fu_845_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_845/grp_cifrador_fu_845_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_845/grp_cifrador_fu_845_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_854/grp_cifrador_fu_854_activity">
+            <obj_property name="label">grp_cifrador_fu_854_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_cifrador_fu_854_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_cifrador_fu_854_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_854/grp_cifrador_fu_854_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_854/grp_cifrador_fu_854_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_854/grp_cifrador_fu_854_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_863/grp_cifrador_fu_863_activity">
+            <obj_property name="label">grp_cifrador_fu_863_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_cifrador_fu_863_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_cifrador_fu_863_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_863/grp_cifrador_fu_863_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_863/grp_cifrador_fu_863_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_863/grp_cifrador_fu_863_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_872/grp_cifrador_fu_872_activity">
+            <obj_property name="label">grp_cifrador_fu_872_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_cifrador_fu_872_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_cifrador_fu_872_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_872/grp_cifrador_fu_872_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_872/grp_cifrador_fu_872_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_872/grp_cifrador_fu_872_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_881/grp_cifrador_fu_881_activity">
+            <obj_property name="label">grp_cifrador_fu_881_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_cifrador_fu_881_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_cifrador_fu_881_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_881/grp_cifrador_fu_881_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_881/grp_cifrador_fu_881_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_881/grp_cifrador_fu_881_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_890/grp_cifrador_fu_890_activity">
+            <obj_property name="label">grp_cifrador_fu_890_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_cifrador_fu_890_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_cifrador_fu_890_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_890/grp_cifrador_fu_890_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_890/grp_cifrador_fu_890_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_890/grp_cifrador_fu_890_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_899/grp_cifrador_fu_899_activity">
+            <obj_property name="label">grp_cifrador_fu_899_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_cifrador_fu_899_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_cifrador_fu_899_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_899/grp_cifrador_fu_899_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_899/grp_cifrador_fu_899_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_899/grp_cifrador_fu_899_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_908/grp_cifrador_fu_908_activity">
+            <obj_property name="label">grp_cifrador_fu_908_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_cifrador_fu_908_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_cifrador_fu_908_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_908/grp_cifrador_fu_908_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_908/grp_cifrador_fu_908_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_908/grp_cifrador_fu_908_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_917/grp_cifrador_fu_917_activity">
+            <obj_property name="label">grp_cifrador_fu_917_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_cifrador_fu_917_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_cifrador_fu_917_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_917/grp_cifrador_fu_917_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_917/grp_cifrador_fu_917_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_917/grp_cifrador_fu_917_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_926/grp_cifrador_fu_926_activity">
+            <obj_property name="label">grp_cifrador_fu_926_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_cifrador_fu_926_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_cifrador_fu_926_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_926/grp_cifrador_fu_926_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_926/grp_cifrador_fu_926_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_926/grp_cifrador_fu_926_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_935/grp_cifrador_fu_935_activity">
+            <obj_property name="label">grp_cifrador_fu_935_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_cifrador_fu_935_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_cifrador_fu_935_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_935/grp_cifrador_fu_935_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_935/grp_cifrador_fu_935_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_935/grp_cifrador_fu_935_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_944/grp_cifrador_fu_944_activity">
+            <obj_property name="label">grp_cifrador_fu_944_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_cifrador_fu_944_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_cifrador_fu_944_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_944/grp_cifrador_fu_944_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_944/grp_cifrador_fu_944_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_944/grp_cifrador_fu_944_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_953/grp_cifrador_fu_953_activity">
+            <obj_property name="label">grp_cifrador_fu_953_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_cifrador_fu_953_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_cifrador_fu_953_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_953/grp_cifrador_fu_953_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_953/grp_cifrador_fu_953_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_953/grp_cifrador_fu_953_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_962/grp_cifrador_fu_962_activity">
+            <obj_property name="label">grp_cifrador_fu_962_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_cifrador_fu_962_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_cifrador_fu_962_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_962/grp_cifrador_fu_962_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_962/grp_cifrador_fu_962_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_962/grp_cifrador_fu_962_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_971/grp_cifrador_fu_971_activity">
+            <obj_property name="label">grp_cifrador_fu_971_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_cifrador_fu_971_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_cifrador_fu_971_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_971/grp_cifrador_fu_971_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_971/grp_cifrador_fu_971_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_971/grp_cifrador_fu_971_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_980/grp_cifrador_fu_980_activity">
+            <obj_property name="label">grp_cifrador_fu_980_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_cifrador_fu_980_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_cifrador_fu_980_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_980/grp_cifrador_fu_980_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_980/grp_cifrador_fu_980_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_980/grp_cifrador_fu_980_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_989/grp_cifrador_fu_989_activity">
+            <obj_property name="label">grp_cifrador_fu_989_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_cifrador_fu_989_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_cifrador_fu_989_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_989/grp_cifrador_fu_989_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_989/grp_cifrador_fu_989_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_989/grp_cifrador_fu_989_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject type="protoinst" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32//AESL_inst_cifrador_paralelo_32_activity">
+      <obj_property name="ElementShortName">AESL_inst_cifrador_paralelo_32_activity</obj_property>
+      <obj_property name="ObjectShortName">AESL_inst_cifrador_paralelo_32_activity</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="AESL_inst_cifrador_paralelo_32_group">
+      <obj_property name="label">AESL_inst_cifrador_paralelo_32</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="protoinst" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_710/grp_cifrador_fu_710_activity">
+         <obj_property name="ElementShortName">grp_cifrador_fu_710_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_cifrador_fu_710_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_719/grp_cifrador_fu_719_activity">
+         <obj_property name="ElementShortName">grp_cifrador_fu_719_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_cifrador_fu_719_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_728/grp_cifrador_fu_728_activity">
+         <obj_property name="ElementShortName">grp_cifrador_fu_728_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_cifrador_fu_728_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_737/grp_cifrador_fu_737_activity">
+         <obj_property name="ElementShortName">grp_cifrador_fu_737_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_cifrador_fu_737_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_746/grp_cifrador_fu_746_activity">
+         <obj_property name="ElementShortName">grp_cifrador_fu_746_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_cifrador_fu_746_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_755/grp_cifrador_fu_755_activity">
+         <obj_property name="ElementShortName">grp_cifrador_fu_755_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_cifrador_fu_755_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_764/grp_cifrador_fu_764_activity">
+         <obj_property name="ElementShortName">grp_cifrador_fu_764_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_cifrador_fu_764_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_773/grp_cifrador_fu_773_activity">
+         <obj_property name="ElementShortName">grp_cifrador_fu_773_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_cifrador_fu_773_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_782/grp_cifrador_fu_782_activity">
+         <obj_property name="ElementShortName">grp_cifrador_fu_782_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_cifrador_fu_782_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_791/grp_cifrador_fu_791_activity">
+         <obj_property name="ElementShortName">grp_cifrador_fu_791_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_cifrador_fu_791_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_800/grp_cifrador_fu_800_activity">
+         <obj_property name="ElementShortName">grp_cifrador_fu_800_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_cifrador_fu_800_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_809/grp_cifrador_fu_809_activity">
+         <obj_property name="ElementShortName">grp_cifrador_fu_809_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_cifrador_fu_809_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_818/grp_cifrador_fu_818_activity">
+         <obj_property name="ElementShortName">grp_cifrador_fu_818_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_cifrador_fu_818_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_827/grp_cifrador_fu_827_activity">
+         <obj_property name="ElementShortName">grp_cifrador_fu_827_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_cifrador_fu_827_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_836/grp_cifrador_fu_836_activity">
+         <obj_property name="ElementShortName">grp_cifrador_fu_836_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_cifrador_fu_836_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_845/grp_cifrador_fu_845_activity">
+         <obj_property name="ElementShortName">grp_cifrador_fu_845_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_cifrador_fu_845_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_854/grp_cifrador_fu_854_activity">
+         <obj_property name="ElementShortName">grp_cifrador_fu_854_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_cifrador_fu_854_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_863/grp_cifrador_fu_863_activity">
+         <obj_property name="ElementShortName">grp_cifrador_fu_863_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_cifrador_fu_863_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_872/grp_cifrador_fu_872_activity">
+         <obj_property name="ElementShortName">grp_cifrador_fu_872_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_cifrador_fu_872_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_881/grp_cifrador_fu_881_activity">
+         <obj_property name="ElementShortName">grp_cifrador_fu_881_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_cifrador_fu_881_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_890/grp_cifrador_fu_890_activity">
+         <obj_property name="ElementShortName">grp_cifrador_fu_890_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_cifrador_fu_890_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_899/grp_cifrador_fu_899_activity">
+         <obj_property name="ElementShortName">grp_cifrador_fu_899_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_cifrador_fu_899_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_908/grp_cifrador_fu_908_activity">
+         <obj_property name="ElementShortName">grp_cifrador_fu_908_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_cifrador_fu_908_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_917/grp_cifrador_fu_917_activity">
+         <obj_property name="ElementShortName">grp_cifrador_fu_917_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_cifrador_fu_917_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_926/grp_cifrador_fu_926_activity">
+         <obj_property name="ElementShortName">grp_cifrador_fu_926_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_cifrador_fu_926_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_935/grp_cifrador_fu_935_activity">
+         <obj_property name="ElementShortName">grp_cifrador_fu_935_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_cifrador_fu_935_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_944/grp_cifrador_fu_944_activity">
+         <obj_property name="ElementShortName">grp_cifrador_fu_944_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_cifrador_fu_944_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_953/grp_cifrador_fu_953_activity">
+         <obj_property name="ElementShortName">grp_cifrador_fu_953_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_cifrador_fu_953_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_962/grp_cifrador_fu_962_activity">
+         <obj_property name="ElementShortName">grp_cifrador_fu_962_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_cifrador_fu_962_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_971/grp_cifrador_fu_971_activity">
+         <obj_property name="ElementShortName">grp_cifrador_fu_971_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_cifrador_fu_971_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_980/grp_cifrador_fu_980_activity">
+         <obj_property name="ElementShortName">grp_cifrador_fu_980_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_cifrador_fu_980_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_989/grp_cifrador_fu_989_activity">
+         <obj_property name="ElementShortName">grp_cifrador_fu_989_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_cifrador_fu_989_activity</obj_property>
+      </wvobject>
+      <wvobject type="group" fp_name="AESL_inst_cifrador_paralelo_32_Handshake_group">
+         <obj_property name="label">Block-level handshake</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/ap_start">
+            <obj_property name="ElementShortName">ap_start</obj_property>
+            <obj_property name="ObjectShortName">ap_start</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/ap_ready">
+            <obj_property name="ElementShortName">ap_ready</obj_property>
+            <obj_property name="ObjectShortName">ap_ready</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/ap_done">
+            <obj_property name="ElementShortName">ap_done</obj_property>
+            <obj_property name="ObjectShortName">ap_done</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="grp_cifrador_fu_710_group">
+         <obj_property name="label">grp_cifrador_fu_710</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="grp_cifrador_fu_710_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_710/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_710/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_710/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="grp_cifrador_fu_719_group">
+         <obj_property name="label">grp_cifrador_fu_719</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="grp_cifrador_fu_719_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_719/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_719/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_719/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="grp_cifrador_fu_728_group">
+         <obj_property name="label">grp_cifrador_fu_728</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="grp_cifrador_fu_728_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_728/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_728/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_728/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="grp_cifrador_fu_737_group">
+         <obj_property name="label">grp_cifrador_fu_737</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="grp_cifrador_fu_737_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_737/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_737/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_737/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="grp_cifrador_fu_746_group">
+         <obj_property name="label">grp_cifrador_fu_746</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="grp_cifrador_fu_746_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_746/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_746/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_746/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="grp_cifrador_fu_755_group">
+         <obj_property name="label">grp_cifrador_fu_755</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="grp_cifrador_fu_755_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_755/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_755/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_755/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="grp_cifrador_fu_764_group">
+         <obj_property name="label">grp_cifrador_fu_764</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="grp_cifrador_fu_764_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_764/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_764/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_764/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="grp_cifrador_fu_773_group">
+         <obj_property name="label">grp_cifrador_fu_773</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="grp_cifrador_fu_773_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_773/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_773/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_773/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="grp_cifrador_fu_782_group">
+         <obj_property name="label">grp_cifrador_fu_782</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="grp_cifrador_fu_782_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_782/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_782/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_782/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="grp_cifrador_fu_791_group">
+         <obj_property name="label">grp_cifrador_fu_791</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="grp_cifrador_fu_791_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_791/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_791/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_791/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="grp_cifrador_fu_800_group">
+         <obj_property name="label">grp_cifrador_fu_800</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="grp_cifrador_fu_800_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_800/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_800/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_800/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="grp_cifrador_fu_809_group">
+         <obj_property name="label">grp_cifrador_fu_809</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="grp_cifrador_fu_809_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_809/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_809/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_809/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="grp_cifrador_fu_818_group">
+         <obj_property name="label">grp_cifrador_fu_818</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="grp_cifrador_fu_818_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_818/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_818/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_818/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="grp_cifrador_fu_827_group">
+         <obj_property name="label">grp_cifrador_fu_827</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="grp_cifrador_fu_827_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_827/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_827/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_827/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="grp_cifrador_fu_836_group">
+         <obj_property name="label">grp_cifrador_fu_836</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="grp_cifrador_fu_836_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_836/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_836/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_836/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="grp_cifrador_fu_845_group">
+         <obj_property name="label">grp_cifrador_fu_845</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="grp_cifrador_fu_845_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_845/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_845/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_845/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="grp_cifrador_fu_854_group">
+         <obj_property name="label">grp_cifrador_fu_854</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="grp_cifrador_fu_854_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_854/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_854/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_854/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="grp_cifrador_fu_863_group">
+         <obj_property name="label">grp_cifrador_fu_863</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="grp_cifrador_fu_863_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_863/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_863/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_863/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="grp_cifrador_fu_872_group">
+         <obj_property name="label">grp_cifrador_fu_872</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="grp_cifrador_fu_872_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_872/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_872/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_872/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="grp_cifrador_fu_881_group">
+         <obj_property name="label">grp_cifrador_fu_881</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="grp_cifrador_fu_881_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_881/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_881/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_881/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="grp_cifrador_fu_890_group">
+         <obj_property name="label">grp_cifrador_fu_890</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="grp_cifrador_fu_890_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_890/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_890/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_890/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="grp_cifrador_fu_899_group">
+         <obj_property name="label">grp_cifrador_fu_899</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="grp_cifrador_fu_899_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_899/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_899/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_899/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="grp_cifrador_fu_908_group">
+         <obj_property name="label">grp_cifrador_fu_908</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="grp_cifrador_fu_908_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_908/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_908/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_908/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="grp_cifrador_fu_917_group">
+         <obj_property name="label">grp_cifrador_fu_917</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="grp_cifrador_fu_917_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_917/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_917/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_917/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="grp_cifrador_fu_926_group">
+         <obj_property name="label">grp_cifrador_fu_926</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="grp_cifrador_fu_926_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_926/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_926/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_926/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="grp_cifrador_fu_935_group">
+         <obj_property name="label">grp_cifrador_fu_935</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="grp_cifrador_fu_935_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_935/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_935/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_935/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="grp_cifrador_fu_944_group">
+         <obj_property name="label">grp_cifrador_fu_944</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="grp_cifrador_fu_944_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_944/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_944/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_944/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="grp_cifrador_fu_953_group">
+         <obj_property name="label">grp_cifrador_fu_953</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="grp_cifrador_fu_953_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_953/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_953/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_953/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="grp_cifrador_fu_962_group">
+         <obj_property name="label">grp_cifrador_fu_962</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="grp_cifrador_fu_962_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_962/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_962/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_962/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="grp_cifrador_fu_971_group">
+         <obj_property name="label">grp_cifrador_fu_971</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="grp_cifrador_fu_971_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_971/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_971/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_971/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="grp_cifrador_fu_980_group">
+         <obj_property name="label">grp_cifrador_fu_980</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="grp_cifrador_fu_980_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_980/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_980/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_980/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="grp_cifrador_fu_989_group">
+         <obj_property name="label">grp_cifrador_fu_989</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="grp_cifrador_fu_989_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_989/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_989/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_cifrador_paralelo_32_top/AESL_inst_cifrador_paralelo_32/grp_cifrador_fu_989/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+</wave_config>

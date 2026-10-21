@@ -1,0 +1,246 @@
+<ENTRY>
+{
+ "thisFile": "C:/Users\\Dario\\Documents\\TFG\\Vitis\\CifradosParalelos\\cifrador_paralelo_8\\cifrador_paralelo_8\\cifrador_paralelo_8.hlscompile_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "04/02/26 23:42:19",
+ "timestampMillis": "1775166139533",
+ "buildStep": {
+  "cmdId": "05442b4b-bcfa-47b2-a3fe-c20cd0b19a92",
+  "name": "v++",
+  "logFile": "C:/Users\\Dario\\Documents\\TFG\\Vitis\\CifradosParalelos\\cifrador_paralelo_8\\cifrador_paralelo_8\\logs\\cifrador_paralelo_8.steps.log",
+  "commandLine": "C:/Users/Dario/AMDDesignTools/2025.2/Vitis/bin/unwrapped/win64.o/v++.exe  -c --mode hls --config C:\\Users\\Dario\\Documents\\TFG\\Vitis\\CifradosParalelos\\cifrador_paralelo_8\\hls_config.cfg --work_dir cifrador_paralelo_8 ",
+  "args": [
+   "-c",
+   "--mode",
+   "hls",
+   "--config",
+   "C:\\Users\\Dario\\Documents\\TFG\\Vitis\\CifradosParalelos\\cifrador_paralelo_8\\hls_config.cfg",
+   "--work_dir",
+   "cifrador_paralelo_8"
+  ],
+  "iniFiles": [
+   {
+    "path": "C:/Users\\Dario\\Documents\\TFG\\Vitis\\CifradosParalelos\\cifrador_paralelo_8\\hls_config.cfg",
+    "content": "part=xc7z020clg400-1\n\n[hls]\nflow_target=vivado\npackage.output.format=ip_catalog\npackage.output.syn=false\nsyn.top=cifrador_paralelo_8\nsyn.file=Cifrador.cpp\nsyn.file=cifrador.h\ntb.file=test.cpp"
+   }
+  ],
+  "cwd": "C:\\Users\\Dario\\Documents\\TFG\\Vitis\\CifradosParalelos\\cifrador_paralelo_8"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "04/02/26 23:42:19",
+ "timestampMillis": "1775166139534",
+ "status": {
+  "cmdId": "05442b4b-bcfa-47b2-a3fe-c20cd0b19a92",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "04/02/26 23:42:30",
+ "timestampMillis": "1775166150047",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_COMPILE",
+  "target": "TT_HW",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "cifrador_paralelo_8",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "C:/Users\\Dario\\Documents\\TFG\\Vitis\\CifradosParalelos\\cifrador_paralelo_8\\Cifrador.cpp",
+     "C:/Users\\Dario\\Documents\\TFG\\Vitis\\CifradosParalelos\\cifrador_paralelo_8\\cifrador.h"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2025.2"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "04/02/26 23:42:30",
+ "timestampMillis": "1775166150051",
+ "buildStep": {
+  "cmdId": "569b950a-752a-4788-b1f1-0a9165154d26",
+  "name": "",
+  "logFile": "C:/Users\\Dario\\Documents\\TFG\\Vitis\\CifradosParalelos\\cifrador_paralelo_8\\cifrador_paralelo_8\\hls\\hls.log",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "C:\\Users\\Dario\\Documents\\TFG\\Vitis\\CifradosParalelos\\cifrador_paralelo_8"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "04/02/26 23:42:30",
+ "timestampMillis": "1775166150053",
+ "status": {
+  "cmdId": "569b950a-752a-4788-b1f1-0a9165154d26",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "04/02/26 23:42:30",
+ "timestampMillis": "1775166150053",
+ "report": {
+  "path": "C:/Users\\Dario\\Documents\\TFG\\Vitis\\CifradosParalelos\\cifrador_paralelo_8\\cifrador_paralelo_8\\hls\\hls_data.json",
+  "name": "",
+  "fileType": "JSON",
+  "reportType": "HLS_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "04/02/26 23:42:30",
+ "timestampMillis": "1775166150055",
+ "report": {
+  "path": "C:/Users\\Dario\\Documents\\TFG\\Vitis\\CifradosParalelos\\cifrador_paralelo_8\\cifrador_paralelo_8\\hls\\syn\\report\\csynth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "HLS_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "04/02/26 23:42:30",
+ "timestampMillis": "1775166150056",
+ "report": {
+  "path": "C:/Users\\Dario\\Documents\\TFG\\Vitis\\CifradosParalelos\\cifrador_paralelo_8\\cifrador_paralelo_8\\hls\\syn\\report\\csynth.xml",
+  "name": "",
+  "fileType": "XML",
+  "reportType": "HLS_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "04/02/26 23:43:15",
+ "timestampMillis": "1775166195201",
+ "report": {
+  "path": "C:/Users\\Dario\\Documents\\TFG\\Vitis\\CifradosParalelos\\cifrador_paralelo_8\\cifrador_paralelo_8\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_DATAFLOW",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "04/02/26 23:43:15",
+ "timestampMillis": "1775166195202",
+ "report": {
+  "path": "C:/Users\\Dario\\Documents\\TFG\\Vitis\\CifradosParalelos\\cifrador_paralelo_8\\cifrador_paralelo_8\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_FUNCTION_CALL_GRAPH",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "04/02/26 23:43:15",
+ "timestampMillis": "1775166195203",
+ "report": {
+  "path": "C:/Users\\Dario\\Documents\\TFG\\Vitis\\CifradosParalelos\\cifrador_paralelo_8\\cifrador_paralelo_8\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_SCHEDULE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "04/02/26 23:43:15",
+ "timestampMillis": "1775166195204",
+ "status": {
+  "cmdId": "569b950a-752a-4788-b1f1-0a9165154d26",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "04/02/26 23:43:15",
+ "timestampMillis": "1775166195346",
+ "status": {
+  "cmdId": "05442b4b-bcfa-47b2-a3fe-c20cd0b19a92",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "04/02/26 23:43:15",
+ "timestampMillis": "1775166195385",
+ "report": {
+  "path": "C:/Users\\Dario\\Documents\\TFG\\Vitis\\CifradosParalelos\\cifrador_paralelo_8\\cifrador_paralelo_8\\reports\\v++_compile_cifrador_paralelo_8_guidance.html",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "04/02/26 23:43:15",
+ "timestampMillis": "1775166195387",
+ "report": {
+  "path": "C:/Users\\Dario\\Documents\\TFG\\Vitis\\CifradosParalelos\\cifrador_paralelo_8\\cifrador_paralelo_8\\reports\\.db\\v++_compile_cifrador_paralelo_8_guidance.pb3",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

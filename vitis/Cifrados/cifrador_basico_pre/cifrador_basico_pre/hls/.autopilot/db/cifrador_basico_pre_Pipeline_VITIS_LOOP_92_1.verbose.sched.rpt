@@ -1,0 +1,156 @@
+
+
+================================================================
+== Vitis HLS Report for 'cifrador_basico_pre_Pipeline_VITIS_LOOP_92_1'
+================================================================
+* Date:           Tue Apr 14 18:15:42 2026
+
+* Version:        2025.2 (Build 6295257 on Nov 14 2025)
+* Project:        cifrador_basico_pre
+* Solution:       hls (Vivado IP Flow Target)
+* Product family: zynq
+* Target device:  xc7z020-clg400-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  |  10.00 ns|  5.079 ns|     2.70 ns|
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-----+-----+-------------------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval |      Pipeline     |
+    |   min   |   max   |    min   |    max   | min | max |        Type       |
+    +---------+---------+----------+----------+-----+-----+-------------------+
+    |       34|       34|  0.340 us|  0.340 us|    0|    0|  loop pipeline stp|
+    +---------+---------+----------+----------+-----+-----+-------------------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +-------------------+---------+---------+----------+-----------+-----------+------+----------+
+        |                   |  Latency (cycles) | Iteration|  Initiation Interval  | Trip |          |
+        |     Loop Name     |   min   |   max   |  Latency |  achieved |   target  | Count| Pipelined|
+        +-------------------+---------+---------+----------+-----------+-----------+------+----------+
+        |- VITIS_LOOP_92_1  |       32|       32|         1|          1|          1|    32|       yes|
+        +-------------------+---------+---------+----------+-----------+-----------+------+----------+
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 0
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 2
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
++ Individual pipeline summary: 
+  * Pipeline-0: initiation interval (II) = 1, depth = 2
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 2
+* Pipeline : 1
+  Pipeline-0 : II = 1, D = 2, States = { 1 2 }
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 2 
+2 --> 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 1.58>
+ST_1 : Operation 4 [1/1] (0.00ns)   --->   "%key_1 = alloca i32 1" [Cifrador.cpp:106]   --->   Operation 4 'alloca' 'key_1' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 5 [1/1] (0.00ns)   --->   "%round = alloca i32 1" [Cifrador.cpp:92->Cifrador.cpp:113]   --->   Operation 5 'alloca' 'round' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 6 [1/1] (0.00ns)   --->   "%key_read = read i64 @_ssdm_op_Read.ap_auto.i64, i64 %key"   --->   Operation 6 'read' 'key_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 7 [1/1] (1.58ns)   --->   "%store_ln92 = store i6 0, i6 %round" [Cifrador.cpp:92->Cifrador.cpp:113]   --->   Operation 7 'store' 'store_ln92' <Predicate = true> <Delay = 1.58>
+ST_1 : Operation 8 [1/1] (1.58ns)   --->   "%store_ln106 = store i64 %key_read, i64 %key_1" [Cifrador.cpp:106]   --->   Operation 8 'store' 'store_ln106' <Predicate = true> <Delay = 1.58>
+ST_1 : Operation 9 [1/1] (0.00ns)   --->   "%br_ln0 = br void %for.body.i"   --->   Operation 9 'br' 'br_ln0' <Predicate = true> <Delay = 0.00>
+
+State 2 <SV = 1> <Delay = 5.07>
+ST_2 : Operation 10 [1/1] (0.00ns)   --->   "%round_1 = load i6 %round" [Cifrador.cpp:92->Cifrador.cpp:113]   --->   Operation 10 'load' 'round_1' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 11 [1/1] (1.82ns)   --->   "%icmp_ln92 = icmp_eq  i6 %round_1, i6 32" [Cifrador.cpp:92->Cifrador.cpp:113]   --->   Operation 11 'icmp' 'icmp_ln92' <Predicate = true> <Delay = 1.82> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 1.82> <FuncUnit> <Opcode : 'seteq' 'setne' 'setle' 'setge' 'setlt' 'setgt'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 12 [1/1] (1.82ns)   --->   "%add_ln92 = add i6 %round_1, i6 1" [Cifrador.cpp:92->Cifrador.cpp:113]   --->   Operation 12 'add' 'add_ln92' <Predicate = true> <Delay = 1.82> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.82> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 13 [1/1] (0.00ns)   --->   "%br_ln92 = br i1 %icmp_ln92, void %for.body.i.split, void %for.body.preheader.exitStub" [Cifrador.cpp:92->Cifrador.cpp:113]   --->   Operation 13 'br' 'br_ln92' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 14 [1/1] (0.00ns)   --->   "%key_1_load = load i64 %key_1" [Cifrador.cpp:96->Cifrador.cpp:113]   --->   Operation 14 'load' 'key_1_load' <Predicate = (!icmp_ln92)> <Delay = 0.00>
+ST_2 : Operation 15 [1/1] (0.00ns)   --->   "%zext_ln92 = zext i6 %round_1" [Cifrador.cpp:92->Cifrador.cpp:113]   --->   Operation 15 'zext' 'zext_ln92' <Predicate = (!icmp_ln92)> <Delay = 0.00>
+ST_2 : Operation 16 [1/1] (0.00ns)   --->   "%specpipeline_ln106 = specpipeline void @_ssdm_op_SpecPipeline, i32 4294967295, i32 0, i32 0, i32 0, i32 4294967295, void @empty_0" [Cifrador.cpp:106]   --->   Operation 16 'specpipeline' 'specpipeline_ln106' <Predicate = (!icmp_ln92)> <Delay = 0.00>
+ST_2 : Operation 17 [1/1] (0.00ns)   --->   "%speclooptripcount_ln106 = speclooptripcount void @_ssdm_op_SpecLoopTripCount, i64 32, i64 32, i64 32" [Cifrador.cpp:106]   --->   Operation 17 'speclooptripcount' 'speclooptripcount_ln106' <Predicate = (!icmp_ln92)> <Delay = 0.00>
+ST_2 : Operation 18 [1/1] (0.00ns)   --->   "%specloopname_ln92 = specloopname void @_ssdm_op_SpecLoopName, void @empty_8" [Cifrador.cpp:92->Cifrador.cpp:113]   --->   Operation 18 'specloopname' 'specloopname_ln92' <Predicate = (!icmp_ln92)> <Delay = 0.00>
+ST_2 : Operation 19 [1/1] (0.00ns)   --->   "%trunc_ln = partselect i32 @_ssdm_op_PartSelect.i32.i64.i32.i32, i64 %key_1_load, i32 32, i32 63" [Cifrador.cpp:93->Cifrador.cpp:113]   --->   Operation 19 'partselect' 'trunc_ln' <Predicate = (!icmp_ln92)> <Delay = 0.00>
+ST_2 : Operation 20 [1/1] (0.00ns)   --->   "%round_keys_addr = getelementptr i32 %round_keys, i64 0, i64 %zext_ln92" [Cifrador.cpp:93->Cifrador.cpp:113]   --->   Operation 20 'getelementptr' 'round_keys_addr' <Predicate = (!icmp_ln92)> <Delay = 0.00>
+ST_2 : Operation 21 [1/1] ( I:3.25ns O:3.25ns )   --->   "%store_ln93 = store i32 %trunc_ln, i5 %round_keys_addr" [Cifrador.cpp:93->Cifrador.cpp:113]   --->   Operation 21 'store' 'store_ln93' <Predicate = (!icmp_ln92)> <Delay = 3.25> <CoreInst = "RAM">   --->   Core 81 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 32> <RAM>
+ST_2 : Operation 22 [1/1] (0.00ns) (grouped into LUT with out node key_3)   --->   "%trunc_ln96 = trunc i64 %key_1_load" [Cifrador.cpp:96->Cifrador.cpp:113]   --->   Operation 22 'trunc' 'trunc_ln96' <Predicate = (!icmp_ln92)> <Delay = 0.00>
+ST_2 : Operation 23 [1/1] (0.00ns) (grouped into LUT with out node key_3)   --->   "%tmp_1 = bitselect i1 @_ssdm_op_BitSelect.i1.i64.i32, i64 %key_1_load, i32 63" [Cifrador.cpp:99->Cifrador.cpp:113]   --->   Operation 23 'bitselect' 'tmp_1' <Predicate = (!icmp_ln92)> <Delay = 0.00>
+ST_2 : Operation 24 [1/1] (0.00ns) (grouped into LUT with out node key_3)   --->   "%in = bitconcatenate i4 @_ssdm_op_BitConcatenate.i4.i3.i1, i3 %trunc_ln96, i1 %tmp_1" [Cifrador.cpp:99->Cifrador.cpp:113]   --->   Operation 24 'bitconcatenate' 'in' <Predicate = (!icmp_ln92)> <Delay = 0.00>
+ST_2 : Operation 25 [1/1] (0.00ns) (grouped into LUT with out node key_3)   --->   "%tmp = sparsemux i4 @_ssdm_op_SparseMux.ap_auto.16i4.i4.i4, i4 0, i4 12, i4 1, i4 5, i4 2, i4 6, i4 3, i4 11, i4 4, i4 9, i4 5, i4 0, i4 6, i4 10, i4 7, i4 13, i4 8, i4 3, i4 9, i4 14, i4 10, i4 15, i4 11, i4 8, i4 12, i4 4, i4 13, i4 7, i4 14, i4 1, i4 15, i4 2, i4 0, i4 %in" [Cifrador.cpp:19->Cifrador.cpp:99->Cifrador.cpp:113]   --->   Operation 25 'sparsemux' 'tmp' <Predicate = (!icmp_ln92)> <Delay = 0.00> <CoreInst = "BinarySparseMux_DontCare">   --->   Core 137 'BinarySparseMux_DontCare' <Latency = 0> <II = 1> <Delay = 2.06> <FuncUnit> <Opcode : 'sparsemux'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 26 [1/1] (0.00ns) (grouped into LUT with out node key_3)   --->   "%tmp_s = partselect i60 @_ssdm_op_PartSelect.i60.i64.i32.i32, i64 %key_1_load, i32 3, i32 62" [Cifrador.cpp:99->Cifrador.cpp:113]   --->   Operation 26 'partselect' 'tmp_s' <Predicate = (!icmp_ln92)> <Delay = 0.00>
+ST_2 : Operation 27 [1/1] (0.00ns) (grouped into LUT with out node key_3)   --->   "%key_2 = bitconcatenate i64 @_ssdm_op_BitConcatenate.i64.i4.i60, i4 %tmp, i60 %tmp_s" [Cifrador.cpp:99->Cifrador.cpp:113]   --->   Operation 27 'bitconcatenate' 'key_2' <Predicate = (!icmp_ln92)> <Delay = 0.00>
+ST_2 : Operation 28 [1/1] (0.00ns) (grouped into LUT with out node key_3)   --->   "%trunc_ln102 = trunc i6 %round_1" [Cifrador.cpp:102->Cifrador.cpp:113]   --->   Operation 28 'trunc' 'trunc_ln102' <Predicate = (!icmp_ln92)> <Delay = 0.00>
+ST_2 : Operation 29 [1/1] (0.00ns) (grouped into LUT with out node key_3)   --->   "%shl_ln = bitconcatenate i20 @_ssdm_op_BitConcatenate.i20.i5.i15, i5 %trunc_ln102, i15 0" [Cifrador.cpp:102->Cifrador.cpp:113]   --->   Operation 29 'bitconcatenate' 'shl_ln' <Predicate = (!icmp_ln92)> <Delay = 0.00>
+ST_2 : Operation 30 [1/1] (0.00ns) (grouped into LUT with out node key_3)   --->   "%zext_ln102 = zext i20 %shl_ln" [Cifrador.cpp:102->Cifrador.cpp:113]   --->   Operation 30 'zext' 'zext_ln102' <Predicate = (!icmp_ln92)> <Delay = 0.00>
+ST_2 : Operation 31 [1/1] (2.06ns) (out node of the LUT)   --->   "%key_3 = xor i64 %key_2, i64 %zext_ln102" [Cifrador.cpp:102->Cifrador.cpp:113]   --->   Operation 31 'xor' 'key_3' <Predicate = (!icmp_ln92)> <Delay = 2.06> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.99> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 32 [1/1] (1.58ns)   --->   "%store_ln92 = store i6 %add_ln92, i6 %round" [Cifrador.cpp:92->Cifrador.cpp:113]   --->   Operation 32 'store' 'store_ln92' <Predicate = (!icmp_ln92)> <Delay = 1.58>
+ST_2 : Operation 33 [1/1] (1.58ns)   --->   "%store_ln106 = store i64 %key_3, i64 %key_1" [Cifrador.cpp:106]   --->   Operation 33 'store' 'store_ln106' <Predicate = (!icmp_ln92)> <Delay = 1.58>
+ST_2 : Operation 34 [1/1] (0.00ns)   --->   "%br_ln92 = br void %for.body.i" [Cifrador.cpp:92->Cifrador.cpp:113]   --->   Operation 34 'br' 'br_ln92' <Predicate = (!icmp_ln92)> <Delay = 0.00>
+ST_2 : Operation 35 [1/1] (1.58ns)   --->   "%ret_ln0 = ret"   --->   Operation 35 'ret' 'ret_ln0' <Predicate = (icmp_ln92)> <Delay = 1.58>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 10.000ns, clock uncertainty: 2.700ns.
+
+ <State 1>: 1.588ns
+The critical path consists of the following:
+	'alloca' operation 6 bit ('round', Cifrador.cpp:92->Cifrador.cpp:113) [4]  (0.000 ns)
+	'store' operation ('store_ln92', Cifrador.cpp:92->Cifrador.cpp:113) of constant 0 6 bit on local variable 'round', Cifrador.cpp:92->Cifrador.cpp:113 [6]  (1.588 ns)
+
+ <State 2>: 5.079ns
+The critical path consists of the following:
+	'load' operation 6 bit ('round', Cifrador.cpp:92->Cifrador.cpp:113) on local variable 'round', Cifrador.cpp:92->Cifrador.cpp:113 [10]  (0.000 ns)
+	'icmp' operation 1 bit ('icmp_ln92', Cifrador.cpp:92->Cifrador.cpp:113) [11]  (1.825 ns)
+	'store' operation ('store_ln93', Cifrador.cpp:93->Cifrador.cpp:113) of variable 'trunc_ln', Cifrador.cpp:93->Cifrador.cpp:113 32 bit on array 'round_keys' [22]  (3.254 ns)
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+	State 2
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

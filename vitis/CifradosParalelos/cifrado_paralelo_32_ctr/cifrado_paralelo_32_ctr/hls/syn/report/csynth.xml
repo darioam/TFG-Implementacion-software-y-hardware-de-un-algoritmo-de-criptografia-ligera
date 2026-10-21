@@ -1,0 +1,1732 @@
+<profile>
+    <ReportVersion>
+        <Version>2025.2</Version>
+    </ReportVersion>
+    <UserAssignments>
+        <unit>ns</unit>
+        <ProductFamily>zynq</ProductFamily>
+        <Part>xc7z020-clg400-1</Part>
+        <TopModelName>cifrador_paralelo_32_ctr</TopModelName>
+        <TargetClockPeriod>10.00</TargetClockPeriod>
+        <ClockUncertainty>2.70</ClockUncertainty>
+        <FlowTarget>vivado</FlowTarget>
+    </UserAssignments>
+    <PerformanceEstimates>
+        <PipelineType>no</PipelineType>
+        <SummaryOfTimingAnalysis>
+            <unit>ns</unit>
+            <EstimatedClockPeriod>5.361</EstimatedClockPeriod>
+        </SummaryOfTimingAnalysis>
+        <SummaryOfOverallLatency>
+            <unit>clock cycles</unit>
+            <Best-caseLatency>34</Best-caseLatency>
+            <Average-caseLatency>34</Average-caseLatency>
+            <Worst-caseLatency>34</Worst-caseLatency>
+            <Best-caseRealTimeLatency>0.340 us</Best-caseRealTimeLatency>
+            <Average-caseRealTimeLatency>0.340 us</Average-caseRealTimeLatency>
+            <Worst-caseRealTimeLatency>0.340 us</Worst-caseRealTimeLatency>
+            <Interval-min>35</Interval-min>
+            <Interval-max>35</Interval-max>
+            <PerformancePragma>-</PerformancePragma>
+        </SummaryOfOverallLatency>
+        <SummaryOfViolations>
+            <IssueType>-</IssueType>
+            <ViolationType>-</ViolationType>
+            <SourceLocation>Cifrador.cpp:125</SourceLocation>
+        </SummaryOfViolations>
+    </PerformanceEstimates>
+    <AreaEstimates>
+        <Resources>
+            <BRAM_18K>0</BRAM_18K>
+            <FF>9106</FF>
+            <LUT>31832</LUT>
+            <DSP>0</DSP>
+            <URAM>0</URAM>
+        </Resources>
+        <AvailableResources>
+            <BRAM_18K>280</BRAM_18K>
+            <DSP>220</DSP>
+            <FF>106400</FF>
+            <LUT>53200</LUT>
+            <URAM>0</URAM>
+        </AvailableResources>
+    </AreaEstimates>
+    <InterfaceSummary>
+        <RtlPorts>
+            <name>s_axi_control_AWVALID</name>
+            <Object>control</Object>
+            <Type>scalar</Type>
+            <IOProtocol>s_axi</IOProtocol>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>unknown</Attribute>
+            <CType>int</CType>
+            <HasCtrl>1</HasCtrl>
+        </RtlPorts>
+        <RtlPorts>
+            <name>s_axi_control_AWREADY</name>
+            <Object>control</Object>
+            <Type>scalar</Type>
+            <IOProtocol>s_axi</IOProtocol>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>unknown</Attribute>
+            <CType>int</CType>
+            <HasCtrl>1</HasCtrl>
+        </RtlPorts>
+        <RtlPorts>
+            <name>s_axi_control_AWADDR</name>
+            <Object>control</Object>
+            <Type>scalar</Type>
+            <IOProtocol>s_axi</IOProtocol>
+            <Dir>in</Dir>
+            <Bits>10</Bits>
+            <Attribute>unknown</Attribute>
+            <CType>int</CType>
+            <HasCtrl>1</HasCtrl>
+        </RtlPorts>
+        <RtlPorts>
+            <name>s_axi_control_WVALID</name>
+            <Object>control</Object>
+            <Type>scalar</Type>
+            <IOProtocol>s_axi</IOProtocol>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>unknown</Attribute>
+            <CType>int</CType>
+            <HasCtrl>1</HasCtrl>
+        </RtlPorts>
+        <RtlPorts>
+            <name>s_axi_control_WREADY</name>
+            <Object>control</Object>
+            <Type>scalar</Type>
+            <IOProtocol>s_axi</IOProtocol>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>unknown</Attribute>
+            <CType>int</CType>
+            <HasCtrl>1</HasCtrl>
+        </RtlPorts>
+        <RtlPorts>
+            <name>s_axi_control_WDATA</name>
+            <Object>control</Object>
+            <Type>scalar</Type>
+            <IOProtocol>s_axi</IOProtocol>
+            <Dir>in</Dir>
+            <Bits>32</Bits>
+            <Attribute>unknown</Attribute>
+            <CType>int</CType>
+            <HasCtrl>1</HasCtrl>
+        </RtlPorts>
+        <RtlPorts>
+            <name>s_axi_control_WSTRB</name>
+            <Object>control</Object>
+            <Type>scalar</Type>
+            <IOProtocol>s_axi</IOProtocol>
+            <Dir>in</Dir>
+            <Bits>4</Bits>
+            <Attribute>unknown</Attribute>
+            <CType>int</CType>
+            <HasCtrl>1</HasCtrl>
+        </RtlPorts>
+        <RtlPorts>
+            <name>s_axi_control_ARVALID</name>
+            <Object>control</Object>
+            <Type>scalar</Type>
+            <IOProtocol>s_axi</IOProtocol>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>unknown</Attribute>
+            <CType>int</CType>
+            <HasCtrl>1</HasCtrl>
+        </RtlPorts>
+        <RtlPorts>
+            <name>s_axi_control_ARREADY</name>
+            <Object>control</Object>
+            <Type>scalar</Type>
+            <IOProtocol>s_axi</IOProtocol>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>unknown</Attribute>
+            <CType>int</CType>
+            <HasCtrl>1</HasCtrl>
+        </RtlPorts>
+        <RtlPorts>
+            <name>s_axi_control_ARADDR</name>
+            <Object>control</Object>
+            <Type>scalar</Type>
+            <IOProtocol>s_axi</IOProtocol>
+            <Dir>in</Dir>
+            <Bits>10</Bits>
+            <Attribute>unknown</Attribute>
+            <CType>int</CType>
+            <HasCtrl>1</HasCtrl>
+        </RtlPorts>
+        <RtlPorts>
+            <name>s_axi_control_RVALID</name>
+            <Object>control</Object>
+            <Type>scalar</Type>
+            <IOProtocol>s_axi</IOProtocol>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>unknown</Attribute>
+            <CType>int</CType>
+            <HasCtrl>1</HasCtrl>
+        </RtlPorts>
+        <RtlPorts>
+            <name>s_axi_control_RREADY</name>
+            <Object>control</Object>
+            <Type>scalar</Type>
+            <IOProtocol>s_axi</IOProtocol>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>unknown</Attribute>
+            <CType>int</CType>
+            <HasCtrl>1</HasCtrl>
+        </RtlPorts>
+        <RtlPorts>
+            <name>s_axi_control_RDATA</name>
+            <Object>control</Object>
+            <Type>scalar</Type>
+            <IOProtocol>s_axi</IOProtocol>
+            <Dir>out</Dir>
+            <Bits>32</Bits>
+            <Attribute>unknown</Attribute>
+            <CType>int</CType>
+            <HasCtrl>1</HasCtrl>
+        </RtlPorts>
+        <RtlPorts>
+            <name>s_axi_control_RRESP</name>
+            <Object>control</Object>
+            <Type>scalar</Type>
+            <IOProtocol>s_axi</IOProtocol>
+            <Dir>out</Dir>
+            <Bits>2</Bits>
+            <Attribute>unknown</Attribute>
+            <CType>int</CType>
+            <HasCtrl>1</HasCtrl>
+        </RtlPorts>
+        <RtlPorts>
+            <name>s_axi_control_BVALID</name>
+            <Object>control</Object>
+            <Type>scalar</Type>
+            <IOProtocol>s_axi</IOProtocol>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>unknown</Attribute>
+            <CType>int</CType>
+            <HasCtrl>1</HasCtrl>
+        </RtlPorts>
+        <RtlPorts>
+            <name>s_axi_control_BREADY</name>
+            <Object>control</Object>
+            <Type>scalar</Type>
+            <IOProtocol>s_axi</IOProtocol>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>unknown</Attribute>
+            <CType>int</CType>
+            <HasCtrl>1</HasCtrl>
+        </RtlPorts>
+        <RtlPorts>
+            <name>s_axi_control_BRESP</name>
+            <Object>control</Object>
+            <Type>scalar</Type>
+            <IOProtocol>s_axi</IOProtocol>
+            <Dir>out</Dir>
+            <Bits>2</Bits>
+            <Attribute>unknown</Attribute>
+            <CType>int</CType>
+            <HasCtrl>1</HasCtrl>
+        </RtlPorts>
+        <RtlPorts>
+            <name>ap_clk</name>
+            <Object>cifrador_paralelo_32_ctr</Object>
+            <Type>return value</Type>
+            <Scope/>
+            <IOProtocol>ap_ctrl_hs</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+        </RtlPorts>
+        <RtlPorts>
+            <name>ap_rst_n</name>
+            <Object>cifrador_paralelo_32_ctr</Object>
+            <Type>return value</Type>
+            <Scope/>
+            <IOProtocol>ap_ctrl_hs</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+        </RtlPorts>
+        <RtlPorts>
+            <name>interrupt</name>
+            <Object>cifrador_paralelo_32_ctr</Object>
+            <Type>return value</Type>
+            <Scope/>
+            <IOProtocol>ap_ctrl_hs</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>unknown</Attribute>
+        </RtlPorts>
+    </InterfaceSummary>
+    <RTLDesignHierarchy>
+        <TopModule MAX_DEPTH="3">
+            <ModuleName>cifrador_paralelo_32_ctr</ModuleName>
+            <InstancesList>
+                <Instance>
+                    <InstName>grp_cifrador_fu_788</InstName>
+                    <ModuleName>cifrador</ModuleName>
+                    <IsCompInst>true</IsCompInst>
+                    <ID>788</ID>
+                    <BindInstances>icmp_ln110_fu_160_p2 add_ln110_fu_166_p2 sparsemux_33_4_4_1_1_U1 key_3_fu_310_p2 out_5_fu_316_p2 sparsemux_33_4_4_1_1_U2 sparsemux_33_4_4_1_1_U3 sparsemux_33_4_4_1_1_U4 sparsemux_33_4_4_1_1_U5 sparsemux_33_4_4_1_1_U6 sparsemux_33_4_4_1_1_U7 sparsemux_33_4_4_1_1_U8 sparsemux_33_4_4_1_1_U9 ap_return</BindInstances>
+                </Instance>
+                <Instance>
+                    <InstName>grp_cifrador_fu_796</InstName>
+                    <ModuleName>cifrador</ModuleName>
+                    <IsCompInst>true</IsCompInst>
+                    <ID>796</ID>
+                    <BindInstances>icmp_ln110_fu_160_p2 add_ln110_fu_166_p2 sparsemux_33_4_4_1_1_U1 key_3_fu_310_p2 out_5_fu_316_p2 sparsemux_33_4_4_1_1_U2 sparsemux_33_4_4_1_1_U3 sparsemux_33_4_4_1_1_U4 sparsemux_33_4_4_1_1_U5 sparsemux_33_4_4_1_1_U6 sparsemux_33_4_4_1_1_U7 sparsemux_33_4_4_1_1_U8 sparsemux_33_4_4_1_1_U9 ap_return</BindInstances>
+                </Instance>
+                <Instance>
+                    <InstName>grp_cifrador_fu_803</InstName>
+                    <ModuleName>cifrador</ModuleName>
+                    <IsCompInst>true</IsCompInst>
+                    <ID>803</ID>
+                    <BindInstances>icmp_ln110_fu_160_p2 add_ln110_fu_166_p2 sparsemux_33_4_4_1_1_U1 key_3_fu_310_p2 out_5_fu_316_p2 sparsemux_33_4_4_1_1_U2 sparsemux_33_4_4_1_1_U3 sparsemux_33_4_4_1_1_U4 sparsemux_33_4_4_1_1_U5 sparsemux_33_4_4_1_1_U6 sparsemux_33_4_4_1_1_U7 sparsemux_33_4_4_1_1_U8 sparsemux_33_4_4_1_1_U9 ap_return</BindInstances>
+                </Instance>
+                <Instance>
+                    <InstName>grp_cifrador_fu_810</InstName>
+                    <ModuleName>cifrador</ModuleName>
+                    <IsCompInst>true</IsCompInst>
+                    <ID>810</ID>
+                    <BindInstances>icmp_ln110_fu_160_p2 add_ln110_fu_166_p2 sparsemux_33_4_4_1_1_U1 key_3_fu_310_p2 out_5_fu_316_p2 sparsemux_33_4_4_1_1_U2 sparsemux_33_4_4_1_1_U3 sparsemux_33_4_4_1_1_U4 sparsemux_33_4_4_1_1_U5 sparsemux_33_4_4_1_1_U6 sparsemux_33_4_4_1_1_U7 sparsemux_33_4_4_1_1_U8 sparsemux_33_4_4_1_1_U9 ap_return</BindInstances>
+                </Instance>
+                <Instance>
+                    <InstName>grp_cifrador_fu_817</InstName>
+                    <ModuleName>cifrador</ModuleName>
+                    <IsCompInst>true</IsCompInst>
+                    <ID>817</ID>
+                    <BindInstances>icmp_ln110_fu_160_p2 add_ln110_fu_166_p2 sparsemux_33_4_4_1_1_U1 key_3_fu_310_p2 out_5_fu_316_p2 sparsemux_33_4_4_1_1_U2 sparsemux_33_4_4_1_1_U3 sparsemux_33_4_4_1_1_U4 sparsemux_33_4_4_1_1_U5 sparsemux_33_4_4_1_1_U6 sparsemux_33_4_4_1_1_U7 sparsemux_33_4_4_1_1_U8 sparsemux_33_4_4_1_1_U9 ap_return</BindInstances>
+                </Instance>
+                <Instance>
+                    <InstName>grp_cifrador_fu_824</InstName>
+                    <ModuleName>cifrador</ModuleName>
+                    <IsCompInst>true</IsCompInst>
+                    <ID>824</ID>
+                    <BindInstances>icmp_ln110_fu_160_p2 add_ln110_fu_166_p2 sparsemux_33_4_4_1_1_U1 key_3_fu_310_p2 out_5_fu_316_p2 sparsemux_33_4_4_1_1_U2 sparsemux_33_4_4_1_1_U3 sparsemux_33_4_4_1_1_U4 sparsemux_33_4_4_1_1_U5 sparsemux_33_4_4_1_1_U6 sparsemux_33_4_4_1_1_U7 sparsemux_33_4_4_1_1_U8 sparsemux_33_4_4_1_1_U9 ap_return</BindInstances>
+                </Instance>
+                <Instance>
+                    <InstName>grp_cifrador_fu_831</InstName>
+                    <ModuleName>cifrador</ModuleName>
+                    <IsCompInst>true</IsCompInst>
+                    <ID>831</ID>
+                    <BindInstances>icmp_ln110_fu_160_p2 add_ln110_fu_166_p2 sparsemux_33_4_4_1_1_U1 key_3_fu_310_p2 out_5_fu_316_p2 sparsemux_33_4_4_1_1_U2 sparsemux_33_4_4_1_1_U3 sparsemux_33_4_4_1_1_U4 sparsemux_33_4_4_1_1_U5 sparsemux_33_4_4_1_1_U6 sparsemux_33_4_4_1_1_U7 sparsemux_33_4_4_1_1_U8 sparsemux_33_4_4_1_1_U9 ap_return</BindInstances>
+                </Instance>
+                <Instance>
+                    <InstName>grp_cifrador_fu_838</InstName>
+                    <ModuleName>cifrador</ModuleName>
+                    <IsCompInst>true</IsCompInst>
+                    <ID>838</ID>
+                    <BindInstances>icmp_ln110_fu_160_p2 add_ln110_fu_166_p2 sparsemux_33_4_4_1_1_U1 key_3_fu_310_p2 out_5_fu_316_p2 sparsemux_33_4_4_1_1_U2 sparsemux_33_4_4_1_1_U3 sparsemux_33_4_4_1_1_U4 sparsemux_33_4_4_1_1_U5 sparsemux_33_4_4_1_1_U6 sparsemux_33_4_4_1_1_U7 sparsemux_33_4_4_1_1_U8 sparsemux_33_4_4_1_1_U9 ap_return</BindInstances>
+                </Instance>
+                <Instance>
+                    <InstName>grp_cifrador_fu_845</InstName>
+                    <ModuleName>cifrador</ModuleName>
+                    <IsCompInst>true</IsCompInst>
+                    <ID>845</ID>
+                    <BindInstances>icmp_ln110_fu_160_p2 add_ln110_fu_166_p2 sparsemux_33_4_4_1_1_U1 key_3_fu_310_p2 out_5_fu_316_p2 sparsemux_33_4_4_1_1_U2 sparsemux_33_4_4_1_1_U3 sparsemux_33_4_4_1_1_U4 sparsemux_33_4_4_1_1_U5 sparsemux_33_4_4_1_1_U6 sparsemux_33_4_4_1_1_U7 sparsemux_33_4_4_1_1_U8 sparsemux_33_4_4_1_1_U9 ap_return</BindInstances>
+                </Instance>
+                <Instance>
+                    <InstName>grp_cifrador_fu_852</InstName>
+                    <ModuleName>cifrador</ModuleName>
+                    <IsCompInst>true</IsCompInst>
+                    <ID>852</ID>
+                    <BindInstances>icmp_ln110_fu_160_p2 add_ln110_fu_166_p2 sparsemux_33_4_4_1_1_U1 key_3_fu_310_p2 out_5_fu_316_p2 sparsemux_33_4_4_1_1_U2 sparsemux_33_4_4_1_1_U3 sparsemux_33_4_4_1_1_U4 sparsemux_33_4_4_1_1_U5 sparsemux_33_4_4_1_1_U6 sparsemux_33_4_4_1_1_U7 sparsemux_33_4_4_1_1_U8 sparsemux_33_4_4_1_1_U9 ap_return</BindInstances>
+                </Instance>
+                <Instance>
+                    <InstName>grp_cifrador_fu_859</InstName>
+                    <ModuleName>cifrador</ModuleName>
+                    <IsCompInst>true</IsCompInst>
+                    <ID>859</ID>
+                    <BindInstances>icmp_ln110_fu_160_p2 add_ln110_fu_166_p2 sparsemux_33_4_4_1_1_U1 key_3_fu_310_p2 out_5_fu_316_p2 sparsemux_33_4_4_1_1_U2 sparsemux_33_4_4_1_1_U3 sparsemux_33_4_4_1_1_U4 sparsemux_33_4_4_1_1_U5 sparsemux_33_4_4_1_1_U6 sparsemux_33_4_4_1_1_U7 sparsemux_33_4_4_1_1_U8 sparsemux_33_4_4_1_1_U9 ap_return</BindInstances>
+                </Instance>
+                <Instance>
+                    <InstName>grp_cifrador_fu_866</InstName>
+                    <ModuleName>cifrador</ModuleName>
+                    <IsCompInst>true</IsCompInst>
+                    <ID>866</ID>
+                    <BindInstances>icmp_ln110_fu_160_p2 add_ln110_fu_166_p2 sparsemux_33_4_4_1_1_U1 key_3_fu_310_p2 out_5_fu_316_p2 sparsemux_33_4_4_1_1_U2 sparsemux_33_4_4_1_1_U3 sparsemux_33_4_4_1_1_U4 sparsemux_33_4_4_1_1_U5 sparsemux_33_4_4_1_1_U6 sparsemux_33_4_4_1_1_U7 sparsemux_33_4_4_1_1_U8 sparsemux_33_4_4_1_1_U9 ap_return</BindInstances>
+                </Instance>
+                <Instance>
+                    <InstName>grp_cifrador_fu_873</InstName>
+                    <ModuleName>cifrador</ModuleName>
+                    <IsCompInst>true</IsCompInst>
+                    <ID>873</ID>
+                    <BindInstances>icmp_ln110_fu_160_p2 add_ln110_fu_166_p2 sparsemux_33_4_4_1_1_U1 key_3_fu_310_p2 out_5_fu_316_p2 sparsemux_33_4_4_1_1_U2 sparsemux_33_4_4_1_1_U3 sparsemux_33_4_4_1_1_U4 sparsemux_33_4_4_1_1_U5 sparsemux_33_4_4_1_1_U6 sparsemux_33_4_4_1_1_U7 sparsemux_33_4_4_1_1_U8 sparsemux_33_4_4_1_1_U9 ap_return</BindInstances>
+                </Instance>
+                <Instance>
+                    <InstName>grp_cifrador_fu_880</InstName>
+                    <ModuleName>cifrador</ModuleName>
+                    <IsCompInst>true</IsCompInst>
+                    <ID>880</ID>
+                    <BindInstances>icmp_ln110_fu_160_p2 add_ln110_fu_166_p2 sparsemux_33_4_4_1_1_U1 key_3_fu_310_p2 out_5_fu_316_p2 sparsemux_33_4_4_1_1_U2 sparsemux_33_4_4_1_1_U3 sparsemux_33_4_4_1_1_U4 sparsemux_33_4_4_1_1_U5 sparsemux_33_4_4_1_1_U6 sparsemux_33_4_4_1_1_U7 sparsemux_33_4_4_1_1_U8 sparsemux_33_4_4_1_1_U9 ap_return</BindInstances>
+                </Instance>
+                <Instance>
+                    <InstName>grp_cifrador_fu_887</InstName>
+                    <ModuleName>cifrador</ModuleName>
+                    <IsCompInst>true</IsCompInst>
+                    <ID>887</ID>
+                    <BindInstances>icmp_ln110_fu_160_p2 add_ln110_fu_166_p2 sparsemux_33_4_4_1_1_U1 key_3_fu_310_p2 out_5_fu_316_p2 sparsemux_33_4_4_1_1_U2 sparsemux_33_4_4_1_1_U3 sparsemux_33_4_4_1_1_U4 sparsemux_33_4_4_1_1_U5 sparsemux_33_4_4_1_1_U6 sparsemux_33_4_4_1_1_U7 sparsemux_33_4_4_1_1_U8 sparsemux_33_4_4_1_1_U9 ap_return</BindInstances>
+                </Instance>
+                <Instance>
+                    <InstName>grp_cifrador_fu_894</InstName>
+                    <ModuleName>cifrador</ModuleName>
+                    <IsCompInst>true</IsCompInst>
+                    <ID>894</ID>
+                    <BindInstances>icmp_ln110_fu_160_p2 add_ln110_fu_166_p2 sparsemux_33_4_4_1_1_U1 key_3_fu_310_p2 out_5_fu_316_p2 sparsemux_33_4_4_1_1_U2 sparsemux_33_4_4_1_1_U3 sparsemux_33_4_4_1_1_U4 sparsemux_33_4_4_1_1_U5 sparsemux_33_4_4_1_1_U6 sparsemux_33_4_4_1_1_U7 sparsemux_33_4_4_1_1_U8 sparsemux_33_4_4_1_1_U9 ap_return</BindInstances>
+                </Instance>
+                <Instance>
+                    <InstName>grp_cifrador_fu_901</InstName>
+                    <ModuleName>cifrador</ModuleName>
+                    <IsCompInst>true</IsCompInst>
+                    <ID>901</ID>
+                    <BindInstances>icmp_ln110_fu_160_p2 add_ln110_fu_166_p2 sparsemux_33_4_4_1_1_U1 key_3_fu_310_p2 out_5_fu_316_p2 sparsemux_33_4_4_1_1_U2 sparsemux_33_4_4_1_1_U3 sparsemux_33_4_4_1_1_U4 sparsemux_33_4_4_1_1_U5 sparsemux_33_4_4_1_1_U6 sparsemux_33_4_4_1_1_U7 sparsemux_33_4_4_1_1_U8 sparsemux_33_4_4_1_1_U9 ap_return</BindInstances>
+                </Instance>
+                <Instance>
+                    <InstName>grp_cifrador_fu_908</InstName>
+                    <ModuleName>cifrador</ModuleName>
+                    <IsCompInst>true</IsCompInst>
+                    <ID>908</ID>
+                    <BindInstances>icmp_ln110_fu_160_p2 add_ln110_fu_166_p2 sparsemux_33_4_4_1_1_U1 key_3_fu_310_p2 out_5_fu_316_p2 sparsemux_33_4_4_1_1_U2 sparsemux_33_4_4_1_1_U3 sparsemux_33_4_4_1_1_U4 sparsemux_33_4_4_1_1_U5 sparsemux_33_4_4_1_1_U6 sparsemux_33_4_4_1_1_U7 sparsemux_33_4_4_1_1_U8 sparsemux_33_4_4_1_1_U9 ap_return</BindInstances>
+                </Instance>
+                <Instance>
+                    <InstName>grp_cifrador_fu_915</InstName>
+                    <ModuleName>cifrador</ModuleName>
+                    <IsCompInst>true</IsCompInst>
+                    <ID>915</ID>
+                    <BindInstances>icmp_ln110_fu_160_p2 add_ln110_fu_166_p2 sparsemux_33_4_4_1_1_U1 key_3_fu_310_p2 out_5_fu_316_p2 sparsemux_33_4_4_1_1_U2 sparsemux_33_4_4_1_1_U3 sparsemux_33_4_4_1_1_U4 sparsemux_33_4_4_1_1_U5 sparsemux_33_4_4_1_1_U6 sparsemux_33_4_4_1_1_U7 sparsemux_33_4_4_1_1_U8 sparsemux_33_4_4_1_1_U9 ap_return</BindInstances>
+                </Instance>
+                <Instance>
+                    <InstName>grp_cifrador_fu_922</InstName>
+                    <ModuleName>cifrador</ModuleName>
+                    <IsCompInst>true</IsCompInst>
+                    <ID>922</ID>
+                    <BindInstances>icmp_ln110_fu_160_p2 add_ln110_fu_166_p2 sparsemux_33_4_4_1_1_U1 key_3_fu_310_p2 out_5_fu_316_p2 sparsemux_33_4_4_1_1_U2 sparsemux_33_4_4_1_1_U3 sparsemux_33_4_4_1_1_U4 sparsemux_33_4_4_1_1_U5 sparsemux_33_4_4_1_1_U6 sparsemux_33_4_4_1_1_U7 sparsemux_33_4_4_1_1_U8 sparsemux_33_4_4_1_1_U9 ap_return</BindInstances>
+                </Instance>
+                <Instance>
+                    <InstName>grp_cifrador_fu_929</InstName>
+                    <ModuleName>cifrador</ModuleName>
+                    <IsCompInst>true</IsCompInst>
+                    <ID>929</ID>
+                    <BindInstances>icmp_ln110_fu_160_p2 add_ln110_fu_166_p2 sparsemux_33_4_4_1_1_U1 key_3_fu_310_p2 out_5_fu_316_p2 sparsemux_33_4_4_1_1_U2 sparsemux_33_4_4_1_1_U3 sparsemux_33_4_4_1_1_U4 sparsemux_33_4_4_1_1_U5 sparsemux_33_4_4_1_1_U6 sparsemux_33_4_4_1_1_U7 sparsemux_33_4_4_1_1_U8 sparsemux_33_4_4_1_1_U9 ap_return</BindInstances>
+                </Instance>
+                <Instance>
+                    <InstName>grp_cifrador_fu_936</InstName>
+                    <ModuleName>cifrador</ModuleName>
+                    <IsCompInst>true</IsCompInst>
+                    <ID>936</ID>
+                    <BindInstances>icmp_ln110_fu_160_p2 add_ln110_fu_166_p2 sparsemux_33_4_4_1_1_U1 key_3_fu_310_p2 out_5_fu_316_p2 sparsemux_33_4_4_1_1_U2 sparsemux_33_4_4_1_1_U3 sparsemux_33_4_4_1_1_U4 sparsemux_33_4_4_1_1_U5 sparsemux_33_4_4_1_1_U6 sparsemux_33_4_4_1_1_U7 sparsemux_33_4_4_1_1_U8 sparsemux_33_4_4_1_1_U9 ap_return</BindInstances>
+                </Instance>
+                <Instance>
+                    <InstName>grp_cifrador_fu_943</InstName>
+                    <ModuleName>cifrador</ModuleName>
+                    <IsCompInst>true</IsCompInst>
+                    <ID>943</ID>
+                    <BindInstances>icmp_ln110_fu_160_p2 add_ln110_fu_166_p2 sparsemux_33_4_4_1_1_U1 key_3_fu_310_p2 out_5_fu_316_p2 sparsemux_33_4_4_1_1_U2 sparsemux_33_4_4_1_1_U3 sparsemux_33_4_4_1_1_U4 sparsemux_33_4_4_1_1_U5 sparsemux_33_4_4_1_1_U6 sparsemux_33_4_4_1_1_U7 sparsemux_33_4_4_1_1_U8 sparsemux_33_4_4_1_1_U9 ap_return</BindInstances>
+                </Instance>
+                <Instance>
+                    <InstName>grp_cifrador_fu_950</InstName>
+                    <ModuleName>cifrador</ModuleName>
+                    <IsCompInst>true</IsCompInst>
+                    <ID>950</ID>
+                    <BindInstances>icmp_ln110_fu_160_p2 add_ln110_fu_166_p2 sparsemux_33_4_4_1_1_U1 key_3_fu_310_p2 out_5_fu_316_p2 sparsemux_33_4_4_1_1_U2 sparsemux_33_4_4_1_1_U3 sparsemux_33_4_4_1_1_U4 sparsemux_33_4_4_1_1_U5 sparsemux_33_4_4_1_1_U6 sparsemux_33_4_4_1_1_U7 sparsemux_33_4_4_1_1_U8 sparsemux_33_4_4_1_1_U9 ap_return</BindInstances>
+                </Instance>
+                <Instance>
+                    <InstName>grp_cifrador_fu_957</InstName>
+                    <ModuleName>cifrador</ModuleName>
+                    <IsCompInst>true</IsCompInst>
+                    <ID>957</ID>
+                    <BindInstances>icmp_ln110_fu_160_p2 add_ln110_fu_166_p2 sparsemux_33_4_4_1_1_U1 key_3_fu_310_p2 out_5_fu_316_p2 sparsemux_33_4_4_1_1_U2 sparsemux_33_4_4_1_1_U3 sparsemux_33_4_4_1_1_U4 sparsemux_33_4_4_1_1_U5 sparsemux_33_4_4_1_1_U6 sparsemux_33_4_4_1_1_U7 sparsemux_33_4_4_1_1_U8 sparsemux_33_4_4_1_1_U9 ap_return</BindInstances>
+                </Instance>
+                <Instance>
+                    <InstName>grp_cifrador_fu_964</InstName>
+                    <ModuleName>cifrador</ModuleName>
+                    <IsCompInst>true</IsCompInst>
+                    <ID>964</ID>
+                    <BindInstances>icmp_ln110_fu_160_p2 add_ln110_fu_166_p2 sparsemux_33_4_4_1_1_U1 key_3_fu_310_p2 out_5_fu_316_p2 sparsemux_33_4_4_1_1_U2 sparsemux_33_4_4_1_1_U3 sparsemux_33_4_4_1_1_U4 sparsemux_33_4_4_1_1_U5 sparsemux_33_4_4_1_1_U6 sparsemux_33_4_4_1_1_U7 sparsemux_33_4_4_1_1_U8 sparsemux_33_4_4_1_1_U9 ap_return</BindInstances>
+                </Instance>
+                <Instance>
+                    <InstName>grp_cifrador_fu_971</InstName>
+                    <ModuleName>cifrador</ModuleName>
+                    <IsCompInst>true</IsCompInst>
+                    <ID>971</ID>
+                    <BindInstances>icmp_ln110_fu_160_p2 add_ln110_fu_166_p2 sparsemux_33_4_4_1_1_U1 key_3_fu_310_p2 out_5_fu_316_p2 sparsemux_33_4_4_1_1_U2 sparsemux_33_4_4_1_1_U3 sparsemux_33_4_4_1_1_U4 sparsemux_33_4_4_1_1_U5 sparsemux_33_4_4_1_1_U6 sparsemux_33_4_4_1_1_U7 sparsemux_33_4_4_1_1_U8 sparsemux_33_4_4_1_1_U9 ap_return</BindInstances>
+                </Instance>
+                <Instance>
+                    <InstName>grp_cifrador_fu_978</InstName>
+                    <ModuleName>cifrador</ModuleName>
+                    <IsCompInst>true</IsCompInst>
+                    <ID>978</ID>
+                    <BindInstances>icmp_ln110_fu_160_p2 add_ln110_fu_166_p2 sparsemux_33_4_4_1_1_U1 key_3_fu_310_p2 out_5_fu_316_p2 sparsemux_33_4_4_1_1_U2 sparsemux_33_4_4_1_1_U3 sparsemux_33_4_4_1_1_U4 sparsemux_33_4_4_1_1_U5 sparsemux_33_4_4_1_1_U6 sparsemux_33_4_4_1_1_U7 sparsemux_33_4_4_1_1_U8 sparsemux_33_4_4_1_1_U9 ap_return</BindInstances>
+                </Instance>
+                <Instance>
+                    <InstName>grp_cifrador_fu_985</InstName>
+                    <ModuleName>cifrador</ModuleName>
+                    <IsCompInst>true</IsCompInst>
+                    <ID>985</ID>
+                    <BindInstances>icmp_ln110_fu_160_p2 add_ln110_fu_166_p2 sparsemux_33_4_4_1_1_U1 key_3_fu_310_p2 out_5_fu_316_p2 sparsemux_33_4_4_1_1_U2 sparsemux_33_4_4_1_1_U3 sparsemux_33_4_4_1_1_U4 sparsemux_33_4_4_1_1_U5 sparsemux_33_4_4_1_1_U6 sparsemux_33_4_4_1_1_U7 sparsemux_33_4_4_1_1_U8 sparsemux_33_4_4_1_1_U9 ap_return</BindInstances>
+                </Instance>
+                <Instance>
+                    <InstName>grp_cifrador_fu_992</InstName>
+                    <ModuleName>cifrador</ModuleName>
+                    <IsCompInst>true</IsCompInst>
+                    <ID>992</ID>
+                    <BindInstances>icmp_ln110_fu_160_p2 add_ln110_fu_166_p2 sparsemux_33_4_4_1_1_U1 key_3_fu_310_p2 out_5_fu_316_p2 sparsemux_33_4_4_1_1_U2 sparsemux_33_4_4_1_1_U3 sparsemux_33_4_4_1_1_U4 sparsemux_33_4_4_1_1_U5 sparsemux_33_4_4_1_1_U6 sparsemux_33_4_4_1_1_U7 sparsemux_33_4_4_1_1_U8 sparsemux_33_4_4_1_1_U9 ap_return</BindInstances>
+                </Instance>
+                <Instance>
+                    <InstName>grp_cifrador_fu_999</InstName>
+                    <ModuleName>cifrador</ModuleName>
+                    <IsCompInst>true</IsCompInst>
+                    <ID>999</ID>
+                    <BindInstances>icmp_ln110_fu_160_p2 add_ln110_fu_166_p2 sparsemux_33_4_4_1_1_U1 key_3_fu_310_p2 out_5_fu_316_p2 sparsemux_33_4_4_1_1_U2 sparsemux_33_4_4_1_1_U3 sparsemux_33_4_4_1_1_U4 sparsemux_33_4_4_1_1_U5 sparsemux_33_4_4_1_1_U6 sparsemux_33_4_4_1_1_U7 sparsemux_33_4_4_1_1_U8 sparsemux_33_4_4_1_1_U9 ap_return</BindInstances>
+                </Instance>
+                <Instance>
+                    <InstName>grp_cifrador_fu_1006</InstName>
+                    <ModuleName>cifrador</ModuleName>
+                    <IsCompInst>true</IsCompInst>
+                    <ID>1006</ID>
+                    <BindInstances>icmp_ln110_fu_160_p2 add_ln110_fu_166_p2 sparsemux_33_4_4_1_1_U1 key_3_fu_310_p2 out_5_fu_316_p2 sparsemux_33_4_4_1_1_U2 sparsemux_33_4_4_1_1_U3 sparsemux_33_4_4_1_1_U4 sparsemux_33_4_4_1_1_U5 sparsemux_33_4_4_1_1_U6 sparsemux_33_4_4_1_1_U7 sparsemux_33_4_4_1_1_U8 sparsemux_33_4_4_1_1_U9 ap_return</BindInstances>
+                </Instance>
+            </InstancesList>
+            <BindInstances>ciphertext_0 add_ln142_fu_1013_p2 add_ln142_1_fu_1020_p2 add_ln142_2_fu_1027_p2 add_ln142_3_fu_1034_p2 add_ln142_4_fu_1041_p2 add_ln142_5_fu_1048_p2 add_ln142_6_fu_1055_p2 add_ln142_7_fu_1062_p2 add_ln142_8_fu_1069_p2 add_ln142_9_fu_1076_p2 add_ln142_10_fu_1083_p2 add_ln142_11_fu_1090_p2 add_ln142_12_fu_1097_p2 add_ln142_13_fu_1104_p2 add_ln142_14_fu_1111_p2 add_ln142_15_fu_1118_p2 add_ln142_16_fu_1125_p2 add_ln142_17_fu_1132_p2 add_ln142_18_fu_1139_p2 add_ln142_19_fu_1146_p2 add_ln142_20_fu_1153_p2 add_ln142_21_fu_1160_p2 add_ln142_22_fu_1167_p2 add_ln142_23_fu_1174_p2 add_ln142_24_fu_1181_p2 add_ln142_25_fu_1188_p2 add_ln142_26_fu_1195_p2 add_ln142_27_fu_1202_p2 add_ln142_28_fu_1209_p2 add_ln142_29_fu_1216_p2 add_ln142_30_fu_1223_p2 ciphertext_1 ciphertext_2 ciphertext_3 ciphertext_4 ciphertext_5 ciphertext_6 ciphertext_7 ciphertext_8 ciphertext_9 ciphertext_10 ciphertext_11 ciphertext_12 ciphertext_13 ciphertext_14 ciphertext_15 ciphertext_16 ciphertext_17 ciphertext_18 ciphertext_19 ciphertext_20 ciphertext_21 ciphertext_22 ciphertext_23 ciphertext_24 ciphertext_25 ciphertext_26 ciphertext_27 ciphertext_28 ciphertext_29 ciphertext_30 ciphertext_31 ap_return control_s_axi_U</BindInstances>
+        </TopModule>
+    </RTLDesignHierarchy>
+    <ModuleInformation>
+        <Module>
+            <Name>cifrador</Name>
+            <Loops>
+                <VITIS_LOOP_110_1/>
+            </Loops>
+            <PerformanceEstimates>
+                <SummaryOfTimingAnalysis>
+                    <TargetClockPeriod>10.00</TargetClockPeriod>
+                    <ClockUncertainty>2.70</ClockUncertainty>
+                    <EstimatedClockPeriod>4.645</EstimatedClockPeriod>
+                </SummaryOfTimingAnalysis>
+                <SummaryOfOverallLatency>
+                    <Best-caseLatency>33</Best-caseLatency>
+                    <Average-caseLatency>33</Average-caseLatency>
+                    <Worst-caseLatency>33</Worst-caseLatency>
+                    <Best-caseRealTimeLatency>0.330 us</Best-caseRealTimeLatency>
+                    <Average-caseRealTimeLatency>0.330 us</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>0.330 us</Worst-caseRealTimeLatency>
+                    <PipelineInitiationInterval>32</PipelineInitiationInterval>
+                    <PipelineType>loop pipeline stpstp (delay=0 clock cycles(s))</PipelineType>
+                    <PerformancePragma>-</PerformancePragma>
+                </SummaryOfOverallLatency>
+                <SummaryOfLoopLatency>
+                    <VITIS_LOOP_110_1>
+                        <Name>VITIS_LOOP_110_1</Name>
+                        <Slack>7.30</Slack>
+                        <TripCount>31</TripCount>
+                        <isPerfectNested>0</isPerfectNested>
+                        <Latency>31</Latency>
+                        <AbsoluteTimeLatency>0.310 us</AbsoluteTimeLatency>
+                        <PipelineII>1</PipelineII>
+                        <PipelineDepth>1</PipelineDepth>
+                        <PipelineType>yes</PipelineType>
+                        <PerformancePragma>-</PerformancePragma>
+                        <InstanceList/>
+                    </VITIS_LOOP_110_1>
+                </SummaryOfLoopLatency>
+                <SummaryOfViolations>
+                    <IssueType>-</IssueType>
+                    <ViolationType>-</ViolationType>
+                    <SourceLocation>Cifrador.cpp:106</SourceLocation>
+                    <SummaryOfLoopViolations>
+                        <VITIS_LOOP_110_1>
+                            <Name>VITIS_LOOP_110_1</Name>
+                            <IssueType>-</IssueType>
+                            <ViolationType>-</ViolationType>
+                            <SourceLocation>Cifrador.cpp:110</SourceLocation>
+                        </VITIS_LOOP_110_1>
+                    </SummaryOfLoopViolations>
+                </SummaryOfViolations>
+            </PerformanceEstimates>
+            <AreaEstimates>
+                <Resources>
+                    <FF>136</FF>
+                    <AVAIL_FF>106400</AVAIL_FF>
+                    <UTIL_FF>~0</UTIL_FF>
+                    <LUT>786</LUT>
+                    <AVAIL_LUT>53200</AVAIL_LUT>
+                    <UTIL_LUT>1</UTIL_LUT>
+                    <BRAM_18K>0</BRAM_18K>
+                    <AVAIL_BRAM>280</AVAIL_BRAM>
+                    <UTIL_BRAM>0</UTIL_BRAM>
+                    <DSP>0</DSP>
+                    <AVAIL_DSP>220</AVAIL_DSP>
+                    <UTIL_DSP>0</UTIL_DSP>
+                    <URAM>0</URAM>
+                    <AVAIL_URAM>0</AVAIL_URAM>
+                    <UTIL_URAM>0</UTIL_URAM>
+                </Resources>
+            </AreaEstimates>
+            <BindNodes>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="VITIS_LOOP_110_1" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln110_fu_160_p2" SOURCE="Cifrador.cpp:110" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln110" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_110_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln110_fu_166_p2" SOURCE="Cifrador.cpp:110" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln110" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="VITIS_LOOP_110_1" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U1" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="VITIS_LOOP_110_1" OPTYPE="xor" PRAGMA="" RTLNAME="key_3_fu_310_p2" SOURCE="Cifrador.cpp:101" STORAGESUBTYPE="" URAM="0" VARIABLE="key_3" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="VITIS_LOOP_110_1" OPTYPE="xor" PRAGMA="" RTLNAME="out_5_fu_316_p2" SOURCE="Cifrador.cpp:50" STORAGESUBTYPE="" URAM="0" VARIABLE="out_5" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="VITIS_LOOP_110_1" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U2" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_3" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="VITIS_LOOP_110_1" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U3" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_5" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="VITIS_LOOP_110_1" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U4" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_7" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="VITIS_LOOP_110_1" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U5" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_9" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="VITIS_LOOP_110_1" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U6" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_s" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="VITIS_LOOP_110_1" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U7" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_1" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="VITIS_LOOP_110_1" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U8" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_2" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="VITIS_LOOP_110_1" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U9" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_4" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="ap_return" SOURCE="Cifrador.cpp:50" STORAGESUBTYPE="" URAM="0" VARIABLE="out_4" VISIBLE="false"/>
+            </BindNodes>
+        </Module>
+        <Module>
+            <Name>cifrador_paralelo_32_ctr</Name>
+            <PerformanceEstimates>
+                <SummaryOfTimingAnalysis>
+                    <TargetClockPeriod>10.00</TargetClockPeriod>
+                    <ClockUncertainty>2.70</ClockUncertainty>
+                    <EstimatedClockPeriod>5.361</EstimatedClockPeriod>
+                </SummaryOfTimingAnalysis>
+                <SummaryOfOverallLatency>
+                    <Best-caseLatency>34</Best-caseLatency>
+                    <Average-caseLatency>34</Average-caseLatency>
+                    <Worst-caseLatency>34</Worst-caseLatency>
+                    <Best-caseRealTimeLatency>0.340 us</Best-caseRealTimeLatency>
+                    <Average-caseRealTimeLatency>0.340 us</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>0.340 us</Worst-caseRealTimeLatency>
+                    <PipelineInitiationInterval>35</PipelineInitiationInterval>
+                    <PipelineType>no</PipelineType>
+                    <PerformancePragma>-</PerformancePragma>
+                </SummaryOfOverallLatency>
+                <SummaryOfViolations>
+                    <IssueType>-</IssueType>
+                    <ViolationType>-</ViolationType>
+                    <SourceLocation>Cifrador.cpp:125</SourceLocation>
+                </SummaryOfViolations>
+            </PerformanceEstimates>
+            <AreaEstimates>
+                <Resources>
+                    <BRAM_18K>0</BRAM_18K>
+                    <AVAIL_BRAM>280</AVAIL_BRAM>
+                    <UTIL_BRAM>0</UTIL_BRAM>
+                    <FF>9106</FF>
+                    <AVAIL_FF>106400</AVAIL_FF>
+                    <UTIL_FF>8</UTIL_FF>
+                    <LUT>31832</LUT>
+                    <AVAIL_LUT>53200</AVAIL_LUT>
+                    <UTIL_LUT>59</UTIL_LUT>
+                    <DSP>0</DSP>
+                    <AVAIL_DSP>220</AVAIL_DSP>
+                    <UTIL_DSP>0</UTIL_DSP>
+                    <URAM>0</URAM>
+                    <AVAIL_URAM>0</AVAIL_URAM>
+                    <UTIL_URAM>0</UTIL_URAM>
+                </Resources>
+            </AreaEstimates>
+            <BindNodes>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="ciphertext_0" SOURCE="Cifrador.cpp:143" STORAGESUBTYPE="" URAM="0" VARIABLE="xor_ln143" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="add_ln142_fu_1013_p2" SOURCE="Cifrador.cpp:142" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln142" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="add_ln142_1_fu_1020_p2" SOURCE="Cifrador.cpp:142" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln142_1" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="add_ln142_2_fu_1027_p2" SOURCE="Cifrador.cpp:142" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln142_2" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="add_ln142_3_fu_1034_p2" SOURCE="Cifrador.cpp:142" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln142_3" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="add_ln142_4_fu_1041_p2" SOURCE="Cifrador.cpp:142" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln142_4" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="add_ln142_5_fu_1048_p2" SOURCE="Cifrador.cpp:142" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln142_5" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="add_ln142_6_fu_1055_p2" SOURCE="Cifrador.cpp:142" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln142_6" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="add_ln142_7_fu_1062_p2" SOURCE="Cifrador.cpp:142" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln142_7" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="add_ln142_8_fu_1069_p2" SOURCE="Cifrador.cpp:142" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln142_8" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="add_ln142_9_fu_1076_p2" SOURCE="Cifrador.cpp:142" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln142_9" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="add_ln142_10_fu_1083_p2" SOURCE="Cifrador.cpp:142" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln142_10" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="add_ln142_11_fu_1090_p2" SOURCE="Cifrador.cpp:142" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln142_11" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="add_ln142_12_fu_1097_p2" SOURCE="Cifrador.cpp:142" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln142_12" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="add_ln142_13_fu_1104_p2" SOURCE="Cifrador.cpp:142" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln142_13" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="add_ln142_14_fu_1111_p2" SOURCE="Cifrador.cpp:142" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln142_14" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="add_ln142_15_fu_1118_p2" SOURCE="Cifrador.cpp:142" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln142_15" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="add_ln142_16_fu_1125_p2" SOURCE="Cifrador.cpp:142" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln142_16" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="add_ln142_17_fu_1132_p2" SOURCE="Cifrador.cpp:142" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln142_17" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="add_ln142_18_fu_1139_p2" SOURCE="Cifrador.cpp:142" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln142_18" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="add_ln142_19_fu_1146_p2" SOURCE="Cifrador.cpp:142" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln142_19" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="add_ln142_20_fu_1153_p2" SOURCE="Cifrador.cpp:142" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln142_20" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="add_ln142_21_fu_1160_p2" SOURCE="Cifrador.cpp:142" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln142_21" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="add_ln142_22_fu_1167_p2" SOURCE="Cifrador.cpp:142" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln142_22" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="add_ln142_23_fu_1174_p2" SOURCE="Cifrador.cpp:142" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln142_23" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="add_ln142_24_fu_1181_p2" SOURCE="Cifrador.cpp:142" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln142_24" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="add_ln142_25_fu_1188_p2" SOURCE="Cifrador.cpp:142" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln142_25" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="add_ln142_26_fu_1195_p2" SOURCE="Cifrador.cpp:142" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln142_26" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="add_ln142_27_fu_1202_p2" SOURCE="Cifrador.cpp:142" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln142_27" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="add_ln142_28_fu_1209_p2" SOURCE="Cifrador.cpp:142" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln142_28" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="add_ln142_29_fu_1216_p2" SOURCE="Cifrador.cpp:142" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln142_29" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="add_ln142_30_fu_1223_p2" SOURCE="Cifrador.cpp:142" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln142_30" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="ciphertext_1" SOURCE="Cifrador.cpp:143" STORAGESUBTYPE="" URAM="0" VARIABLE="xor_ln143_1" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="ciphertext_2" SOURCE="Cifrador.cpp:143" STORAGESUBTYPE="" URAM="0" VARIABLE="xor_ln143_2" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="ciphertext_3" SOURCE="Cifrador.cpp:143" STORAGESUBTYPE="" URAM="0" VARIABLE="xor_ln143_3" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="ciphertext_4" SOURCE="Cifrador.cpp:143" STORAGESUBTYPE="" URAM="0" VARIABLE="xor_ln143_4" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="ciphertext_5" SOURCE="Cifrador.cpp:143" STORAGESUBTYPE="" URAM="0" VARIABLE="xor_ln143_5" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="ciphertext_6" SOURCE="Cifrador.cpp:143" STORAGESUBTYPE="" URAM="0" VARIABLE="xor_ln143_6" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="ciphertext_7" SOURCE="Cifrador.cpp:143" STORAGESUBTYPE="" URAM="0" VARIABLE="xor_ln143_7" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="ciphertext_8" SOURCE="Cifrador.cpp:143" STORAGESUBTYPE="" URAM="0" VARIABLE="xor_ln143_8" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="ciphertext_9" SOURCE="Cifrador.cpp:143" STORAGESUBTYPE="" URAM="0" VARIABLE="xor_ln143_9" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="ciphertext_10" SOURCE="Cifrador.cpp:143" STORAGESUBTYPE="" URAM="0" VARIABLE="xor_ln143_10" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="ciphertext_11" SOURCE="Cifrador.cpp:143" STORAGESUBTYPE="" URAM="0" VARIABLE="xor_ln143_11" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="ciphertext_12" SOURCE="Cifrador.cpp:143" STORAGESUBTYPE="" URAM="0" VARIABLE="xor_ln143_12" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="ciphertext_13" SOURCE="Cifrador.cpp:143" STORAGESUBTYPE="" URAM="0" VARIABLE="xor_ln143_13" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="ciphertext_14" SOURCE="Cifrador.cpp:143" STORAGESUBTYPE="" URAM="0" VARIABLE="xor_ln143_14" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="ciphertext_15" SOURCE="Cifrador.cpp:143" STORAGESUBTYPE="" URAM="0" VARIABLE="xor_ln143_15" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="ciphertext_16" SOURCE="Cifrador.cpp:143" STORAGESUBTYPE="" URAM="0" VARIABLE="xor_ln143_16" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="ciphertext_17" SOURCE="Cifrador.cpp:143" STORAGESUBTYPE="" URAM="0" VARIABLE="xor_ln143_17" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="ciphertext_18" SOURCE="Cifrador.cpp:143" STORAGESUBTYPE="" URAM="0" VARIABLE="xor_ln143_18" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="ciphertext_19" SOURCE="Cifrador.cpp:143" STORAGESUBTYPE="" URAM="0" VARIABLE="xor_ln143_19" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="ciphertext_20" SOURCE="Cifrador.cpp:143" STORAGESUBTYPE="" URAM="0" VARIABLE="xor_ln143_20" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="ciphertext_21" SOURCE="Cifrador.cpp:143" STORAGESUBTYPE="" URAM="0" VARIABLE="xor_ln143_21" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="ciphertext_22" SOURCE="Cifrador.cpp:143" STORAGESUBTYPE="" URAM="0" VARIABLE="xor_ln143_22" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="ciphertext_23" SOURCE="Cifrador.cpp:143" STORAGESUBTYPE="" URAM="0" VARIABLE="xor_ln143_23" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="ciphertext_24" SOURCE="Cifrador.cpp:143" STORAGESUBTYPE="" URAM="0" VARIABLE="xor_ln143_24" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="ciphertext_25" SOURCE="Cifrador.cpp:143" STORAGESUBTYPE="" URAM="0" VARIABLE="xor_ln143_25" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="ciphertext_26" SOURCE="Cifrador.cpp:143" STORAGESUBTYPE="" URAM="0" VARIABLE="xor_ln143_26" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="ciphertext_27" SOURCE="Cifrador.cpp:143" STORAGESUBTYPE="" URAM="0" VARIABLE="xor_ln143_27" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="ciphertext_28" SOURCE="Cifrador.cpp:143" STORAGESUBTYPE="" URAM="0" VARIABLE="xor_ln143_28" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="ciphertext_29" SOURCE="Cifrador.cpp:143" STORAGESUBTYPE="" URAM="0" VARIABLE="xor_ln143_29" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="ciphertext_30" SOURCE="Cifrador.cpp:143" STORAGESUBTYPE="" URAM="0" VARIABLE="xor_ln143_30" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="ciphertext_31" SOURCE="Cifrador.cpp:143" STORAGESUBTYPE="" URAM="0" VARIABLE="xor_ln143_31" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="ap_return" SOURCE="Cifrador.cpp:146" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln146" VISIBLE="true"/>
+                <BindNode BINDTYPE="adapter" BRAM="0" BUNDLEDNAME="control" DISPNAME="bind_adapter " DSP="0" ID="" IMPL="" LATENCY="" LOOP="" OPTYPE="" PRAGMA="" RTLNAME="control_s_axi_U" SOURCE="" STORAGESIZE="" STORAGESUBTYPE="s_axilite" STORAGEUSAGE="interface" URAM="0" VARIABLE=""/>
+            </BindNodes>
+        </Module>
+    </ModuleInformation>
+    <FIFOInformation/>
+    <UserConfigCommands/>
+    <Args>
+        <Arg ArgName="plaintext" index="0" direction="in" srcType="ap_uint&lt;32&gt;*" srcSize="32">
+            <hwRefs>
+                <hwRef type="interface" interface="s_axi_control" name="" usage="data" direction="in"/>
+                <hwRef type="interface" interface="s_axi_control" name="" usage="data" direction="in"/>
+                <hwRef type="interface" interface="s_axi_control" name="" usage="data" direction="in"/>
+                <hwRef type="interface" interface="s_axi_control" name="" usage="data" direction="in"/>
+                <hwRef type="interface" interface="s_axi_control" name="" usage="data" direction="in"/>
+                <hwRef type="interface" interface="s_axi_control" name="" usage="data" direction="in"/>
+                <hwRef type="interface" interface="s_axi_control" name="" usage="data" direction="in"/>
+                <hwRef type="interface" interface="s_axi_control" name="" usage="data" direction="in"/>
+                <hwRef type="interface" interface="s_axi_control" name="" usage="data" direction="in"/>
+                <hwRef type="interface" interface="s_axi_control" name="" usage="data" direction="in"/>
+                <hwRef type="interface" interface="s_axi_control" name="" usage="data" direction="in"/>
+                <hwRef type="interface" interface="s_axi_control" name="" usage="data" direction="in"/>
+                <hwRef type="interface" interface="s_axi_control" name="" usage="data" direction="in"/>
+                <hwRef type="interface" interface="s_axi_control" name="" usage="data" direction="in"/>
+                <hwRef type="interface" interface="s_axi_control" name="" usage="data" direction="in"/>
+                <hwRef type="interface" interface="s_axi_control" name="" usage="data" direction="in"/>
+                <hwRef type="interface" interface="s_axi_control" name="" usage="data" direction="in"/>
+                <hwRef type="interface" interface="s_axi_control" name="" usage="data" direction="in"/>
+                <hwRef type="interface" interface="s_axi_control" name="" usage="data" direction="in"/>
+                <hwRef type="interface" interface="s_axi_control" name="" usage="data" direction="in"/>
+                <hwRef type="interface" interface="s_axi_control" name="" usage="data" direction="in"/>
+                <hwRef type="interface" interface="s_axi_control" name="" usage="data" direction="in"/>
+                <hwRef type="interface" interface="s_axi_control" name="" usage="data" direction="in"/>
+                <hwRef type="interface" interface="s_axi_control" name="" usage="data" direction="in"/>
+                <hwRef type="interface" interface="s_axi_control" name="" usage="data" direction="in"/>
+                <hwRef type="interface" interface="s_axi_control" name="" usage="data" direction="in"/>
+                <hwRef type="interface" interface="s_axi_control" name="" usage="data" direction="in"/>
+                <hwRef type="interface" interface="s_axi_control" name="" usage="data" direction="in"/>
+                <hwRef type="interface" interface="s_axi_control" name="" usage="data" direction="in"/>
+                <hwRef type="interface" interface="s_axi_control" name="" usage="data" direction="in"/>
+                <hwRef type="interface" interface="s_axi_control" name="" usage="data" direction="in"/>
+                <hwRef type="interface" interface="s_axi_control" name="" usage="data" direction="in"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="key" index="1" direction="in" srcType="ap_uint&lt;64&gt;" srcSize="64">
+            <hwRefs>
+                <hwRef type="register" interface="s_axi_control" name="key_1" usage="data" direction="in"/>
+                <hwRef type="register" interface="s_axi_control" name="key_2" usage="data" direction="in"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="ciphertext" index="2" direction="out" srcType="ap_uint&lt;32&gt;*" srcSize="32">
+            <hwRefs>
+                <hwRef type="interface" interface="s_axi_control" name="" usage="data" direction="out"/>
+                <hwRef type="interface" interface="s_axi_control" name="" usage="data" direction="out"/>
+                <hwRef type="interface" interface="s_axi_control" name="" usage="data" direction="out"/>
+                <hwRef type="interface" interface="s_axi_control" name="" usage="data" direction="out"/>
+                <hwRef type="interface" interface="s_axi_control" name="" usage="data" direction="out"/>
+                <hwRef type="interface" interface="s_axi_control" name="" usage="data" direction="out"/>
+                <hwRef type="interface" interface="s_axi_control" name="" usage="data" direction="out"/>
+                <hwRef type="interface" interface="s_axi_control" name="" usage="data" direction="out"/>
+                <hwRef type="interface" interface="s_axi_control" name="" usage="data" direction="out"/>
+                <hwRef type="interface" interface="s_axi_control" name="" usage="data" direction="out"/>
+                <hwRef type="interface" interface="s_axi_control" name="" usage="data" direction="out"/>
+                <hwRef type="interface" interface="s_axi_control" name="" usage="data" direction="out"/>
+                <hwRef type="interface" interface="s_axi_control" name="" usage="data" direction="out"/>
+                <hwRef type="interface" interface="s_axi_control" name="" usage="data" direction="out"/>
+                <hwRef type="interface" interface="s_axi_control" name="" usage="data" direction="out"/>
+                <hwRef type="interface" interface="s_axi_control" name="" usage="data" direction="out"/>
+                <hwRef type="interface" interface="s_axi_control" name="" usage="data" direction="out"/>
+                <hwRef type="interface" interface="s_axi_control" name="" usage="data" direction="out"/>
+                <hwRef type="interface" interface="s_axi_control" name="" usage="data" direction="out"/>
+                <hwRef type="interface" interface="s_axi_control" name="" usage="data" direction="out"/>
+                <hwRef type="interface" interface="s_axi_control" name="" usage="data" direction="out"/>
+                <hwRef type="interface" interface="s_axi_control" name="" usage="data" direction="out"/>
+                <hwRef type="interface" interface="s_axi_control" name="" usage="data" direction="out"/>
+                <hwRef type="interface" interface="s_axi_control" name="" usage="data" direction="out"/>
+                <hwRef type="interface" interface="s_axi_control" name="" usage="data" direction="out"/>
+                <hwRef type="interface" interface="s_axi_control" name="" usage="data" direction="out"/>
+                <hwRef type="interface" interface="s_axi_control" name="" usage="data" direction="out"/>
+                <hwRef type="interface" interface="s_axi_control" name="" usage="data" direction="out"/>
+                <hwRef type="interface" interface="s_axi_control" name="" usage="data" direction="out"/>
+                <hwRef type="interface" interface="s_axi_control" name="" usage="data" direction="out"/>
+                <hwRef type="interface" interface="s_axi_control" name="" usage="data" direction="out"/>
+                <hwRef type="interface" interface="s_axi_control" name="" usage="data" direction="out"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="nonce" index="3" direction="in" srcType="ap_uint&lt;32&gt;" srcSize="32">
+            <hwRefs>
+                <hwRef type="register" interface="s_axi_control" name="nonce" usage="data" direction="in"/>
+            </hwRefs>
+        </Arg>
+    </Args>
+    <ReturnValue ReturnValueName="srcType">ap_uint&lt;32&gt;</ReturnValue>
+    <ReturnValue ReturnValueName="srcSize">32</ReturnValue>
+    <ReturnValue ReturnValueName="hwRefs" type="register" interface="s_axi_control" name="ap_return" usage="data" direction="out"/>
+    <Interfaces>
+        <Interface InterfaceName="s_axi_control" type="axi4lite" busTypeName="aximm" mode="slave" dataWidth="32" addrWidth="10" portPrefix="s_axi_control_" paramPrefix="C_S_AXI_CONTROL_">
+            <ports>
+                <port>s_axi_control_ARADDR</port>
+                <port>s_axi_control_ARREADY</port>
+                <port>s_axi_control_ARVALID</port>
+                <port>s_axi_control_AWADDR</port>
+                <port>s_axi_control_AWREADY</port>
+                <port>s_axi_control_AWVALID</port>
+                <port>s_axi_control_BREADY</port>
+                <port>s_axi_control_BRESP</port>
+                <port>s_axi_control_BVALID</port>
+                <port>s_axi_control_RDATA</port>
+                <port>s_axi_control_RREADY</port>
+                <port>s_axi_control_RRESP</port>
+                <port>s_axi_control_RVALID</port>
+                <port>s_axi_control_WDATA</port>
+                <port>s_axi_control_WREADY</port>
+                <port>s_axi_control_WSTRB</port>
+                <port>s_axi_control_WVALID</port>
+            </ports>
+            <registers>
+                <register offset="0x00" name="CTRL" access="RW" description="Control signals" range="32">
+                    <fields>
+                        <field offset="0" width="1" name="AP_START" access="RW" description="Control signal Register for 'ap_start'."/>
+                        <field offset="1" width="1" name="AP_DONE" access="R" description="Control signal Register for 'ap_done'."/>
+                        <field offset="2" width="1" name="AP_IDLE" access="R" description="Control signal Register for 'ap_idle'."/>
+                        <field offset="3" width="1" name="AP_READY" access="R" description="Control signal Register for 'ap_ready'."/>
+                        <field offset="4" width="3" name="RESERVED_1" access="R" description="Reserved.  0s on read."/>
+                        <field offset="7" width="1" name="AUTO_RESTART" access="RW" description="Control signal Register for 'auto_restart'."/>
+                        <field offset="8" width="1" name="RESERVED_2" access="R" description="Reserved.  0s on read."/>
+                        <field offset="9" width="1" name="INTERRUPT" access="R" description="Control signal Register for 'interrupt'."/>
+                        <field offset="10" width="22" name="RESERVED_3" access="R" description="Reserved.  0s on read."/>
+                    </fields>
+                </register>
+                <register offset="0x04" name="GIER" access="RW" description="Global Interrupt Enable Register" range="32">
+                    <fields>
+                        <field offset="0" width="1" name="Enable" access="RW" description="Master enable for the device interrupt output to the system interrupt controller: 0 = Disabled, 1 = Enabled"/>
+                        <field offset="1" width="31" name="RESERVED" access="R" description="Reserved.  0s on read."/>
+                    </fields>
+                </register>
+                <register offset="0x08" name="IP_IER" access="RW" description="IP Interrupt Enable Register" range="32">
+                    <fields>
+                        <field offset="0" width="1" name="CHAN0_INT_EN" access="RW" description="Enable Channel 0 (ap_done) Interrupt.  0 = Disabled, 1 = Enabled."/>
+                        <field offset="1" width="1" name="CHAN1_INT_EN" access="RW" description="Enable Channel 1 (ap_ready) Interrupt.  0 = Disabled, 1 = Enabled."/>
+                        <field offset="2" width="30" name="RESERVED_0" access="R" description="Reserved.  0s on read."/>
+                    </fields>
+                </register>
+                <register offset="0x0c" name="IP_ISR" access="RW" description="IP Interrupt Status Register" range="32">
+                    <fields>
+                        <field offset="0" width="1" name="CHAN0_INT_ST" access="RTOW" description="Channel 0 (ap_done) Interrupt Status. 0 = No Channel 0 interrupt, 1 = Channel 0 interrupt."/>
+                        <field offset="1" width="1" name="CHAN1_INT_ST" access="RTOW" description="Channel 1 (ap_ready) Interrupt Status. 0 = No Channel 1 interrupt, 1 = Channel 1 interrupt."/>
+                        <field offset="2" width="30" name="RESERVED_0" access="R" description="Reserved.  0s on read."/>
+                    </fields>
+                </register>
+                <register offset="0x10" name="ap_return" access="R" description="Data signal of ap_return" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="ap_return" access="R" description="Bit 31 to 0 of ap_return"/>
+                    </fields>
+                </register>
+                <register offset="0x18" name="plaintext_0" access="W" description="Data signal of plaintext_0" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="plaintext_0" access="W" description="Bit 31 to 0 of plaintext_0"/>
+                    </fields>
+                </register>
+                <register offset="0x20" name="plaintext_1" access="W" description="Data signal of plaintext_1" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="plaintext_1" access="W" description="Bit 31 to 0 of plaintext_1"/>
+                    </fields>
+                </register>
+                <register offset="0x28" name="plaintext_2" access="W" description="Data signal of plaintext_2" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="plaintext_2" access="W" description="Bit 31 to 0 of plaintext_2"/>
+                    </fields>
+                </register>
+                <register offset="0x30" name="plaintext_3" access="W" description="Data signal of plaintext_3" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="plaintext_3" access="W" description="Bit 31 to 0 of plaintext_3"/>
+                    </fields>
+                </register>
+                <register offset="0x38" name="plaintext_4" access="W" description="Data signal of plaintext_4" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="plaintext_4" access="W" description="Bit 31 to 0 of plaintext_4"/>
+                    </fields>
+                </register>
+                <register offset="0x40" name="plaintext_5" access="W" description="Data signal of plaintext_5" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="plaintext_5" access="W" description="Bit 31 to 0 of plaintext_5"/>
+                    </fields>
+                </register>
+                <register offset="0x48" name="plaintext_6" access="W" description="Data signal of plaintext_6" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="plaintext_6" access="W" description="Bit 31 to 0 of plaintext_6"/>
+                    </fields>
+                </register>
+                <register offset="0x50" name="plaintext_7" access="W" description="Data signal of plaintext_7" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="plaintext_7" access="W" description="Bit 31 to 0 of plaintext_7"/>
+                    </fields>
+                </register>
+                <register offset="0x58" name="plaintext_8" access="W" description="Data signal of plaintext_8" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="plaintext_8" access="W" description="Bit 31 to 0 of plaintext_8"/>
+                    </fields>
+                </register>
+                <register offset="0x60" name="plaintext_9" access="W" description="Data signal of plaintext_9" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="plaintext_9" access="W" description="Bit 31 to 0 of plaintext_9"/>
+                    </fields>
+                </register>
+                <register offset="0x68" name="plaintext_10" access="W" description="Data signal of plaintext_10" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="plaintext_10" access="W" description="Bit 31 to 0 of plaintext_10"/>
+                    </fields>
+                </register>
+                <register offset="0x70" name="plaintext_11" access="W" description="Data signal of plaintext_11" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="plaintext_11" access="W" description="Bit 31 to 0 of plaintext_11"/>
+                    </fields>
+                </register>
+                <register offset="0x78" name="plaintext_12" access="W" description="Data signal of plaintext_12" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="plaintext_12" access="W" description="Bit 31 to 0 of plaintext_12"/>
+                    </fields>
+                </register>
+                <register offset="0x80" name="plaintext_13" access="W" description="Data signal of plaintext_13" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="plaintext_13" access="W" description="Bit 31 to 0 of plaintext_13"/>
+                    </fields>
+                </register>
+                <register offset="0x88" name="plaintext_14" access="W" description="Data signal of plaintext_14" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="plaintext_14" access="W" description="Bit 31 to 0 of plaintext_14"/>
+                    </fields>
+                </register>
+                <register offset="0x90" name="plaintext_15" access="W" description="Data signal of plaintext_15" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="plaintext_15" access="W" description="Bit 31 to 0 of plaintext_15"/>
+                    </fields>
+                </register>
+                <register offset="0x98" name="plaintext_16" access="W" description="Data signal of plaintext_16" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="plaintext_16" access="W" description="Bit 31 to 0 of plaintext_16"/>
+                    </fields>
+                </register>
+                <register offset="0xa0" name="plaintext_17" access="W" description="Data signal of plaintext_17" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="plaintext_17" access="W" description="Bit 31 to 0 of plaintext_17"/>
+                    </fields>
+                </register>
+                <register offset="0xa8" name="plaintext_18" access="W" description="Data signal of plaintext_18" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="plaintext_18" access="W" description="Bit 31 to 0 of plaintext_18"/>
+                    </fields>
+                </register>
+                <register offset="0xb0" name="plaintext_19" access="W" description="Data signal of plaintext_19" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="plaintext_19" access="W" description="Bit 31 to 0 of plaintext_19"/>
+                    </fields>
+                </register>
+                <register offset="0xb8" name="plaintext_20" access="W" description="Data signal of plaintext_20" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="plaintext_20" access="W" description="Bit 31 to 0 of plaintext_20"/>
+                    </fields>
+                </register>
+                <register offset="0xc0" name="plaintext_21" access="W" description="Data signal of plaintext_21" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="plaintext_21" access="W" description="Bit 31 to 0 of plaintext_21"/>
+                    </fields>
+                </register>
+                <register offset="0xc8" name="plaintext_22" access="W" description="Data signal of plaintext_22" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="plaintext_22" access="W" description="Bit 31 to 0 of plaintext_22"/>
+                    </fields>
+                </register>
+                <register offset="0xd0" name="plaintext_23" access="W" description="Data signal of plaintext_23" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="plaintext_23" access="W" description="Bit 31 to 0 of plaintext_23"/>
+                    </fields>
+                </register>
+                <register offset="0xd8" name="plaintext_24" access="W" description="Data signal of plaintext_24" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="plaintext_24" access="W" description="Bit 31 to 0 of plaintext_24"/>
+                    </fields>
+                </register>
+                <register offset="0xe0" name="plaintext_25" access="W" description="Data signal of plaintext_25" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="plaintext_25" access="W" description="Bit 31 to 0 of plaintext_25"/>
+                    </fields>
+                </register>
+                <register offset="0xe8" name="plaintext_26" access="W" description="Data signal of plaintext_26" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="plaintext_26" access="W" description="Bit 31 to 0 of plaintext_26"/>
+                    </fields>
+                </register>
+                <register offset="0xf0" name="plaintext_27" access="W" description="Data signal of plaintext_27" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="plaintext_27" access="W" description="Bit 31 to 0 of plaintext_27"/>
+                    </fields>
+                </register>
+                <register offset="0xf8" name="plaintext_28" access="W" description="Data signal of plaintext_28" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="plaintext_28" access="W" description="Bit 31 to 0 of plaintext_28"/>
+                    </fields>
+                </register>
+                <register offset="0x100" name="plaintext_29" access="W" description="Data signal of plaintext_29" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="plaintext_29" access="W" description="Bit 31 to 0 of plaintext_29"/>
+                    </fields>
+                </register>
+                <register offset="0x108" name="plaintext_30" access="W" description="Data signal of plaintext_30" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="plaintext_30" access="W" description="Bit 31 to 0 of plaintext_30"/>
+                    </fields>
+                </register>
+                <register offset="0x110" name="plaintext_31" access="W" description="Data signal of plaintext_31" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="plaintext_31" access="W" description="Bit 31 to 0 of plaintext_31"/>
+                    </fields>
+                </register>
+                <register offset="0x118" name="key_1" access="W" description="Data signal of key" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="key" access="W" description="Bit 31 to 0 of key"/>
+                    </fields>
+                </register>
+                <register offset="0x11c" name="key_2" access="W" description="Data signal of key" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="key" access="W" description="Bit 63 to 32 of key"/>
+                    </fields>
+                </register>
+                <register offset="0x124" name="ciphertext_0" access="R" description="Data signal of ciphertext_0" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="ciphertext_0" access="R" description="Bit 31 to 0 of ciphertext_0"/>
+                    </fields>
+                </register>
+                <register offset="0x128" name="ciphertext_0_ctrl" access="R" description="Control signal of ciphertext_0" range="32">
+                    <fields>
+                        <field offset="0" width="1" name="ciphertext_0_ap_vld" access="R" description="Control signal ciphertext_0_ap_vld"/>
+                        <field offset="1" width="31" name="RESERVED" access="R" description="Reserved.  0s on read."/>
+                    </fields>
+                </register>
+                <register offset="0x134" name="ciphertext_1" access="R" description="Data signal of ciphertext_1" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="ciphertext_1" access="R" description="Bit 31 to 0 of ciphertext_1"/>
+                    </fields>
+                </register>
+                <register offset="0x138" name="ciphertext_1_ctrl" access="R" description="Control signal of ciphertext_1" range="32">
+                    <fields>
+                        <field offset="0" width="1" name="ciphertext_1_ap_vld" access="R" description="Control signal ciphertext_1_ap_vld"/>
+                        <field offset="1" width="31" name="RESERVED" access="R" description="Reserved.  0s on read."/>
+                    </fields>
+                </register>
+                <register offset="0x144" name="ciphertext_2" access="R" description="Data signal of ciphertext_2" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="ciphertext_2" access="R" description="Bit 31 to 0 of ciphertext_2"/>
+                    </fields>
+                </register>
+                <register offset="0x148" name="ciphertext_2_ctrl" access="R" description="Control signal of ciphertext_2" range="32">
+                    <fields>
+                        <field offset="0" width="1" name="ciphertext_2_ap_vld" access="R" description="Control signal ciphertext_2_ap_vld"/>
+                        <field offset="1" width="31" name="RESERVED" access="R" description="Reserved.  0s on read."/>
+                    </fields>
+                </register>
+                <register offset="0x154" name="ciphertext_3" access="R" description="Data signal of ciphertext_3" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="ciphertext_3" access="R" description="Bit 31 to 0 of ciphertext_3"/>
+                    </fields>
+                </register>
+                <register offset="0x158" name="ciphertext_3_ctrl" access="R" description="Control signal of ciphertext_3" range="32">
+                    <fields>
+                        <field offset="0" width="1" name="ciphertext_3_ap_vld" access="R" description="Control signal ciphertext_3_ap_vld"/>
+                        <field offset="1" width="31" name="RESERVED" access="R" description="Reserved.  0s on read."/>
+                    </fields>
+                </register>
+                <register offset="0x164" name="ciphertext_4" access="R" description="Data signal of ciphertext_4" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="ciphertext_4" access="R" description="Bit 31 to 0 of ciphertext_4"/>
+                    </fields>
+                </register>
+                <register offset="0x168" name="ciphertext_4_ctrl" access="R" description="Control signal of ciphertext_4" range="32">
+                    <fields>
+                        <field offset="0" width="1" name="ciphertext_4_ap_vld" access="R" description="Control signal ciphertext_4_ap_vld"/>
+                        <field offset="1" width="31" name="RESERVED" access="R" description="Reserved.  0s on read."/>
+                    </fields>
+                </register>
+                <register offset="0x174" name="ciphertext_5" access="R" description="Data signal of ciphertext_5" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="ciphertext_5" access="R" description="Bit 31 to 0 of ciphertext_5"/>
+                    </fields>
+                </register>
+                <register offset="0x178" name="ciphertext_5_ctrl" access="R" description="Control signal of ciphertext_5" range="32">
+                    <fields>
+                        <field offset="0" width="1" name="ciphertext_5_ap_vld" access="R" description="Control signal ciphertext_5_ap_vld"/>
+                        <field offset="1" width="31" name="RESERVED" access="R" description="Reserved.  0s on read."/>
+                    </fields>
+                </register>
+                <register offset="0x184" name="ciphertext_6" access="R" description="Data signal of ciphertext_6" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="ciphertext_6" access="R" description="Bit 31 to 0 of ciphertext_6"/>
+                    </fields>
+                </register>
+                <register offset="0x188" name="ciphertext_6_ctrl" access="R" description="Control signal of ciphertext_6" range="32">
+                    <fields>
+                        <field offset="0" width="1" name="ciphertext_6_ap_vld" access="R" description="Control signal ciphertext_6_ap_vld"/>
+                        <field offset="1" width="31" name="RESERVED" access="R" description="Reserved.  0s on read."/>
+                    </fields>
+                </register>
+                <register offset="0x194" name="ciphertext_7" access="R" description="Data signal of ciphertext_7" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="ciphertext_7" access="R" description="Bit 31 to 0 of ciphertext_7"/>
+                    </fields>
+                </register>
+                <register offset="0x198" name="ciphertext_7_ctrl" access="R" description="Control signal of ciphertext_7" range="32">
+                    <fields>
+                        <field offset="0" width="1" name="ciphertext_7_ap_vld" access="R" description="Control signal ciphertext_7_ap_vld"/>
+                        <field offset="1" width="31" name="RESERVED" access="R" description="Reserved.  0s on read."/>
+                    </fields>
+                </register>
+                <register offset="0x1a4" name="ciphertext_8" access="R" description="Data signal of ciphertext_8" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="ciphertext_8" access="R" description="Bit 31 to 0 of ciphertext_8"/>
+                    </fields>
+                </register>
+                <register offset="0x1a8" name="ciphertext_8_ctrl" access="R" description="Control signal of ciphertext_8" range="32">
+                    <fields>
+                        <field offset="0" width="1" name="ciphertext_8_ap_vld" access="R" description="Control signal ciphertext_8_ap_vld"/>
+                        <field offset="1" width="31" name="RESERVED" access="R" description="Reserved.  0s on read."/>
+                    </fields>
+                </register>
+                <register offset="0x1b4" name="ciphertext_9" access="R" description="Data signal of ciphertext_9" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="ciphertext_9" access="R" description="Bit 31 to 0 of ciphertext_9"/>
+                    </fields>
+                </register>
+                <register offset="0x1b8" name="ciphertext_9_ctrl" access="R" description="Control signal of ciphertext_9" range="32">
+                    <fields>
+                        <field offset="0" width="1" name="ciphertext_9_ap_vld" access="R" description="Control signal ciphertext_9_ap_vld"/>
+                        <field offset="1" width="31" name="RESERVED" access="R" description="Reserved.  0s on read."/>
+                    </fields>
+                </register>
+                <register offset="0x1c4" name="ciphertext_10" access="R" description="Data signal of ciphertext_10" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="ciphertext_10" access="R" description="Bit 31 to 0 of ciphertext_10"/>
+                    </fields>
+                </register>
+                <register offset="0x1c8" name="ciphertext_10_ctrl" access="R" description="Control signal of ciphertext_10" range="32">
+                    <fields>
+                        <field offset="0" width="1" name="ciphertext_10_ap_vld" access="R" description="Control signal ciphertext_10_ap_vld"/>
+                        <field offset="1" width="31" name="RESERVED" access="R" description="Reserved.  0s on read."/>
+                    </fields>
+                </register>
+                <register offset="0x1d4" name="ciphertext_11" access="R" description="Data signal of ciphertext_11" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="ciphertext_11" access="R" description="Bit 31 to 0 of ciphertext_11"/>
+                    </fields>
+                </register>
+                <register offset="0x1d8" name="ciphertext_11_ctrl" access="R" description="Control signal of ciphertext_11" range="32">
+                    <fields>
+                        <field offset="0" width="1" name="ciphertext_11_ap_vld" access="R" description="Control signal ciphertext_11_ap_vld"/>
+                        <field offset="1" width="31" name="RESERVED" access="R" description="Reserved.  0s on read."/>
+                    </fields>
+                </register>
+                <register offset="0x1e4" name="ciphertext_12" access="R" description="Data signal of ciphertext_12" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="ciphertext_12" access="R" description="Bit 31 to 0 of ciphertext_12"/>
+                    </fields>
+                </register>
+                <register offset="0x1e8" name="ciphertext_12_ctrl" access="R" description="Control signal of ciphertext_12" range="32">
+                    <fields>
+                        <field offset="0" width="1" name="ciphertext_12_ap_vld" access="R" description="Control signal ciphertext_12_ap_vld"/>
+                        <field offset="1" width="31" name="RESERVED" access="R" description="Reserved.  0s on read."/>
+                    </fields>
+                </register>
+                <register offset="0x1f4" name="ciphertext_13" access="R" description="Data signal of ciphertext_13" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="ciphertext_13" access="R" description="Bit 31 to 0 of ciphertext_13"/>
+                    </fields>
+                </register>
+                <register offset="0x1f8" name="ciphertext_13_ctrl" access="R" description="Control signal of ciphertext_13" range="32">
+                    <fields>
+                        <field offset="0" width="1" name="ciphertext_13_ap_vld" access="R" description="Control signal ciphertext_13_ap_vld"/>
+                        <field offset="1" width="31" name="RESERVED" access="R" description="Reserved.  0s on read."/>
+                    </fields>
+                </register>
+                <register offset="0x204" name="ciphertext_14" access="R" description="Data signal of ciphertext_14" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="ciphertext_14" access="R" description="Bit 31 to 0 of ciphertext_14"/>
+                    </fields>
+                </register>
+                <register offset="0x208" name="ciphertext_14_ctrl" access="R" description="Control signal of ciphertext_14" range="32">
+                    <fields>
+                        <field offset="0" width="1" name="ciphertext_14_ap_vld" access="R" description="Control signal ciphertext_14_ap_vld"/>
+                        <field offset="1" width="31" name="RESERVED" access="R" description="Reserved.  0s on read."/>
+                    </fields>
+                </register>
+                <register offset="0x214" name="ciphertext_15" access="R" description="Data signal of ciphertext_15" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="ciphertext_15" access="R" description="Bit 31 to 0 of ciphertext_15"/>
+                    </fields>
+                </register>
+                <register offset="0x218" name="ciphertext_15_ctrl" access="R" description="Control signal of ciphertext_15" range="32">
+                    <fields>
+                        <field offset="0" width="1" name="ciphertext_15_ap_vld" access="R" description="Control signal ciphertext_15_ap_vld"/>
+                        <field offset="1" width="31" name="RESERVED" access="R" description="Reserved.  0s on read."/>
+                    </fields>
+                </register>
+                <register offset="0x224" name="ciphertext_16" access="R" description="Data signal of ciphertext_16" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="ciphertext_16" access="R" description="Bit 31 to 0 of ciphertext_16"/>
+                    </fields>
+                </register>
+                <register offset="0x228" name="ciphertext_16_ctrl" access="R" description="Control signal of ciphertext_16" range="32">
+                    <fields>
+                        <field offset="0" width="1" name="ciphertext_16_ap_vld" access="R" description="Control signal ciphertext_16_ap_vld"/>
+                        <field offset="1" width="31" name="RESERVED" access="R" description="Reserved.  0s on read."/>
+                    </fields>
+                </register>
+                <register offset="0x234" name="ciphertext_17" access="R" description="Data signal of ciphertext_17" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="ciphertext_17" access="R" description="Bit 31 to 0 of ciphertext_17"/>
+                    </fields>
+                </register>
+                <register offset="0x238" name="ciphertext_17_ctrl" access="R" description="Control signal of ciphertext_17" range="32">
+                    <fields>
+                        <field offset="0" width="1" name="ciphertext_17_ap_vld" access="R" description="Control signal ciphertext_17_ap_vld"/>
+                        <field offset="1" width="31" name="RESERVED" access="R" description="Reserved.  0s on read."/>
+                    </fields>
+                </register>
+                <register offset="0x244" name="ciphertext_18" access="R" description="Data signal of ciphertext_18" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="ciphertext_18" access="R" description="Bit 31 to 0 of ciphertext_18"/>
+                    </fields>
+                </register>
+                <register offset="0x248" name="ciphertext_18_ctrl" access="R" description="Control signal of ciphertext_18" range="32">
+                    <fields>
+                        <field offset="0" width="1" name="ciphertext_18_ap_vld" access="R" description="Control signal ciphertext_18_ap_vld"/>
+                        <field offset="1" width="31" name="RESERVED" access="R" description="Reserved.  0s on read."/>
+                    </fields>
+                </register>
+                <register offset="0x254" name="ciphertext_19" access="R" description="Data signal of ciphertext_19" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="ciphertext_19" access="R" description="Bit 31 to 0 of ciphertext_19"/>
+                    </fields>
+                </register>
+                <register offset="0x258" name="ciphertext_19_ctrl" access="R" description="Control signal of ciphertext_19" range="32">
+                    <fields>
+                        <field offset="0" width="1" name="ciphertext_19_ap_vld" access="R" description="Control signal ciphertext_19_ap_vld"/>
+                        <field offset="1" width="31" name="RESERVED" access="R" description="Reserved.  0s on read."/>
+                    </fields>
+                </register>
+                <register offset="0x264" name="ciphertext_20" access="R" description="Data signal of ciphertext_20" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="ciphertext_20" access="R" description="Bit 31 to 0 of ciphertext_20"/>
+                    </fields>
+                </register>
+                <register offset="0x268" name="ciphertext_20_ctrl" access="R" description="Control signal of ciphertext_20" range="32">
+                    <fields>
+                        <field offset="0" width="1" name="ciphertext_20_ap_vld" access="R" description="Control signal ciphertext_20_ap_vld"/>
+                        <field offset="1" width="31" name="RESERVED" access="R" description="Reserved.  0s on read."/>
+                    </fields>
+                </register>
+                <register offset="0x274" name="ciphertext_21" access="R" description="Data signal of ciphertext_21" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="ciphertext_21" access="R" description="Bit 31 to 0 of ciphertext_21"/>
+                    </fields>
+                </register>
+                <register offset="0x278" name="ciphertext_21_ctrl" access="R" description="Control signal of ciphertext_21" range="32">
+                    <fields>
+                        <field offset="0" width="1" name="ciphertext_21_ap_vld" access="R" description="Control signal ciphertext_21_ap_vld"/>
+                        <field offset="1" width="31" name="RESERVED" access="R" description="Reserved.  0s on read."/>
+                    </fields>
+                </register>
+                <register offset="0x284" name="ciphertext_22" access="R" description="Data signal of ciphertext_22" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="ciphertext_22" access="R" description="Bit 31 to 0 of ciphertext_22"/>
+                    </fields>
+                </register>
+                <register offset="0x288" name="ciphertext_22_ctrl" access="R" description="Control signal of ciphertext_22" range="32">
+                    <fields>
+                        <field offset="0" width="1" name="ciphertext_22_ap_vld" access="R" description="Control signal ciphertext_22_ap_vld"/>
+                        <field offset="1" width="31" name="RESERVED" access="R" description="Reserved.  0s on read."/>
+                    </fields>
+                </register>
+                <register offset="0x294" name="ciphertext_23" access="R" description="Data signal of ciphertext_23" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="ciphertext_23" access="R" description="Bit 31 to 0 of ciphertext_23"/>
+                    </fields>
+                </register>
+                <register offset="0x298" name="ciphertext_23_ctrl" access="R" description="Control signal of ciphertext_23" range="32">
+                    <fields>
+                        <field offset="0" width="1" name="ciphertext_23_ap_vld" access="R" description="Control signal ciphertext_23_ap_vld"/>
+                        <field offset="1" width="31" name="RESERVED" access="R" description="Reserved.  0s on read."/>
+                    </fields>
+                </register>
+                <register offset="0x2a4" name="ciphertext_24" access="R" description="Data signal of ciphertext_24" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="ciphertext_24" access="R" description="Bit 31 to 0 of ciphertext_24"/>
+                    </fields>
+                </register>
+                <register offset="0x2a8" name="ciphertext_24_ctrl" access="R" description="Control signal of ciphertext_24" range="32">
+                    <fields>
+                        <field offset="0" width="1" name="ciphertext_24_ap_vld" access="R" description="Control signal ciphertext_24_ap_vld"/>
+                        <field offset="1" width="31" name="RESERVED" access="R" description="Reserved.  0s on read."/>
+                    </fields>
+                </register>
+                <register offset="0x2b4" name="ciphertext_25" access="R" description="Data signal of ciphertext_25" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="ciphertext_25" access="R" description="Bit 31 to 0 of ciphertext_25"/>
+                    </fields>
+                </register>
+                <register offset="0x2b8" name="ciphertext_25_ctrl" access="R" description="Control signal of ciphertext_25" range="32">
+                    <fields>
+                        <field offset="0" width="1" name="ciphertext_25_ap_vld" access="R" description="Control signal ciphertext_25_ap_vld"/>
+                        <field offset="1" width="31" name="RESERVED" access="R" description="Reserved.  0s on read."/>
+                    </fields>
+                </register>
+                <register offset="0x2c4" name="ciphertext_26" access="R" description="Data signal of ciphertext_26" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="ciphertext_26" access="R" description="Bit 31 to 0 of ciphertext_26"/>
+                    </fields>
+                </register>
+                <register offset="0x2c8" name="ciphertext_26_ctrl" access="R" description="Control signal of ciphertext_26" range="32">
+                    <fields>
+                        <field offset="0" width="1" name="ciphertext_26_ap_vld" access="R" description="Control signal ciphertext_26_ap_vld"/>
+                        <field offset="1" width="31" name="RESERVED" access="R" description="Reserved.  0s on read."/>
+                    </fields>
+                </register>
+                <register offset="0x2d4" name="ciphertext_27" access="R" description="Data signal of ciphertext_27" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="ciphertext_27" access="R" description="Bit 31 to 0 of ciphertext_27"/>
+                    </fields>
+                </register>
+                <register offset="0x2d8" name="ciphertext_27_ctrl" access="R" description="Control signal of ciphertext_27" range="32">
+                    <fields>
+                        <field offset="0" width="1" name="ciphertext_27_ap_vld" access="R" description="Control signal ciphertext_27_ap_vld"/>
+                        <field offset="1" width="31" name="RESERVED" access="R" description="Reserved.  0s on read."/>
+                    </fields>
+                </register>
+                <register offset="0x2e4" name="ciphertext_28" access="R" description="Data signal of ciphertext_28" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="ciphertext_28" access="R" description="Bit 31 to 0 of ciphertext_28"/>
+                    </fields>
+                </register>
+                <register offset="0x2e8" name="ciphertext_28_ctrl" access="R" description="Control signal of ciphertext_28" range="32">
+                    <fields>
+                        <field offset="0" width="1" name="ciphertext_28_ap_vld" access="R" description="Control signal ciphertext_28_ap_vld"/>
+                        <field offset="1" width="31" name="RESERVED" access="R" description="Reserved.  0s on read."/>
+                    </fields>
+                </register>
+                <register offset="0x2f4" name="ciphertext_29" access="R" description="Data signal of ciphertext_29" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="ciphertext_29" access="R" description="Bit 31 to 0 of ciphertext_29"/>
+                    </fields>
+                </register>
+                <register offset="0x2f8" name="ciphertext_29_ctrl" access="R" description="Control signal of ciphertext_29" range="32">
+                    <fields>
+                        <field offset="0" width="1" name="ciphertext_29_ap_vld" access="R" description="Control signal ciphertext_29_ap_vld"/>
+                        <field offset="1" width="31" name="RESERVED" access="R" description="Reserved.  0s on read."/>
+                    </fields>
+                </register>
+                <register offset="0x304" name="ciphertext_30" access="R" description="Data signal of ciphertext_30" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="ciphertext_30" access="R" description="Bit 31 to 0 of ciphertext_30"/>
+                    </fields>
+                </register>
+                <register offset="0x308" name="ciphertext_30_ctrl" access="R" description="Control signal of ciphertext_30" range="32">
+                    <fields>
+                        <field offset="0" width="1" name="ciphertext_30_ap_vld" access="R" description="Control signal ciphertext_30_ap_vld"/>
+                        <field offset="1" width="31" name="RESERVED" access="R" description="Reserved.  0s on read."/>
+                    </fields>
+                </register>
+                <register offset="0x314" name="ciphertext_31" access="R" description="Data signal of ciphertext_31" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="ciphertext_31" access="R" description="Bit 31 to 0 of ciphertext_31"/>
+                    </fields>
+                </register>
+                <register offset="0x318" name="ciphertext_31_ctrl" access="R" description="Control signal of ciphertext_31" range="32">
+                    <fields>
+                        <field offset="0" width="1" name="ciphertext_31_ap_vld" access="R" description="Control signal ciphertext_31_ap_vld"/>
+                        <field offset="1" width="31" name="RESERVED" access="R" description="Reserved.  0s on read."/>
+                    </fields>
+                </register>
+                <register offset="0x324" name="nonce" access="W" description="Data signal of nonce" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="nonce" access="W" description="Bit 31 to 0 of nonce"/>
+                    </fields>
+                </register>
+            </registers>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="24" argName="plaintext"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="32" argName="plaintext"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="40" argName="plaintext"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="48" argName="plaintext"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="56" argName="plaintext"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="64" argName="plaintext"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="72" argName="plaintext"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="80" argName="plaintext"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="88" argName="plaintext"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="96" argName="plaintext"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="104" argName="plaintext"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="112" argName="plaintext"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="120" argName="plaintext"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="128" argName="plaintext"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="136" argName="plaintext"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="144" argName="plaintext"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="152" argName="plaintext"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="160" argName="plaintext"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="168" argName="plaintext"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="176" argName="plaintext"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="184" argName="plaintext"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="192" argName="plaintext"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="200" argName="plaintext"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="208" argName="plaintext"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="216" argName="plaintext"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="224" argName="plaintext"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="232" argName="plaintext"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="240" argName="plaintext"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="248" argName="plaintext"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="256" argName="plaintext"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="264" argName="plaintext"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="272" argName="plaintext"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="280" argName="key"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="292" argName="ciphertext"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="308" argName="ciphertext"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="324" argName="ciphertext"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="340" argName="ciphertext"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="356" argName="ciphertext"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="372" argName="ciphertext"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="388" argName="ciphertext"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="404" argName="ciphertext"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="420" argName="ciphertext"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="436" argName="ciphertext"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="452" argName="ciphertext"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="468" argName="ciphertext"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="484" argName="ciphertext"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="500" argName="ciphertext"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="516" argName="ciphertext"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="532" argName="ciphertext"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="548" argName="ciphertext"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="564" argName="ciphertext"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="580" argName="ciphertext"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="596" argName="ciphertext"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="612" argName="ciphertext"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="628" argName="ciphertext"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="644" argName="ciphertext"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="660" argName="ciphertext"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="676" argName="ciphertext"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="692" argName="ciphertext"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="708" argName="ciphertext"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="724" argName="ciphertext"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="740" argName="ciphertext"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="756" argName="ciphertext"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="772" argName="ciphertext"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="788" argName="ciphertext"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="804" argName="nonce"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="ap_clk" type="clock" busTypeName="clock" mode="slave">
+            <busParams>
+                <busParam busParamName="ASSOCIATED_BUSIF">s_axi_control</busParam>
+                <busParam busParamName="ASSOCIATED_RESET">ap_rst_n</busParam>
+            </busParams>
+            <portMaps>
+                <portMap portMapName="ap_clk">CLK</portMap>
+            </portMaps>
+            <ports>
+                <port>ap_clk</port>
+            </ports>
+        </Interface>
+        <Interface InterfaceName="ap_rst_n" type="reset" busTypeName="reset" mode="slave">
+            <busParams>
+                <busParam busParamName="POLARITY">ACTIVE_LOW</busParam>
+            </busParams>
+            <portMaps>
+                <portMap portMapName="ap_rst_n">RST</portMap>
+            </portMaps>
+            <ports>
+                <port>ap_rst_n</port>
+            </ports>
+        </Interface>
+        <Interface InterfaceName="interrupt" type="interrupt" busTypeName="interrupt" mode="master" dataWidth="1">
+            <busParams>
+                <busParam busParamName="SENSITIVITY">LEVEL_HIGH</busParam>
+            </busParams>
+            <portMaps>
+                <portMap portMapName="interrupt">INTERRUPT</portMap>
+            </portMaps>
+            <ports>
+                <port>interrupt</port>
+            </ports>
+        </Interface>
+    </Interfaces>
+    <ReportHWInterface>
+        <section name="HW Interfaces" level="0">
+            <item name="S_AXILITE Interfaces">
+                <table>
+                    <keys size="5">Interface, Data Width, Address Width, Offset, Register</keys>
+                    <column name="s_axi_control">32, 10, 24, 0</column>
+                </table>
+            </item>
+            <item name="S_AXILITE Registers">
+                <table>
+                    <keys size="7">Interface, Register, Offset, Width, Access, Description, Bit Fields</keys>
+                    <column name="s_axi_control">CTRL, 0x00, 32, RW, Control signals, 0=AP_START 1=AP_DONE 2=AP_IDLE 3=AP_READY 7=AUTO_RESTART 9=INTERRUPT</column>
+                    <column name="s_axi_control">GIER, 0x04, 32, RW, Global Interrupt Enable Register, 0=Enable</column>
+                    <column name="s_axi_control">IP_IER, 0x08, 32, RW, IP Interrupt Enable Register, 0=CHAN0_INT_EN 1=CHAN1_INT_EN</column>
+                    <column name="s_axi_control">IP_ISR, 0x0c, 32, RW, IP Interrupt Status Register, 0=CHAN0_INT_ST 1=CHAN1_INT_ST</column>
+                    <column name="s_axi_control">ap_return, 0x10, 32, R, Data signal of ap_return, </column>
+                    <column name="s_axi_control">plaintext_0, 0x18, 32, W, Data signal of plaintext_0, </column>
+                    <column name="s_axi_control">plaintext_1, 0x20, 32, W, Data signal of plaintext_1, </column>
+                    <column name="s_axi_control">plaintext_2, 0x28, 32, W, Data signal of plaintext_2, </column>
+                    <column name="s_axi_control">plaintext_3, 0x30, 32, W, Data signal of plaintext_3, </column>
+                    <column name="s_axi_control">plaintext_4, 0x38, 32, W, Data signal of plaintext_4, </column>
+                    <column name="s_axi_control">plaintext_5, 0x40, 32, W, Data signal of plaintext_5, </column>
+                    <column name="s_axi_control">plaintext_6, 0x48, 32, W, Data signal of plaintext_6, </column>
+                    <column name="s_axi_control">plaintext_7, 0x50, 32, W, Data signal of plaintext_7, </column>
+                    <column name="s_axi_control">plaintext_8, 0x58, 32, W, Data signal of plaintext_8, </column>
+                    <column name="s_axi_control">plaintext_9, 0x60, 32, W, Data signal of plaintext_9, </column>
+                    <column name="s_axi_control">plaintext_10, 0x68, 32, W, Data signal of plaintext_10, </column>
+                    <column name="s_axi_control">plaintext_11, 0x70, 32, W, Data signal of plaintext_11, </column>
+                    <column name="s_axi_control">plaintext_12, 0x78, 32, W, Data signal of plaintext_12, </column>
+                    <column name="s_axi_control">plaintext_13, 0x80, 32, W, Data signal of plaintext_13, </column>
+                    <column name="s_axi_control">plaintext_14, 0x88, 32, W, Data signal of plaintext_14, </column>
+                    <column name="s_axi_control">plaintext_15, 0x90, 32, W, Data signal of plaintext_15, </column>
+                    <column name="s_axi_control">plaintext_16, 0x98, 32, W, Data signal of plaintext_16, </column>
+                    <column name="s_axi_control">plaintext_17, 0xa0, 32, W, Data signal of plaintext_17, </column>
+                    <column name="s_axi_control">plaintext_18, 0xa8, 32, W, Data signal of plaintext_18, </column>
+                    <column name="s_axi_control">plaintext_19, 0xb0, 32, W, Data signal of plaintext_19, </column>
+                    <column name="s_axi_control">plaintext_20, 0xb8, 32, W, Data signal of plaintext_20, </column>
+                    <column name="s_axi_control">plaintext_21, 0xc0, 32, W, Data signal of plaintext_21, </column>
+                    <column name="s_axi_control">plaintext_22, 0xc8, 32, W, Data signal of plaintext_22, </column>
+                    <column name="s_axi_control">plaintext_23, 0xd0, 32, W, Data signal of plaintext_23, </column>
+                    <column name="s_axi_control">plaintext_24, 0xd8, 32, W, Data signal of plaintext_24, </column>
+                    <column name="s_axi_control">plaintext_25, 0xe0, 32, W, Data signal of plaintext_25, </column>
+                    <column name="s_axi_control">plaintext_26, 0xe8, 32, W, Data signal of plaintext_26, </column>
+                    <column name="s_axi_control">plaintext_27, 0xf0, 32, W, Data signal of plaintext_27, </column>
+                    <column name="s_axi_control">plaintext_28, 0xf8, 32, W, Data signal of plaintext_28, </column>
+                    <column name="s_axi_control">plaintext_29, 0x100, 32, W, Data signal of plaintext_29, </column>
+                    <column name="s_axi_control">plaintext_30, 0x108, 32, W, Data signal of plaintext_30, </column>
+                    <column name="s_axi_control">plaintext_31, 0x110, 32, W, Data signal of plaintext_31, </column>
+                    <column name="s_axi_control">key_1, 0x118, 32, W, Data signal of key, </column>
+                    <column name="s_axi_control">key_2, 0x11c, 32, W, Data signal of key, </column>
+                    <column name="s_axi_control">ciphertext_0, 0x124, 32, R, Data signal of ciphertext_0, </column>
+                    <column name="s_axi_control">ciphertext_0_ctrl, 0x128, 32, R, Control signal of ciphertext_0, 0=ciphertext_0_ap_vld</column>
+                    <column name="s_axi_control">ciphertext_1, 0x134, 32, R, Data signal of ciphertext_1, </column>
+                    <column name="s_axi_control">ciphertext_1_ctrl, 0x138, 32, R, Control signal of ciphertext_1, 0=ciphertext_1_ap_vld</column>
+                    <column name="s_axi_control">ciphertext_2, 0x144, 32, R, Data signal of ciphertext_2, </column>
+                    <column name="s_axi_control">ciphertext_2_ctrl, 0x148, 32, R, Control signal of ciphertext_2, 0=ciphertext_2_ap_vld</column>
+                    <column name="s_axi_control">ciphertext_3, 0x154, 32, R, Data signal of ciphertext_3, </column>
+                    <column name="s_axi_control">ciphertext_3_ctrl, 0x158, 32, R, Control signal of ciphertext_3, 0=ciphertext_3_ap_vld</column>
+                    <column name="s_axi_control">ciphertext_4, 0x164, 32, R, Data signal of ciphertext_4, </column>
+                    <column name="s_axi_control">ciphertext_4_ctrl, 0x168, 32, R, Control signal of ciphertext_4, 0=ciphertext_4_ap_vld</column>
+                    <column name="s_axi_control">ciphertext_5, 0x174, 32, R, Data signal of ciphertext_5, </column>
+                    <column name="s_axi_control">ciphertext_5_ctrl, 0x178, 32, R, Control signal of ciphertext_5, 0=ciphertext_5_ap_vld</column>
+                    <column name="s_axi_control">ciphertext_6, 0x184, 32, R, Data signal of ciphertext_6, </column>
+                    <column name="s_axi_control">ciphertext_6_ctrl, 0x188, 32, R, Control signal of ciphertext_6, 0=ciphertext_6_ap_vld</column>
+                    <column name="s_axi_control">ciphertext_7, 0x194, 32, R, Data signal of ciphertext_7, </column>
+                    <column name="s_axi_control">ciphertext_7_ctrl, 0x198, 32, R, Control signal of ciphertext_7, 0=ciphertext_7_ap_vld</column>
+                    <column name="s_axi_control">ciphertext_8, 0x1a4, 32, R, Data signal of ciphertext_8, </column>
+                    <column name="s_axi_control">ciphertext_8_ctrl, 0x1a8, 32, R, Control signal of ciphertext_8, 0=ciphertext_8_ap_vld</column>
+                    <column name="s_axi_control">ciphertext_9, 0x1b4, 32, R, Data signal of ciphertext_9, </column>
+                    <column name="s_axi_control">ciphertext_9_ctrl, 0x1b8, 32, R, Control signal of ciphertext_9, 0=ciphertext_9_ap_vld</column>
+                    <column name="s_axi_control">ciphertext_10, 0x1c4, 32, R, Data signal of ciphertext_10, </column>
+                    <column name="s_axi_control">ciphertext_10_ctrl, 0x1c8, 32, R, Control signal of ciphertext_10, 0=ciphertext_10_ap_vld</column>
+                    <column name="s_axi_control">ciphertext_11, 0x1d4, 32, R, Data signal of ciphertext_11, </column>
+                    <column name="s_axi_control">ciphertext_11_ctrl, 0x1d8, 32, R, Control signal of ciphertext_11, 0=ciphertext_11_ap_vld</column>
+                    <column name="s_axi_control">ciphertext_12, 0x1e4, 32, R, Data signal of ciphertext_12, </column>
+                    <column name="s_axi_control">ciphertext_12_ctrl, 0x1e8, 32, R, Control signal of ciphertext_12, 0=ciphertext_12_ap_vld</column>
+                    <column name="s_axi_control">ciphertext_13, 0x1f4, 32, R, Data signal of ciphertext_13, </column>
+                    <column name="s_axi_control">ciphertext_13_ctrl, 0x1f8, 32, R, Control signal of ciphertext_13, 0=ciphertext_13_ap_vld</column>
+                    <column name="s_axi_control">ciphertext_14, 0x204, 32, R, Data signal of ciphertext_14, </column>
+                    <column name="s_axi_control">ciphertext_14_ctrl, 0x208, 32, R, Control signal of ciphertext_14, 0=ciphertext_14_ap_vld</column>
+                    <column name="s_axi_control">ciphertext_15, 0x214, 32, R, Data signal of ciphertext_15, </column>
+                    <column name="s_axi_control">ciphertext_15_ctrl, 0x218, 32, R, Control signal of ciphertext_15, 0=ciphertext_15_ap_vld</column>
+                    <column name="s_axi_control">ciphertext_16, 0x224, 32, R, Data signal of ciphertext_16, </column>
+                    <column name="s_axi_control">ciphertext_16_ctrl, 0x228, 32, R, Control signal of ciphertext_16, 0=ciphertext_16_ap_vld</column>
+                    <column name="s_axi_control">ciphertext_17, 0x234, 32, R, Data signal of ciphertext_17, </column>
+                    <column name="s_axi_control">ciphertext_17_ctrl, 0x238, 32, R, Control signal of ciphertext_17, 0=ciphertext_17_ap_vld</column>
+                    <column name="s_axi_control">ciphertext_18, 0x244, 32, R, Data signal of ciphertext_18, </column>
+                    <column name="s_axi_control">ciphertext_18_ctrl, 0x248, 32, R, Control signal of ciphertext_18, 0=ciphertext_18_ap_vld</column>
+                    <column name="s_axi_control">ciphertext_19, 0x254, 32, R, Data signal of ciphertext_19, </column>
+                    <column name="s_axi_control">ciphertext_19_ctrl, 0x258, 32, R, Control signal of ciphertext_19, 0=ciphertext_19_ap_vld</column>
+                    <column name="s_axi_control">ciphertext_20, 0x264, 32, R, Data signal of ciphertext_20, </column>
+                    <column name="s_axi_control">ciphertext_20_ctrl, 0x268, 32, R, Control signal of ciphertext_20, 0=ciphertext_20_ap_vld</column>
+                    <column name="s_axi_control">ciphertext_21, 0x274, 32, R, Data signal of ciphertext_21, </column>
+                    <column name="s_axi_control">ciphertext_21_ctrl, 0x278, 32, R, Control signal of ciphertext_21, 0=ciphertext_21_ap_vld</column>
+                    <column name="s_axi_control">ciphertext_22, 0x284, 32, R, Data signal of ciphertext_22, </column>
+                    <column name="s_axi_control">ciphertext_22_ctrl, 0x288, 32, R, Control signal of ciphertext_22, 0=ciphertext_22_ap_vld</column>
+                    <column name="s_axi_control">ciphertext_23, 0x294, 32, R, Data signal of ciphertext_23, </column>
+                    <column name="s_axi_control">ciphertext_23_ctrl, 0x298, 32, R, Control signal of ciphertext_23, 0=ciphertext_23_ap_vld</column>
+                    <column name="s_axi_control">ciphertext_24, 0x2a4, 32, R, Data signal of ciphertext_24, </column>
+                    <column name="s_axi_control">ciphertext_24_ctrl, 0x2a8, 32, R, Control signal of ciphertext_24, 0=ciphertext_24_ap_vld</column>
+                    <column name="s_axi_control">ciphertext_25, 0x2b4, 32, R, Data signal of ciphertext_25, </column>
+                    <column name="s_axi_control">ciphertext_25_ctrl, 0x2b8, 32, R, Control signal of ciphertext_25, 0=ciphertext_25_ap_vld</column>
+                    <column name="s_axi_control">ciphertext_26, 0x2c4, 32, R, Data signal of ciphertext_26, </column>
+                    <column name="s_axi_control">ciphertext_26_ctrl, 0x2c8, 32, R, Control signal of ciphertext_26, 0=ciphertext_26_ap_vld</column>
+                    <column name="s_axi_control">ciphertext_27, 0x2d4, 32, R, Data signal of ciphertext_27, </column>
+                    <column name="s_axi_control">ciphertext_27_ctrl, 0x2d8, 32, R, Control signal of ciphertext_27, 0=ciphertext_27_ap_vld</column>
+                    <column name="s_axi_control">ciphertext_28, 0x2e4, 32, R, Data signal of ciphertext_28, </column>
+                    <column name="s_axi_control">ciphertext_28_ctrl, 0x2e8, 32, R, Control signal of ciphertext_28, 0=ciphertext_28_ap_vld</column>
+                    <column name="s_axi_control">ciphertext_29, 0x2f4, 32, R, Data signal of ciphertext_29, </column>
+                    <column name="s_axi_control">ciphertext_29_ctrl, 0x2f8, 32, R, Control signal of ciphertext_29, 0=ciphertext_29_ap_vld</column>
+                    <column name="s_axi_control">ciphertext_30, 0x304, 32, R, Data signal of ciphertext_30, </column>
+                    <column name="s_axi_control">ciphertext_30_ctrl, 0x308, 32, R, Control signal of ciphertext_30, 0=ciphertext_30_ap_vld</column>
+                    <column name="s_axi_control">ciphertext_31, 0x314, 32, R, Data signal of ciphertext_31, </column>
+                    <column name="s_axi_control">ciphertext_31_ctrl, 0x318, 32, R, Control signal of ciphertext_31, 0=ciphertext_31_ap_vld</column>
+                    <column name="s_axi_control">nonce, 0x324, 32, W, Data signal of nonce, </column>
+                </table>
+            </item>
+            <item name="TOP LEVEL CONTROL">
+                <table>
+                    <keys size="3">Interface, Type, Ports</keys>
+                    <column name="ap_clk">clock, ap_clk</column>
+                    <column name="ap_rst_n">reset, ap_rst_n</column>
+                    <column name="interrupt">interrupt, interrupt</column>
+                    <column name="ap_ctrl">ap_ctrl_hs, </column>
+                </table>
+            </item>
+        </section>
+    </ReportHWInterface>
+    <ReportSWInterface>
+        <section name="SW I/O Information" level="0">
+            <item name="Top Function Arguments">
+                <table>
+                    <keys size="3">Argument, Direction, Datatype</keys>
+                    <column name="plaintext">in, ap_uint&lt;32&gt;*</column>
+                    <column name="key">in, ap_uint&lt;64&gt;</column>
+                    <column name="ciphertext">out, ap_uint&lt;32&gt;*</column>
+                    <column name="nonce">in, ap_uint&lt;32&gt;</column>
+                    <column name="return">out, ap_uint&lt;32&gt;</column>
+                </table>
+            </item>
+            <item name="SW-to-HW Mapping">
+                <table>
+                    <keys size="4">Argument, HW Interface, HW Type, HW Info</keys>
+                    <column name="plaintext">s_axi_control, interface, </column>
+                    <column name="plaintext">s_axi_control, interface, </column>
+                    <column name="plaintext">s_axi_control, interface, </column>
+                    <column name="plaintext">s_axi_control, interface, </column>
+                    <column name="plaintext">s_axi_control, interface, </column>
+                    <column name="plaintext">s_axi_control, interface, </column>
+                    <column name="plaintext">s_axi_control, interface, </column>
+                    <column name="plaintext">s_axi_control, interface, </column>
+                    <column name="plaintext">s_axi_control, interface, </column>
+                    <column name="plaintext">s_axi_control, interface, </column>
+                    <column name="plaintext">s_axi_control, interface, </column>
+                    <column name="plaintext">s_axi_control, interface, </column>
+                    <column name="plaintext">s_axi_control, interface, </column>
+                    <column name="plaintext">s_axi_control, interface, </column>
+                    <column name="plaintext">s_axi_control, interface, </column>
+                    <column name="plaintext">s_axi_control, interface, </column>
+                    <column name="plaintext">s_axi_control, interface, </column>
+                    <column name="plaintext">s_axi_control, interface, </column>
+                    <column name="plaintext">s_axi_control, interface, </column>
+                    <column name="plaintext">s_axi_control, interface, </column>
+                    <column name="plaintext">s_axi_control, interface, </column>
+                    <column name="plaintext">s_axi_control, interface, </column>
+                    <column name="plaintext">s_axi_control, interface, </column>
+                    <column name="plaintext">s_axi_control, interface, </column>
+                    <column name="plaintext">s_axi_control, interface, </column>
+                    <column name="plaintext">s_axi_control, interface, </column>
+                    <column name="plaintext">s_axi_control, interface, </column>
+                    <column name="plaintext">s_axi_control, interface, </column>
+                    <column name="plaintext">s_axi_control, interface, </column>
+                    <column name="plaintext">s_axi_control, interface, </column>
+                    <column name="plaintext">s_axi_control, interface, </column>
+                    <column name="plaintext">s_axi_control, interface, </column>
+                    <column name="key">s_axi_control, register, name=key_1 offset=0x118 range=32</column>
+                    <column name="key">s_axi_control, register, name=key_2 offset=0x11c range=32</column>
+                    <column name="ciphertext">s_axi_control, interface, </column>
+                    <column name="ciphertext">s_axi_control, interface, </column>
+                    <column name="ciphertext">s_axi_control, interface, </column>
+                    <column name="ciphertext">s_axi_control, interface, </column>
+                    <column name="ciphertext">s_axi_control, interface, </column>
+                    <column name="ciphertext">s_axi_control, interface, </column>
+                    <column name="ciphertext">s_axi_control, interface, </column>
+                    <column name="ciphertext">s_axi_control, interface, </column>
+                    <column name="ciphertext">s_axi_control, interface, </column>
+                    <column name="ciphertext">s_axi_control, interface, </column>
+                    <column name="ciphertext">s_axi_control, interface, </column>
+                    <column name="ciphertext">s_axi_control, interface, </column>
+                    <column name="ciphertext">s_axi_control, interface, </column>
+                    <column name="ciphertext">s_axi_control, interface, </column>
+                    <column name="ciphertext">s_axi_control, interface, </column>
+                    <column name="ciphertext">s_axi_control, interface, </column>
+                    <column name="ciphertext">s_axi_control, interface, </column>
+                    <column name="ciphertext">s_axi_control, interface, </column>
+                    <column name="ciphertext">s_axi_control, interface, </column>
+                    <column name="ciphertext">s_axi_control, interface, </column>
+                    <column name="ciphertext">s_axi_control, interface, </column>
+                    <column name="ciphertext">s_axi_control, interface, </column>
+                    <column name="ciphertext">s_axi_control, interface, </column>
+                    <column name="ciphertext">s_axi_control, interface, </column>
+                    <column name="ciphertext">s_axi_control, interface, </column>
+                    <column name="ciphertext">s_axi_control, interface, </column>
+                    <column name="ciphertext">s_axi_control, interface, </column>
+                    <column name="ciphertext">s_axi_control, interface, </column>
+                    <column name="ciphertext">s_axi_control, interface, </column>
+                    <column name="ciphertext">s_axi_control, interface, </column>
+                    <column name="ciphertext">s_axi_control, interface, </column>
+                    <column name="ciphertext">s_axi_control, interface, </column>
+                    <column name="nonce">s_axi_control, register, name=nonce offset=0x324 range=32</column>
+                    <column name="return">s_axi_control, register, name=ap_return offset=0x10 range=32</column>
+                </table>
+            </item>
+        </section>
+    </ReportSWInterface>
+    <ResolutionUrl key="ZZZ">docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&amp;url=ug1448-hls-guidance&amp;resourceid=ZZZ.html</ResolutionUrl>
+    <PragmaReport>
+        <Pragma type="inline" location="Cifrador.cpp:8" status="valid" parentFunction="sbox" variable="" isDirective="0" options=""/>
+        <Pragma type="array_partition" location="Cifrador.cpp:17" status="valid" parentFunction="sbox" variable="table" isDirective="0" options="variable=table complete"/>
+        <Pragma type="inline" location="Cifrador.cpp:23" status="valid" parentFunction="sustitution" variable="" isDirective="0" options=""/>
+        <Pragma type="unroll" location="Cifrador.cpp:27" status="valid" parentFunction="sustitution" variable="" isDirective="0" options=""/>
+        <Pragma type="inline" location="Cifrador.cpp:35" status="valid" parentFunction="permutation" variable="" isDirective="0" options=""/>
+        <Pragma type="unroll" location="Cifrador.cpp:40" status="valid" parentFunction="permutation" variable="" isDirective="0" options=""/>
+        <Pragma type="inline" location="Cifrador.cpp:49" status="valid" parentFunction="key_mixing" variable="" isDirective="0" options=""/>
+        <Pragma type="inline" location="Cifrador.cpp:54" status="valid" parentFunction="round_function" variable="" isDirective="0" options=""/>
+        <Pragma type="inline" location="Cifrador.cpp:65" status="valid" parentFunction="permutation_inverse" variable="" isDirective="0" options=""/>
+        <Pragma type="unroll" location="Cifrador.cpp:70" status="valid" parentFunction="permutation_inverse" variable="" isDirective="0" options=""/>
+        <Pragma type="inline" location="Cifrador.cpp:79" status="valid" parentFunction="last_round_correction" variable="" isDirective="0" options=""/>
+        <Pragma type="inline" location="Cifrador.cpp:90" status="valid" parentFunction="key_schedule" variable="" isDirective="0" options=""/>
+        <Pragma type="interface" location="Cifrador.cpp:131" status="valid" parentFunction="cifrador_paralelo_32_ctr" variable="plaintext" isDirective="0" options="s_axilite port=plaintext"/>
+        <Pragma type="interface" location="Cifrador.cpp:132" status="valid" parentFunction="cifrador_paralelo_32_ctr" variable="key" isDirective="0" options="s_axilite port=key"/>
+        <Pragma type="interface" location="Cifrador.cpp:133" status="valid" parentFunction="cifrador_paralelo_32_ctr" variable="ciphertext" isDirective="0" options="s_axilite port=ciphertext"/>
+        <Pragma type="interface" location="Cifrador.cpp:134" status="valid" parentFunction="cifrador_paralelo_32_ctr" variable="nonce" isDirective="0" options="s_axilite port=nonce"/>
+        <Pragma type="interface" location="Cifrador.cpp:135" status="valid" parentFunction="cifrador_paralelo_32_ctr" variable="return" isDirective="0" options="s_axilite port=return"/>
+        <Pragma type="array_partition" location="Cifrador.cpp:137" status="valid" parentFunction="cifrador_paralelo_32_ctr" variable="plaintext" isDirective="0" options="variable=plaintext complete"/>
+        <Pragma type="array_partition" location="Cifrador.cpp:138" status="valid" parentFunction="cifrador_paralelo_32_ctr" variable="ciphertext" isDirective="0" options="variable=ciphertext complete"/>
+        <Pragma type="unroll" location="Cifrador.cpp:141" status="valid" parentFunction="cifrador_paralelo_32_ctr" variable="" isDirective="0" options=""/>
+    </PragmaReport>
+    <AutoPragmaReport>
+        <AutoPragma type="pipeline" parentFunction="cifrador" options="" pragmaLocId="Cifrador.cpp:110:0" pragmaLocOpt="cifrador/VITIS_LOOP_110_1" srcTcl="config_compile -pipeline_loops 64" srcIni="syn.compile.pipeline_loops=64" srcPragmaType="" srcPragmaLoc="syn.compile.pipeline_loops=64" srcPragmaSource="config" srcPragmaSourceDesc="syn.compile.pipeline_loops=64" srcIsDirective="0" srcIsSlxDirective="0" srcIsCsimDirective="0" directiveIni="syn.directive.pipeline=cifrador/VITIS_LOOP_110_1 " loopName="VITIS_LOOP_110_1" loopLoc="Cifrador.cpp:110:23"/>
+    </AutoPragmaReport>
+</profile>

@@ -1,0 +1,156 @@
+<ENTRY>
+{
+ "thisFile": "C:/Users\\Dario\\Documents\\TFG\\Vitis\\CifradosPipelineStream\\cifrado_pipeline_stream_2\\cifrado_pipeline_stream_2\\cifrado_pipeline_stream_2.hlsrun_package_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "05/02/26 01:09:40",
+ "timestampMillis": "1777676980018",
+ "buildStep": {
+  "cmdId": "b3d7d83f-d393-4a64-8a6e-87607e6cf4d1",
+  "name": "vitis-run",
+  "logFile": "C:/Users\\Dario\\Documents\\TFG\\Vitis\\CifradosPipelineStream\\cifrado_pipeline_stream_2\\cifrado_pipeline_stream_2\\logs\\cifrado_pipeline_stream_2.steps.log",
+  "commandLine": "C:/Users/Dario/AMDDesignTools/2025.2/Vitis/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --package --config C:\\Users\\Dario\\Documents\\TFG\\Vitis\\CifradosPipelineStream\\cifrado_pipeline_stream_2\\hls_config.cfg --work_dir cifrado_pipeline_stream_2 ",
+  "args": [
+   "--mode",
+   "hls",
+   "--package",
+   "--config",
+   "C:\\Users\\Dario\\Documents\\TFG\\Vitis\\CifradosPipelineStream\\cifrado_pipeline_stream_2\\hls_config.cfg",
+   "--work_dir",
+   "cifrado_pipeline_stream_2"
+  ],
+  "iniFiles": [],
+  "cwd": "C:\\Users\\Dario\\Documents\\TFG\\Vitis\\CifradosPipelineStream\\cifrado_pipeline_stream_2"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "05/02/26 01:09:40",
+ "timestampMillis": "1777676980019",
+ "status": {
+  "cmdId": "b3d7d83f-d393-4a64-8a6e-87607e6cf4d1",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "05/02/26 01:10:00",
+ "timestampMillis": "1777677000838",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_IP",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "cifrador_pipeline_stream_2",
+     "file": "C:/Users\\Dario\\Documents\\TFG\\Vitis\\CifradosPipelineStream\\cifrado_pipeline_stream_2\\cifrado_pipeline_stream_2\\cifrador_pipeline_stream_2.zip",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "C:/Users\\Dario\\Documents\\TFG\\Vitis\\CifradosPipelineStream\\cifrado_pipeline_stream_2\\Cifrador.cpp"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2025.2"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "05/02/26 01:10:00",
+ "timestampMillis": "1777677000844",
+ "buildStep": {
+  "cmdId": "ad7ad92b-f273-4b37-9307-c868f313284b",
+  "name": "",
+  "logFile": "C:/Users\\Dario\\Documents\\TFG\\Vitis\\CifradosPipelineStream\\cifrado_pipeline_stream_2\\cifrado_pipeline_stream_2\\hls\\hls.log",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "C:\\Users\\Dario\\Documents\\TFG\\Vitis\\CifradosPipelineStream\\cifrado_pipeline_stream_2"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "05/02/26 01:10:00",
+ "timestampMillis": "1777677000846",
+ "status": {
+  "cmdId": "ad7ad92b-f273-4b37-9307-c868f313284b",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "05/02/26 01:13:17",
+ "timestampMillis": "1777677197509",
+ "status": {
+  "cmdId": "ad7ad92b-f273-4b37-9307-c868f313284b",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "05/02/26 01:13:17",
+ "timestampMillis": "1777677197738",
+ "status": {
+  "cmdId": "b3d7d83f-d393-4a64-8a6e-87607e6cf4d1",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "05/02/26 01:13:17",
+ "timestampMillis": "1777677197739",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "05/02/26 01:13:17",
+ "timestampMillis": "1777677197739",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

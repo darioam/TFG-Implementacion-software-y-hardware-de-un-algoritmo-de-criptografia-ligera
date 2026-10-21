@@ -1,0 +1,17 @@
+{
+  "0": {
+    "basicblocks": 11,
+    "calls": "",
+    "control_depth": 4,
+    "def_use_depth": 90,
+    "file": "Cifrador.cpp",
+    "fileloc": 106,
+    "instructions": 336,
+    "loads": {
+      "G": 18
+    },
+    "memory_accesses": 18,
+    "name": "cifrador_basico_unroll_2",
+    "total_instructions": 336
+  }
+}

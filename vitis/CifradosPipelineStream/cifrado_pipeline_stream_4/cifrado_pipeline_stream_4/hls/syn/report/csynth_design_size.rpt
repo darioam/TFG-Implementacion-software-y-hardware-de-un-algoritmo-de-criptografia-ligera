@@ -1,0 +1,68 @@
+================================================================
+== Design Size Report
+================================================================
+
+* Total Instructions per Compilation Phase
++---------------+----------------------------+--------------+----------------------------------------------------------------------------------------+
+| Phase         | Step                       | Instructions | Description                                                                            |
++---------------+----------------------------+--------------+----------------------------------------------------------------------------------------+
+| Compile/Link  |                            | 22,478       | After all functions are compiled and linked into a single design                       |
+|               |                            |              |                                                                                        |
+| Unroll/Inline |                            |              | After user unroll and inline pragmas are applied                                       |
+|               | (1) unroll                 |  4,136       | user unroll pragmas are applied                                                        |
+|               | (2) simplification         |  4,000       | simplification of applied user unroll pragmas                                          |
+|               | (3) inline                 |  2,720       | user inline pragmas are applied                                                        |
+|               | (4) simplification         |  2,683       | simplification of applied user inline pragmas                                          |
+|               |                            |              |                                                                                        |
+| Array/Struct  |                            |              | After user array partition and struct aggregate/disaggregate pragmas are applied       |
+|               | (1) array partition        |  7,082       | user array partition pragmas are applied                                               |
+|               | (2) simplification         |  2,339       | simplification of applied user array partition & struct aggregate/disaggregate pragmas |
+|               | (3) aggregate/disaggregate |  2,339       | user struct aggregate/disaggregate pragmas are applied                                 |
+|               | (4) array reshape          |  2,339       | apply array reshape pragmas                                                            |
+|               | (5) access patterns        |  2,424       | array access pattern optmizations                                                      |
+|               |                            |              |                                                                                        |
+| Performance   |                            |              | After transformations are applied to meet performance pragma targets                   |
+|               | (1) loop simplification    |  2,324       | loop and instruction simplification                                                    |
+|               | (2) parallelization        |  2,308       | loops are unrolled or pipelined to meet performance targets                            |
+|               | (3) array partition        |  2,272       | arrays are partitioned to meet performance targets                                     |
+|               | (4) simplification         |  2,272       | simplification of design after performance transformations                             |
+|               |                            |              |                                                                                        |
+| HW Transforms |                            |              | After hardware transfomations                                                          |
+|               | (1) lowering               |  2,243       | initial conversion to HW specific instructions                                         |
+|               | (2) optimizations          |  2,214       | high level synthesis optimizations                                                     |
++---------------+----------------------------+--------------+----------------------------------------------------------------------------------------+
+
+* Instructions per Function for each Compilation Phase
++------------------------------+------------------+-----------------+---------------+--------------+-------------+---------------+
+| Function                     | Location         | Compile/Link    | Unroll/Inline | Array/Struct | Performance | HW Transforms |
++------------------------------+------------------+-----------------+---------------+--------------+-------------+---------------+
+| + cifrador_pipeline_stream_4 | Cifrador.cpp:154 | 22,478          | 2,683         | 2,424        | 2,272       | 2,214         |
+|  + key_schedule              | Cifrador.cpp:91  |   624           |               |              |             |               |
+|     sbox                     | Cifrador.cpp:9   |   321           |               |              |             |               |
+|  + run                       | Cifrador.cpp:135 | 21,413          |               |              |             |               |
+|   + stage<0>                 | Cifrador.cpp:110 | 2,724           |               |              |             |               |
+|    + round_function          | Cifrador.cpp:55  | 2,672 (4 calls) |               |              |             |               |
+|       key_mixing             | Cifrador.cpp:50  |   196 (4 calls) |               |              |             |               |
+|     + sustitution            | Cifrador.cpp:24  | 1,884 (4 calls) |               |              |             |               |
+|        sbox                  | Cifrador.cpp:9   | 1,284 (4 calls) |               |              |             |               |
+|       permutation            | Cifrador.cpp:36  |   380 (4 calls) |               |              |             |               |
+|     run                      | Cifrador.cpp:135 | 18,675 **       |               |              |             |               |
+|    stage<0>                  | Cifrador.cpp:110 |                 |  281          |  242         |  238        |  241          |
+|    stage<1>                  | Cifrador.cpp:110 |                 |  282          |  242         |  238        |  241          |
+|    stage<2>                  | Cifrador.cpp:110 |                 |  282          |  242         |  238        |  241          |
+|    stage<3>                  | Cifrador.cpp:110 |                 |  282          |  242         |  238        |  241          |
+|    stage<4>                  | Cifrador.cpp:110 |                 |  282          |  242         |  238        |  241          |
+|    stage<5>                  | Cifrador.cpp:110 |                 |  282          |  242         |  238        |  241          |
+|    stage<6>                  | Cifrador.cpp:110 |                 |  282          |  242         |  238        |  241          |
+|    last_stage<7>             | Cifrador.cpp:122 |                 |  182          |  151         |  147        |  150          |
++------------------------------+------------------+-----------------+---------------+--------------+-------------+---------------+
+    ** - Recursive call, instruction count may be inaccurate
+
+* Design Size Message Settings
++---------------------------------------------+--------+------------------------------------------------------------------+
+| Message Setting                             | Value  | Description                                                      |
++---------------------------------------------+--------+------------------------------------------------------------------+
+| config_compile -design_size_maximum_warning | 100000 | Show a warning when total design instructions exceeds this value |
++---------------------------------------------+--------+------------------------------------------------------------------+
+
+

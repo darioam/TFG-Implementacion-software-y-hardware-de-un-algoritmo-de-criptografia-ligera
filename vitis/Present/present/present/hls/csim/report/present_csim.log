@@ -1,0 +1,8 @@
+INFO: [SIM 2] *************** CSIM start ***************
+   Compiling ../../../../present.cpp in debug mode
+   Generating csim.exe
+Plaintext : 0x0x0
+Key       : 0x0
+Ciphertext: 0x0x5579c1387b228445
+INFO: [SIM 1] CSim done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************

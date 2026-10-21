@@ -1,0 +1,965 @@
+  **** HLS Build v2025.2 6295257
+INFO: [HLS 200-2005] Using work_dir C:/Users/Dario/Documents/TFG/Vitis/CifradosPipeline/cifrado_pipeline_stream/cifrado_pipeline_stream 
+INFO: [HLS 200-2176] Writing Vitis IDE component file C:/Users/Dario/Documents/TFG/Vitis/CifradosPipeline/cifrado_pipeline_stream/cifrado_pipeline_stream/vitis-comp.json
+INFO: [HLS 200-10] Creating and opening component 'C:/Users/Dario/Documents/TFG/Vitis/CifradosPipeline/cifrado_pipeline_stream/cifrado_pipeline_stream'.
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-2174] Applying component config ini file hls_config.cfg
+INFO: [HLS 200-1465] Applying config ini 'syn.file=Cifrador.cpp' from hls_config.cfg(7)
+INFO: [HLS 200-10] Adding design file 'C:/Users/Dario/Documents/TFG/Vitis/CifradosPipeline/cifrado_pipeline_stream/Cifrador.cpp' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.top=cifrador_pipeline_stream' from hls_config.cfg(8)
+INFO: [HLS 200-1465] Applying config ini 'flow_target=vivado' from hls_config.cfg(4)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying config ini 'part=xc7z020clg400-1' from hls_config.cfg(1)
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+INFO: [HLS 200-1465] Applying config ini 'package.output.format=ip_catalog' from hls_config.cfg(5)
+INFO: [HLS 200-2176] Writing Vitis IDE component file C:/Users/Dario/Documents/TFG/Vitis/CifradosPipeline/cifrado_pipeline_stream/cifrado_pipeline_stream/vitis-comp.json
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 2 seconds. CPU system time: 2 seconds. Elapsed time: 27.953 seconds; current allocated memory: 134.391 MB.
+INFO: [HLS 200-2191] C-Synthesis will use clang-16 as the compiler
+INFO: [HLS 200-10] Analyzing design file 'Cifrador.cpp' ... 
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 25.829 seconds; current allocated memory: 137.000 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 200-1995] There were 22,782 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details (C:/Users/Dario/Documents/TFG/Vitis/CifradosPipeline/cifrado_pipeline_stream/cifrado_pipeline_stream/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 4,448 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details (C:/Users/Dario/Documents/TFG/Vitis/CifradosPipeline/cifrado_pipeline_stream/cifrado_pipeline_stream/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 4,129 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details (C:/Users/Dario/Documents/TFG/Vitis/CifradosPipeline/cifrado_pipeline_stream/cifrado_pipeline_stream/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 2,915 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details (C:/Users/Dario/Documents/TFG/Vitis/CifradosPipeline/cifrado_pipeline_stream/cifrado_pipeline_stream/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 2,878 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details (C:/Users/Dario/Documents/TFG/Vitis/CifradosPipeline/cifrado_pipeline_stream/cifrado_pipeline_stream/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 7,244 instructions in the design after the 'Array/Struct (step 1)' phase of compilation. See the Design Size Report for more details (C:/Users/Dario/Documents/TFG/Vitis/CifradosPipeline/cifrado_pipeline_stream/cifrado_pipeline_stream/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 2,501 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details (C:/Users/Dario/Documents/TFG/Vitis/CifradosPipeline/cifrado_pipeline_stream/cifrado_pipeline_stream/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 2,501 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details (C:/Users/Dario/Documents/TFG/Vitis/CifradosPipeline/cifrado_pipeline_stream/cifrado_pipeline_stream/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 2,501 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details (C:/Users/Dario/Documents/TFG/Vitis/CifradosPipeline/cifrado_pipeline_stream/cifrado_pipeline_stream/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 2,586 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details (C:/Users/Dario/Documents/TFG/Vitis/CifradosPipeline/cifrado_pipeline_stream/cifrado_pipeline_stream/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 2,582 instructions in the design after the 'Performance' phase of compilation. See the Design Size Report for more details (C:/Users/Dario/Documents/TFG/Vitis/CifradosPipeline/cifrado_pipeline_stream/cifrado_pipeline_stream/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 2,566 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details (C:/Users/Dario/Documents/TFG/Vitis/CifradosPipeline/cifrado_pipeline_stream/cifrado_pipeline_stream/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 2,530 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details (C:/Users/Dario/Documents/TFG/Vitis/CifradosPipeline/cifrado_pipeline_stream/cifrado_pipeline_stream/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 2,530 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details (C:/Users/Dario/Documents/TFG/Vitis/CifradosPipeline/cifrado_pipeline_stream/cifrado_pipeline_stream/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 2,501 instructions in the design after the 'HW Transforms (step 1)' phase of compilation. See the Design Size Report for more details (C:/Users/Dario/Documents/TFG/Vitis/CifradosPipeline/cifrado_pipeline_stream/cifrado_pipeline_stream/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 2,472 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details (C:/Users/Dario/Documents/TFG/Vitis/CifradosPipeline/cifrado_pipeline_stream/cifrado_pipeline_stream/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 214-131] Inlining function 'sbox(ap_uint<4>)' into 'key_schedule(ap_uint<64>&, int)' (Cifrador.cpp:100:25)
+INFO: [HLS 214-131] Inlining function 'sbox(ap_uint<4>)' into 'sustitution(ap_uint<32>)' (Cifrador.cpp:30:33)
+INFO: [HLS 214-131] Inlining function 'permutation(ap_uint<32>)' into 'round_function(ap_uint<32>, ap_uint<32>)' (Cifrador.cpp:61:11)
+INFO: [HLS 214-131] Inlining function 'sustitution(ap_uint<32>)' into 'round_function(ap_uint<32>, ap_uint<32>)' (Cifrador.cpp:60:11)
+INFO: [HLS 214-131] Inlining function 'key_mixing(ap_uint<32>, ap_uint<32>)' into 'round_function(ap_uint<32>, ap_uint<32>)' (Cifrador.cpp:59:11)
+INFO: [HLS 214-131] Inlining function 'round_function(ap_uint<32>, ap_uint<32>)' into 'ap_uint<32> stage<0>(ap_uint<32>, ap_uint<32>)' (Cifrador.cpp:115:12)
+INFO: [HLS 214-131] Inlining function 'round_function(ap_uint<32>, ap_uint<32>)' into 'ap_uint<32> stage<1>(ap_uint<32>, ap_uint<32>)' (Cifrador.cpp:115:12)
+INFO: [HLS 214-131] Inlining function 'round_function(ap_uint<32>, ap_uint<32>)' into 'ap_uint<32> stage<2>(ap_uint<32>, ap_uint<32>)' (Cifrador.cpp:115:12)
+INFO: [HLS 214-131] Inlining function 'round_function(ap_uint<32>, ap_uint<32>)' into 'ap_uint<32> stage<3>(ap_uint<32>, ap_uint<32>)' (Cifrador.cpp:115:12)
+INFO: [HLS 214-131] Inlining function 'round_function(ap_uint<32>, ap_uint<32>)' into 'ap_uint<32> stage<4>(ap_uint<32>, ap_uint<32>)' (Cifrador.cpp:115:12)
+INFO: [HLS 214-131] Inlining function 'round_function(ap_uint<32>, ap_uint<32>)' into 'ap_uint<32> stage<5>(ap_uint<32>, ap_uint<32>)' (Cifrador.cpp:115:12)
+INFO: [HLS 214-131] Inlining function 'round_function(ap_uint<32>, ap_uint<32>)' into 'ap_uint<32> stage<6>(ap_uint<32>, ap_uint<32>)' (Cifrador.cpp:115:12)
+INFO: [HLS 214-131] Inlining function 'round_function(ap_uint<32>, ap_uint<32>)' into 'ap_uint<32> stage<7>(ap_uint<32>, ap_uint<32>)' (Cifrador.cpp:115:12)
+INFO: [HLS 214-131] Inlining function 'round_function(ap_uint<32>, ap_uint<32>)' into 'ap_uint<32> stage<8>(ap_uint<32>, ap_uint<32>)' (Cifrador.cpp:115:12)
+INFO: [HLS 214-131] Inlining function 'round_function(ap_uint<32>, ap_uint<32>)' into 'ap_uint<32> stage<9>(ap_uint<32>, ap_uint<32>)' (Cifrador.cpp:115:12)
+INFO: [HLS 214-131] Inlining function 'round_function(ap_uint<32>, ap_uint<32>)' into 'ap_uint<32> stage<10>(ap_uint<32>, ap_uint<32>)' (Cifrador.cpp:115:12)
+INFO: [HLS 214-131] Inlining function 'round_function(ap_uint<32>, ap_uint<32>)' into 'ap_uint<32> stage<11>(ap_uint<32>, ap_uint<32>)' (Cifrador.cpp:115:12)
+INFO: [HLS 214-131] Inlining function 'round_function(ap_uint<32>, ap_uint<32>)' into 'ap_uint<32> stage<12>(ap_uint<32>, ap_uint<32>)' (Cifrador.cpp:115:12)
+INFO: [HLS 214-131] Inlining function 'round_function(ap_uint<32>, ap_uint<32>)' into 'ap_uint<32> stage<13>(ap_uint<32>, ap_uint<32>)' (Cifrador.cpp:115:12)
+INFO: [HLS 214-131] Inlining function 'round_function(ap_uint<32>, ap_uint<32>)' into 'ap_uint<32> stage<14>(ap_uint<32>, ap_uint<32>)' (Cifrador.cpp:115:12)
+INFO: [HLS 214-131] Inlining function 'round_function(ap_uint<32>, ap_uint<32>)' into 'ap_uint<32> stage<15>(ap_uint<32>, ap_uint<32>)' (Cifrador.cpp:115:12)
+INFO: [HLS 214-131] Inlining function 'round_function(ap_uint<32>, ap_uint<32>)' into 'ap_uint<32> stage<16>(ap_uint<32>, ap_uint<32>)' (Cifrador.cpp:115:12)
+INFO: [HLS 214-131] Inlining function 'round_function(ap_uint<32>, ap_uint<32>)' into 'ap_uint<32> stage<17>(ap_uint<32>, ap_uint<32>)' (Cifrador.cpp:115:12)
+INFO: [HLS 214-131] Inlining function 'round_function(ap_uint<32>, ap_uint<32>)' into 'ap_uint<32> stage<18>(ap_uint<32>, ap_uint<32>)' (Cifrador.cpp:115:12)
+INFO: [HLS 214-131] Inlining function 'round_function(ap_uint<32>, ap_uint<32>)' into 'ap_uint<32> stage<19>(ap_uint<32>, ap_uint<32>)' (Cifrador.cpp:115:12)
+INFO: [HLS 214-131] Inlining function 'round_function(ap_uint<32>, ap_uint<32>)' into 'ap_uint<32> stage<20>(ap_uint<32>, ap_uint<32>)' (Cifrador.cpp:115:12)
+INFO: [HLS 214-131] Inlining function 'round_function(ap_uint<32>, ap_uint<32>)' into 'ap_uint<32> stage<21>(ap_uint<32>, ap_uint<32>)' (Cifrador.cpp:115:12)
+INFO: [HLS 214-131] Inlining function 'round_function(ap_uint<32>, ap_uint<32>)' into 'ap_uint<32> stage<22>(ap_uint<32>, ap_uint<32>)' (Cifrador.cpp:115:12)
+INFO: [HLS 214-131] Inlining function 'round_function(ap_uint<32>, ap_uint<32>)' into 'ap_uint<32> stage<23>(ap_uint<32>, ap_uint<32>)' (Cifrador.cpp:115:12)
+INFO: [HLS 214-131] Inlining function 'round_function(ap_uint<32>, ap_uint<32>)' into 'ap_uint<32> stage<24>(ap_uint<32>, ap_uint<32>)' (Cifrador.cpp:115:12)
+INFO: [HLS 214-131] Inlining function 'round_function(ap_uint<32>, ap_uint<32>)' into 'ap_uint<32> stage<25>(ap_uint<32>, ap_uint<32>)' (Cifrador.cpp:115:12)
+INFO: [HLS 214-131] Inlining function 'round_function(ap_uint<32>, ap_uint<32>)' into 'ap_uint<32> stage<26>(ap_uint<32>, ap_uint<32>)' (Cifrador.cpp:115:12)
+INFO: [HLS 214-131] Inlining function 'round_function(ap_uint<32>, ap_uint<32>)' into 'ap_uint<32> stage<27>(ap_uint<32>, ap_uint<32>)' (Cifrador.cpp:115:12)
+INFO: [HLS 214-131] Inlining function 'round_function(ap_uint<32>, ap_uint<32>)' into 'ap_uint<32> stage<28>(ap_uint<32>, ap_uint<32>)' (Cifrador.cpp:115:12)
+INFO: [HLS 214-131] Inlining function 'round_function(ap_uint<32>, ap_uint<32>)' into 'ap_uint<32> stage<29>(ap_uint<32>, ap_uint<32>)' (Cifrador.cpp:115:12)
+INFO: [HLS 214-131] Inlining function 'round_function(ap_uint<32>, ap_uint<32>)' into 'ap_uint<32> stage<30>(ap_uint<32>, ap_uint<32>)' (Cifrador.cpp:115:12)
+INFO: [HLS 214-131] Inlining function 'key_mixing(ap_uint<32>, ap_uint<32>)' into 'last_round_correction(ap_uint<32>, ap_uint<32>)' (Cifrador.cpp:86:11)
+INFO: [HLS 214-131] Inlining function 'permutation_inverse(ap_uint<32>)' into 'last_round_correction(ap_uint<32>, ap_uint<32>)' (Cifrador.cpp:85:11)
+INFO: [HLS 214-131] Inlining function 'last_round_correction(ap_uint<32>, ap_uint<32>)' into 'last_stage(ap_uint<32>, ap_uint<32>)' (Cifrador.cpp:123:12)
+INFO: [HLS 214-131] Inlining function 'Pipeline<31, 31>::run(ap_uint<32>, ap_uint<32>*)' into 'Pipeline<30, 31>::run(ap_uint<32>, ap_uint<32>*)' (Cifrador.cpp:131:16)
+INFO: [HLS 214-131] Inlining function 'Pipeline<30, 31>::run(ap_uint<32>, ap_uint<32>*)' into 'Pipeline<29, 31>::run(ap_uint<32>, ap_uint<32>*)' (Cifrador.cpp:131:16)
+INFO: [HLS 214-131] Inlining function 'Pipeline<29, 31>::run(ap_uint<32>, ap_uint<32>*)' into 'Pipeline<28, 31>::run(ap_uint<32>, ap_uint<32>*)' (Cifrador.cpp:131:16)
+INFO: [HLS 214-131] Inlining function 'Pipeline<28, 31>::run(ap_uint<32>, ap_uint<32>*)' into 'Pipeline<27, 31>::run(ap_uint<32>, ap_uint<32>*)' (Cifrador.cpp:131:16)
+INFO: [HLS 214-131] Inlining function 'Pipeline<27, 31>::run(ap_uint<32>, ap_uint<32>*)' into 'Pipeline<26, 31>::run(ap_uint<32>, ap_uint<32>*)' (Cifrador.cpp:131:16)
+INFO: [HLS 214-131] Inlining function 'Pipeline<26, 31>::run(ap_uint<32>, ap_uint<32>*)' into 'Pipeline<25, 31>::run(ap_uint<32>, ap_uint<32>*)' (Cifrador.cpp:131:16)
+INFO: [HLS 214-131] Inlining function 'Pipeline<25, 31>::run(ap_uint<32>, ap_uint<32>*)' into 'Pipeline<24, 31>::run(ap_uint<32>, ap_uint<32>*)' (Cifrador.cpp:131:16)
+INFO: [HLS 214-131] Inlining function 'Pipeline<24, 31>::run(ap_uint<32>, ap_uint<32>*)' into 'Pipeline<23, 31>::run(ap_uint<32>, ap_uint<32>*)' (Cifrador.cpp:131:16)
+INFO: [HLS 214-131] Inlining function 'Pipeline<23, 31>::run(ap_uint<32>, ap_uint<32>*)' into 'Pipeline<22, 31>::run(ap_uint<32>, ap_uint<32>*)' (Cifrador.cpp:131:16)
+INFO: [HLS 214-131] Inlining function 'Pipeline<22, 31>::run(ap_uint<32>, ap_uint<32>*)' into 'Pipeline<21, 31>::run(ap_uint<32>, ap_uint<32>*)' (Cifrador.cpp:131:16)
+INFO: [HLS 214-131] Inlining function 'Pipeline<21, 31>::run(ap_uint<32>, ap_uint<32>*)' into 'Pipeline<20, 31>::run(ap_uint<32>, ap_uint<32>*)' (Cifrador.cpp:131:16)
+INFO: [HLS 214-131] Inlining function 'Pipeline<20, 31>::run(ap_uint<32>, ap_uint<32>*)' into 'Pipeline<19, 31>::run(ap_uint<32>, ap_uint<32>*)' (Cifrador.cpp:131:16)
+INFO: [HLS 214-131] Inlining function 'Pipeline<19, 31>::run(ap_uint<32>, ap_uint<32>*)' into 'Pipeline<18, 31>::run(ap_uint<32>, ap_uint<32>*)' (Cifrador.cpp:131:16)
+INFO: [HLS 214-131] Inlining function 'Pipeline<18, 31>::run(ap_uint<32>, ap_uint<32>*)' into 'Pipeline<17, 31>::run(ap_uint<32>, ap_uint<32>*)' (Cifrador.cpp:131:16)
+INFO: [HLS 214-131] Inlining function 'Pipeline<17, 31>::run(ap_uint<32>, ap_uint<32>*)' into 'Pipeline<16, 31>::run(ap_uint<32>, ap_uint<32>*)' (Cifrador.cpp:131:16)
+INFO: [HLS 214-131] Inlining function 'Pipeline<16, 31>::run(ap_uint<32>, ap_uint<32>*)' into 'Pipeline<15, 31>::run(ap_uint<32>, ap_uint<32>*)' (Cifrador.cpp:131:16)
+INFO: [HLS 214-131] Inlining function 'Pipeline<15, 31>::run(ap_uint<32>, ap_uint<32>*)' into 'Pipeline<14, 31>::run(ap_uint<32>, ap_uint<32>*)' (Cifrador.cpp:131:16)
+INFO: [HLS 214-131] Inlining function 'Pipeline<14, 31>::run(ap_uint<32>, ap_uint<32>*)' into 'Pipeline<13, 31>::run(ap_uint<32>, ap_uint<32>*)' (Cifrador.cpp:131:16)
+INFO: [HLS 214-131] Inlining function 'Pipeline<13, 31>::run(ap_uint<32>, ap_uint<32>*)' into 'Pipeline<12, 31>::run(ap_uint<32>, ap_uint<32>*)' (Cifrador.cpp:131:16)
+INFO: [HLS 214-131] Inlining function 'Pipeline<12, 31>::run(ap_uint<32>, ap_uint<32>*)' into 'Pipeline<11, 31>::run(ap_uint<32>, ap_uint<32>*)' (Cifrador.cpp:131:16)
+INFO: [HLS 214-131] Inlining function 'Pipeline<11, 31>::run(ap_uint<32>, ap_uint<32>*)' into 'Pipeline<10, 31>::run(ap_uint<32>, ap_uint<32>*)' (Cifrador.cpp:131:16)
+INFO: [HLS 214-131] Inlining function 'Pipeline<10, 31>::run(ap_uint<32>, ap_uint<32>*)' into 'Pipeline<9, 31>::run(ap_uint<32>, ap_uint<32>*)' (Cifrador.cpp:131:16)
+INFO: [HLS 214-131] Inlining function 'Pipeline<9, 31>::run(ap_uint<32>, ap_uint<32>*)' into 'Pipeline<8, 31>::run(ap_uint<32>, ap_uint<32>*)' (Cifrador.cpp:131:16)
+INFO: [HLS 214-131] Inlining function 'Pipeline<8, 31>::run(ap_uint<32>, ap_uint<32>*)' into 'Pipeline<7, 31>::run(ap_uint<32>, ap_uint<32>*)' (Cifrador.cpp:131:16)
+INFO: [HLS 214-131] Inlining function 'Pipeline<7, 31>::run(ap_uint<32>, ap_uint<32>*)' into 'Pipeline<6, 31>::run(ap_uint<32>, ap_uint<32>*)' (Cifrador.cpp:131:16)
+INFO: [HLS 214-131] Inlining function 'Pipeline<6, 31>::run(ap_uint<32>, ap_uint<32>*)' into 'Pipeline<5, 31>::run(ap_uint<32>, ap_uint<32>*)' (Cifrador.cpp:131:16)
+INFO: [HLS 214-131] Inlining function 'Pipeline<5, 31>::run(ap_uint<32>, ap_uint<32>*)' into 'Pipeline<4, 31>::run(ap_uint<32>, ap_uint<32>*)' (Cifrador.cpp:131:16)
+INFO: [HLS 214-131] Inlining function 'Pipeline<4, 31>::run(ap_uint<32>, ap_uint<32>*)' into 'Pipeline<3, 31>::run(ap_uint<32>, ap_uint<32>*)' (Cifrador.cpp:131:16)
+INFO: [HLS 214-131] Inlining function 'Pipeline<3, 31>::run(ap_uint<32>, ap_uint<32>*)' into 'Pipeline<2, 31>::run(ap_uint<32>, ap_uint<32>*)' (Cifrador.cpp:131:16)
+INFO: [HLS 214-131] Inlining function 'Pipeline<2, 31>::run(ap_uint<32>, ap_uint<32>*)' into 'Pipeline<1, 31>::run(ap_uint<32>, ap_uint<32>*)' (Cifrador.cpp:131:16)
+INFO: [HLS 214-131] Inlining function 'Pipeline<1, 31>::run(ap_uint<32>, ap_uint<32>*)' into 'Pipeline<0, 31>::run(ap_uint<32>, ap_uint<32>*)' (Cifrador.cpp:131:16)
+INFO: [HLS 214-131] Inlining function 'key_schedule(ap_uint<64>&, int)' into 'cifrador_pipeline_stream(hls::stream<hls::axis<ap_int<32>, 0ul, 0ul, 0ul, (unsigned char)56, false>, 0>&, hls::stream<hls::axis<ap_int<32>, 0ul, 0ul, 0ul, (unsigned char)56, false>, 0>&, ap_uint<64>)' (Cifrador.cpp:164:25)
+INFO: [HLS 214-131] Inlining function 'Pipeline<0, 31>::run(ap_uint<32>, ap_uint<32>*)' into 'cifrador_pipeline_stream(hls::stream<hls::axis<ap_int<32>, 0ul, 0ul, 0ul, (unsigned char)56, false>, 0>&, hls::stream<hls::axis<ap_int<32>, 0ul, 0ul, 0ul, (unsigned char)56, false>, 0>&, ap_uint<64>)' (Cifrador.cpp:176:25)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_71_1' is marked as complete unroll implied by the pipeline pragma (Cifrador.cpp:71:22)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_41_1' is marked as complete unroll implied by the pipeline pragma (Cifrador.cpp:41:22)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_28_1' is marked as complete unroll implied by the pipeline pragma (Cifrador.cpp:28:22)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_162_1' (Cifrador.cpp:162:23) in function 'cifrador_pipeline_stream' completely with a factor of 32 (Cifrador.cpp:152:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_71_1' (Cifrador.cpp:71:22) in function 'last_stage' completely with a factor of 32 (Cifrador.cpp:118:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_41_1' (Cifrador.cpp:41:22) in function 'stage<30>' completely with a factor of 32 (Cifrador.cpp:110:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_28_1' (Cifrador.cpp:28:22) in function 'stage<30>' completely with a factor of 8 (Cifrador.cpp:110:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_41_1' (Cifrador.cpp:41:22) in function 'stage<29>' completely with a factor of 32 (Cifrador.cpp:110:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_28_1' (Cifrador.cpp:28:22) in function 'stage<29>' completely with a factor of 8 (Cifrador.cpp:110:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_41_1' (Cifrador.cpp:41:22) in function 'stage<28>' completely with a factor of 32 (Cifrador.cpp:110:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_28_1' (Cifrador.cpp:28:22) in function 'stage<28>' completely with a factor of 8 (Cifrador.cpp:110:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_41_1' (Cifrador.cpp:41:22) in function 'stage<27>' completely with a factor of 32 (Cifrador.cpp:110:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_28_1' (Cifrador.cpp:28:22) in function 'stage<27>' completely with a factor of 8 (Cifrador.cpp:110:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_41_1' (Cifrador.cpp:41:22) in function 'stage<26>' completely with a factor of 32 (Cifrador.cpp:110:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_28_1' (Cifrador.cpp:28:22) in function 'stage<26>' completely with a factor of 8 (Cifrador.cpp:110:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_41_1' (Cifrador.cpp:41:22) in function 'stage<25>' completely with a factor of 32 (Cifrador.cpp:110:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_28_1' (Cifrador.cpp:28:22) in function 'stage<25>' completely with a factor of 8 (Cifrador.cpp:110:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_41_1' (Cifrador.cpp:41:22) in function 'stage<24>' completely with a factor of 32 (Cifrador.cpp:110:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_28_1' (Cifrador.cpp:28:22) in function 'stage<24>' completely with a factor of 8 (Cifrador.cpp:110:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_41_1' (Cifrador.cpp:41:22) in function 'stage<23>' completely with a factor of 32 (Cifrador.cpp:110:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_28_1' (Cifrador.cpp:28:22) in function 'stage<23>' completely with a factor of 8 (Cifrador.cpp:110:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_41_1' (Cifrador.cpp:41:22) in function 'stage<22>' completely with a factor of 32 (Cifrador.cpp:110:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_28_1' (Cifrador.cpp:28:22) in function 'stage<22>' completely with a factor of 8 (Cifrador.cpp:110:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_41_1' (Cifrador.cpp:41:22) in function 'stage<21>' completely with a factor of 32 (Cifrador.cpp:110:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_28_1' (Cifrador.cpp:28:22) in function 'stage<21>' completely with a factor of 8 (Cifrador.cpp:110:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_41_1' (Cifrador.cpp:41:22) in function 'stage<20>' completely with a factor of 32 (Cifrador.cpp:110:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_28_1' (Cifrador.cpp:28:22) in function 'stage<20>' completely with a factor of 8 (Cifrador.cpp:110:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_41_1' (Cifrador.cpp:41:22) in function 'stage<19>' completely with a factor of 32 (Cifrador.cpp:110:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_28_1' (Cifrador.cpp:28:22) in function 'stage<19>' completely with a factor of 8 (Cifrador.cpp:110:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_41_1' (Cifrador.cpp:41:22) in function 'stage<18>' completely with a factor of 32 (Cifrador.cpp:110:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_28_1' (Cifrador.cpp:28:22) in function 'stage<18>' completely with a factor of 8 (Cifrador.cpp:110:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_41_1' (Cifrador.cpp:41:22) in function 'stage<17>' completely with a factor of 32 (Cifrador.cpp:110:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_28_1' (Cifrador.cpp:28:22) in function 'stage<17>' completely with a factor of 8 (Cifrador.cpp:110:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_41_1' (Cifrador.cpp:41:22) in function 'stage<16>' completely with a factor of 32 (Cifrador.cpp:110:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_28_1' (Cifrador.cpp:28:22) in function 'stage<16>' completely with a factor of 8 (Cifrador.cpp:110:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_41_1' (Cifrador.cpp:41:22) in function 'stage<15>' completely with a factor of 32 (Cifrador.cpp:110:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_28_1' (Cifrador.cpp:28:22) in function 'stage<15>' completely with a factor of 8 (Cifrador.cpp:110:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_41_1' (Cifrador.cpp:41:22) in function 'stage<14>' completely with a factor of 32 (Cifrador.cpp:110:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_28_1' (Cifrador.cpp:28:22) in function 'stage<14>' completely with a factor of 8 (Cifrador.cpp:110:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_41_1' (Cifrador.cpp:41:22) in function 'stage<13>' completely with a factor of 32 (Cifrador.cpp:110:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_28_1' (Cifrador.cpp:28:22) in function 'stage<13>' completely with a factor of 8 (Cifrador.cpp:110:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_41_1' (Cifrador.cpp:41:22) in function 'stage<12>' completely with a factor of 32 (Cifrador.cpp:110:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_28_1' (Cifrador.cpp:28:22) in function 'stage<12>' completely with a factor of 8 (Cifrador.cpp:110:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_41_1' (Cifrador.cpp:41:22) in function 'stage<11>' completely with a factor of 32 (Cifrador.cpp:110:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_28_1' (Cifrador.cpp:28:22) in function 'stage<11>' completely with a factor of 8 (Cifrador.cpp:110:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_41_1' (Cifrador.cpp:41:22) in function 'stage<10>' completely with a factor of 32 (Cifrador.cpp:110:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_28_1' (Cifrador.cpp:28:22) in function 'stage<10>' completely with a factor of 8 (Cifrador.cpp:110:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_41_1' (Cifrador.cpp:41:22) in function 'stage<9>' completely with a factor of 32 (Cifrador.cpp:110:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_28_1' (Cifrador.cpp:28:22) in function 'stage<9>' completely with a factor of 8 (Cifrador.cpp:110:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_41_1' (Cifrador.cpp:41:22) in function 'stage<8>' completely with a factor of 32 (Cifrador.cpp:110:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_28_1' (Cifrador.cpp:28:22) in function 'stage<8>' completely with a factor of 8 (Cifrador.cpp:110:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_41_1' (Cifrador.cpp:41:22) in function 'stage<7>' completely with a factor of 32 (Cifrador.cpp:110:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_28_1' (Cifrador.cpp:28:22) in function 'stage<7>' completely with a factor of 8 (Cifrador.cpp:110:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_41_1' (Cifrador.cpp:41:22) in function 'stage<6>' completely with a factor of 32 (Cifrador.cpp:110:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_28_1' (Cifrador.cpp:28:22) in function 'stage<6>' completely with a factor of 8 (Cifrador.cpp:110:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_41_1' (Cifrador.cpp:41:22) in function 'stage<5>' completely with a factor of 32 (Cifrador.cpp:110:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_28_1' (Cifrador.cpp:28:22) in function 'stage<5>' completely with a factor of 8 (Cifrador.cpp:110:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_41_1' (Cifrador.cpp:41:22) in function 'stage<4>' completely with a factor of 32 (Cifrador.cpp:110:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_28_1' (Cifrador.cpp:28:22) in function 'stage<4>' completely with a factor of 8 (Cifrador.cpp:110:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_41_1' (Cifrador.cpp:41:22) in function 'stage<3>' completely with a factor of 32 (Cifrador.cpp:110:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_28_1' (Cifrador.cpp:28:22) in function 'stage<3>' completely with a factor of 8 (Cifrador.cpp:110:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_41_1' (Cifrador.cpp:41:22) in function 'stage<2>' completely with a factor of 32 (Cifrador.cpp:110:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_28_1' (Cifrador.cpp:28:22) in function 'stage<2>' completely with a factor of 8 (Cifrador.cpp:110:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_41_1' (Cifrador.cpp:41:22) in function 'stage<1>' completely with a factor of 32 (Cifrador.cpp:110:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_28_1' (Cifrador.cpp:28:22) in function 'stage<1>' completely with a factor of 8 (Cifrador.cpp:110:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_41_1' (Cifrador.cpp:41:22) in function 'stage<0>' completely with a factor of 32 (Cifrador.cpp:110:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_28_1' (Cifrador.cpp:28:22) in function 'stage<0>' completely with a factor of 8 (Cifrador.cpp:110:0)
+INFO: [HLS 214-178] Inlining function 'hls::axis<ap_int<32>, 0ul, 0ul, 0ul, (unsigned char)56, false>::axis()' into 'cifrador_pipeline_stream(hls::stream<hls::axis<ap_int<32>, 0ul, 0ul, 0ul, (unsigned char)56, false>, 0>&, hls::stream<hls::axis<ap_int<32>, 0ul, 0ul, 0ul, (unsigned char)56, false>, 0>&, ap_uint<64>)' (Cifrador.cpp:152:0)
+INFO: [HLS 214-248] Applying array_partition to 'table.i.i.i': Complete partitioning on dimension 1.
+INFO: [HLS 214-248] Applying array_partition to 'table.i.i.i.1': Complete partitioning on dimension 1.
+INFO: [HLS 214-248] Applying array_partition to 'table.i.i.i.2': Complete partitioning on dimension 1.
+INFO: [HLS 214-248] Applying array_partition to 'table.i.i.i.3': Complete partitioning on dimension 1.
+INFO: [HLS 214-248] Applying array_partition to 'table.i.i.i.4': Complete partitioning on dimension 1.
+INFO: [HLS 214-248] Applying array_partition to 'table.i.i.i.5': Complete partitioning on dimension 1.
+INFO: [HLS 214-248] Applying array_partition to 'table.i.i.i.6': Complete partitioning on dimension 1.
+INFO: [HLS 214-248] Applying array_partition to 'table.i.i.i.7': Complete partitioning on dimension 1.
+INFO: [HLS 214-248] Applying array_partition to 'table.i.i.i.8': Complete partitioning on dimension 1.
+INFO: [HLS 214-248] Applying array_partition to 'table.i.i.i.9': Complete partitioning on dimension 1.
+INFO: [HLS 214-248] Applying array_partition to 'table.i.i.i.10': Complete partitioning on dimension 1.
+INFO: [HLS 214-248] Applying array_partition to 'table.i.i.i.11': Complete partitioning on dimension 1.
+INFO: [HLS 214-248] Applying array_partition to 'table.i.i.i.12': Complete partitioning on dimension 1.
+INFO: [HLS 214-248] Applying array_partition to 'table.i.i.i.13': Complete partitioning on dimension 1.
+INFO: [HLS 214-248] Applying array_partition to 'table.i.i.i.14': Complete partitioning on dimension 1.
+INFO: [HLS 214-248] Applying array_partition to 'table.i.i.i.15': Complete partitioning on dimension 1.
+INFO: [HLS 214-248] Applying array_partition to 'table.i.i.i.16': Complete partitioning on dimension 1.
+INFO: [HLS 214-248] Applying array_partition to 'table.i.i.i.17': Complete partitioning on dimension 1.
+INFO: [HLS 214-248] Applying array_partition to 'table.i.i.i.18': Complete partitioning on dimension 1.
+INFO: [HLS 214-248] Applying array_partition to 'table.i.i.i.19': Complete partitioning on dimension 1.
+INFO: [HLS 214-248] Applying array_partition to 'table.i.i.i.20': Complete partitioning on dimension 1.
+INFO: [HLS 214-248] Applying array_partition to 'table.i.i.i.21': Complete partitioning on dimension 1.
+INFO: [HLS 214-248] Applying array_partition to 'table.i.i.i.22': Complete partitioning on dimension 1.
+INFO: [HLS 214-248] Applying array_partition to 'table.i.i.i.23': Complete partitioning on dimension 1.
+INFO: [HLS 214-248] Applying array_partition to 'table.i.i.i.24': Complete partitioning on dimension 1.
+INFO: [HLS 214-248] Applying array_partition to 'table.i.i.i.25': Complete partitioning on dimension 1.
+INFO: [HLS 214-248] Applying array_partition to 'table.i.i.i.26': Complete partitioning on dimension 1.
+INFO: [HLS 214-248] Applying array_partition to 'table.i.i.i.27': Complete partitioning on dimension 1.
+INFO: [HLS 214-248] Applying array_partition to 'table.i.i.i.28': Complete partitioning on dimension 1.
+INFO: [HLS 214-248] Applying array_partition to 'table.i.i.i.29': Complete partitioning on dimension 1.
+INFO: [HLS 214-248] Applying array_partition to 'table.i.i.i.30': Complete partitioning on dimension 1.
+INFO: [HLS 214-248] Applying array_partition to 'table.i.i': Complete partitioning on dimension 1.
+WARNING: [HLS 214-358] Array transformation on index using bit extension logic may lead to poor performance. Please use int or long for array index computation to benefit from optimizations. (Cifrador.cpp:21:12)
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 4 seconds. CPU system time: 0 seconds. Elapsed time: 31.252 seconds; current allocated memory: 154.785 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.008 seconds; current allocated memory: 154.785 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.412 seconds; current allocated memory: 162.855 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.395 seconds; current allocated memory: 169.355 MB.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 1.469 seconds; current allocated memory: 196.281 MB.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.644 seconds; current allocated memory: 477.531 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'cifrador_pipeline_stream' ...
+WARNING: [SYN 201-103] Legalizing function name 'stage<0>' to 'stage_0_s'.
+WARNING: [SYN 201-103] Legalizing function name 'stage<1>' to 'stage_1_s'.
+WARNING: [SYN 201-103] Legalizing function name 'stage<2>' to 'stage_2_s'.
+WARNING: [SYN 201-103] Legalizing function name 'stage<3>' to 'stage_3_s'.
+WARNING: [SYN 201-103] Legalizing function name 'stage<4>' to 'stage_4_s'.
+WARNING: [SYN 201-103] Legalizing function name 'stage<5>' to 'stage_5_s'.
+WARNING: [SYN 201-103] Legalizing function name 'stage<6>' to 'stage_6_s'.
+WARNING: [SYN 201-103] Legalizing function name 'stage<7>' to 'stage_7_s'.
+WARNING: [SYN 201-103] Legalizing function name 'stage<8>' to 'stage_8_s'.
+WARNING: [SYN 201-103] Legalizing function name 'stage<9>' to 'stage_9_s'.
+WARNING: [SYN 201-103] Legalizing function name 'stage<10>' to 'stage_10_s'.
+WARNING: [SYN 201-103] Legalizing function name 'stage<11>' to 'stage_11_s'.
+WARNING: [SYN 201-103] Legalizing function name 'stage<12>' to 'stage_12_s'.
+WARNING: [SYN 201-103] Legalizing function name 'stage<13>' to 'stage_13_s'.
+WARNING: [SYN 201-103] Legalizing function name 'stage<14>' to 'stage_14_s'.
+WARNING: [SYN 201-103] Legalizing function name 'stage<15>' to 'stage_15_s'.
+WARNING: [SYN 201-103] Legalizing function name 'stage<16>' to 'stage_16_s'.
+WARNING: [SYN 201-103] Legalizing function name 'stage<17>' to 'stage_17_s'.
+WARNING: [SYN 201-103] Legalizing function name 'stage<18>' to 'stage_18_s'.
+WARNING: [SYN 201-103] Legalizing function name 'stage<19>' to 'stage_19_s'.
+WARNING: [SYN 201-103] Legalizing function name 'stage<20>' to 'stage_20_s'.
+WARNING: [SYN 201-103] Legalizing function name 'stage<21>' to 'stage_21_s'.
+WARNING: [SYN 201-103] Legalizing function name 'stage<22>' to 'stage_22_s'.
+WARNING: [SYN 201-103] Legalizing function name 'stage<23>' to 'stage_23_s'.
+WARNING: [SYN 201-103] Legalizing function name 'stage<24>' to 'stage_24_s'.
+WARNING: [SYN 201-103] Legalizing function name 'stage<25>' to 'stage_25_s'.
+WARNING: [SYN 201-103] Legalizing function name 'stage<26>' to 'stage_26_s'.
+WARNING: [SYN 201-103] Legalizing function name 'stage<27>' to 'stage_27_s'.
+WARNING: [SYN 201-103] Legalizing function name 'stage<28>' to 'stage_28_s'.
+WARNING: [SYN 201-103] Legalizing function name 'stage<29>' to 'stage_29_s'.
+WARNING: [SYN 201-103] Legalizing function name 'stage<30>' to 'stage_30_s'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'stage_0_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'stage<0>'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 2, function 'stage<0>'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.49 seconds; current allocated memory: 482.566 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.069 seconds; current allocated memory: 483.625 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'stage_1_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'stage<1>'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 2, function 'stage<1>'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 1.46 seconds; current allocated memory: 484.125 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.068 seconds; current allocated memory: 484.480 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'stage_2_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'stage<2>'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 2, function 'stage<2>'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.081 seconds; current allocated memory: 484.898 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.057 seconds; current allocated memory: 484.902 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'stage_3_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'stage<3>'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 2, function 'stage<3>'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.08 seconds; current allocated memory: 485.422 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.054 seconds; current allocated memory: 485.422 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'stage_4_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'stage<4>'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 2, function 'stage<4>'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.08 seconds; current allocated memory: 486.215 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.06 seconds; current allocated memory: 486.316 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'stage_5_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'stage<5>'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 2, function 'stage<5>'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.091 seconds; current allocated memory: 486.832 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.071 seconds; current allocated memory: 487.109 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'stage_6_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'stage<6>'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 2, function 'stage<6>'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.078 seconds; current allocated memory: 487.797 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.057 seconds; current allocated memory: 487.977 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'stage_7_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'stage<7>'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 2, function 'stage<7>'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.078 seconds; current allocated memory: 488.281 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.059 seconds; current allocated memory: 488.477 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'stage_8_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'stage<8>'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 2, function 'stage<8>'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.08 seconds; current allocated memory: 489.312 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.057 seconds; current allocated memory: 489.559 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'stage_9_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'stage<9>'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 2, function 'stage<9>'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.086 seconds; current allocated memory: 490.035 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.064 seconds; current allocated memory: 490.266 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'stage_10_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'stage<10>'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 2, function 'stage<10>'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.082 seconds; current allocated memory: 490.578 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.056 seconds; current allocated memory: 490.879 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'stage_11_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'stage<11>'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 2, function 'stage<11>'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.081 seconds; current allocated memory: 491.531 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.056 seconds; current allocated memory: 491.773 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'stage_12_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'stage<12>'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 2, function 'stage<12>'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.074 seconds; current allocated memory: 492.203 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.061 seconds; current allocated memory: 492.367 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'stage_13_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'stage<13>'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 2, function 'stage<13>'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.086 seconds; current allocated memory: 492.891 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.06 seconds; current allocated memory: 493.172 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'stage_14_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'stage<14>'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 2, function 'stage<14>'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.078 seconds; current allocated memory: 493.859 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.063 seconds; current allocated memory: 493.859 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'stage_15_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'stage<15>'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 2, function 'stage<15>'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.078 seconds; current allocated memory: 494.305 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.059 seconds; current allocated memory: 494.480 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'stage_16_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'stage<16>'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 2, function 'stage<16>'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.077 seconds; current allocated memory: 494.926 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.057 seconds; current allocated memory: 495.207 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'stage_17_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'stage<17>'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 2, function 'stage<17>'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.085 seconds; current allocated memory: 495.641 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.068 seconds; current allocated memory: 495.953 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'stage_18_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'stage<18>'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 2, function 'stage<18>'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.085 seconds; current allocated memory: 496.602 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.063 seconds; current allocated memory: 496.609 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'stage_19_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'stage<19>'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 2, function 'stage<19>'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.082 seconds; current allocated memory: 497.359 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.058 seconds; current allocated memory: 497.930 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'stage_20_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'stage<20>'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 2, function 'stage<20>'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.074 seconds; current allocated memory: 498.391 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.058 seconds; current allocated memory: 498.395 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'stage_21_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'stage<21>'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 2, function 'stage<21>'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.087 seconds; current allocated memory: 499.070 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.061 seconds; current allocated memory: 499.262 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'stage_22_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'stage<22>'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 2, function 'stage<22>'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.077 seconds; current allocated memory: 499.582 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.057 seconds; current allocated memory: 499.801 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'stage_23_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'stage<23>'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 2, function 'stage<23>'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.079 seconds; current allocated memory: 500.465 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.056 seconds; current allocated memory: 500.582 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'stage_24_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'stage<24>'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 2, function 'stage<24>'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.075 seconds; current allocated memory: 500.965 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.053 seconds; current allocated memory: 501.227 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'stage_25_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'stage<25>'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 2, function 'stage<25>'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.079 seconds; current allocated memory: 501.602 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.061 seconds; current allocated memory: 501.930 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'stage_26_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'stage<26>'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 2, function 'stage<26>'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.095 seconds; current allocated memory: 502.434 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.056 seconds; current allocated memory: 502.668 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'stage_27_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'stage<27>'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 2, function 'stage<27>'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.085 seconds; current allocated memory: 503.250 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.059 seconds; current allocated memory: 503.418 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'stage_28_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'stage<28>'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 2, function 'stage<28>'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.091 seconds; current allocated memory: 503.789 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.068 seconds; current allocated memory: 503.969 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'stage_29_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'stage<29>'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 2, function 'stage<29>'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.085 seconds; current allocated memory: 504.570 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.064 seconds; current allocated memory: 504.785 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'stage_30_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'stage<30>'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 2, function 'stage<30>'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.078 seconds; current allocated memory: 505.391 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.057 seconds; current allocated memory: 505.516 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'last_stage' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'last_stage'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 2, function 'last_stage'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.076 seconds; current allocated memory: 505.812 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.05 seconds; current allocated memory: 506.074 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'cifrador_pipeline_stream' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_170_2'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 35, loop 'VITIS_LOOP_170_2'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.219 seconds; current allocated memory: 509.973 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.182 seconds; current allocated memory: 510.633 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'stage_0_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'stage_0_s' pipeline 'stage<0>' pipeline type 'function pipeline'
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_33_4_4_1_1': 8 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'stage_0_s'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 1.326 seconds; current allocated memory: 513.762 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'stage_1_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'stage_1_s' pipeline 'stage<1>' pipeline type 'function pipeline'
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_33_4_4_1_1': 8 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'stage_1_s'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 1 seconds. Elapsed time: 0.547 seconds; current allocated memory: 517.301 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'stage_2_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'stage_2_s' pipeline 'stage<2>' pipeline type 'function pipeline'
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_33_4_4_1_1': 8 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'stage_2_s'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.524 seconds; current allocated memory: 519.863 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'stage_3_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'stage_3_s' pipeline 'stage<3>' pipeline type 'function pipeline'
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_33_4_4_1_1': 8 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'stage_3_s'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.466 seconds; current allocated memory: 522.410 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'stage_4_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'stage_4_s' pipeline 'stage<4>' pipeline type 'function pipeline'
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_33_4_4_1_1': 8 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'stage_4_s'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.434 seconds; current allocated memory: 525.727 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'stage_5_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'stage_5_s' pipeline 'stage<5>' pipeline type 'function pipeline'
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_33_4_4_1_1': 8 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'stage_5_s'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.514 seconds; current allocated memory: 528.379 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'stage_6_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'stage_6_s' pipeline 'stage<6>' pipeline type 'function pipeline'
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_33_4_4_1_1': 8 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'stage_6_s'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.612 seconds; current allocated memory: 530.895 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'stage_7_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'stage_7_s' pipeline 'stage<7>' pipeline type 'function pipeline'
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_33_4_4_1_1': 8 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'stage_7_s'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.448 seconds; current allocated memory: 534.008 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'stage_8_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'stage_8_s' pipeline 'stage<8>' pipeline type 'function pipeline'
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_33_4_4_1_1': 8 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'stage_8_s'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.494 seconds; current allocated memory: 536.355 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'stage_9_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'stage_9_s' pipeline 'stage<9>' pipeline type 'function pipeline'
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_33_4_4_1_1': 8 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'stage_9_s'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.477 seconds; current allocated memory: 539.211 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'stage_10_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'stage_10_s' pipeline 'stage<10>' pipeline type 'function pipeline'
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_33_4_4_1_1': 8 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'stage_10_s'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.442 seconds; current allocated memory: 541.984 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'stage_11_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'stage_11_s' pipeline 'stage<11>' pipeline type 'function pipeline'
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_33_4_4_1_1': 8 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'stage_11_s'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 1 seconds. Elapsed time: 0.475 seconds; current allocated memory: 544.898 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'stage_12_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'stage_12_s' pipeline 'stage<12>' pipeline type 'function pipeline'
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_33_4_4_1_1': 8 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'stage_12_s'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.469 seconds; current allocated memory: 547.113 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'stage_13_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'stage_13_s' pipeline 'stage<13>' pipeline type 'function pipeline'
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_33_4_4_1_1': 8 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'stage_13_s'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.451 seconds; current allocated memory: 550.301 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'stage_14_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'stage_14_s' pipeline 'stage<14>' pipeline type 'function pipeline'
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_33_4_4_1_1': 8 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'stage_14_s'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.562 seconds; current allocated memory: 553.352 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'stage_15_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'stage_15_s' pipeline 'stage<15>' pipeline type 'function pipeline'
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_33_4_4_1_1': 8 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'stage_15_s'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.555 seconds; current allocated memory: 555.559 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'stage_16_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'stage_16_s' pipeline 'stage<16>' pipeline type 'function pipeline'
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_33_4_4_1_1': 8 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'stage_16_s'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.469 seconds; current allocated memory: 558.402 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'stage_17_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'stage_17_s' pipeline 'stage<17>' pipeline type 'function pipeline'
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_33_4_4_1_1': 8 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'stage_17_s'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.546 seconds; current allocated memory: 561.156 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'stage_18_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'stage_18_s' pipeline 'stage<18>' pipeline type 'function pipeline'
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_33_4_4_1_1': 8 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'stage_18_s'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.465 seconds; current allocated memory: 563.445 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'stage_19_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'stage_19_s' pipeline 'stage<19>' pipeline type 'function pipeline'
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_33_4_4_1_1': 8 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'stage_19_s'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.553 seconds; current allocated memory: 566.895 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'stage_20_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'stage_20_s' pipeline 'stage<20>' pipeline type 'function pipeline'
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_33_4_4_1_1': 8 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'stage_20_s'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.56 seconds; current allocated memory: 569.715 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'stage_21_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'stage_21_s' pipeline 'stage<21>' pipeline type 'function pipeline'
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_33_4_4_1_1': 8 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'stage_21_s'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.584 seconds; current allocated memory: 572.742 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'stage_22_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'stage_22_s' pipeline 'stage<22>' pipeline type 'function pipeline'
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_33_4_4_1_1': 8 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'stage_22_s'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 1 seconds. Elapsed time: 0.544 seconds; current allocated memory: 575.586 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'stage_23_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'stage_23_s' pipeline 'stage<23>' pipeline type 'function pipeline'
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_33_4_4_1_1': 8 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'stage_23_s'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.475 seconds; current allocated memory: 577.711 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'stage_24_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'stage_24_s' pipeline 'stage<24>' pipeline type 'function pipeline'
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_33_4_4_1_1': 8 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'stage_24_s'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.56 seconds; current allocated memory: 580.848 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'stage_25_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'stage_25_s' pipeline 'stage<25>' pipeline type 'function pipeline'
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_33_4_4_1_1': 8 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'stage_25_s'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.47 seconds; current allocated memory: 584.035 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'stage_26_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'stage_26_s' pipeline 'stage<26>' pipeline type 'function pipeline'
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_33_4_4_1_1': 8 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'stage_26_s'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.618 seconds; current allocated memory: 586.652 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'stage_27_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'stage_27_s' pipeline 'stage<27>' pipeline type 'function pipeline'
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_33_4_4_1_1': 8 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'stage_27_s'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.503 seconds; current allocated memory: 589.281 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'stage_28_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'stage_28_s' pipeline 'stage<28>' pipeline type 'function pipeline'
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_33_4_4_1_1': 8 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'stage_28_s'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.555 seconds; current allocated memory: 592.422 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'stage_29_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'stage_29_s' pipeline 'stage<29>' pipeline type 'function pipeline'
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_33_4_4_1_1': 8 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'stage_29_s'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.511 seconds; current allocated memory: 594.875 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'stage_30_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'stage_30_s' pipeline 'stage<30>' pipeline type 'function pipeline'
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_33_4_4_1_1': 8 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'stage_30_s'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.478 seconds; current allocated memory: 597.887 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'last_stage' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'last_stage' pipeline 'last_stage' pipeline type 'function pipeline'
+INFO: [RTGEN 206-100] Finished creating RTL model for 'last_stage'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.545 seconds; current allocated memory: 599.832 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'cifrador_pipeline_stream' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+WARNING: [RTGEN 206-101] Design contains AXI ports. Reset is fixed to synchronous and active low.
+INFO: [RTGEN 206-500] Setting interface mode on port 'cifrador_pipeline_stream/in_stream_V_data_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'cifrador_pipeline_stream/in_stream_V_keep_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'cifrador_pipeline_stream/in_stream_V_strb_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'cifrador_pipeline_stream/in_stream_V_last_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'cifrador_pipeline_stream/out_stream_V_data_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'cifrador_pipeline_stream/out_stream_V_keep_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'cifrador_pipeline_stream/out_stream_V_strb_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'cifrador_pipeline_stream/out_stream_V_last_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'cifrador_pipeline_stream/key' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'cifrador_pipeline_stream' to 's_axilite & ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Bundling port 'key' and 'return' to AXI-Lite port control.
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_33_4_4_1_1': 31 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'cifrador_pipeline_stream'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.975 seconds; current allocated memory: 610.453 MB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 1 seconds. CPU system time: 1 seconds. Elapsed time: 3.48 seconds; current allocated memory: 621.594 MB.
+INFO: [HLS 200-2225] Wrote inferred directives to file C:/Users/Dario/Documents/TFG/Vitis/CifradosPipeline/cifrado_pipeline_stream/cifrado_pipeline_stream/hls/syn/inferred_directives.ini
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 0 seconds. CPU system time: 1 seconds. Elapsed time: 4.591 seconds; current allocated memory: 626.574 MB.
+INFO: [VHDL 208-304] Generating VHDL RTL for cifrador_pipeline_stream.
+INFO: [VLOG 209-307] Generating Verilog RTL for cifrador_pipeline_stream.
+INFO: [HLS 200-790] **** Loop Constraint Status: All loop constraints were satisfied.
+INFO: [HLS 200-789] **** Estimated Fmax: 161.50 MHz
+INFO: [HLS 200-112] Total CPU user time: 14 seconds. Total CPU system time: 7 seconds. Total elapsed time: 132.297 seconds; peak allocated memory: 626.641 MB.
+INFO: [v++ 60-791] Total elapsed time: 0h 2m 26s

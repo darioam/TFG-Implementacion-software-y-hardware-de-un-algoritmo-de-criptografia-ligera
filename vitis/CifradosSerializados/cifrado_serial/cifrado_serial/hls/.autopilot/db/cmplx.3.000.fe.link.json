@@ -1,0 +1,158 @@
+{
+  "0": {
+    "basicblocks": 7,
+    "calls": "9 2 9 7",
+    "control_depth": 0,
+    "def_use_depth": 2,
+    "file": "Cifrador.cpp",
+    "fileloc": 114,
+    "instructions": 46,
+    "loads": {
+      "L": 4
+    },
+    "memory_accesses": 0,
+    "name": "cifrador_serial",
+    "stores": {
+      "L": 5
+    },
+    "total_instructions": 3258
+  },
+  "1": {
+    "basicblocks": 7,
+    "calls": "",
+    "control_depth": 1,
+    "def_use_depth": 4,
+    "file": "Cifrador.cpp",
+    "fileloc": 23,
+    "instructions": 30,
+    "memory_accesses": 3,
+    "name": "permutation",
+    "total_instructions": 95
+  },
+  "10": {
+    "basicblocks": 1,
+    "calls": "",
+    "control_depth": 0,
+    "def_use_depth": 1,
+    "file": "Cifrador.cpp",
+    "fileloc": 53,
+    "instructions": 33,
+    "memory_accesses": 0,
+    "name": "update_subblock",
+    "total_instructions": 388
+  },
+  "2": {
+    "basicblocks": 7,
+    "calls": "8 3 6 10 1",
+    "control_depth": 1,
+    "def_use_depth": 2,
+    "file": "Cifrador.cpp",
+    "fileloc": 58,
+    "instructions": 109,
+    "loads": {
+      "L": 10
+    },
+    "memory_accesses": 29,
+    "name": "serial_round",
+    "stores": {
+      "L": 10
+    },
+    "total_instructions": 1776
+  },
+  "3": {
+    "basicblocks": 1,
+    "calls": "",
+    "control_depth": 0,
+    "def_use_depth": 1,
+    "file": "Cifrador.cpp",
+    "fileloc": 37,
+    "instructions": 4,
+    "memory_accesses": 0,
+    "name": "key_mixing",
+    "total_instructions": 54
+  },
+  "4": {
+    "basicblocks": 1,
+    "calls": "",
+    "control_depth": 0,
+    "def_use_depth": 1,
+    "file": "Cifrador.cpp",
+    "fileloc": 42,
+    "instructions": 4,
+    "memory_accesses": 0,
+    "name": "key_mixing",
+    "total_instructions": 49
+  },
+  "5": {
+    "basicblocks": 7,
+    "calls": "",
+    "control_depth": 1,
+    "def_use_depth": 4,
+    "file": "Cifrador.cpp",
+    "fileloc": 72,
+    "instructions": 30,
+    "memory_accesses": 3,
+    "name": "permutation_inverse",
+    "total_instructions": 95
+  },
+  "6": {
+    "basicblocks": 1,
+    "calls": "",
+    "control_depth": 0,
+    "def_use_depth": 3,
+    "file": "Cifrador.cpp",
+    "fileloc": 7,
+    "instructions": 45,
+    "loads": {
+      "L": 1
+    },
+    "memory_accesses": 0,
+    "name": "sbox",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 322
+  },
+  "7": {
+    "basicblocks": 1,
+    "calls": "5 4",
+    "control_depth": 0,
+    "def_use_depth": 2,
+    "file": "Cifrador.cpp",
+    "fileloc": 86,
+    "instructions": 27,
+    "loads": {
+      "L": 5
+    },
+    "memory_accesses": 0,
+    "name": "serial_last_round_correction",
+    "stores": {
+      "L": 5
+    },
+    "total_instructions": 186
+  },
+  "8": {
+    "basicblocks": 1,
+    "calls": "",
+    "control_depth": 0,
+    "def_use_depth": 1,
+    "file": "Cifrador.cpp",
+    "fileloc": 47,
+    "instructions": 32,
+    "memory_accesses": 0,
+    "name": "select_subblock",
+    "total_instructions": 377
+  },
+  "9": {
+    "basicblocks": 1,
+    "calls": "6",
+    "control_depth": 0,
+    "def_use_depth": 1,
+    "file": "Cifrador.cpp",
+    "fileloc": 97,
+    "instructions": 52,
+    "memory_accesses": 0,
+    "name": "key_schedule",
+    "total_instructions": 625
+  }
+}

@@ -1,0 +1,175 @@
+
+
+================================================================
+== Synthesis Summary Report of 'present'
+================================================================
++ General Information: 
+    * Date:           Sun Apr 26 13:56:35 2026
+    * Version:        2025.2 (Build 6295257 on Nov 14 2025)
+    * Project:        present
+    * Solution:       hls (Vivado IP Flow Target)
+    * Product family: zynq
+    * Target device:  xc7z020-clg400-1
+    
+
+* Performance & Resource Estimates: 
++--------------------------------------+------+---------------+----------+---------+------+----------+---------+---------+------+---------+----+-----------+-----------+-----+
+|                Modules               | Issue|               | Iteration|         | Trip |          |      Latency      |      |         |    |           |           |     |
+|                & Loops               | Type | Violation Type|  Latency | Interval| Count| Pipelined| (cycles)|   (ns)  | Slack|  BRAM   | DSP|     FF    |    LUT    | URAM|
++--------------------------------------+------+---------------+----------+---------+------+----------+---------+---------+------+---------+----+-----------+-----------+-----+
+|+ present                             |     -|              -|         -|       74|     -|        no|       73|  730.000|  2.22|  2 (~0%)|   -|  636 (~0%)|  1995 (3%)|    -|
+| + present_Pipeline_VITIS_LOOP_92_1   |     -|              -|         -|        -|     -|       yes|       34|  340.000|  2.22|        -|   -|   89 (~0%)|  224 (~0%)|    -|
+|  o VITIS_LOOP_92_1                   |     -|              -|         1|        1|    32|       yes|       32|  320.000|  7.30|        -|   -|          -|          -|    -|
+| + present_Pipeline_VITIS_LOOP_114_1  |     -|              -|         -|        -|     -|       yes|       34|  340.000|  2.34|        -|   -|  139 (~0%)|  1177 (2%)|    -|
+|  o VITIS_LOOP_114_1                  |     -|              -|         3|        1|    31|       yes|       32|  320.000|  7.30|        -|   -|          -|          -|    -|
++--------------------------------------+------+---------------+----------+---------+------+----------+---------+---------+------+---------+----+-----------+-----------+-----+
+    Name Prefix: '+' for module, 'o' for loop, '*' for dataflow
+
+
+================================================================
+== HW Interfaces
+================================================================
+* S_AXILITE Interfaces
++---------------+------------+---------------+--------+----------+
+| Interface     | Data Width | Address Width | Offset | Register |
++---------------+------------+---------------+--------+----------+
+| s_axi_control | 32         | 6             | 28     | 0        |
++---------------+------------+---------------+--------+----------+
+
+* S_AXILITE Registers
++---------------+-------------+--------+-------+--------+----------------------------------+----------------------------------------------------------------------+
+| Interface     | Register    | Offset | Width | Access | Description                      | Bit Fields                                                           |
++---------------+-------------+--------+-------+--------+----------------------------------+----------------------------------------------------------------------+
+| s_axi_control | CTRL        | 0x00   | 32    | RW     | Control signals                  | 0=AP_START 1=AP_DONE 2=AP_IDLE 3=AP_READY 7=AUTO_RESTART 9=INTERRUPT |
+| s_axi_control | GIER        | 0x04   | 32    | RW     | Global Interrupt Enable Register | 0=Enable                                                             |
+| s_axi_control | IP_IER      | 0x08   | 32    | RW     | IP Interrupt Enable Register     | 0=CHAN0_INT_EN 1=CHAN1_INT_EN                                        |
+| s_axi_control | IP_ISR      | 0x0c   | 32    | RW     | IP Interrupt Status Register     | 0=CHAN0_INT_ST 1=CHAN1_INT_ST                                        |
+| s_axi_control | ap_return_1 | 0x10   | 32    | R      | Data signal of ap_return         |                                                                      |
+| s_axi_control | ap_return_2 | 0x14   | 32    | R      | Data signal of ap_return         |                                                                      |
+| s_axi_control | plaintext_1 | 0x1c   | 32    | W      | Data signal of plaintext         |                                                                      |
+| s_axi_control | plaintext_2 | 0x20   | 32    | W      | Data signal of plaintext         |                                                                      |
+| s_axi_control | key_1       | 0x28   | 32    | W      | Data signal of key               |                                                                      |
+| s_axi_control | key_2       | 0x2c   | 32    | W      | Data signal of key               |                                                                      |
+| s_axi_control | key_3       | 0x30   | 32    | W      | Data signal of key               |                                                                      |
++---------------+-------------+--------+-------+--------+----------------------------------+----------------------------------------------------------------------+
+
+* TOP LEVEL CONTROL
++-----------+------------+-----------+
+| Interface | Type       | Ports     |
++-----------+------------+-----------+
+| ap_clk    | clock      | ap_clk    |
+| ap_rst_n  | reset      | ap_rst_n  |
+| interrupt | interrupt  | interrupt |
+| ap_ctrl   | ap_ctrl_hs |           |
++-----------+------------+-----------+
+
+
+================================================================
+== SW I/O Information
+================================================================
+* Top Function Arguments
++-----------+-----------+-------------+
+| Argument  | Direction | Datatype    |
++-----------+-----------+-------------+
+| plaintext | in        | ap_uint<64> |
+| key       | in        | ap_uint<80> |
+| return    | out       | ap_uint<64> |
++-----------+-----------+-------------+
+
+* SW-to-HW Mapping
++-----------+---------------+----------+---------------------------------------+
+| Argument  | HW Interface  | HW Type  | HW Info                               |
++-----------+---------------+----------+---------------------------------------+
+| plaintext | s_axi_control | register | name=plaintext_1 offset=0x1c range=32 |
+| plaintext | s_axi_control | register | name=plaintext_2 offset=0x20 range=32 |
+| key       | s_axi_control | register | name=key_1 offset=0x28 range=32       |
+| key       | s_axi_control | register | name=key_2 offset=0x2c range=32       |
+| key       | s_axi_control | register | name=key_3 offset=0x30 range=32       |
+| return    | s_axi_control | register | name=ap_return_1 offset=0x10 range=32 |
+| return    | s_axi_control | register | name=ap_return_2 offset=0x14 range=32 |
++-----------+---------------+----------+---------------------------------------+
+
+
+================================================================
+== Bind Op Report
+================================================================
++--------------------------------------+-----+--------+------------+-----------+--------------------------+---------+
+| Name                                 | DSP | Pragma | Variable   | Op        | Impl                     | Latency |
++--------------------------------------+-----+--------+------------+-----------+--------------------------+---------+
+| + present                            | 0   |        |            |           |                          |         |
+|   ap_return                          |     |        | out        | xor       | auto                     | 0       |
+|  + present_Pipeline_VITIS_LOOP_92_1  | 0   |        |            |           |                          |         |
+|    icmp_ln92_fu_130_p2               |     |        | icmp_ln92  | seteq     | auto                     | 0       |
+|    add_ln93_fu_154_p2                |     |        | add_ln93   | add       | fabric                   | 0       |
+|    sparsemux_33_4_4_1_1_U1           |     |        | tmp        | sparsemux | compactencoding_dontcare | 0       |
+|    key_3_fu_283_p2                   |     |        | key_3      | xor       | auto                     | 0       |
+|    add_ln92_fu_289_p2                |     |        | add_ln92   | add       | fabric                   | 0       |
+|  + present_Pipeline_VITIS_LOOP_114_1 | 0   |        |            |           |                          |         |
+|    icmp_ln114_fu_159_p2              |     |        | icmp_ln114 | seteq     | auto                     | 0       |
+|    add_ln114_fu_165_p2               |     |        | add_ln114  | add       | fabric                   | 0       |
+|    out_1_fu_184_p2                   |     |        | out_1      | xor       | auto                     | 0       |
+|    sparsemux_33_4_4_1_1_U5           |     |        | tmp_3      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U6           |     |        | tmp_5      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U7           |     |        | tmp_7      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U8           |     |        | tmp_9      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U9           |     |        | tmp_s      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U10          |     |        | tmp_1      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U11          |     |        | tmp_2      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U12          |     |        | tmp_4      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U13          |     |        | tmp_6      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U14          |     |        | tmp_8      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U15          |     |        | tmp_10     | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U16          |     |        | tmp_11     | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U17          |     |        | tmp_12     | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U18          |     |        | tmp_13     | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U19          |     |        | tmp_14     | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_4_1_1_U20          |     |        | tmp_15     | sparsemux | compactencoding_dontcare | 0       |
++--------------------------------------+-----+--------+------------+-----------+--------------------------+---------+
+
+
+================================================================
+== Storage Report
+================================================================
++-------------------+--------------+-----------+------+------+--------+------------+------+---------+------------------+
+| Name              | Usage        | Type      | BRAM | URAM | Pragma | Variable   | Impl | Latency | Bitwidth, Depth, |
+|                   |              |           |      |      |        |            |      |         | Banks            |
++-------------------+--------------+-----------+------+------+--------+------------+------+---------+------------------+
+| + present         |              |           | 2    | 0    |        |            |      |         |                  |
+|   control_s_axi_U | interface    | s_axilite |      |      |        |            |      |         |                  |
+|   round_keys_U    | ram_1p array |           | 2    |      |        | round_keys | auto | 1       | 64, 32, 1        |
++-------------------+--------------+-----------+------+------+--------+------------+------+---------+------------------+
+
+
+================================================================
+== Pragma Report
+================================================================
+* Inferred Pragmas
++----------+---------+-------------------------------------------------------------------------+-------------------------------+
+| Type     | Options | Location                                                                | Inferred From                 |
++----------+---------+-------------------------------------------------------------------------+-------------------------------+
+| PIPELINE |         | loop VITIS_LOOP_92_1 (present.cpp:92:22) in present (present.cpp:92)    | syn.compile.pipeline_loops=64 |
+| PIPELINE |         | loop VITIS_LOOP_114_1 (present.cpp:114:23) in present (present.cpp:114) | syn.compile.pipeline_loops=64 |
++----------+---------+-------------------------------------------------------------------------+-------------------------------+
+
+* Valid Pragma Syntax
++-----------------+--------------------------+-------------------------------------------+
+| Type            | Options                  | Location                                  |
++-----------------+--------------------------+-------------------------------------------+
+| INLINE          |                          | in sbox (present.cpp:8)                   |
+| ARRAY_PARTITION | variable=table complete  | in sbox (present.cpp:17)                  |
+| INLINE          |                          | in sustitution (present.cpp:23)           |
+| UNROLL          |                          | in sustitution (present.cpp:27)           |
+| INLINE          |                          | in permutation (present.cpp:35)           |
+| UNROLL          |                          | in permutation (present.cpp:40)           |
+| INLINE          |                          | in key_mixing (present.cpp:49)            |
+| INLINE          |                          | in round_function (present.cpp:54)        |
+| INLINE          |                          | in permutation_inverse (present.cpp:65)   |
+| UNROLL          |                          | in permutation_inverse (present.cpp:70)   |
+| INLINE          |                          | in last_round_correction (present.cpp:79) |
+| INLINE          |                          | in key_schedule (present.cpp:90)          |
+| INTERFACE       | s_axilite port=plaintext | in present (present.cpp:107)              |
+| INTERFACE       | s_axilite port=key       | in present (present.cpp:108)              |
+| INTERFACE       | s_axilite port=return    | in present (present.cpp:109)              |
++-----------------+--------------------------+-------------------------------------------+
+
+

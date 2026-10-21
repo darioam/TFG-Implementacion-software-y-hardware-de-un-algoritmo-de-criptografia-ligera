@@ -1,0 +1,128 @@
+{
+  "0": {
+    "basicblocks": 7,
+    "calls": "7 4 2",
+    "control_depth": 1,
+    "def_use_depth": 2,
+    "file": "present.cpp",
+    "fileloc": 106,
+    "instructions": 50,
+    "loads": {
+      "L": 4
+    },
+    "memory_accesses": 5,
+    "name": "present",
+    "stores": {
+      "L": 5
+    },
+    "total_instructions": 1453
+  },
+  "1": {
+    "basicblocks": 1,
+    "calls": "",
+    "control_depth": 0,
+    "def_use_depth": 1,
+    "file": "present.cpp",
+    "fileloc": 48,
+    "instructions": 4,
+    "memory_accesses": 0,
+    "name": "key_mixing",
+    "total_instructions": 51
+  },
+  "2": {
+    "basicblocks": 1,
+    "calls": "1",
+    "control_depth": 0,
+    "def_use_depth": 2,
+    "file": "present.cpp",
+    "fileloc": 78,
+    "instructions": 16,
+    "loads": {
+      "L": 3
+    },
+    "memory_accesses": 0,
+    "name": "last_round_correction",
+    "stores": {
+      "L": 3
+    },
+    "total_instructions": 84
+  },
+  "3": {
+    "basicblocks": 1,
+    "calls": "",
+    "control_depth": 0,
+    "def_use_depth": 3,
+    "file": "present.cpp",
+    "fileloc": 7,
+    "instructions": 44,
+    "loads": {
+      "L": 1
+    },
+    "memory_accesses": 0,
+    "name": "sbox",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 321
+  },
+  "4": {
+    "basicblocks": 1,
+    "calls": "1 5 6",
+    "control_depth": 0,
+    "def_use_depth": 2,
+    "file": "present.cpp",
+    "fileloc": 53,
+    "instructions": 38,
+    "loads": {
+      "L": 7
+    },
+    "memory_accesses": 0,
+    "name": "round_function",
+    "stores": {
+      "L": 7
+    },
+    "total_instructions": 676
+  },
+  "5": {
+    "basicblocks": 7,
+    "calls": "3",
+    "control_depth": 1,
+    "def_use_depth": 3,
+    "file": "present.cpp",
+    "fileloc": 22,
+    "instructions": 41,
+    "memory_accesses": 5,
+    "name": "sustitution",
+    "total_instructions": 473
+  },
+  "6": {
+    "basicblocks": 7,
+    "calls": "",
+    "control_depth": 1,
+    "def_use_depth": 4,
+    "file": "present.cpp",
+    "fileloc": 34,
+    "instructions": 30,
+    "memory_accesses": 3,
+    "name": "permutation",
+    "total_instructions": 97
+  },
+  "7": {
+    "basicblocks": 7,
+    "calls": "3",
+    "control_depth": 1,
+    "def_use_depth": 2,
+    "file": "present.cpp",
+    "fileloc": 89,
+    "instructions": 71,
+    "loads": {
+      "L": 1
+    },
+    "memory_accesses": 13,
+    "name": "key_schedule",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 643
+  }
+}

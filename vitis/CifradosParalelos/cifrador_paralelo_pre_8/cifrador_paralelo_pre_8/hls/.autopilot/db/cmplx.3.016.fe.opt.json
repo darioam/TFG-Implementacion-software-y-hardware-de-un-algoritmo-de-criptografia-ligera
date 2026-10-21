@@ -1,0 +1,36 @@
+{
+  "0": {
+    "basicblocks": 1,
+    "calls": "1 1 1 1 1 1 1 1",
+    "control_depth": 0,
+    "def_use_depth": 185,
+    "file": "Cifrador.cpp",
+    "fileloc": 122,
+    "instructions": 397,
+    "loads": {
+      "L": 8,
+      "T": 8
+    },
+    "memory_accesses": 0,
+    "name": "cifrador_paralelo_pre_8",
+    "stores": {
+      "T": 8
+    },
+    "total_instructions": 997
+  },
+  "1": {
+    "basicblocks": 4,
+    "calls": "",
+    "control_depth": 1,
+    "def_use_depth": 7,
+    "file": "Cifrador.cpp",
+    "fileloc": 106,
+    "instructions": 75,
+    "memory_accesses": 0,
+    "name": "cifrador",
+    "stores": {
+      "L": 2
+    },
+    "total_instructions": 75
+  }
+}

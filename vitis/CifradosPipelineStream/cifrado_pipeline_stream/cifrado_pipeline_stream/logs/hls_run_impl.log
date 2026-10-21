@@ -1,0 +1,128 @@
+  **** HLS Build v2025.2 6295257
+INFO: [HLS 200-2005] Using work_dir C:/Users/Dario/Documents/TFG/Vitis/CifradosPipeline/cifrado_pipeline_stream/cifrado_pipeline_stream 
+INFO: [HLS 200-2176] Writing Vitis IDE component file C:/Users/Dario/Documents/TFG/Vitis/CifradosPipeline/cifrado_pipeline_stream/cifrado_pipeline_stream/vitis-comp.json
+INFO: [HLS 200-10] Creating and opening component 'C:/Users/Dario/Documents/TFG/Vitis/CifradosPipeline/cifrado_pipeline_stream/cifrado_pipeline_stream'.
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-2174] Applying component config ini file hls_config.cfg
+INFO: [HLS 200-1465] Applying config ini 'syn.file=Cifrador.cpp' from hls_config.cfg(7)
+INFO: [HLS 200-10] Adding design file 'C:/Users/Dario/Documents/TFG/Vitis/CifradosPipeline/cifrado_pipeline_stream/Cifrador.cpp' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.top=cifrador_pipeline_stream' from hls_config.cfg(8)
+INFO: [HLS 200-1465] Applying config ini 'flow_target=vivado' from hls_config.cfg(4)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying config ini 'part=xc7z020clg400-1' from hls_config.cfg(1)
+INFO: [HLS 200-1465] Applying config ini 'package.output.format=ip_catalog' from hls_config.cfg(5)
+INFO: [HLS 200-2176] Writing Vitis IDE component file C:/Users/Dario/Documents/TFG/Vitis/CifradosPipeline/cifrado_pipeline_stream/cifrado_pipeline_stream/vitis-comp.json
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
+
+****** Vivado v2025.2 (64-bit)
+  **** SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+  **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+  **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+  **** Start of session at: Tue Apr 28 18:16:05 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source run_ippack.tcl -notrace
+INFO: calling package_hls_ip ip_types=vitis sysgen json_file=C:/Users/Dario/Documents/TFG/Vitis/CifradosPipeline/cifrado_pipeline_stream/cifrado_pipeline_stream/hls/hls_data.json outdir=C:/Users/Dario/Documents/TFG/Vitis/CifradosPipeline/cifrado_pipeline_stream/cifrado_pipeline_stream/hls/impl/ip srcdir=C:/Users/Dario/Documents/TFG/Vitis/CifradosPipeline/cifrado_pipeline_stream/cifrado_pipeline_stream/hls ippack_options_dict= ippack_options_dict=
+INFO: Copied 1 ipmisc file(s) to C:/Users/Dario/Documents/TFG/Vitis/CifradosPipeline/cifrado_pipeline_stream/cifrado_pipeline_stream/hls/impl/ip/misc
+INFO: Copied 38 verilog file(s) to C:/Users/Dario/Documents/TFG/Vitis/CifradosPipeline/cifrado_pipeline_stream/cifrado_pipeline_stream/hls/impl/ip/hdl/verilog
+INFO: Copied 36 vhdl file(s) to C:/Users/Dario/Documents/TFG/Vitis/CifradosPipeline/cifrado_pipeline_stream/cifrado_pipeline_stream/hls/impl/ip/hdl/vhdl
+INFO: Copied 10 swdriver file(s) to C:/Users/Dario/Documents/TFG/Vitis/CifradosPipeline/cifrado_pipeline_stream/cifrado_pipeline_stream/hls/impl/ip/drivers
+ipx::create_core: Time (s): cpu = 00:00:23 ; elapsed = 00:00:31 . Memory (MB): peak = 534.270 ; gain = 214.848
+INFO: Import ports from HDL: C:/Users/Dario/Documents/TFG/Vitis/CifradosPipeline/cifrado_pipeline_stream/cifrado_pipeline_stream/hls/impl/ip/hdl/vhdl/cifrador_pipeline_stream.vhd (cifrador_pipeline_stream)
+INFO: Add axi4lite interface s_axi_control
+INFO: Add clock interface ap_clk
+INFO: Add reset interface ap_rst_n
+INFO: Add interrupt interface interrupt
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Users/Dario/AMDDesignTools/2025.2/Vivado/data/ip'.
+INFO: Add axi4stream interface in_stream
+INFO: Add axi4stream interface out_stream
+INFO: Calling post_process_vitis to specialize IP
+INFO: Calling post_process_sysgen to specialize IP
+Generating sysgen info xml from json file
+INFO: Created IP C:/Users/Dario/Documents/TFG/Vitis/CifradosPipeline/cifrado_pipeline_stream/cifrado_pipeline_stream/hls/impl/ip/component.xml
+INFO: Created IP archive C:/Users/Dario/Documents/TFG/Vitis/CifradosPipeline/cifrado_pipeline_stream/cifrado_pipeline_stream/hls/impl/ip/xilinx_com_hls_cifrador_pipeline_stream_1_0.zip
+INFO: [Common 17-206] Exiting Vivado at Tue Apr 28 18:17:08 2026...
+INFO: [IMPL 213-8] Starting RTL evaluation using Vivado ...
+
+C:\Users\Dario\Documents\TFG\Vitis\CifradosPipeline\cifrado_pipeline_stream\cifrado_pipeline_stream\hls\impl\verilog>C:/Users/Dario/AMDDesignTools/2025.2/Vivado/bin/vivado  -mode batch -source run_vivado.tcl   || exit $? 
+
+****** Vivado v2025.2 (64-bit)
+  **** SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+  **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+  **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+  **** Start of session at: Tue Apr 28 18:17:21 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source run_vivado.tcl
+# source ./settings.tcl
+## set top_module cifrador_pipeline_stream
+## set language verilog
+## set family zynq
+## set device xc7z020
+## set package -clg400
+## set speed -1
+## set clock ap_clk
+## set fsm_ext "off"
+## set add_io_buffers false 
+# source -notrace ./extraction.tcl
+# set vivado_proj_name project
+# set vivado_proj_dir .
+# set target_device "${device}${package}${speed}"
+# set target_clk_period_ns "10.000"
+# set target_clk_freq_hz [expr {floor(1000 / $target_clk_period_ns) * 1000000}]
+# set other_clks_freq_hz {}
+# set ip_vlnv xilinx.com:hls:cifrador_pipeline_stream:1.0
+# set ip_repo_path ../ip
+# set bd_design_name bd_0
+# set bd_inst_name hls_inst
+# set bd_props {}
+# set has_synth true
+# set synth_design_args {-directive sdx_optimization_effort_high}
+# set synth_dcp ""
+# set synth_props {}
+# set has_impl 1
+# set impl_props {}
+# set has_subcore 0
+# set report_options [dict create]
+# dict set report_options report_level 2
+# dict set report_options report_max_paths 10
+# dict set report_options stdout_hls_reports 1
+# dict set report_options stdout_vivado_reports 0
+# dict set report_options hls_project cifrado_pipeline_stream
+# dict set report_options hls_solution hls
+# dict set report_options has_synth $has_synth
+# dict set report_options has_impl $has_impl
+# dict set report_options vivado_reportbasename $top_module
+# dict set report_options vivado_reportdir ./report
+# dict set report_options hls_impl_dir ..
+# dict set report_options hls_reportdir ../report/$language
+# dict set report_options target_clk_period $target_clk_period_ns
+# dict set report_options target_device $target_device
+# dict set report_options language $language
+# dict set report_options clock_name $clock
+# dict set report_options error_if_impl_timing_fails false
+# dict set report_options topmodule "cifrador_pipeline_stream"
+# dict set report_options funcmodules {cifrador_pipeline_stream_stage_0_s cifrador_pipeline_stream_stage_1_s cifrador_pipeline_stream_stage_2_s cifrador_pipeline_stream_stage_3_s cifrador_pipeline_stream_stage_4_s cifrador_pipeline_stream_stage_5_s cifrador_pipeline_stream_stage_6_s cifrador_pipeline_stream_stage_7_s cifrador_pipeline_stream_stage_8_s cifrador_pipeline_stream_stage_9_s cifrador_pipeline_stream_stage_10_s cifrador_pipeline_stream_stage_11_s cifrador_pipeline_stream_stage_12_s cifrador_pipeline_stream_stage_13_s cifrador_pipeline_stream_stage_14_s cifrador_pipeline_stream_stage_15_s cifrador_pipeline_stream_stage_16_s cifrador_pipeline_stream_stage_17_s cifrador_pipeline_stream_stage_18_s cifrador_pipeline_stream_stage_19_s cifrador_pipeline_stream_stage_20_s cifrador_pipeline_stream_stage_21_s cifrador_pipeline_stream_stage_22_s cifrador_pipeline_stream_stage_23_s cifrador_pipeline_stream_stage_24_s cifrador_pipeline_stream_stage_25_s cifrador_pipeline_stream_stage_26_s cifrador_pipeline_stream_stage_27_s cifrador_pipeline_stream_stage_28_s cifrador_pipeline_stream_stage_29_s cifrador_pipeline_stream_stage_30_s cifrador_pipeline_stream_last_stage}
+# dict set report_options bindmodules {cifrador_pipeline_stream_sparsemux_33_4_4_1_1 cifrador_pipeline_stream_control_s_axi cifrador_pipeline_stream_regslice_both}
+# dict set report_options max_module_depth 6
+# create_project $vivado_proj_name $vivado_proj_dir -part $target_device -force
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/Dario/Documents/TFG/Vitis/CifradosPipeline/cifrado_pipeline_stream/cifrado_pipeline_stream/hls/impl/verilog'
+create_project: Time (s): cpu = 00:00:23 ; elapsed = 00:00:33 . Memory (MB): peak = 525.367 ; gain = 221.410
+# set_property target_language $language [current_project]
+# if { ![file exists $ip_repo_path] } {
+#   error "Cannot find packaged HLS IP"
+# }
+# set_property ip_repo_paths [file normalize $ip_repo_path] [current_project]
+# update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Dario/Documents/TFG/Vitis/CifradosPipeline/cifrado_pipeline_stream/cifrado_pipeline_stream/hls/impl/ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Users/Dario/AMDDesignTools/2025.2/Vivado/data/ip'.
+# create_bd_design bd_0

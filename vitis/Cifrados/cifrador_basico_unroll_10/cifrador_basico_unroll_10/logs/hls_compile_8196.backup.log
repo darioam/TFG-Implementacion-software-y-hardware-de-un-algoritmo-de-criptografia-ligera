@@ -1,0 +1,18 @@
+  **** HLS Build v2025.2 6295257
+INFO: [HLS 200-2005] Using work_dir C:/Users/Dario/Documents/TFG/Vitis/Cifrados/cifrador_basico_unroll_10/cifrador_basico_unroll_10 
+INFO: [HLS 200-2176] Writing Vitis IDE component file C:/Users/Dario/Documents/TFG/Vitis/Cifrados/cifrador_basico_unroll_10/cifrador_basico_unroll_10/vitis-comp.json
+INFO: [HLS 200-10] Creating and opening component 'C:/Users/Dario/Documents/TFG/Vitis/Cifrados/cifrador_basico_unroll_10/cifrador_basico_unroll_10'.
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-2174] Applying component config ini file hls_config.cfg
+INFO: [HLS 200-1465] Applying config ini 'syn.file=Cifrador.cpp' from hls_config.cfg(7)
+INFO: [HLS 200-10] Adding design file 'C:/Users/Dario/Documents/TFG/Vitis/Cifrados/cifrador_basico_unroll_10/Cifrador.cpp' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.top=cifrador_basico_unroll_10' from hls_config.cfg(8)
+INFO: [HLS 200-1465] Applying config ini 'flow_target=vivado' from hls_config.cfg(4)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying config ini 'part=xcvu9p-flga2104-2-i' from hls_config.cfg(1)
+ERROR: [HLS 200-1023] Part 'xcvu9p-flga2104-2-i' is not installed.
+ERROR: [HLS 200-1912] Problem with config ini entry 'part=xcvu9p-flga2104-2-i' from hls_config.cfg(1): command 'create_platform' returned error code
+ERROR: problem with 'part=xcvu9p-flga2104-2-i' from hls_config.cfg(1): command 'create_platform' returned error code
+INFO: [HLS 200-112] Total CPU user time: 3 seconds. Total CPU system time: 4 seconds. Total elapsed time: 6.8 seconds; peak allocated memory: 52.730 MB.

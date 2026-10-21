@@ -1,0 +1,156 @@
+<ENTRY>
+{
+ "thisFile": "C:/Users\\Dario\\Documents\\TFG\\Vitis\\CifradosParalelos\\cifrador_paralelo_pre_4\\cifrador_paralelo_pre_4\\cifrador_paralelo_pre_4.hlsrun_package_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "04/03/26 14:51:01",
+ "timestampMillis": "1775220661537",
+ "buildStep": {
+  "cmdId": "b7946c6e-be0e-47a2-ac71-35d4c9172a63",
+  "name": "vitis-run",
+  "logFile": "C:/Users\\Dario\\Documents\\TFG\\Vitis\\CifradosParalelos\\cifrador_paralelo_pre_4\\cifrador_paralelo_pre_4\\logs\\cifrador_paralelo_pre_4.steps.log",
+  "commandLine": "C:/Users/Dario/AMDDesignTools/2025.2/Vitis/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --package --config C:\\Users\\Dario\\Documents\\TFG\\Vitis\\CifradosParalelos\\cifrador_paralelo_pre_4\\hls_config.cfg --work_dir cifrador_paralelo_pre_4 ",
+  "args": [
+   "--mode",
+   "hls",
+   "--package",
+   "--config",
+   "C:\\Users\\Dario\\Documents\\TFG\\Vitis\\CifradosParalelos\\cifrador_paralelo_pre_4\\hls_config.cfg",
+   "--work_dir",
+   "cifrador_paralelo_pre_4"
+  ],
+  "iniFiles": [],
+  "cwd": "C:\\Users\\Dario\\Documents\\TFG\\Vitis\\CifradosParalelos\\cifrador_paralelo_pre_4"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "04/03/26 14:51:01",
+ "timestampMillis": "1775220661537",
+ "status": {
+  "cmdId": "b7946c6e-be0e-47a2-ac71-35d4c9172a63",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "04/03/26 14:51:10",
+ "timestampMillis": "1775220670476",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_IP",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "cifrador_paralelo_pre_4",
+     "file": "C:/Users\\Dario\\Documents\\TFG\\Vitis\\CifradosParalelos\\cifrador_paralelo_pre_4\\cifrador_paralelo_pre_4\\cifrador_paralelo_pre_4.zip",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "C:/Users\\Dario\\Documents\\TFG\\Vitis\\CifradosParalelos\\cifrador_paralelo_pre_4\\Cifrador.cpp"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2025.2"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "04/03/26 14:51:10",
+ "timestampMillis": "1775220670479",
+ "buildStep": {
+  "cmdId": "52a3e510-aced-4a3f-9351-5a7461916ac2",
+  "name": "",
+  "logFile": "C:/Users\\Dario\\Documents\\TFG\\Vitis\\CifradosParalelos\\cifrador_paralelo_pre_4\\cifrador_paralelo_pre_4\\hls\\hls.log",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "C:\\Users\\Dario\\Documents\\TFG\\Vitis\\CifradosParalelos\\cifrador_paralelo_pre_4"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "04/03/26 14:51:10",
+ "timestampMillis": "1775220670480",
+ "status": {
+  "cmdId": "52a3e510-aced-4a3f-9351-5a7461916ac2",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "04/03/26 14:51:43",
+ "timestampMillis": "1775220703365",
+ "status": {
+  "cmdId": "52a3e510-aced-4a3f-9351-5a7461916ac2",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "04/03/26 14:51:43",
+ "timestampMillis": "1775220703535",
+ "status": {
+  "cmdId": "b7946c6e-be0e-47a2-ac71-35d4c9172a63",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "04/03/26 14:51:43",
+ "timestampMillis": "1775220703536",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "04/03/26 14:51:43",
+ "timestampMillis": "1775220703537",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

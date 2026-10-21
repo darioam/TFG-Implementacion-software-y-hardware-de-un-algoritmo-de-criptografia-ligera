@@ -1,0 +1,186 @@
+
+
+================================================================
+== Vitis HLS Report for 'cifrador_paralelo_stream'
+================================================================
+* Date:           Fri Apr  3 12:17:56 2026
+
+* Version:        2025.2 (Build 6295257 on Nov 14 2025)
+* Project:        cifrador_paralelo_stream
+* Solution:       hls (Vivado IP Flow Target)
+* Product family: zynq
+* Target device:  xc7z020-clg400-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  |  10.00 ns|  6.240 ns|     2.70 ns|
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-----+-----+----------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline |
+    |   min   |   max   |    min   |    max   | min | max |   Type   |
+    +---------+---------+----------+----------+-----+-----+----------+
+    |       37|       37|  0.370 us|  0.370 us|   36|   36|  dataflow|
+    +---------+---------+----------+----------+-----+-----+----------+
+
+    + Detail: 
+        * Instance: 
+        +---------------------+------------------+---------+---------+----------+----------+-----+-----+------------------------------------------------+
+        |                     |                  |  Latency (cycles) |  Latency (absolute) |  Interval |                    Pipeline                    |
+        |       Instance      |      Module      |   min   |   max   |    min   |    max   | min | max |                      Type                      |
+        +---------------------+------------------+---------+---------+----------+----------+-----+-----+------------------------------------------------+
+        |entry_proc_U0        |entry_proc        |        0|        0|      0 ns|      0 ns|    0|    0|                                              no|
+        |key_schedule_U0      |key_schedule      |       33|       33|  0.330 us|  0.330 us|   32|   32|  loop auto-rewind stp (delay=0 clock cycles(s))|
+        |cifrador_1_U0        |cifrador_1        |       35|       35|  0.350 us|  0.350 us|   35|   35|                                              no|
+        |cifrador_2_U0        |cifrador_2        |       35|       35|  0.350 us|  0.350 us|   35|   35|                                              no|
+        |cifrador_3_U0        |cifrador_3        |       35|       35|  0.350 us|  0.350 us|   35|   35|                                              no|
+        |cifrador_U0          |cifrador          |       35|       35|  0.350 us|  0.350 us|   35|   35|                                              no|
+        |Block_entry_proc_U0  |Block_entry_proc  |        0|        0|      0 ns|      0 ns|    0|    0|                                              no|
+        +---------------------+------------------+---------+---------+----------+----------+-----+-----+------------------------------------------------+
+
+        * Loop: 
+        N/A
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+-----+--------+-------+-----+
+|       Name      | BRAM_18K| DSP |   FF   |  LUT  | URAM|
++-----------------+---------+-----+--------+-------+-----+
+|DSP              |        -|    -|       -|      -|    -|
+|Expression       |        -|    -|       0|     16|    -|
+|FIFO             |        -|    -|    1188|    884|    -|
+|Instance         |        0|    -|    1318|   3989|    -|
+|Memory           |        -|    -|       -|      -|    -|
+|Multiplexer      |        -|    -|       0|     18|    -|
+|Register         |        -|    -|       2|      -|    -|
++-----------------+---------+-----+--------+-------+-----+
+|Total            |        0|    0|    2508|   4907|    0|
++-----------------+---------+-----+--------+-------+-----+
+|Available        |      280|  220|  106400|  53200|    0|
++-----------------+---------+-----+--------+-------+-----+
+|Utilization (%)  |        0|    0|       2|      9|    0|
++-----------------+---------+-----+--------+-------+-----+
+
++ Detail: 
+    * Instance: 
+    +---------------------+------------------+---------+----+-----+-----+-----+
+    |       Instance      |      Module      | BRAM_18K| DSP|  FF | LUT | URAM|
+    +---------------------+------------------+---------+----+-----+-----+-----+
+    |Block_entry_proc_U0  |Block_entry_proc  |        0|   0|  130|   47|    0|
+    |cifrador_U0          |cifrador          |        0|   0|  176|  742|    0|
+    |cifrador_1_U0        |cifrador_1        |        0|   0|  176|  742|    0|
+    |cifrador_2_U0        |cifrador_2        |        0|   0|  176|  742|    0|
+    |cifrador_3_U0        |cifrador_3        |        0|   0|  176|  742|    0|
+    |control_s_axi_U      |control_s_axi     |        0|   0|  410|  680|    0|
+    |entry_proc_U0        |entry_proc        |        0|   0|    3|   56|    0|
+    |key_schedule_U0      |key_schedule      |        0|   0|   71|  238|    0|
+    +---------------------+------------------+---------+----+-----+-----+-----+
+    |Total                |                  |        0|   0| 1318| 3989|    0|
+    +---------------------+------------------+---------+----+-----+-----+-----+
+
+    * DSP: 
+    N/A
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    +---------------------+---------+----+----+-----+------+-----+---------+
+    |         Name        | BRAM_18K| FF | LUT| URAM| Depth| Bits| Size:D*B|
+    +---------------------+---------+----+----+-----+------+-----+---------+
+    |k0_U                 |        0|  99|   0|    -|    32|   32|     1024|
+    |k1_U                 |        0|  99|   0|    -|    32|   32|     1024|
+    |k2_U                 |        0|  99|   0|    -|    32|   32|     1024|
+    |k3_U                 |        0|  99|   0|    -|    32|   32|     1024|
+    |plaintext0_c_U       |        0|  99|   0|    -|     3|   32|       96|
+    |plaintext1_c_U       |        0|  99|   0|    -|     3|   32|       96|
+    |plaintext2_c_U       |        0|  99|   0|    -|     3|   32|       96|
+    |plaintext3_c_U       |        0|  99|   0|    -|     3|   32|       96|
+    |ref_tmp11_channel_U  |        0|  99|   0|    -|     2|   32|       64|
+    |ref_tmp7_channel_U   |        0|  99|   0|    -|     2|   32|       64|
+    |ref_tmp9_channel_U   |        0|  99|   0|    -|     2|   32|       64|
+    |ref_tmp_channel_U    |        0|  99|   0|    -|     2|   32|       64|
+    +---------------------+---------+----+----+-----+------+-----+---------+
+    |Total                |        0|1188|   0|    0|   148|  384|     4736|
+    +---------------------+---------+----+----+-----+------+-----+---------+
+
+    * Expression: 
+    +----------------------------------+----------+----+---+----+------------+------------+
+    |           Variable Name          | Operation| DSP| FF| LUT| Bitwidth P0| Bitwidth P1|
+    +----------------------------------+----------+----+---+----+------------+------------+
+    |Block_entry_proc_U0_ap_start      |       and|   0|  0|   2|           1|           1|
+    |ap_idle                           |       and|   0|  0|   2|           1|           1|
+    |ap_sync_ready                     |       and|   0|  0|   2|           1|           1|
+    |entry_proc_U0_ap_start            |       and|   0|  0|   2|           1|           1|
+    |entry_proc_U0_start_full_n        |       and|   0|  0|   2|           1|           1|
+    |key_schedule_U0_ap_start          |       and|   0|  0|   2|           1|           1|
+    |ap_sync_entry_proc_U0_ap_ready    |        or|   0|  0|   2|           1|           1|
+    |ap_sync_key_schedule_U0_ap_ready  |        or|   0|  0|   2|           1|           1|
+    +----------------------------------+----------+----+---+----+------------+------------+
+    |Total                             |          |   0|  0|  16|           8|           8|
+    +----------------------------------+----------+----+---+----+------------+------------+
+
+    * Multiplexer: 
+    +--------------------------------------+----+-----------+-----+-----------+
+    |                 Name                 | LUT| Input Size| Bits| Total Bits|
+    +--------------------------------------+----+-----------+-----+-----------+
+    |ap_sync_reg_entry_proc_U0_ap_ready    |   9|          2|    1|          2|
+    |ap_sync_reg_key_schedule_U0_ap_ready  |   9|          2|    1|          2|
+    +--------------------------------------+----+-----------+-----+-----------+
+    |Total                                 |  18|          4|    2|          4|
+    +--------------------------------------+----+-----------+-----+-----------+
+
+    * Register: 
+    +--------------------------------------+---+----+-----+-----------+
+    |                 Name                 | FF| LUT| Bits| Const Bits|
+    +--------------------------------------+---+----+-----+-----------+
+    |ap_sync_reg_entry_proc_U0_ap_ready    |  1|   0|    1|          0|
+    |ap_sync_reg_key_schedule_U0_ap_ready  |  1|   0|    1|          0|
+    +--------------------------------------+---+----+-----+-----------+
+    |Total                                 |  2|   0|    2|          0|
+    +--------------------------------------+---+----+-----+-----------+
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++-----------------------+-----+-----+------------+--------------------------+--------------+
+|       RTL Ports       | Dir | Bits|  Protocol  |       Source Object      |    C Type    |
++-----------------------+-----+-----+------------+--------------------------+--------------+
+|s_axi_control_AWVALID  |   in|    1|       s_axi|                   control|       pointer|
+|s_axi_control_AWREADY  |  out|    1|       s_axi|                   control|       pointer|
+|s_axi_control_AWADDR   |   in|    7|       s_axi|                   control|       pointer|
+|s_axi_control_WVALID   |   in|    1|       s_axi|                   control|       pointer|
+|s_axi_control_WREADY   |  out|    1|       s_axi|                   control|       pointer|
+|s_axi_control_WDATA    |   in|   32|       s_axi|                   control|       pointer|
+|s_axi_control_WSTRB    |   in|    4|       s_axi|                   control|       pointer|
+|s_axi_control_ARVALID  |   in|    1|       s_axi|                   control|       pointer|
+|s_axi_control_ARREADY  |  out|    1|       s_axi|                   control|       pointer|
+|s_axi_control_ARADDR   |   in|    7|       s_axi|                   control|       pointer|
+|s_axi_control_RVALID   |  out|    1|       s_axi|                   control|       pointer|
+|s_axi_control_RREADY   |   in|    1|       s_axi|                   control|       pointer|
+|s_axi_control_RDATA    |  out|   32|       s_axi|                   control|       pointer|
+|s_axi_control_RRESP    |  out|    2|       s_axi|                   control|       pointer|
+|s_axi_control_BVALID   |  out|    1|       s_axi|                   control|       pointer|
+|s_axi_control_BREADY   |   in|    1|       s_axi|                   control|       pointer|
+|s_axi_control_BRESP    |  out|    2|       s_axi|                   control|       pointer|
+|ap_clk                 |   in|    1|  ap_ctrl_hs|  cifrador_paralelo_stream|  return value|
+|ap_rst_n               |   in|    1|  ap_ctrl_hs|  cifrador_paralelo_stream|  return value|
+|interrupt              |  out|    1|  ap_ctrl_hs|  cifrador_paralelo_stream|  return value|
++-----------------------+-----+-----+------------+--------------------------+--------------+
+

@@ -1,0 +1,245 @@
+<ENTRY>
+{
+ "thisFile": "C:/Users\\Dario\\Documents\\TFG\\Vitis\\CifradosPipelineStream\\cifrado_pipeline_stream_4\\cifrado_pipeline_stream_4\\cifrado_pipeline_stream_4.hlscompile_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "05/02/26 01:23:48",
+ "timestampMillis": "1777677828238",
+ "buildStep": {
+  "cmdId": "2e12542c-8e31-4820-a040-63dc3dcfe935",
+  "name": "v++",
+  "logFile": "C:/Users\\Dario\\Documents\\TFG\\Vitis\\CifradosPipelineStream\\cifrado_pipeline_stream_4\\cifrado_pipeline_stream_4\\logs\\cifrado_pipeline_stream_4.steps.log",
+  "commandLine": "C:/Users/Dario/AMDDesignTools/2025.2/Vitis/bin/unwrapped/win64.o/v++.exe  -c --mode hls --config C:\\Users\\Dario\\Documents\\TFG\\Vitis\\CifradosPipelineStream\\cifrado_pipeline_stream_4\\hls_config.cfg --work_dir cifrado_pipeline_stream_4 ",
+  "args": [
+   "-c",
+   "--mode",
+   "hls",
+   "--config",
+   "C:\\Users\\Dario\\Documents\\TFG\\Vitis\\CifradosPipelineStream\\cifrado_pipeline_stream_4\\hls_config.cfg",
+   "--work_dir",
+   "cifrado_pipeline_stream_4"
+  ],
+  "iniFiles": [
+   {
+    "path": "C:/Users\\Dario\\Documents\\TFG\\Vitis\\CifradosPipelineStream\\cifrado_pipeline_stream_4\\hls_config.cfg",
+    "content": "part=xc7z020clg400-1\n\n[hls]\nflow_target=vivado\npackage.output.format=ip_catalog\npackage.output.syn=false\nsyn.file=Cifrador.cpp\nsyn.top=cifrador_pipeline_stream_4"
+   }
+  ],
+  "cwd": "C:\\Users\\Dario\\Documents\\TFG\\Vitis\\CifradosPipelineStream\\cifrado_pipeline_stream_4"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "05/02/26 01:23:48",
+ "timestampMillis": "1777677828240",
+ "status": {
+  "cmdId": "2e12542c-8e31-4820-a040-63dc3dcfe935",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "05/02/26 01:24:02",
+ "timestampMillis": "1777677842616",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_COMPILE",
+  "target": "TT_HW",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "cifrador_pipeline_stream_4",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "C:/Users\\Dario\\Documents\\TFG\\Vitis\\CifradosPipelineStream\\cifrado_pipeline_stream_4\\Cifrador.cpp"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2025.2"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "05/02/26 01:24:02",
+ "timestampMillis": "1777677842618",
+ "buildStep": {
+  "cmdId": "43bf5b08-f0fb-45b1-b7d2-92fd729d0d84",
+  "name": "",
+  "logFile": "C:/Users\\Dario\\Documents\\TFG\\Vitis\\CifradosPipelineStream\\cifrado_pipeline_stream_4\\cifrado_pipeline_stream_4\\hls\\hls.log",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "C:\\Users\\Dario\\Documents\\TFG\\Vitis\\CifradosPipelineStream\\cifrado_pipeline_stream_4"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "05/02/26 01:24:02",
+ "timestampMillis": "1777677842620",
+ "status": {
+  "cmdId": "43bf5b08-f0fb-45b1-b7d2-92fd729d0d84",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "05/02/26 01:24:02",
+ "timestampMillis": "1777677842620",
+ "report": {
+  "path": "C:/Users\\Dario\\Documents\\TFG\\Vitis\\CifradosPipelineStream\\cifrado_pipeline_stream_4\\cifrado_pipeline_stream_4\\hls\\hls_data.json",
+  "name": "",
+  "fileType": "JSON",
+  "reportType": "HLS_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "05/02/26 01:24:02",
+ "timestampMillis": "1777677842621",
+ "report": {
+  "path": "C:/Users\\Dario\\Documents\\TFG\\Vitis\\CifradosPipelineStream\\cifrado_pipeline_stream_4\\cifrado_pipeline_stream_4\\hls\\syn\\report\\csynth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "HLS_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "05/02/26 01:24:02",
+ "timestampMillis": "1777677842623",
+ "report": {
+  "path": "C:/Users\\Dario\\Documents\\TFG\\Vitis\\CifradosPipelineStream\\cifrado_pipeline_stream_4\\cifrado_pipeline_stream_4\\hls\\syn\\report\\csynth.xml",
+  "name": "",
+  "fileType": "XML",
+  "reportType": "HLS_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "05/02/26 01:25:38",
+ "timestampMillis": "1777677938756",
+ "report": {
+  "path": "C:/Users\\Dario\\Documents\\TFG\\Vitis\\CifradosPipelineStream\\cifrado_pipeline_stream_4\\cifrado_pipeline_stream_4\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_DATAFLOW",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "05/02/26 01:25:38",
+ "timestampMillis": "1777677938758",
+ "report": {
+  "path": "C:/Users\\Dario\\Documents\\TFG\\Vitis\\CifradosPipelineStream\\cifrado_pipeline_stream_4\\cifrado_pipeline_stream_4\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_FUNCTION_CALL_GRAPH",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "05/02/26 01:25:38",
+ "timestampMillis": "1777677938759",
+ "report": {
+  "path": "C:/Users\\Dario\\Documents\\TFG\\Vitis\\CifradosPipelineStream\\cifrado_pipeline_stream_4\\cifrado_pipeline_stream_4\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_SCHEDULE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "05/02/26 01:25:38",
+ "timestampMillis": "1777677938761",
+ "status": {
+  "cmdId": "43bf5b08-f0fb-45b1-b7d2-92fd729d0d84",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "05/02/26 01:25:39",
+ "timestampMillis": "1777677939327",
+ "status": {
+  "cmdId": "2e12542c-8e31-4820-a040-63dc3dcfe935",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "05/02/26 01:25:39",
+ "timestampMillis": "1777677939407",
+ "report": {
+  "path": "C:/Users\\Dario\\Documents\\TFG\\Vitis\\CifradosPipelineStream\\cifrado_pipeline_stream_4\\cifrado_pipeline_stream_4\\reports\\v++_compile_cifrado_pipeline_stream_4_guidance.html",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "05/02/26 01:25:39",
+ "timestampMillis": "1777677939409",
+ "report": {
+  "path": "C:/Users\\Dario\\Documents\\TFG\\Vitis\\CifradosPipelineStream\\cifrado_pipeline_stream_4\\cifrado_pipeline_stream_4\\reports\\.db\\v++_compile_cifrado_pipeline_stream_4_guidance.pb3",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

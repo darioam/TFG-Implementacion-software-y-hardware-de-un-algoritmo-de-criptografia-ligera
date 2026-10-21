@@ -1,0 +1,23 @@
+INFO: [SIM 2] *************** CSIM start ***************
+   Compiling ../../../../test.cpp in debug mode
+   Compiling ../../../../Cifrador.cpp in debug mode
+   Generating csim.exe
+plaintext[0] = 0 -> ciphertext = 1233791011
+ERROR en indice 0
+plaintext[1] = 1 -> ciphertext = 3995314880
+ERROR en indice 1
+plaintext[2] = 2 -> ciphertext = 4188627262
+ERROR en indice 2
+plaintext[3] = 3 -> ciphertext = 1144365424
+ERROR en indice 3
+plaintext[4] = 4 -> ciphertext = 77504994
+ERROR en indice 4
+plaintext[5] = 5 -> ciphertext = 2332144718
+ERROR en indice 5
+plaintext[6] = 6 -> ciphertext = 1962434934
+ERROR en indice 6
+plaintext[7] = 7 -> ciphertext = 3587704262
+ERROR en indice 7
+TEST FALLIDO ❌ con 8 errores
+ERR: [SIM 100] 'csim_design' failed: nonzero return value.
+INFO: [SIM 3] *************** CSIM finish ***************

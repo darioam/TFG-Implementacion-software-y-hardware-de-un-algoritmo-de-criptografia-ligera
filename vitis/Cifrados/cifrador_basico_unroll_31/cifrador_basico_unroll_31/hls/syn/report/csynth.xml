@@ -1,0 +1,878 @@
+<profile>
+    <ReportVersion>
+        <Version>2025.2</Version>
+    </ReportVersion>
+    <UserAssignments>
+        <unit>ns</unit>
+        <ProductFamily>zynq</ProductFamily>
+        <Part>xc7z020-clg400-1</Part>
+        <TopModelName>cifrador_basico_unroll_31</TopModelName>
+        <TargetClockPeriod>10.00</TargetClockPeriod>
+        <ClockUncertainty>2.70</ClockUncertainty>
+        <FlowTarget>vivado</FlowTarget>
+    </UserAssignments>
+    <PerformanceEstimates>
+        <PipelineType>no</PipelineType>
+        <SummaryOfTimingAnalysis>
+            <unit>ns</unit>
+            <EstimatedClockPeriod>7.114</EstimatedClockPeriod>
+        </SummaryOfTimingAnalysis>
+        <SummaryOfOverallLatency>
+            <unit>clock cycles</unit>
+            <Best-caseLatency>15</Best-caseLatency>
+            <Average-caseLatency>15</Average-caseLatency>
+            <Worst-caseLatency>15</Worst-caseLatency>
+            <Best-caseRealTimeLatency>0.150 us</Best-caseRealTimeLatency>
+            <Average-caseRealTimeLatency>0.150 us</Average-caseRealTimeLatency>
+            <Worst-caseRealTimeLatency>0.150 us</Worst-caseRealTimeLatency>
+            <Interval-min>16</Interval-min>
+            <Interval-max>16</Interval-max>
+            <PerformancePragma>-</PerformancePragma>
+        </SummaryOfOverallLatency>
+        <SummaryOfViolations>
+            <IssueType>-</IssueType>
+            <ViolationType>-</ViolationType>
+            <SourceLocation>Cifrador.cpp:106</SourceLocation>
+        </SummaryOfViolations>
+    </PerformanceEstimates>
+    <AreaEstimates>
+        <Resources>
+            <BRAM_18K>0</BRAM_18K>
+            <FF>1676</FF>
+            <LUT>21130</LUT>
+            <DSP>0</DSP>
+            <URAM>0</URAM>
+        </Resources>
+        <AvailableResources>
+            <BRAM_18K>280</BRAM_18K>
+            <DSP>220</DSP>
+            <FF>106400</FF>
+            <LUT>53200</LUT>
+            <URAM>0</URAM>
+        </AvailableResources>
+    </AreaEstimates>
+    <InterfaceSummary>
+        <RtlPorts>
+            <name>s_axi_control_AWVALID</name>
+            <Object>control</Object>
+            <Type>scalar</Type>
+            <IOProtocol>s_axi</IOProtocol>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>unknown</Attribute>
+            <CType>int</CType>
+            <HasCtrl>1</HasCtrl>
+        </RtlPorts>
+        <RtlPorts>
+            <name>s_axi_control_AWREADY</name>
+            <Object>control</Object>
+            <Type>scalar</Type>
+            <IOProtocol>s_axi</IOProtocol>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>unknown</Attribute>
+            <CType>int</CType>
+            <HasCtrl>1</HasCtrl>
+        </RtlPorts>
+        <RtlPorts>
+            <name>s_axi_control_AWADDR</name>
+            <Object>control</Object>
+            <Type>scalar</Type>
+            <IOProtocol>s_axi</IOProtocol>
+            <Dir>in</Dir>
+            <Bits>6</Bits>
+            <Attribute>unknown</Attribute>
+            <CType>int</CType>
+            <HasCtrl>1</HasCtrl>
+        </RtlPorts>
+        <RtlPorts>
+            <name>s_axi_control_WVALID</name>
+            <Object>control</Object>
+            <Type>scalar</Type>
+            <IOProtocol>s_axi</IOProtocol>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>unknown</Attribute>
+            <CType>int</CType>
+            <HasCtrl>1</HasCtrl>
+        </RtlPorts>
+        <RtlPorts>
+            <name>s_axi_control_WREADY</name>
+            <Object>control</Object>
+            <Type>scalar</Type>
+            <IOProtocol>s_axi</IOProtocol>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>unknown</Attribute>
+            <CType>int</CType>
+            <HasCtrl>1</HasCtrl>
+        </RtlPorts>
+        <RtlPorts>
+            <name>s_axi_control_WDATA</name>
+            <Object>control</Object>
+            <Type>scalar</Type>
+            <IOProtocol>s_axi</IOProtocol>
+            <Dir>in</Dir>
+            <Bits>32</Bits>
+            <Attribute>unknown</Attribute>
+            <CType>int</CType>
+            <HasCtrl>1</HasCtrl>
+        </RtlPorts>
+        <RtlPorts>
+            <name>s_axi_control_WSTRB</name>
+            <Object>control</Object>
+            <Type>scalar</Type>
+            <IOProtocol>s_axi</IOProtocol>
+            <Dir>in</Dir>
+            <Bits>4</Bits>
+            <Attribute>unknown</Attribute>
+            <CType>int</CType>
+            <HasCtrl>1</HasCtrl>
+        </RtlPorts>
+        <RtlPorts>
+            <name>s_axi_control_ARVALID</name>
+            <Object>control</Object>
+            <Type>scalar</Type>
+            <IOProtocol>s_axi</IOProtocol>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>unknown</Attribute>
+            <CType>int</CType>
+            <HasCtrl>1</HasCtrl>
+        </RtlPorts>
+        <RtlPorts>
+            <name>s_axi_control_ARREADY</name>
+            <Object>control</Object>
+            <Type>scalar</Type>
+            <IOProtocol>s_axi</IOProtocol>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>unknown</Attribute>
+            <CType>int</CType>
+            <HasCtrl>1</HasCtrl>
+        </RtlPorts>
+        <RtlPorts>
+            <name>s_axi_control_ARADDR</name>
+            <Object>control</Object>
+            <Type>scalar</Type>
+            <IOProtocol>s_axi</IOProtocol>
+            <Dir>in</Dir>
+            <Bits>6</Bits>
+            <Attribute>unknown</Attribute>
+            <CType>int</CType>
+            <HasCtrl>1</HasCtrl>
+        </RtlPorts>
+        <RtlPorts>
+            <name>s_axi_control_RVALID</name>
+            <Object>control</Object>
+            <Type>scalar</Type>
+            <IOProtocol>s_axi</IOProtocol>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>unknown</Attribute>
+            <CType>int</CType>
+            <HasCtrl>1</HasCtrl>
+        </RtlPorts>
+        <RtlPorts>
+            <name>s_axi_control_RREADY</name>
+            <Object>control</Object>
+            <Type>scalar</Type>
+            <IOProtocol>s_axi</IOProtocol>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>unknown</Attribute>
+            <CType>int</CType>
+            <HasCtrl>1</HasCtrl>
+        </RtlPorts>
+        <RtlPorts>
+            <name>s_axi_control_RDATA</name>
+            <Object>control</Object>
+            <Type>scalar</Type>
+            <IOProtocol>s_axi</IOProtocol>
+            <Dir>out</Dir>
+            <Bits>32</Bits>
+            <Attribute>unknown</Attribute>
+            <CType>int</CType>
+            <HasCtrl>1</HasCtrl>
+        </RtlPorts>
+        <RtlPorts>
+            <name>s_axi_control_RRESP</name>
+            <Object>control</Object>
+            <Type>scalar</Type>
+            <IOProtocol>s_axi</IOProtocol>
+            <Dir>out</Dir>
+            <Bits>2</Bits>
+            <Attribute>unknown</Attribute>
+            <CType>int</CType>
+            <HasCtrl>1</HasCtrl>
+        </RtlPorts>
+        <RtlPorts>
+            <name>s_axi_control_BVALID</name>
+            <Object>control</Object>
+            <Type>scalar</Type>
+            <IOProtocol>s_axi</IOProtocol>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>unknown</Attribute>
+            <CType>int</CType>
+            <HasCtrl>1</HasCtrl>
+        </RtlPorts>
+        <RtlPorts>
+            <name>s_axi_control_BREADY</name>
+            <Object>control</Object>
+            <Type>scalar</Type>
+            <IOProtocol>s_axi</IOProtocol>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>unknown</Attribute>
+            <CType>int</CType>
+            <HasCtrl>1</HasCtrl>
+        </RtlPorts>
+        <RtlPorts>
+            <name>s_axi_control_BRESP</name>
+            <Object>control</Object>
+            <Type>scalar</Type>
+            <IOProtocol>s_axi</IOProtocol>
+            <Dir>out</Dir>
+            <Bits>2</Bits>
+            <Attribute>unknown</Attribute>
+            <CType>int</CType>
+            <HasCtrl>1</HasCtrl>
+        </RtlPorts>
+        <RtlPorts>
+            <name>ap_clk</name>
+            <Object>cifrador_basico_unroll_31</Object>
+            <Type>return value</Type>
+            <Scope/>
+            <IOProtocol>ap_ctrl_hs</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+        </RtlPorts>
+        <RtlPorts>
+            <name>ap_rst_n</name>
+            <Object>cifrador_basico_unroll_31</Object>
+            <Type>return value</Type>
+            <Scope/>
+            <IOProtocol>ap_ctrl_hs</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+        </RtlPorts>
+        <RtlPorts>
+            <name>interrupt</name>
+            <Object>cifrador_basico_unroll_31</Object>
+            <Type>return value</Type>
+            <Scope/>
+            <IOProtocol>ap_ctrl_hs</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>unknown</Attribute>
+        </RtlPorts>
+    </InterfaceSummary>
+    <RTLDesignHierarchy>
+        <TopModule MAX_DEPTH="2">
+            <ModuleName>cifrador_basico_unroll_31</ModuleName>
+            <BindInstances>sparsemux_33_4_4_1_1_U1 out_63_fu_360_p2 sparsemux_33_4_4_1_1_U2 sparsemux_33_4_4_1_1_U3 sparsemux_33_4_4_1_1_U4 sparsemux_33_4_4_1_1_U5 sparsemux_33_4_4_1_1_U6 sparsemux_33_4_4_1_1_U7 sparsemux_33_4_4_1_1_U8 sparsemux_33_4_4_1_1_U9 sparsemux_33_4_4_1_1_U10 out_65_fu_1410_p2 sparsemux_33_4_4_1_1_U11 sparsemux_33_4_4_1_1_U12 sparsemux_33_4_4_1_1_U13 sparsemux_33_4_4_1_1_U14 sparsemux_33_4_4_1_1_U15 sparsemux_33_4_4_1_1_U16 sparsemux_33_4_4_1_1_U17 sparsemux_33_4_4_1_1_U18 xor_ln95_fu_4515_p2 sparsemux_33_4_4_1_1_U19 out_67_fu_2463_p2 sparsemux_33_4_4_1_1_U20 sparsemux_33_4_4_1_1_U21 sparsemux_33_4_4_1_1_U22 sparsemux_33_4_4_1_1_U23 sparsemux_33_4_4_1_1_U24 sparsemux_33_4_4_1_1_U25 sparsemux_33_4_4_1_1_U26 sparsemux_33_4_4_1_1_U27 xor_ln95_1_fu_4528_p2 sparsemux_33_4_4_1_1_U28 out_69_fu_3497_p2 sparsemux_33_4_4_1_1_U29 sparsemux_33_4_4_1_1_U30 sparsemux_33_4_4_1_1_U31 sparsemux_33_4_4_1_1_U32 sparsemux_33_4_4_1_1_U33 sparsemux_33_4_4_1_1_U34 sparsemux_33_4_4_1_1_U35 sparsemux_33_4_4_1_1_U36 key_1_fu_4590_p2 sparsemux_33_4_4_1_1_U37 out_71_fu_4442_p2 sparsemux_33_4_4_1_1_U38 sparsemux_33_4_4_1_1_U39 sparsemux_33_4_4_1_1_U40 sparsemux_33_4_4_1_1_U41 sparsemux_33_4_4_1_1_U42 sparsemux_33_4_4_1_1_U43 sparsemux_33_4_4_1_1_U44 sparsemux_33_4_4_1_1_U45 xor_ln95_3_fu_5568_p2 sparsemux_33_4_4_1_1_U46 out_73_fu_5672_p2 sparsemux_33_4_4_1_1_U47 sparsemux_33_4_4_1_1_U48 sparsemux_33_4_4_1_1_U49 sparsemux_33_4_4_1_1_U50 sparsemux_33_4_4_1_1_U51 sparsemux_33_4_4_1_1_U52 sparsemux_33_4_4_1_1_U53 sparsemux_33_4_4_1_1_U54 key_3_fu_6658_p2 sparsemux_33_4_4_1_1_U55 out_75_fu_6672_p2 sparsemux_33_4_4_1_1_U56 sparsemux_33_4_4_1_1_U57 sparsemux_33_4_4_1_1_U58 sparsemux_33_4_4_1_1_U59 sparsemux_33_4_4_1_1_U60 sparsemux_33_4_4_1_1_U61 sparsemux_33_4_4_1_1_U62 sparsemux_33_4_4_1_1_U63 key_5_fu_7709_p2 sparsemux_33_4_4_1_1_U64 out_77_fu_7805_p2 sparsemux_33_4_4_1_1_U65 sparsemux_33_4_4_1_1_U66 sparsemux_33_4_4_1_1_U67 sparsemux_33_4_4_1_1_U68 sparsemux_33_4_4_1_1_U69 sparsemux_33_4_4_1_1_U70 sparsemux_33_4_4_1_1_U71 sparsemux_33_4_4_1_1_U72 key_7_fu_8835_p2 sparsemux_33_4_4_1_1_U73 out_79_fu_8763_p2 sparsemux_33_4_4_1_1_U74 sparsemux_33_4_4_1_1_U75 sparsemux_33_4_4_1_1_U76 sparsemux_33_4_4_1_1_U77 sparsemux_33_4_4_1_1_U78 sparsemux_33_4_4_1_1_U79 sparsemux_33_4_4_1_1_U80 sparsemux_33_4_4_1_1_U81 xor_ln95_7_fu_9813_p2 sparsemux_33_4_4_1_1_U82 out_81_fu_9917_p2 sparsemux_33_4_4_1_1_U83 sparsemux_33_4_4_1_1_U84 sparsemux_33_4_4_1_1_U85 sparsemux_33_4_4_1_1_U86 sparsemux_33_4_4_1_1_U87 sparsemux_33_4_4_1_1_U88 sparsemux_33_4_4_1_1_U89 sparsemux_33_4_4_1_1_U90 key_9_fu_10903_p2 sparsemux_33_4_4_1_1_U91 out_83_fu_10917_p2 sparsemux_33_4_4_1_1_U92 sparsemux_33_4_4_1_1_U93 sparsemux_33_4_4_1_1_U94 sparsemux_33_4_4_1_1_U95 sparsemux_33_4_4_1_1_U96 sparsemux_33_4_4_1_1_U97 sparsemux_33_4_4_1_1_U98 sparsemux_33_4_4_1_1_U99 key_11_fu_11954_p2 sparsemux_33_4_4_1_1_U100 out_85_fu_12050_p2 sparsemux_33_4_4_1_1_U101 sparsemux_33_4_4_1_1_U102 sparsemux_33_4_4_1_1_U103 sparsemux_33_4_4_1_1_U104 sparsemux_33_4_4_1_1_U105 sparsemux_33_4_4_1_1_U106 sparsemux_33_4_4_1_1_U107 sparsemux_33_4_4_1_1_U108 key_13_fu_13080_p2 sparsemux_33_4_4_1_1_U109 out_87_fu_13008_p2 sparsemux_33_4_4_1_1_U110 sparsemux_33_4_4_1_1_U111 sparsemux_33_4_4_1_1_U112 sparsemux_33_4_4_1_1_U113 sparsemux_33_4_4_1_1_U114 sparsemux_33_4_4_1_1_U115 sparsemux_33_4_4_1_1_U116 sparsemux_33_4_4_1_1_U117 key_15_fu_14068_p2 sparsemux_33_4_4_1_1_U118 out_89_fu_14164_p2 sparsemux_33_4_4_1_1_U119 sparsemux_33_4_4_1_1_U120 sparsemux_33_4_4_1_1_U121 sparsemux_33_4_4_1_1_U122 sparsemux_33_4_4_1_1_U123 sparsemux_33_4_4_1_1_U124 sparsemux_33_4_4_1_1_U125 sparsemux_33_4_4_1_1_U126 key_17_fu_15194_p2 sparsemux_33_4_4_1_1_U127 out_91_fu_15122_p2 sparsemux_33_4_4_1_1_U128 sparsemux_33_4_4_1_1_U129 sparsemux_33_4_4_1_1_U130 sparsemux_33_4_4_1_1_U131 sparsemux_33_4_4_1_1_U132 sparsemux_33_4_4_1_1_U133 sparsemux_33_4_4_1_1_U134 sparsemux_33_4_4_1_1_U135 key_19_fu_16182_p2 sparsemux_33_4_4_1_1_U136 out_93_fu_16278_p2 sparsemux_33_4_4_1_1_U137 sparsemux_33_4_4_1_1_U138 sparsemux_33_4_4_1_1_U139 sparsemux_33_4_4_1_1_U140 sparsemux_33_4_4_1_1_U141 sparsemux_33_4_4_1_1_U142 sparsemux_33_4_4_1_1_U143 sparsemux_33_4_4_1_1_U144 key_21_fu_17308_p2 sparsemux_33_4_4_1_1_U145 out_95_fu_17236_p2 sparsemux_33_4_4_1_1_U146 sparsemux_33_4_4_1_1_U147 sparsemux_33_4_4_1_1_U148 sparsemux_33_4_4_1_1_U149 sparsemux_33_4_4_1_1_U150 sparsemux_33_4_4_1_1_U151 sparsemux_33_4_4_1_1_U152 sparsemux_33_4_4_1_1_U153 xor_ln95_15_fu_18286_p2 sparsemux_33_4_4_1_1_U154 out_97_fu_18390_p2 sparsemux_33_4_4_1_1_U155 sparsemux_33_4_4_1_1_U156 sparsemux_33_4_4_1_1_U157 sparsemux_33_4_4_1_1_U158 sparsemux_33_4_4_1_1_U159 sparsemux_33_4_4_1_1_U160 sparsemux_33_4_4_1_1_U161 sparsemux_33_4_4_1_1_U162 key_23_fu_19376_p2 sparsemux_33_4_4_1_1_U163 out_99_fu_19390_p2 sparsemux_33_4_4_1_1_U164 sparsemux_33_4_4_1_1_U165 sparsemux_33_4_4_1_1_U166 sparsemux_33_4_4_1_1_U167 sparsemux_33_4_4_1_1_U168 sparsemux_33_4_4_1_1_U169 sparsemux_33_4_4_1_1_U170 sparsemux_33_4_4_1_1_U171 key_25_fu_20492_p2 sparsemux_33_4_4_1_1_U172 out_101_fu_20420_p2 sparsemux_33_4_4_1_1_U173 sparsemux_33_4_4_1_1_U174 sparsemux_33_4_4_1_1_U175 sparsemux_33_4_4_1_1_U176 sparsemux_33_4_4_1_1_U177 sparsemux_33_4_4_1_1_U178 sparsemux_33_4_4_1_1_U179 sparsemux_33_4_4_1_1_U180 key_27_fu_21480_p2 sparsemux_33_4_4_1_1_U181 out_103_fu_21576_p2 sparsemux_33_4_4_1_1_U182 sparsemux_33_4_4_1_1_U183 sparsemux_33_4_4_1_1_U184 sparsemux_33_4_4_1_1_U185 sparsemux_33_4_4_1_1_U186 sparsemux_33_4_4_1_1_U187 sparsemux_33_4_4_1_1_U188 sparsemux_33_4_4_1_1_U189 key_29_fu_22606_p2 sparsemux_33_4_4_1_1_U190 out_105_fu_22534_p2 sparsemux_33_4_4_1_1_U191 sparsemux_33_4_4_1_1_U192 sparsemux_33_4_4_1_1_U193 sparsemux_33_4_4_1_1_U194 sparsemux_33_4_4_1_1_U195 sparsemux_33_4_4_1_1_U196 sparsemux_33_4_4_1_1_U197 sparsemux_33_4_4_1_1_U198 key_31_fu_23594_p2 sparsemux_33_4_4_1_1_U199 out_107_fu_23690_p2 sparsemux_33_4_4_1_1_U200 sparsemux_33_4_4_1_1_U201 sparsemux_33_4_4_1_1_U202 sparsemux_33_4_4_1_1_U203 sparsemux_33_4_4_1_1_U204 sparsemux_33_4_4_1_1_U205 sparsemux_33_4_4_1_1_U206 sparsemux_33_4_4_1_1_U207 key_33_fu_24720_p2 sparsemux_33_4_4_1_1_U208 out_109_fu_24648_p2 sparsemux_33_4_4_1_1_U209 sparsemux_33_4_4_1_1_U210 sparsemux_33_4_4_1_1_U211 sparsemux_33_4_4_1_1_U212 sparsemux_33_4_4_1_1_U213 sparsemux_33_4_4_1_1_U214 sparsemux_33_4_4_1_1_U215 sparsemux_33_4_4_1_1_U216 key_35_fu_25708_p2 sparsemux_33_4_4_1_1_U217 out_111_fu_25804_p2 sparsemux_33_4_4_1_1_U218 sparsemux_33_4_4_1_1_U219 sparsemux_33_4_4_1_1_U220 sparsemux_33_4_4_1_1_U221 sparsemux_33_4_4_1_1_U222 sparsemux_33_4_4_1_1_U223 sparsemux_33_4_4_1_1_U224 sparsemux_33_4_4_1_1_U225 key_37_fu_26834_p2 sparsemux_33_4_4_1_1_U226 out_113_fu_26762_p2 sparsemux_33_4_4_1_1_U227 sparsemux_33_4_4_1_1_U228 sparsemux_33_4_4_1_1_U229 sparsemux_33_4_4_1_1_U230 sparsemux_33_4_4_1_1_U231 sparsemux_33_4_4_1_1_U232 sparsemux_33_4_4_1_1_U233 sparsemux_33_4_4_1_1_U234 key_39_fu_27822_p2 sparsemux_33_4_4_1_1_U235 out_115_fu_27918_p2 sparsemux_33_4_4_1_1_U236 sparsemux_33_4_4_1_1_U237 sparsemux_33_4_4_1_1_U238 sparsemux_33_4_4_1_1_U239 sparsemux_33_4_4_1_1_U240 sparsemux_33_4_4_1_1_U241 sparsemux_33_4_4_1_1_U242 sparsemux_33_4_4_1_1_U243 key_41_fu_28948_p2 sparsemux_33_4_4_1_1_U244 out_117_fu_28876_p2 sparsemux_33_4_4_1_1_U245 sparsemux_33_4_4_1_1_U246 sparsemux_33_4_4_1_1_U247 sparsemux_33_4_4_1_1_U248 sparsemux_33_4_4_1_1_U249 sparsemux_33_4_4_1_1_U250 sparsemux_33_4_4_1_1_U251 sparsemux_33_4_4_1_1_U252 key_43_fu_29936_p2 sparsemux_33_4_4_1_1_U253 out_119_fu_30032_p2 sparsemux_33_4_4_1_1_U254 sparsemux_33_4_4_1_1_U255 sparsemux_33_4_4_1_1_U256 sparsemux_33_4_4_1_1_U257 sparsemux_33_4_4_1_1_U258 sparsemux_33_4_4_1_1_U259 sparsemux_33_4_4_1_1_U260 sparsemux_33_4_4_1_1_U261 key_45_fu_31062_p2 sparsemux_33_4_4_1_1_U262 out_121_fu_30990_p2 sparsemux_33_4_4_1_1_U263 sparsemux_33_4_4_1_1_U264 sparsemux_33_4_4_1_1_U265 sparsemux_33_4_4_1_1_U266 sparsemux_33_4_4_1_1_U267 sparsemux_33_4_4_1_1_U268 sparsemux_33_4_4_1_1_U269 sparsemux_33_4_4_1_1_U270 key_47_fu_32050_p2 sparsemux_33_4_4_1_1_U271 out_123_fu_32146_p2 sparsemux_33_4_4_1_1_U272 sparsemux_33_4_4_1_1_U273 sparsemux_33_4_4_1_1_U274 sparsemux_33_4_4_1_1_U275 sparsemux_33_4_4_1_1_U276 sparsemux_33_4_4_1_1_U277 sparsemux_33_4_4_1_1_U278 sparsemux_33_4_4_1_1_U279 ap_return control_s_axi_U</BindInstances>
+        </TopModule>
+    </RTLDesignHierarchy>
+    <ModuleInformation>
+        <Module>
+            <Name>cifrador_basico_unroll_31</Name>
+            <PerformanceEstimates>
+                <SummaryOfTimingAnalysis>
+                    <TargetClockPeriod>10.00</TargetClockPeriod>
+                    <ClockUncertainty>2.70</ClockUncertainty>
+                    <EstimatedClockPeriod>7.114</EstimatedClockPeriod>
+                </SummaryOfTimingAnalysis>
+                <SummaryOfOverallLatency>
+                    <Best-caseLatency>15</Best-caseLatency>
+                    <Average-caseLatency>15</Average-caseLatency>
+                    <Worst-caseLatency>15</Worst-caseLatency>
+                    <Best-caseRealTimeLatency>0.150 us</Best-caseRealTimeLatency>
+                    <Average-caseRealTimeLatency>0.150 us</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>0.150 us</Worst-caseRealTimeLatency>
+                    <PipelineInitiationInterval>16</PipelineInitiationInterval>
+                    <PipelineType>no</PipelineType>
+                    <PerformancePragma>-</PerformancePragma>
+                </SummaryOfOverallLatency>
+                <SummaryOfViolations>
+                    <IssueType>-</IssueType>
+                    <ViolationType>-</ViolationType>
+                    <SourceLocation>Cifrador.cpp:106</SourceLocation>
+                </SummaryOfViolations>
+            </PerformanceEstimates>
+            <AreaEstimates>
+                <Resources>
+                    <BRAM_18K>0</BRAM_18K>
+                    <AVAIL_BRAM>280</AVAIL_BRAM>
+                    <UTIL_BRAM>0</UTIL_BRAM>
+                    <FF>1676</FF>
+                    <AVAIL_FF>106400</AVAIL_FF>
+                    <UTIL_FF>1</UTIL_FF>
+                    <LUT>21130</LUT>
+                    <AVAIL_LUT>53200</AVAIL_LUT>
+                    <UTIL_LUT>39</UTIL_LUT>
+                    <DSP>0</DSP>
+                    <AVAIL_DSP>220</AVAIL_DSP>
+                    <UTIL_DSP>0</UTIL_DSP>
+                    <URAM>0</URAM>
+                    <AVAIL_URAM>0</AVAIL_URAM>
+                    <UTIL_URAM>0</UTIL_URAM>
+                </Resources>
+            </AreaEstimates>
+            <BindNodes>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U1" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="out_63_fu_360_p2" SOURCE="Cifrador.cpp:50" STORAGESUBTYPE="" URAM="0" VARIABLE="out_63" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U2" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_3" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U3" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_5" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U4" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_7" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U5" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_9" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U6" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_s" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U7" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_1" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U8" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_2" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U9" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_4" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U10" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_36" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="out_65_fu_1410_p2" SOURCE="Cifrador.cpp:50" STORAGESUBTYPE="" URAM="0" VARIABLE="out_65" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U11" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_37" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U12" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_38" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U13" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_39" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U14" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_40" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U15" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_41" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U16" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_42" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U17" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_43" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U18" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_44" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="xor_ln95_fu_4515_p2" SOURCE="Cifrador.cpp:95" STORAGESUBTYPE="" URAM="0" VARIABLE="xor_ln95" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U19" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_72" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="out_67_fu_2463_p2" SOURCE="Cifrador.cpp:50" STORAGESUBTYPE="" URAM="0" VARIABLE="out_67" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U20" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_73" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U21" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_74" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U22" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_75" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U23" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_76" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U24" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_77" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U25" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_78" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U26" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_79" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U27" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_80" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="xor_ln95_1_fu_4528_p2" SOURCE="Cifrador.cpp:95" STORAGESUBTYPE="" URAM="0" VARIABLE="xor_ln95_1" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U28" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_108" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="out_69_fu_3497_p2" SOURCE="Cifrador.cpp:50" STORAGESUBTYPE="" URAM="0" VARIABLE="out_69" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U29" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_110" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U30" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_111" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U31" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_112" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U32" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_113" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U33" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_114" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U34" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_115" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U35" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_116" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U36" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_117" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="key_1_fu_4590_p2" SOURCE="Cifrador.cpp:95" STORAGESUBTYPE="" URAM="0" VARIABLE="key_1" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U37" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_146" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="out_71_fu_4442_p2" SOURCE="Cifrador.cpp:50" STORAGESUBTYPE="" URAM="0" VARIABLE="out_71" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U38" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_147" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U39" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_148" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U40" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_149" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U41" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_150" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U42" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_151" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U43" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_152" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U44" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_153" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U45" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_154" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="xor_ln95_3_fu_5568_p2" SOURCE="Cifrador.cpp:95" STORAGESUBTYPE="" URAM="0" VARIABLE="xor_ln95_3" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U46" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_180" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="out_73_fu_5672_p2" SOURCE="Cifrador.cpp:50" STORAGESUBTYPE="" URAM="0" VARIABLE="out_73" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U47" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_182" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U48" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_183" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U49" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_184" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U50" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_185" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U51" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_186" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U52" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_187" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U53" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_188" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U54" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_189" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="key_3_fu_6658_p2" SOURCE="Cifrador.cpp:95" STORAGESUBTYPE="" URAM="0" VARIABLE="key_3" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U55" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_217" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="out_75_fu_6672_p2" SOURCE="Cifrador.cpp:50" STORAGESUBTYPE="" URAM="0" VARIABLE="out_75" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U56" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_218" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U57" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_219" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U58" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_220" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U59" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_221" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U60" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_222" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U61" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_223" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U62" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_224" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U63" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_225" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="key_5_fu_7709_p2" SOURCE="Cifrador.cpp:95" STORAGESUBTYPE="" URAM="0" VARIABLE="key_5" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U64" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_250" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="out_77_fu_7805_p2" SOURCE="Cifrador.cpp:50" STORAGESUBTYPE="" URAM="0" VARIABLE="out_77" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U65" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_251" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U66" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_252" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U67" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_253" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U68" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_254" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U69" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_255" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U70" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_256" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U71" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_257" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U72" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_258" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="key_7_fu_8835_p2" SOURCE="Cifrador.cpp:95" STORAGESUBTYPE="" URAM="0" VARIABLE="key_7" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U73" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_283" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="out_79_fu_8763_p2" SOURCE="Cifrador.cpp:50" STORAGESUBTYPE="" URAM="0" VARIABLE="out_79" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U74" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_284" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U75" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_285" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U76" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_286" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U77" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_287" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U78" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_288" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U79" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_289" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U80" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_290" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U81" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_291" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="xor_ln95_7_fu_9813_p2" SOURCE="Cifrador.cpp:95" STORAGESUBTYPE="" URAM="0" VARIABLE="xor_ln95_7" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U82" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_317" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="out_81_fu_9917_p2" SOURCE="Cifrador.cpp:50" STORAGESUBTYPE="" URAM="0" VARIABLE="out_81" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U83" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_319" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U84" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_320" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U85" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_321" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U86" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_322" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U87" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_323" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U88" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_324" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U89" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_325" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U90" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_326" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="key_9_fu_10903_p2" SOURCE="Cifrador.cpp:95" STORAGESUBTYPE="" URAM="0" VARIABLE="key_9" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U91" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_354" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="out_83_fu_10917_p2" SOURCE="Cifrador.cpp:50" STORAGESUBTYPE="" URAM="0" VARIABLE="out_83" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U92" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_355" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U93" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_356" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U94" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_357" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U95" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_358" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U96" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_359" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U97" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_360" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U98" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_361" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U99" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_362" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="key_11_fu_11954_p2" SOURCE="Cifrador.cpp:95" STORAGESUBTYPE="" URAM="0" VARIABLE="key_11" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U100" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_387" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="out_85_fu_12050_p2" SOURCE="Cifrador.cpp:50" STORAGESUBTYPE="" URAM="0" VARIABLE="out_85" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U101" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_388" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U102" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_389" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U103" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_390" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U104" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_391" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U105" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_392" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U106" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_393" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U107" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_394" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U108" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_395" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="key_13_fu_13080_p2" SOURCE="Cifrador.cpp:95" STORAGESUBTYPE="" URAM="0" VARIABLE="key_13" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U109" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_420" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="out_87_fu_13008_p2" SOURCE="Cifrador.cpp:50" STORAGESUBTYPE="" URAM="0" VARIABLE="out_87" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U110" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_421" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U111" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_422" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U112" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_423" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U113" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_424" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U114" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_425" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U115" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_426" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U116" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_427" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U117" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_428" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="key_15_fu_14068_p2" SOURCE="Cifrador.cpp:95" STORAGESUBTYPE="" URAM="0" VARIABLE="key_15" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U118" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_453" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="out_89_fu_14164_p2" SOURCE="Cifrador.cpp:50" STORAGESUBTYPE="" URAM="0" VARIABLE="out_89" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U119" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_454" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U120" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_455" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U121" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_456" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U122" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_457" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U123" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_458" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U124" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_459" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U125" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_460" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U126" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_461" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="key_17_fu_15194_p2" SOURCE="Cifrador.cpp:95" STORAGESUBTYPE="" URAM="0" VARIABLE="key_17" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U127" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_486" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="out_91_fu_15122_p2" SOURCE="Cifrador.cpp:50" STORAGESUBTYPE="" URAM="0" VARIABLE="out_91" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U128" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_487" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U129" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_488" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U130" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_489" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U131" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_490" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U132" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_491" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U133" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_492" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U134" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_493" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U135" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_494" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="key_19_fu_16182_p2" SOURCE="Cifrador.cpp:95" STORAGESUBTYPE="" URAM="0" VARIABLE="key_19" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U136" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_519" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="out_93_fu_16278_p2" SOURCE="Cifrador.cpp:50" STORAGESUBTYPE="" URAM="0" VARIABLE="out_93" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U137" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_520" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U138" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_521" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U139" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_522" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U140" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_523" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U141" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_524" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U142" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_525" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U143" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_526" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U144" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_527" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="key_21_fu_17308_p2" SOURCE="Cifrador.cpp:95" STORAGESUBTYPE="" URAM="0" VARIABLE="key_21" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U145" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_552" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="out_95_fu_17236_p2" SOURCE="Cifrador.cpp:50" STORAGESUBTYPE="" URAM="0" VARIABLE="out_95" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U146" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_553" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U147" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_554" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U148" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_555" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U149" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_556" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U150" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_557" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U151" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_558" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U152" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_559" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U153" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_560" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="xor_ln95_15_fu_18286_p2" SOURCE="Cifrador.cpp:95" STORAGESUBTYPE="" URAM="0" VARIABLE="xor_ln95_15" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U154" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_586" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="out_97_fu_18390_p2" SOURCE="Cifrador.cpp:50" STORAGESUBTYPE="" URAM="0" VARIABLE="out_97" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U155" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_588" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U156" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_589" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U157" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_590" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U158" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_591" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U159" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_592" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U160" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_593" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U161" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_594" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U162" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_595" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="key_23_fu_19376_p2" SOURCE="Cifrador.cpp:95" STORAGESUBTYPE="" URAM="0" VARIABLE="key_23" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U163" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_623" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="out_99_fu_19390_p2" SOURCE="Cifrador.cpp:50" STORAGESUBTYPE="" URAM="0" VARIABLE="out_99" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U164" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_624" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U165" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_625" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U166" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_626" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U167" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_627" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U168" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_628" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U169" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_629" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U170" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_630" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U171" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_631" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="key_25_fu_20492_p2" SOURCE="Cifrador.cpp:95" STORAGESUBTYPE="" URAM="0" VARIABLE="key_25" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U172" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_656" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="out_101_fu_20420_p2" SOURCE="Cifrador.cpp:50" STORAGESUBTYPE="" URAM="0" VARIABLE="out_101" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U173" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_657" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U174" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_658" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U175" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_659" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U176" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_660" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U177" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_661" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U178" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_662" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U179" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_663" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U180" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_664" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="key_27_fu_21480_p2" SOURCE="Cifrador.cpp:95" STORAGESUBTYPE="" URAM="0" VARIABLE="key_27" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U181" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_689" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="out_103_fu_21576_p2" SOURCE="Cifrador.cpp:50" STORAGESUBTYPE="" URAM="0" VARIABLE="out_103" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U182" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_690" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U183" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_691" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U184" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_692" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U185" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_693" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U186" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_694" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U187" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_695" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U188" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_696" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U189" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_697" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="key_29_fu_22606_p2" SOURCE="Cifrador.cpp:95" STORAGESUBTYPE="" URAM="0" VARIABLE="key_29" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U190" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_722" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="out_105_fu_22534_p2" SOURCE="Cifrador.cpp:50" STORAGESUBTYPE="" URAM="0" VARIABLE="out_105" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U191" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_723" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U192" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_724" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U193" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_725" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U194" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_726" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U195" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_727" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U196" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_728" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U197" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_729" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U198" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_730" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="key_31_fu_23594_p2" SOURCE="Cifrador.cpp:95" STORAGESUBTYPE="" URAM="0" VARIABLE="key_31" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U199" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_755" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="out_107_fu_23690_p2" SOURCE="Cifrador.cpp:50" STORAGESUBTYPE="" URAM="0" VARIABLE="out_107" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U200" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_756" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U201" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_757" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U202" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_758" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U203" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_759" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U204" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_760" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U205" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_761" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U206" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_762" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U207" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_763" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="key_33_fu_24720_p2" SOURCE="Cifrador.cpp:95" STORAGESUBTYPE="" URAM="0" VARIABLE="key_33" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U208" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_788" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="out_109_fu_24648_p2" SOURCE="Cifrador.cpp:50" STORAGESUBTYPE="" URAM="0" VARIABLE="out_109" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U209" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_789" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U210" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_790" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U211" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_791" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U212" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_792" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U213" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_793" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U214" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_794" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U215" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_795" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U216" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_796" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="key_35_fu_25708_p2" SOURCE="Cifrador.cpp:95" STORAGESUBTYPE="" URAM="0" VARIABLE="key_35" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U217" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_821" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="out_111_fu_25804_p2" SOURCE="Cifrador.cpp:50" STORAGESUBTYPE="" URAM="0" VARIABLE="out_111" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U218" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_822" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U219" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_823" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U220" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_824" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U221" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_825" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U222" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_826" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U223" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_827" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U224" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_828" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U225" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_829" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="key_37_fu_26834_p2" SOURCE="Cifrador.cpp:95" STORAGESUBTYPE="" URAM="0" VARIABLE="key_37" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U226" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_854" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="out_113_fu_26762_p2" SOURCE="Cifrador.cpp:50" STORAGESUBTYPE="" URAM="0" VARIABLE="out_113" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U227" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_855" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U228" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_856" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U229" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_857" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U230" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_858" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U231" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_859" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U232" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_860" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U233" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_861" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U234" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_862" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="key_39_fu_27822_p2" SOURCE="Cifrador.cpp:95" STORAGESUBTYPE="" URAM="0" VARIABLE="key_39" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U235" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_887" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="out_115_fu_27918_p2" SOURCE="Cifrador.cpp:50" STORAGESUBTYPE="" URAM="0" VARIABLE="out_115" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U236" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_888" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U237" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_889" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U238" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_890" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U239" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_891" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U240" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_892" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U241" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_893" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U242" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_894" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U243" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_895" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="key_41_fu_28948_p2" SOURCE="Cifrador.cpp:95" STORAGESUBTYPE="" URAM="0" VARIABLE="key_41" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U244" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_920" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="out_117_fu_28876_p2" SOURCE="Cifrador.cpp:50" STORAGESUBTYPE="" URAM="0" VARIABLE="out_117" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U245" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_921" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U246" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_922" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U247" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_923" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U248" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_924" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U249" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_925" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U250" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_926" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U251" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_927" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U252" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_928" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="key_43_fu_29936_p2" SOURCE="Cifrador.cpp:95" STORAGESUBTYPE="" URAM="0" VARIABLE="key_43" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U253" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_953" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="out_119_fu_30032_p2" SOURCE="Cifrador.cpp:50" STORAGESUBTYPE="" URAM="0" VARIABLE="out_119" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U254" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_954" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U255" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_955" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U256" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_956" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U257" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_957" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U258" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_958" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U259" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_959" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U260" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_960" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U261" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_961" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="key_45_fu_31062_p2" SOURCE="Cifrador.cpp:95" STORAGESUBTYPE="" URAM="0" VARIABLE="key_45" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U262" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_986" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="out_121_fu_30990_p2" SOURCE="Cifrador.cpp:50" STORAGESUBTYPE="" URAM="0" VARIABLE="out_121" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U263" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_987" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U264" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_988" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U265" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_989" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U266" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_990" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U267" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_991" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U268" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_992" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U269" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_993" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U270" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_994" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="key_47_fu_32050_p2" SOURCE="Cifrador.cpp:95" STORAGESUBTYPE="" URAM="0" VARIABLE="key_47" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U271" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_1019" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="out_123_fu_32146_p2" SOURCE="Cifrador.cpp:50" STORAGESUBTYPE="" URAM="0" VARIABLE="out_123" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U272" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_1020" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U273" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_1021" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U274" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_1022" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U275" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_1023" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U276" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_1024" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U277" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_1025" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U278" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_1026" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_33_4_4_1_1_U279" SOURCE="Cifrador.cpp:19" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_1027" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="xor" PRAGMA="" RTLNAME="ap_return" SOURCE="Cifrador.cpp:50" STORAGESUBTYPE="" URAM="0" VARIABLE="out_62" VISIBLE="false"/>
+                <BindNode BINDTYPE="adapter" BRAM="0" BUNDLEDNAME="control" DISPNAME="bind_adapter " DSP="0" ID="" IMPL="" LATENCY="" LOOP="" OPTYPE="" PRAGMA="" RTLNAME="control_s_axi_U" SOURCE="" STORAGESIZE="" STORAGESUBTYPE="s_axilite" STORAGEUSAGE="interface" URAM="0" VARIABLE=""/>
+            </BindNodes>
+        </Module>
+    </ModuleInformation>
+    <FIFOInformation/>
+    <UserConfigCommands/>
+    <Args>
+        <Arg ArgName="plaintext" index="0" direction="in" srcType="ap_uint&lt;32&gt;" srcSize="32">
+            <hwRefs>
+                <hwRef type="register" interface="s_axi_control" name="plaintext" usage="data" direction="in"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="key" index="1" direction="in" srcType="ap_uint&lt;64&gt;" srcSize="64">
+            <hwRefs>
+                <hwRef type="register" interface="s_axi_control" name="key_1" usage="data" direction="in"/>
+                <hwRef type="register" interface="s_axi_control" name="key_2" usage="data" direction="in"/>
+            </hwRefs>
+        </Arg>
+    </Args>
+    <ReturnValue ReturnValueName="srcType">ap_uint&lt;32&gt;</ReturnValue>
+    <ReturnValue ReturnValueName="srcSize">32</ReturnValue>
+    <ReturnValue ReturnValueName="hwRefs" type="register" interface="s_axi_control" name="ap_return" usage="data" direction="out"/>
+    <Interfaces>
+        <Interface InterfaceName="s_axi_control" type="axi4lite" busTypeName="aximm" mode="slave" dataWidth="32" addrWidth="6" portPrefix="s_axi_control_" paramPrefix="C_S_AXI_CONTROL_">
+            <ports>
+                <port>s_axi_control_ARADDR</port>
+                <port>s_axi_control_ARREADY</port>
+                <port>s_axi_control_ARVALID</port>
+                <port>s_axi_control_AWADDR</port>
+                <port>s_axi_control_AWREADY</port>
+                <port>s_axi_control_AWVALID</port>
+                <port>s_axi_control_BREADY</port>
+                <port>s_axi_control_BRESP</port>
+                <port>s_axi_control_BVALID</port>
+                <port>s_axi_control_RDATA</port>
+                <port>s_axi_control_RREADY</port>
+                <port>s_axi_control_RRESP</port>
+                <port>s_axi_control_RVALID</port>
+                <port>s_axi_control_WDATA</port>
+                <port>s_axi_control_WREADY</port>
+                <port>s_axi_control_WSTRB</port>
+                <port>s_axi_control_WVALID</port>
+            </ports>
+            <registers>
+                <register offset="0x00" name="CTRL" access="RW" description="Control signals" range="32">
+                    <fields>
+                        <field offset="0" width="1" name="AP_START" access="RW" description="Control signal Register for 'ap_start'."/>
+                        <field offset="1" width="1" name="AP_DONE" access="R" description="Control signal Register for 'ap_done'."/>
+                        <field offset="2" width="1" name="AP_IDLE" access="R" description="Control signal Register for 'ap_idle'."/>
+                        <field offset="3" width="1" name="AP_READY" access="R" description="Control signal Register for 'ap_ready'."/>
+                        <field offset="4" width="3" name="RESERVED_1" access="R" description="Reserved.  0s on read."/>
+                        <field offset="7" width="1" name="AUTO_RESTART" access="RW" description="Control signal Register for 'auto_restart'."/>
+                        <field offset="8" width="1" name="RESERVED_2" access="R" description="Reserved.  0s on read."/>
+                        <field offset="9" width="1" name="INTERRUPT" access="R" description="Control signal Register for 'interrupt'."/>
+                        <field offset="10" width="22" name="RESERVED_3" access="R" description="Reserved.  0s on read."/>
+                    </fields>
+                </register>
+                <register offset="0x04" name="GIER" access="RW" description="Global Interrupt Enable Register" range="32">
+                    <fields>
+                        <field offset="0" width="1" name="Enable" access="RW" description="Master enable for the device interrupt output to the system interrupt controller: 0 = Disabled, 1 = Enabled"/>
+                        <field offset="1" width="31" name="RESERVED" access="R" description="Reserved.  0s on read."/>
+                    </fields>
+                </register>
+                <register offset="0x08" name="IP_IER" access="RW" description="IP Interrupt Enable Register" range="32">
+                    <fields>
+                        <field offset="0" width="1" name="CHAN0_INT_EN" access="RW" description="Enable Channel 0 (ap_done) Interrupt.  0 = Disabled, 1 = Enabled."/>
+                        <field offset="1" width="1" name="CHAN1_INT_EN" access="RW" description="Enable Channel 1 (ap_ready) Interrupt.  0 = Disabled, 1 = Enabled."/>
+                        <field offset="2" width="30" name="RESERVED_0" access="R" description="Reserved.  0s on read."/>
+                    </fields>
+                </register>
+                <register offset="0x0c" name="IP_ISR" access="RW" description="IP Interrupt Status Register" range="32">
+                    <fields>
+                        <field offset="0" width="1" name="CHAN0_INT_ST" access="RTOW" description="Channel 0 (ap_done) Interrupt Status. 0 = No Channel 0 interrupt, 1 = Channel 0 interrupt."/>
+                        <field offset="1" width="1" name="CHAN1_INT_ST" access="RTOW" description="Channel 1 (ap_ready) Interrupt Status. 0 = No Channel 1 interrupt, 1 = Channel 1 interrupt."/>
+                        <field offset="2" width="30" name="RESERVED_0" access="R" description="Reserved.  0s on read."/>
+                    </fields>
+                </register>
+                <register offset="0x10" name="ap_return" access="R" description="Data signal of ap_return" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="ap_return" access="R" description="Bit 31 to 0 of ap_return"/>
+                    </fields>
+                </register>
+                <register offset="0x18" name="plaintext" access="W" description="Data signal of plaintext" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="plaintext" access="W" description="Bit 31 to 0 of plaintext"/>
+                    </fields>
+                </register>
+                <register offset="0x20" name="key_1" access="W" description="Data signal of key" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="key" access="W" description="Bit 31 to 0 of key"/>
+                    </fields>
+                </register>
+                <register offset="0x24" name="key_2" access="W" description="Data signal of key" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="key" access="W" description="Bit 63 to 32 of key"/>
+                    </fields>
+                </register>
+            </registers>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="24" argName="plaintext"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="32" argName="key"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="ap_clk" type="clock" busTypeName="clock" mode="slave">
+            <busParams>
+                <busParam busParamName="ASSOCIATED_BUSIF">s_axi_control</busParam>
+                <busParam busParamName="ASSOCIATED_RESET">ap_rst_n</busParam>
+            </busParams>
+            <portMaps>
+                <portMap portMapName="ap_clk">CLK</portMap>
+            </portMaps>
+            <ports>
+                <port>ap_clk</port>
+            </ports>
+        </Interface>
+        <Interface InterfaceName="ap_rst_n" type="reset" busTypeName="reset" mode="slave">
+            <busParams>
+                <busParam busParamName="POLARITY">ACTIVE_LOW</busParam>
+            </busParams>
+            <portMaps>
+                <portMap portMapName="ap_rst_n">RST</portMap>
+            </portMaps>
+            <ports>
+                <port>ap_rst_n</port>
+            </ports>
+        </Interface>
+        <Interface InterfaceName="interrupt" type="interrupt" busTypeName="interrupt" mode="master" dataWidth="1">
+            <busParams>
+                <busParam busParamName="SENSITIVITY">LEVEL_HIGH</busParam>
+            </busParams>
+            <portMaps>
+                <portMap portMapName="interrupt">INTERRUPT</portMap>
+            </portMaps>
+            <ports>
+                <port>interrupt</port>
+            </ports>
+        </Interface>
+    </Interfaces>
+    <ReportHWInterface>
+        <section name="HW Interfaces" level="0">
+            <item name="S_AXILITE Interfaces">
+                <table>
+                    <keys size="5">Interface, Data Width, Address Width, Offset, Register</keys>
+                    <column name="s_axi_control">32, 6, 24, 0</column>
+                </table>
+            </item>
+            <item name="S_AXILITE Registers">
+                <table>
+                    <keys size="7">Interface, Register, Offset, Width, Access, Description, Bit Fields</keys>
+                    <column name="s_axi_control">CTRL, 0x00, 32, RW, Control signals, 0=AP_START 1=AP_DONE 2=AP_IDLE 3=AP_READY 7=AUTO_RESTART 9=INTERRUPT</column>
+                    <column name="s_axi_control">GIER, 0x04, 32, RW, Global Interrupt Enable Register, 0=Enable</column>
+                    <column name="s_axi_control">IP_IER, 0x08, 32, RW, IP Interrupt Enable Register, 0=CHAN0_INT_EN 1=CHAN1_INT_EN</column>
+                    <column name="s_axi_control">IP_ISR, 0x0c, 32, RW, IP Interrupt Status Register, 0=CHAN0_INT_ST 1=CHAN1_INT_ST</column>
+                    <column name="s_axi_control">ap_return, 0x10, 32, R, Data signal of ap_return, </column>
+                    <column name="s_axi_control">plaintext, 0x18, 32, W, Data signal of plaintext, </column>
+                    <column name="s_axi_control">key_1, 0x20, 32, W, Data signal of key, </column>
+                    <column name="s_axi_control">key_2, 0x24, 32, W, Data signal of key, </column>
+                </table>
+            </item>
+            <item name="TOP LEVEL CONTROL">
+                <table>
+                    <keys size="3">Interface, Type, Ports</keys>
+                    <column name="ap_clk">clock, ap_clk</column>
+                    <column name="ap_rst_n">reset, ap_rst_n</column>
+                    <column name="interrupt">interrupt, interrupt</column>
+                    <column name="ap_ctrl">ap_ctrl_hs, </column>
+                </table>
+            </item>
+        </section>
+    </ReportHWInterface>
+    <ReportSWInterface>
+        <section name="SW I/O Information" level="0">
+            <item name="Top Function Arguments">
+                <table>
+                    <keys size="3">Argument, Direction, Datatype</keys>
+                    <column name="plaintext">in, ap_uint&lt;32&gt;</column>
+                    <column name="key">in, ap_uint&lt;64&gt;</column>
+                    <column name="return">out, ap_uint&lt;32&gt;</column>
+                </table>
+            </item>
+            <item name="SW-to-HW Mapping">
+                <table>
+                    <keys size="4">Argument, HW Interface, HW Type, HW Info</keys>
+                    <column name="plaintext">s_axi_control, register, name=plaintext offset=0x18 range=32</column>
+                    <column name="key">s_axi_control, register, name=key_1 offset=0x20 range=32</column>
+                    <column name="key">s_axi_control, register, name=key_2 offset=0x24 range=32</column>
+                    <column name="return">s_axi_control, register, name=ap_return offset=0x10 range=32</column>
+                </table>
+            </item>
+        </section>
+    </ReportSWInterface>
+    <ResolutionUrl key="ZZZ">docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&amp;url=ug1448-hls-guidance&amp;resourceid=ZZZ.html</ResolutionUrl>
+    <PragmaReport>
+        <Pragma type="inline" location="Cifrador.cpp:8" status="valid" parentFunction="sbox" variable="" isDirective="0" options=""/>
+        <Pragma type="array_partition" location="Cifrador.cpp:17" status="valid" parentFunction="sbox" variable="table" isDirective="0" options="variable=table complete"/>
+        <Pragma type="inline" location="Cifrador.cpp:23" status="valid" parentFunction="sustitution" variable="" isDirective="0" options=""/>
+        <Pragma type="unroll" location="Cifrador.cpp:27" status="valid" parentFunction="sustitution" variable="" isDirective="0" options=""/>
+        <Pragma type="inline" location="Cifrador.cpp:35" status="valid" parentFunction="permutation" variable="" isDirective="0" options=""/>
+        <Pragma type="unroll" location="Cifrador.cpp:40" status="valid" parentFunction="permutation" variable="" isDirective="0" options=""/>
+        <Pragma type="inline" location="Cifrador.cpp:49" status="valid" parentFunction="key_mixing" variable="" isDirective="0" options=""/>
+        <Pragma type="inline" location="Cifrador.cpp:54" status="valid" parentFunction="round_function" variable="" isDirective="0" options=""/>
+        <Pragma type="inline" location="Cifrador.cpp:65" status="valid" parentFunction="permutation_inverse" variable="" isDirective="0" options=""/>
+        <Pragma type="unroll" location="Cifrador.cpp:70" status="valid" parentFunction="permutation_inverse" variable="" isDirective="0" options=""/>
+        <Pragma type="inline" location="Cifrador.cpp:79" status="valid" parentFunction="last_round_correction" variable="" isDirective="0" options=""/>
+        <Pragma type="inline" location="Cifrador.cpp:90" status="valid" parentFunction="key_schedule" variable="" isDirective="0" options=""/>
+        <Pragma type="interface" location="Cifrador.cpp:107" status="valid" parentFunction="cifrador_basico_unroll_31" variable="plaintext" isDirective="0" options="s_axilite port=plaintext"/>
+        <Pragma type="interface" location="Cifrador.cpp:108" status="valid" parentFunction="cifrador_basico_unroll_31" variable="key" isDirective="0" options="s_axilite port=key"/>
+        <Pragma type="interface" location="Cifrador.cpp:109" status="valid" parentFunction="cifrador_basico_unroll_31" variable="return" isDirective="0" options="s_axilite port=return"/>
+        <Pragma type="unroll" location="Cifrador.cpp:113" status="valid" parentFunction="cifrador_basico_unroll_31" variable="" isDirective="0" options=""/>
+    </PragmaReport>
+</profile>

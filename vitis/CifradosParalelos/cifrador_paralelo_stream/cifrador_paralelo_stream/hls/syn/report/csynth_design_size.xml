@@ -1,0 +1,63 @@
+<design_size title="Design Size Report">
+    <item name="Total Instructions per Compilation Phase">
+        <table>
+            <keys size="4">Phase, Step, Instructions, Description</keys>
+            <column name="Compile/Link">, 4416, After all functions are compiled and linked into a single design</column>
+            <column name="">, , </column>
+            <column name="Unroll/Inline">, , After user unroll and inline pragmas are applied</column>
+            <column name="">(1) unroll,   837, user unroll pragmas are applied</column>
+            <column name="">(2) simplification,   799, simplification of applied user unroll pragmas</column>
+            <column name="">(3) inline,   521, user inline pragmas are applied</column>
+            <column name="">(4) simplification,   389, simplification of applied user inline pragmas</column>
+            <column name="">, , </column>
+            <column name="Array/Struct">, , After user array partition and struct aggregate/disaggregate pragmas are applied</column>
+            <column name="">(1) array partition,   912, user array partition pragmas are applied</column>
+            <column name="">(2) simplification,   351, simplification of applied user array partition &amp; struct aggregate/disaggregate pragmas</column>
+            <column name="">(3) aggregate/disaggregate,   351, user struct aggregate/disaggregate pragmas are applied</column>
+            <column name="">(4) array reshape,   351, apply array reshape pragmas</column>
+            <column name="">(5) access patterns,   355, array access pattern optmizations</column>
+            <column name="">, , </column>
+            <column name="Performance">, , After transformations are applied to meet performance pragma targets</column>
+            <column name="">(1) loop simplification,   355, loop and instruction simplification</column>
+            <column name="">(2) parallelization,   351, loops are unrolled or pipelined to meet performance targets</column>
+            <column name="">(3) array partition,   351, arrays are partitioned to meet performance targets</column>
+            <column name="">(4) simplification,   351, simplification of design after performance transformations</column>
+            <column name="">, , </column>
+            <column name="HW Transforms">, , After hardware transfomations</column>
+            <column name="">(1) lowering,   368, initial conversion to HW specific instructions</column>
+            <column name="">(2) optimizations,   423, high level synthesis optimizations</column>
+        </table>
+    </item>
+    <item name="Instructions per Function for each Compilation Phase">
+        <hiertable>
+            <header size="7" col0="Function" col1="Location" col2="Compile/Link" col3="Unroll/Inline" col4="Array/Struct" col5="Performance" col6="HW Transforms"/>
+            <rows>
+                <row id="0" col0="cifrador_paralelo_stream" col1="Cifrador.cpp:127" col2="4416" col3="389" col4="355" col5="351" col6="423">
+                    <row id="4" col0="key_schedule" col1="Cifrador.cpp:90" col2="658" col3="24" col4="22" col5="22" col6="35">
+                        <row id="9" col0="sbox" col1="Cifrador.cpp:8" col2="321" col3="" col4="" col5="" col6=""/>
+                    </row>
+                    <row id="3" col0="cifrador" col1="Cifrador.cpp:109" col2="3672" col2_disp="3,672 (4 calls)" col3="320" col3_disp="320 (4 calls)" col4="288" col4_disp="288 (4 calls)" col5="284" col5_disp="284 (4 calls)" col6="324" col6_disp="324 (4 calls)">
+                        <row id="6" col0="round_function" col1="Cifrador.cpp:54" col2="2672" col2_disp="2,672 (4 calls)" col3="" col4="" col5="" col6="">
+                            <row id="5" col0="key_mixing" col1="Cifrador.cpp:49" col2="196" col2_disp=" 196 (4 calls)" col3="" col4="" col5="" col6=""/>
+                            <row id="1" col0="sustitution" col1="Cifrador.cpp:23" col2="1884" col2_disp="1,884 (4 calls)" col3="" col4="" col5="" col6="">
+                                <row id="9" col0="sbox" col1="Cifrador.cpp:8" col2="1284" col2_disp="1,284 (4 calls)" col3="" col4="" col5="" col6=""/>
+                            </row>
+                            <row id="2" col0="permutation" col1="Cifrador.cpp:35" col2="380" col2_disp=" 380 (4 calls)" col3="" col4="" col5="" col6=""/>
+                        </row>
+                        <row id="7" col0="last_round_correction" col1="Cifrador.cpp:79" col2="744" col2_disp=" 744 (4 calls)" col3="" col4="" col5="" col6="">
+                            <row id="8" col0="permutation_inverse" col1="Cifrador.cpp:65" col2="380" col2_disp=" 380 (4 calls)" col3="" col4="" col5="" col6=""/>
+                            <row id="5" col0="key_mixing" col1="Cifrador.cpp:49" col2="196" col2_disp=" 196 (4 calls)" col3="" col4="" col5="" col6=""/>
+                        </row>
+                    </row>
+                </row>
+            </rows>
+            <notes/>
+        </hiertable>
+    </item>
+    <item name="Design Size Message Settings">
+        <table>
+            <keys size="3">Message Setting, Value, Description</keys>
+            <column name="config_compile -design_size_maximum_warning">100000, Show a warning when total design instructions exceeds this value</column>
+        </table>
+    </item>
+</design_size>

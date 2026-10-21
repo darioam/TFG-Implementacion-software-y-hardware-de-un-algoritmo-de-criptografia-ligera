@@ -1,0 +1,20 @@
+---
+MainSourceFile:  'C:/Users/Dario/Documents/TFG/Vitis/CifradosParalelos/cifrador_paralelo_stream/cifrador_paralelo_stream/hls/.autopilot/db/Cifrador.pp.0.cpp'
+Diagnostics:
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-10] Either use an argument of the function or declare the variable inside the dataflow loop body'
+    FileOffset:      '156:19'
+    FilePath:        Cifrador.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-10] Either use an argument of the function or declare the variable inside the dataflow loop body'
+    FileOffset:      '157:19'
+    FilePath:        Cifrador.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-10] Either use an argument of the function or declare the variable inside the dataflow loop body'
+    FileOffset:      '158:19'
+    FilePath:        Cifrador.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-10] Either use an argument of the function or declare the variable inside the dataflow loop body'
+    FileOffset:      '159:19'
+    FilePath:        Cifrador.cpp
+...

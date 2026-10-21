@@ -1,0 +1,157 @@
+<ENTRY>
+{
+ "thisFile": "C:/Users\\Dario\\Documents\\TFG\\Vitis\\CifradosParalelos\\cifrador_paralelo_8\\cifrador_paralelo_8\\cifrador_paralelo_8.hlsrun_package_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "04/02/26 23:44:09",
+ "timestampMillis": "1775166249205",
+ "buildStep": {
+  "cmdId": "78f03c31-f6b5-4cf2-8355-6209f6f1f685",
+  "name": "vitis-run",
+  "logFile": "C:/Users\\Dario\\Documents\\TFG\\Vitis\\CifradosParalelos\\cifrador_paralelo_8\\cifrador_paralelo_8\\logs\\cifrador_paralelo_8.steps.log",
+  "commandLine": "C:/Users/Dario/AMDDesignTools/2025.2/Vitis/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --package --config C:\\Users\\Dario\\Documents\\TFG\\Vitis\\CifradosParalelos\\cifrador_paralelo_8\\hls_config.cfg --work_dir cifrador_paralelo_8 ",
+  "args": [
+   "--mode",
+   "hls",
+   "--package",
+   "--config",
+   "C:\\Users\\Dario\\Documents\\TFG\\Vitis\\CifradosParalelos\\cifrador_paralelo_8\\hls_config.cfg",
+   "--work_dir",
+   "cifrador_paralelo_8"
+  ],
+  "iniFiles": [],
+  "cwd": "C:\\Users\\Dario\\Documents\\TFG\\Vitis\\CifradosParalelos\\cifrador_paralelo_8"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "04/02/26 23:44:09",
+ "timestampMillis": "1775166249206",
+ "status": {
+  "cmdId": "78f03c31-f6b5-4cf2-8355-6209f6f1f685",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "04/02/26 23:44:18",
+ "timestampMillis": "1775166258686",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_IP",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "cifrador_paralelo_8",
+     "file": "C:/Users\\Dario\\Documents\\TFG\\Vitis\\CifradosParalelos\\cifrador_paralelo_8\\cifrador_paralelo_8\\cifrador_paralelo_8.zip",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "C:/Users\\Dario\\Documents\\TFG\\Vitis\\CifradosParalelos\\cifrador_paralelo_8\\Cifrador.cpp",
+     "C:/Users\\Dario\\Documents\\TFG\\Vitis\\CifradosParalelos\\cifrador_paralelo_8\\cifrador.h"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2025.2"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "04/02/26 23:44:18",
+ "timestampMillis": "1775166258688",
+ "buildStep": {
+  "cmdId": "ade0c81f-ec8b-4093-9a6d-013867fef8a9",
+  "name": "",
+  "logFile": "C:/Users\\Dario\\Documents\\TFG\\Vitis\\CifradosParalelos\\cifrador_paralelo_8\\cifrador_paralelo_8\\hls\\hls.log",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "C:\\Users\\Dario\\Documents\\TFG\\Vitis\\CifradosParalelos\\cifrador_paralelo_8"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "04/02/26 23:44:18",
+ "timestampMillis": "1775166258689",
+ "status": {
+  "cmdId": "ade0c81f-ec8b-4093-9a6d-013867fef8a9",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "04/02/26 23:44:50",
+ "timestampMillis": "1775166290700",
+ "status": {
+  "cmdId": "ade0c81f-ec8b-4093-9a6d-013867fef8a9",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "04/02/26 23:44:50",
+ "timestampMillis": "1775166290884",
+ "status": {
+  "cmdId": "78f03c31-f6b5-4cf2-8355-6209f6f1f685",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "04/02/26 23:44:50",
+ "timestampMillis": "1775166290885",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "04/02/26 23:44:50",
+ "timestampMillis": "1775166290885",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

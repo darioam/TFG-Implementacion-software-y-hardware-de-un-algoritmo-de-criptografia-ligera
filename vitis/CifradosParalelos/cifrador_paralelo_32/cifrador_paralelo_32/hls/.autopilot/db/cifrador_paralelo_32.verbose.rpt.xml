@@ -1,0 +1,253 @@
+<profile>
+
+<section name = "Vitis HLS Report for 'cifrador_paralelo_32'" level="0">
+<item name = "Date">Thu Apr  2 23:54:14 2026
+</item>
+<item name = "Version">2025.2 (Build 6295257 on Nov 14 2025)</item>
+<item name = "Project">cifrador_paralelo_32</item>
+<item name = "Solution">hls (Vivado IP Flow Target)</item>
+<item name = "Product family">zynq</item>
+<item name = "Target device">xc7z020-clg400-1</item>
+</section>
+
+<section name = "Performance Estimates" level="0">
+<item name = "Timing">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="4">Clock, Target, Estimated, Uncertainty</keys>
+<column name="ap_clk">10.00 ns, 4.645 ns, 2.70 ns</column>
+</table>
+</item>
+</section>
+</item>
+<item name = "Latency">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="8">, min, max, min, max, min, max, Type</keys>
+<column name="">34, 34, 0.340 us, 0.340 us, 35, 35, no</column>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="0">
+<keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
+<column name="grp_cifrador_fu_710">cifrador, 33, 33, 0.330 us, 0.330 us, 0, 0, loop pipeline stp</column>
+<column name="grp_cifrador_fu_719">cifrador, 33, 33, 0.330 us, 0.330 us, 0, 0, loop pipeline stp</column>
+<column name="grp_cifrador_fu_728">cifrador, 33, 33, 0.330 us, 0.330 us, 0, 0, loop pipeline stp</column>
+<column name="grp_cifrador_fu_737">cifrador, 33, 33, 0.330 us, 0.330 us, 0, 0, loop pipeline stp</column>
+<column name="grp_cifrador_fu_746">cifrador, 33, 33, 0.330 us, 0.330 us, 0, 0, loop pipeline stp</column>
+<column name="grp_cifrador_fu_755">cifrador, 33, 33, 0.330 us, 0.330 us, 0, 0, loop pipeline stp</column>
+<column name="grp_cifrador_fu_764">cifrador, 33, 33, 0.330 us, 0.330 us, 0, 0, loop pipeline stp</column>
+<column name="grp_cifrador_fu_773">cifrador, 33, 33, 0.330 us, 0.330 us, 0, 0, loop pipeline stp</column>
+<column name="grp_cifrador_fu_782">cifrador, 33, 33, 0.330 us, 0.330 us, 0, 0, loop pipeline stp</column>
+<column name="grp_cifrador_fu_791">cifrador, 33, 33, 0.330 us, 0.330 us, 0, 0, loop pipeline stp</column>
+<column name="grp_cifrador_fu_800">cifrador, 33, 33, 0.330 us, 0.330 us, 0, 0, loop pipeline stp</column>
+<column name="grp_cifrador_fu_809">cifrador, 33, 33, 0.330 us, 0.330 us, 0, 0, loop pipeline stp</column>
+<column name="grp_cifrador_fu_818">cifrador, 33, 33, 0.330 us, 0.330 us, 0, 0, loop pipeline stp</column>
+<column name="grp_cifrador_fu_827">cifrador, 33, 33, 0.330 us, 0.330 us, 0, 0, loop pipeline stp</column>
+<column name="grp_cifrador_fu_836">cifrador, 33, 33, 0.330 us, 0.330 us, 0, 0, loop pipeline stp</column>
+<column name="grp_cifrador_fu_845">cifrador, 33, 33, 0.330 us, 0.330 us, 0, 0, loop pipeline stp</column>
+<column name="grp_cifrador_fu_854">cifrador, 33, 33, 0.330 us, 0.330 us, 0, 0, loop pipeline stp</column>
+<column name="grp_cifrador_fu_863">cifrador, 33, 33, 0.330 us, 0.330 us, 0, 0, loop pipeline stp</column>
+<column name="grp_cifrador_fu_872">cifrador, 33, 33, 0.330 us, 0.330 us, 0, 0, loop pipeline stp</column>
+<column name="grp_cifrador_fu_881">cifrador, 33, 33, 0.330 us, 0.330 us, 0, 0, loop pipeline stp</column>
+<column name="grp_cifrador_fu_890">cifrador, 33, 33, 0.330 us, 0.330 us, 0, 0, loop pipeline stp</column>
+<column name="grp_cifrador_fu_899">cifrador, 33, 33, 0.330 us, 0.330 us, 0, 0, loop pipeline stp</column>
+<column name="grp_cifrador_fu_908">cifrador, 33, 33, 0.330 us, 0.330 us, 0, 0, loop pipeline stp</column>
+<column name="grp_cifrador_fu_917">cifrador, 33, 33, 0.330 us, 0.330 us, 0, 0, loop pipeline stp</column>
+<column name="grp_cifrador_fu_926">cifrador, 33, 33, 0.330 us, 0.330 us, 0, 0, loop pipeline stp</column>
+<column name="grp_cifrador_fu_935">cifrador, 33, 33, 0.330 us, 0.330 us, 0, 0, loop pipeline stp</column>
+<column name="grp_cifrador_fu_944">cifrador, 33, 33, 0.330 us, 0.330 us, 0, 0, loop pipeline stp</column>
+<column name="grp_cifrador_fu_953">cifrador, 33, 33, 0.330 us, 0.330 us, 0, 0, loop pipeline stp</column>
+<column name="grp_cifrador_fu_962">cifrador, 33, 33, 0.330 us, 0.330 us, 0, 0, loop pipeline stp</column>
+<column name="grp_cifrador_fu_971">cifrador, 33, 33, 0.330 us, 0.330 us, 0, 0, loop pipeline stp</column>
+<column name="grp_cifrador_fu_980">cifrador, 33, 33, 0.330 us, 0.330 us, 0, 0, loop pipeline stp</column>
+<column name="grp_cifrador_fu_989">cifrador, 33, 33, 0.330 us, 0.330 us, 0, 0, loop pipeline stp</column>
+</table>
+</item>
+<item name = "Loop"><table name="" hasTotal="0">
+<keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+</table>
+</item>
+</section>
+</item>
+</section>
+</item>
+</section>
+
+<section name = "Utilization Estimates" level="0">
+<item name = "Summary"><table name="" hasTotal="1">
+<keys size="6">Name, BRAM_18K, DSP, FF, LUT, URAM</keys>
+<column name="DSP">-, -, -, -, -</column>
+<column name="Expression">-, -, 0, 2, -</column>
+<column name="FIFO">-, -, -, -, -</column>
+<column name="Instance">0, -, 6890, 29416, -</column>
+<column name="Memory">-, -, -, -, -</column>
+<column name="Multiplexer">-, -, 0, 14, -</column>
+<column name="Register">-, -, 1122, -, -</column>
+<specialColumn name="Available">280, 220, 106400, 53200, 0</specialColumn>
+<specialColumn name="Utilization (%)">0, 0, 7, 55, 0</specialColumn>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="1">
+<keys size="7">Instance, Module, BRAM_18K, DSP, FF, LUT, URAM</keys>
+<column name="grp_cifrador_fu_710">cifrador, 0, 0, 136, 786, 0</column>
+<column name="grp_cifrador_fu_719">cifrador, 0, 0, 136, 786, 0</column>
+<column name="grp_cifrador_fu_728">cifrador, 0, 0, 136, 786, 0</column>
+<column name="grp_cifrador_fu_737">cifrador, 0, 0, 136, 786, 0</column>
+<column name="grp_cifrador_fu_746">cifrador, 0, 0, 136, 786, 0</column>
+<column name="grp_cifrador_fu_755">cifrador, 0, 0, 136, 786, 0</column>
+<column name="grp_cifrador_fu_764">cifrador, 0, 0, 136, 786, 0</column>
+<column name="grp_cifrador_fu_773">cifrador, 0, 0, 136, 786, 0</column>
+<column name="grp_cifrador_fu_782">cifrador, 0, 0, 136, 786, 0</column>
+<column name="grp_cifrador_fu_791">cifrador, 0, 0, 136, 786, 0</column>
+<column name="grp_cifrador_fu_800">cifrador, 0, 0, 136, 786, 0</column>
+<column name="grp_cifrador_fu_809">cifrador, 0, 0, 136, 786, 0</column>
+<column name="grp_cifrador_fu_818">cifrador, 0, 0, 136, 786, 0</column>
+<column name="grp_cifrador_fu_827">cifrador, 0, 0, 136, 786, 0</column>
+<column name="grp_cifrador_fu_836">cifrador, 0, 0, 136, 786, 0</column>
+<column name="grp_cifrador_fu_845">cifrador, 0, 0, 136, 786, 0</column>
+<column name="grp_cifrador_fu_854">cifrador, 0, 0, 136, 786, 0</column>
+<column name="grp_cifrador_fu_863">cifrador, 0, 0, 136, 786, 0</column>
+<column name="grp_cifrador_fu_872">cifrador, 0, 0, 136, 786, 0</column>
+<column name="grp_cifrador_fu_881">cifrador, 0, 0, 136, 786, 0</column>
+<column name="grp_cifrador_fu_890">cifrador, 0, 0, 136, 786, 0</column>
+<column name="grp_cifrador_fu_899">cifrador, 0, 0, 136, 786, 0</column>
+<column name="grp_cifrador_fu_908">cifrador, 0, 0, 136, 786, 0</column>
+<column name="grp_cifrador_fu_917">cifrador, 0, 0, 136, 786, 0</column>
+<column name="grp_cifrador_fu_926">cifrador, 0, 0, 136, 786, 0</column>
+<column name="grp_cifrador_fu_935">cifrador, 0, 0, 136, 786, 0</column>
+<column name="grp_cifrador_fu_944">cifrador, 0, 0, 136, 786, 0</column>
+<column name="grp_cifrador_fu_953">cifrador, 0, 0, 136, 786, 0</column>
+<column name="grp_cifrador_fu_962">cifrador, 0, 0, 136, 786, 0</column>
+<column name="grp_cifrador_fu_971">cifrador, 0, 0, 136, 786, 0</column>
+<column name="grp_cifrador_fu_980">cifrador, 0, 0, 136, 786, 0</column>
+<column name="grp_cifrador_fu_989">cifrador, 0, 0, 136, 786, 0</column>
+<column name="control_s_axi_U">control_s_axi, 0, 0, 2538, 4264, 0</column>
+</table>
+</item>
+<item name = "DSP"><table name="" hasTotal="0">
+<keys size="3">Instance, Module, Expression</keys>
+</table>
+</item>
+<item name = "Memory"><table name="" hasTotal="1">
+<keys size="10">Memory, Module, BRAM_18K, FF, LUT, URAM, Words, Bits, Banks, W*Bits*Banks</keys>
+</table>
+</item>
+<item name = "FIFO"><table name="" hasTotal="1">
+<keys size="8">Name, BRAM_18K, FF, LUT, URAM, Depth, Bits, Size:D*B</keys>
+</table>
+</item>
+<item name = "Expression"><table name="" hasTotal="1">
+<keys size="7">Variable Name, Operation, DSP, FF, LUT, Bitwidth P0, Bitwidth P1</keys>
+<column name="ap_block_state2_on_subcall_done">or, 0, 0, 2, 1, 1</column>
+</table>
+</item>
+<item name = "Multiplexer"><table name="" hasTotal="1">
+<keys size="5">Name, LUT, Input Size, Bits, Total Bits</keys>
+<column name="ap_NS_fsm">14, 3, 1, 3</column>
+</table>
+</item>
+<item name = "Register"><table name="" hasTotal="1">
+<keys size="5">Name, FF, LUT, Bits, Const Bits</keys>
+<column name="ap_CS_fsm">2, 0, 2, 0</column>
+<column name="grp_cifrador_fu_710_ap_start_reg">1, 0, 1, 0</column>
+<column name="grp_cifrador_fu_719_ap_start_reg">1, 0, 1, 0</column>
+<column name="grp_cifrador_fu_728_ap_start_reg">1, 0, 1, 0</column>
+<column name="grp_cifrador_fu_737_ap_start_reg">1, 0, 1, 0</column>
+<column name="grp_cifrador_fu_746_ap_start_reg">1, 0, 1, 0</column>
+<column name="grp_cifrador_fu_755_ap_start_reg">1, 0, 1, 0</column>
+<column name="grp_cifrador_fu_764_ap_start_reg">1, 0, 1, 0</column>
+<column name="grp_cifrador_fu_773_ap_start_reg">1, 0, 1, 0</column>
+<column name="grp_cifrador_fu_782_ap_start_reg">1, 0, 1, 0</column>
+<column name="grp_cifrador_fu_791_ap_start_reg">1, 0, 1, 0</column>
+<column name="grp_cifrador_fu_800_ap_start_reg">1, 0, 1, 0</column>
+<column name="grp_cifrador_fu_809_ap_start_reg">1, 0, 1, 0</column>
+<column name="grp_cifrador_fu_818_ap_start_reg">1, 0, 1, 0</column>
+<column name="grp_cifrador_fu_827_ap_start_reg">1, 0, 1, 0</column>
+<column name="grp_cifrador_fu_836_ap_start_reg">1, 0, 1, 0</column>
+<column name="grp_cifrador_fu_845_ap_start_reg">1, 0, 1, 0</column>
+<column name="grp_cifrador_fu_854_ap_start_reg">1, 0, 1, 0</column>
+<column name="grp_cifrador_fu_863_ap_start_reg">1, 0, 1, 0</column>
+<column name="grp_cifrador_fu_872_ap_start_reg">1, 0, 1, 0</column>
+<column name="grp_cifrador_fu_881_ap_start_reg">1, 0, 1, 0</column>
+<column name="grp_cifrador_fu_890_ap_start_reg">1, 0, 1, 0</column>
+<column name="grp_cifrador_fu_899_ap_start_reg">1, 0, 1, 0</column>
+<column name="grp_cifrador_fu_908_ap_start_reg">1, 0, 1, 0</column>
+<column name="grp_cifrador_fu_917_ap_start_reg">1, 0, 1, 0</column>
+<column name="grp_cifrador_fu_926_ap_start_reg">1, 0, 1, 0</column>
+<column name="grp_cifrador_fu_935_ap_start_reg">1, 0, 1, 0</column>
+<column name="grp_cifrador_fu_944_ap_start_reg">1, 0, 1, 0</column>
+<column name="grp_cifrador_fu_953_ap_start_reg">1, 0, 1, 0</column>
+<column name="grp_cifrador_fu_962_ap_start_reg">1, 0, 1, 0</column>
+<column name="grp_cifrador_fu_971_ap_start_reg">1, 0, 1, 0</column>
+<column name="grp_cifrador_fu_980_ap_start_reg">1, 0, 1, 0</column>
+<column name="grp_cifrador_fu_989_ap_start_reg">1, 0, 1, 0</column>
+<column name="key_read_reg_998">64, 0, 64, 0</column>
+<column name="plaintext_0_read_reg_1034">32, 0, 32, 0</column>
+<column name="plaintext_10_read_reg_1084">32, 0, 32, 0</column>
+<column name="plaintext_11_read_reg_1089">32, 0, 32, 0</column>
+<column name="plaintext_12_read_reg_1094">32, 0, 32, 0</column>
+<column name="plaintext_13_read_reg_1099">32, 0, 32, 0</column>
+<column name="plaintext_14_read_reg_1104">32, 0, 32, 0</column>
+<column name="plaintext_15_read_reg_1109">32, 0, 32, 0</column>
+<column name="plaintext_16_read_reg_1114">32, 0, 32, 0</column>
+<column name="plaintext_17_read_reg_1119">32, 0, 32, 0</column>
+<column name="plaintext_18_read_reg_1124">32, 0, 32, 0</column>
+<column name="plaintext_19_read_reg_1129">32, 0, 32, 0</column>
+<column name="plaintext_1_read_reg_1039">32, 0, 32, 0</column>
+<column name="plaintext_20_read_reg_1134">32, 0, 32, 0</column>
+<column name="plaintext_21_read_reg_1139">32, 0, 32, 0</column>
+<column name="plaintext_22_read_reg_1144">32, 0, 32, 0</column>
+<column name="plaintext_23_read_reg_1149">32, 0, 32, 0</column>
+<column name="plaintext_24_read_reg_1154">32, 0, 32, 0</column>
+<column name="plaintext_25_read_reg_1159">32, 0, 32, 0</column>
+<column name="plaintext_26_read_reg_1164">32, 0, 32, 0</column>
+<column name="plaintext_27_read_reg_1169">32, 0, 32, 0</column>
+<column name="plaintext_28_read_reg_1174">32, 0, 32, 0</column>
+<column name="plaintext_29_read_reg_1179">32, 0, 32, 0</column>
+<column name="plaintext_2_read_reg_1044">32, 0, 32, 0</column>
+<column name="plaintext_30_read_reg_1184">32, 0, 32, 0</column>
+<column name="plaintext_31_read_reg_1189">32, 0, 32, 0</column>
+<column name="plaintext_3_read_reg_1049">32, 0, 32, 0</column>
+<column name="plaintext_4_read_reg_1054">32, 0, 32, 0</column>
+<column name="plaintext_5_read_reg_1059">32, 0, 32, 0</column>
+<column name="plaintext_6_read_reg_1064">32, 0, 32, 0</column>
+<column name="plaintext_7_read_reg_1069">32, 0, 32, 0</column>
+<column name="plaintext_8_read_reg_1074">32, 0, 32, 0</column>
+<column name="plaintext_9_read_reg_1079">32, 0, 32, 0</column>
+</table>
+</item>
+</section>
+</item>
+</section>
+
+<section name = "Interface" level="0">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="6">RTL Ports, Dir, Bits, Protocol, Source Object, C Type</keys>
+<column name="s_axi_control_AWVALID">in, 1, s_axi, control, pointer</column>
+<column name="s_axi_control_AWREADY">out, 1, s_axi, control, pointer</column>
+<column name="s_axi_control_AWADDR">in, 10, s_axi, control, pointer</column>
+<column name="s_axi_control_WVALID">in, 1, s_axi, control, pointer</column>
+<column name="s_axi_control_WREADY">out, 1, s_axi, control, pointer</column>
+<column name="s_axi_control_WDATA">in, 32, s_axi, control, pointer</column>
+<column name="s_axi_control_WSTRB">in, 4, s_axi, control, pointer</column>
+<column name="s_axi_control_ARVALID">in, 1, s_axi, control, pointer</column>
+<column name="s_axi_control_ARREADY">out, 1, s_axi, control, pointer</column>
+<column name="s_axi_control_ARADDR">in, 10, s_axi, control, pointer</column>
+<column name="s_axi_control_RVALID">out, 1, s_axi, control, pointer</column>
+<column name="s_axi_control_RREADY">in, 1, s_axi, control, pointer</column>
+<column name="s_axi_control_RDATA">out, 32, s_axi, control, pointer</column>
+<column name="s_axi_control_RRESP">out, 2, s_axi, control, pointer</column>
+<column name="s_axi_control_BVALID">out, 1, s_axi, control, pointer</column>
+<column name="s_axi_control_BREADY">in, 1, s_axi, control, pointer</column>
+<column name="s_axi_control_BRESP">out, 2, s_axi, control, pointer</column>
+<column name="ap_clk">in, 1, ap_ctrl_hs, cifrador_paralelo_32, return value</column>
+<column name="ap_rst_n">in, 1, ap_ctrl_hs, cifrador_paralelo_32, return value</column>
+<column name="interrupt">out, 1, ap_ctrl_hs, cifrador_paralelo_32, return value</column>
+</table>
+</item>
+</section>
+</profile>

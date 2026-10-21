@@ -1,0 +1,112 @@
+<xilinx:hls_fe_msgs>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="Cifrador.cpp:8:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="sbox" ARG_PragmaIsValid="1" ARG_PragmaOptions="off" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="Cifrador.cpp:9:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="sbox" ARG_PragmaIsValid="1" ARG_PragmaOptions="function instances=sbox limit=1" ARG_PragmaType="allocation" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="Cifrador.cpp:18:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="sbox" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=table complete" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="Cifrador.cpp:24:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="permutation" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="Cifrador.cpp:29:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="permutation" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="Cifrador.cpp:38:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="key_mixing" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="Cifrador.cpp:43:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="key_mixing" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="Cifrador.cpp:48:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="select_subblock" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="Cifrador.cpp:54:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="update_subblock" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="Cifrador.cpp:59:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="serial_round" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=9 max=9" ARG_PragmaType="latency" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="Cifrador.cpp:62:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="serial_round" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=8 max=8" ARG_PragmaType="latency" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="Cifrador.cpp:65:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="serial_round" ARG_PragmaIsValid="1" ARG_PragmaOptions="function instances=sbox limit=1" ARG_PragmaType="allocation" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="Cifrador.cpp:73:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="permutation_inverse" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="Cifrador.cpp:78:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="permutation_inverse" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="Cifrador.cpp:87:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="serial_last_round_correction" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="Cifrador.cpp:98:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="key_schedule" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="directive:1:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="cifrador_serial" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=cifrador_serial" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="Cifrador.cpp:115:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="cifrador_serial" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=plaintext" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="Cifrador.cpp:116:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="cifrador_serial" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=key" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="Cifrador.cpp:117:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="cifrador_serial" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=return" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="Cifrador.cpp:121:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="cifrador_serial" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="Cifrador.cpp:69:13" msg_body="Inlining function 'permutation(ap_uint&lt;32&gt;)' into 'serial_round(ap_uint&lt;32&gt;&amp;, ap_uint&lt;32&gt;)'">
+        <args Callee="permutation(ap_uint&lt;32&gt;)" Callee-DebugLoc="File Cifrador.cpp Line 23 Column 0" Caller="serial_round(ap_uint&lt;32&gt;&amp;, ap_uint&lt;32&gt;)" Caller-DebugLoc="File Cifrador.cpp Line 58 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="Cifrador.cpp:67:9" msg_body="Inlining function 'update_subblock(ap_uint&lt;32&gt;&amp;, ap_uint&lt;4&gt;, ap_uint&lt;4&gt;)' into 'serial_round(ap_uint&lt;32&gt;&amp;, ap_uint&lt;32&gt;)'">
+        <args Callee="update_subblock(ap_uint&lt;32&gt;&amp;, ap_uint&lt;4&gt;, ap_uint&lt;4&gt;)" Callee-DebugLoc="File Cifrador.cpp Line 53 Column 0" Caller="serial_round(ap_uint&lt;32&gt;&amp;, ap_uint&lt;32&gt;)" Caller-DebugLoc="File Cifrador.cpp Line 58 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="Cifrador.cpp:64:21" msg_body="Inlining function 'key_mixing(ap_uint&lt;4&gt;, ap_uint&lt;4&gt;)' into 'serial_round(ap_uint&lt;32&gt;&amp;, ap_uint&lt;32&gt;)'">
+        <args Callee="key_mixing(ap_uint&lt;4&gt;, ap_uint&lt;4&gt;)" Callee-DebugLoc="File Cifrador.cpp Line 37 Column 0" Caller="serial_round(ap_uint&lt;32&gt;&amp;, ap_uint&lt;32&gt;)" Caller-DebugLoc="File Cifrador.cpp Line 58 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="Cifrador.cpp:63:27" msg_body="Inlining function 'select_subblock(ap_uint&lt;32&gt;, ap_uint&lt;4&gt;)' into 'serial_round(ap_uint&lt;32&gt;&amp;, ap_uint&lt;32&gt;)'">
+        <args Callee="select_subblock(ap_uint&lt;32&gt;, ap_uint&lt;4&gt;)" Callee-DebugLoc="File Cifrador.cpp Line 47 Column 0" Caller="serial_round(ap_uint&lt;32&gt;&amp;, ap_uint&lt;32&gt;)" Caller-DebugLoc="File Cifrador.cpp Line 58 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="Cifrador.cpp:92:11" msg_body="Inlining function 'key_mixing(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;)' into 'serial_last_round_correction(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;)'">
+        <args Callee="key_mixing(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;)" Callee-DebugLoc="File Cifrador.cpp Line 42 Column 0" Caller="serial_last_round_correction(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;)" Caller-DebugLoc="File Cifrador.cpp Line 86 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="Cifrador.cpp:91:11" msg_body="Inlining function 'permutation_inverse(ap_uint&lt;32&gt;)' into 'serial_last_round_correction(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;)'">
+        <args Callee="permutation_inverse(ap_uint&lt;32&gt;)" Callee-DebugLoc="File Cifrador.cpp Line 72 Column 0" Caller="serial_last_round_correction(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;)" Caller-DebugLoc="File Cifrador.cpp Line 86 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="Cifrador.cpp:122:28" msg_body="Inlining function 'key_schedule(ap_uint&lt;64&gt;&amp;, int)' into 'cifrador_serial(ap_uint&lt;32&gt;, ap_uint&lt;64&gt;)'">
+        <args Callee="key_schedule(ap_uint&lt;64&gt;&amp;, int)" Callee-DebugLoc="File Cifrador.cpp Line 97 Column 0" Caller="cifrador_serial(ap_uint&lt;32&gt;, ap_uint&lt;64&gt;)" Caller-DebugLoc="File Cifrador.cpp Line 114 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="Cifrador.cpp:127:13" msg_body="Inlining function 'serial_last_round_correction(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;)' into 'cifrador_serial(ap_uint&lt;32&gt;, ap_uint&lt;64&gt;)'">
+        <args Callee="serial_last_round_correction(ap_uint&lt;32&gt;, ap_uint&lt;32&gt;)" Callee-DebugLoc="File Cifrador.cpp Line 86 Column 0" Caller="cifrador_serial(ap_uint&lt;32&gt;, ap_uint&lt;64&gt;)" Caller-DebugLoc="File Cifrador.cpp Line 114 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="Cifrador.cpp:28:22" msg_body="Loop 'VITIS_LOOP_28_1' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_28_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="Cifrador.cpp:61:22" msg_body="Loop 'VITIS_LOOP_61_1' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_61_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="Cifrador.cpp:114:0" msg_body="Unrolling loop 'VITIS_LOOP_77_1' (Cifrador.cpp:77:22) in function 'cifrador_serial' completely with a factor of 32">
+        <args Factor="32" LoopLoc="Cifrador.cpp:77:22" LoopName="VITIS_LOOP_77_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="Cifrador.cpp:58:0" msg_body="Unrolling loop 'VITIS_LOOP_28_1' (Cifrador.cpp:28:22) in function 'serial_round' completely with a factor of 32">
+        <args Factor="32" LoopLoc="Cifrador.cpp:28:22" LoopName="VITIS_LOOP_28_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="Cifrador.cpp:58:0" msg_body="Unrolling loop 'VITIS_LOOP_61_1' (Cifrador.cpp:61:22) in function 'serial_round' completely with a factor of 8">
+        <args Factor="8" LoopLoc="Cifrador.cpp:61:22" LoopName="VITIS_LOOP_61_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-358" msg_severity="WARNING" msg_loc="Cifrador.cpp:20:12" msg_body="Array transformation on index using bit extension logic may lead to poor performance. Please use int or long for array index computation to benefit from optimizations."/>
+    <msg msg_groups="AUTOMATION" msg_id="214-364" msg_severity="INFO" msg_loc="Cifrador.cpp:123:9" msg_body="Automatically inlining function 'serial_round(ap_uint&lt;32&gt;&amp;, ap_uint&lt;32&gt;)' to improve effectiveness of pipeline pragma in function 'cifrador_serial(ap_uint&lt;32&gt;, ap_uint&lt;64&gt;)'">
+        <args Callee="serial_round(ap_uint&lt;32&gt;&amp;, ap_uint&lt;32&gt;)" Callee-DebugLoc="File Cifrador.cpp Line 58 Column 0" Caller="cifrador_serial(ap_uint&lt;32&gt;, ap_uint&lt;64&gt;)" Caller-DebugLoc="File Cifrador.cpp Line 114 Column 0"/>
+    </msg>
+    <msg msg_groups="AUTOMATION_VERBOSE_PASSED" msg_id="214-335" msg_severity="INFO" msg_loc="Cifrador.cpp:58:0" msg_body="inline   1 serial_round Cifrador.cpp:121:1">
+        <args PragmaFunction="serial_round" PragmaIsAuto="1" PragmaSrcLoc="Cifrador.cpp:121:1" PragmaSrcLoc-DebugLoc="File Cifrador.cpp Line 121 Column 1" PragmaType="inline"/>
+    </msg>
+    <msg msg_groups="PRAGMA_ALLOCATION" msg_id="214-209" msg_severity="WARNING" msg_loc="Cifrador.cpp:9:1" msg_body="Ignoring ALLOCATION pragma, because the corresponding call is removed"/>
+</xilinx:hls_fe_msgs>

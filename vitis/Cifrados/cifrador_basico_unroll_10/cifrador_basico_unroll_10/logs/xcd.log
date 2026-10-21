@@ -1,0 +1,73 @@
+04/02/26 19:09:48: Running xcd server. This server was built by gradle.
+04/02/26 19:09:48: Server was asked to start on port: '56109'
+04/02/26 19:09:48: Server is using token UUID: '2412a296-dff6-498a-b24c-58affd8a6059'
+04/02/26 19:09:48: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+04/02/26 19:09:48: Attempting to start server on port '56109'
+04/02/26 19:09:48: Running Dispatch Server
+04/02/26 19:09:48: Version 2.2.0
+04/02/26 19:09:50: Dispatch Server: Accepted socket connection from client
+04/02/26 19:09:50: Starting Socket connection
+04/02/26 19:09:50: EXCHANGE_TOKEN received, server token: 2412a296-dff6-498a-b24c-58affd8a6059, passed token: 2412a296-dff6-498a-b24c-58affd8a6059
+04/02/26 19:09:51: DISPATCH_HANDLER: Adding handler from function makeHandler in library xv_system_diagram
+04/02/26 19:09:51: SESSION_MGR: creating session with session uuid: '47bc6a99-b5cc-49d0-82c0-579c3bb2555e' and name 'v++_compile_cifrador_basico_unroll_10'
+04/02/26 19:09:51: KERNEL_SVC: creating session with uuid: '47bc6a99-b5cc-49d0-82c0-579c3bb2555e' and name 'v++_compile_cifrador_basico_unroll_10'
+04/02/26 19:09:51: GUIDANCE_SMGR: creating guidance session with uuid: '47bc6a99-b5cc-49d0-82c0-579c3bb2555e' and name 'v++_compile_cifrador_basico_unroll_10'
+04/02/26 19:09:51: SYSTEM_DIAGRAM: creating session with uuid: '47bc6a99-b5cc-49d0-82c0-579c3bb2555e' and name 'v++_compile_cifrador_basico_unroll_10'
+04/02/26 19:10:05: SESSION_MGR: closing session for UUID '47bc6a99-b5cc-49d0-82c0-579c3bb2555e' with name 'v++_compile_cifrador_basico_unroll_10'
+04/02/26 19:10:05: KERNEL_SVC: closing session for UUID '47bc6a99-b5cc-49d0-82c0-579c3bb2555e' with name 'v++_compile_cifrador_basico_unroll_10'
+04/02/26 19:10:05: GUIDANCE_SMGR: closing session for UUID '47bc6a99-b5cc-49d0-82c0-579c3bb2555e' with name 'v++_compile_cifrador_basico_unroll_10'
+04/02/26 19:10:05: SYSTEM_DIAGRAM: closing session for UUID '47bc6a99-b5cc-49d0-82c0-579c3bb2555e' with name 'v++_compile_cifrador_basico_unroll_10'
+04/02/26 19:10:05: STOP_SERVER received, server token: 2412a296-dff6-498a-b24c-58affd8a6059, passed token: 2412a296-dff6-498a-b24c-58affd8a6059
+04/02/26 19:10:05: Socket received request to stop server.
+04/02/26 19:10:05: Dispatch Server: do_await_stop
+04/02/26 19:10:05: SERVER: destructor for server bound to port 56109
+04/02/26 19:12:04: Running xcd server. This server was built by gradle.
+04/02/26 19:12:04: Server was asked to start on port: '64316'
+04/02/26 19:12:04: Server is using token UUID: '67102d26-e571-4d5c-bb5f-48efc379f49c'
+04/02/26 19:12:04: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+04/02/26 19:12:04: Attempting to start server on port '64316'
+04/02/26 19:12:04: Running Dispatch Server
+04/02/26 19:12:04: Version 2.2.0
+04/02/26 19:12:06: Dispatch Server: Accepted socket connection from client
+04/02/26 19:12:06: Starting Socket connection
+04/02/26 19:12:06: EXCHANGE_TOKEN received, server token: 67102d26-e571-4d5c-bb5f-48efc379f49c, passed token: 67102d26-e571-4d5c-bb5f-48efc379f49c
+04/02/26 19:12:07: DISPATCH_HANDLER: Adding handler from function makeHandler in library xv_system_diagram
+04/02/26 19:12:07: SESSION_MGR: creating session with session uuid: 'cef57323-c3a2-463e-b7b9-0dca0bd9b926' and name 'v++_compile_cifrador_basico_unroll_10'
+04/02/26 19:12:07: KERNEL_SVC: creating session with uuid: 'cef57323-c3a2-463e-b7b9-0dca0bd9b926' and name 'v++_compile_cifrador_basico_unroll_10'
+04/02/26 19:12:07: GUIDANCE_SMGR: creating guidance session with uuid: 'cef57323-c3a2-463e-b7b9-0dca0bd9b926' and name 'v++_compile_cifrador_basico_unroll_10'
+04/02/26 19:12:07: SYSTEM_DIAGRAM: creating session with uuid: 'cef57323-c3a2-463e-b7b9-0dca0bd9b926' and name 'v++_compile_cifrador_basico_unroll_10'
+04/02/26 19:12:18: Dispatch Server: Accepted socket connection from client
+04/02/26 19:12:18: Starting Socket connection
+04/02/26 19:13:08: SESSION_MGR: closing session for UUID 'cef57323-c3a2-463e-b7b9-0dca0bd9b926' with name 'v++_compile_cifrador_basico_unroll_10'
+04/02/26 19:13:08: KERNEL_SVC: closing session for UUID 'cef57323-c3a2-463e-b7b9-0dca0bd9b926' with name 'v++_compile_cifrador_basico_unroll_10'
+04/02/26 19:13:08: GUIDANCE_SMGR: closing session for UUID 'cef57323-c3a2-463e-b7b9-0dca0bd9b926' with name 'v++_compile_cifrador_basico_unroll_10'
+04/02/26 19:13:08: SYSTEM_DIAGRAM: closing session for UUID 'cef57323-c3a2-463e-b7b9-0dca0bd9b926' with name 'v++_compile_cifrador_basico_unroll_10'
+04/02/26 19:13:08: STOP_SERVER received, server token: 67102d26-e571-4d5c-bb5f-48efc379f49c, passed token: 67102d26-e571-4d5c-bb5f-48efc379f49c
+04/02/26 19:13:08: Socket received request to stop server.
+04/02/26 19:13:08: Dispatch Server: do_await_stop
+04/02/26 19:13:08: SERVER: destructor for server bound to port 64316
+04/02/26 19:13:49: Running xcd server. This server was built by gradle.
+04/02/26 19:13:49: Server was asked to start on port: '56148'
+04/02/26 19:13:49: Server is using token UUID: 'db0d6124-fd11-414d-a236-629d52220ab0'
+04/02/26 19:13:49: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+04/02/26 19:13:49: Attempting to start server on port '56148'
+04/02/26 19:13:49: Running Dispatch Server
+04/02/26 19:13:49: Version 2.2.0
+04/02/26 19:13:51: Dispatch Server: Accepted socket connection from client
+04/02/26 19:13:51: Starting Socket connection
+04/02/26 19:13:51: EXCHANGE_TOKEN received, server token: db0d6124-fd11-414d-a236-629d52220ab0, passed token: db0d6124-fd11-414d-a236-629d52220ab0
+04/02/26 19:13:52: DISPATCH_HANDLER: Adding handler from function makeHandler in library xv_system_diagram
+04/02/26 19:13:52: SESSION_MGR: creating session with session uuid: '7f56c445-05cf-4b5a-a8ad-6fe618f80319' and name 'vitis-run_compile_cifrador_basico_unroll_10'
+04/02/26 19:13:52: KERNEL_SVC: creating session with uuid: '7f56c445-05cf-4b5a-a8ad-6fe618f80319' and name 'vitis-run_compile_cifrador_basico_unroll_10'
+04/02/26 19:13:52: GUIDANCE_SMGR: creating guidance session with uuid: '7f56c445-05cf-4b5a-a8ad-6fe618f80319' and name 'vitis-run_compile_cifrador_basico_unroll_10'
+04/02/26 19:13:52: SYSTEM_DIAGRAM: creating session with uuid: '7f56c445-05cf-4b5a-a8ad-6fe618f80319' and name 'vitis-run_compile_cifrador_basico_unroll_10'
+04/02/26 19:14:05: Dispatch Server: Accepted socket connection from client
+04/02/26 19:14:05: Starting Socket connection
+04/02/26 19:14:39: SESSION_MGR: closing session for UUID '7f56c445-05cf-4b5a-a8ad-6fe618f80319' with name 'vitis-run_compile_cifrador_basico_unroll_10'
+04/02/26 19:14:39: KERNEL_SVC: closing session for UUID '7f56c445-05cf-4b5a-a8ad-6fe618f80319' with name 'vitis-run_compile_cifrador_basico_unroll_10'
+04/02/26 19:14:39: GUIDANCE_SMGR: closing session for UUID '7f56c445-05cf-4b5a-a8ad-6fe618f80319' with name 'vitis-run_compile_cifrador_basico_unroll_10'
+04/02/26 19:14:39: SYSTEM_DIAGRAM: closing session for UUID '7f56c445-05cf-4b5a-a8ad-6fe618f80319' with name 'vitis-run_compile_cifrador_basico_unroll_10'
+04/02/26 19:14:39: STOP_SERVER received, server token: db0d6124-fd11-414d-a236-629d52220ab0, passed token: db0d6124-fd11-414d-a236-629d52220ab0
+04/02/26 19:14:39: Socket received request to stop server.
+04/02/26 19:14:39: Dispatch Server: do_await_stop
+04/02/26 19:14:39: SERVER: destructor for server bound to port 56148
